@@ -1989,6 +1989,21 @@ body.arya .tab[aria-selected="true"]{box-shadow:inset 3px 0 0 #D9A63A}
 .ng-hb small{font-weight:700;color:#5d5575}
 .ng-hbi{font-size:40px}
 @media (max-width:620px){.ng-nav{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px}.ng-nb{flex-direction:column;font-size:11.5px;padding:6px 2px;border-radius:16px;gap:2px;min-height:58px;text-align:center;line-height:1.15}.ng-nb span{font-size:20px}.ng-nb.snd{margin:0}.ng-hero{padding:16px}.ng-starbox{padding:8px 12px}}
+.ng-xs{display:flex;gap:8px}
+.ng-aset{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px 16px;margin:10px 0}
+.ng-aset label{display:flex;flex-direction:column;gap:4px;font-weight:700;font-size:14px}
+.ng-aset label.ng-ck{flex-direction:row;margin:0}
+.ng-aset select,.ng-aset input[type=range]{font:inherit;min-height:40px;border-radius:12px;border:2px solid var(--nw-edge);background:var(--surface,#fff);color:var(--nw-ink);padding:6px}
+.ng-ag{font-family:var(--nw-head);font-size:16px;margin:16px 0 6px;color:var(--nw-grape)}
+.ng-ar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;padding:10px 0;border-bottom:1px solid var(--nw-edge)}
+.ng-at{flex:1 1 320px;min-width:0;display:flex;flex-direction:column;gap:4px}
+.ng-at textarea{font:inherit;font-size:14.5px;border:2px solid var(--nw-edge);border-radius:12px;padding:8px;background:var(--surface,#fff);color:var(--nw-ink);resize:vertical;width:100%;box-sizing:border-box}
+.ng-as{font-size:12.5px;font-weight:800;color:var(--nw-soft)}
+.ng-as.on{color:var(--nw-grass)}
+.ng-up{position:relative;cursor:pointer}
+.ng-mini.rec{background:#E53935;color:#fff;border-color:#E53935;animation:ngPulse 1s infinite}
+@media (max-width:620px){.ng-gh .ng-x{width:46px;height:46px;font-size:19px}.ng-xs{gap:5px}}
+.ng-intro{margin:0;font-size:14.5px;color:var(--nw-ink)}
 </style>
 
 <header class="hero">
@@ -5109,10 +5124,10 @@ async function nwSet(){const el=$("#nwSet");if(!el)return;
     for(const w of NW.items){await nwDelF(w.id+"/file");await nwDelF(w.id+"/thumb");await nwDelF(w.id+"/ans");nwForget(w.id)}const keep={child:NW.child,cls:NW.cls,time:NW.time,pin:NW.pin};NW=Object.assign(nwDefaults(),keep);nwSave();toastMini("Workbook data deleted");nwSet()}}
 function nwB64(b){return new Promise((r,j)=>{const fr=new FileReader();fr.onload=()=>r(String(fr.result));fr.onerror=()=>j(fr.error);fr.readAsDataURL(b)})}
 async function nwBackup(msg){msg.textContent="Preparing…";try{const files={};for(const w of NW.items)for(const k of["file","thumb","ans"]){const b=await nwGet(w.id+"/"+k);if(b)files[w.id+"/"+k]=await nwB64(b)}
-  const data=new TextEncoder().encode(JSON.stringify({kind:"navamika-workbook-backup",v:1,at:new Date().toISOString(),meta:Object.assign({},NW,{pin:null}),files,games:NG}));const d=await getDl();if(!d){msg.textContent="Downloads aren't available in this view.";return}
+  const data=new TextEncoder().encode(JSON.stringify({kind:"navamika-workbook-backup",v:1,at:new Date().toISOString(),meta:Object.assign({},NW,{pin:null}),files,games:NG,voice:ngClipAll()}));const d=await getDl();if(!d){msg.textContent="Downloads aren't available in this view.";return}
   await d.save({filename:`Navamika_Workbook_backup_${nwKw().date}.json`,data:data.buffer});msg.textContent="Backup saved ✓"}catch(e){msg.textContent=e&&e.code==="declined"?"Cancelled.":"Couldn't create the backup."}}
 async function nwRestore(f,msg){if(!f)return;if(!await nwParent("Enter the parent PIN to restore a backup."))return;try{const j=JSON.parse(await f.text());if(j.kind!=="navamika-workbook-backup"||!j.meta||!Array.isArray(j.meta.items))throw 0;
-  for(const [k,u] of Object.entries(j.files||{})){await nwPut(k,u)}const pin=NW.pin;NW=Object.assign(nwDefaults(),j.meta,{pin});if(j.games){NG=Object.assign(ngDefaults(),j.games);ngSave()}nwUrlCache.clear();nwSave();msg.textContent=`Restored ${NW.items.length} worksheets ✓`;nwTick(true)}catch(e){msg.textContent="That file isn't a workbook backup."}}
+  for(const [k,u] of Object.entries(j.files||{})){await nwPut(k,u)}const pin=NW.pin;NW=Object.assign(nwDefaults(),j.meta,{pin});if(j.games){NG=Object.assign(ngDefaults(),j.games);ngSave()}if(j.voice&&typeof j.voice==="object")for(const [k,u] of Object.entries(j.voice))if(typeof u==="string"&&u.startsWith("data:audio"))await ngClipPut(k,u);nwUrlCache.clear();nwSave();msg.textContent=`Restored ${NW.items.length} worksheets ✓`;nwTick(true)}catch(e){msg.textContent="That file isn't a workbook backup."}}
 /* ---- viewer ---- */
 let nwV=null;
 function nwViewList(parent){return nwSorted(NW.items.filter(w=>parent?true:nwVisible(w)&&nwOpenable(w)))}
@@ -6954,7 +6969,61 @@ const ngPick=(arr,n,not,r)=>ngShuf(arr.filter(x=>!(not||[]).includes(x)),r).slic
 let ngVoice=null;
 function ngVoicePick(){try{const v=speechSynthesis.getVoices();ngVoice=v.find(x=>/en[-_]IN/i.test(x.lang))||v.find(x=>/en[-_](GB|US)/i.test(x.lang)&&/female|samantha|karen|moira|google/i.test(x.name))||v.find(x=>/^en/i.test(x.lang))||null}catch(e){}}
 try{ngVoicePick();speechSynthesis.onvoiceschanged=ngVoicePick}catch(e){}
-function ngSay(t,rate){if(!NG.sound||!t)return;try{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);if(ngVoice)u.voice=ngVoice;u.lang=(ngVoice&&ngVoice.lang)||"en-IN";u.rate=rate||.9;u.pitch=1.15;speechSynthesis.speak(u)}catch(e){}}
+/* ---------- Announcement service: one voice for every game ---------- */
+const NGA_DEF={vol:80,ann:true,music:false,speed:"normal",voice:"",readQ:true,txt:{}};
+const ngAud=()=>NG.audio||(NG.audio=Object.assign({},NGA_DEF));
+const NGA_PH=[
+ ["Welcome",[["intro",""],["welcome","Good morning, {name}! Welcome to your learning games! Are you ready to learn, play, and have lots of fun? Today we have some exciting activities for you. Let’s learn our letters, numbers, colors, and shapes. Are you ready? Let’s start the game! Yay!"]]],
+ ["Today’s Challenge",[["daily","Hello, {name}! It’s time for today’s learning challenge! You have three fun activities to complete. Are you ready? Let’s begin!"]]],
+ ["Game start",[["start.alpha","Are you ready to learn your letters? Let’s find the correct letter!"],["start.num","Let’s play with numbers! Can you find the right number?"],["start.count","Let’s count together! How many objects can you see?"],["start.color","Can you find the correct color? Let’s see!"],["start.shape","Look carefully! Can you find the right shape?"],["start.animal","Can you find the correct animal? Let’s find it!"],["start.fruit","Let’s find fruits and vegetables! Look carefully!"],["start.match","Let’s find the things that go together!"],["start.memory","Remember the pictures and find the matching pair!"],["start.puzzle","Let’s solve this puzzle! You can do it!"],["start.rhyme","Let’s listen to sounds and rhyming words!"],["start.trace","Get your finger ready! Let’s trace the letter together!"]]],
+ ["Correct answer",[["ok.0","Wonderful, {name}! You got it right!"],["ok.1","Excellent job!"],["ok.2","Fantastic!"],["ok.3","Well done!"],["ok.4","You are doing great!"],["ok.5","Superstar!"],["ok.6","Keep going!"]]],
+ ["Try again",[["no.0","That’s okay! Let’s try again."],["no.1","Almost! Have another try."],["no.2","Good try, {name}!"],["no.3","Look carefully and try once more."]]],
+ ["Encouragement",[["enc.0","You are doing great! Keep going!"]]],
+ ["Game complete",[["done","Wow, {name}! Amazing job! You completed the game! You earned a star! Keep learning and keep smiling!"]]],
+ ["Badge earned",[["badge","Hooray! You earned a new badge!"]]]];
+const NGA_IDS=NGA_PH.flatMap(g=>g[1].map(x=>x[0])).filter(i=>i!=="intro"),NGA_ALL=NGA_PH.flatMap(g=>g[1].map(x=>x[0])),NGA_TXT=Object.fromEntries(NGA_PH.flatMap(g=>g[1]));
+const ngTxt=id=>(ngAud().txt[id]||NGA_TXT[id]||"").replace(/\{name\}/g,ngKid());
+/* recorded clips: IndexedDB (data-URL strings, iPhone-safe), cached in memory */
+const NGA_CLIP=new Map();let ngVdb=null;
+function ngVdbOpen(){if(ngVdb)return ngVdb;ngVdb=new Promise((res,rej)=>{try{const r=indexedDB.open("navamika-voice",1);r.onupgradeneeded=()=>r.result.createObjectStore("clips");r.onsuccess=()=>res(r.result);r.onerror=()=>rej(r.error)}catch(e){rej(e)}});return ngVdb}
+async function ngClipOp(mode,fn){const db=await ngVdbOpen();return new Promise((res,rej)=>{const t=db.transaction("clips",mode),s=t.objectStore("clips"),r=fn(s);t.oncomplete=()=>res(r&&r.result);t.onerror=()=>rej(t.error)})}
+async function ngClipLoad(){try{const db=await ngVdbOpen();await new Promise(res=>{const t=db.transaction("clips","readonly"),c=t.objectStore("clips").openCursor();c.onsuccess=()=>{const k=c.result;if(k){if(typeof k.value==="string")NGA_CLIP.set(k.key,k.value);k.continue()}else res()};c.onerror=()=>res()})}catch(e){}}
+async function ngClipPut(id,u){NGA_CLIP.set(id,u);try{await ngClipOp("readwrite",s=>s.put(u,id))}catch(e){try{localStorage.setItem(LS+".ngv."+id,u)}catch(x){toastMini("Not enough space on this device to save that recording.")}}}
+async function ngClipDel(id){NGA_CLIP.delete(id);try{await ngClipOp("readwrite",s=>s.delete(id))}catch(e){}try{localStorage.removeItem(LS+".ngv."+id)}catch(e){}}
+function ngClipLs(){try{for(let i=0;i<localStorage.length;i++){const k=localStorage.key(i);if(k&&k.startsWith(LS+".ngv."))NGA_CLIP.set(k.slice((LS+".ngv.").length),localStorage.getItem(k))}}catch(e){}}
+const ngClipAll=()=>Object.fromEntries(NGA_CLIP);
+const ngClipReady=(async()=>{ngClipLs();await ngClipLoad()})();
+/* playback: one thing at a time, newest wins */
+let ngCur=null,ngPaused=false,ngSeq=0;
+function ngStop(){ngSeq++;try{speechSynthesis.cancel()}catch(e){}if(ngCur){try{ngCur.pause()}catch(e){}ngCur=null}}
+function ngSpeakTTS(t,seq){return new Promise(res=>{try{const A=ngAud(),u=new SpeechSynthesisUtterance(t),vs=speechSynthesis.getVoices(),v=(A.voice&&vs.find(x=>x.voiceURI===A.voice))||ngVoice;if(v){u.voice=v;u.lang=v.lang}else u.lang="en-IN";
+  u.rate=A.speed==="slow"?.72:.9;u.pitch=1.12;u.volume=Math.max(0,Math.min(1,A.vol/100));let done=false;const fin=()=>{if(!done){done=true;res()}};u.onend=fin;u.onerror=fin;setTimeout(fin,Math.min(20000,1500+t.length*110));speechSynthesis.speak(u)}catch(e){res()}})}
+function ngPlayClip(u,seq){return new Promise(res=>{try{const A=ngAud(),a=new Audio(u);a.volume=Math.max(0,Math.min(1,A.vol/100));a.playbackRate=A.speed==="slow"?.85:1;try{a.preservesPitch=true}catch(e){}ngCur=a;let done=false;const fin=()=>{if(!done){done=true;if(ngCur===a)ngCur=null;res()}};a.onended=fin;a.onerror=fin;const p=a.play();if(p&&p.catch)p.catch(fin)}catch(e){res()}})}
+/* say(): queue of parts; a part is {id} (announcement) or {t} (instruction text) */
+async function ngSayParts(parts,interrupt){if(!NG.sound||ngPaused)return;if(interrupt!==false)ngStop();const seq=ngSeq,A=ngAud();
+  for(const p of parts){if(seq!==ngSeq||!NG.sound||ngPaused)return;
+    if(p.id){if(!A.ann)continue;const u=NGA_CLIP.get(p.id);if(u)await ngPlayClip(u,seq);else if(ngTxt(p.id))await ngSpeakTTS(ngTxt(p.id),seq)}
+    else if(p.t){if(p.q&&!A.readQ)continue;await ngSpeakTTS(p.t,seq)}}}
+function ngSay(t){return ngSayParts([{t}])}
+const ngPickVar=pre=>{const ids=NGA_IDS.filter(i=>i.startsWith(pre+"."));return ids[Math.floor(Math.random()*ids.length)]};
+const NGA={
+ playWelcome(){return ngSayParts([{id:"intro"},{id:"welcome"}])},
+ playDailyChallenge(then){return ngSayParts([{id:"daily"}].concat(then||[]))},
+ playGameStart(cat,then){const id=NGA_IDS.includes("start."+cat)?"start."+cat:"start.puzzle";return ngSayParts([{id}].concat(then||[]))},
+ playInstruction(t){return ngSayParts([{t,q:true}])},
+ playCorrect(){return ngSayParts([{id:ngPickVar("ok")}])},
+ playIncorrect(){return ngSayParts([{id:ngPickVar("no")}])},
+ playEncouragement(){return ngSayParts([{id:"enc.0"}])},
+ playLevelComplete(then){return ngSayParts([{id:"done"}].concat(then||[]))},
+ playAchievement(){return ngSayParts([{id:"badge"}],false)}};
+/* gentle background music (generated, no downloads) */
+let ngMus=null;
+function ngMusicSync(){const on=NG.sound&&ngAud().music&&!ngPaused&&(()=>{const v=document.getElementById("v-ngame");return v&&!v.hidden&&!document.hidden})();
+  if(on&&!ngMus){try{const C=window.AudioContext||window.webkitAudioContext;if(!C)return;const ctx=new C(),g=ctx.createGain();g.connect(ctx.destination);const notes=[523.25,587.33,659.25,783.99,880,783.99,659.25,587.33];let i=0;
+    const tick=()=>{const t=ctx.currentTime,o=ctx.createOscillator(),e=ctx.createGain();o.type="sine";o.frequency.value=notes[i++%notes.length]/(i%16<8?1:1.5);e.gain.setValueAtTime(0,t);e.gain.linearRampToValueAtTime(0.05*ngAud().vol/100,t+.05);e.gain.exponentialRampToValueAtTime(0.0005,t+.9);o.connect(e);e.connect(g);o.start(t);o.stop(t+1)};
+    ngMus={ctx,iv:setInterval(tick,650)};tick()}catch(e){ngMus=null}}
+  else if(!on&&ngMus){clearInterval(ngMus.iv);try{ngMus.ctx.close()}catch(e){}ngMus=null}}
+setInterval(()=>{try{ngMusicSync()}catch(e){}},1500);document.addEventListener("visibilitychange",()=>{try{ngMusicSync()}catch(e){}});
 const NG_PRAISE=["Great job!","Well done!","Excellent!","You got it!","Super!","Brilliant!"];
 /* ---------- content ---------- */
 const NG_AZ=[["A","🍎","Apple"],["B","⚽","Ball"],["C","🐱","Cat"],["D","🐶","Dog"],["E","🐘","Elephant"],["F","🐟","Fish"],["G","🍇","Grapes"],["H","🎩","Hat"],["I","🍦","Ice cream"],["J","🧃","Juice"],["K","🪁","Kite"],["L","🦁","Lion"],["M","🐒","Monkey"],["N","👃","Nose"],["O","🐙","Octopus"],["P","🦜","Parrot"],["Q","👸","Queen"],["R","🐰","Rabbit"],["S","☀️","Sun"],["T","🐯","Tiger"],["U","☂️","Umbrella"],["V","🎻","Violin"],["W","🍉","Watermelon"],["X","🩻","X-ray"],["Y","🪀","Yo-yo"],["Z","🦓","Zebra"]];
@@ -7057,13 +7126,13 @@ function ngCheckBadges(){const S=NG.sessions,good=(ks,p)=>S.filter(s=>ks.include
    puzzle:S.filter(s=>["puzzle","match","memory"].includes(s.cat)).length>=3,trace:S.filter(s=>s.cat==="trace").reduce((a,s)=>a+(s.cor|0),0)>=10,daily:Object.values(NG.daily).filter(x=>x.done.every(Boolean)).length>=3,streak:ngStreak()>=3,s50:ngStars()>=50,s150:ngStars()>=150,s300:ngStars()>=300};
   for(const [k] of NG_BADGES)if(tests[k]&&!NG.badges[k]){NG.badges[k]=nwKw().date;neu.push(k)}return neu}
 /* ---------- state + render ---------- */
-let NGV={v:"home"},NGG=null;
+let NGV={v:"home"},NGG=null,ngWelcomed=false;
 function ngRender(){const el=$("#ngHost");if(!el)return;if(NGG&&NGG.timer)clearInterval(NGG.timer);
   if(NGV.v==="play"&&NGG)return ngPlayV(el);if(NGV.v==="memory"&&NGG)return ngMemV(el);if(NGV.v==="trace"&&NGG)return ngTraceV(el);if(NGV.v==="done")return ngDoneV(el);
   if(NGV.v==="rewards")return ngRewardsV(el);if(NGV.v==="sheets")return ngSheetsV(el);if(NGV.v==="parent")return ngParentV(el);if(NGV.v==="tracepick")return ngTracePick(el);if(NGV.v==="mempick")return ngMemPick(el);ngHomeV(el)}
 function ngGo(v,extra){NGV=Object.assign({v},extra||{});ngRender();try{window.scrollTo({top:0,behavior:"smooth"})}catch(e){}}
 const ngNav=cur=>`<nav class="ng-nav" aria-label="Games menu">${[["home","🎮","Games"],["rewards","🏆","Rewards"],["sheets","🖨️","Worksheets"],["parent","👪","Parents"]].map(([k,i,l])=>`<button type="button" class="ng-nb ${cur===k?"on":""}" data-ngv="${k}"><span aria-hidden="true">${i}</span>${l}</button>`).join("")}<button type="button" class="ng-nb snd" data-ngsnd aria-pressed="${NG.sound}" title="Sound on or off"><span aria-hidden="true">${NG.sound?"🔊":"🔇"}</span>${NG.sound?"Sound on":"Sound off"}</button></nav>`;
-function ngWireNav(el){el.querySelectorAll("[data-ngv]").forEach(b=>b.onclick=()=>ngGo(b.dataset.ngv));el.querySelectorAll("[data-ngsnd]").forEach(b=>b.onclick=()=>{NG.sound=!NG.sound;ngSave();if(!NG.sound)try{speechSynthesis.cancel()}catch(e){}else ngSay("Sound is on!");ngRender()})}
+function ngWireNav(el){el.querySelectorAll("[data-ngv]").forEach(b=>b.onclick=()=>ngGo(b.dataset.ngv));el.querySelectorAll("[data-ngsnd]").forEach(b=>b.onclick=()=>{NG.sound=!NG.sound;ngSave();if(!NG.sound)try{speechSynthesis.cancel()}catch(e){}else ngSay("Sound is on!");ngMusicSync();ngRender()})}
 function ngHomeV(el){const D=ngDaily(),st=ngDailyState(),dn=st.done.filter(Boolean).length,stars=ngStars(),kid=ngKid();
   el.innerHTML=`<div class="ng">${ngNav("home")}
    <header class="ng-hero"><div><h2>🌈 ${esc(kid)}’s Learning Games</h2><p>Tap a game to play. Every game gives you stars! ⭐</p></div><div class="ng-starbox" aria-label="${stars} stars"><b>⭐ ${stars}</b><small>stars</small></div></header>
@@ -7073,29 +7142,30 @@ function ngHomeV(el){const D=ngDaily(),st=ngDailyState(),dn=st.done.filter(Boole
     <div class="ng-tl">${D.map((x,i)=>`<button type="button" class="ng-ti ${st.done[i]?"ok":""}" data-daily="${i}"><span class="ng-tn">${st.done[i]?"✅":i+1}</span><span><b>${esc(x.t)}</b><small>${esc(x.d)}</small></span><span class="ng-go" aria-hidden="true">${st.done[i]?"↻":"▶"}</span></button>`).join("")}</div></section>
    <div class="ng-grid">${NG_CATS.map(c=>{const L=ngLvl(c.k);return`<button type="button" class="ng-card" data-cat="${c.k}" style="--cc:${c.c}"><span class="ng-ci" aria-hidden="true">${c.i}</span><b>${esc(c.n)}</b><small>${esc(c.d)}</small><span class="ng-lv">${NG_LV[L][0]} ${NG_LV[L][1]}</span></button>`}).join("")}</div>
    <p class="ng-foot">No adverts, no chat, no purchases. Progress stays on this device. ${NG.auto?"Levels go up and down automatically as she plays.":"Levels are set by a parent."}</p></div>`;
-  ngWireNav(el);
+  ngWireNav(el);if(!ngWelcomed){ngWelcomed=true;ngClipReady.then(()=>NGA.playWelcome())}
   el.querySelectorAll("[data-cat]").forEach(b=>b.onclick=()=>ngStart(b.dataset.cat));
-  el.querySelectorAll("[data-daily]").forEach(b=>b.onclick=()=>{const i=+b.dataset.daily,x=D[i];ngStart(x.k,{daily:i,opts:x.o,n:5})})}
+  el.querySelectorAll("[data-daily]").forEach(b=>b.onclick=()=>{const i=+b.dataset.daily,x=D[i],first=!st.done.some(Boolean)&&NG.dailyAnn!==nwKw().date;if(first){NG.dailyAnn=nwKw().date;ngSave()}ngStart(x.k,{daily:i,opts:x.o,n:5,ann:first})})}
 function ngStart(k,o){o=o||{};const L=o.lvl!=null?o.lvl:ngLvl(k);
   if(k==="memory"&&o.pairs==null)return ngGo("mempick");if(k==="trace"&&!o.chars)return ngGo("tracepick");
-  NGG={k,L,daily:o.daily!=null?o.daily:null,opts:o.opts||{},t0:Date.now(),i:0,n:o.n||(k==="trace"?o.chars.length:10),cor:0,att:0,first:true,qs:[],pairs:o.pairs,chars:o.chars,last:null};
+  NGG={ann:!!o.ann,k,L,daily:o.daily!=null?o.daily:null,opts:o.opts||{},t0:Date.now(),i:0,n:o.n||(k==="trace"?o.chars.length:10),cor:0,att:0,first:true,qs:[],pairs:o.pairs,chars:o.chars,last:null};
   if(k==="memory")return ngGo("memory");if(k==="trace")return ngGo("trace");
   const seen=new Set();for(let i=0;i<NGG.n;i++){let q,tries=0;do{q=NG_GEN[k](L,NGG.opts);tries++}while(seen.has(q.text+q.ans)&&tries<12);seen.add(q.text+q.ans);NGG.qs.push(q)}
   ngGo("play")}
-function ngHdr(title){const L=NGG.L;return`<div class="ng-gh"><button type="button" class="ng-x" data-ngquit aria-label="Back to games">✕</button><div class="ng-gt"><b>${title}</b><small>${NG_LV[L][0]} ${NG_LV[L][1]}${NGG.daily!=null?" · 🌟 Today’s Challenge":""}</small></div><button type="button" class="ng-x" data-ngsnd aria-label="Sound">${NG.sound?"🔊":"🔇"}</button></div>`}
-function ngWireHdr(el){el.querySelector("[data-ngquit]").onclick=()=>{try{speechSynthesis.cancel()}catch(e){}NGG=null;ngGo("home")};el.querySelector("[data-ngsnd]").onclick=()=>{NG.sound=!NG.sound;ngSave();ngRender()}}
+function ngHdr(title){const L=NGG.L;return`<div class="ng-gh"><button type="button" class="ng-x" data-ngquit aria-label="Back to games">✕</button><div class="ng-gt"><b>${title}</b><small>${NG_LV[L][0]} ${NG_LV[L][1]}${NGG.daily!=null?" · 🌟 Today’s Challenge":""}</small></div><span class="ng-xs"><button type="button" class="ng-x" data-ngpause aria-label="${ngPaused?"Resume voice":"Pause voice"}">${ngPaused?"▶️":"⏸️"}</button><button type="button" class="ng-x" data-ngsnd aria-label="Sound">${NG.sound?"🔊":"🔇"}</button></span></div>`}
+function ngWireHdr(el){el.querySelector("[data-ngquit]").onclick=()=>{ngStop();NGG=null;ngGo("home")};el.querySelector("[data-ngsnd]").onclick=()=>{NG.sound=!NG.sound;if(!NG.sound)ngStop();ngSave();ngMusicSync();const b=el.querySelector("[data-ngsnd]");b.textContent=NG.sound?"🔊":"🔇"};
+  el.querySelector("[data-ngpause]").onclick=e=>{ngPaused=!ngPaused;if(ngPaused)ngStop();ngMusicSync();e.currentTarget.textContent=ngPaused?"▶️":"⏸️";e.currentTarget.setAttribute("aria-label",ngPaused?"Resume voice":"Pause voice")}}
 function ngPlayV(el){const g=NGG,q=g.qs[g.i],c=NG_CAT[g.k];
   el.innerHTML=`<div class="ng ng-play" style="--cc:${c.c}">${ngHdr(c.i+" "+esc(c.n))}
    <div class="ng-steps" aria-label="Question ${g.i+1} of ${g.n}">${Array.from({length:g.n},(_,i)=>`<i class="${i<g.i?"d":i===g.i?"c":""}"></i>`).join("")}</div>
    <div class="ng-q"><button type="button" class="ng-say" data-ngsay aria-label="Hear the question">🔊</button><p class="ng-qt">${esc(q.text)}</p>${q.big?`<div class="ng-big">${q.big}</div>`:""}</div>
    <div class="ng-opts n${q.opts.length}">${q.opts.map((o,i)=>`<button type="button" class="ng-opt" data-o="${i}">${o.h}</button>`).join("")}</div>
    <div class="ng-fb" id="ngFb" aria-live="polite"></div></div>`;
-  ngWireHdr(el);el.querySelector("[data-ngsay]").onclick=()=>ngSay(q.ask);g.first=true;
-  if(!g.spoke||g.spoke!==g.i){g.spoke=g.i;setTimeout(()=>ngSay(q.ask),250)}
+  ngWireHdr(el);el.querySelector("[data-ngsay]").onclick=()=>{const was=ngPaused;ngPaused=false;ngSayParts([{t:q.ask}]);ngPaused=was};g.first=true;
+  if(g.spoke!==g.i){g.spoke=g.i;const qp=[{t:q.ask,q:true}];setTimeout(()=>{if(NGG!==g)return;if(g.i===0){const st=[];if(g.ann){g.ann=false;NGA.playDailyChallenge([{id:"start."+g.k}].concat(qp))}else NGA.playGameStart(g.k,qp)}else ngSayParts(qp)},250)}
   el.querySelectorAll("[data-o]").forEach(b=>b.onclick=()=>{const o=q.opts[+b.dataset.o];if(b.disabled)return;
-    if(o.v===q.ans){if(g.first)g.cor++;g.att++;b.classList.add("ok");el.querySelectorAll("[data-o]").forEach(x=>x.disabled=true);const p=ngR(NG_PRAISE);$("#ngFb").innerHTML=`<span class="ng-good">✨ ${p}</span>`;ngSay(p+" "+(q.good||""));
-      setTimeout(()=>{if(NGG!==g)return;g.i++;if(g.i>=g.n)ngFinish();else ngRender()},Math.min(2600,1100+(q.good||"").length*45))}
-    else{if(g.first){g.first=false}b.classList.add("bad");b.disabled=true;$("#ngFb").innerHTML=`<span class="ng-try">Try again! 💪</span>`;ngSay("Try again!"+(o.say?" That is "+o.say+".":""));setTimeout(()=>b.classList.remove("bad"),500)}})}
+    if(o.v===q.ans){if(g.first)g.cor++;g.att++;g.miss=0;b.classList.add("ok");el.querySelectorAll("[data-o]").forEach(x=>x.disabled=true);$("#ngFb").innerHTML=`<span class="ng-good">✨ ${esc(q.good||"Well done!")}</span>`;const pl=NGA.playCorrect();
+      const nx=()=>{if(NGG!==g)return;g.i++;if(g.i>=g.n)ngFinish();else ngRender()};Promise.race([pl,new Promise(r=>setTimeout(r,4500))]).then(()=>setTimeout(nx,350));if(!NG.sound||ngPaused)setTimeout(nx,1200)}
+    else{if(g.first){g.first=false}g.miss=(g.miss||0)+1;b.classList.add("bad");b.disabled=true;$("#ngFb").innerHTML=`<span class="ng-try">${g.miss>=2?"You are doing great! Look carefully 👀":"Let’s try again! 💪"}</span>`;g.miss>=2?NGA.playEncouragement():NGA.playIncorrect();setTimeout(()=>b.classList.remove("bad"),500)}})}
 /* ---------- memory ---------- */
 function ngMemPick(el){const L=ngLvl("memory"),sug=[2,3,4,6][Math.min(3,L+ (L>0?1:0))];
   el.innerHTML=`<div class="ng">${ngNav("home")}<section class="ng-box"><h3>🧠 Memory Game</h3><p class="ng-muted">Flip two cards. Find the pairs!</p>
@@ -7107,10 +7177,10 @@ function ngMemV(el){const g=NGG;if(!g.cards){const pics=ngPick(NG_MEM,g.pairs);g
   el.innerHTML=`<div class="ng ng-play" style="--cc:${NG_CAT.memory.c}">${ngHdr("🧠 Memory Game")}
    <p class="ng-qt">Find the pairs! <small class="ng-muted">Moves: <b id="ngMv">${g.moves}</b> · Pairs: <b id="ngPr">${g.cards.filter(c=>c.done).length/2} / ${g.pairs}</b></small></p>
    <div class="ng-mem" style="grid-template-columns:repeat(${cols},minmax(0,1fr))">${g.cards.map((c,i)=>`<button type="button" class="ng-mc ${c.up||c.done?"up":""} ${c.done?"done":""}" data-mc="${i}" aria-label="${c.up||c.done?c.e:"Hidden card"}"><span class="f">❓</span><span class="b">${c.e}</span></button>`).join("")}</div><div class="ng-fb" id="ngFb" aria-live="polite"></div></div>`;
-  ngWireHdr(el);if(!g.spoke){g.spoke=1;ngSay("Flip two cards and find the pairs!")}
+  ngWireHdr(el);if(!g.spoke){g.spoke=1;NGA.playGameStart("memory")}
   el.querySelectorAll("[data-mc]").forEach(b=>b.onclick=()=>{const c=g.cards[+b.dataset.mc];if(c.up||c.done||g.sel.length>=2)return;c.up=true;b.classList.add("up");b.setAttribute("aria-label",c.e);g.sel.push(c);
     if(g.sel.length===2){g.moves++;$("#ngMv").textContent=g.moves;const[a,b2]=g.sel;
-      if(a.e===b2.e){a.done=b2.done=true;g.sel=[];el.querySelectorAll(".ng-mc.up").forEach(x=>{const cc=g.cards[+x.dataset.mc];if(cc.done)x.classList.add("done")});const pr=g.cards.filter(c=>c.done).length/2;$("#ngPr").textContent=`${pr} / ${g.pairs}`;ngSay(ngR(NG_PRAISE));
+      if(a.e===b2.e){a.done=b2.done=true;g.sel=[];el.querySelectorAll(".ng-mc.up").forEach(x=>{const cc=g.cards[+x.dataset.mc];if(cc.done)x.classList.add("done")});const pr=g.cards.filter(c=>c.done).length/2;$("#ngPr").textContent=`${pr} / ${g.pairs}`;if(pr<g.pairs)NGA.playCorrect();
         if(pr===g.pairs){g.att=g.pairs;g.cor=Math.max(1,Math.min(g.pairs,Math.round(g.pairs*Math.min(1,(g.pairs+1)/g.moves))));setTimeout(()=>{if(NGG===g)ngFinish()},900)}}
       else setTimeout(()=>{a.up=b2.up=false;g.sel=[];if(NGG===g)el.querySelectorAll(".ng-mc").forEach(x=>{const cc=g.cards[+x.dataset.mc];if(!cc.up&&!cc.done){x.classList.remove("up");x.setAttribute("aria-label","Hidden card")}})},900)}})}
 /* ---------- tracing ---------- */
@@ -7129,7 +7199,7 @@ function ngTraceV(el){const g=NGG,ch=g.chars[g.i];g.n=g.chars.length;
    <div class="ng-tw"><canvas id="ngTc" class="ng-tc" aria-label="Tracing area for ${esc(ch)}"></canvas></div>
    <div class="ng-tbar"><div class="ng-pbar"><i id="ngTp" style="width:0%"></i></div><span id="ngTpt">0%</span></div>
    <div class="ng-row"><button type="button" class="ng-btn" id="ngTclr">🧽 Clear</button><button type="button" class="ng-btn pri" id="ngTok">✅ Done</button></div><div class="ng-fb" id="ngFb" aria-live="polite"></div></div>`;
-  ngWireHdr(el);const sayIt=()=>ngSay(/\d/.test(ch)?`Trace the number ${ch}`:`Trace the letter ${ch===ch.toLowerCase()?"small "+ch:ch}`);el.querySelector("[data-ngsay]").onclick=sayIt;if(g.spoke!==g.i){g.spoke=g.i;sayIt()}
+  ngWireHdr(el);const it=/\d/.test(ch)?`Trace the number ${ch}`:`Trace the letter ${ch===ch.toLowerCase()?"small "+ch:ch}`,sayIt=()=>ngSayParts([{t:it}]);el.querySelector("[data-ngsay]").onclick=sayIt;if(g.spoke!==g.i){g.spoke=g.i;g.i===0?NGA.playGameStart("trace",[{t:it,q:true}]):ngSayParts([{t:it,q:true}])}
   const cv=$("#ngTc"),W=Math.min(el.clientWidth-8,520),H=Math.round(W*0.9),dpr=Math.min(2,window.devicePixelRatio||1);cv.width=W*dpr;cv.height=H*dpr;cv.style.width=W+"px";cv.style.height=H+"px";
   const ctx=cv.getContext("2d");ctx.scale(dpr,dpr);const fs=Math.round(H*(ch.length>1?0.62:0.8)),font=`800 ${fs}px ${NW_KID}`;
   const mk=document.createElement("canvas");mk.width=W;mk.height=H;const m=mk.getContext("2d");m.font=font;m.textAlign="center";m.textBaseline="middle";m.lineJoin="round";m.lineWidth=fs*0.06;m.fillText(ch,W/2,H*0.53);m.strokeText(ch,W/2,H*0.53);
@@ -7150,8 +7220,8 @@ function ngTraceV(el){const g=NGG,ch=g.chars[g.i];g.n=g.chars.length;
   cv.onpointerup=cv.onpointercancel=()=>{if(!down)return;down=false;upd();if(cover()>=0.85)finishChar()};
   $("#ngTclr").onclick=()=>{ic.clearRect(0,0,W,H);inside=outside=0;draw();upd();$("#ngFb").innerHTML=""};
   let doneC=false;const finishChar=()=>{if(doneC)return;const cv2=cover(),messy=outside>inside*0.9&&outside>25;
-    if(cv2<0.6||messy){$("#ngFb").innerHTML=`<span class="ng-try">${messy?"Stay on the dotted line! ✏️":"Keep going! Trace all of it ✏️"}</span>`;ngSay(messy?"Try to stay on the dotted line.":"Keep going!");return}
-    doneC=true;g.att++;g.cor++;$("#ngFb").innerHTML=`<span class="ng-good">⭐ ${ngR(NG_PRAISE)}</span>`;$("#ngTp").style.width="100%";$("#ngTpt").textContent="⭐";ngSay(ngR(NG_PRAISE));
+    if(cv2<0.6||messy){$("#ngFb").innerHTML=`<span class="ng-try">${messy?"Stay on the dotted line! ✏️":"Keep going! Trace all of it ✏️"}</span>`;messy?ngSayParts([{id:"no.3"}]):NGA.playEncouragement();return}
+    doneC=true;g.att++;g.cor++;$("#ngFb").innerHTML=`<span class="ng-good">⭐ ${ngR(NG_PRAISE)}</span>`;$("#ngTp").style.width="100%";$("#ngTpt").textContent="⭐";NGA.playCorrect();
     setTimeout(()=>{if(NGG!==g)return;g.i++;if(g.i>=g.n)ngFinish();else ngRender()},1300)};
   $("#ngTok").onclick=finishChar}
 /* ---------- finish + record ---------- */
@@ -7172,7 +7242,7 @@ function ngDoneV(el){const {rec,neu,lvMsg}=NGV,kid=ngKid(),st=ngDailyState(),all
    ${lvMsg?`<p class="ng-lvmsg">${esc(lvMsg)}</p>`:""}
    ${neu.length?`<div class="ng-newb"><b>New badge${neu.length>1?"s":""}!</b>${neu.map(k=>{const b=NG_BADGES.find(x=>x[0]===k);return`<span class="ng-bd on"><i>${b[1]}</i>${esc(b[2])}</span>`}).join("")}</div>`:""}
    <div class="ng-row c"><button type="button" class="ng-btn pri" id="ngAgain">🔄 Play Again</button><button type="button" class="ng-btn" id="ngMore">🎮 More Games</button><button type="button" class="ng-btn" id="ngBack">🏠 Back to Learning</button></div></section></div>`;
-  ngSay(`Great job, ${kid}! You got ${rec.score} out of ${rec.max}. ${rec.stars} stars!`+(neu.length?" You earned a new badge!":""));
+  NGA.playLevelComplete(neu.length?[{id:"badge"}]:[]);
   $("#ngAgain").onclick=()=>{const v=NGV;ngStart(v.k,{daily:v.daily,opts:v.opts,n:v.daily!=null?5:undefined,pairs:v.pairs,chars:v.chars,lvl:v.k==="memory"||v.k==="trace"?v.L:undefined})};
   $("#ngMore").onclick=()=>ngGo("home");$("#ngBack").onclick=()=>{NGV={v:"home"};showTab("nhome")}}
 /* ---------- rewards ---------- */
@@ -7191,17 +7261,58 @@ async function ngParentV(el){el.innerHTML=`<div class="ng">${ngNav("parent")}<p 
    <div class="ng-2"><section class="ng-box"><h3>❤️ Favourite games</h3>${fav.length?fav.map(([k,b])=>`<p>${NG_CAT[k].i} <b>${esc(NG_CAT[k].n)}</b> — played ${b.n}×</p>`).join(""):`<p class="ng-muted">No games yet.</p>`}
      <h3>🎯 Needs practice</h3>${weak.length?weak.map(([k,a])=>`<p>${NG_CAT[k].i} <b>${esc(NG_CAT[k].n)}</b> — ${a}% correct <button type="button" class="ng-mini" data-pcat="${k}">Practise</button></p>`).join(""):`<p class="ng-muted">${S.length?"Nothing under 80% so far. 👍":"Shows up after a few games."}</p>`}</section>
     <section class="ng-box"><h3>📅 This week</h3><div class="ng-tw2"><table class="ng-tb"><thead><tr><th>Day</th><th>Games</th><th>Stars</th><th>Accuracy</th><th>Minutes</th><th>Challenge</th></tr></thead><tbody>${days.map(d=>`<tr><td>${dl(d[0])}</td><td>${d[1]}</td><td>${d[2]}</td><td>${d[3]==null?"—":d[3]+"%"}</td><td>${d[4]}</td><td>${d[5]}/3</td></tr>`).join("")}</tbody></table></div></section></div>
+   ${ngAudioHtml()}
    <section class="ng-box"><h3>🎚️ Levels</h3><label class="ng-ck"><input type="checkbox" id="ngAuto" ${NG.auto?"checked":""}> Change levels automatically (up at 90%+, down below 50%)</label>
     <div class="ng-lvls">${NG_CATS.filter(c=>c.k!=="memory").map(c=>`<label><span>${c.i} ${esc(c.n)}</span><select data-plv="${c.k}">${NG_LV.map((l,i)=>`<option value="${i}" ${ngLvl(c.k)===i?"selected":""}>${l[0]} ${l[1]} — ${l[2]}</option>`).join("")}</select></label>`).join("")}</div></section>
    <section class="ng-box"><div class="ng-row sb"><h3>🗂️ Recent games</h3><span class="ng-row"><button type="button" class="ng-mini" id="ngCsv">📥 Download progress (CSV)</button><button type="button" class="ng-mini danger" id="ngReset">Reset game progress</button></span></div>
     <div class="ng-tw2"><table class="ng-tb"><thead><tr><th>Date</th><th>Game</th><th>Level</th><th>Score</th><th>Correct</th><th>Accuracy</th><th>Stars</th><th>Time</th><th>Status</th></tr></thead><tbody>${S.slice(-30).reverse().map(s=>`<tr><td>${dl(s.date)}</td><td>${esc(s.game)}${s.daily?" 🌟":""}</td><td>${esc(s.lvl)}</td><td>${s.score}/${s.max}</td><td>${s.cor}/${s.att}</td><td>${s.acc}%</td><td>${"⭐".repeat(s.stars)}</td><td>${fmt(s.time)}</td><td>✅</td></tr>`).join("")||`<tr><td colspan="9" class="ng-muted">No games played yet.</td></tr>`}</tbody></table></div></section></div>`;
   ngWireNav(el);
+  ngWireAudio(el,()=>{const y=window.scrollY;ngRender();setTimeout(()=>window.scrollTo(0,y),60)});
   $("#ngAuto").onchange=e=>{NG.auto=e.target.checked;ngSave()};el.querySelectorAll("[data-plv]").forEach(s=>s.onchange=()=>{NG.lvl[s.dataset.plv]=+s.value;ngSave();toastMini("Level saved")});
   el.querySelectorAll("[data-pcat]").forEach(b=>b.onclick=()=>ngStart(b.dataset.pcat));
-  $("#ngReset").onclick=()=>{nwModal(`<h3>Reset game progress?</h3><p class="nw-muted">This deletes all game scores, stars, badges and levels on this device. Worksheets are not affected.</p><div class="nw-row"><button class="nw-b" type="button" id="ngRn">Cancel</button><button class="nw-b pri" type="button" id="ngRy">Reset</button></div>`,()=>{$("#ngRn").onclick=nwModalClose;$("#ngRy").onclick=()=>{const s=NG.sound;NG=ngDefaults();NG.sound=s;ngSave();nwModalClose();ngRender()}})};
+  $("#ngReset").onclick=()=>{nwModal(`<h3>Reset game progress?</h3><p class="nw-muted">This deletes all game scores, stars, badges and levels on this device. Worksheets are not affected.</p><div class="nw-row"><button class="nw-b" type="button" id="ngRn">Cancel</button><button class="nw-b pri" type="button" id="ngRy">Reset</button></div>`,()=>{$("#ngRn").onclick=nwModalClose;$("#ngRy").onclick=()=>{const s=NG.sound,au=NG.audio;NG=ngDefaults();NG.sound=s;NG.audio=au;ngSave();nwModalClose();ngRender()}})};
   $("#ngCsv").onclick=async()=>{const H=["Child Name","Game Name","Date","Score","Questions Attempted","Correct Answers","Accuracy %","Stars Earned","Completion Status","Time Spent (s)","Difficulty Level","Daily Challenge"],q=v=>`"${String(v).replace(/"/g,'""')}"`;
     const csv=[H.join(",")].concat(S.map(s=>[s.child,s.game,s.date,`${s.score}/${s.max}`,s.att,s.cor,s.acc,s.stars,s.status,s.time,s.lvl,s.daily?"yes":"no"].map(q).join(","))).join("\n");
     try{const d=await getDl();if(!d)return toastMini("Downloads aren't available here.");const fn=`${ngKid()}-learning-games-${today}.csv`;await d.save({filename:fn,data:new TextEncoder().encode(csv).buffer});toastMini("📥 "+fn)}catch(e){if(!(e&&e.code==="declined"))toastMini("Couldn't download right now.")}}}
+/* ---------- Parent → Game Audio ---------- */
+function ngAudioHtml(){const A=ngAud(),rec=NGA_IDS.filter(i=>NGA_CLIP.has(i)).length,vs=(()=>{try{return speechSynthesis.getVoices().filter(v=>/^en/i.test(v.lang))}catch(e){return[]}})(),canRec=!!(navigator.mediaDevices&&navigator.mediaDevices.getUserMedia&&window.MediaRecorder);
+  return`<section class="ng-box" id="ngAudio"><h3>🔊 Game Audio</h3>
+   <p class="ng-muted">Voice: <b>${rec?`Recorded voice — ${rec} of ${NGA_IDS.length} announcements recorded`:"Device voice (no recordings yet)"}</b>. Every game uses the same announcements. Lines you record or upload play in that voice; lines without a recording, and the questions themselves, use the device voice chosen below.</p>
+   <div class="ng-aset">
+    <label class="ng-ck"><input type="checkbox" id="naSnd" ${NG.sound?"checked":""}> Sound on</label>
+    <label class="ng-ck"><input type="checkbox" id="naAnn" ${A.ann?"checked":""}> Announcements</label>
+    <label class="ng-ck"><input type="checkbox" id="naQ" ${A.readQ?"checked":""}> Read questions aloud</label>
+    <label class="ng-ck"><input type="checkbox" id="naMus" ${A.music?"checked":""}> Background music</label>
+    <label>Volume <b id="naVolV">${A.vol}%</b><input type="range" id="naVol" min="0" max="100" step="5" value="${A.vol}"></label>
+    <label>Voice speed<select id="naSpd"><option value="normal" ${A.speed!=="slow"?"selected":""}>Normal</option><option value="slow" ${A.speed==="slow"?"selected":""}>Slow</option></select></label>
+    <label>Device voice (for questions and unrecorded lines)<select id="naVoice"><option value="">Automatic</option>${vs.map(v=>`<option value="${esc(v.voiceURI)}" ${A.voice===v.voiceURI?"selected":""}>${esc(v.name)} (${esc(v.lang)})</option>`).join("")}</select></label>
+   </div>
+   <p class="ng-note">🎙️ To use a family voice, ${canRec?"tap <b>Record</b> on each line and read it out (or upload an audio file)":"upload an audio file for each line (recording with the microphone works on the public website or the offline copy; in the Claude app use <b>Upload</b>)"}. Only use recordings of people who are happy for them to be used here. Recordings stay on this device and are included in the workbook backup.</p>
+   ${NGA_PH.map(([g,L])=>`<h4 class="ng-ag">${esc(g)}</h4>${L.map(([id])=>`<div class="ng-ar" data-aid="${id}"><div class="ng-at">${id==="intro"?`<p class="ng-intro"><b>Her own hello (optional)</b> — a recording of ${esc(ngKid())} herself (like her “Good morning, everyone, my name is…”). It plays just before the welcome when the games open.</p>`:`<textarea rows="2" data-atxt="${id}" aria-label="Words for this announcement">${esc(ngAud().txt[id]||NGA_TXT[id])}</textarea>`}<span class="ng-as ${NGA_CLIP.has(id)?"on":""}">${NGA_CLIP.has(id)?"🎙️ Recorded voice":id==="intro"?"Not added":"Device voice"}</span></div>
+     <div class="ng-row"><button type="button" class="ng-mini" data-aplay="${id}">▶ Play</button>${canRec?`<button type="button" class="ng-mini" data-arec="${id}">● Record</button>`:""}<label class="ng-mini ng-up">⬆ Upload<input type="file" accept="audio/*" data-aup="${id}" hidden></label>${NGA_CLIP.has(id)?`<button type="button" class="ng-mini danger" data-adel="${id}">🗑 Remove</button>`:""}</div></div>`).join("")}`).join("")}</section>`}
+let ngRecSt=null;
+function ngWireAudio(el,rerender){const A=ngAud(),sv=()=>{ngSave();ngMusicSync()};
+  $("#naSnd").onchange=e=>{NG.sound=e.target.checked;if(!NG.sound)ngStop();sv()};$("#naAnn").onchange=e=>{A.ann=e.target.checked;sv()};$("#naQ").onchange=e=>{A.readQ=e.target.checked;sv()};$("#naMus").onchange=e=>{A.music=e.target.checked;sv()};
+  $("#naVol").oninput=e=>{A.vol=+e.target.value;$("#naVolV").textContent=A.vol+"%"};$("#naVol").onchange=()=>{sv();ngSayParts([{id:"ok.3"}])};
+  $("#naSpd").onchange=e=>{A.speed=e.target.value;sv()};$("#naVoice").onchange=e=>{A.voice=e.target.value;sv();ngSay("Hello "+ngKid()+"! This is my voice.")};
+  el.querySelectorAll("[data-atxt]").forEach(t=>t.onchange=()=>{const id=t.dataset.atxt,v=t.value.trim();if(!v||v===NGA_TXT[id])delete A.txt[id];else A.txt[id]=v;ngSave()});
+  el.querySelectorAll("[data-aplay]").forEach(b=>b.onclick=()=>{const was=ngPaused;ngPaused=false;const s=NG.sound,an=A.ann;NG.sound=true;A.ann=true;ngSayParts([{id:b.dataset.aplay}]);NG.sound=s;A.ann=an;ngPaused=was});
+  el.querySelectorAll("[data-adel]").forEach(b=>b.onclick=async()=>{await ngClipDel(b.dataset.adel);rerender()});
+  el.querySelectorAll("[data-aup]").forEach(inp=>inp.onchange=async()=>{const f=inp.files&&inp.files[0];if(!f)return;if(f.size>3*1024*1024)return toastMini("That file is over 3 MB. Please use a shorter clip.");
+    const u=await new Promise((res,rej)=>{const r=new FileReader();r.onload=()=>res(r.result);r.onerror=rej;r.readAsDataURL(f)});
+    const ok=await new Promise(res=>{const a=new Audio();a.oncanplaythrough=a.onloadedmetadata=()=>res(true);a.onerror=()=>res(false);a.src=u;setTimeout(()=>res(true),2500)});
+    await ngClipPut(inp.dataset.aup,u);toastMini(ok?"🎙️ Saved":"🎙️ Saved — but this browser may not play this file type. iPhone, iPad and Chrome play .m4a and .mp3.");rerender()});
+  el.querySelectorAll("[data-arec]").forEach(b=>b.onclick=async()=>{const id=b.dataset.arec;
+    if(ngRecSt){if(ngRecSt.id===id){ngRecSt.mr.stop()}return}
+    let stream;try{stream=await navigator.mediaDevices.getUserMedia({audio:true})}catch(e){return toastMini("The microphone isn't available here. Use Upload instead.")}
+    const type=["audio/mp4","audio/webm;codecs=opus","audio/webm"].find(t=>window.MediaRecorder.isTypeSupported&&MediaRecorder.isTypeSupported(t))||"";
+    const mr=new MediaRecorder(stream,type?{mimeType:type}:undefined),chunks=[];ngStop();ngRecSt={id,mr};b.textContent="■ Stop";b.classList.add("rec");
+    const auto=setTimeout(()=>{try{mr.stop()}catch(e){}},30000);
+    mr.ondataavailable=e=>{if(e.data&&e.data.size)chunks.push(e.data)};
+    mr.onstop=async()=>{clearTimeout(auto);stream.getTracks().forEach(t=>t.stop());ngRecSt=null;const blob=new Blob(chunks,{type:mr.mimeType||type||"audio/webm"});
+      if(blob.size<800){toastMini("That recording was empty. Try again.");return rerender()}
+      const u=await new Promise(res=>{const r=new FileReader();r.onload=()=>res(r.result);r.readAsDataURL(blob)});await ngClipPut(id,u);toastMini("🎙️ Recorded");rerender();setTimeout(()=>ngSayParts([{id}]),200)};
+    mr.start()})}
 /* ---------- printable worksheets (A4 canvas → print / PDF) ---------- */
 const NG_WS=[["alpha","🔤","Alphabet worksheet","Letters with pictures + trace"],["number","🔢","Number worksheet","Trace and write numbers"],["counting","🧮","Counting worksheet","Count and write how many"],["shapes","🔷","Shapes worksheet","Trace and colour shapes"],["colors","🎨","Colors worksheet","Colour by word"],["matching","🧩","Matching worksheet","Draw a line to match"],["tracing","✏️","Tracing worksheet","Dotted letters to trace"]];
 function ngWsSeed(k){return(NG.ws[k]|0)}
