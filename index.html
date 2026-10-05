@@ -1804,6 +1804,191 @@ body.arya .tab[aria-selected="true"]{box-shadow:inset 3px 0 0 #D9A63A}
 .modesw button{min-width:0;display:flex;flex-direction:column;align-items:center;gap:1px;line-height:1.15;font-size:11.5px;padding:6px 2px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .modesw .mi{font-size:16px}
 @media (min-width:1100px){.modesw{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))}.modesw [data-mode="navw"]{font-size:11px;letter-spacing:0}}
+
+/* ===== Navamika's Learning Games ===== */
+.ng{font-family:var(--nw-body);color:var(--nw-ink);max-width:1100px;margin:0 auto}
+.ng h2,.ng h3,.ng-h2{font-family:var(--nw-head);margin:0}
+.ng-h2{font-size:26px;margin:4px 0 8px}
+.ng-muted{color:var(--nw-soft)}
+.ng-nav{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 14px}
+.ng-nb{font:inherit;font-weight:800;font-size:15px;border:2px solid var(--nw-edge);background:var(--nw-paper);color:var(--nw-ink);border-radius:999px;padding:9px 16px;min-height:46px;display:inline-flex;align-items:center;gap:6px;cursor:pointer}
+.ng-nb.on{background:var(--nw-grape);border-color:var(--nw-grape);color:#fff}
+.ng-nb.snd{margin-left:auto}
+.ng-hero{display:flex;justify-content:space-between;align-items:center;gap:14px;padding:20px 22px;border-radius:26px;background:linear-gradient(120deg,#FFE7F0,#E8F4FF 55%,#E9FBEF);color:#2B2340;margin-bottom:16px;border:2px solid #F3E2EC}
+.ng-hero h2{font-size:clamp(24px,4.6vw,34px);line-height:1.15}
+.ng-hero p{margin:6px 0 0;font-size:17px;color:#4b4363}
+.ng-starbox{background:#fff;border-radius:22px;padding:10px 18px;text-align:center;box-shadow:0 4px 0 #f0d98a;border:2px solid #FFE08A;flex:none}
+.ng-starbox b{display:block;font-size:28px;font-family:var(--nw-head)}
+.ng-starbox small{color:#6E6688;font-weight:700}
+.ng-today{background:var(--nw-paper);border:3px dashed #FFC83D;border-radius:24px;padding:16px 18px;margin-bottom:18px}
+.ng-today.alldone{border-style:solid;border-color:var(--nw-grass)}
+.ng-th{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.ng-th h3{font-size:22px}
+.ng-prog{font-weight:700;color:var(--nw-soft)}
+.ng-prog b{color:var(--nw-ink)}
+.ng-pbar{height:14px;border-radius:99px;background:var(--nw-paper2);overflow:hidden;margin:10px 0;border:1px solid var(--nw-edge);flex:1}
+.ng-pbar i{display:block;height:100%;background:linear-gradient(90deg,#FFC83D,#1FA971);border-radius:99px;transition:width .4s}
+.ng-yay{font-weight:800;font-size:19px;color:var(--nw-grass);margin:6px 0}
+.ng-tl{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+@media (max-width:760px){.ng-tl{grid-template-columns:1fr}}
+.ng-ti{font:inherit;display:flex;align-items:center;gap:12px;text-align:left;border:2px solid var(--nw-edge);background:var(--surface,#fff);color:var(--nw-ink);border-radius:18px;padding:12px 14px;min-height:68px;cursor:pointer;min-width:0}
+.ng-ti b{display:block;font-size:17px}
+.ng-ti small{color:var(--nw-soft);font-weight:600}
+.ng-ti.ok{border-color:var(--nw-grass);background:color-mix(in srgb,var(--nw-grass) 10%,var(--nw-paper))}
+.ng-tn{width:38px;height:38px;border-radius:50%;background:#FFC83D;color:#2B2340;display:grid;place-items:center;font-weight:900;font-size:18px;flex:none}
+.ng-go{margin-left:auto;font-size:20px;color:var(--nw-grape)}
+.ng-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+@media (max-width:1000px){.ng-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:620px){.ng-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}}
+.ng-card{font:inherit;position:relative;display:flex;flex-direction:column;align-items:center;text-align:center;gap:4px;padding:18px 10px 14px;border-radius:24px;border:3px solid color-mix(in srgb,var(--cc) 35%,transparent);background:color-mix(in srgb,var(--cc) 12%,var(--nw-paper));color:var(--nw-ink);cursor:pointer;min-height:170px;min-width:0;box-shadow:0 5px 0 color-mix(in srgb,var(--cc) 30%,transparent);transition:transform .12s}
+.ng-card:active,.ng-opt:active,.ng-btn:active{transform:translateY(3px) scale(.98)}
+.ng-ci{font-size:52px;line-height:1.1}
+.ng-card b{font-family:var(--nw-head);font-size:18px;line-height:1.2}
+.ng-card small{color:var(--nw-soft);font-weight:600;font-size:13.5px}
+.ng-lv{margin-top:auto;font-size:12.5px;font-weight:800;background:var(--surface,#fff);border-radius:99px;padding:3px 10px;border:1px solid var(--nw-edge)}
+.ng-foot{color:var(--nw-soft);font-size:13.5px;text-align:center;margin:16px 0 4px}
+.ng-box{background:var(--nw-paper);border:2px solid var(--nw-edge);border-radius:22px;padding:18px;margin-bottom:14px;min-width:0}
+.ng-box h3{font-size:20px;margin-bottom:8px}
+.ng-box p{margin:6px 0}
+.ng-btn,.ng-mini{font:inherit;font-weight:800;border:2px solid var(--nw-edge);background:var(--surface,#fff);color:var(--nw-ink);border-radius:18px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:6px}
+.ng-btn{font-size:18px;padding:12px 20px;min-height:56px}
+.ng-mini{font-size:14px;padding:7px 12px;min-height:40px;border-radius:14px}
+.ng-btn.pri,.ng-mini.pri{background:var(--nw-grape);border-color:var(--nw-grape);color:#fff}
+.ng-mini.danger{color:#c62828}
+.ng-row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.ng-row.c{justify-content:center}
+.ng-row.sb{justify-content:space-between}
+/* play */
+.ng-play{background:color-mix(in srgb,var(--cc) 8%,var(--nw-paper));border:3px solid color-mix(in srgb,var(--cc) 30%,transparent);border-radius:28px;padding:14px 16px 20px}
+.ng-gh{display:flex;align-items:center;gap:10px}
+.ng-gt{flex:1;text-align:center;min-width:0}
+.ng-gt b{display:block;font-family:var(--nw-head);font-size:20px}
+.ng-gt small{color:var(--nw-soft);font-weight:700}
+.ng-x{font:inherit;width:52px;height:52px;border-radius:50%;border:2px solid var(--nw-edge);background:var(--surface,#fff);color:var(--nw-ink);font-size:22px;cursor:pointer;flex:none}
+.ng-steps{display:flex;gap:6px;justify-content:center;margin:12px 0 6px;flex-wrap:wrap}
+.ng-steps i{width:22px;height:10px;border-radius:99px;background:var(--nw-paper2);border:1px solid var(--nw-edge)}
+.ng-steps i.d{background:var(--nw-grass);border-color:var(--nw-grass)}
+.ng-steps i.c{background:var(--cc);border-color:var(--cc);width:34px}
+.ng-q{text-align:center;position:relative;margin:8px 0 14px}
+.ng-qt{font-family:var(--nw-head);font-size:clamp(22px,4.8vw,32px);font-weight:700;margin:6px 0;text-align:center;line-height:1.2}
+.ng-qt small{display:block;font-family:var(--nw-body);font-size:15px;margin-top:4px}
+.ng-say{font:inherit;font-size:24px;width:54px;height:54px;border-radius:50%;border:2px solid var(--nw-edge);background:#FFF3C4;cursor:pointer}
+.ng-say.sm{width:44px;height:44px;font-size:20px;vertical-align:middle}
+.ng-big{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:6px;margin-top:6px}
+.ng-letter{font-family:var(--nw-head);font-size:110px;font-weight:800;line-height:1;color:var(--cc);display:inline-flex;align-items:baseline;gap:14px}
+.ng-letter small{font-size:80px;opacity:.8}
+.ng-ear{font-size:72px;animation:ngPulse 1.4s ease-in-out infinite;display:inline-block}
+@keyframes ngPulse{50%{transform:scale(1.12)}}
+.ng-seq{font-family:var(--nw-head);font-size:56px;font-weight:800}
+.ng-seq b{color:var(--cc)}
+.ng-cnt{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 10px;max-width:560px;margin:0 auto;padding:12px;background:var(--surface,#fff);border-radius:20px;border:2px solid var(--nw-edge)}
+.ng-cnt span{line-height:1.1}
+.ng-pat{display:flex;gap:8px;align-items:center;justify-content:center;flex-wrap:wrap;font-size:52px;background:var(--surface,#fff);border-radius:20px;padding:10px 14px;border:2px solid var(--nw-edge)}
+.ng-pat b{width:64px;height:64px;border-radius:16px;border:3px dashed var(--cc);display:grid;place-items:center;font-size:40px;color:var(--cc)}
+.ng-opts{display:grid;gap:14px;grid-template-columns:repeat(3,minmax(0,1fr));max-width:760px;margin:0 auto}
+.ng-opts.n4{grid-template-columns:repeat(4,minmax(0,1fr))}
+.ng-opts.n2{grid-template-columns:repeat(2,minmax(0,1fr));max-width:480px}
+.ng-opts.n5{grid-template-columns:repeat(5,minmax(0,1fr))}
+@media (max-width:620px){.ng-opts.n4,.ng-opts.n5{grid-template-columns:repeat(2,minmax(0,1fr))}.ng-opts{gap:10px}}
+.ng-opt{font:inherit;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;min-height:132px;padding:10px 6px;border-radius:24px;border:3px solid var(--nw-edge);background:var(--surface,#fff);color:var(--nw-ink);cursor:pointer;box-shadow:0 5px 0 var(--nw-edge);transition:transform .1s;min-width:0}
+.ng-opt.ok{border-color:var(--nw-grass);background:#E6F8EE;box-shadow:0 5px 0 #9fd9b8;animation:ngBounce .5s}
+.ng-opt.ok *{color:#1b5e20}
+.ng-opt.bad{animation:ngShake .4s;border-color:#ef9a9a}
+.ng-opt:disabled:not(.ok){opacity:.45}
+@keyframes ngBounce{40%{transform:scale(1.08)}}
+@keyframes ngShake{20%,60%{transform:translateX(-7px)}40%,80%{transform:translateX(7px)}}
+.ng-emo{line-height:1.1;font-family:'Apple Color Emoji','Segoe UI Emoji','Noto Color Emoji',sans-serif}
+.ng-word{font-weight:800;font-size:16px;text-transform:capitalize}
+.ng-num{font-family:var(--nw-head);font-size:60px;font-weight:800;line-height:1}
+.ng-l2{font-family:var(--nw-head);font-size:64px;font-weight:800;line-height:1;color:var(--cc)}
+.ng-cw{font-family:var(--nw-head);font-size:24px;font-weight:800;text-transform:capitalize}
+.ng-fb{text-align:center;min-height:44px;margin-top:14px;font-family:var(--nw-head);font-size:26px;font-weight:800}
+.ng-good{color:var(--nw-grass)}
+.ng-try{color:#e65100}
+/* memory */
+.ng-mem{display:grid;gap:12px;max-width:620px;margin:10px auto 0}
+.ng-mc{font:inherit;aspect-ratio:1;border-radius:20px;border:3px solid var(--nw-edge);background:linear-gradient(135deg,#B39DFF,#8B5CF6);cursor:pointer;position:relative;font-size:clamp(34px,9vw,60px);color:#fff;box-shadow:0 5px 0 #6a45c9;min-width:0}
+.ng-mc .b{display:none}
+.ng-mc.up{background:var(--surface,#fff);box-shadow:0 5px 0 var(--nw-edge)}
+.ng-mc.up .f{display:none}
+.ng-mc.up .b{display:inline}
+.ng-mc.done{border-color:var(--nw-grass);background:#E6F8EE;animation:ngBounce .5s}
+.ng-pick{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:12px 0 16px}
+@media (max-width:620px){.ng-pick{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.ng-pk{font:inherit;border:3px solid var(--nw-edge);border-radius:20px;background:var(--surface,#fff);color:var(--nw-ink);padding:16px 8px;cursor:pointer;min-height:90px}
+.ng-pk b{display:block;font-size:22px;font-family:var(--nw-head)}
+.ng-pk.sug{border-color:var(--nw-grape)}
+/* tracing */
+.ng-seg{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}
+.ng-seg button{font:inherit;font-weight:800;border:2px solid var(--nw-edge);background:var(--surface,#fff);color:var(--nw-ink);border-radius:99px;padding:9px 14px;cursor:pointer;min-height:44px}
+.ng-seg button.on{background:var(--nw-grape);color:#fff;border-color:var(--nw-grape)}
+.ng-chars{display:grid;grid-template-columns:repeat(auto-fill,minmax(64px,1fr));gap:8px;margin:10px 0 16px}
+.ng-ch{font:inherit;font-family:var(--nw-head);font-size:30px;font-weight:800;aspect-ratio:1;border-radius:16px;border:2px solid var(--nw-edge);background:var(--surface,#fff);color:var(--nw-ink);cursor:pointer;position:relative}
+.ng-ch.ok::after{content:"✓";position:absolute;top:2px;right:6px;font-size:14px;color:var(--nw-grass)}
+.ng-tw{display:flex;justify-content:center;margin:8px 0}
+.ng-tc{background:#fff;border-radius:24px;border:3px solid var(--nw-edge);touch-action:none;max-width:100%}
+.ng-tbar{display:flex;align-items:center;gap:10px;max-width:520px;margin:0 auto 10px;font-weight:800}
+.ng-tbar span{min-width:46px;text-align:right}
+.ng-play>.ng-row{justify-content:center}
+/* done */
+.ng-done{position:relative;overflow:hidden;text-align:center;background:linear-gradient(160deg,#FFF6D8,#FFE7F0 60%,#E8F4FF);color:#2B2340;border-radius:30px;padding:30px 18px;border:3px solid #FFE08A}
+.ng-done h2{font-size:clamp(28px,6vw,42px)}
+.ng-score{font-size:24px;margin:10px 0}
+.ng-5{font-size:46px;letter-spacing:4px;margin:6px 0 10px}
+.ng-5 .dim{filter:grayscale(1);opacity:.3}
+.ng-done .ng-muted{color:#5d5575}
+.ng-lvmsg{font-weight:800;color:#6a45c9}
+.ng-newb{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;align-items:center;margin:10px 0 16px}
+.ng-done .ng-btn{background:#fff;color:#2B2340}
+.ng-done .ng-btn.pri{background:#8B5CF6;color:#fff}
+.ng-conf{position:absolute;inset:0;pointer-events:none}
+.ng-conf i{position:absolute;top:-40px;font-style:normal;font-size:28px;animation:ngFall 2.4s ease-in forwards}
+@keyframes ngFall{to{transform:translateY(520px) rotate(300deg);opacity:0}}
+@media (prefers-reduced-motion:reduce){.ng-conf,.ng-ear{animation:none}.ng-conf{display:none}}
+/* rewards */
+.ng-badges{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px}
+.ng-bd{display:flex;flex-direction:column;align-items:center;text-align:center;gap:4px;padding:14px 10px;border-radius:20px;border:2px dashed var(--nw-edge);background:var(--nw-paper);opacity:.75}
+.ng-bd i{font-style:normal;font-size:44px;filter:grayscale(1)}
+.ng-bd.on{opacity:1;border-style:solid;border-color:#FFC83D;background:color-mix(in srgb,#FFC83D 14%,var(--nw-paper))}
+.ng-bd.on i{filter:none}
+.ng-bd small{color:var(--nw-soft);font-weight:600}
+.ng-newb .ng-bd{flex-direction:row;padding:6px 12px;opacity:1;background:#fff;color:#2B2340}
+.ng-newb .ng-bd i{font-size:26px}
+/* parent */
+.ng-note{background:#FFF3C4;color:#5b4500;border-radius:14px;padding:10px 14px;font-weight:600}
+.ng-kpis{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px;margin:10px 0 14px}
+@media (max-width:900px){.ng-kpis{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:480px){.ng-kpis{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.ng-kpi{background:var(--nw-paper);border:2px solid var(--nw-edge);border-radius:18px;padding:12px;text-align:center;min-width:0}
+.ng-kpi span{font-size:24px}
+.ng-kpi b{display:block;font-size:22px;font-family:var(--nw-head)}
+.ng-kpi small{color:var(--nw-soft);font-weight:700}
+.ng-2{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.4fr);gap:14px}
+@media (max-width:900px){.ng-2{grid-template-columns:1fr}}
+.ng-tw2{overflow-x:auto}
+.ng-tb{width:100%;border-collapse:collapse;font-size:14.5px}
+.ng-tb th,.ng-tb td{padding:8px 8px;border-bottom:1px solid var(--nw-edge);text-align:left;white-space:nowrap}
+.ng-tb th{font-size:12.5px;text-transform:uppercase;letter-spacing:.04em;color:var(--nw-soft)}
+.ng-ck{display:flex;gap:10px;align-items:center;font-weight:700;margin:6px 0 12px}
+.ng-ck input{width:22px;height:22px}
+.ng-lvls{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:10px}
+.ng-lvls label{display:flex;flex-direction:column;gap:4px;font-weight:700;font-size:14px}
+.ng-lvls select{font:inherit;padding:8px;border-radius:12px;border:2px solid var(--nw-edge);background:var(--surface,#fff);color:var(--nw-ink);min-height:42px}
+/* worksheets */
+.ng-wsg{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px}
+.ng-ws{background:var(--nw-paper);border:2px solid var(--nw-edge);border-radius:20px;padding:12px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.ng-ws b{display:block;font-size:17px}
+.ng-ws small{color:var(--nw-soft);font-weight:600}
+.ng-wsp{background:#fff;border-radius:12px;border:1px solid var(--nw-edge);aspect-ratio:210/297;overflow:hidden;display:grid;place-items:center}
+.ng-wsp img{width:100%;height:100%;object-fit:contain}
+.ng-ws .ng-row{gap:6px}
+.ng-ws .ng-mini.pri{flex:1}
+/* workbook home banner */
+.ng-hb{font:inherit;width:100%;display:flex;align-items:center;gap:14px;text-align:left;border:3px solid #FFC83D;border-radius:22px;padding:14px 18px;margin:0 0 16px;background:linear-gradient(120deg,#FFF6D8,#FFE7F0);color:#2B2340;cursor:pointer}
+.ng-hb b{display:block;font-family:var(--nw-head);font-size:20px}
+.ng-hb small{font-weight:700;color:#5d5575}
+.ng-hbi{font-size:40px}
+@media (max-width:620px){.ng-nav{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px}.ng-nb{flex-direction:column;font-size:11.5px;padding:6px 2px;border-radius:16px;gap:2px;min-height:58px;text-align:center;line-height:1.15}.ng-nb span{font-size:20px}.ng-nb.snd{margin:0}.ng-hero{padding:16px}.ng-starbox{padding:8px 12px}}
 </style>
 
 <header class="hero">
@@ -1835,6 +2020,7 @@ body.arya .tab[aria-selected="true"]{box-shadow:inset 3px 0 0 #D9A63A}
       <button class="tab" role="tab" data-m="personal" data-tab="pacct" aria-selected="false" hidden><svg class="ti" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10l9-6 9 6M5 10v8M9.5 10v8M14.5 10v8M19 10v8M3 20h18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Accounts</button>
       <button class="tab" role="tab" data-m="learn" data-tab="learn" aria-selected="false" hidden><svg class="ti" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5C4 4.7 4.7 4 5.5 4H10a2 2 0 0 1 2 2v14a2 2 0 0 0-2-2H4zM20 5.5c0-.8-.7-1.5-1.5-1.5H14a2 2 0 0 0-2 2v14a2 2 0 0 1 2-2h6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Library</button>
       <button class="tab" role="tab" data-m="navw" data-tab="nhome" aria-selected="false" hidden><span aria-hidden="true" style="font-size:16px;width:20px;flex:none;display:inline-block;text-align:center;margin-right:2px">🏠</span>Workbook Home</button>
+      <button class="tab" role="tab" data-m="navw" data-tab="ngame" aria-selected="false" hidden><span aria-hidden="true" style="font-size:16px;width:20px;flex:none;display:inline-block;text-align:center;margin-right:2px">🎮</span>Learning Games</button>
       <button class="tab" role="tab" data-m="navw" data-tab="ntoday" aria-selected="false" hidden><span aria-hidden="true" style="font-size:16px;width:20px;flex:none;display:inline-block;text-align:center;margin-right:2px">📅</span>Today's Worksheet</button>
       <button class="tab" role="tab" data-m="navw" data-tab="nall" aria-selected="false" hidden><span aria-hidden="true" style="font-size:16px;width:20px;flex:none;display:inline-block;text-align:center;margin-right:2px">📚</span>All Worksheets</button>
       <button class="tab" role="tab" data-m="navw" data-tab="ncal" aria-selected="false" hidden><span aria-hidden="true" style="font-size:16px;width:20px;flex:none;display:inline-block;text-align:center;margin-right:2px">🗓️</span>Calendar</button>
@@ -2062,6 +2248,7 @@ body.arya .tab[aria-selected="true"]{box-shadow:inset 3px 0 0 #D9A63A}
   </section>
 
   <section class="view nwb" id="v-nhome" hidden><div id="nwHome"></div></section>
+  <section class="view nwb" id="v-ngame" hidden><div id="ngHost"></div></section>
   <section class="view nwb" id="v-ntoday" hidden><div id="nwToday"></div></section>
   <section class="view nwb" id="v-nall" hidden><div id="nwAll"></div></section>
   <section class="view nwb" id="v-ncal" hidden><div id="nwCal"></div></section>
@@ -2578,7 +2765,7 @@ function renderReports(){
 }
 
 function renderAll(){try{renderNW()}catch(e){}renderBanner();renderScope();renderDash();renderPerf();renderTrades();renderAccounts();renderReports();renderCalendar();renderJournal();renderPersonal();showTab(ui.tab)}
-const ATABS=["arya"],NTABS=["nhome","ntoday","nall","ncal","nup","nprog","nset"],PTABS=["pover","pexp","pinc","pbill","pbud","pgoal","pacct"],TTABS=["dash","perf","trades","journal","live","signals","fx","accounts"];
+const ATABS=["arya"],NTABS=["nhome","ngame","ntoday","nall","ncal","nup","nprog","nset"],PTABS=["pover","pexp","pinc","pbill","pbud","pgoal","pacct"],TTABS=["dash","perf","trades","journal","live","signals","fx","accounts"];
 let mode="trading";try{const m=localStorage.getItem(LS+".mode");if(m==="personal"||m==="learn"||m==="navw"||m==="arya")mode=m}catch(e){}
 function setMode(m,go){mode=m;try{localStorage.setItem(LS+".mode",m)}catch(e){}
   document.body.classList.toggle("personal",m==="personal");document.body.classList.toggle("learn",m==="learn");document.body.classList.toggle("navw",m==="navw");document.body.classList.toggle("arya",m==="arya");
@@ -2594,9 +2781,9 @@ function showTab(t){
   ui.tab=t;try{localStorage.setItem(LS+".tab",t)}catch(e){}
   $(".mkt").hidden=t!=="dash"||clocksOff();try{homeSync()}catch(e){}
   $$(".tab").forEach(b=>b.setAttribute("aria-selected",b.dataset.tab===t));
-  ["dash","perf","trades","journal","live","signals","fx","accounts","learn","arya","nhome","ntoday","nall","ncal","nup","nprog","nset","nw","settings","pover","pexp","pinc","pbill","pbud","pgoal","pacct","calendar","reports"].forEach(v=>$("#v-"+v).hidden=v!==t);
+  ["dash","perf","trades","journal","live","signals","fx","accounts","learn","arya","nhome","ngame","ntoday","nall","ncal","nup","nprog","nset","nw","settings","pover","pexp","pinc","pbill","pbud","pgoal","pacct","calendar","reports"].forEach(v=>$("#v-"+v).hidden=v!==t);
   const sc=t==="dash"||t==="perf",pm=["pover","pexp","pinc","pbud","pacct"].includes(t);$("#scopeBar").hidden=!sc;$("#pMonthBar").hidden=!pm;$("#toprow").classList.toggle("noscope",!sc&&!pm);
-  $("#pageTitle").textContent="Anoop's Finance Tracker";const PGN={dash:"Dashboard",perf:"Performance",trades:"Trades",journal:"Trading journal",fx:"Forex economic calendar",live:"Live forex charts",signals:"Signal robot",learn:"Learning library",nw:"Full portfolio",settings:"Settings",pover:"Personal overview",pbill:"Bills",pacct:"Personal accounts",pexp:"Expenses",pinc:"Income",pbud:"Budget",pgoal:"Personal goals",accounts:"Accounts",calendar:"Calendar",reports:"Reports",arya:"📝 Aryas Study Window · Kerala PSC LDC",nhome:"📚 Navamika's Workbook",ntoday:"📚 Navamika's Workbook · Today's Worksheet",nall:"📚 Navamika's Workbook · All Worksheets",ncal:"📚 Navamika's Workbook · Calendar",nup:"📚 Navamika's Workbook · Upload",nprog:"📚 Navamika's Workbook · Progress",nset:"📚 Navamika's Workbook · Settings"};
+  $("#pageTitle").textContent="Anoop's Finance Tracker";const PGN={dash:"Dashboard",perf:"Performance",trades:"Trades",journal:"Trading journal",fx:"Forex economic calendar",live:"Live forex charts",signals:"Signal robot",learn:"Learning library",nw:"Full portfolio",settings:"Settings",pover:"Personal overview",pbill:"Bills",pacct:"Personal accounts",pexp:"Expenses",pinc:"Income",pbud:"Budget",pgoal:"Personal goals",accounts:"Accounts",calendar:"Calendar",reports:"Reports",arya:"📝 Aryas Study Window · Kerala PSC LDC",nhome:"📚 Navamika's Workbook",ngame:"🎮 Navamika's Learning Games",ntoday:"📚 Navamika's Workbook · Today's Worksheet",nall:"📚 Navamika's Workbook · All Worksheets",ncal:"📚 Navamika's Workbook · Calendar",nup:"📚 Navamika's Workbook · Upload",nprog:"📚 Navamika's Workbook · Progress",nset:"📚 Navamika's Workbook · Settings"};
   $("#pageSub").innerHTML=`<b class="pgn">${PGN[t]||""}</b> · `+new Date().toLocaleDateString("en-GB",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
   if(t==="dash")renderDash();if(t==="perf")renderPerf();if(t==="journal")renderJournal();if(t==="fx")renderFx();if(t==="signals")renderSignals();if(t==="live")renderLive();if(t==="learn")renderLearn();if(t==="nw")renderNW(true);if(t==="settings")renderSettings();if(PTABS.includes(t))renderPersonal();if(NTABS.includes(t))try{nwRender()}catch(e){console.error(e)}if(t==="arya")try{window.__aswShow&&window.__aswShow()}catch(e){console.error(e)}
 }
@@ -4767,7 +4954,7 @@ function nwStats(){const today=nwKw().date,vis=NW.items.filter(nwVisible),avail=
   const subj=NW_SUBJ.map(s=>{const a=avail.filter(w=>w.subject===s.k),c=a.filter(w=>w.done).length;return{s,a:a.length,c,p:a.length?Math.round(c/a.length*100):0}});
   return{total:vis.length,avail:avail.length,done:done.length,pending:avail.filter(w=>!w.done).length,locked:vis.filter(w=>nwStat(w)==="scheduled").length,streak,week,last7,subj}}
 /* ---- views ---- */
-function nwRender(){const t=ui.tab;if(t==="nhome")nwHome();else if(t==="ntoday")nwTodayV();else if(t==="nall")nwAll();else if(t==="ncal")nwCal();else if(t==="nup")nwUp();else if(t==="nprog")nwProg();else if(t==="nset")nwSet()}
+function nwRender(){const t=ui.tab;if(t==="ngame")return ngRender();if(t==="nhome")nwHome();else if(t==="ntoday")nwTodayV();else if(t==="nall")nwAll();else if(t==="ncal")nwCal();else if(t==="nup")nwUp();else if(t==="nprog")nwProg();else if(t==="nset")nwSet()}
 function nwHead(){return`<div class="nw-hero"><div><div class="nw-eye">📚 ${esc(NW.child)}'s Workbook · ${esc(NW.cls)}</div><h2>${nwGreet()[0]} ${nwGreet()[1]} ${esc(NW.child)}!</h2><p>${nwToday().some(nwOpenable)?(nwToday().filter(nwOpenable).length>1?`${nwToday().filter(nwOpenable).length} ${esc(NW.cls)} worksheets are ready today!`:`Today's ${esc(NW.cls)} worksheet is ready!`):nwToday().length?"Today's worksheet is coming soon.":"Let's learn something new today."}</p></div><div class="nw-art" aria-hidden="true"><span>🖍️</span><span>⭐</span><span>📏</span></div></div>`}
 function nwHome(){const el=$("#nwHome");if(!el)return;nwTick(true);const S=nwStats(),today=nwKw().date;
   const byDay=(L)=>{const m=new Map();L.forEach(w=>{if(!m.has(w.date))m.set(w.date,[]);m.get(w.date).push(w)});return[...m.entries()]};
@@ -4922,10 +5109,10 @@ async function nwSet(){const el=$("#nwSet");if(!el)return;
     for(const w of NW.items){await nwDelF(w.id+"/file");await nwDelF(w.id+"/thumb");await nwDelF(w.id+"/ans");nwForget(w.id)}const keep={child:NW.child,cls:NW.cls,time:NW.time,pin:NW.pin};NW=Object.assign(nwDefaults(),keep);nwSave();toastMini("Workbook data deleted");nwSet()}}
 function nwB64(b){return new Promise((r,j)=>{const fr=new FileReader();fr.onload=()=>r(String(fr.result));fr.onerror=()=>j(fr.error);fr.readAsDataURL(b)})}
 async function nwBackup(msg){msg.textContent="Preparing…";try{const files={};for(const w of NW.items)for(const k of["file","thumb","ans"]){const b=await nwGet(w.id+"/"+k);if(b)files[w.id+"/"+k]=await nwB64(b)}
-  const data=new TextEncoder().encode(JSON.stringify({kind:"navamika-workbook-backup",v:1,at:new Date().toISOString(),meta:Object.assign({},NW,{pin:null}),files}));const d=await getDl();if(!d){msg.textContent="Downloads aren't available in this view.";return}
+  const data=new TextEncoder().encode(JSON.stringify({kind:"navamika-workbook-backup",v:1,at:new Date().toISOString(),meta:Object.assign({},NW,{pin:null}),files,games:NG}));const d=await getDl();if(!d){msg.textContent="Downloads aren't available in this view.";return}
   await d.save({filename:`Navamika_Workbook_backup_${nwKw().date}.json`,data:data.buffer});msg.textContent="Backup saved ✓"}catch(e){msg.textContent=e&&e.code==="declined"?"Cancelled.":"Couldn't create the backup."}}
 async function nwRestore(f,msg){if(!f)return;if(!await nwParent("Enter the parent PIN to restore a backup."))return;try{const j=JSON.parse(await f.text());if(j.kind!=="navamika-workbook-backup"||!j.meta||!Array.isArray(j.meta.items))throw 0;
-  for(const [k,u] of Object.entries(j.files||{})){await nwPut(k,u)}const pin=NW.pin;NW=Object.assign(nwDefaults(),j.meta,{pin});nwUrlCache.clear();nwSave();msg.textContent=`Restored ${NW.items.length} worksheets ✓`;nwTick(true)}catch(e){msg.textContent="That file isn't a workbook backup."}}
+  for(const [k,u] of Object.entries(j.files||{})){await nwPut(k,u)}const pin=NW.pin;NW=Object.assign(nwDefaults(),j.meta,{pin});if(j.games){NG=Object.assign(ngDefaults(),j.games);ngSave()}nwUrlCache.clear();nwSave();msg.textContent=`Restored ${NW.items.length} worksheets ✓`;nwTick(true)}catch(e){msg.textContent="That file isn't a workbook backup."}}
 /* ---- viewer ---- */
 let nwV=null;
 function nwViewList(parent){return nwSorted(NW.items.filter(w=>parent?true:nwVisible(w)&&nwOpenable(w)))}
@@ -6753,6 +6940,327 @@ if(window.Chart){Chart.defaults.font.family="Plus Jakarta Sans, system-ui, sans-
 renderAll();
 connect();
 getDl().then(renderReports);
+/* ===================== Navamika's Learning Games (KG1) ===================== */
+const NG_KEY=LS+".ngames";
+const ngDefaults=()=>({v:1,sound:true,auto:true,lvl:{},sessions:[],badges:{},daily:{},ws:{}});
+let NG=(()=>{try{const o=JSON.parse(localStorage.getItem(NG_KEY)||"null");return o?Object.assign(ngDefaults(),o):ngDefaults()}catch(e){return ngDefaults()}})();
+function ngSave(){try{localStorage.setItem(NG_KEY,JSON.stringify(NG))}catch(e){try{NG.sessions=NG.sessions.slice(-400);localStorage.setItem(NG_KEY,JSON.stringify(NG))}catch(x){}}}
+const ngKid=()=>(NW&&NW.child)||"Navamika";
+const ngR=a=>a[Math.floor(Math.random()*a.length)];
+function ngShuf(a,r){a=a.slice();r=r||Math.random;for(let i=a.length-1;i>0;i--){const j=Math.floor(r()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+function ngSeed(s){let h=2166136261;for(const c of String(s))h=Math.imul(h^c.charCodeAt(0),16777619);return()=>{h+=0x6D2B79F5;let t=h;t=Math.imul(t^t>>>15,t|1);t^=t+Math.imul(t^t>>>7,t|61);return((t^t>>>14)>>>0)/4294967296}}
+const ngPick=(arr,n,not,r)=>ngShuf(arr.filter(x=>!(not||[]).includes(x)),r).slice(0,n);
+/* ---------- speech ---------- */
+let ngVoice=null;
+function ngVoicePick(){try{const v=speechSynthesis.getVoices();ngVoice=v.find(x=>/en[-_]IN/i.test(x.lang))||v.find(x=>/en[-_](GB|US)/i.test(x.lang)&&/female|samantha|karen|moira|google/i.test(x.name))||v.find(x=>/^en/i.test(x.lang))||null}catch(e){}}
+try{ngVoicePick();speechSynthesis.onvoiceschanged=ngVoicePick}catch(e){}
+function ngSay(t,rate){if(!NG.sound||!t)return;try{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);if(ngVoice)u.voice=ngVoice;u.lang=(ngVoice&&ngVoice.lang)||"en-IN";u.rate=rate||.9;u.pitch=1.15;speechSynthesis.speak(u)}catch(e){}}
+const NG_PRAISE=["Great job!","Well done!","Excellent!","You got it!","Super!","Brilliant!"];
+/* ---------- content ---------- */
+const NG_AZ=[["A","🍎","Apple"],["B","⚽","Ball"],["C","🐱","Cat"],["D","🐶","Dog"],["E","🐘","Elephant"],["F","🐟","Fish"],["G","🍇","Grapes"],["H","🎩","Hat"],["I","🍦","Ice cream"],["J","🧃","Juice"],["K","🪁","Kite"],["L","🦁","Lion"],["M","🐒","Monkey"],["N","👃","Nose"],["O","🐙","Octopus"],["P","🦜","Parrot"],["Q","👸","Queen"],["R","🐰","Rabbit"],["S","☀️","Sun"],["T","🐯","Tiger"],["U","☂️","Umbrella"],["V","🎻","Violin"],["W","🍉","Watermelon"],["X","🩻","X-ray"],["Y","🪀","Yo-yo"],["Z","🦓","Zebra"]];
+const NG_COL=[["red","#E53935"],["blue","#1E88E5"],["yellow","#FDD835"],["green","#43A047"],["orange","#FB8C00"],["purple","#8E24AA"],["pink","#EC407A"],["brown","#795548"],["black","#212121"],["white","#FFFFFF"],["grey","#9E9E9E"]];
+const NG_COL_L=[4,7,11];
+const NG_SHP=["circle","square","triangle","rectangle","star","oval","heart","diamond","hexagon"],NG_SHP_L=[4,6,9];
+const NG_ANI=[["🐶","dog","Woof woof!"],["🐱","cat","Meow!"],["🐄","cow","Moo!"],["🐑","sheep","Baa baa!"],["🦆","duck","Quack quack!"],["🐷","pig","Oink oink!"],["🐴","horse","Neigh!"],["🦁","lion","Roar!"],["🐘","elephant","Pawoo!"],["🐸","frog","Ribbit ribbit!"],["🐔","hen","Cluck cluck!"],["🐒","monkey","Ooh ooh aah aah!"],["🐍","snake","Hiss!"],["🐝","bee","Buzz buzz!"],["🐭","mouse","Squeak!"],["🦉","owl","Hoot hoot!"],["🐐","goat","Maa!"],["🐯","tiger","Grrr!"],["🦒","giraffe",""],["🐢","turtle",""],["🐰","rabbit",""],["🐻","bear","Grrr!"]];
+const NG_FRU=[["🍎","apple"],["🍌","banana"],["🍇","grapes"],["🍊","orange"],["🍓","strawberry"],["🍉","watermelon"],["🍍","pineapple"],["🥭","mango"],["🍐","pear"],["🍒","cherries"],["🥝","kiwi"],["🍑","peach"]];
+const NG_VEG=[["🥕","carrot"],["🥦","broccoli"],["🍅","tomato"],["🥔","potato"],["🌽","corn"],["🧅","onion"],["🥒","cucumber"],["🍆","brinjal"],["🌶️","chilli"],["🫑","capsicum"],["🧄","garlic"]];
+const NG_PAIR=[["🐝","🍯","bee","honey"],["🐄","🥛","cow","milk"],["🐔","🥚","hen","egg"],["🐒","🍌","monkey","banana"],["🐰","🥕","rabbit","carrot"],["🐶","🦴","dog","bone"],["🧦","👟","sock","shoe"],["✏️","📒","pencil","book"],["🔑","🔒","key","lock"],["☔","🌧️","umbrella","rain"],["🌙","⭐","moon","star"],["🍽️","🥄","plate","spoon"],["🚗","⛽","car","petrol"],["🍞","🧈","bread","butter"],["🪥","🦷","toothbrush","tooth"]];
+const NG_RHY=[["🐱","cat","🎩","hat"],["🐶","dog","🐸","frog"],["⭐","star","🚗","car"],["🐝","bee","🌳","tree"],["🎂","cake","🐍","snake"],["🌙","moon","🥄","spoon"],["🐟","fish","🍽️","dish"],["🏠","house","🐭","mouse"],["🐐","goat","⛵","boat"],["🐻","bear","🪑","chair"],["💍","ring","🤴","king"],["🕐","clock","🧦","sock"],["🌧️","rain","🚆","train"],["🐔","hen","🖊️","pen"],["🦊","fox","📦","box"]];
+const NG_VEH=[["🚗","car"],["🚌","bus"],["🚲","cycle"],["🚂","train"],["✈️","aeroplane"],["🚀","rocket"],["⛵","boat"],["🚒","fire engine"]];
+const NG_MEM=["🐶","🐱","🐰","🦁","🐸","🐵","🍎","🍌","🍓","⭐","🌈","🚗","🎈","🦋","🐢","🍉"];
+const ngSvg=(type,fill,size)=>{const s=size||84,st=fill==="#FFFFFF"?'stroke="#9a8fb0" stroke-width="3"':'stroke="rgba(0,0,0,.18)" stroke-width="2"';let p="";
+  switch(type){case"circle":p=`<circle cx="50" cy="50" r="40" fill="${fill}" ${st}/>`;break;case"square":p=`<rect x="12" y="12" width="76" height="76" rx="4" fill="${fill}" ${st}/>`;break;
+   case"triangle":p=`<polygon points="50,8 93,88 7,88" fill="${fill}" ${st} stroke-linejoin="round"/>`;break;case"rectangle":p=`<rect x="4" y="26" width="92" height="50" rx="4" fill="${fill}" ${st}/>`;break;
+   case"star":p=`<polygon points="50,5 61,38 96,38 68,58 79,92 50,72 21,92 32,58 4,38 39,38" fill="${fill}" ${st} stroke-linejoin="round"/>`;break;case"oval":p=`<ellipse cx="50" cy="50" rx="45" ry="29" fill="${fill}" ${st}/>`;break;
+   case"heart":p=`<path d="M50 88 C10 60 4 38 18 22 C30 9 46 14 50 28 C54 14 70 9 82 22 C96 38 90 60 50 88Z" fill="${fill}" ${st}/>`;break;case"diamond":p=`<polygon points="50,5 92,50 50,95 8,50" fill="${fill}" ${st} stroke-linejoin="round"/>`;break;
+   case"hexagon":p=`<polygon points="27,10 73,10 96,50 73,90 27,90 4,50" fill="${fill}" ${st} stroke-linejoin="round"/>`;break;
+   case"balloon":p=`<ellipse cx="50" cy="40" rx="30" ry="36" fill="${fill}" ${st}/><path d="M50 76 l-5 8 h10z" fill="${fill}"/><path d="M50 84 q-8 8 0 14" stroke="#8a8a8a" stroke-width="2" fill="none"/>`;break;
+   case"flower":p=[0,72,144,216,288].map(a=>`<circle cx="${50+24*Math.cos(a*Math.PI/180)}" cy="${50+24*Math.sin(a*Math.PI/180)}" r="18" fill="${fill}" ${st}/>`).join("")+`<circle cx="50" cy="50" r="13" fill="#FFD54F" stroke="rgba(0,0,0,.15)"/>`;break;
+   case"fish":p=`<ellipse cx="44" cy="50" rx="34" ry="22" fill="${fill}" ${st}/><polygon points="72,50 96,30 96,70" fill="${fill}" ${st}/><circle cx="28" cy="45" r="4" fill="#222"/>`;break;}
+  return`<svg viewBox="0 0 100 100" width="${s}" height="${s}" aria-hidden="true">${p}</svg>`};
+const NG_OBJ=["balloon","star","heart","circle","flower","fish"];
+/* ---------- categories ---------- */
+const NG_CATS=[
+ {k:"alpha",i:"🔤",n:"Alphabet Games",d:"Match letters to pictures",c:"#FF5C8A"},
+ {k:"num",i:"🔢",n:"Number Games",d:"Find and know numbers",c:"#4FB3FF"},
+ {k:"color",i:"🎨",n:"Colors",d:"Find the right colour",c:"#FB8C00"},
+ {k:"shape",i:"🔷",n:"Shapes",d:"Circle, square, star…",c:"#8B5CF6"},
+ {k:"animal",i:"🐶",n:"Animals",d:"Names and sounds",c:"#1FA971"},
+ {k:"fruit",i:"🍎",n:"Fruits & Vegetables",d:"Know your food",c:"#E53935"},
+ {k:"match",i:"🧩",n:"Matching Games",d:"What goes together?",c:"#00A3A3"},
+ {k:"memory",i:"🧠",n:"Memory Games",d:"Flip and find pairs",c:"#C2185B"},
+ {k:"trace",i:"✏️",n:"Tracing & Writing",d:"Trace A–Z and 1–20",c:"#5C6BC0"},
+ {k:"rhyme",i:"🎵",n:"Rhymes & Sounds",d:"Sounds and rhyming words",c:"#F4A100"},
+ {k:"count",i:"🧮",n:"Counting Games",d:"How many can you see?",c:"#2E7D32"},
+ {k:"puzzle",i:"🧩",n:"Simple Puzzles",d:"Patterns and odd one out",c:"#6D4C41"}];
+const NG_CAT=Object.fromEntries(NG_CATS.map(c=>[c.k,c]));
+const NG_LV=[["🟢","Easy","KG 1 Beginner"],["🟡","Medium","Kindergarten"],["🔴","Challenge","Advanced Kindergarten"]];
+const ngLvl=k=>Math.max(0,Math.min(2,NG.lvl[k]|0));
+/* question: {say, text, big(html), opts:[{h(html), v, say}], ans, ask (speech)} */
+const emo=(e,s)=>`<span class="ng-emo" style="font-size:${s||64}px">${e}</span>`;
+const word=w=>`<span class="ng-word">${esc(w)}</span>`;
+const NG_GEN={
+ alpha(L,o){const pool=o&&o.letters?NG_AZ.filter(x=>o.letters.includes(x[0])):NG_AZ,a=ngR(pool),nO=L?4:3,wr=ngPick(NG_AZ,nO-1,[a]),all=ngShuf([a,...wr]);
+  const t=L===0?0:L===1?ngR([0,0,1]):ngR([0,1,2]);
+  if(t===0)return{text:`Which picture starts with ${a[0]}?`,ask:`${a[0]}. Which picture starts with ${a[0]}?`,big:`<span class="ng-letter">${a[0]}${L?`<small>${a[0].toLowerCase()}</small>`:""}</span>`,opts:all.map(x=>({h:emo(x[1])+(L===0?word(x[2]):""),v:x[0],say:x[2]})),ans:a[0],good:`${a[0]} for ${a[2]}!`};
+  if(t===1)return{text:`Find small ${a[0].toLowerCase()} for big ${a[0]}`,ask:`Find the small letter for big ${a[0]}`,big:`<span class="ng-letter">${a[0]}</span>`,opts:all.map(x=>({h:`<span class="ng-l2">${x[0].toLowerCase()}</span>`,v:x[0],say:x[0]})),ans:a[0],good:`Yes! Big ${a[0]}, small ${a[0].toLowerCase()}.`};
+  return{text:`${a[2]} starts with which letter?`,ask:`${a[2]}. Which letter does ${a[2]} start with?`,big:emo(a[1],96),opts:all.map(x=>({h:`<span class="ng-l2">${x[0]}${x[0].toLowerCase()}</span>`,v:x[0],say:x[0]})),ans:a[0],good:`${a[0]} for ${a[2]}!`}},
+ num(L){const max=[10,20,20][L],n=1+Math.floor(Math.random()*max),nO=L?4:3,t=L===2?ngR([0,1,2]):L===1?ngR([0,0,1]):0;
+  const near=()=>{const s=new Set([n]);while(s.size<nO){const d=n+ngR([-3,-2,-1,1,2,3,5,-5]);if(d>=1&&d<=max+1)s.add(d)}return ngShuf([...s])};
+  if(t===0){const o=near();return{text:`Find the number ${n}`,ask:`Find the number ${n}`,big:`<span class="ng-ear">🔊</span>`,opts:o.map(x=>({h:`<span class="ng-num">${x}</span>`,v:x,say:String(x)})),ans:n,good:`${n}! Well done!`}}
+  if(t===1){const a=Math.max(1,Math.min(max-1,n)),o=(()=>{const s=new Set([a+1]);while(s.size<nO){const d=a+1+ngR([-2,-1,1,2,3]);if(d>=1)s.add(d)}return ngShuf([...s])})();return{text:`What comes after ${a}?`,ask:`What number comes after ${a}?`,big:`<span class="ng-seq">${a-1>0?a-1+" , ":""}${a} , <b>?</b></span>`,opts:o.map(x=>({h:`<span class="ng-num">${x}</span>`,v:x,say:String(x)})),ans:a+1,good:`${a+1} comes after ${a}!`}}
+  let a=1+Math.floor(Math.random()*max),b=a;while(b===a)b=1+Math.floor(Math.random()*max);return{text:"Which number is bigger?",ask:`Which number is bigger, ${a} or ${b}?`,big:"",opts:[a,b].map(x=>({h:`<span class="ng-num">${x}</span>`,v:x,say:String(x)})),ans:Math.max(a,b),good:`${Math.max(a,b)} is bigger!`}},
+ count(L,o){const lo=o&&o.range?o.range[0]:1,hi=o&&o.range?o.range[1]:[5,10,20][L],n=lo+Math.floor(Math.random()*(hi-lo+1)),it=ngR([...NG_FRU.slice(0,8),["⭐","stars"],["🎈","balloons"],["🐤","chicks"],["🚗","cars"],["🐟","fish"]]);
+  const s=new Set([n]),nO=L?4:3;while(s.size<nO){const d=n+ngR([-2,-1,1,2,3]);if(d>=1&&d<=Math.max(hi,5)+2)s.add(d)}
+  const sz=n>12?34:n>6?42:54,name=it[1].endsWith("s")?it[1]:it[1]+(it[1]==="peach"?"es":"s");
+  return{text:`How many ${name}?`,ask:`How many ${name} can you count?`,big:`<div class="ng-cnt">${Array.from({length:n},()=>`<span style="font-size:${sz}px">${it[0]}</span>`).join("")}</div>`,opts:ngShuf([...s]).map(x=>({h:`<span class="ng-num">${x}</span>`,v:x,say:String(x)})),ans:n,good:`${n}! You counted ${n} ${name}!`}},
+ color(L){const C=NG_COL.slice(0,NG_COL_L[L]),a=ngR(C),nO=L?4:3,t=L===2?ngR([0,1]):0;
+  if(t===0){const o=ngShuf([a,...ngPick(C,nO-1,[a])]),obj=L===0?ngR(NG_OBJ):null;return{text:`Find the ${a[0].toUpperCase()} ${obj||"one"}`,ask:`Find the ${a[0]} ${obj||"one"}`,big:"",opts:o.map(x=>({h:ngSvg(obj||ngR(NG_OBJ),x[1],90),v:x[0],say:x[0]})),ans:a[0],good:`Yes! That is ${a[0]}!`}}
+  const o=ngShuf([a,...ngPick(C,3,[a])]),obj=ngR(NG_OBJ);return{text:"What colour is this?",ask:`What colour is this ${obj}?`,big:ngSvg(obj,a[1],120),opts:o.map(x=>({h:`<span class="ng-cw">${x[0]}</span>`,v:x[0],say:x[0]})),ans:a[0],good:`It is ${a[0]}!`}},
+ shape(L){const S=NG_SHP.slice(0,NG_SHP_L[L]),a=ngR(S),nO=L?4:3,o=ngShuf([a,...ngPick(S,nO-1,[a])]),C=NG_COL.slice(0,7);
+  if(L<2||Math.random()<.5)return{text:`Which one is the ${a.toUpperCase()}?`,ask:`Which one is the ${a}?`,big:"",opts:o.map(x=>({h:ngSvg(x,ngR(C)[1],86),v:x,say:x})),ans:a,good:`That's a ${a}!`};
+  return{text:"What shape is this?",ask:"What shape is this?",big:ngSvg(a,ngR(C)[1],120),opts:o.map(x=>({h:`<span class="ng-cw">${x}</span>`,v:x,say:x})),ans:a,good:`It's a ${a}!`}},
+ animal(L){const A=L===0?NG_ANI.slice(0,12):NG_ANI,nO=L?4:3,snd=NG_ANI.filter(x=>x[2]),t=L===2?ngR([0,1]):L===1?ngR([0,0,1]):0;
+  if(t===1){const a=ngR(snd),o=ngShuf([a,...ngPick(snd,nO-1,[a])]);return{text:`Who says “${a[2]}”`,ask:`Who says ${a[2]}`,big:`<span class="ng-ear">🔊</span>`,opts:o.map(x=>({h:emo(x[0]),v:x[1],say:x[1]})),ans:a[1],good:`The ${a[1]} says ${a[2]}`}}
+  const a=ngR(A),o=ngShuf([a,...ngPick(A,nO-1,[a])]);return{text:`Which one is the ${a[1].toUpperCase()}?`,ask:`Which one is the ${a[1]}?`,big:"",opts:o.map(x=>({h:emo(x[0])+(L===0?word(x[1]):""),v:x[1],say:x[1]})),ans:a[1],good:`That's the ${a[1]}! ${a[2]}`}},
+ fruit(L){const ALL=[...NG_FRU,...NG_VEG],nO=L?4:3,t=L===2?ngR([0,1]):L===1?ngR([0,0,1]):0;
+  if(t===1){const veg=Math.random()<.5,G=veg?NG_VEG:NG_FRU,O=veg?NG_FRU:NG_VEG,a=ngR(G),o=ngShuf([a,...ngPick(O,nO-1)]);return{text:`Which one is a ${veg?"VEGETABLE":"FRUIT"}?`,ask:`Which one is a ${veg?"vegetable":"fruit"}?`,big:"",opts:o.map(x=>({h:emo(x[0]),v:x[1],say:x[1]})),ans:a[1],good:`Yes! ${a[1]} is a ${veg?"vegetable":"fruit"}.`}}
+  const P=L===0?NG_FRU.slice(0,8).concat(NG_VEG.slice(0,4)):ALL,a=ngR(P),o=ngShuf([a,...ngPick(P,nO-1,[a])]);return{text:`Which one is the ${a[1].toUpperCase()}?`,ask:`Which one is the ${a[1]}?`,big:"",opts:o.map(x=>({h:emo(x[0])+(L===0?word(x[1]):""),v:x[1],say:x[1]})),ans:a[1],good:`That's the ${a[1]}!`}},
+ match(L){const nO=L?4:3;
+  if(L===0&&Math.random()<.6){const pool=[...NG_MEM],a=ngR(pool),o=ngShuf([a,...ngPick(pool,nO-1,[a])]);return{text:"Find the same picture",ask:"Find the same picture",big:emo(a,96),opts:o.map(x=>({h:emo(x),v:x,say:""})),ans:a,good:"Same! Well done!"}}
+  const P=ngR(NG_PAIR),o=ngShuf([P,...ngPick(NG_PAIR,nO-1,[P])]);return{text:`What goes with the ${P[2]}?`,ask:`What goes with the ${P[2]}?`,big:emo(P[0],96),opts:o.map(x=>({h:emo(x[1]),v:x[3],say:x[3]})),ans:P[3],good:`${P[2]} and ${P[3]} go together!`}},
+ rhyme(L,o){const nO=L?4:3,t=L===0?0:L===1?ngR([0,1]):ngR([1,2]);
+  if(t===0){const a=ngR(NG_AZ),o2=ngShuf([a,...ngPick(NG_AZ,nO-1,[a])]);return{text:`Which one starts with ${a[0]}?`,ask:`Which one starts with the letter ${a[0]}?`,big:`<span class="ng-letter">${a[0]}</span>`,opts:o2.map(x=>({h:emo(x[1])+word(x[2]),v:x[0],say:x[2]})),ans:a[0],good:`${a[2]} starts with ${a[0]}!`}}
+  if(t===1){const R=ngR(NG_RHY),wr=ngPick(NG_RHY,nO-1,[R]).map(x=>Math.random()<.5?[x[0],x[1]]:[x[2],x[3]]),o2=ngShuf([[R[2],R[3]],...wr]);return{text:`What rhymes with ${R[1].toUpperCase()}?`,ask:`What rhymes with ${R[1]}?`,big:emo(R[0],90)+word(R[1]),opts:o2.map(x=>({h:emo(x[0])+word(x[1]),v:x[1],say:x[1]})),ans:R[3],good:`${R[1]}, ${R[3]}! They rhyme!`}}
+  const A=ngR(NG_ANI.filter(x=>x[2])),o2=ngShuf([A,...ngPick(NG_ANI.filter(x=>x[2]),nO-1,[A])]);return{text:"Listen! Who makes this sound?",ask:A[2]+" "+A[2],big:`<span class="ng-ear">🔊</span>`,opts:o2.map(x=>({h:emo(x[0]),v:x[1],say:x[1]})),ans:A[1],good:`The ${A[1]}! ${A[2]}`}},
+ puzzle(L){const sets=[NG_FRU.map(x=>x[0]),NG_ANI.map(x=>x[0]),NG_VEH.map(x=>x[0]),["🔴","🔵","🟡","🟢","🟣","🟠"]],t=L===0?0:ngR([0,1]);
+  if(t===0){const S=ngR(sets),[a,b,c]=ngPick(S,3),pats=L===0?[[a,b]]:L===1?[[a,b],[a,a,b],[a,b,c]]:[[a,b,c],[a,b,b],[a,a,b],[a,b,c,c]],p=ngR(pats),len=L===0?5:6,seq=Array.from({length:len},(_,i)=>p[i%p.length]),nx=p[len%p.length];
+   const o=ngShuf([...new Set([nx,a,b,c].filter(Boolean))]).slice(0,L?4:3);if(!o.includes(nx))o[0]=nx;return{text:"What comes next?",ask:"Look at the pattern. What comes next?",big:`<div class="ng-pat">${seq.map(x=>`<span>${x}</span>`).join("")}<b>?</b></div>`,opts:ngShuf(o).map(x=>({h:emo(x),v:x,say:""})),ans:nx,good:"Yes! You found the pattern!"}}
+  const gi=Math.floor(Math.random()*3),G=sets[gi],O=sets[(gi+1+Math.floor(Math.random()*2))%3],odd=ngR(O),o=ngShuf([...ngPick(G,L===2?4:3),odd]);
+  return{text:"Which one is different?",ask:"Which one is different from the others?",big:"",opts:o.map(x=>({h:emo(x),v:x,say:""})),ans:odd,good:"Yes! That one is different!"}}};
+/* ---------- daily challenge ---------- */
+const NG_ABLK=["ABCDE","FGHIJ","KLMNO","PQRST","UVWXYZ"],NG_NBLK=[[1,5],[6,10],[11,15],[16,20]],NG_THIRD=["color","shape","animal","fruit","rhyme","puzzle","match"];
+function ngDayIdx(d){return Math.round(Date.UTC(+d.slice(0,4),+d.slice(5,7)-1,+d.slice(8,10))/864e5)}
+function ngDaily(d){d=d||nwKw().date;const i=ngDayIdx(d),wk=(i+3)%7,ab=NG_ABLK[i%5],nb=NG_NBLK[i%4],th=NG_THIRD[i%7];
+  return[{k:"alpha",o:{letters:ab},t:`🔤 Alphabet ${ab[0]}–${ab[ab.length-1]}`,d:"5 letter questions"},{k:"count",o:{range:nb},t:`🔢 Count ${nb[0]}–${nb[1]}`,d:"Count 5 groups"},{k:th,o:{},t:`${NG_CAT[th].i} ${NG_CAT[th].n}`,d:"5 questions"}]}
+const ngDailyState=d=>{d=d||nwKw().date;return NG.daily[d]||(NG.daily[d]={done:[false,false,false]})};
+/* ---------- badges ---------- */
+const NG_BADGES=[["first","⭐","First Game Completed","Finish any game"],["five","🌟","5 Games Completed","Finish 5 games"],["twenty","🏅","Super Learner","Finish 20 games"],
+ ["alpha","🏆","Alphabet Master","3 alphabet games at 80%+"],["number","🔢","Number Champion","3 number or counting games at 80%+"],["color","🎨","Color Explorer","2 colour games at 80%+"],
+ ["shape","🔷","Shape Spotter","2 shape games at 80%+"],["animal","🐾","Animal Friend","2 animal games at 80%+"],["puzzle","🧩","Puzzle Star","3 puzzle, matching or memory games"],
+ ["trace","✏️","Tracing Star","Trace 10 letters or numbers"],["daily","📅","Challenge Champ","Complete 3 daily challenges"],["streak","🔥","3-Day Streak","Play on 3 days in a row"],
+ ["s50","🎖️","50 Stars Trophy","Earn 50 stars"],["s150","🎖️","150 Stars Trophy","Earn 150 stars"],["s300","👑","300 Stars Trophy","Earn 300 stars"]];
+function ngStars(){return NG.sessions.reduce((a,s)=>a+(s.stars|0),0)}
+function ngStreak(){const days=new Set(NG.sessions.map(s=>s.date));let n=0,d=nwKw().date;const prev=x=>{const t=new Date(Date.UTC(+x.slice(0,4),+x.slice(5,7)-1,+x.slice(8,10))-864e5);return t.toISOString().slice(0,10)};if(!days.has(d))d=prev(d);while(days.has(d)){n++;d=prev(d)}return n}
+function ngCheckBadges(){const S=NG.sessions,good=(ks,p)=>S.filter(s=>ks.includes(s.cat)&&s.acc>=p).length,neu=[];
+  const tests={first:S.length>=1,five:S.length>=5,twenty:S.length>=20,alpha:good(["alpha"],80)>=3,number:good(["num","count"],80)>=3,color:good(["color"],80)>=2,shape:good(["shape"],80)>=2,animal:good(["animal"],80)>=2,
+   puzzle:S.filter(s=>["puzzle","match","memory"].includes(s.cat)).length>=3,trace:S.filter(s=>s.cat==="trace").reduce((a,s)=>a+(s.cor|0),0)>=10,daily:Object.values(NG.daily).filter(x=>x.done.every(Boolean)).length>=3,streak:ngStreak()>=3,s50:ngStars()>=50,s150:ngStars()>=150,s300:ngStars()>=300};
+  for(const [k] of NG_BADGES)if(tests[k]&&!NG.badges[k]){NG.badges[k]=nwKw().date;neu.push(k)}return neu}
+/* ---------- state + render ---------- */
+let NGV={v:"home"},NGG=null;
+function ngRender(){const el=$("#ngHost");if(!el)return;if(NGG&&NGG.timer)clearInterval(NGG.timer);
+  if(NGV.v==="play"&&NGG)return ngPlayV(el);if(NGV.v==="memory"&&NGG)return ngMemV(el);if(NGV.v==="trace"&&NGG)return ngTraceV(el);if(NGV.v==="done")return ngDoneV(el);
+  if(NGV.v==="rewards")return ngRewardsV(el);if(NGV.v==="sheets")return ngSheetsV(el);if(NGV.v==="parent")return ngParentV(el);if(NGV.v==="tracepick")return ngTracePick(el);if(NGV.v==="mempick")return ngMemPick(el);ngHomeV(el)}
+function ngGo(v,extra){NGV=Object.assign({v},extra||{});ngRender();try{window.scrollTo({top:0,behavior:"smooth"})}catch(e){}}
+const ngNav=cur=>`<nav class="ng-nav" aria-label="Games menu">${[["home","🎮","Games"],["rewards","🏆","Rewards"],["sheets","🖨️","Worksheets"],["parent","👪","Parents"]].map(([k,i,l])=>`<button type="button" class="ng-nb ${cur===k?"on":""}" data-ngv="${k}"><span aria-hidden="true">${i}</span>${l}</button>`).join("")}<button type="button" class="ng-nb snd" data-ngsnd aria-pressed="${NG.sound}" title="Sound on or off"><span aria-hidden="true">${NG.sound?"🔊":"🔇"}</span>${NG.sound?"Sound on":"Sound off"}</button></nav>`;
+function ngWireNav(el){el.querySelectorAll("[data-ngv]").forEach(b=>b.onclick=()=>ngGo(b.dataset.ngv));el.querySelectorAll("[data-ngsnd]").forEach(b=>b.onclick=()=>{NG.sound=!NG.sound;ngSave();if(!NG.sound)try{speechSynthesis.cancel()}catch(e){}else ngSay("Sound is on!");ngRender()})}
+function ngHomeV(el){const D=ngDaily(),st=ngDailyState(),dn=st.done.filter(Boolean).length,stars=ngStars(),kid=ngKid();
+  el.innerHTML=`<div class="ng">${ngNav("home")}
+   <header class="ng-hero"><div><h2>🌈 ${esc(kid)}’s Learning Games</h2><p>Tap a game to play. Every game gives you stars! ⭐</p></div><div class="ng-starbox" aria-label="${stars} stars"><b>⭐ ${stars}</b><small>stars</small></div></header>
+   <section class="ng-today ${dn===3?"alldone":""}"><div class="ng-th"><h3>🌟 Today’s Challenge</h3><span class="ng-prog" aria-label="Today's progress ${dn} of 3">Today’s Progress: <b>${dn} / 3</b> completed</span></div>
+    <div class="ng-pbar"><i style="width:${dn/3*100}%"></i></div>
+    ${dn===3?`<p class="ng-yay">🎉 Amazing! You completed today’s challenge!</p>`:""}
+    <div class="ng-tl">${D.map((x,i)=>`<button type="button" class="ng-ti ${st.done[i]?"ok":""}" data-daily="${i}"><span class="ng-tn">${st.done[i]?"✅":i+1}</span><span><b>${esc(x.t)}</b><small>${esc(x.d)}</small></span><span class="ng-go" aria-hidden="true">${st.done[i]?"↻":"▶"}</span></button>`).join("")}</div></section>
+   <div class="ng-grid">${NG_CATS.map(c=>{const L=ngLvl(c.k);return`<button type="button" class="ng-card" data-cat="${c.k}" style="--cc:${c.c}"><span class="ng-ci" aria-hidden="true">${c.i}</span><b>${esc(c.n)}</b><small>${esc(c.d)}</small><span class="ng-lv">${NG_LV[L][0]} ${NG_LV[L][1]}</span></button>`}).join("")}</div>
+   <p class="ng-foot">No adverts, no chat, no purchases. Progress stays on this device. ${NG.auto?"Levels go up and down automatically as she plays.":"Levels are set by a parent."}</p></div>`;
+  ngWireNav(el);
+  el.querySelectorAll("[data-cat]").forEach(b=>b.onclick=()=>ngStart(b.dataset.cat));
+  el.querySelectorAll("[data-daily]").forEach(b=>b.onclick=()=>{const i=+b.dataset.daily,x=D[i];ngStart(x.k,{daily:i,opts:x.o,n:5})})}
+function ngStart(k,o){o=o||{};const L=o.lvl!=null?o.lvl:ngLvl(k);
+  if(k==="memory"&&o.pairs==null)return ngGo("mempick");if(k==="trace"&&!o.chars)return ngGo("tracepick");
+  NGG={k,L,daily:o.daily!=null?o.daily:null,opts:o.opts||{},t0:Date.now(),i:0,n:o.n||(k==="trace"?o.chars.length:10),cor:0,att:0,first:true,qs:[],pairs:o.pairs,chars:o.chars,last:null};
+  if(k==="memory")return ngGo("memory");if(k==="trace")return ngGo("trace");
+  const seen=new Set();for(let i=0;i<NGG.n;i++){let q,tries=0;do{q=NG_GEN[k](L,NGG.opts);tries++}while(seen.has(q.text+q.ans)&&tries<12);seen.add(q.text+q.ans);NGG.qs.push(q)}
+  ngGo("play")}
+function ngHdr(title){const L=NGG.L;return`<div class="ng-gh"><button type="button" class="ng-x" data-ngquit aria-label="Back to games">✕</button><div class="ng-gt"><b>${title}</b><small>${NG_LV[L][0]} ${NG_LV[L][1]}${NGG.daily!=null?" · 🌟 Today’s Challenge":""}</small></div><button type="button" class="ng-x" data-ngsnd aria-label="Sound">${NG.sound?"🔊":"🔇"}</button></div>`}
+function ngWireHdr(el){el.querySelector("[data-ngquit]").onclick=()=>{try{speechSynthesis.cancel()}catch(e){}NGG=null;ngGo("home")};el.querySelector("[data-ngsnd]").onclick=()=>{NG.sound=!NG.sound;ngSave();ngRender()}}
+function ngPlayV(el){const g=NGG,q=g.qs[g.i],c=NG_CAT[g.k];
+  el.innerHTML=`<div class="ng ng-play" style="--cc:${c.c}">${ngHdr(c.i+" "+esc(c.n))}
+   <div class="ng-steps" aria-label="Question ${g.i+1} of ${g.n}">${Array.from({length:g.n},(_,i)=>`<i class="${i<g.i?"d":i===g.i?"c":""}"></i>`).join("")}</div>
+   <div class="ng-q"><button type="button" class="ng-say" data-ngsay aria-label="Hear the question">🔊</button><p class="ng-qt">${esc(q.text)}</p>${q.big?`<div class="ng-big">${q.big}</div>`:""}</div>
+   <div class="ng-opts n${q.opts.length}">${q.opts.map((o,i)=>`<button type="button" class="ng-opt" data-o="${i}">${o.h}</button>`).join("")}</div>
+   <div class="ng-fb" id="ngFb" aria-live="polite"></div></div>`;
+  ngWireHdr(el);el.querySelector("[data-ngsay]").onclick=()=>ngSay(q.ask);g.first=true;
+  if(!g.spoke||g.spoke!==g.i){g.spoke=g.i;setTimeout(()=>ngSay(q.ask),250)}
+  el.querySelectorAll("[data-o]").forEach(b=>b.onclick=()=>{const o=q.opts[+b.dataset.o];if(b.disabled)return;
+    if(o.v===q.ans){if(g.first)g.cor++;g.att++;b.classList.add("ok");el.querySelectorAll("[data-o]").forEach(x=>x.disabled=true);const p=ngR(NG_PRAISE);$("#ngFb").innerHTML=`<span class="ng-good">✨ ${p}</span>`;ngSay(p+" "+(q.good||""));
+      setTimeout(()=>{if(NGG!==g)return;g.i++;if(g.i>=g.n)ngFinish();else ngRender()},Math.min(2600,1100+(q.good||"").length*45))}
+    else{if(g.first){g.first=false}b.classList.add("bad");b.disabled=true;$("#ngFb").innerHTML=`<span class="ng-try">Try again! 💪</span>`;ngSay("Try again!"+(o.say?" That is "+o.say+".":""));setTimeout(()=>b.classList.remove("bad"),500)}})}
+/* ---------- memory ---------- */
+function ngMemPick(el){const L=ngLvl("memory"),sug=[2,3,4,6][Math.min(3,L+ (L>0?1:0))];
+  el.innerHTML=`<div class="ng">${ngNav("home")}<section class="ng-box"><h3>🧠 Memory Game</h3><p class="ng-muted">Flip two cards. Find the pairs!</p>
+   <div class="ng-pick">${[[2,"4 cards","🟢 Beginner"],[3,"6 cards","🟢 Easy"],[4,"8 cards","🟡 Medium"],[6,"12 cards","🔴 Challenge"]].map(([p,l,s])=>`<button type="button" class="ng-pk ${p===sug?"sug":""}" data-pairs="${p}"><b>${l}</b><small>${s}</small></button>`).join("")}</div>
+   <button type="button" class="ng-btn" data-ngv="home">← Back to games</button></section></div>`;
+  ngWireNav(el);el.querySelectorAll("[data-pairs]").forEach(b=>b.onclick=()=>{const p=+b.dataset.pairs;ngStart("memory",{pairs:p,lvl:p<=3?0:p===4?1:2})})}
+function ngMemV(el){const g=NGG;if(!g.cards){const pics=ngPick(NG_MEM,g.pairs);g.cards=ngShuf([...pics,...pics]).map((e,i)=>({e,id:i,up:false,done:false}));g.moves=0;g.n=g.pairs;g.sel=[]}
+  const cols=g.cards.length<=4?2:g.cards.length<=8?(g.cards.length===6?3:4):4;
+  el.innerHTML=`<div class="ng ng-play" style="--cc:${NG_CAT.memory.c}">${ngHdr("🧠 Memory Game")}
+   <p class="ng-qt">Find the pairs! <small class="ng-muted">Moves: <b id="ngMv">${g.moves}</b> · Pairs: <b id="ngPr">${g.cards.filter(c=>c.done).length/2} / ${g.pairs}</b></small></p>
+   <div class="ng-mem" style="grid-template-columns:repeat(${cols},minmax(0,1fr))">${g.cards.map((c,i)=>`<button type="button" class="ng-mc ${c.up||c.done?"up":""} ${c.done?"done":""}" data-mc="${i}" aria-label="${c.up||c.done?c.e:"Hidden card"}"><span class="f">❓</span><span class="b">${c.e}</span></button>`).join("")}</div><div class="ng-fb" id="ngFb" aria-live="polite"></div></div>`;
+  ngWireHdr(el);if(!g.spoke){g.spoke=1;ngSay("Flip two cards and find the pairs!")}
+  el.querySelectorAll("[data-mc]").forEach(b=>b.onclick=()=>{const c=g.cards[+b.dataset.mc];if(c.up||c.done||g.sel.length>=2)return;c.up=true;b.classList.add("up");b.setAttribute("aria-label",c.e);g.sel.push(c);
+    if(g.sel.length===2){g.moves++;$("#ngMv").textContent=g.moves;const[a,b2]=g.sel;
+      if(a.e===b2.e){a.done=b2.done=true;g.sel=[];el.querySelectorAll(".ng-mc.up").forEach(x=>{const cc=g.cards[+x.dataset.mc];if(cc.done)x.classList.add("done")});const pr=g.cards.filter(c=>c.done).length/2;$("#ngPr").textContent=`${pr} / ${g.pairs}`;ngSay(ngR(NG_PRAISE));
+        if(pr===g.pairs){g.att=g.pairs;g.cor=Math.max(1,Math.min(g.pairs,Math.round(g.pairs*Math.min(1,(g.pairs+1)/g.moves))));setTimeout(()=>{if(NGG===g)ngFinish()},900)}}
+      else setTimeout(()=>{a.up=b2.up=false;g.sel=[];if(NGG===g)el.querySelectorAll(".ng-mc").forEach(x=>{const cc=g.cards[+x.dataset.mc];if(!cc.up&&!cc.done){x.classList.remove("up");x.setAttribute("aria-label","Hidden card")}})},900)}})}
+/* ---------- tracing ---------- */
+const NG_TSETS={up:{n:"Capital letters A–Z",c:[..."ABCDEFGHIJKLMNOPQRSTUVWXYZ"]},low:{n:"Small letters a–z",c:[..."abcdefghijklmnopqrstuvwxyz"]},num:{n:"Numbers 1–20",c:Array.from({length:20},(_,i)=>String(i+1))}};
+function ngTracePick(el){const L=ngLvl("trace"),cnt=[3,5,8][L],tp=NGV.set||"up",S=NG_TSETS[tp],done=new Set(NG.sessions.filter(s=>s.cat==="trace").flatMap(s=>s.chars||[]));
+  el.innerHTML=`<div class="ng">${ngNav("home")}<section class="ng-box"><h3>✏️ Tracing & Writing</h3><p class="ng-muted">Pick where to start. Trace ${cnt} in a row (${NG_LV[L][0]} ${NG_LV[L][1]}). ✓ = already traced.</p>
+   <div class="ng-seg">${Object.entries(NG_TSETS).map(([k,v])=>`<button type="button" class="${k===tp?"on":""}" data-tset="${k}">${v.n}</button>`).join("")}</div>
+   <div class="ng-chars">${S.c.map(ch=>`<button type="button" class="ng-ch ${done.has(ch)?"ok":""}" data-ch="${esc(ch)}">${esc(ch)}</button>`).join("")}</div>
+   <button type="button" class="ng-btn" data-ngv="home">← Back to games</button></section></div>`;
+  ngWireNav(el);el.querySelectorAll("[data-tset]").forEach(b=>b.onclick=()=>{NGV.set=b.dataset.tset;ngRender()});
+  el.querySelectorAll("[data-ch]").forEach(b=>b.onclick=()=>{const i=S.c.indexOf(b.dataset.ch),chars=[];for(let j=0;j<cnt&&i+j<S.c.length;j++)chars.push(S.c[i+j]);ngStart("trace",{chars,n:chars.length})})}
+function ngTraceV(el){const g=NGG,ch=g.chars[g.i];g.n=g.chars.length;
+  el.innerHTML=`<div class="ng ng-play" style="--cc:${NG_CAT.trace.c}">${ngHdr("✏️ Tracing")}
+   <div class="ng-steps" aria-label="${g.i+1} of ${g.n}">${g.chars.map((c,i)=>`<i class="${i<g.i?"d":i===g.i?"c":""}"></i>`).join("")}</div>
+   <p class="ng-qt">Trace <b>${esc(ch)}</b> with your finger <button type="button" class="ng-say sm" data-ngsay aria-label="Hear it">🔊</button></p>
+   <div class="ng-tw"><canvas id="ngTc" class="ng-tc" aria-label="Tracing area for ${esc(ch)}"></canvas></div>
+   <div class="ng-tbar"><div class="ng-pbar"><i id="ngTp" style="width:0%"></i></div><span id="ngTpt">0%</span></div>
+   <div class="ng-row"><button type="button" class="ng-btn" id="ngTclr">🧽 Clear</button><button type="button" class="ng-btn pri" id="ngTok">✅ Done</button></div><div class="ng-fb" id="ngFb" aria-live="polite"></div></div>`;
+  ngWireHdr(el);const sayIt=()=>ngSay(/\d/.test(ch)?`Trace the number ${ch}`:`Trace the letter ${ch===ch.toLowerCase()?"small "+ch:ch}`);el.querySelector("[data-ngsay]").onclick=sayIt;if(g.spoke!==g.i){g.spoke=g.i;sayIt()}
+  const cv=$("#ngTc"),W=Math.min(el.clientWidth-8,520),H=Math.round(W*0.9),dpr=Math.min(2,window.devicePixelRatio||1);cv.width=W*dpr;cv.height=H*dpr;cv.style.width=W+"px";cv.style.height=H+"px";
+  const ctx=cv.getContext("2d");ctx.scale(dpr,dpr);const fs=Math.round(H*(ch.length>1?0.62:0.8)),font=`800 ${fs}px ${NW_KID}`;
+  const mk=document.createElement("canvas");mk.width=W;mk.height=H;const m=mk.getContext("2d");m.font=font;m.textAlign="center";m.textBaseline="middle";m.lineJoin="round";m.lineWidth=fs*0.06;m.fillText(ch,W/2,H*0.53);m.strokeText(ch,W/2,H*0.53);
+  const md=m.getImageData(0,0,W,H).data,pts=[];for(let y=4;y<H;y+=7)for(let x=4;x<W;x+=7)if(md[(y*W+x)*4+3]>120)pts.push([x,y]);
+  const ink=document.createElement("canvas");ink.width=W;ink.height=H;const ic=ink.getContext("2d");ic.lineCap=ic.lineJoin="round";ic.lineWidth=Math.max(18,fs*0.1);ic.strokeStyle="#000";
+  let outside=0,inside=0;const draw=()=>{ctx.clearRect(0,0,W,H);ctx.font=font;ctx.textAlign="center";ctx.textBaseline="middle";ctx.fillStyle="rgba(139,92,246,.10)";ctx.fillText(ch,W/2,H*0.53);
+    ctx.setLineDash([fs*0.035,fs*0.045]);ctx.lineWidth=Math.max(3,fs*0.018);ctx.strokeStyle="rgba(92,107,192,.85)";ctx.strokeText(ch,W/2,H*0.53);ctx.setLineDash([]);
+    ctx.globalAlpha=.85;ctx.drawImage(ink,0,0,W,H);ctx.globalAlpha=1};
+  const tint=()=>{ic.globalCompositeOperation="source-in";ic.fillStyle=NG_CAT.trace.c;ic.fillRect(0,0,W,H);ic.globalCompositeOperation="source-over"};
+  const RR=Math.max(10,fs*0.075),OFF=[[0,0]];for(let a=0;a<8;a++)OFF.push([Math.round(Math.cos(a*Math.PI/4)*RR),Math.round(Math.sin(a*Math.PI/4)*RR)],[Math.round(Math.cos(a*Math.PI/4)*RR/2),Math.round(Math.sin(a*Math.PI/4)*RR/2)]);
+  const cover=()=>{const d=ic.getImageData(0,0,W,H).data;let c=0;for(const[x,y]of pts){if(OFF.some(([dx,dy])=>{const xx=x+dx,yy=y+dy;return xx>=0&&yy>=0&&xx<W&&yy<H&&d[(yy*W+xx)*4+3]>40}))c++}return pts.length?c/pts.length:0};
+  draw();let last=null,down=false;const pos=e=>{const r=cv.getBoundingClientRect();return[(e.clientX-r.left)*W/r.width,(e.clientY-r.top)*H/r.height]};
+  const upd=()=>{const p=Math.min(100,Math.round(cover()*100/0.85));$("#ngTp").style.width=p+"%";$("#ngTpt").textContent=p+"%"};
+  cv.onpointerdown=e=>{e.preventDefault();down=true;try{cv.setPointerCapture(e.pointerId)}catch(x){}last=pos(e);ic.beginPath();ic.arc(last[0],last[1],ic.lineWidth/2,0,7);ic.fill();tint();draw()};
+  cv.onpointermove=e=>{if(!down)return;e.preventDefault();const p=pos(e);ic.beginPath();ic.moveTo(last[0],last[1]);ic.lineTo(p[0],p[1]);ic.stroke();
+    const k=(Math.round(p[1])*W+Math.round(p[0]))*4;if(md[k+3]>40)inside++;else{const near=[[8,0],[-8,0],[0,8],[0,-8]].some(([dx,dy])=>{const xx=Math.round(p[0])+dx,yy=Math.round(p[1])+dy;return xx>=0&&yy>=0&&xx<W&&yy<H&&md[(yy*W+xx)*4+3]>40});near?inside++:outside++}
+    last=p;tint();draw()};
+  cv.onpointerup=cv.onpointercancel=()=>{if(!down)return;down=false;upd();if(cover()>=0.85)finishChar()};
+  $("#ngTclr").onclick=()=>{ic.clearRect(0,0,W,H);inside=outside=0;draw();upd();$("#ngFb").innerHTML=""};
+  let doneC=false;const finishChar=()=>{if(doneC)return;const cv2=cover(),messy=outside>inside*0.9&&outside>25;
+    if(cv2<0.6||messy){$("#ngFb").innerHTML=`<span class="ng-try">${messy?"Stay on the dotted line! ✏️":"Keep going! Trace all of it ✏️"}</span>`;ngSay(messy?"Try to stay on the dotted line.":"Keep going!");return}
+    doneC=true;g.att++;g.cor++;$("#ngFb").innerHTML=`<span class="ng-good">⭐ ${ngR(NG_PRAISE)}</span>`;$("#ngTp").style.width="100%";$("#ngTpt").textContent="⭐";ngSay(ngR(NG_PRAISE));
+    setTimeout(()=>{if(NGG!==g)return;g.i++;if(g.i>=g.n)ngFinish();else ngRender()},1300)};
+  $("#ngTok").onclick=finishChar}
+/* ---------- finish + record ---------- */
+function ngStarsFor(acc){return acc>=90?5:acc>=75?4:acc>=60?3:acc>=40?2:1}
+function ngFinish(){const g=NGG;if(!g)return;const acc=g.n?Math.round(g.cor/g.n*100):0,stars=ngStarsFor(acc),time=Math.round((Date.now()-g.t0)/1000),c=NG_CAT[g.k];
+  const rec={id:"g"+Date.now(),child:ngKid(),game:c.n,cat:g.k,date:nwKw().date,ts:Date.now(),score:g.cor,max:g.n,att:g.n,cor:g.cor,acc,stars,status:"completed",time,lvl:NG_LV[g.L][1],daily:g.daily!=null};
+  if(g.k==="memory")rec.moves=g.moves;if(g.k==="trace")rec.chars=g.chars.slice(0,g.cor);
+  NG.sessions.push(rec);if(NG.sessions.length>600)NG.sessions=NG.sessions.slice(-600);
+  let lvMsg="";if(g.daily!=null){ngDailyState().done[g.daily]=true}
+  else if(NG.auto&&g.k!=="memory"&&g.k!=="trace"){const L=ngLvl(g.k);if(acc>=90&&L<2){NG.lvl[g.k]=L+1;lvMsg=`Level up! Next time: ${NG_LV[L+1][0]} ${NG_LV[L+1][1]}`}else if(acc<50&&L>0){NG.lvl[g.k]=L-1;lvMsg=`Next time we’ll try ${NG_LV[L-1][0]} ${NG_LV[L-1][1]}`}}
+  else if(NG.auto&&g.k==="trace"){const L=ngLvl("trace");if(L<2&&NG.sessions.filter(s=>s.cat==="trace").length%3===0)NG.lvl.trace=L+1}
+  const neu=ngCheckBadges();ngSave();NGV={v:"done",rec,neu,lvMsg,k:g.k,daily:g.daily,opts:g.opts,pairs:g.pairs,chars:g.chars,L:g.L};NGG=null;ngRender()}
+function ngDoneV(el){const {rec,neu,lvMsg}=NGV,kid=ngKid(),st=ngDailyState(),allDaily=NGV.daily!=null&&st.done.every(Boolean);
+  el.innerHTML=`<div class="ng"><section class="ng-done"><div class="ng-conf" aria-hidden="true">${Array.from({length:18},(_,i)=>`<i style="left:${(i*5.7)%100}%;animation-delay:${(i%6)*.12}s">${["🎉","⭐","🎈","✨","🌟","🎊"][i%6]}</i>`).join("")}</div>
+   <h2>🎉 Great Job, ${esc(kid)}!</h2><p class="ng-score">Score: <b>${rec.score} / ${rec.max}</b></p>
+   <div class="ng-5" aria-label="${rec.stars} out of 5 stars">${"⭐".repeat(rec.stars)}<span class="dim">${"⭐".repeat(5-rec.stars)}</span></div>
+   ${allDaily?`<p class="ng-yay">🎉 Amazing! You completed today’s challenge!</p>`:NGV.daily!=null?`<p class="ng-muted">Today’s Challenge: ${st.done.filter(Boolean).length} / 3 done</p>`:""}
+   ${lvMsg?`<p class="ng-lvmsg">${esc(lvMsg)}</p>`:""}
+   ${neu.length?`<div class="ng-newb"><b>New badge${neu.length>1?"s":""}!</b>${neu.map(k=>{const b=NG_BADGES.find(x=>x[0]===k);return`<span class="ng-bd on"><i>${b[1]}</i>${esc(b[2])}</span>`}).join("")}</div>`:""}
+   <div class="ng-row c"><button type="button" class="ng-btn pri" id="ngAgain">🔄 Play Again</button><button type="button" class="ng-btn" id="ngMore">🎮 More Games</button><button type="button" class="ng-btn" id="ngBack">🏠 Back to Learning</button></div></section></div>`;
+  ngSay(`Great job, ${kid}! You got ${rec.score} out of ${rec.max}. ${rec.stars} stars!`+(neu.length?" You earned a new badge!":""));
+  $("#ngAgain").onclick=()=>{const v=NGV;ngStart(v.k,{daily:v.daily,opts:v.opts,n:v.daily!=null?5:undefined,pairs:v.pairs,chars:v.chars,lvl:v.k==="memory"||v.k==="trace"?v.L:undefined})};
+  $("#ngMore").onclick=()=>ngGo("home");$("#ngBack").onclick=()=>{NGV={v:"home"};showTab("nhome")}}
+/* ---------- rewards ---------- */
+function ngRewardsV(el){const stars=ngStars(),earned=NG_BADGES.filter(b=>NG.badges[b[0]]).length;
+  el.innerHTML=`<div class="ng">${ngNav("rewards")}<header class="ng-hero"><div><h2>🏆 ${esc(ngKid())}’s Rewards</h2><p>${earned} of ${NG_BADGES.length} badges · 🔥 ${ngStreak()} day streak</p></div><div class="ng-starbox"><b>⭐ ${stars}</b><small>stars</small></div></header>
+   <div class="ng-badges">${NG_BADGES.map(b=>`<div class="ng-bd ${NG.badges[b[0]]?"on":""}"><i>${NG.badges[b[0]]?b[1]:"🔒"}</i><b>${esc(b[2])}</b><small>${NG.badges[b[0]]?"Earned "+esc(NG.badges[b[0]]):esc(b[3])}</small></div>`).join("")}</div></div>`;ngWireNav(el)}
+/* ---------- parent dashboard ---------- */
+async function ngParentGate(){if(typeof nwParent==="function")return nwParent("Parents only: enter the parent PIN to see progress and settings.");return true}
+async function ngParentV(el){el.innerHTML=`<div class="ng">${ngNav("parent")}<p class="ng-muted">Checking…</p></div>`;ngWireNav(el);if(!(await ngParentGate())){NGV={v:"home"};return ngRender()}
+  const S=NG.sessions,today=nwKw().date,acc=S.length?Math.round(S.reduce((a,s)=>a+s.cor,0)/Math.max(1,S.reduce((a,s)=>a+s.att,0))*100):0,by={};S.forEach(s=>{const b=by[s.cat]||(by[s.cat]={n:0,c:0,a:0,t:0});b.n++;b.c+=s.cor;b.a+=s.att;b.t+=s.time});
+  const fav=Object.entries(by).sort((a,b)=>b[1].n-a[1].n).slice(0,3),weak=Object.entries(by).filter(([k,b])=>b.a>=5).map(([k,b])=>[k,Math.round(b.c/b.a*100)]).sort((a,b)=>a[1]-b[1]).filter(x=>x[1]<80).slice(0,3);
+  const days=[];for(let i=6;i>=0;i--){const d=new Date(Date.UTC(+today.slice(0,4),+today.slice(5,7)-1,+today.slice(8,10))-i*864e5).toISOString().slice(0,10),L=S.filter(s=>s.date===d);days.push([d,L.length,L.reduce((a,s)=>a+s.stars,0),L.length?Math.round(L.reduce((a,s)=>a+s.cor,0)/Math.max(1,L.reduce((a,s)=>a+s.att,0))*100):null,Math.round(L.reduce((a,s)=>a+s.time,0)/60),NG.daily[d]&&NG.daily[d].done.filter(Boolean).length||0])}
+  const fmt=s=>s>=60?Math.floor(s/60)+"m "+(s%60)+"s":s+"s",dl=d=>new Date(d+"T12:00:00Z").toLocaleDateString("en-GB",{weekday:"short",day:"numeric",month:"short"});
+  el.innerHTML=`<div class="ng">${ngNav("parent")}<h2 class="ng-h2">👪 Parent Progress</h2>${NW.pin?"":`<p class="ng-note">Tip: set a parent PIN in ⚙️ Settings so ${esc(ngKid())} can’t open this page or change levels.</p>`}
+   <div class="ng-kpis">${[["🎮","Games completed",S.length],["🔥","Daily streak",ngStreak()+" day"+(ngStreak()===1?"":"s")],["⭐","Stars earned",ngStars()],["🏆","Badges",NG_BADGES.filter(b=>NG.badges[b[0]]).length+" / "+NG_BADGES.length],["🎯","Accuracy",acc+"%"],["⏱️","Time played",Math.round(S.reduce((a,s)=>a+s.time,0)/60)+" min"]].map(k=>`<div class="ng-kpi"><span>${k[0]}</span><b>${k[2]}</b><small>${k[1]}</small></div>`).join("")}</div>
+   <div class="ng-2"><section class="ng-box"><h3>❤️ Favourite games</h3>${fav.length?fav.map(([k,b])=>`<p>${NG_CAT[k].i} <b>${esc(NG_CAT[k].n)}</b> — played ${b.n}×</p>`).join(""):`<p class="ng-muted">No games yet.</p>`}
+     <h3>🎯 Needs practice</h3>${weak.length?weak.map(([k,a])=>`<p>${NG_CAT[k].i} <b>${esc(NG_CAT[k].n)}</b> — ${a}% correct <button type="button" class="ng-mini" data-pcat="${k}">Practise</button></p>`).join(""):`<p class="ng-muted">${S.length?"Nothing under 80% so far. 👍":"Shows up after a few games."}</p>`}</section>
+    <section class="ng-box"><h3>📅 This week</h3><div class="ng-tw2"><table class="ng-tb"><thead><tr><th>Day</th><th>Games</th><th>Stars</th><th>Accuracy</th><th>Minutes</th><th>Challenge</th></tr></thead><tbody>${days.map(d=>`<tr><td>${dl(d[0])}</td><td>${d[1]}</td><td>${d[2]}</td><td>${d[3]==null?"—":d[3]+"%"}</td><td>${d[4]}</td><td>${d[5]}/3</td></tr>`).join("")}</tbody></table></div></section></div>
+   <section class="ng-box"><h3>🎚️ Levels</h3><label class="ng-ck"><input type="checkbox" id="ngAuto" ${NG.auto?"checked":""}> Change levels automatically (up at 90%+, down below 50%)</label>
+    <div class="ng-lvls">${NG_CATS.filter(c=>c.k!=="memory").map(c=>`<label><span>${c.i} ${esc(c.n)}</span><select data-plv="${c.k}">${NG_LV.map((l,i)=>`<option value="${i}" ${ngLvl(c.k)===i?"selected":""}>${l[0]} ${l[1]} — ${l[2]}</option>`).join("")}</select></label>`).join("")}</div></section>
+   <section class="ng-box"><div class="ng-row sb"><h3>🗂️ Recent games</h3><span class="ng-row"><button type="button" class="ng-mini" id="ngCsv">📥 Download progress (CSV)</button><button type="button" class="ng-mini danger" id="ngReset">Reset game progress</button></span></div>
+    <div class="ng-tw2"><table class="ng-tb"><thead><tr><th>Date</th><th>Game</th><th>Level</th><th>Score</th><th>Correct</th><th>Accuracy</th><th>Stars</th><th>Time</th><th>Status</th></tr></thead><tbody>${S.slice(-30).reverse().map(s=>`<tr><td>${dl(s.date)}</td><td>${esc(s.game)}${s.daily?" 🌟":""}</td><td>${esc(s.lvl)}</td><td>${s.score}/${s.max}</td><td>${s.cor}/${s.att}</td><td>${s.acc}%</td><td>${"⭐".repeat(s.stars)}</td><td>${fmt(s.time)}</td><td>✅</td></tr>`).join("")||`<tr><td colspan="9" class="ng-muted">No games played yet.</td></tr>`}</tbody></table></div></section></div>`;
+  ngWireNav(el);
+  $("#ngAuto").onchange=e=>{NG.auto=e.target.checked;ngSave()};el.querySelectorAll("[data-plv]").forEach(s=>s.onchange=()=>{NG.lvl[s.dataset.plv]=+s.value;ngSave();toastMini("Level saved")});
+  el.querySelectorAll("[data-pcat]").forEach(b=>b.onclick=()=>ngStart(b.dataset.pcat));
+  $("#ngReset").onclick=()=>{nwModal(`<h3>Reset game progress?</h3><p class="nw-muted">This deletes all game scores, stars, badges and levels on this device. Worksheets are not affected.</p><div class="nw-row"><button class="nw-b" type="button" id="ngRn">Cancel</button><button class="nw-b pri" type="button" id="ngRy">Reset</button></div>`,()=>{$("#ngRn").onclick=nwModalClose;$("#ngRy").onclick=()=>{const s=NG.sound;NG=ngDefaults();NG.sound=s;ngSave();nwModalClose();ngRender()}})};
+  $("#ngCsv").onclick=async()=>{const H=["Child Name","Game Name","Date","Score","Questions Attempted","Correct Answers","Accuracy %","Stars Earned","Completion Status","Time Spent (s)","Difficulty Level","Daily Challenge"],q=v=>`"${String(v).replace(/"/g,'""')}"`;
+    const csv=[H.join(",")].concat(S.map(s=>[s.child,s.game,s.date,`${s.score}/${s.max}`,s.att,s.cor,s.acc,s.stars,s.status,s.time,s.lvl,s.daily?"yes":"no"].map(q).join(","))).join("\n");
+    try{const d=await getDl();if(!d)return toastMini("Downloads aren't available here.");const fn=`${ngKid()}-learning-games-${today}.csv`;await d.save({filename:fn,data:new TextEncoder().encode(csv).buffer});toastMini("📥 "+fn)}catch(e){if(!(e&&e.code==="declined"))toastMini("Couldn't download right now.")}}}
+/* ---------- printable worksheets (A4 canvas → print / PDF) ---------- */
+const NG_WS=[["alpha","🔤","Alphabet worksheet","Letters with pictures + trace"],["number","🔢","Number worksheet","Trace and write numbers"],["counting","🧮","Counting worksheet","Count and write how many"],["shapes","🔷","Shapes worksheet","Trace and colour shapes"],["colors","🎨","Colors worksheet","Colour by word"],["matching","🧩","Matching worksheet","Draw a line to match"],["tracing","✏️","Tracing worksheet","Dotted letters to trace"]];
+function ngWsSeed(k){return(NG.ws[k]|0)}
+function ngA4(){const c=document.createElement("canvas");c.width=1240;c.height=1754;const x=c.getContext("2d");x.fillStyle="#fff";x.fillRect(0,0,1240,1754);return[c,x]}
+function ngWsHead(x,title,sub){x.fillStyle="#2B2340";x.font=`700 30px ${NW_KID}`;x.textAlign="left";x.textBaseline="alphabetic";x.fillText("Name: ______________________",70,95);x.textAlign="right";x.fillText("Date: _____________",1170,95);
+  x.textAlign="center";x.font=`800 58px ${NW_KID}`;x.fillText(title,620,190);let fs=30;x.font=`600 ${fs}px ${NW_KID}`;while(x.measureText(sub).width>1090&&fs>18){fs--;x.font=`600 ${fs}px ${NW_KID}`}x.fillStyle="#555";x.fillText(sub,620,240);x.strokeStyle="#ddd";x.lineWidth=3;x.beginPath();x.moveTo(70,270);x.lineTo(1170,270);x.stroke()}
+function ngWsFoot(x){x.fillStyle="#999";x.font=`500 22px ${NW_KID}`;x.textAlign="center";x.fillText(`${ngKid()}’s Learning Games · KG1`,620,1715)}
+function ngDot(x,t,cx,cy,size,col){x.save();x.font=`800 ${size}px ${NW_KID}`;x.textAlign="center";x.textBaseline="middle";x.setLineDash([size*.05,size*.06]);x.lineWidth=Math.max(2.5,size*.022);x.strokeStyle=col||"#8a8fa8";x.strokeText(t,cx,cy);x.restore()}
+function ngE(x,e,cx,cy,s){x.save();x.font=`${s}px ${NW_EMO}`;x.textAlign="center";x.textBaseline="middle";x.fillText(e,cx,cy);x.restore()}
+function ngShapePath(x,type,cx,cy,r){x.beginPath();const P=pts=>{pts.forEach(([a,b],i)=>i?x.lineTo(cx+a*r,cy+b*r):x.moveTo(cx+a*r,cy+b*r));x.closePath()};
+  if(type==="circle")x.arc(cx,cy,r,0,7);else if(type==="square")x.rect(cx-r*.85,cy-r*.85,r*1.7,r*1.7);else if(type==="rectangle")x.rect(cx-r*1.1,cy-r*.6,r*2.2,r*1.2);else if(type==="oval")x.ellipse(cx,cy,r*1.1,r*.7,0,0,7);
+  else if(type==="triangle")P([[0,-1],[.95,.8],[-.95,.8]]);else if(type==="diamond")P([[0,-1],[.8,0],[0,1],[-.8,0]]);else if(type==="star"){const q=[];for(let i=0;i<10;i++){const a=-Math.PI/2+i*Math.PI/5,rr=i%2?.42:1;q.push([Math.cos(a)*rr,Math.sin(a)*rr])}P(q)}
+  else if(type==="heart"){x.moveTo(cx,cy+r*.85);x.bezierCurveTo(cx-r*1.3,cy+r*.1,cx-r*.8,cy-r*1.1,cx,cy-r*.35);x.bezierCurveTo(cx+r*.8,cy-r*1.1,cx+r*1.3,cy+r*.1,cx,cy+r*.85);x.closePath()}
+  else if(type==="balloon"){x.ellipse(cx,cy-r*.1,r*.75,r*.9,0,0,7)}else if(type==="flower"){for(let i=0;i<5;i++){const a=i*Math.PI*2/5;x.moveTo(cx+Math.cos(a)*r*.55+r*.4,cy+Math.sin(a)*r*.55);x.arc(cx+Math.cos(a)*r*.55,cy+Math.sin(a)*r*.55,r*.4,0,7)}}
+  else if(type==="fish"){x.ellipse(cx-r*.2,cy,r*.75,r*.5,0,0,7);x.moveTo(cx+r*.5,cy);x.lineTo(cx+r,cy-r*.45);x.lineTo(cx+r,cy+r*.45);x.closePath()}}
+function ngWsDraw(k){const r=ngSeed(nwKw().date+"|"+k+"|"+ngWsSeed(k)),[c,x]=ngA4(),D=ngDaily();
+  if(k==="alpha"){const blk=NG_ABLK[ngDayIdx(nwKw().date)%5],L=[...blk].concat(ngShuf(NG_AZ.map(a=>a[0]).filter(a=>!blk.includes(a)),r)).slice(0,6);ngWsHead(x,"Alphabet Fun","Say the letter. Trace it. Colour the picture!");
+    L.forEach((l,i)=>{const a=NG_AZ.find(z=>z[0]===l),y=330+i*225;x.fillStyle="#2B2340";x.font=`800 120px ${NW_KID}`;x.textAlign="center";x.textBaseline="middle";x.fillText(l+l.toLowerCase(),190,y+60);ngE(x,a[1],400,y+60,110);
+      x.font=`600 26px ${NW_KID}`;x.fillStyle="#555";x.fillText(a[2],400,y+140);for(let j=0;j<4;j++)ngDot(x,j%2?l.toLowerCase():l,580+j*155,y+60,120);x.strokeStyle="#eee";x.lineWidth=2;x.beginPath();x.moveTo(70,y+180);x.lineTo(1170,y+180);x.stroke()})}
+  else if(k==="number"){const st=NG_NBLK[ngDayIdx(nwKw().date)%4][0],start=st>10?ngR([1,6,11]):st;ngWsHead(x,"Numbers "+start+"–"+(start+9),"Trace each number, then write it on your own.");
+    for(let i=0;i<10;i++){const n=start+i,col=i%2,row=Math.floor(i/2),cx=col?680:110,y=340+row*270,fz=n>9?78:110;x.fillStyle="#2B2340";x.font=`800 ${fz}px ${NW_KID}`;x.textAlign="center";x.textBaseline="middle";x.fillText(n,cx+60,y+70);
+      for(let j=0;j<2;j++)ngDot(x,String(n),cx+200+j*130,y+70,fz);x.strokeStyle="#bbb";x.lineWidth=3;x.strokeRect(cx+400,y+15,100,110);x.fillStyle="#666";x.font=`500 22px ${NW_KID}`;x.fillText("✏️ write",cx+450,y+150);
+      if(n<=10)for(let d=0;d<n;d++){x.beginPath();x.arc(cx+20+d*38,y+175,12,0,7);x.strokeStyle="#9a8fb0";x.lineWidth=2.5;x.stroke()}}}
+  else if(k==="counting"){const R=NG_NBLK[ngDayIdx(nwKw().date)%4],hi=Math.max(R[1],10);ngWsHead(x,"Count and Write","Count the pictures. Write the number in the box.");
+    const items=[...NG_FRU.slice(0,8),["⭐"],["🎈"],["🐤"],["🚗"],["🐟"]];for(let i=0;i<8;i++){const n=1+Math.floor(r()*Math.min(hi,12)),it=items[Math.floor(r()*items.length)][0],col=i%2,row=Math.floor(i/2),bx=col?650:80,by=310+row*345;
+      x.strokeStyle="#e5dcc8";x.lineWidth=3;x.strokeRect(bx,by,510,310);const s=n>8?54:66,per=n>8?6:4;for(let j=0;j<n;j++)ngE(x,it,bx+60+(j%per)*(s+12),by+60+Math.floor(j/per)*(s+14),s);
+      x.strokeStyle="#9a8fb0";x.strokeRect(bx+380,by+190,100,95)}}
+  else if(k==="shapes"){ngWsHead(x,"Shapes","Trace the shapes. Colour: circles RED, squares BLUE, triangles YELLOW, stars GREEN.");const T=["circle","square","triangle","star","rectangle","oval","heart","diamond"];
+    T.forEach((t,i)=>{const row=Math.floor(i/2),col=i%2,cx=col?900:340,cy=400+row*330;x.save();x.setLineDash([14,12]);x.lineWidth=6;x.strokeStyle="#8a8fa8";ngShapePath(x,t,cx-150,cy,95);x.stroke();x.setLineDash([]);x.lineWidth=5;x.strokeStyle="#2B2340";ngShapePath(x,t,cx+120,cy,95);x.stroke();x.restore();
+      x.fillStyle="#2B2340";x.font=`700 34px ${NW_KID}`;x.textAlign="center";x.fillText(t,cx,cy+140)})}
+  else if(k==="colors"){ngWsHead(x,"Colour by Word","Read the colour word with a grown-up. Colour the picture that colour.");const C=ngShuf(NG_COL.slice(0,8),r),T=["balloon","star","heart","circle","flower","fish","square","triangle"];
+    C.forEach((cc,i)=>{const row=Math.floor(i/2),col=i%2,cx=col?900:340,cy=400+row*330;x.save();x.lineWidth=6;x.strokeStyle="#2B2340";ngShapePath(x,T[i],cx,cy-10,110);x.stroke();x.restore();
+      x.fillStyle=cc[1]==="#FFFFFF"?"#888":cc[1];x.beginPath();x.arc(cx-150,cy+130,16,0,7);x.fill();x.fillStyle="#2B2340";x.font=`800 44px ${NW_KID}`;x.textAlign="center";x.textBaseline="middle";x.fillText(cc[0].toUpperCase(),cx,cy+132)})}
+  else if(k==="matching"){ngWsHead(x,"Match the Pairs","Draw a line from each picture to what goes with it.");const P=ngShuf(NG_PAIR,r).slice(0,6),right=ngShuf(P.map((p,i)=>i),r);
+    P.forEach((p,i)=>{const y=360+i*215;ngE(x,p[0],250,y,120);x.fillStyle="#2B2340";x.beginPath();x.arc(370,y,14,0,7);x.fill();const q=P[right[i]];ngE(x,q[1],990,y,120);x.beginPath();x.arc(870,y,14,0,7);x.fill()})}
+  else if(k==="tracing"){const up=r()<.5,blk=NG_ABLK[ngDayIdx(nwKw().date)%5],L=[...blk].slice(0,5);ngWsHead(x,"Trace the Letters",`Trace the dotted ${up?"capital":"small"} letters. Start at the top!`);
+    L.forEach((l,i)=>{const y=340+i*270,t=up?l:l.toLowerCase();x.fillStyle="#2B2340";x.font=`800 130px ${NW_KID}`;x.textAlign="center";x.textBaseline="middle";x.fillText(t,140,y+80);for(let j=0;j<6;j++)ngDot(x,t,300+j*150,y+80,130);
+      x.strokeStyle="#cfd6ea";x.lineWidth=2;[y+15,y+80,y+145].forEach(yy=>{x.beginPath();x.moveTo(70,yy);x.lineTo(1170,yy);x.stroke()})})}
+  ngWsFoot(x);return c}
+const ngWsPage=k=>{const c=ngWsDraw(k);return{u:c.toDataURL("image/jpeg",0.9),w:c.width,h:c.height,fmt:"JPEG"}};
+function ngWsPdf(k,pages){const {jsPDF}=window.jspdf;const doc=new jsPDF({orientation:"portrait",unit:"mm",format:"a4",compress:true});pages.forEach((p,i)=>{if(i)doc.addPage("a4","portrait");doc.addImage(p.u,"JPEG",6,6,198,280,undefined,"FAST")});
+  doc.setProperties({title:`${ngKid()} – ${k} worksheet`,creator:"Anoop's Finance Tracker · Navamika's Learning Games"});return doc.output("arraybuffer")}
+function ngSheetsV(el){el.innerHTML=`<div class="ng">${ngNav("sheets")}<h2 class="ng-h2">🖨️ Printable Worksheets</h2><p class="ng-muted">A4 worksheets that follow today’s games (today: ${ngDaily().map(x=>esc(x.t)).join(" · ")}). Tap 🔀 for a different sheet.</p>
+   <div class="ng-wsg">${NG_WS.map(([k,i,n,d])=>`<article class="ng-ws"><div class="ng-wsp"><img alt="${esc(n)} preview" data-wsimg="${k}"></div><div><b>${i} ${esc(n)}</b><small>${esc(d)}</small></div>
+    <div class="ng-row"><button type="button" class="ng-mini" data-wsnew="${k}" title="New sheet">🔀</button><button type="button" class="ng-mini pri" data-wsprint="${k}">🖨️ Print Worksheet</button><button type="button" class="ng-mini" data-wsdl="${k}">📥 Download PDF</button></div></article>`).join("")}</div></div>`;
+  ngWireNav(el);const prev=k=>{const im=el.querySelector(`[data-wsimg="${k}"]`);if(!im)return;const c=ngWsDraw(k),s=document.createElement("canvas");s.width=310;s.height=438;s.getContext("2d").drawImage(c,0,0,310,438);im.src=s.toDataURL("image/jpeg",.8)};
+  let qi=0;const q=NG_WS.map(w=>w[0]);const step=()=>{if(qi<q.length){prev(q[qi++]);setTimeout(step,30)}};setTimeout(step,30);
+  el.querySelectorAll("[data-wsnew]").forEach(b=>b.onclick=()=>{const k=b.dataset.wsnew;NG.ws[k]=(NG.ws[k]|0)+1;ngSave();prev(k)});
+  const fname=k=>`${ngKid()}-${k}-worksheet-${nwKw().date}.pdf`;
+  el.querySelectorAll("[data-wsprint]").forEach(b=>b.onclick=async()=>{const k=b.dataset.wsprint;if(STANDALONE){try{nwDoPrint([ngWsPage(k)])}catch(e){toastMini("Couldn't prepare the page for printing.")}return}
+    await nwPrintSheet(async()=>[ngWsPage(k)],async()=>ngWsPdf(k,[ngWsPage(k)]),fname(k),b)});
+  el.querySelectorAll("[data-wsdl]").forEach(b=>b.onclick=async()=>{const k=b.dataset.wsdl,old=b.textContent;b.disabled=true;b.textContent="⏳";try{if(!(window.jspdf&&window.jspdf.jsPDF))throw new Error("pdf");const data=ngWsPdf(k,[ngWsPage(k)]);const d=await getDl();if(!d)return toastMini("Downloads aren't available here.");await d.save({filename:fname(k),data});toastMini("📥 "+fname(k))}catch(e){if(!(e&&e.code==="declined"))toastMini("We couldn't prepare the PDF right now. Please try again.")}finally{b.disabled=false;b.textContent=old}})}
+/* home banner on the workbook home page */
+function ngHomeBanner(){const h=$("#nwHome");if(!h||h.querySelector(".ng-hb"))return;const st=ngDailyState(),dn=st.done.filter(Boolean).length,d=document.createElement("button");d.type="button";d.className="ng-hb";
+  d.innerHTML=`<span class="ng-hbi" aria-hidden="true">🎮</span><span><b>Learning Games</b><small>🌟 Today’s Challenge: ${dn} / 3 · ⭐ ${ngStars()} stars</small></span><span class="ng-go" aria-hidden="true">▶</span>`;d.onclick=()=>{NGV={v:"home"};showTab("ngame")};h.prepend(d)}
+window.__ngWs=k=>ngWsDraw(k).toDataURL("image/png");
+
+const _ngNH=nwHome;nwHome=function(){const r=_ngNH.apply(this,arguments);try{ngHomeBanner()}catch(e){}return r};
+
 })();
 </script>
 
