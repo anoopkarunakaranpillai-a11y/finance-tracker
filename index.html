@@ -2004,6 +2004,16 @@ body.arya .tab[aria-selected="true"]{box-shadow:inset 3px 0 0 #D9A63A}
 .ng-mini.rec{background:#E53935;color:#fff;border-color:#E53935;animation:ngPulse 1s infinite}
 @media (max-width:620px){.ng-gh .ng-x{width:46px;height:46px;font-size:19px}.ng-xs{gap:5px}}
 .ng-intro{margin:0;font-size:14.5px;color:var(--nw-ink)}
+.ng-new{background:var(--nw-paper);border:3px solid #4FB3FF;border-radius:24px;padding:16px 18px;margin-bottom:18px}
+.ng-new h3{font-size:22px}
+.ng-newg{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:12px;margin-top:10px}
+@media (max-width:620px){.ng-newg{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}}
+.ng-nc{font:inherit;display:flex;flex-direction:column;align-items:center;text-align:center;gap:4px;padding:14px 8px 12px;border-radius:20px;border:3px solid color-mix(in srgb,var(--cc) 35%,transparent);background:color-mix(in srgb,var(--cc) 10%,var(--surface,#fff));color:var(--nw-ink);cursor:pointer;min-width:0;min-height:150px}
+.ng-nc.ok{border-color:var(--nw-grass)}
+.ng-nc b{font-family:var(--nw-head);font-size:16.5px;line-height:1.2}
+.ng-nc small{color:var(--nw-soft);font-weight:600;font-size:13px}
+.ng-nc .ng-ci{font-size:42px}
+.ng-allh{font-size:22px;margin:4px 0 12px}
 </style>
 
 <header class="hero">
@@ -7125,6 +7135,30 @@ function ngCheckBadges(){const S=NG.sessions,good=(ks,p)=>S.filter(s=>ks.include
   const tests={first:S.length>=1,five:S.length>=5,twenty:S.length>=20,alpha:good(["alpha"],80)>=3,number:good(["num","count"],80)>=3,color:good(["color"],80)>=2,shape:good(["shape"],80)>=2,animal:good(["animal"],80)>=2,
    puzzle:S.filter(s=>["puzzle","match","memory"].includes(s.cat)).length>=3,trace:S.filter(s=>s.cat==="trace").reduce((a,s)=>a+(s.cor|0),0)>=10,daily:Object.values(NG.daily).filter(x=>x.done.every(Boolean)).length>=3,streak:ngStreak()>=3,s50:ngStars()>=50,s150:ngStars()>=150,s300:ngStars()>=300};
   for(const [k] of NG_BADGES)if(tests[k]&&!NG.badges[k]){NG.badges[k]=nwKw().date;neu.push(k)}return neu}
+/* ---------- Daily content (generated every morning; Claude app: db, website: daily/*.json) ---------- */
+const NGDC={idx:null,days:{}};
+async function ngDb(){try{return window.claude&&window.claude.use?await window.claude.use("db"):null}catch(e){return null}}
+window.__dailyIndex=()=>NGDC.idx||(NGDC.idx=(async()=>{try{const db=await ngDb();if(db){const s=await db.doc("daily/_index").get();return s.exists?((s.data()||{}).dates||[]).slice().sort().reverse():[]}
+  if(STANDALONE&&location.protocol.startsWith("http")){const r=await fetch("daily/index.json",{cache:"no-store"});if(r.ok)return((await r.json()).dates||[]).slice().sort().reverse()}}catch(e){}return[]})());
+window.__dailyDay=d=>NGDC.days[d]||(NGDC.days[d]=(async()=>{try{const db=await ngDb();if(db){const s=await db.doc("daily/"+d).get();return s.exists?s.data():null}
+  if(STANDALONE&&location.protocol.startsWith("http")){const r=await fetch("daily/"+d+".json",{cache:"no-cache"});if(r.ok)return await r.json()}}catch(e){}return null})());
+window.__dailyLatest=async()=>{const t=nwKw().date,ds=(await window.__dailyIndex()).filter(x=>x<=t);return ds.length?{date:ds[0],data:await window.__dailyDay(ds[0])}:null};
+const NG_TMAP={alphabet:"alpha",numbers:"num",counting:"count",colors:"color",shapes:"shape",animals:"animal",fruits:"fruit",matching:"match",memory:"memory",tracing:"trace",sounds:"rhyme",rhymes:"rhyme",vocabulary:"alpha",puzzles:"puzzle",observation:"puzzle",logic:"puzzle"};
+const NG_LVMAP={easy:0,medium:1,challenge:2};
+let NGDAY=null;
+function ngDailyQ(q){const isEmo=s=>/\p{Extended_Pictographic}/u.test(s||"");
+  return{text:q.q,ask:q.say||q.q,big:q.show?(isEmo(q.show)?emo(q.show,96):`<span class="ng-letter">${esc(q.show)}</span>`):"",
+   opts:q.options.map((o,i)=>({h:(o.s||o.c)?(o.s?ngSvg(o.s,o.c||ngR(NG_COL.slice(0,7))[1],86):ngSvg("balloon",o.c,86)):o.e?emo(o.e)+(o.t?word(o.t):""):`<span class="${String(o.t).length<=3?"ng-num":"ng-cw"}">${esc(o.t)}</span>`,v:i,say:o.t||""})),ans:q.answer,good:q.good||""}}
+function ngDailyStart(g,date){const k=NG_TMAP[g.type]||"puzzle",L=NG_LVMAP[g.difficulty]||0,o={lvl:L,title:g.title,dg:date+"/"+g.id};
+  if(g.type==="memory"&&Array.isArray(g.pairs))return ngStart("memory",Object.assign(o,{pairs:g.pairs.length,pics:g.pairs}));
+  if(g.type==="tracing"&&Array.isArray(g.chars))return ngStart("trace",Object.assign(o,{chars:g.chars.slice(0,8),n:Math.min(8,g.chars.length)}));
+  ngStart(k,Object.assign(o,{qs:g.questions.map(ngDailyQ),n:g.questions.length,intro:g.instructions}))}
+function ngDailyHtml(){if(!NGDAY)return`<section class="ng-new" id="ngNew"><div class="ng-th"><h3>🆕 Today’s New Games</h3><span class="ng-muted">Loading…</span></div></section>`;
+  if(!NGDAY.data||!Array.isArray(NGDAY.data.navamika))return"";const d=NGDAY.date,G=NGDAY.data.navamika,dn=G.filter(g=>NG.dg&&NG.dg[d+"/"+g.id]).length,today=d===nwKw().date;
+  return`<section class="ng-new" id="ngNew"><div class="ng-th"><h3>🆕 ${today?"Today’s New Games":"Latest New Games"}</h3><span class="ng-prog">${dn} / ${G.length} played${today?"":" · "+esc(new Date(d+"T12:00:00Z").toLocaleDateString("en-GB",{weekday:"short",day:"numeric",month:"short"}))}</span></div>
+   <div class="ng-newg">${G.map((g,i)=>{const c=NG_CAT[NG_TMAP[g.type]||"puzzle"],done=NG.dg&&NG.dg[d+"/"+g.id];return`<button type="button" class="ng-nc ${done?"ok":""}" data-dg="${i}" style="--cc:${c.c}"><span class="ng-ci" aria-hidden="true">${done?"✅":c.i}</span><b>${esc(g.title)}</b><small>${esc(g.desc||g.instructions||"")}</small><span class="ng-lv">${NG_LV[NG_LVMAP[g.difficulty]||0][0]} ${NG_LV[NG_LVMAP[g.difficulty]||0][1]}</span></button>`}).join("")}</div></section>`}
+function ngDailyWire(el){el.querySelectorAll("[data-dg]").forEach(b=>b.onclick=()=>{const g=NGDAY.data.navamika[+b.dataset.dg];ngDailyStart(g,NGDAY.date)});
+  if(!NGDAY){window.__dailyLatest().then(x=>{NGDAY=x||{date:null,data:null};if(NGV.v==="home"&&$("#ngNew")){const h=ngDailyHtml(),n=$("#ngNew");if(h){n.outerHTML=h;ngDailyWire($("#ngHost"))}else n.remove()}}).catch(()=>{NGDAY={date:null,data:null};const n=$("#ngNew");if(n)n.remove()})}}
 /* ---------- state + render ---------- */
 let NGV={v:"home"},NGG=null,ngWelcomed=false;
 function ngRender(){const el=$("#ngHost");if(!el)return;if(NGG&&NGG.timer)clearInterval(NGG.timer);
@@ -7140,22 +7174,25 @@ function ngHomeV(el){const D=ngDaily(),st=ngDailyState(),dn=st.done.filter(Boole
     <div class="ng-pbar"><i style="width:${dn/3*100}%"></i></div>
     ${dn===3?`<p class="ng-yay">🎉 Amazing! You completed today’s challenge!</p>`:""}
     <div class="ng-tl">${D.map((x,i)=>`<button type="button" class="ng-ti ${st.done[i]?"ok":""}" data-daily="${i}"><span class="ng-tn">${st.done[i]?"✅":i+1}</span><span><b>${esc(x.t)}</b><small>${esc(x.d)}</small></span><span class="ng-go" aria-hidden="true">${st.done[i]?"↻":"▶"}</span></button>`).join("")}</div></section>
+   ${ngDailyHtml()}
+   <h3 class="ng-allh">🎮 All Games</h3>
    <div class="ng-grid">${NG_CATS.map(c=>{const L=ngLvl(c.k);return`<button type="button" class="ng-card" data-cat="${c.k}" style="--cc:${c.c}"><span class="ng-ci" aria-hidden="true">${c.i}</span><b>${esc(c.n)}</b><small>${esc(c.d)}</small><span class="ng-lv">${NG_LV[L][0]} ${NG_LV[L][1]}</span></button>`}).join("")}</div>
    <p class="ng-foot">No adverts, no chat, no purchases. Progress stays on this device. ${NG.auto?"Levels go up and down automatically as she plays.":"Levels are set by a parent."}</p></div>`;
-  ngWireNav(el);if(!ngWelcomed){ngWelcomed=true;ngClipReady.then(()=>NGA.playWelcome())}
+  ngWireNav(el);ngDailyWire(el);if(!ngWelcomed){ngWelcomed=true;ngClipReady.then(()=>NGA.playWelcome())}
   el.querySelectorAll("[data-cat]").forEach(b=>b.onclick=()=>ngStart(b.dataset.cat));
   el.querySelectorAll("[data-daily]").forEach(b=>b.onclick=()=>{const i=+b.dataset.daily,x=D[i],first=!st.done.some(Boolean)&&NG.dailyAnn!==nwKw().date;if(first){NG.dailyAnn=nwKw().date;ngSave()}ngStart(x.k,{daily:i,opts:x.o,n:5,ann:first})})}
 function ngStart(k,o){o=o||{};const L=o.lvl!=null?o.lvl:ngLvl(k);
   if(k==="memory"&&o.pairs==null)return ngGo("mempick");if(k==="trace"&&!o.chars)return ngGo("tracepick");
-  NGG={ann:!!o.ann,k,L,daily:o.daily!=null?o.daily:null,opts:o.opts||{},t0:Date.now(),i:0,n:o.n||(k==="trace"?o.chars.length:10),cor:0,att:0,first:true,qs:[],pairs:o.pairs,chars:o.chars,last:null};
+  NGG={title:o.title||null,dg:o.dg||null,pics:o.pics||null,ann:!!o.ann,k,L,daily:o.daily!=null?o.daily:null,opts:o.opts||{},t0:Date.now(),i:0,n:o.n||(k==="trace"?o.chars.length:10),cor:0,att:0,first:true,qs:[],pairs:o.pairs,chars:o.chars,last:null};
   if(k==="memory")return ngGo("memory");if(k==="trace")return ngGo("trace");
+  if(o.qs){NGG.qs=o.qs.slice();NGG.n=NGG.qs.length;return ngGo("play")}
   const seen=new Set();for(let i=0;i<NGG.n;i++){let q,tries=0;do{q=NG_GEN[k](L,NGG.opts);tries++}while(seen.has(q.text+q.ans)&&tries<12);seen.add(q.text+q.ans);NGG.qs.push(q)}
   ngGo("play")}
 function ngHdr(title){const L=NGG.L;return`<div class="ng-gh"><button type="button" class="ng-x" data-ngquit aria-label="Back to games">✕</button><div class="ng-gt"><b>${title}</b><small>${NG_LV[L][0]} ${NG_LV[L][1]}${NGG.daily!=null?" · 🌟 Today’s Challenge":""}</small></div><span class="ng-xs"><button type="button" class="ng-x" data-ngpause aria-label="${ngPaused?"Resume voice":"Pause voice"}">${ngPaused?"▶️":"⏸️"}</button><button type="button" class="ng-x" data-ngsnd aria-label="Sound">${NG.sound?"🔊":"🔇"}</button></span></div>`}
 function ngWireHdr(el){el.querySelector("[data-ngquit]").onclick=()=>{ngStop();NGG=null;ngGo("home")};el.querySelector("[data-ngsnd]").onclick=()=>{NG.sound=!NG.sound;if(!NG.sound)ngStop();ngSave();ngMusicSync();const b=el.querySelector("[data-ngsnd]");b.textContent=NG.sound?"🔊":"🔇"};
   el.querySelector("[data-ngpause]").onclick=e=>{ngPaused=!ngPaused;if(ngPaused)ngStop();ngMusicSync();e.currentTarget.textContent=ngPaused?"▶️":"⏸️";e.currentTarget.setAttribute("aria-label",ngPaused?"Resume voice":"Pause voice")}}
 function ngPlayV(el){const g=NGG,q=g.qs[g.i],c=NG_CAT[g.k];
-  el.innerHTML=`<div class="ng ng-play" style="--cc:${c.c}">${ngHdr(c.i+" "+esc(c.n))}
+  el.innerHTML=`<div class="ng ng-play" style="--cc:${c.c}">${ngHdr(c.i+" "+esc(g.title||c.n))}
    <div class="ng-steps" aria-label="Question ${g.i+1} of ${g.n}">${Array.from({length:g.n},(_,i)=>`<i class="${i<g.i?"d":i===g.i?"c":""}"></i>`).join("")}</div>
    <div class="ng-q"><button type="button" class="ng-say" data-ngsay aria-label="Hear the question">🔊</button><p class="ng-qt">${esc(q.text)}</p>${q.big?`<div class="ng-big">${q.big}</div>`:""}</div>
    <div class="ng-opts n${q.opts.length}">${q.opts.map((o,i)=>`<button type="button" class="ng-opt" data-o="${i}">${o.h}</button>`).join("")}</div>
@@ -7172,7 +7209,7 @@ function ngMemPick(el){const L=ngLvl("memory"),sug=[2,3,4,6][Math.min(3,L+ (L>0?
    <div class="ng-pick">${[[2,"4 cards","🟢 Beginner"],[3,"6 cards","🟢 Easy"],[4,"8 cards","🟡 Medium"],[6,"12 cards","🔴 Challenge"]].map(([p,l,s])=>`<button type="button" class="ng-pk ${p===sug?"sug":""}" data-pairs="${p}"><b>${l}</b><small>${s}</small></button>`).join("")}</div>
    <button type="button" class="ng-btn" data-ngv="home">← Back to games</button></section></div>`;
   ngWireNav(el);el.querySelectorAll("[data-pairs]").forEach(b=>b.onclick=()=>{const p=+b.dataset.pairs;ngStart("memory",{pairs:p,lvl:p<=3?0:p===4?1:2})})}
-function ngMemV(el){const g=NGG;if(!g.cards){const pics=ngPick(NG_MEM,g.pairs);g.cards=ngShuf([...pics,...pics]).map((e,i)=>({e,id:i,up:false,done:false}));g.moves=0;g.n=g.pairs;g.sel=[]}
+function ngMemV(el){const g=NGG;if(!g.cards){const pics=g.pics?g.pics.slice(0,g.pairs):ngPick(NG_MEM,g.pairs);g.cards=ngShuf([...pics,...pics]).map((e,i)=>({e,id:i,up:false,done:false}));g.moves=0;g.n=g.pairs;g.sel=[]}
   const cols=g.cards.length<=4?2:g.cards.length<=8?(g.cards.length===6?3:4):4;
   el.innerHTML=`<div class="ng ng-play" style="--cc:${NG_CAT.memory.c}">${ngHdr("🧠 Memory Game")}
    <p class="ng-qt">Find the pairs! <small class="ng-muted">Moves: <b id="ngMv">${g.moves}</b> · Pairs: <b id="ngPr">${g.cards.filter(c=>c.done).length/2} / ${g.pairs}</b></small></p>
@@ -7227,13 +7264,13 @@ function ngTraceV(el){const g=NGG,ch=g.chars[g.i];g.n=g.chars.length;
 /* ---------- finish + record ---------- */
 function ngStarsFor(acc){return acc>=90?5:acc>=75?4:acc>=60?3:acc>=40?2:1}
 function ngFinish(){const g=NGG;if(!g)return;const acc=g.n?Math.round(g.cor/g.n*100):0,stars=ngStarsFor(acc),time=Math.round((Date.now()-g.t0)/1000),c=NG_CAT[g.k];
-  const rec={id:"g"+Date.now(),child:ngKid(),game:c.n,cat:g.k,date:nwKw().date,ts:Date.now(),score:g.cor,max:g.n,att:g.n,cor:g.cor,acc,stars,status:"completed",time,lvl:NG_LV[g.L][1],daily:g.daily!=null};
+  if(g.dg){NG.dg=NG.dg||{};NG.dg[g.dg]=true}const rec={id:"g"+Date.now(),child:ngKid(),game:g.title||c.n,cat:g.k,date:nwKw().date,ts:Date.now(),score:g.cor,max:g.n,att:g.n,cor:g.cor,acc,stars,status:"completed",time,lvl:NG_LV[g.L][1],daily:g.daily!=null};
   if(g.k==="memory")rec.moves=g.moves;if(g.k==="trace")rec.chars=g.chars.slice(0,g.cor);
   NG.sessions.push(rec);if(NG.sessions.length>600)NG.sessions=NG.sessions.slice(-600);
   let lvMsg="";if(g.daily!=null){ngDailyState().done[g.daily]=true}
-  else if(NG.auto&&g.k!=="memory"&&g.k!=="trace"){const L=ngLvl(g.k);if(acc>=90&&L<2){NG.lvl[g.k]=L+1;lvMsg=`Level up! Next time: ${NG_LV[L+1][0]} ${NG_LV[L+1][1]}`}else if(acc<50&&L>0){NG.lvl[g.k]=L-1;lvMsg=`Next time we’ll try ${NG_LV[L-1][0]} ${NG_LV[L-1][1]}`}}
+  else if(NG.auto&&!g.dg&&g.k!=="memory"&&g.k!=="trace"){const L=ngLvl(g.k);if(acc>=90&&L<2){NG.lvl[g.k]=L+1;lvMsg=`Level up! Next time: ${NG_LV[L+1][0]} ${NG_LV[L+1][1]}`}else if(acc<50&&L>0){NG.lvl[g.k]=L-1;lvMsg=`Next time we’ll try ${NG_LV[L-1][0]} ${NG_LV[L-1][1]}`}}
   else if(NG.auto&&g.k==="trace"){const L=ngLvl("trace");if(L<2&&NG.sessions.filter(s=>s.cat==="trace").length%3===0)NG.lvl.trace=L+1}
-  const neu=ngCheckBadges();ngSave();NGV={v:"done",rec,neu,lvMsg,k:g.k,daily:g.daily,opts:g.opts,pairs:g.pairs,chars:g.chars,L:g.L};NGG=null;ngRender()}
+  const neu=ngCheckBadges();ngSave();NGV={v:"done",rec,neu,lvMsg,k:g.k,daily:g.daily,opts:g.opts,pairs:g.pairs,chars:g.chars,L:g.L,again:g.dg?{title:g.title,dg:g.dg,pics:g.pics,qs:g.qs,lvl:g.L,pairs:g.pairs,chars:g.chars}:null};NGG=null;ngRender()}
 function ngDoneV(el){const {rec,neu,lvMsg}=NGV,kid=ngKid(),st=ngDailyState(),allDaily=NGV.daily!=null&&st.done.every(Boolean);
   el.innerHTML=`<div class="ng"><section class="ng-done"><div class="ng-conf" aria-hidden="true">${Array.from({length:18},(_,i)=>`<i style="left:${(i*5.7)%100}%;animation-delay:${(i%6)*.12}s">${["🎉","⭐","🎈","✨","🌟","🎊"][i%6]}</i>`).join("")}</div>
    <h2>🎉 Great Job, ${esc(kid)}!</h2><p class="ng-score">Score: <b>${rec.score} / ${rec.max}</b></p>
@@ -7243,7 +7280,7 @@ function ngDoneV(el){const {rec,neu,lvMsg}=NGV,kid=ngKid(),st=ngDailyState(),all
    ${neu.length?`<div class="ng-newb"><b>New badge${neu.length>1?"s":""}!</b>${neu.map(k=>{const b=NG_BADGES.find(x=>x[0]===k);return`<span class="ng-bd on"><i>${b[1]}</i>${esc(b[2])}</span>`}).join("")}</div>`:""}
    <div class="ng-row c"><button type="button" class="ng-btn pri" id="ngAgain">🔄 Play Again</button><button type="button" class="ng-btn" id="ngMore">🎮 More Games</button><button type="button" class="ng-btn" id="ngBack">🏠 Back to Learning</button></div></section></div>`;
   NGA.playLevelComplete(neu.length?[{id:"badge"}]:[]);
-  $("#ngAgain").onclick=()=>{const v=NGV;ngStart(v.k,{daily:v.daily,opts:v.opts,n:v.daily!=null?5:undefined,pairs:v.pairs,chars:v.chars,lvl:v.k==="memory"||v.k==="trace"?v.L:undefined})};
+  $("#ngAgain").onclick=()=>{const v=NGV;if(v.again)return ngStart(v.k,Object.assign({},v.again,{n:v.again.qs?v.again.qs.length:undefined}));ngStart(v.k,{daily:v.daily,opts:v.opts,n:v.daily!=null?5:undefined,pairs:v.pairs,chars:v.chars,lvl:v.k==="memory"||v.k==="trace"?v.L:undefined})};
   $("#ngMore").onclick=()=>ngGo("home");$("#ngBack").onclick=()=>{NGV={v:"home"};showTab("nhome")}}
 /* ---------- rewards ---------- */
 function ngRewardsV(el){const stars=ngStars(),earned=NG_BADGES.filter(b=>NG.badges[b[0]]).length;
@@ -7989,8 +8026,8 @@ function chart(el,cfg){if(!el||typeof Chart==="undefined")return;Chart.defaults.
 const subjChip=s=>`<span class="chip">${SUBJ[s]?SUBJ[s].i+" "+esc(SUBJ[s].n):esc(s)}</span>`;
 const srcChip=q=>isPrev(q)?`<span class="chip prev">📄 Previous Question${q.exam?" · "+esc(q.exam):""}${q.year?" "+esc(q.year):""}</span>`:`<span class="chip prac">Practice Question</span>`;
 /* ---------- navigation ---------- */
-const NAV=[["home","Home","🏠"],["study","Study Material","📖"],["practice","Practice","✏️"],["daily","Daily 20","📅"],["mock","Mock Test","⏱️"],["models","LDC / LGS Model Exams","🧾"],["bank","Question Bank","🗂️"],["prev","Previous Questions","📄"],["ca","Current Affairs","📰"],["mistakes","My Mistakes","❌"],["fav","My Favorites","⭐"],["perf","Performance","📊"],["profile","Profile","👤"],["admin","Admin","🛠️"]];
-function navHtml(){return NAV.filter(n=>n[0]!=="admin"||ADMIN||LOCALADMIN).map(([k,l,i])=>`<a href="#${k}" class="nav-a ${ROUTE===k||(k==="mock"&&ROUTE==="exam"&&T&&T.mode==="mock"&&!T.model)||(k==="models"&&ROUTE==="exam"&&T&&T.model)?"on":""}" data-go="${k}"><span aria-hidden="true">${i}</span>${l}</a>`).join("")}
+const NAV=[["home","Home","🏠"],["study","Study Material","📖"],["practice","Practice","✏️"],["daily","Daily 20","📅"],["mock","Mock Test","⏱️"],["models","LDC / LGS Model Exams","🧾"],["dailytests","Daily Mock Tests","🗓️"],["bank","Question Bank","🗂️"],["prev","Previous Questions","📄"],["ca","Current Affairs","📰"],["mistakes","My Mistakes","❌"],["fav","My Favorites","⭐"],["perf","Performance","📊"],["profile","Profile","👤"],["admin","Admin","🛠️"]];
+function navHtml(){return NAV.filter(n=>n[0]!=="admin"||ADMIN||LOCALADMIN).map(([k,l,i])=>`<a href="#${k}" class="nav-a ${ROUTE===k||(k==="mock"&&ROUTE==="exam"&&T&&T.mode==="mock"&&!T.model&&!T.dtest)||(k==="models"&&ROUTE==="exam"&&T&&T.model)||(k==="dailytests"&&ROUTE==="exam"&&T&&T.dtest)?"on":""}" data-go="${k}"><span aria-hidden="true">${i}</span>${l}</a>`).join("")}
 function go(r){if(T&&!T.done&&ROUTE==="exam"&&r!=="exam"){account();persistCur();stopTick();T=null}ROUTE=r;render();HOST.scrollIntoView({block:"start"})}
 
 function header(){const st=stats(),sk=streak();$("#top").innerHTML=`<div class="brand"><div class="mark" aria-hidden="true"><svg viewBox="0 0 40 40"><rect x="4" y="6" width="32" height="28" rx="4" fill="none" stroke="currentColor" stroke-width="3"/><path d="M20 6v28M4 20h32" stroke="currentColor" stroke-width="3"/><circle cx="12" cy="13" r="3" fill="var(--gold)"/></svg></div><div><h1>ARYAS STUDY WINDOW</h1><p>${esc(P.exam||"Kerala PSC LDC")} Exam Preparation</p></div></div>
@@ -8004,7 +8041,7 @@ const VIEWS={};
 /* HOME */
 VIEWS.home=v=>{const st=stats(),sk=streak(),last=P.tests[P.tests.length-1],best=P.tests.reduce((m,t)=>Math.max(m,t.pct),0),dd=P.daily[today()],dn=dd?dd.ids.filter(id=>dd.chk&&dd.chk[id]).length:0,wk=weakList()[0];
   v.innerHTML=`<section class="hero"><div><div class="eyebrow">Welcome back</div><h2>Namaskaram, ${esc(P.name||"Candidate")} 🙏</h2><p>Every question you answer here is one step closer to the LDC rank list.</p>
-   <div class="row"><button class="btn gold" data-go="daily">📅 Today's 20 (${dn}/20)</button><button class="btn ghost" data-act="mock">⏱️ Start a mock test</button><button class="btn ghost" data-go="models">🧾 LDC / LGS model exam</button>${P.cur?`<button class="btn ghost" data-act="resume">▶ Resume “${esc(P.cur.title)}”</button>`:""}</div></div>
+   <div class="row"><button class="btn gold" data-go="daily">📅 Today's 20 (${dn}/20)</button><button class="btn ghost" data-act="mock">⏱️ Start a mock test</button><button class="btn ghost" data-go="dailytests">🗓️ Today’s 2 mock tests</button><button class="btn ghost" data-go="models">🧾 LDC / LGS model exam</button>${P.cur?`<button class="btn ghost" data-act="resume">▶ Resume “${esc(P.cur.title)}”</button>`:""}</div></div>
    <div class="ring" aria-label="Overall accuracy ${st.acc}%"><svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="50" class="rt"/><circle cx="60" cy="60" r="50" class="rv" style="stroke-dasharray:${st.acc*3.1416} 400"/></svg><b>${st.acc}%</b><small>accuracy</small></div></section>
   <div class="tiles">${[["Attempted",st.n,"✏️"],["Correct",st.c,"✅"],["Wrong",st.w,"❌"],["Accuracy",st.acc+"%","🎯"],["Last score",last?last.score.toFixed(2)+" / "+last.max:"—","📝"],["Best score",best?best+"%":"—","🏆"],["Questions left",st.total-st.uniq,"📚"],["Study streak",sk+" day"+(sk===1?"":"s"),"🔥"]].map(t=>`<div class="tile"><span>${t[2]}</span><b>${t[1]}</b><small>${t[0]}</small></div>`).join("")}</div>
   <section class="card"><div class="row sb"><h3>Overall progress</h3><span class="mut">${st.uniq} of ${st.total} questions attempted</span></div><div class="bar"><i style="width:${pct(st.uniq,st.total)}%"></i></div></section>
@@ -8123,11 +8160,45 @@ VIEWS.models=v=>{const hist=P.tests.filter(t=>t.model).slice(-10).reverse();
   v.querySelectorAll("[data-mp]").forEach(b=>b.onclick=()=>{const [k,n]=b.dataset.mp.split(":");startModel(k,+n)});
   v.querySelectorAll("[data-mres]").forEach(b=>b.onclick=()=>{VIEWQ=P.tests.find(t=>t.id===b.dataset.mres);ROUTE="result";render()})};
 
+/* ---------- Daily Mock Tests (2 new tests of 25 every morning) ---------- */
+const DT={idx:null,days:{},sel:null,err:null};
+const dtIndex=()=>window.__dailyIndex?window.__dailyIndex():Promise.resolve([]);
+const dtDay=d=>window.__dailyDay?window.__dailyDay(d):Promise.resolve(null);
+const DLV={easy:1,medium:2,hard:3};
+function dtInject(date,data){if(!data||!Array.isArray(data.arya))return;let add=0;const k=date.replace(/-/g,"");
+  data.arya.forEach(t=>t.questions.forEach(q=>{const id=`d${k}t${t.n}q${String(q.n).padStart(2,"0")}`;if(QMAP.has(id))return;
+    BANK.push({id,s:SUBJ[q.s]?q.s:"gk",t:q.t||"General",d:DLV[q.d]||2,type:"mcq",q:q.q,o:q.o.slice(),a:q.a,e:q.e||"",tip:q.tip||"",src:"practice",marks:q.marks||1,neg:1/3,lang:q.lang||(q.s==="eng"?"en":"ml"),daily:date+"/"+t.n});add++}));
+  if(add)rebuild()}
+const dtIds=(date,n,data)=>{const t=data.arya.find(x=>x.n===n),k=date.replace(/-/g,"");return t?t.questions.map(q=>`d${k}t${n}q${String(q.n).padStart(2,"0")}`):[]};
+async function dtLoad(date){if(!DT.days[date]){DT.days[date]=await dtDay(date)}dtInject(date,DT.days[date]);return DT.days[date]}
+VIEWS.dailytests=v=>{
+  if(!DT.idx){v.innerHTML=`<div class="ph"><h2>🗓️ Daily Mock Tests</h2><p class="mut">Loading today’s tests…</p></div>`;dtIndex().then(ix=>{DT.idx=ix||[];if(ROUTE==="dailytests")render()}).catch(()=>{DT.idx=[];if(ROUTE==="dailytests")render()});return}
+  const today=new Date(Date.now()+3*36e5).toISOString().slice(0,10),dates=DT.idx.filter(d=>d<=today);
+  if(!dates.length){v.innerHTML=`<div class="ph"><h2>🗓️ Daily Mock Tests</h2></div><section class="card empty"><div class="em">🗓️</div><h3>No daily tests yet</h3><p class="mut">Two new 25-question tests are added every morning at 9:00 AM (Kuwait time)${window.__dailyIndex?"":" in Anoop’s Finance Tracker (📝 Arya PSC)"}. Check back after 9:00.</p><button class="btn" data-go="models">Try an LDC / LGS model exam</button></section>`;return}
+  const sel=DT.sel&&dates.includes(DT.sel)?DT.sel:dates[0];DT.sel=sel;const data=DT.days[sel];
+  if(data===undefined){v.innerHTML=`<div class="ph"><h2>🗓️ Daily Mock Tests</h2><p class="mut">Loading ${esc(fmtD(sel))}…</p></div>`;dtLoad(sel).then(()=>{if(ROUTE==="dailytests")render()});return}
+  if(data)dtInject(sel,data);
+  const tests=P.tests.filter(t=>t.dtest),mine=n=>tests.filter(t=>t.dtest===sel+"/"+n);
+  const card=t=>{const at=mine(t.n),best=at.reduce((m,x)=>Math.max(m,x.score),-1e9),last=at[at.length-1],subs=[...new Set(t.questions.map(q=>q.s))].map(s=>SUBJ[s]?SUBJ[s].i:"").join(" ");
+    return`<section class="card"><div class="row sb"><h3>📝 ${esc(t.title||"Daily Mock Test "+t.n)}</h3>${at.length?`<span class="chip">Best ${best.toFixed(2)} / 25</span>`:`<span class="chip prac">New</span>`}</div>
+     <p class="mut">25 questions · 25 minutes · 1 mark each · −⅓ for a wrong answer</p><p class="small">${subs} ${esc(t.subject||"Mixed subjects")}${t.difficulty?" · "+esc(t.difficulty):""}</p>
+     <div class="row"><button class="btn pri" data-dts="${t.n}">${at.length?"🔄 Retake":"▶ Start test"}</button>${last?`<button class="btn" data-dtr="${last.id}">📊 Last result</button><button class="btn" data-dtv="${last.id}">🔍 Review answers</button>`:""}</div>
+     ${at.length?`<p class="mut small">${at.length} attempt${at.length>1?"s":""} · last: ${last.score.toFixed(2)} / ${last.max} (${last.pct}%)</p>`:""}</section>`};
+  const hist=tests.slice(-15).reverse();
+  v.innerHTML=`<div class="ph"><h2>🗓️ Daily Mock Tests</h2><p class="mut">Two new tests of 25 questions are added every morning at 9:00 AM (Kuwait time). New questions are checked so they don’t repeat earlier ones. Questions are practice questions in the Kerala PSC style, not actual previous papers.</p></div>
+   <section class="card filt"><label>Day <select id="dtDay">${dates.slice(0,60).map(d=>`<option value="${d}" ${d===sel?"selected":""}>${esc(fmtD(d))}${d===today?" (today)":""}</option>`).join("")}</select></label>${sel!==today?`<span class="mut small">Today’s tests appear after 9:00 AM.</span>`:""}</section>
+   ${data?`<div class="g2">${data.arya.map(card).join("")}</div>`:`<section class="card"><p class="mut">Couldn’t load the tests for this day. Check your connection and try again.</p><button class="btn" id="dtRetry">Try again</button></section>`}
+   <section class="card"><h3>📈 Daily test results</h3>${hist.length?`<div class="tw"><table class="tb"><thead><tr><th>Date</th><th>Test</th><th>Score</th><th>Correct</th><th>Wrong</th><th>Unanswered</th><th>Time</th><th></th></tr></thead><tbody>${hist.map(t=>`<tr><td>${fmtD(t.date)}</td><td>${esc(t.title)}</td><td><b class="${t.pct>=60?"ok":t.pct>=40?"mid":"bad"}">${t.score.toFixed(2)} / ${t.max}</b></td><td>${t.cor}</td><td>${t.wrong}</td><td>${t.total-t.att}</td><td>${fmtT(t.time)}</td><td><button class="btn sm" data-dtr="${t.id}">View</button></td></tr>`).join("")}</tbody></table></div>`:`<p class="mut">No daily tests taken yet. Start with today’s Test 1.</p>`}</section>`;
+  $("#dtDay").onchange=e=>{DT.sel=e.target.value;render()};if($("#dtRetry"))$("#dtRetry").onclick=()=>{delete DT.days[sel];render()};
+  v.querySelectorAll("[data-dts]").forEach(b=>b.onclick=()=>{const n=+b.dataset.dts,t=data.arya.find(x=>x.n===n);startSession({mode:"mock",title:`${t.title||"Daily Mock Test "+n} · ${fmtD(sel)}`,ids:dtIds(sel,n,data),limit:25*60,neg:true,shuffleO:P.shuffleO,dtest:sel+"/"+n})});
+  const openRes=async(id,rev)=>{const r=P.tests.find(t=>t.id===id);if(!r)return;if(r.dtest)await dtLoad(r.dtest.split("/")[0]);VIEWQ=r;ROUTE=rev?"review":"result";render()};
+  v.querySelectorAll("[data-dtr]").forEach(b=>b.onclick=()=>openRes(b.dataset.dtr,false));v.querySelectorAll("[data-dtv]").forEach(b=>b.onclick=()=>openRes(b.dataset.dtv,true))};
+
 /* ---------- exam engine ---------- */
 let tick=null;
 function startSession(o){clearInterval(tick);const perm={};if(o.shuffleO)o.ids.forEach(id=>{const q=Q(id);if(q&&["mcq","img","multi"].includes(q.type))perm[id]=shuffle([...q.o.keys()])});
   const D=o.daily?P.daily[o.daily]:null;
-  T={mode:o.mode,title:o.title,ids:o.ids.filter(id=>QMAP.has(id)),i:0,ans:D?D.ans:{},marked:{},visited:{},chk:D?D.chk:{},perm,start:Date.now(),elapsed:0,limit:o.limit||0,neg:!!o.neg,instant:!!o.instant,spent:{},daily:o.daily||null,sec:o.sec||null,model:o.model||null,done:false};
+  T={mode:o.mode,title:o.title,ids:o.ids.filter(id=>QMAP.has(id)),i:0,ans:D?D.ans:{},marked:{},visited:{},chk:D?D.chk:{},perm,start:Date.now(),elapsed:0,limit:o.limit||0,neg:!!o.neg,instant:!!o.instant,spent:{},daily:o.daily||null,sec:o.sec||null,model:o.model||null,dtest:o.dtest||null,done:false};
   if(!T.ids.length)return toast("No questions available.");T.visited[T.ids[0]]=true;persistCur();ROUTE="exam";render()}
 function persistCur(){if(!T||T.done){P.cur=null}else P.cur={title:T.title,t:Object.assign({},T,{elapsed:T.elapsed+(Date.now()-T.start)/1000,start:0})};save()}
 function resume(){if(!P.cur)return;T=Object.assign({},P.cur.t,{start:Date.now()});ROUTE="exam";render()}
@@ -8168,7 +8239,7 @@ function finish(){if(!T||T.done)return;account();stopTick();T.done=true;const tm
   T.ids.forEach(id=>{const q=Q(id),a=T.ans[id];max+=q.marks||1;const s=sub[q.s]||(sub[q.s]={n:0,c:0,t:0});s.t++;if(!answered(q,a))return;att++;s.n++;const ok=isRight(q,a);if(ok){cor++;s.c++;sc+=q.marks||1}else{wr++;if(T.neg)sc-=(q.neg??1/3)}
     if(!(T.daily&&T.chk[id]))recordOne(id,a)});
   if(T.daily){const D=P.daily[T.daily];D.ans=T.ans;D.chk=Object.fromEntries(T.ids.filter(id=>answered(Q(id),T.ans[id])).map(id=>[id,true]));D.done=true}
-  const res={id:"t"+Date.now(),mode:T.mode,title:T.title,date:today(),ts:Date.now(),total:T.ids.length,att,cor,wrong:wr,score:Math.round(sc*100)/100,max,pct:Math.max(0,Math.round(sc/max*100)),acc:pct(cor,att),time:Math.round(tm),neg:T.neg,sub,ids:T.ids,ans:T.ans,marked:T.marked,spent:T.spent,sec:T.sec,model:T.model,lim:T.limit};
+  const res={id:"t"+Date.now(),mode:T.mode,title:T.title,date:today(),ts:Date.now(),total:T.ids.length,att,cor,wrong:wr,score:Math.round(sc*100)/100,max,pct:Math.max(0,Math.round(sc/max*100)),acc:pct(cor,att),time:Math.round(tm),neg:T.neg,sub,ids:T.ids,ans:T.ans,marked:T.marked,spent:T.spent,sec:T.sec,model:T.model,lim:T.limit,dtest:T.dtest||null};
   P.tests.push(res);if(P.tests.length>60)P.tests=P.tests.slice(-60);P.cur=null;save();VIEWQ=res;T=null;ROUTE="result";render()}
 /* question body + wiring */
 const TXT={en:{A:"Assertion (A):",R:"Reason (R):",st:"Which of the statements given above is/are correct?",multi:"Select all correct answers.",T:"True",F:"False",match:"Choose the matching item from column B for each item in column A.",ch:"— choose —",num:"Type a number",txt:"Type your answer",save:"Save",ok:"✅ Correct",bad:"❌ Wrong",ca:"Correct answer:",tip:"💡 Shortcut:"},ml:{A:"പ്രസ്താവന (A):",R:"കാരണം (R):",st:"മുകളിൽ കൊടുത്ത പ്രസ്താവനകളിൽ ശരിയായത് ഏത്?",multi:"ശരിയായ എല്ലാ ഉത്തരങ്ങളും തിരഞ്ഞെടുക്കുക.",T:"ശരി",F:"തെറ്റ്",match:"A കോളത്തിലെ ഓരോന്നിനും യോജിച്ചത് B കോളത്തിൽ നിന്ന് തിരഞ്ഞെടുക്കുക.",ch:"— തിരഞ്ഞെടുക്കുക —",num:"സംഖ്യ ടൈപ്പ് ചെയ്യുക",txt:"ഉത്തരം ടൈപ്പ് ചെയ്യുക",save:"സേവ്",ok:"✅ ശരി",bad:"❌ തെറ്റ്",ca:"ശരിയായ ഉത്തരം:",tip:"💡 എളുപ്പവഴി:"}};
@@ -8199,7 +8270,7 @@ VIEWS.result=v=>{const r=VIEWQ;if(!r)return VIEWS.home(v);const un=r.total-r.att
   <div class="row center"><button class="btn pri lg" id="rRev">Review answers</button><button class="btn" id="rRetake">Retake this test</button>${r.wrong?`<button class="btn" id="rWrong">Practise the ${r.wrong} wrong answer${r.wrong>1?"s":""}</button>`:""}<button class="btn" data-go="home">Home</button></div>`;
   chart($("#rc1"),{type:"doughnut",data:{labels:["Correct","Wrong","Not attempted"],datasets:[{data:[r.cor,r.wrong,un],backgroundColor:[tok("--ok"),tok("--bad"),tok("--nv")],borderWidth:0}]},options:{maintainAspectRatio:false,plugins:{legend:{position:"bottom"}}}});
   const ks=Object.keys(r.sub);chart($("#rc2"),{type:"bar",data:{labels:ks.map(k=>SUBJ[k]?SUBJ[k].n:k),datasets:[{label:"Correct",data:ks.map(k=>r.sub[k].c),backgroundColor:tok("--ok")},{label:"Wrong",data:ks.map(k=>r.sub[k].n-r.sub[k].c),backgroundColor:tok("--bad")},{label:"Not attempted",data:ks.map(k=>r.sub[k].t-r.sub[k].n),backgroundColor:tok("--nv")}]},options:{indexAxis:"y",maintainAspectRatio:false,scales:{x:{stacked:true,ticks:{precision:0}},y:{stacked:true}},plugins:{legend:{position:"bottom"}}}});
-  $("#rRev").onclick=()=>{ROUTE="review";render()};$("#rRetake").onclick=()=>startSession({mode:r.mode==="daily"?"practice":r.mode,title:r.title.replace(/ \(retake\)$/,"")+" (retake)",ids:r.ids,sec:r.sec,model:r.model,limit:r.lim||(r.mode==="mock"?Math.max(60,r.total*45):0),neg:r.neg,instant:P.instant});
+  $("#rRev").onclick=()=>{ROUTE="review";render()};$("#rRetake").onclick=()=>startSession({mode:r.mode==="daily"?"practice":r.mode,title:r.title.replace(/ \(retake\)$/,"")+" (retake)",ids:r.ids,sec:r.sec,model:r.model,dtest:r.dtest,limit:r.lim||(r.mode==="mock"?Math.max(60,r.total*45):0),neg:r.neg,instant:P.instant});
   if($("#rWrong"))$("#rWrong").onclick=()=>startSession({mode:"practice",title:"Retry wrong answers",ids:r.ids.filter(id=>answered(Q(id),r.ans[id])&&!isRight(Q(id),r.ans[id])),instant:true})};
 let RVF="all";
 VIEWS.review=v=>{const r=VIEWQ;if(!r)return VIEWS.home(v);
