@@ -6977,11 +6977,14 @@ function ngSeed(s){let h=2166136261;for(const c of String(s))h=Math.imul(h^c.cha
 const ngPick=(arr,n,not,r)=>ngShuf(arr.filter(x=>!(not||[]).includes(x)),r).slice(0,n);
 /* ---------- speech ---------- */
 let ngVoice=null;
-function ngVoicePick(){try{const v=speechSynthesis.getVoices();ngVoice=v.find(x=>/en[-_]IN/i.test(x.lang))||v.find(x=>/en[-_](GB|US)/i.test(x.lang)&&/female|samantha|karen|moira|google/i.test(x.name))||v.find(x=>/^en/i.test(x.lang))||null}catch(e){}}
+const NG_FEM=/samantha|veena|karen|moira|tessa|fiona|victoria|serena|allison|ava|susan|kathy|nicky|zoe|isha|neerja|heera|zira|aria|jenny|sonia|libby|natasha|clara|female|woman|girl/i,NG_MALE=/rishi|daniel|alex|fred|aaron|arthur|gordon|oliver|tom|lee|ralph|albert|bruce|junior|david|mark|ravi|prabhat|guy|ryan|william|male\b|\bman\b/i;
+const ngIsFem=v=>NG_FEM.test(v.name)&&!/\bmale\b/i.test(v.name.replace(/female/i,""));
+function ngVoicePick(){try{const v=speechSynthesis.getVoices().filter(x=>/^en/i.test(x.lang)),fem=v.filter(ngIsFem),ok=v.filter(x=>!NG_MALE.test(x.name));
+  ngVoice=fem.find(x=>/en[-_]IN/i.test(x.lang))||fem.find(x=>/samantha|google uk english female|aria|jenny/i.test(x.name))||fem[0]||ok.find(x=>/en[-_]IN/i.test(x.lang))||ok[0]||v[0]||null}catch(e){}}
 try{ngVoicePick();speechSynthesis.onvoiceschanged=ngVoicePick}catch(e){}
 /* ---------- Announcement service: one voice for every game ---------- */
-const NGA_DEF={vol:80,ann:true,music:false,speed:"normal",voice:"",readQ:true,txt:{}};
-const ngAud=()=>NG.audio||(NG.audio=Object.assign({},NGA_DEF));
+const NGA_DEF={vol:80,ann:true,music:false,speed:"normal",voice:"",style:"girl",readQ:true,txt:{}};
+const ngAud=()=>{const A=NG.audio||(NG.audio=Object.assign({},NGA_DEF));if(!A.style)A.style="girl";return A};
 const NGA_PH=[
  ["Welcome",[["intro",""],["welcome","Good morning, {name}! Welcome to your learning games! Are you ready to learn, play, and have lots of fun? Today we have some exciting activities for you. Let’s learn our letters, numbers, colors, and shapes. Are you ready? Let’s start the game! Yay!"]]],
  ["Today’s Challenge",[["daily","Hello, {name}! It’s time for today’s learning challenge! You have three fun activities to complete. Are you ready? Let’s begin!"]]],
@@ -7006,8 +7009,8 @@ const ngClipReady=(async()=>{ngClipLs();await ngClipLoad()})();
 /* playback: one thing at a time, newest wins */
 let ngCur=null,ngPaused=false,ngSeq=0;
 function ngStop(){ngSeq++;try{speechSynthesis.cancel()}catch(e){}if(ngCur){try{ngCur.pause()}catch(e){}ngCur=null}}
-function ngSpeakTTS(t,seq){return new Promise(res=>{try{const A=ngAud(),u=new SpeechSynthesisUtterance(t),vs=speechSynthesis.getVoices(),v=(A.voice&&vs.find(x=>x.voiceURI===A.voice))||ngVoice;if(v){u.voice=v;u.lang=v.lang}else u.lang="en-IN";
-  u.rate=A.speed==="slow"?.72:.9;u.pitch=1.12;u.volume=Math.max(0,Math.min(1,A.vol/100));let done=false;const fin=()=>{if(!done){done=true;res()}};u.onend=fin;u.onerror=fin;setTimeout(fin,Math.min(20000,1500+t.length*110));speechSynthesis.speak(u)}catch(e){res()}})}
+function ngSpeakTTS(t,seq){return new Promise(res=>{try{const A=ngAud(),u=new SpeechSynthesisUtterance(t),vs=speechSynthesis.getVoices(),v=(A.voice&&vs.find(x=>x.voiceURI===A.voice))||ngVoice;try{if(v){u.voice=v;u.lang=v.lang}else u.lang="en-IN"}catch(e){u.lang=(v&&v.lang)||"en-IN"}
+  const st=A.style||"girl";u.pitch=st==="girl"?1.55:st==="lady"?1.12:1;u.rate=(A.speed==="slow"?.74:.92)+(st==="girl"?.04:0);u.volume=Math.max(0,Math.min(1,A.vol/100));let done=false;const fin=()=>{if(!done){done=true;res()}};u.onend=fin;u.onerror=fin;setTimeout(fin,Math.min(20000,1500+t.length*110));speechSynthesis.speak(u)}catch(e){res()}})}
 function ngPlayClip(u,seq){return new Promise(res=>{try{const A=ngAud(),a=new Audio(u);a.volume=Math.max(0,Math.min(1,A.vol/100));a.playbackRate=A.speed==="slow"?.85:1;try{a.preservesPitch=true}catch(e){}ngCur=a;let done=false;const fin=()=>{if(!done){done=true;if(ngCur===a)ngCur=null;res()}};a.onended=fin;a.onerror=fin;const p=a.play();if(p&&p.catch)p.catch(fin)}catch(e){res()}})}
 /* say(): queue of parts; a part is {id} (announcement) or {t} (instruction text) */
 async function ngSayParts(parts,interrupt){if(!NG.sound||ngPaused)return;if(interrupt!==false)ngStop();const seq=ngSeq,A=ngAud();
@@ -7322,7 +7325,8 @@ function ngAudioHtml(){const A=ngAud(),rec=NGA_IDS.filter(i=>NGA_CLIP.has(i)).le
     <label class="ng-ck"><input type="checkbox" id="naMus" ${A.music?"checked":""}> Background music</label>
     <label>Volume <b id="naVolV">${A.vol}%</b><input type="range" id="naVol" min="0" max="100" step="5" value="${A.vol}"></label>
     <label>Voice speed<select id="naSpd"><option value="normal" ${A.speed!=="slow"?"selected":""}>Normal</option><option value="slow" ${A.speed==="slow"?"selected":""}>Slow</option></select></label>
-    <label>Device voice (for questions and unrecorded lines)<select id="naVoice"><option value="">Automatic</option>${vs.map(v=>`<option value="${esc(v.voiceURI)}" ${A.voice===v.voiceURI?"selected":""}>${esc(v.name)} (${esc(v.lang)})</option>`).join("")}</select></label>
+    <label>Voice style<select id="naSty"><option value="girl" ${A.style==="girl"?"selected":""}>👧 Girl (young, bright)</option><option value="lady" ${A.style==="lady"?"selected":""}>👩 Lady</option><option value="device" ${A.style==="device"?"selected":""}>Device default</option></select></label>
+    <label>Device voice (for questions and unrecorded lines)<select id="naVoice"><option value="">Automatic — female voice</option>${vs.map(v=>`<option value="${esc(v.voiceURI)}" ${A.voice===v.voiceURI?"selected":""}>${ngIsFem(v)?"👧 ":""}${esc(v.name)} (${esc(v.lang)})</option>`).join("")}</select></label>
    </div>
    <p class="ng-note">🎙️ To use a family voice, ${canRec?"tap <b>Record</b> on each line and read it out (or upload an audio file)":"upload an audio file for each line (recording with the microphone works on the public website or the offline copy; in the Claude app use <b>Upload</b>)"}. Only use recordings of people who are happy for them to be used here. Recordings stay on this device and are included in the workbook backup.</p>
    ${NGA_PH.map(([g,L])=>`<h4 class="ng-ag">${esc(g)}</h4>${L.map(([id])=>`<div class="ng-ar" data-aid="${id}"><div class="ng-at">${id==="intro"?`<p class="ng-intro"><b>Her own hello (optional)</b> — a recording of ${esc(ngKid())} herself (like her “Good morning, everyone, my name is…”). It plays just before the welcome when the games open.</p>`:`<textarea rows="2" data-atxt="${id}" aria-label="Words for this announcement">${esc(ngAud().txt[id]||NGA_TXT[id])}</textarea>`}<span class="ng-as ${NGA_CLIP.has(id)?"on":""}">${NGA_CLIP.has(id)?"🎙️ Recorded voice":id==="intro"?"Not added":"Device voice"}</span></div>
@@ -7331,7 +7335,7 @@ let ngRecSt=null;
 function ngWireAudio(el,rerender){const A=ngAud(),sv=()=>{ngSave();ngMusicSync()};
   $("#naSnd").onchange=e=>{NG.sound=e.target.checked;if(!NG.sound)ngStop();sv()};$("#naAnn").onchange=e=>{A.ann=e.target.checked;sv()};$("#naQ").onchange=e=>{A.readQ=e.target.checked;sv()};$("#naMus").onchange=e=>{A.music=e.target.checked;sv()};
   $("#naVol").oninput=e=>{A.vol=+e.target.value;$("#naVolV").textContent=A.vol+"%"};$("#naVol").onchange=()=>{sv();ngSayParts([{id:"ok.3"}])};
-  $("#naSpd").onchange=e=>{A.speed=e.target.value;sv()};$("#naVoice").onchange=e=>{A.voice=e.target.value;sv();ngSay("Hello "+ngKid()+"! This is my voice.")};
+  $("#naSpd").onchange=e=>{A.speed=e.target.value;sv()};$("#naSty").onchange=e=>{A.style=e.target.value;sv();ngSay("Hello "+ngKid()+"! Let's play and learn!")};$("#naVoice").onchange=e=>{A.voice=e.target.value;sv();ngSay("Hello "+ngKid()+"! This is my voice.")};
   el.querySelectorAll("[data-atxt]").forEach(t=>t.onchange=()=>{const id=t.dataset.atxt,v=t.value.trim();if(!v||v===NGA_TXT[id])delete A.txt[id];else A.txt[id]=v;ngSave()});
   el.querySelectorAll("[data-aplay]").forEach(b=>b.onclick=()=>{const was=ngPaused;ngPaused=false;const s=NG.sound,an=A.ann;NG.sound=true;A.ann=true;ngSayParts([{id:b.dataset.aplay}]);NG.sound=s;A.ann=an;ngPaused=was});
   el.querySelectorAll("[data-adel]").forEach(b=>b.onclick=async()=>{await ngClipDel(b.dataset.adel);rerender()});
