@@ -1,0 +1,1426 @@
+{
+ "date": "2026-10-07",
+ "key": "DAILY_LEARNING_2026_10_07",
+ "generatedAt": "2026-10-07T05:51:32.083Z",
+ "source": "scheduled",
+ "navamika": [
+  {
+   "id": "fruit-names",
+   "type": "fruits",
+   "title": "Yummy Fruits",
+   "desc": "Find the fruit!",
+   "difficulty": "easy",
+   "instructions": "Listen and tap the right fruit.",
+   "questions": [
+    {
+     "q": "Which one is the BANANA?",
+     "options": [
+      {
+       "e": "🍎",
+       "t": "Apple"
+      },
+      {
+       "e": "🍌",
+       "t": "Banana"
+      },
+      {
+       "e": "🍇",
+       "t": "Grapes"
+      }
+     ],
+     "answer": 1,
+     "good": "Yes! The banana is yellow and long!"
+    },
+    {
+     "q": "Which one is the APPLE?",
+     "options": [
+      {
+       "e": "🍎",
+       "t": "Apple"
+      },
+      {
+       "e": "🍊",
+       "t": "Orange"
+      },
+      {
+       "e": "🍓",
+       "t": "Strawberry"
+      }
+     ],
+     "answer": 0,
+     "good": "Crunchy apple! Well done!"
+    },
+    {
+     "q": "Which one is the WATERMELON?",
+     "options": [
+      {
+       "e": "🍒",
+       "t": "Cherry"
+      },
+      {
+       "e": "🍍",
+       "t": "Pineapple"
+      },
+      {
+       "e": "🍉",
+       "t": "Watermelon"
+      }
+     ],
+     "answer": 2,
+     "good": "Juicy watermelon! Great job!"
+    },
+    {
+     "q": "Which one is the GRAPES?",
+     "options": [
+      {
+       "e": "🍌",
+       "t": "Banana"
+      },
+      {
+       "e": "🍉",
+       "t": "Watermelon"
+      },
+      {
+       "e": "🍎",
+       "t": "Apple"
+      },
+      {
+       "e": "🍇",
+       "t": "Grapes"
+      }
+     ],
+     "answer": 3,
+     "good": "Lots of little grapes! Yay!"
+    },
+    {
+     "q": "Which one is the STRAWBERRY?",
+     "options": [
+      {
+       "e": "🍓",
+       "t": "Strawberry"
+      },
+      {
+       "e": "🍋",
+       "t": "Lemon"
+      },
+      {
+       "e": "🍐",
+       "t": "Pear"
+      }
+     ],
+     "answer": 0,
+     "good": "Red and sweet strawberry!"
+    },
+    {
+     "q": "Which one is the PINEAPPLE?",
+     "options": [
+      {
+       "e": "🍊",
+       "t": "Orange"
+      },
+      {
+       "e": "🍍",
+       "t": "Pineapple"
+      },
+      {
+       "e": "🍒",
+       "t": "Cherry"
+      }
+     ],
+     "answer": 1,
+     "good": "Spiky pineapple! You got it!"
+    }
+   ]
+  },
+  {
+   "id": "colour-things",
+   "type": "colors",
+   "title": "What Colour Is It?",
+   "desc": "Match things to colours",
+   "difficulty": "easy",
+   "instructions": "Look at the picture and tap its colour.",
+   "questions": [
+    {
+     "q": "What colour is the banana?",
+     "show": "🍌",
+     "options": [
+      {
+       "c": "#FF3B30",
+       "t": "Red"
+      },
+      {
+       "c": "#FFD60A",
+       "t": "Yellow"
+      },
+      {
+       "c": "#007AFF",
+       "t": "Blue"
+      }
+     ],
+     "answer": 1,
+     "good": "Yellow banana! Super!"
+    },
+    {
+     "q": "What colour is the leaf?",
+     "show": "🍃",
+     "options": [
+      {
+       "c": "#34C759",
+       "t": "Green"
+      },
+      {
+       "c": "#FF9500",
+       "t": "Orange"
+      },
+      {
+       "c": "#AF52DE",
+       "t": "Purple"
+      }
+     ],
+     "answer": 0,
+     "good": "Leaves are green! Great!"
+    },
+    {
+     "q": "What colour is the strawberry?",
+     "show": "🍓",
+     "options": [
+      {
+       "c": "#007AFF",
+       "t": "Blue"
+      },
+      {
+       "c": "#FFD60A",
+       "t": "Yellow"
+      },
+      {
+       "c": "#FF3B30",
+       "t": "Red"
+      }
+     ],
+     "answer": 2,
+     "good": "Red strawberry! Yummy!"
+    },
+    {
+     "q": "What colour is the orange?",
+     "show": "🍊",
+     "options": [
+      {
+       "c": "#34C759",
+       "t": "Green"
+      },
+      {
+       "c": "#AF52DE",
+       "t": "Purple"
+      },
+      {
+       "c": "#007AFF",
+       "t": "Blue"
+      },
+      {
+       "c": "#FF9500",
+       "t": "Orange"
+      }
+     ],
+     "answer": 3,
+     "good": "An orange is orange! Clever!"
+    },
+    {
+     "q": "What colour are the grapes?",
+     "show": "🍇",
+     "options": [
+      {
+       "c": "#AF52DE",
+       "t": "Purple"
+      },
+      {
+       "c": "#FFD60A",
+       "t": "Yellow"
+      },
+      {
+       "c": "#34C759",
+       "t": "Green"
+      }
+     ],
+     "answer": 0,
+     "good": "Purple grapes! Well done!"
+    },
+    {
+     "q": "What colour is the sky on a sunny day?",
+     "show": "☀️",
+     "options": [
+      {
+       "c": "#FF3B30",
+       "t": "Red"
+      },
+      {
+       "c": "#007AFF",
+       "t": "Blue"
+      },
+      {
+       "c": "#FF9500",
+       "t": "Orange"
+      }
+     ],
+     "answer": 1,
+     "good": "The sky is blue! Yay!"
+    }
+   ]
+  },
+  {
+   "id": "what-comes-next",
+   "type": "puzzles",
+   "title": "What Comes Next?",
+   "desc": "Finish the pattern",
+   "difficulty": "medium",
+   "instructions": "Look at the pattern. What comes next?",
+   "questions": [
+    {
+     "q": "What comes next?",
+     "show": "🍎🍌🍎🍌🍎 ?",
+     "options": [
+      {
+       "e": "🍎",
+       "t": "Apple"
+      },
+      {
+       "e": "🍌",
+       "t": "Banana"
+      },
+      {
+       "e": "🍇",
+       "t": "Grapes"
+      }
+     ],
+     "answer": 1,
+     "good": "Apple, banana, apple, banana! Yes!"
+    },
+    {
+     "q": "What comes next?",
+     "show": "⭐🌙⭐🌙 ?",
+     "options": [
+      {
+       "e": "⭐",
+       "t": "Star"
+      },
+      {
+       "e": "☀️",
+       "t": "Sun"
+      },
+      {
+       "e": "🌙",
+       "t": "Moon"
+      }
+     ],
+     "answer": 0,
+     "good": "Star comes next! Twinkle twinkle!"
+    },
+    {
+     "q": "What comes next?",
+     "show": "🐶🐱🐶🐱 ?",
+     "options": [
+      {
+       "e": "🐱",
+       "t": "Cat"
+      },
+      {
+       "e": "🐭",
+       "t": "Mouse"
+      },
+      {
+       "e": "🐶",
+       "t": "Dog"
+      }
+     ],
+     "answer": 2,
+     "good": "Dog, cat, dog, cat, dog! Great!"
+    },
+    {
+     "q": "What comes next?",
+     "show": "1, 2, 3, ?",
+     "options": [
+      {
+       "t": "5"
+      },
+      {
+       "t": "4"
+      },
+      {
+       "t": "1"
+      }
+     ],
+     "answer": 1,
+     "good": "4 comes after 3! Super counting!"
+    },
+    {
+     "q": "What comes next?",
+     "show": "🔴🔵🔴🔵 ?",
+     "options": [
+      {
+       "c": "#34C759",
+       "t": "Green"
+      },
+      {
+       "c": "#007AFF",
+       "t": "Blue"
+      },
+      {
+       "c": "#FFD60A",
+       "t": "Yellow"
+      },
+      {
+       "c": "#FF3B30",
+       "t": "Red"
+      }
+     ],
+     "answer": 3,
+     "good": "Red comes next! Well done!"
+    },
+    {
+     "q": "What comes next?",
+     "show": "🌸🌸🍀🌸🌸 ?",
+     "options": [
+      {
+       "e": "🍀",
+       "t": "Clover"
+      },
+      {
+       "e": "🌸",
+       "t": "Flower"
+      },
+      {
+       "e": "🍁",
+       "t": "Leaf"
+      }
+     ],
+     "answer": 0,
+     "good": "Flower, flower, clover! You did it!"
+    }
+   ]
+  },
+  {
+   "id": "my-body",
+   "type": "vocabulary",
+   "title": "My Body",
+   "desc": "Name the body parts",
+   "difficulty": "easy",
+   "instructions": "Listen and tap the right picture.",
+   "questions": [
+    {
+     "q": "What do we see with?",
+     "options": [
+      {
+       "e": "👂",
+       "t": "Ear"
+      },
+      {
+       "e": "👀",
+       "t": "Eyes"
+      },
+      {
+       "e": "👃",
+       "t": "Nose"
+      }
+     ],
+     "answer": 1,
+     "good": "We see with our eyes!"
+    },
+    {
+     "q": "What do we hear with?",
+     "options": [
+      {
+       "e": "👂",
+       "t": "Ear"
+      },
+      {
+       "e": "👄",
+       "t": "Mouth"
+      },
+      {
+       "e": "🦶",
+       "t": "Foot"
+      }
+     ],
+     "answer": 0,
+     "good": "We hear with our ears!"
+    },
+    {
+     "q": "What do we smell with?",
+     "options": [
+      {
+       "e": "✋",
+       "t": "Hand"
+      },
+      {
+       "e": "👀",
+       "t": "Eyes"
+      },
+      {
+       "e": "👃",
+       "t": "Nose"
+      }
+     ],
+     "answer": 2,
+     "good": "Sniff sniff! Our nose smells!"
+    },
+    {
+     "q": "What do we wave hello with?",
+     "options": [
+      {
+       "e": "🦶",
+       "t": "Foot"
+      },
+      {
+       "e": "👂",
+       "t": "Ear"
+      },
+      {
+       "e": "👃",
+       "t": "Nose"
+      },
+      {
+       "e": "👋",
+       "t": "Hand"
+      }
+     ],
+     "answer": 3,
+     "good": "Wave hello with your hand! Hi!"
+    },
+    {
+     "q": "What do we walk with?",
+     "options": [
+      {
+       "e": "🦶",
+       "t": "Feet"
+      },
+      {
+       "e": "👄",
+       "t": "Mouth"
+      },
+      {
+       "e": "👀",
+       "t": "Eyes"
+      }
+     ],
+     "answer": 0,
+     "good": "We walk with our feet! Step step!"
+    },
+    {
+     "q": "What do we eat with?",
+     "options": [
+      {
+       "e": "👂",
+       "t": "Ear"
+      },
+      {
+       "e": "👄",
+       "t": "Mouth"
+      },
+      {
+       "e": "✋",
+       "t": "Hand"
+      }
+     ],
+     "answer": 1,
+     "good": "Yum! We eat with our mouth!"
+    }
+   ]
+  },
+  {
+   "id": "trace-1-to-5",
+   "type": "tracing",
+   "title": "Trace 1 to 5",
+   "desc": "Draw the numbers",
+   "difficulty": "easy",
+   "instructions": "Follow the dots with your finger.",
+   "chars": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ]
+  },
+  {
+   "id": "farm-memory",
+   "type": "memory",
+   "title": "Farm Friends Memory",
+   "desc": "Find the matching animals",
+   "difficulty": "medium",
+   "instructions": "Tap two cards to find a pair.",
+   "pairs": [
+    "🐄",
+    "🐷",
+    "🐔",
+    "🐑"
+   ]
+  }
+ ],
+ "arya": [
+  {
+   "n": 1,
+   "title": "Daily Mock Test 1",
+   "subject": "Mixed (LDC pattern)",
+   "difficulty": "medium",
+   "questions": [
+    {
+     "n": 1,
+     "q": "നിസ്സഹകരണ പ്രസ്ഥാനം ആരംഭിച്ച വർഷം:",
+     "o": [
+      "1920",
+      "1919",
+      "1922",
+      "1930"
+     ],
+     "a": 0,
+     "e": "1920-ലാണ് ഗാന്ധിജി നിസ്സഹകരണ പ്രസ്ഥാനം ആരംഭിച്ചത്.",
+     "s": "ih",
+     "t": "National movement",
+     "d": "easy",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 2,
+     "q": "ബംഗാൾ വിഭജനം റദ്ദാക്കിയ വർഷം:",
+     "o": [
+      "1905",
+      "1919",
+      "1911",
+      "1915"
+     ],
+     "a": 2,
+     "e": "1905-ലെ ബംഗാൾ വിഭജനം 1911-ൽ റദ്ദാക്കി.",
+     "s": "ih",
+     "t": "Modern India",
+     "d": "medium",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 3,
+     "q": "വയനാട്ടിൽ കുറിച്യ കലാപം നടന്ന വർഷം:",
+     "o": [
+      "1857",
+      "1812",
+      "1721",
+      "1921"
+     ],
+     "a": 1,
+     "e": "കുറിച്യ കലാപം 1812-ലാണ് നടന്നത്.",
+     "s": "kh",
+     "t": "Revolts",
+     "d": "medium",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 4,
+     "q": "ശ്രീനാരായണ ഗുരു അരുവിപ്പുറം ശിവപ്രതിഷ്ഠ നടത്തിയ വർഷം:",
+     "o": [
+      "1903",
+      "1891",
+      "1924",
+      "1888"
+     ],
+     "a": 3,
+     "e": "1888-ലാണ് അരുവിപ്പുറം പ്രതിഷ്ഠ നടന്നത്.",
+     "s": "kh",
+     "t": "Renaissance",
+     "d": "medium",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 5,
+     "q": "ഇരവികുളം ദേശീയോദ്യാനം സ്ഥിതി ചെയ്യുന്ന ജില്ല:",
+     "o": [
+      "വയനാട്",
+      "ഇടുക്കി",
+      "പാലക്കാട്",
+      "പത്തനംതിട്ട"
+     ],
+     "a": 1,
+     "e": "ഇരവികുളം ദേശീയോദ്യാനം ഇടുക്കി ജില്ലയിലാണ്.",
+     "s": "geo",
+     "t": "National parks",
+     "d": "easy",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 6,
+     "q": "ലോകത്തിലെ ഏറ്റവും വലിയ ഭൂഖണ്ഡം:",
+     "o": [
+      "ആഫ്രിക്ക",
+      "യൂറോപ്പ്",
+      "ഓസ്ട്രേലിയ",
+      "ഏഷ്യ"
+     ],
+     "a": 3,
+     "e": "ഏറ്റവും വലിയ ഭൂഖണ്ഡം ഏഷ്യ ആണ്.",
+     "s": "geo",
+     "t": "World",
+     "d": "easy",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 7,
+     "q": "കേരളത്തിലെ ജില്ലകളുടെ എണ്ണം:",
+     "o": [
+      "14",
+      "12",
+      "13",
+      "15"
+     ],
+     "a": 0,
+     "e": "കേരളത്തിൽ 14 ജില്ലകളുണ്ട്.",
+     "s": "geo",
+     "t": "Kerala districts",
+     "d": "easy",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 8,
+     "q": "ഇന്ത്യൻ ഭരണഘടനയിലെ മൗലികാവകാശങ്ങൾ എന്ന ആശയം കടമെടുത്തത് ഏത് രാജ്യത്തിന്റെ ഭരണഘടനയിൽ നിന്നാണ്?",
+     "o": [
+      "ബ്രിട്ടൻ",
+      "കാനഡ",
+      "അമേരിക്ക (USA)",
+      "അയർലൻഡ്"
+     ],
+     "a": 2,
+     "e": "മൗലികാവകാശങ്ങൾ അമേരിക്കൻ (USA) ഭരണഘടനയിൽ നിന്നാണ് കടമെടുത്തത്.",
+     "s": "con",
+     "t": "Sources of constitution",
+     "d": "medium",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 9,
+     "q": "ലോക്സഭയിലേക്ക് മത്സരിക്കാനുള്ള കുറഞ്ഞ പ്രായം:",
+     "o": [
+      "25 വയസ്സ്",
+      "18 വയസ്സ്",
+      "21 വയസ്സ്",
+      "30 വയസ്സ്"
+     ],
+     "a": 0,
+     "e": "ലോക്സഭാംഗമാകാൻ കുറഞ്ഞത് 25 വയസ്സ് വേണം.",
+     "s": "con",
+     "t": "Parliament",
+     "d": "medium",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 10,
+     "q": "കേരളത്തിലെ ആദ്യ മുഖ്യമന്ത്രി:",
+     "o": [
+      "പട്ടം താണുപിള്ള",
+      "സി. അച്യുതമേനോൻ",
+      "ഇ.എം.എസ്. നമ്പൂതിരിപ്പാട്",
+      "ആർ. ശങ്കർ"
+     ],
+     "a": 2,
+     "e": "1957-ൽ ഇ.എം.എസ്. നമ്പൂതിരിപ്പാട് കേരളത്തിലെ ആദ്യ മുഖ്യമന്ത്രിയായി.",
+     "s": "kga",
+     "t": "Kerala government",
+     "d": "easy",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 11,
+     "q": "സാധാരണ ഉപ്പിന്റെ രാസനാമം:",
+     "o": [
+      "സോഡിയം ബൈകാർബണേറ്റ്",
+      "സോഡിയം ക്ലോറൈഡ്",
+      "കാൽസ്യം കാർബണേറ്റ്",
+      "പൊട്ടാസ്യം ക്ലോറൈഡ്"
+     ],
+     "a": 1,
+     "e": "സാധാരണ ഉപ്പ് സോഡിയം ക്ലോറൈഡ് (NaCl) ആണ്.",
+     "s": "sci",
+     "t": "Chemistry",
+     "d": "easy",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 12,
+     "q": "മനുഷ്യശരീരത്തിലെ ഏറ്റവും വലിയ അവയവം:",
+     "o": [
+      "കരൾ",
+      "ശ്വാസകോശം",
+      "ഹൃദയം",
+      "ത്വക്ക്"
+     ],
+     "a": 3,
+     "e": "ശരീരത്തിലെ ഏറ്റവും വലിയ അവയവം ത്വക്ക് ആണ്.",
+     "s": "sci",
+     "t": "Human body",
+     "d": "easy",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 13,
+     "q": "വൈദ്യുത പ്രവാഹത്തിന്റെ SI യൂണിറ്റ്:",
+     "o": [
+      "വോൾട്ട്",
+      "ആമ്പിയർ",
+      "ഓം",
+      "വാട്ട്"
+     ],
+     "a": 1,
+     "e": "വൈദ്യുത പ്രവാഹത്തിന്റെ SI യൂണിറ്റ് ആമ്പിയർ ആണ്.",
+     "s": "sci",
+     "t": "Physics",
+     "d": "medium",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 14,
+     "q": "എലിപ്പനി (ലെപ്റ്റോസ്പൈറോസിസ്) ഉണ്ടാക്കുന്ന രോഗാണു ഏത് വിഭാഗത്തിൽപ്പെടുന്നു?",
+     "o": [
+      "വൈറസ്",
+      "ഫംഗസ്",
+      "പ്രോട്ടോസോവ",
+      "ബാക്ടീരിയ"
+     ],
+     "a": 3,
+     "e": "ലെപ്റ്റോസ്പൈറ എന്ന ബാക്ടീരിയയാണ് എലിപ്പനിക്ക് കാരണം.",
+     "s": "ph",
+     "t": "Communicable diseases",
+     "d": "medium",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 15,
+     "q": "കോവിഡ്-19 രോഗത്തിന് കാരണമായ രോഗാണു ഏത് വിഭാഗത്തിൽപ്പെടുന്നു?",
+     "o": [
+      "വൈറസ്",
+      "ബാക്ടീരിയ",
+      "ഫംഗസ്",
+      "പ്രോട്ടോസോവ"
+     ],
+     "a": 0,
+     "e": "കോവിഡ്-19 ഉണ്ടാക്കുന്നത് SARS-CoV-2 എന്ന വൈറസാണ്.",
+     "s": "ph",
+     "t": "Communicable diseases",
+     "d": "easy",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 16,
+     "q": "500, 1000 രൂപ നോട്ടുകൾ പിൻവലിച്ച നോട്ട് നിരോധനം ഇന്ത്യയിൽ പ്രഖ്യാപിച്ച വർഷം:",
+     "o": [
+      "2014",
+      "2017",
+      "2016",
+      "2019"
+     ],
+     "a": 2,
+     "e": "2016 നവംബർ 8-നാണ് നോട്ട് നിരോധനം പ്രഖ്യാപിച്ചത്.",
+     "s": "econ",
+     "t": "Currency",
+     "d": "medium",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 17,
+     "q": "താഴെ പറയുന്നവയിൽ ഔട്ട്പുട്ട് ഉപകരണം ഏത്?",
+     "o": [
+      "പ്രിന്റർ",
+      "മൗസ്",
+      "സ്കാനർ",
+      "കീബോർഡ്"
+     ],
+     "a": 0,
+     "e": "പ്രിന്റർ ഒരു ഔട്ട്പുട്ട് ഉപകരണമാണ്.",
+     "s": "comp",
+     "t": "Hardware",
+     "d": "easy",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 18,
+     "q": "36-ന്റെ 25% എത്ര?",
+     "o": [
+      "6",
+      "12",
+      "9",
+      "8"
+     ],
+     "a": 2,
+     "e": "36 × 25/100 = 9.",
+     "s": "math",
+     "t": "Percentage",
+     "d": "easy",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 19,
+     "q": "ഒരാൾ 6 ദിവസം കൊണ്ട് ചെയ്യുന്ന ജോലി അതേ വേഗത്തിൽ ജോലി ചെയ്യുന്ന 3 പേർ ചേർന്ന് എത്ര ദിവസം കൊണ്ട് ചെയ്യും?",
+     "o": [
+      "3",
+      "2",
+      "18",
+      "4"
+     ],
+     "a": 1,
+     "e": "6 ÷ 3 = 2 ദിവസം.",
+     "s": "math",
+     "t": "Time and work",
+     "d": "medium",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 20,
+     "q": "120-ന്റെ 3/4 ഭാഗം എത്ര?",
+     "o": [
+      "80",
+      "60",
+      "100",
+      "90"
+     ],
+     "a": 3,
+     "e": "120 × 3/4 = 90.",
+     "s": "math",
+     "t": "Fractions",
+     "d": "easy",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 21,
+     "q": "ശ്രേണിയിലെ അടുത്ത സംഖ്യ: 1, 4, 9, 16, 25, ?",
+     "o": [
+      "30",
+      "36",
+      "35",
+      "49"
+     ],
+     "a": 1,
+     "e": "വർഗ്ഗസംഖ്യകൾ: 6² = 36.",
+     "s": "ment",
+     "t": "Number series",
+     "d": "easy",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 22,
+     "q": "Which word is spelt correctly: \"to provide space for someone\"?",
+     "o": [
+      "Acommodate",
+      "Accomodate",
+      "Acomodate",
+      "Accommodate"
+     ],
+     "a": 3,
+     "e": "The correct spelling is \"Accommodate\".",
+     "s": "eng",
+     "t": "Spelling",
+     "d": "medium",
+     "marks": 1,
+     "lang": "en"
+    },
+    {
+     "n": 23,
+     "q": "Choose the word opposite in meaning to \"Victory\":",
+     "o": [
+      "Defeat",
+      "Success",
+      "Triumph",
+      "Win"
+     ],
+     "a": 0,
+     "e": "The opposite of \"Victory\" is \"Defeat\".",
+     "s": "eng",
+     "t": "Antonyms",
+     "d": "easy",
+     "marks": 1,
+     "lang": "en"
+    },
+    {
+     "n": 24,
+     "q": "‘അമ്മ’ എന്ന പദത്തിന്റെ പര്യായം:",
+     "o": [
+      "ജനകൻ",
+      "സോദരി",
+      "ജനനി",
+      "പുത്രി"
+     ],
+     "a": 2,
+     "e": "‘ജനനി’ എന്നത് അമ്മ എന്നതിന്റെ പര്യായമാണ്.",
+     "s": "mal",
+     "t": "Synonyms",
+     "d": "hard",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 25,
+     "q": "ഇന്ത്യയുടെ ദേശീയ പക്ഷി:",
+     "o": [
+      "മയിൽ",
+      "വേഴാമ്പൽ",
+      "പ്രാവ്",
+      "കുയിൽ"
+     ],
+     "a": 0,
+     "e": "ഇന്ത്യയുടെ ദേശീയ പക്ഷി മയിൽ ആണ്.",
+     "s": "gk",
+     "t": "National symbols",
+     "d": "easy",
+     "marks": 1,
+     "lang": "ml"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Daily Mock Test 2",
+   "subject": "Mixed (LDC pattern)",
+   "difficulty": "medium",
+   "questions": [
+    {
+     "n": 1,
+     "q": "സൈമൺ കമ്മീഷൻ ഇന്ത്യയിലെത്തിയ വർഷം:",
+     "o": [
+      "1928",
+      "1927",
+      "1930",
+      "1919"
+     ],
+     "a": 0,
+     "e": "സൈമൺ കമ്മീഷൻ 1928-ൽ ഇന്ത്യയിലെത്തി.",
+     "s": "ih",
+     "t": "National movement",
+     "d": "medium",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 2,
+     "q": "ഗാന്ധിജി ദക്ഷിണാഫ്രിക്കയിൽ നിന്ന് ഇന്ത്യയിൽ തിരിച്ചെത്തിയ വർഷം:",
+     "o": [
+      "1917",
+      "1919",
+      "1915",
+      "1909"
+     ],
+     "a": 2,
+     "e": "1915 ജനുവരി 9-ന് ഗാന്ധിജി ഇന്ത്യയിൽ തിരിച്ചെത്തി.",
+     "s": "ih",
+     "t": "National movement",
+     "d": "medium",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 3,
+     "q": "ഇന്ത്യയുടെ ആദ്യ വനിതാ പ്രധാനമന്ത്രി:",
+     "o": [
+      "സരോജിനി നായിഡു",
+      "ഇന്ദിരാഗാന്ധി",
+      "പ്രതിഭാ പാട്ടീൽ",
+      "സുചേത കൃപലാനി"
+     ],
+     "a": 1,
+     "e": "ഇന്ദിരാഗാന്ധിയാണ് ആദ്യ വനിതാ പ്രധാനമന്ത്രി.",
+     "s": "ih",
+     "t": "Post-independence",
+     "d": "easy",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 4,
+     "q": "പഴശ്ശിരാജ ഏത് രാജവംശത്തിലെ അംഗമായിരുന്നു?",
+     "o": [
+      "കോഴിക്കോട്",
+      "വേണാട്",
+      "കൊച്ചി",
+      "കോട്ടയം"
+     ],
+     "a": 3,
+     "e": "പഴശ്ശിരാജ (കേരളവർമ്മ) കോട്ടയം രാജവംശാംഗമായിരുന്നു.",
+     "s": "kh",
+     "t": "Kerala history",
+     "d": "medium",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 5,
+     "q": "SNDP യോഗം സ്ഥാപിതമായ വർഷം:",
+     "o": [
+      "1888",
+      "1903",
+      "1914",
+      "1924"
+     ],
+     "a": 1,
+     "e": "SNDP യോഗം 1903-ൽ സ്ഥാപിതമായി.",
+     "s": "kh",
+     "t": "Renaissance",
+     "d": "easy",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 6,
+     "q": "ഏറ്റവും കൂടുതൽ സംസ്ഥാനങ്ങളുമായി അതിർത്തി പങ്കിടുന്ന ഇന്ത്യൻ സംസ്ഥാനം:",
+     "o": [
+      "മധ്യപ്രദേശ്",
+      "രാജസ്ഥാൻ",
+      "മഹാരാഷ്ട്ര",
+      "ഉത്തർപ്രദേശ്"
+     ],
+     "a": 3,
+     "e": "ഉത്തർപ്രദേശ് 8 സംസ്ഥാനങ്ങളുമായി അതിർത്തി പങ്കിടുന്നു.",
+     "s": "geo",
+     "t": "Indian states",
+     "d": "hard",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 7,
+     "q": "സൈലന്റ് വാലി ദേശീയോദ്യാനം സ്ഥിതി ചെയ്യുന്ന ജില്ല:",
+     "o": [
+      "പാലക്കാട്",
+      "ഇടുക്കി",
+      "വയനാട്",
+      "മലപ്പുറം"
+     ],
+     "a": 0,
+     "e": "സൈലന്റ് വാലി ദേശീയോദ്യാനം പാലക്കാട് ജില്ലയിലാണ്.",
+     "s": "geo",
+     "t": "National parks",
+     "d": "easy",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 8,
+     "q": "സൂര്യനോട് ഏറ്റവും അടുത്തുള്ള ഗ്രഹം:",
+     "o": [
+      "ശുക്രൻ",
+      "ഭൂമി",
+      "ബുധൻ",
+      "ചൊവ്വ"
+     ],
+     "a": 2,
+     "e": "സൂര്യനോട് ഏറ്റവും അടുത്ത ഗ്രഹം ബുധൻ ആണ്.",
+     "s": "geo",
+     "t": "Solar system",
+     "d": "easy",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 9,
+     "q": "‘ഭരണഘടനയുടെ കാവൽക്കാരൻ’ എന്നറിയപ്പെടുന്നത്:",
+     "o": [
+      "സുപ്രീം കോടതി",
+      "പാർലമെന്റ്",
+      "രാഷ്ട്രപതി",
+      "തിരഞ്ഞെടുപ്പ് കമ്മീഷൻ"
+     ],
+     "a": 0,
+     "e": "സുപ്രീം കോടതിയാണ് ഭരണഘടനയുടെ കാവൽക്കാരൻ.",
+     "s": "con",
+     "t": "Judiciary",
+     "d": "easy",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 10,
+     "q": "വോട്ടിംഗ് പ്രായം 21-ൽ നിന്ന് 18 ആയി കുറച്ച ഭരണഘടനാ ഭേദഗതി:",
+     "o": [
+      "42-ാം ഭേദഗതി",
+      "44-ാം ഭേദഗതി",
+      "61-ാം ഭേദഗതി",
+      "73-ാം ഭേദഗതി"
+     ],
+     "a": 2,
+     "e": "1988-ലെ 61-ാം ഭേദഗതിയാണ് വോട്ടിംഗ് പ്രായം 18 ആക്കിയത്.",
+     "s": "con",
+     "t": "Amendments",
+     "d": "hard",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 11,
+     "q": "കേരളത്തിലെ ആദ്യ ഗവർണർ:",
+     "o": [
+      "വി.വി. ഗിരി",
+      "ബി. രാമകൃഷ്ണ റാവു",
+      "ജ്യോതി വെങ്കിടാചലം",
+      "പി.എസ്. റാവു"
+     ],
+     "a": 1,
+     "e": "ബി. രാമകൃഷ്ണ റാവു ആയിരുന്നു കേരളത്തിലെ ആദ്യ ഗവർണർ.",
+     "s": "kga",
+     "t": "Kerala government",
+     "d": "medium",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 12,
+     "q": "പാലിൽ അടങ്ങിയിരിക്കുന്ന പഞ്ചസാര:",
+     "o": [
+      "സുക്രോസ്",
+      "ഫ്രക്ടോസ്",
+      "മാൾട്ടോസ്",
+      "ലാക്ടോസ്"
+     ],
+     "a": 3,
+     "e": "പാലിലെ പഞ്ചസാര ലാക്ടോസ് ആണ്.",
+     "s": "sci",
+     "t": "Biology",
+     "d": "medium",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 13,
+     "q": "പ്രായപൂർത്തിയായ മനുഷ്യശരീരത്തിലെ അസ്ഥികളുടെ എണ്ണം:",
+     "o": [
+      "208",
+      "206",
+      "300",
+      "212"
+     ],
+     "a": 1,
+     "e": "മുതിർന്നവരിൽ 206 അസ്ഥികളുണ്ട്.",
+     "s": "sci",
+     "t": "Human body",
+     "d": "easy",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 14,
+     "q": "pH മൂല്യം 7 ആയ ലായനി:",
+     "o": [
+      "അമ്ലം",
+      "ക്ഷാരം",
+      "ശക്തമായ അമ്ലം",
+      "നിർവീര്യം"
+     ],
+     "a": 3,
+     "e": "pH 7 ഉള്ള ലായനി നിർവീര്യമാണ്.",
+     "s": "sci",
+     "t": "Chemistry",
+     "d": "medium",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 15,
+     "q": "സ്കർവി രോഗത്തിന് കാരണം ഏത് വിറ്റാമിന്റെ കുറവാണ്?",
+     "o": [
+      "വിറ്റാമിൻ C",
+      "വിറ്റാമിൻ A",
+      "വിറ്റാമിൻ D",
+      "വിറ്റാമിൻ K"
+     ],
+     "a": 0,
+     "e": "വിറ്റാമിൻ C-യുടെ കുറവ് സ്കർവിക്ക് കാരണമാകുന്നു.",
+     "s": "ph",
+     "t": "Nutrition",
+     "d": "easy",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 16,
+     "q": "ഇന്ത്യയിൽ 14 പ്രധാന ബാങ്കുകൾ ദേശസാൽക്കരിച്ച വർഷം:",
+     "o": [
+      "1980",
+      "1955",
+      "1969",
+      "1991"
+     ],
+     "a": 2,
+     "e": "1969 ജൂലൈയിൽ 14 ബാങ്കുകൾ ദേശസാൽക്കരിച്ചു.",
+     "s": "econ",
+     "t": "Banking",
+     "d": "medium",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 17,
+     "q": "1 ബൈറ്റ് എത്ര ബിറ്റ് ആണ്?",
+     "o": [
+      "8",
+      "4",
+      "16",
+      "1024"
+     ],
+     "a": 0,
+     "e": "1 ബൈറ്റ് = 8 ബിറ്റ്.",
+     "s": "comp",
+     "t": "Basics",
+     "d": "easy",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 18,
+     "q": "ഒരു സമചതുരത്തിന്റെ ഒരു വശം 7 സെ.മീ. ആയാൽ അതിന്റെ ചുറ്റളവ്:",
+     "o": [
+      "49 സെ.മീ.",
+      "14 സെ.മീ.",
+      "28 സെ.മീ.",
+      "21 സെ.മീ."
+     ],
+     "a": 2,
+     "e": "ചുറ്റളവ് = 4 × 7 = 28 സെ.മീ.",
+     "s": "math",
+     "t": "Mensuration",
+     "d": "easy",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 19,
+     "q": "ലഘൂകരിക്കുക: 15 + 5 × 3",
+     "o": [
+      "60",
+      "30",
+      "23",
+      "45"
+     ],
+     "a": 1,
+     "e": "ആദ്യം ഗുണനം: 5 × 3 = 15; 15 + 15 = 30.",
+     "s": "math",
+     "t": "Simplification",
+     "d": "medium",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 20,
+     "q": "160 രൂപ 3 : 5 എന്ന അനുപാതത്തിൽ വീതിച്ചാൽ വലിയ ഭാഗം എത്ര?",
+     "o": [
+      "60 രൂപ",
+      "96 രൂപ",
+      "80 രൂപ",
+      "100 രൂപ"
+     ],
+     "a": 3,
+     "e": "160 × 5/8 = 100 രൂപ.",
+     "s": "math",
+     "t": "Ratio",
+     "d": "hard",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 21,
+     "q": "ശ്രേണിയിലെ അടുത്ത സംഖ്യ: 5, 10, 20, 40, ?",
+     "o": [
+      "60",
+      "80",
+      "50",
+      "100"
+     ],
+     "a": 1,
+     "e": "ഓരോ സംഖ്യയും ഇരട്ടിയാകുന്നു: 40 × 2 = 80.",
+     "s": "ment",
+     "t": "Number series",
+     "d": "medium",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 22,
+     "q": "Fill in the blank: The sun ___ in the east.",
+     "o": [
+      "rise",
+      "rising",
+      "risen",
+      "rises"
+     ],
+     "a": 3,
+     "e": "\"The sun rises in the east\" — simple present, singular subject.",
+     "s": "eng",
+     "t": "Grammar",
+     "d": "easy",
+     "marks": 1,
+     "lang": "en"
+    },
+    {
+     "n": 23,
+     "q": "Choose the word closest in meaning to \"Happy\":",
+     "o": [
+      "Joyful",
+      "Angry",
+      "Tired",
+      "Sad"
+     ],
+     "a": 0,
+     "e": "\"Joyful\" means happy.",
+     "s": "eng",
+     "t": "Synonyms",
+     "d": "easy",
+     "marks": 1,
+     "lang": "en"
+    },
+    {
+     "n": 24,
+     "q": "‘വിദ്യ + ആലയം’ ചേർത്തെഴുതുമ്പോൾ:",
+     "o": [
+      "വിദ്യയാലയം",
+      "വിദ്യാആലയം",
+      "വിദ്യാലയം",
+      "വിദ്യലയം"
+     ],
+     "a": 2,
+     "e": "വിദ്യ + ആലയം = വിദ്യാലയം (സവർണ്ണദീർഘസന്ധി).",
+     "s": "mal",
+     "t": "Sandhi",
+     "d": "hard",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 25,
+     "q": "ഇന്ത്യയുടെ ദേശീയ പുഷ്പം:",
+     "o": [
+      "താമര",
+      "റോസ്",
+      "മുല്ല",
+      "സൂര്യകാന്തി"
+     ],
+     "a": 0,
+     "e": "ഇന്ത്യയുടെ ദേശീയ പുഷ്പം താമര ആണ്.",
+     "s": "gk",
+     "t": "National symbols",
+     "d": "easy",
+     "marks": 1,
+     "lang": "ml"
+    }
+   ]
+  }
+ ]
+}
