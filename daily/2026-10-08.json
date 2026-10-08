@@ -1,0 +1,1523 @@
+{
+ "date": "2026-10-08",
+ "key": "DAILY_LEARNING_2026_10_08",
+ "generatedAt": "2026-10-08T05:52:15.589Z",
+ "source": "scheduled",
+ "navamika": [
+  {
+   "id": "baby-animals",
+   "type": "animals",
+   "title": "Animal Babies",
+   "desc": "Find the animal!",
+   "difficulty": "easy",
+   "instructions": "Listen and tap the right animal.",
+   "questions": [
+    {
+     "q": "Which one is the CAT?",
+     "show": "🐾",
+     "options": [
+      {
+       "e": "🐶",
+       "t": "Dog"
+      },
+      {
+       "e": "🐱",
+       "t": "Cat"
+      },
+      {
+       "e": "🐰",
+       "t": "Rabbit"
+      }
+     ],
+     "answer": 1,
+     "good": "Meow! You found the cat!"
+    },
+    {
+     "q": "Which one is the ELEPHANT?",
+     "options": [
+      {
+       "e": "🐘",
+       "t": "Elephant"
+      },
+      {
+       "e": "🐒",
+       "t": "Monkey"
+      },
+      {
+       "e": "🐄",
+       "t": "Cow"
+      }
+     ],
+     "answer": 0,
+     "good": "Yes! The elephant has a long trunk!"
+    },
+    {
+     "q": "Which one can fly?",
+     "options": [
+      {
+       "e": "🐢",
+       "t": "Turtle"
+      },
+      {
+       "e": "🐷",
+       "t": "Pig"
+      },
+      {
+       "e": "🦋",
+       "t": "Butterfly"
+      }
+     ],
+     "answer": 2,
+     "good": "Flap flap! The butterfly can fly!"
+    },
+    {
+     "q": "Which one is the DUCK?",
+     "options": [
+      {
+       "e": "🐸",
+       "t": "Frog"
+      },
+      {
+       "e": "🐔",
+       "t": "Hen"
+      },
+      {
+       "e": "🐴",
+       "t": "Horse"
+      },
+      {
+       "e": "🦆",
+       "t": "Duck"
+      }
+     ],
+     "answer": 3,
+     "good": "Quack quack! Great job!"
+    },
+    {
+     "q": "Who has a long neck?",
+     "options": [
+      {
+       "e": "🐭",
+       "t": "Mouse"
+      },
+      {
+       "e": "🦒",
+       "t": "Giraffe"
+      },
+      {
+       "e": "🐑",
+       "t": "Sheep"
+      }
+     ],
+     "answer": 1,
+     "good": "The giraffe has a very long neck!"
+    },
+    {
+     "q": "Which one is the LION?",
+     "options": [
+      {
+       "e": "🦁",
+       "t": "Lion"
+      },
+      {
+       "e": "🐯",
+       "t": "Tiger"
+      },
+      {
+       "e": "🐻",
+       "t": "Bear"
+      }
+     ],
+     "answer": 0,
+     "good": "Roar! The lion is the king of the jungle!"
+    }
+   ]
+  },
+  {
+   "id": "shape-finder",
+   "type": "shapes",
+   "title": "Shape Finder",
+   "desc": "Tap the shape!",
+   "difficulty": "easy",
+   "instructions": "Listen and tap the right shape.",
+   "questions": [
+    {
+     "q": "Find the CIRCLE.",
+     "options": [
+      {
+       "s": "square",
+       "t": "square"
+      },
+      {
+       "s": "circle",
+       "t": "circle"
+      },
+      {
+       "s": "triangle",
+       "t": "triangle"
+      }
+     ],
+     "answer": 1,
+     "good": "Round and round! That's a circle!"
+    },
+    {
+     "q": "Find the STAR.",
+     "options": [
+      {
+       "s": "star",
+       "t": "star"
+      },
+      {
+       "s": "heart",
+       "t": "heart"
+      },
+      {
+       "s": "oval",
+       "t": "oval"
+      }
+     ],
+     "answer": 0,
+     "good": "Twinkle twinkle! A star!"
+    },
+    {
+     "q": "Find the TRIANGLE.",
+     "options": [
+      {
+       "s": "rectangle",
+       "t": "rectangle"
+      },
+      {
+       "s": "circle",
+       "t": "circle"
+      },
+      {
+       "s": "triangle",
+       "t": "triangle"
+      }
+     ],
+     "answer": 2,
+     "good": "Three sides! A triangle!"
+    },
+    {
+     "q": "Find the HEART.",
+     "options": [
+      {
+       "s": "diamond",
+       "t": "diamond"
+      },
+      {
+       "s": "square",
+       "t": "square"
+      },
+      {
+       "s": "star",
+       "t": "star"
+      },
+      {
+       "s": "heart",
+       "t": "heart"
+      }
+     ],
+     "answer": 3,
+     "good": "A lovely heart!"
+    },
+    {
+     "q": "Find the SQUARE.",
+     "options": [
+      {
+       "s": "oval",
+       "t": "oval"
+      },
+      {
+       "s": "square",
+       "t": "square"
+      },
+      {
+       "s": "hexagon",
+       "t": "hexagon"
+      }
+     ],
+     "answer": 1,
+     "good": "Four same sides! A square!"
+    },
+    {
+     "q": "Which shape is like a ball?",
+     "show": "⚽",
+     "options": [
+      {
+       "s": "circle",
+       "t": "circle"
+      },
+      {
+       "s": "triangle",
+       "t": "triangle"
+      },
+      {
+       "s": "rectangle",
+       "t": "rectangle"
+      }
+     ],
+     "answer": 0,
+     "good": "Yes! A ball is round like a circle!"
+    }
+   ]
+  },
+  {
+   "id": "count-the-stars",
+   "type": "counting",
+   "title": "Count the Stars",
+   "desc": "How many?",
+   "difficulty": "easy",
+   "instructions": "Count the pictures and tap the number.",
+   "questions": [
+    {
+     "q": "How many stars?",
+     "show": "⭐⭐⭐",
+     "options": [
+      {
+       "t": "2"
+      },
+      {
+       "t": "3"
+      },
+      {
+       "t": "4"
+      }
+     ],
+     "answer": 1,
+     "good": "1, 2, 3! Three stars!"
+    },
+    {
+     "q": "How many apples?",
+     "show": "🍎🍎",
+     "options": [
+      {
+       "t": "2"
+      },
+      {
+       "t": "5"
+      },
+      {
+       "t": "1"
+      }
+     ],
+     "answer": 0,
+     "good": "Two red apples!"
+    },
+    {
+     "q": "How many fish?",
+     "show": "🐟🐟🐟🐟🐟",
+     "options": [
+      {
+       "t": "3"
+      },
+      {
+       "t": "4"
+      },
+      {
+       "t": "5"
+      }
+     ],
+     "answer": 2,
+     "good": "Five little fish! Splash!"
+    },
+    {
+     "q": "How many balloons?",
+     "show": "🎈🎈🎈🎈",
+     "options": [
+      {
+       "t": "6"
+      },
+      {
+       "t": "2"
+      },
+      {
+       "t": "3"
+      },
+      {
+       "t": "4"
+      }
+     ],
+     "answer": 3,
+     "good": "Four balloons! Hooray!"
+    },
+    {
+     "q": "How many suns?",
+     "show": "☀️",
+     "options": [
+      {
+       "t": "1"
+      },
+      {
+       "t": "2"
+      },
+      {
+       "t": "3"
+      }
+     ],
+     "answer": 0,
+     "good": "Just one sun in the sky!"
+    },
+    {
+     "q": "How many cars?",
+     "show": "🚗🚗🚗🚗🚗🚗",
+     "options": [
+      {
+       "t": "7"
+      },
+      {
+       "t": "6"
+      },
+      {
+       "t": "5"
+      }
+     ],
+     "answer": 1,
+     "good": "Six cars! Beep beep!"
+    }
+   ]
+  },
+  {
+   "id": "big-and-small",
+   "type": "vocabulary",
+   "title": "Opposites Fun",
+   "desc": "Big or small? Hot or cold?",
+   "difficulty": "medium",
+   "instructions": "Listen and tap the right picture.",
+   "questions": [
+    {
+     "q": "Which one is HOT?",
+     "options": [
+      {
+       "e": "🍦",
+       "t": "Ice cream"
+      },
+      {
+       "e": "☕",
+       "t": "Hot tea"
+      },
+      {
+       "e": "⛄",
+       "t": "Snowman"
+      }
+     ],
+     "answer": 1,
+     "good": "Careful! The tea is hot!"
+    },
+    {
+     "q": "Which one is COLD?",
+     "options": [
+      {
+       "e": "🧊",
+       "t": "Ice"
+      },
+      {
+       "e": "🔥",
+       "t": "Fire"
+      },
+      {
+       "e": "☀️",
+       "t": "Sun"
+      }
+     ],
+     "answer": 0,
+     "good": "Brrr! Ice is cold!"
+    },
+    {
+     "q": "Which one is BIG?",
+     "options": [
+      {
+       "e": "🐜",
+       "t": "Ant"
+      },
+      {
+       "e": "🐞",
+       "t": "Ladybug"
+      },
+      {
+       "e": "🐘",
+       "t": "Elephant"
+      }
+     ],
+     "answer": 2,
+     "good": "The elephant is very big!"
+    },
+    {
+     "q": "Which one is SMALL?",
+     "options": [
+      {
+       "e": "🐳",
+       "t": "Whale"
+      },
+      {
+       "e": "🐭",
+       "t": "Mouse"
+      },
+      {
+       "e": "🦒",
+       "t": "Giraffe"
+      }
+     ],
+     "answer": 1,
+     "good": "The mouse is small and cute!"
+    },
+    {
+     "q": "Which one is FAST?",
+     "options": [
+      {
+       "e": "🐌",
+       "t": "Snail"
+      },
+      {
+       "e": "🐢",
+       "t": "Turtle"
+      },
+      {
+       "e": "🚀",
+       "t": "Rocket"
+      }
+     ],
+     "answer": 2,
+     "good": "Zoom! The rocket is fast!"
+    },
+    {
+     "q": "When is it NIGHT?",
+     "options": [
+      {
+       "e": "🌞",
+       "t": "Sun"
+      },
+      {
+       "e": "🌈",
+       "t": "Rainbow"
+      },
+      {
+       "e": "🌻",
+       "t": "Sunflower"
+      },
+      {
+       "e": "🌙",
+       "t": "Moon"
+      }
+     ],
+     "answer": 3,
+     "good": "The moon comes out at night!"
+    }
+   ]
+  },
+  {
+   "id": "sea-memory",
+   "type": "memory",
+   "title": "Under the Sea Pairs",
+   "desc": "Find the matching pairs!",
+   "difficulty": "easy",
+   "instructions": "Turn two cards. Find the same pictures!",
+   "pairs": [
+    "🐠",
+    "🐙",
+    "🐳",
+    "🦀"
+   ]
+  },
+  {
+   "id": "odd-one-out",
+   "type": "observation",
+   "title": "Which Is Different?",
+   "desc": "Find the odd one!",
+   "difficulty": "medium",
+   "instructions": "Look carefully. Tap the one that is different.",
+   "questions": [
+    {
+     "q": "Which one is not a fruit?",
+     "options": [
+      {
+       "e": "🍌",
+       "t": "Banana"
+      },
+      {
+       "e": "🍇",
+       "t": "Grapes"
+      },
+      {
+       "e": "🚗",
+       "t": "Car"
+      }
+     ],
+     "answer": 2,
+     "good": "Right! A car is not a fruit!"
+    },
+    {
+     "q": "Which one is not an animal?",
+     "options": [
+      {
+       "e": "⚽",
+       "t": "Ball"
+      },
+      {
+       "e": "🐶",
+       "t": "Dog"
+      },
+      {
+       "e": "🐱",
+       "t": "Cat"
+      }
+     ],
+     "answer": 0,
+     "good": "Yes! A ball is a toy!"
+    },
+    {
+     "q": "Which one lives in water?",
+     "options": [
+      {
+       "e": "🐄",
+       "t": "Cow"
+      },
+      {
+       "e": "🐐",
+       "t": "Goat"
+      },
+      {
+       "e": "🐬",
+       "t": "Dolphin"
+      }
+     ],
+     "answer": 2,
+     "good": "Splash! The dolphin lives in the sea!"
+    },
+    {
+     "q": "Which one does not fly?",
+     "options": [
+      {
+       "e": "🐦",
+       "t": "Bird"
+      },
+      {
+       "e": "🐟",
+       "t": "Fish"
+      },
+      {
+       "e": "✈️",
+       "t": "Plane"
+      }
+     ],
+     "answer": 1,
+     "good": "Yes! A fish swims in water!"
+    },
+    {
+     "q": "Which one is not for eating?",
+     "options": [
+      {
+       "e": "🍞",
+       "t": "Bread"
+      },
+      {
+       "e": "🥕",
+       "t": "Carrot"
+      },
+      {
+       "e": "👟",
+       "t": "Shoe"
+      },
+      {
+       "e": "🍪",
+       "t": "Cookie"
+      }
+     ],
+     "answer": 2,
+     "good": "Silly! We wear shoes, we don't eat them!"
+    },
+    {
+     "q": "Which one is not for drawing?",
+     "options": [
+      {
+       "e": "🖍️",
+       "t": "Crayon"
+      },
+      {
+       "e": "✏️",
+       "t": "Pencil"
+      },
+      {
+       "e": "🖊️",
+       "t": "Pen"
+      },
+      {
+       "e": "🍌",
+       "t": "Banana"
+      }
+     ],
+     "answer": 3,
+     "good": "Ha ha! A banana is for eating!"
+    }
+   ]
+  }
+ ],
+ "arya": [
+  {
+   "n": 1,
+   "title": "Daily Mock Test 1",
+   "subject": "Mixed (LDC pattern)",
+   "difficulty": "medium",
+   "questions": [
+    {
+     "n": 1,
+     "q": "ഭഗത് സിംഗിനെ ബ്രിട്ടീഷുകാർ തൂക്കിലേറ്റിയ വർഷം:",
+     "o": [
+      "1929",
+      "1931",
+      "1928",
+      "1935"
+     ],
+     "a": 1,
+     "e": "1931 മാർച്ച് 23-നാണ് ഭഗത് സിംഗ്, രാജ്ഗുരു, സുഖ്ദേവ് എന്നിവരെ ലാഹോറിൽ തൂക്കിലേറ്റിയത്.",
+     "s": "ih",
+     "t": "National movement",
+     "d": "easy",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 2,
+     "q": "‘ഇന്ത്യയുടെ ഉരുക്കുമനുഷ്യൻ’ എന്നറിയപ്പെടുന്നത്:",
+     "o": [
+      "സർദാർ വല്ലഭ്ഭായ് പട്ടേൽ",
+      "ബാലഗംഗാധര തിലക്",
+      "ലാലാ ലജ്പത് റായ്",
+      "സുഭാഷ് ചന്ദ്രബോസ്"
+     ],
+     "a": 0,
+     "e": "നാട്ടുരാജ്യങ്ങളുടെ സംയോജനത്തിന് നേതൃത്വം നൽകിയ സർദാർ വല്ലഭ്ഭായ് പട്ടേൽ ആണ് ‘ഇന്ത്യയുടെ ഉരുക്കുമനുഷ്യൻ’.",
+     "s": "ih",
+     "t": "Leaders",
+     "d": "easy",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 3,
+     "q": "ശ്രീനാരായണ ഗുരു ജനിച്ച സ്ഥലം:",
+     "o": [
+      "കൊല്ലൂർ",
+      "അരുവിപ്പുറം",
+      "ചെമ്പഴന്തി",
+      "വർക്കല"
+     ],
+     "a": 2,
+     "e": "1856-ൽ തിരുവനന്തപുരത്തിനടുത്തുള്ള ചെമ്പഴന്തി എന്ന സ്ഥലത്താണ് ശ്രീനാരായണ ഗുരു ജനിച്ചത്.",
+     "s": "kh",
+     "t": "Renaissance leaders",
+     "d": "easy",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 4,
+     "q": "ആറ്റിങ്ങൽ കലാപം നടന്ന വർഷം:",
+     "o": [
+      "1697",
+      "1741",
+      "1809",
+      "1721"
+     ],
+     "a": 3,
+     "e": "ഇംഗ്ലീഷ് ഈസ്റ്റ് ഇന്ത്യാ കമ്പനിക്കെതിരായ ആറ്റിങ്ങൽ കലാപം നടന്നത് 1721-ലാണ്.",
+     "s": "kh",
+     "t": "Revolts against the British",
+     "d": "medium",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 5,
+     "q": "കേരളത്തിന്റെ ഏറ്റവും വടക്കേയറ്റത്തുള്ള ജില്ല:",
+     "o": [
+      "കണ്ണൂർ",
+      "കാസർഗോഡ്",
+      "വയനാട്",
+      "കോഴിക്കോട്"
+     ],
+     "a": 1,
+     "e": "കേരളത്തിലെ ഏറ്റവും വടക്കേയറ്റത്തെ ജില്ല കാസർഗോഡ് ആണ്.",
+     "s": "geo",
+     "t": "Districts of Kerala",
+     "d": "easy",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 6,
+     "q": "ഇന്ത്യയുടെ ഏറ്റവും തെക്കേയറ്റമായ ഇന്ദിരാ പോയിന്റ് സ്ഥിതി ചെയ്യുന്ന ദ്വീപ്:",
+     "o": [
+      "ലിറ്റിൽ ആൻഡമാൻ",
+      "മിനിക്കോയ്",
+      "ഗ്രേറ്റ് നിക്കോബാർ",
+      "കാർ നിക്കോബാർ"
+     ],
+     "a": 2,
+     "e": "ഇന്ദിരാ പോയിന്റ് ഗ്രേറ്റ് നിക്കോബാർ ദ്വീപിന്റെ തെക്കേ അറ്റത്താണ്.",
+     "s": "geo",
+     "t": "Islands",
+     "d": "medium",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 7,
+     "q": "ബ്രഹ്മപുത്ര നദി ടിബറ്റിൽ അറിയപ്പെടുന്ന പേര്:",
+     "o": [
+      "സാങ്പോ",
+      "ദിഹാങ്",
+      "ജമുന",
+      "പദ്മ"
+     ],
+     "a": 0,
+     "e": "ടിബറ്റിൽ ബ്രഹ്മപുത്ര സാങ്പോ (യാർലുങ് സാങ്പോ) എന്നാണ് അറിയപ്പെടുന്നത്.",
+     "s": "geo",
+     "t": "Rivers of India",
+     "d": "hard",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 8,
+     "q": "‘നിയമത്തിനു മുന്നിൽ സമത്വം’ ഉറപ്പുനൽകുന്ന ഭരണഘടനാ അനുച്ഛേദം:",
+     "o": [
+      "അനുച്ഛേദം 19",
+      "അനുച്ഛേദം 21",
+      "അനുച്ഛേദം 32",
+      "അനുച്ഛേദം 14"
+     ],
+     "a": 3,
+     "e": "അനുച്ഛേദം 14 നിയമത്തിനു മുന്നിൽ സമത്വവും നിയമത്തിന്റെ തുല്യ സംരക്ഷണവും ഉറപ്പുനൽകുന്നു.",
+     "s": "con",
+     "t": "Fundamental rights",
+     "d": "medium",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 9,
+     "q": "ലോക്സഭയുടെ ആദ്യ സ്പീക്കർ:",
+     "o": [
+      "ഹുക്കം സിംഗ്",
+      "ജി.വി. മാവ്‌ലങ്കർ",
+      "എൻ. സഞ്ജീവ റെഡ്ഡി",
+      "എം.എ. അയ്യങ്കാർ"
+     ],
+     "a": 1,
+     "e": "ജി.വി. മാവ്‌ലങ്കർ ആയിരുന്നു ലോക്സഭയുടെ ആദ്യ സ്പീക്കർ (1952).",
+     "s": "con",
+     "t": "Parliament",
+     "d": "medium",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 10,
+     "q": "കേരള ഹൈക്കോടതി സ്ഥിതി ചെയ്യുന്നത്:",
+     "o": [
+      "തിരുവനന്തപുരം",
+      "കോഴിക്കോട്",
+      "എറണാകുളം",
+      "തൃശ്ശൂർ"
+     ],
+     "a": 2,
+     "e": "കേരള ഹൈക്കോടതിയുടെ ആസ്ഥാനം എറണാകുളം (കൊച്ചി) ആണ്.",
+     "s": "kga",
+     "t": "Judiciary in Kerala",
+     "d": "easy",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 11,
+     "q": "ആവർത്തനപ്പട്ടികയുടെ (Periodic Table) പിതാവ് എന്നറിയപ്പെടുന്നത്:",
+     "o": [
+      "ജോൺ ഡാൾട്ടൺ",
+      "ഏണസ്റ്റ് റഥർഫോർഡ്",
+      "ആന്റോയിൻ ലാവോസിയെ",
+      "ദിമിത്രി മെൻഡലീവ്"
+     ],
+     "a": 3,
+     "e": "മൂലകങ്ങളെ ആറ്റോമിക ഭാരത്തിന്റെ അടിസ്ഥാനത്തിൽ ക്രമീകരിച്ച ദിമിത്രി മെൻഡലീവ് ആണ് ആവർത്തനപ്പട്ടികയുടെ പിതാവ്.",
+     "s": "sci",
+     "t": "Chemistry",
+     "d": "medium",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 12,
+     "q": "രക്തം കട്ടപിടിക്കാൻ സഹായിക്കുന്ന വിറ്റാമിൻ:",
+     "o": [
+      "വിറ്റാമിൻ C",
+      "വിറ്റാമിൻ K",
+      "വിറ്റാമിൻ D",
+      "വിറ്റാമിൻ A"
+     ],
+     "a": 1,
+     "e": "രക്തം കട്ടപിടിക്കുന്നതിന് ആവശ്യമായ വിറ്റാമിൻ ആണ് വിറ്റാമിൻ K.",
+     "s": "sci",
+     "t": "Biology",
+     "d": "medium",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 13,
+     "q": "ബലത്തിന്റെ (Force) SI യൂണിറ്റ്:",
+     "o": [
+      "ജൂൾ",
+      "വാട്ട്",
+      "ന്യൂട്ടൺ",
+      "പാസ്കൽ"
+     ],
+     "a": 2,
+     "e": "ബലത്തിന്റെ SI യൂണിറ്റ് ന്യൂട്ടൺ (N) ആണ്.",
+     "s": "sci",
+     "t": "Physics",
+     "d": "easy",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 14,
+     "q": "മലമ്പനി (മലേറിയ) രോഗത്തിന് കാരണമായ രോഗാണു:",
+     "o": [
+      "പ്ലാസ്മോഡിയം",
+      "സാൽമൊണെല്ല",
+      "ലെപ്റ്റോസ്പൈറ",
+      "വിബ്രിയോ കോളറ"
+     ],
+     "a": 0,
+     "e": "പ്ലാസ്മോഡിയം എന്ന പ്രോട്ടോസോവ ആണ് മലേറിയയ്ക്ക് കാരണം; അനോഫിലസ് കൊതുകുകൾ ഇത് പരത്തുന്നു.",
+     "s": "ph",
+     "t": "Communicable diseases",
+     "d": "medium",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 15,
+     "q": "ഭാരതീയ റിസർവ് ബാങ്ക് (RBI) സ്ഥാപിതമായ വർഷം:",
+     "o": [
+      "1947",
+      "1949",
+      "1969",
+      "1935"
+     ],
+     "a": 3,
+     "e": "റിസർവ് ബാങ്ക് 1935 ഏപ്രിൽ 1-ന് സ്ഥാപിതമായി; 1949-ൽ ദേശസാൽക്കരിച്ചു.",
+     "s": "econ",
+     "t": "Banking",
+     "d": "medium",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 16,
+     "q": "കമ്പ്യൂട്ടറിലെ CPU-ന്റെ പൂർണ്ണരൂപം:",
+     "o": [
+      "Central Program Unit",
+      "Central Processing Unit",
+      "Computer Processing Unit",
+      "Control Processing Unit"
+     ],
+     "a": 1,
+     "e": "CPU എന്നാൽ Central Processing Unit.",
+     "s": "comp",
+     "t": "Basics",
+     "d": "easy",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 17,
+     "q": "500 രൂപ വിലയുള്ള ഒരു സാധനത്തിന് 10% കിഴിവ് നൽകിയാൽ വിറ്റ വില എത്ര?",
+     "o": [
+      "450 രൂപ",
+      "490 രൂപ",
+      "400 രൂപ",
+      "460 രൂപ"
+     ],
+     "a": 0,
+     "e": "500-ന്റെ 10% = 50; വിറ്റ വില = 500 − 50 = 450 രൂപ.",
+     "s": "math",
+     "t": "Percentage",
+     "d": "easy",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 18,
+     "q": "24, 36 എന്നീ സംഖ്യകളുടെ ഉസാഘ (HCF):",
+     "o": [
+      "6",
+      "8",
+      "4",
+      "12"
+     ],
+     "a": 3,
+     "e": "24 = 2³×3, 36 = 2²×3²; ഉസാഘ = 2²×3 = 12.",
+     "s": "math",
+     "t": "HCF and LCM",
+     "d": "medium",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 19,
+     "q": "ഒരു വരിയിൽ രാമു മുന്നിൽ നിന്ന് 7-ാമനും പിന്നിൽ നിന്ന് 12-ാമനുമാണ്. വരിയിൽ ആകെ എത്ര പേർ?",
+     "o": [
+      "19",
+      "18",
+      "17",
+      "20"
+     ],
+     "a": 1,
+     "e": "ആകെ = 7 + 12 − 1 = 18 പേർ.",
+     "s": "ment",
+     "t": "Ranking",
+     "d": "medium",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 20,
+     "q": "Choose the word closest in meaning to “Begin”:",
+     "o": [
+      "Finish",
+      "Stop",
+      "Start",
+      "Delay"
+     ],
+     "a": 2,
+     "e": "“Begin” means to start, so the synonym is Start.",
+     "s": "eng",
+     "t": "Synonyms",
+     "d": "easy",
+     "marks": 1,
+     "lang": "en"
+    },
+    {
+     "n": 21,
+     "q": "Choose the correct past tense of “go”:",
+     "o": [
+      "went",
+      "goed",
+      "gone",
+      "going"
+     ],
+     "a": 0,
+     "e": "The simple past tense of “go” is went (gone is the past participle).",
+     "s": "eng",
+     "t": "Tenses",
+     "d": "easy",
+     "marks": 1,
+     "lang": "en"
+    },
+    {
+     "n": 22,
+     "q": "‘ആന’ എന്ന പദത്തിന്റെ പര്യായം:",
+     "o": [
+      "അശ്വം",
+      "ഹരിണം",
+      "ഖഗം",
+      "ഗജം"
+     ],
+     "a": 3,
+     "e": "ആനയുടെ പര്യായമാണ് ഗജം (കരി, ഹസ്തി എന്നിവയും).",
+     "s": "mal",
+     "t": "Synonyms",
+     "d": "medium",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 23,
+     "q": "ഇന്ത്യയുടെ ദേശീയ മൃഗം:",
+     "o": [
+      "സിംഹം",
+      "കടുവ",
+      "ആന",
+      "പുള്ളിപ്പുലി"
+     ],
+     "a": 1,
+     "e": "ബംഗാൾ കടുവ ആണ് ഇന്ത്യയുടെ ദേശീയ മൃഗം.",
+     "s": "gk",
+     "t": "National symbols",
+     "d": "easy",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 24,
+     "q": "ഇന്ന് തിങ്കളാഴ്ച ആണെങ്കിൽ 10 ദിവസം കഴിഞ്ഞ് ഏത് ദിവസം?",
+     "o": [
+      "ബുധൻ",
+      "ചൊവ്വ",
+      "വ്യാഴം",
+      "വെള്ളി"
+     ],
+     "a": 2,
+     "e": "10 ÷ 7 ശിഷ്ടം 3; തിങ്കളിൽ നിന്ന് 3 ദിവസം കഴിഞ്ഞാൽ വ്യാഴം.",
+     "s": "ment",
+     "t": "Calendar",
+     "d": "hard",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 25,
+     "q": "1929-ലെ ലാഹോർ കോൺഗ്രസ് സമ്മേളനത്തിൽ പാസാക്കിയ പ്രധാന പ്രമേയം:",
+     "o": [
+      "പൂർണ്ണ സ്വരാജ്",
+      "ക്വിറ്റ് ഇന്ത്യ",
+      "നിസ്സഹകരണം",
+      "സ്വദേശി"
+     ],
+     "a": 0,
+     "e": "ജവഹർലാൽ നെഹ്റു അധ്യക്ഷനായ 1929-ലെ ലാഹോർ സമ്മേളനത്തിലാണ് പൂർണ്ണ സ്വരാജ് പ്രമേയം പാസാക്കിയത്.",
+     "s": "ih",
+     "t": "National movement",
+     "d": "hard",
+     "marks": 1,
+     "lang": "ml"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Daily Mock Test 2",
+   "subject": "Mixed (LDC pattern)",
+   "difficulty": "medium",
+   "questions": [
+    {
+     "n": 1,
+     "q": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസിന്റെ ആദ്യ പ്രസിഡന്റ്:",
+     "o": [
+      "ദാദാഭായ് നവറോജി",
+      "എ.ഒ. ഹ്യൂം",
+      "ഡബ്ല്യു.സി. ബാനർജി",
+      "ബദറുദ്ദീൻ തയാബ്ജി"
+     ],
+     "a": 2,
+     "e": "1885-ലെ ബോംബെ സമ്മേളനത്തിൽ ഡബ്ല്യു.സി. ബാനർജി ആയിരുന്നു ആദ്യ പ്രസിഡന്റ്.",
+     "s": "ih",
+     "t": "Indian National Congress",
+     "d": "medium",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 2,
+     "q": "നിസ്സഹകരണ പ്രസ്ഥാനം നിർത്തിവെക്കാൻ കാരണമായ ചൗരിചൗരാ സംഭവം നടന്ന വർഷം:",
+     "o": [
+      "1922",
+      "1919",
+      "1930",
+      "1925"
+     ],
+     "a": 0,
+     "e": "1922 ഫെബ്രുവരിയിലെ ചൗരിചൗരാ സംഭവത്തെ തുടർന്ന് ഗാന്ധിജി നിസ്സഹകരണ പ്രസ്ഥാനം നിർത്തിവെച്ചു.",
+     "s": "ih",
+     "t": "National movement",
+     "d": "medium",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 3,
+     "q": "മലബാർ കലാപം നടന്ന വർഷം:",
+     "o": [
+      "1857",
+      "1936",
+      "1947",
+      "1921"
+     ],
+     "a": 3,
+     "e": "മലബാർ കലാപം നടന്നത് 1921-ലാണ്.",
+     "s": "kh",
+     "t": "Revolts",
+     "d": "easy",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 4,
+     "q": "പ്രത്യക്ഷ രക്ഷാ ദൈവ സഭ (PRDS) സ്ഥാപിച്ചത്:",
+     "o": [
+      "വാഗ്ഭടാനന്ദൻ",
+      "പൊയ്കയിൽ യോഹന്നാൻ",
+      "വൈകുണ്ഠ സ്വാമികൾ",
+      "പണ്ഡിറ്റ് കറുപ്പൻ"
+     ],
+     "a": 1,
+     "e": "പൊയ്കയിൽ യോഹന്നാൻ (കുമാരഗുരുദേവൻ) ആണ് പ്രത്യക്ഷ രക്ഷാ ദൈവ സഭ സ്ഥാപിച്ചത്.",
+     "s": "kh",
+     "t": "Renaissance leaders",
+     "d": "hard",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 5,
+     "q": "ഇന്ത്യയിൽ ഏറ്റവും നീളം കൂടിയ കടൽത്തീരമുള്ള സംസ്ഥാനം:",
+     "o": [
+      "ആന്ധ്രാപ്രദേശ്",
+      "തമിഴ്നാട്",
+      "ഗുജറാത്ത്",
+      "മഹാരാഷ്ട്ര"
+     ],
+     "a": 2,
+     "e": "ഏകദേശം 1600 കി.മീ.-ലധികം കടൽത്തീരമുള്ള ഗുജറാത്ത് ആണ് ഒന്നാമത്.",
+     "s": "geo",
+     "t": "Indian states",
+     "d": "medium",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 6,
+     "q": "ലോകത്തിലെ ഏറ്റവും ഉയരം കൂടിയ കൊടുമുടി:",
+     "o": [
+      "എവറസ്റ്റ്",
+      "കാഞ്ചൻജംഗ",
+      "K2",
+      "ആനമുടി"
+     ],
+     "a": 0,
+     "e": "ഹിമാലയത്തിലെ എവറസ്റ്റ് ആണ് ലോകത്തിലെ ഏറ്റവും ഉയരം കൂടിയ കൊടുമുടി.",
+     "s": "geo",
+     "t": "World geography",
+     "d": "easy",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 7,
+     "q": "ഇന്ത്യയിലെ ആദ്യത്തെ ദേശീയോദ്യാനം:",
+     "o": [
+      "കാസിരംഗ",
+      "ഗിർ",
+      "പെരിയാർ",
+      "ജിം കോർബറ്റ്"
+     ],
+     "a": 3,
+     "e": "1936-ൽ ഹെയ്‌ലി ദേശീയോദ്യാനം എന്ന പേരിൽ സ്ഥാപിച്ച ജിം കോർബറ്റ് ആണ് ഇന്ത്യയിലെ ആദ്യ ദേശീയോദ്യാനം.",
+     "s": "geo",
+     "t": "National parks",
+     "d": "medium",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 8,
+     "q": "ഇന്ത്യൻ രാഷ്ട്രപതിയുടെ സാധാരണ കാലാവധി:",
+     "o": [
+      "4 വർഷം",
+      "5 വർഷം",
+      "6 വർഷം",
+      "7 വർഷം"
+     ],
+     "a": 1,
+     "e": "രാഷ്ട്രപതിയുടെ കാലാവധി 5 വർഷം ആണ് (അനുച്ഛേദം 56).",
+     "s": "con",
+     "t": "President",
+     "d": "easy",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 9,
+     "q": "ഭരണഘടനയുടെ ആമുഖത്തിൽ ‘സോഷ്യലിസ്റ്റ്’, ‘മതേതര’ എന്നീ വാക്കുകൾ കൂട്ടിച്ചേർത്ത ഭേദഗതി:",
+     "o": [
+      "44-ാം ഭേദഗതി",
+      "24-ാം ഭേദഗതി",
+      "42-ാം ഭേദഗതി",
+      "73-ാം ഭേദഗതി"
+     ],
+     "a": 2,
+     "e": "1976-ലെ 42-ാം ഭേദഗതി ആണ് ആമുഖത്തിൽ സോഷ്യലിസ്റ്റ്, മതേതര, അഖണ്ഡത എന്നീ വാക്കുകൾ ചേർത്തത്.",
+     "s": "con",
+     "t": "Preamble",
+     "d": "hard",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 10,
+     "q": "കേരള നിയമസഭാ മന്ദിരം സ്ഥിതി ചെയ്യുന്ന നഗരം:",
+     "o": [
+      "തിരുവനന്തപുരം",
+      "കൊച്ചി",
+      "കോഴിക്കോട്",
+      "കൊല്ലം"
+     ],
+     "a": 0,
+     "e": "കേരള നിയമസഭ തിരുവനന്തപുരത്താണ് സ്ഥിതി ചെയ്യുന്നത്.",
+     "s": "kga",
+     "t": "State legislature",
+     "d": "easy",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 11,
+     "q": "ശബ്ദത്തിന് സഞ്ചരിക്കാൻ കഴിയാത്ത മാധ്യമം:",
+     "o": [
+      "ജലം",
+      "വായു",
+      "ഇരുമ്പ്",
+      "ശൂന്യത"
+     ],
+     "a": 3,
+     "e": "ശബ്ദം സഞ്ചരിക്കാൻ മാധ്യമം വേണം; അതിനാൽ ശൂന്യതയിൽ ശബ്ദം സഞ്ചരിക്കില്ല.",
+     "s": "sci",
+     "t": "Sound",
+     "d": "easy",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 12,
+     "q": "രക്തത്തിന് ചുവപ്പുനിറം നൽകുന്ന വർണ്ണവസ്തു:",
+     "o": [
+      "ക്ലോറോഫിൽ",
+      "ഹീമോഗ്ലോബിൻ",
+      "മെലാനിൻ",
+      "കെരാറ്റിൻ"
+     ],
+     "a": 1,
+     "e": "ചുവന്ന രക്താണുക്കളിലെ ഹീമോഗ്ലോബിൻ ആണ് രക്തത്തിന് ചുവപ്പുനിറം നൽകുന്നത്.",
+     "s": "sci",
+     "t": "Human body",
+     "d": "easy",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 13,
+     "q": "വൈദ്യുത പ്രതിരോധത്തിന്റെ (Resistance) SI യൂണിറ്റ്:",
+     "o": [
+      "ഓം",
+      "വോൾട്ട്",
+      "ആമ്പിയർ",
+      "കൂളോം"
+     ],
+     "a": 0,
+     "e": "വൈദ്യുത പ്രതിരോധത്തിന്റെ SI യൂണിറ്റ് ഓം (Ω) ആണ്.",
+     "s": "sci",
+     "t": "Electricity",
+     "d": "medium",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 14,
+     "q": "വിറ്റാമിൻ A-യുടെ കുറവുമൂലം ഉണ്ടാകുന്ന രോഗം:",
+     "o": [
+      "റിക്കറ്റ്സ്",
+      "സ്കർവി",
+      "നിശാന്ധത",
+      "ബെറിബെറി"
+     ],
+     "a": 2,
+     "e": "വിറ്റാമിൻ A-യുടെ കുറവ് നിശാന്ധതയ്ക്ക് (Night blindness) കാരണമാകുന്നു.",
+     "s": "ph",
+     "t": "Deficiency diseases",
+     "d": "easy",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 15,
+     "q": "പേവിഷബാധയ്ക്കെതിരെ (Rabies) വാക്സിൻ വികസിപ്പിച്ചത്:",
+     "o": [
+      "എഡ്വേർഡ് ജെന്നർ",
+      "റോബർട്ട് കോക്ക്",
+      "അലക്സാണ്ടർ ഫ്ലെമിംഗ്",
+      "ലൂയി പാസ്ചർ"
+     ],
+     "a": 3,
+     "e": "1885-ൽ ലൂയി പാസ്ചർ ആണ് പേവിഷബാധയ്ക്കെതിരായ വാക്സിൻ വികസിപ്പിച്ചത്.",
+     "s": "ph",
+     "t": "Vaccines",
+     "d": "medium",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 16,
+     "q": "ഇന്ത്യയിൽ കേന്ദ്ര ബജറ്റ് പാർലമെന്റിൽ അവതരിപ്പിക്കുന്നത്:",
+     "o": [
+      "പ്രധാനമന്ത്രി",
+      "കേന്ദ്ര ധനമന്ത്രി",
+      "RBI ഗവർണർ",
+      "രാഷ്ട്രപതി"
+     ],
+     "a": 1,
+     "e": "കേന്ദ്ര ബജറ്റ് (വാർഷിക സാമ്പത്തിക പ്രസ്താവന) പാർലമെന്റിൽ അവതരിപ്പിക്കുന്നത് കേന്ദ്ര ധനമന്ത്രി ആണ്.",
+     "s": "econ",
+     "t": "Budget",
+     "d": "medium",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 17,
+     "q": "വെബ് പേജുകൾ നിർമ്മിക്കാൻ ഉപയോഗിക്കുന്ന അടിസ്ഥാന മാർക്കപ്പ് ഭാഷ:",
+     "o": [
+      "SQL",
+      "COBOL",
+      "HTML",
+      "FORTRAN"
+     ],
+     "a": 2,
+     "e": "വെബ് പേജുകളുടെ ഘടന നിർമ്മിക്കുന്ന മാർക്കപ്പ് ഭാഷയാണ് HTML (HyperText Markup Language).",
+     "s": "comp",
+     "t": "Internet",
+     "d": "easy",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 18,
+     "q": "1 മുതൽ 10 വരെയുള്ള എണ്ണൽ സംഖ്യകളുടെ തുക:",
+     "o": [
+      "55",
+      "50",
+      "45",
+      "60"
+     ],
+     "a": 0,
+     "e": "n(n+1)/2 = 10×11/2 = 55.",
+     "s": "math",
+     "t": "Number series",
+     "d": "easy",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 19,
+     "q": "12 സെ.മീ. നീളവും 8 സെ.മീ. വീതിയുമുള്ള ചതുരത്തിന്റെ ചുറ്റളവ്:",
+     "o": [
+      "96 സെ.മീ.",
+      "20 സെ.മീ.",
+      "48 സെ.മീ.",
+      "40 സെ.മീ."
+     ],
+     "a": 3,
+     "e": "ചുറ്റളവ് = 2 × (12 + 8) = 40 സെ.മീ.",
+     "s": "math",
+     "t": "Mensuration",
+     "d": "medium",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 20,
+     "q": "5000 രൂപയ്ക്ക് 8% വാർഷിക സാധാരണ പലിശ നിരക്കിൽ 2 വർഷത്തെ പലിശ:",
+     "o": [
+      "400 രൂപ",
+      "800 രൂപ",
+      "1000 രൂപ",
+      "880 രൂപ"
+     ],
+     "a": 1,
+     "e": "പലിശ = 5000 × 8 × 2 ÷ 100 = 800 രൂപ.",
+     "s": "math",
+     "t": "Simple interest",
+     "d": "medium",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 21,
+     "q": "പേന : എഴുതുക :: കത്രിക : ?",
+     "o": [
+      "തുന്നുക",
+      "വരയ്ക്കുക",
+      "മുറിക്കുക",
+      "ഒട്ടിക്കുക"
+     ],
+     "a": 2,
+     "e": "പേന എഴുതാൻ ഉപയോഗിക്കുന്നു; കത്രിക മുറിക്കുക എന്ന പ്രവൃത്തിക്ക്.",
+     "s": "ment",
+     "t": "Analogy",
+     "d": "easy",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 22,
+     "q": "Choose the word opposite in meaning to “Arrive”:",
+     "o": [
+      "Depart",
+      "Reach",
+      "Come",
+      "Enter"
+     ],
+     "a": 0,
+     "e": "The opposite of “arrive” is Depart.",
+     "s": "eng",
+     "t": "Antonyms",
+     "d": "easy",
+     "marks": 1,
+     "lang": "en"
+    },
+    {
+     "n": 23,
+     "q": "Fill in the blank: He has been living here ___ 2015.",
+     "o": [
+      "for",
+      "from",
+      "by",
+      "since"
+     ],
+     "a": 3,
+     "e": "“Since” is used with a point of time (2015) in the present perfect continuous, so the answer is since.",
+     "s": "eng",
+     "t": "Prepositions",
+     "d": "hard",
+     "marks": 1,
+     "lang": "en"
+    },
+    {
+     "n": 24,
+     "q": "‘കാട്’ എന്ന പദത്തിന്റെ പര്യായം:",
+     "o": [
+      "ആകാശം",
+      "വനം",
+      "ജലം",
+      "പർവ്വതം"
+     ],
+     "a": 1,
+     "e": "കാടിന്റെ പര്യായമാണ് വനം (അടവി, കാനനം എന്നിവയും).",
+     "s": "mal",
+     "t": "Synonyms",
+     "d": "easy",
+     "marks": 1,
+     "lang": "ml"
+    },
+    {
+     "n": 25,
+     "q": "കേരളത്തിന്റെ ഔദ്യോഗിക സംസ്ഥാന വൃക്ഷം:",
+     "o": [
+      "തെങ്ങ്",
+      "പ്ലാവ്",
+      "മാവ്",
+      "കണിക്കൊന്ന"
+     ],
+     "a": 0,
+     "e": "കേരളത്തിന്റെ സംസ്ഥാന വൃക്ഷം തെങ്ങ് ആണ്.",
+     "s": "gk",
+     "t": "State symbols",
+     "d": "medium",
+     "marks": 1,
+     "lang": "ml"
+    }
+   ]
+  }
+ ]
+}
