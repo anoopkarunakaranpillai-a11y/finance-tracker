@@ -35,8 +35,7 @@ official and current-affairs sources, validation switches, retry limits (`retry.
 6. **Current affairs.** Search the web for 5–8 important items from the last 30 days from the configured sources. Save them to `daily/work/DATE/ca.json`
    (`[{"d":"YYYY-MM-DD event date","pub":"YYYY-MM-DD","cat":"India|Kerala|World|Economy|Science & Technology|Sports|Awards|Appointments|Environment","t":"one sentence","src":"source name","url":"https://…","ver":"DATE"}]`).
    Current-affairs questions (`s:"ca"`) must cite one of these with `ref` (URL) and `evd` (event date). Never publish news you could not confirm today.
-7. **Official previous papers.** WebFetch each URL in `sources.official`. Save `daily/work/DATE/official.json` = `{"checked":[{"url":…,"ok":true|false,"note":…}],"found":[{"title":…,"exam":…,"year":…,"url":…,"date":…}]}`,
-   where `found` lists only papers that were not listed in any earlier `official.json`. Do **not** import papers automatically and never call generated questions "previous-year".
+7. **Official previous papers (optional).** Only if `sources.official` in the settings lists URLs: WebFetch each and save `daily/work/DATE/official.json` = `{"checked":[…],"found":[…]}` with papers not listed before. If a fetch is blocked or needs approval, record it and move on; it never affects the question target. Never import papers and never call generated questions official.
 8. **Independent answer check.** Give the new candidates **without `a`, `e`, `calc`** to a separate agent (Agent tool), asking it to solve each one and return only JSON `{"k": answer index}`.
    Save its answer as `daily/work/DATE/verify-<run>.json`. If the Agent tool is unavailable, solve them yourself again from a copy with answers removed, in a separate step, and note `"selfcheck": true` in run.json.
    The builder rejects any question where the independent answer differs from the key.
@@ -63,9 +62,10 @@ Statuses: **Completed** (target reached) · **Awaiting Review** (target reachabl
 ```
 
 - `cat` and the allowed subjects `s`:
-  `gkca` (gk, ca, kh, ih, geo, con, kga, econ, law, psc) · `eng` (eng, veng) · `quant` (math, quant) · `reas` (ment, reas) · `sci` (sci, ph) · `comp` (comp) ·
+  `gkca` (gk, ca, kh, ih, geo, con, kga, econ, law, psc, mal = Malayalam language) · `eng` (eng, veng) · `quant` (math, quant) · `reas` (ment, reas) · `sci` (sci, ph) · `comp` (comp) ·
   `deg` (acc, dcs, dmath, dphy, dchem, dbio, decon, mgmt, hum, engg) · `compx` (quant, reas, veng, gk, comp, math, ment, eng, sci, con, econ; must name an `exam` from the settings).
 - `lvl`: school · hsec · diploma · degree · entrance · recruit (degree questions: degree or entrance).
+- `psc`: Kerala PSC preliminary level the question suits: `sslc` (10th-level prelims, LDC/LGS style), `plus2` (Plus Two-level prelims) or `degree` (degree-level prelims, Secretariat/University Assistant style). Required for the categories in `pscTag`; follow `pscMix` (default 40% sslc, 30% plus2, 30% degree). Match difficulty and depth to the level. These are model questions in the Kerala PSC style, never official questions.
 - `d`: easy · medium · hard · advanced, following the difficulty mix in the settings.
 - `lang` per category from the settings (default: Malayalam for gkca, quant, reas, sci, comp; English for eng, deg, compx). Malayalam questions are written in Malayalam script.
 - Exactly 4 different options, one correct answer `a` (0–3). No "all/none/both of the above" and no "A and B" options. Spread answers over A–D.

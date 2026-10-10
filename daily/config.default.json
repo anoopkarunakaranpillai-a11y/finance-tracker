@@ -5,21 +5,141 @@
  "retryTime": "11:48",
  "timezone": "Asia/Kuwait",
  "target": 100,
- "alloc": {"gkca": 15, "eng": 10, "quant": 15, "reas": 15, "sci": 10, "comp": 10, "deg": 15, "compx": 10},
- "langs": {"gkca": "ml", "eng": "en", "quant": "ml", "reas": "ml", "sci": "ml", "comp": "ml", "deg": "en", "compx": "en"},
- "difficulty": {"easy": 30, "medium": 40, "hard": 20, "advanced": 10},
- "levels": ["school", "hsec", "diploma", "degree", "entrance", "recruit"],
- "exams": ["Kerala PSC", "SSC", "Banking", "Railway", "UPSC", "Teaching", "Police", "University entrance", "University semester"],
- "sources": {
-  "official": ["https://www.keralapsc.gov.in/previous-question-papers", "https://upsc.gov.in/examinations/previous-question-papers"],
-  "currentAffairs": ["pib.gov.in", "thehindu.com", "indianexpress.com", "reuters.com", "bbc.com", "isro.gov.in", "kerala.gov.in", "keralapsc.gov.in"]
+ "pscTag": [
+  "gkca",
+  "eng",
+  "quant",
+  "reas",
+  "sci",
+  "comp"
+ ],
+ "pscMix": {
+  "sslc": 40,
+  "plus2": 30,
+  "degree": 30
  },
- "validation": {"blindCheck": true, "calcCheck": true, "nearDupThreshold": 0.8, "caMaxAgeDays": 60, "caRetireDays": 180, "rejectAllNoneOfAbove": true},
- "retry": {"maxFixRounds": 6, "maxCandidates": 170},
+ "alloc": {
+  "gkca": 15,
+  "eng": 10,
+  "quant": 15,
+  "reas": 15,
+  "sci": 10,
+  "comp": 10,
+  "deg": 15,
+  "compx": 10
+ },
+ "langs": {
+  "gkca": "ml",
+  "eng": "en",
+  "quant": "ml",
+  "reas": "ml",
+  "sci": "ml",
+  "comp": "ml",
+  "deg": "en",
+  "compx": "en"
+ },
+ "difficulty": {
+  "easy": 30,
+  "medium": 40,
+  "hard": 20,
+  "advanced": 10
+ },
+ "levels": [
+  "school",
+  "hsec",
+  "diploma",
+  "degree",
+  "entrance",
+  "recruit"
+ ],
+ "exams": [
+  "Kerala PSC",
+  "SSC",
+  "Banking",
+  "Railway",
+  "UPSC",
+  "Teaching",
+  "Police",
+  "University entrance",
+  "University semester"
+ ],
+ "sources": {
+  "official": [],
+  "currentAffairs": [
+   "pib.gov.in",
+   "thehindu.com",
+   "indianexpress.com",
+   "reuters.com",
+   "bbc.com",
+   "isro.gov.in",
+   "kerala.gov.in",
+   "keralapsc.gov.in"
+  ]
+ },
+ "validation": {
+  "blindCheck": true,
+  "calcCheck": true,
+  "nearDupThreshold": 0.8,
+  "caMaxAgeDays": 60,
+  "caRetireDays": 180,
+  "rejectAllNoneOfAbove": true
+ },
+ "retry": {
+  "maxFixRounds": 6,
+  "maxCandidates": 170
+ },
  "tests": [
-  {"k": "T1", "title": "General Knowledge & Current Affairs", "cats": ["gkca"], "n": 25, "min": 25, "mk": 1, "ng": 0.3333333333, "pass": 40},
-  {"k": "T2", "title": "Quantitative Aptitude & Logical Reasoning", "cats": ["quant", "reas"], "n": 30, "min": 36, "mk": 1, "ng": 0.25, "pass": 40},
-  {"k": "T3", "title": "English, Science & Computer Knowledge", "cats": ["eng", "sci", "comp"], "n": 30, "min": 30, "mk": 1, "ng": 0.3333333333, "pass": 40},
-  {"k": "T4", "title": "Degree-Level & Competitive Exam Practice", "cats": ["deg", "compx"], "n": 25, "min": 30, "mk": 1, "ng": 0.25, "pass": 40}
+  {
+   "k": "T1",
+   "title": "General Knowledge & Current Affairs",
+   "cats": [
+    "gkca"
+   ],
+   "n": 25,
+   "min": 25,
+   "mk": 1,
+   "ng": 0.3333333333,
+   "pass": 40
+  },
+  {
+   "k": "T2",
+   "title": "Quantitative Aptitude & Logical Reasoning",
+   "cats": [
+    "quant",
+    "reas"
+   ],
+   "n": 30,
+   "min": 36,
+   "mk": 1,
+   "ng": 0.25,
+   "pass": 40
+  },
+  {
+   "k": "T3",
+   "title": "English, Science & Computer Knowledge",
+   "cats": [
+    "eng",
+    "sci",
+    "comp"
+   ],
+   "n": 30,
+   "min": 30,
+   "mk": 1,
+   "ng": 0.3333333333,
+   "pass": 40
+  },
+  {
+   "k": "T4",
+   "title": "Degree-Level & Competitive Exam Practice",
+   "cats": [
+    "deg",
+    "compx"
+   ],
+   "n": 25,
+   "min": 30,
+   "mk": 1,
+   "ng": 0.25,
+   "pass": 40
+  }
  ]
 }

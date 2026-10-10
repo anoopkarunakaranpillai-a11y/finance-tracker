@@ -8,7 +8,7 @@ export const rd=(f,d)=>{try{return JSON.parse(fs.readFileSync(f,"utf8"))}catch(e
 export const wr=(f,o)=>{fs.mkdirSync(path.dirname(f),{recursive:true});fs.writeFileSync(f,JSON.stringify(o,null,1)+"\n")};
 // Categories of the daily target and the subjects each may use.
 export const CATS={
- gkca:{n:"General Knowledge & Current Affairs",subj:["gk","ca","kh","ih","geo","con","kga","econ","law","psc"]},
+ gkca:{n:"General Knowledge & Current Affairs",subj:["gk","ca","kh","ih","geo","con","kga","econ","law","psc","mal"]},
  eng:{n:"English Language & Grammar",subj:["eng","veng"]},
  quant:{n:"Quantitative Aptitude & Mathematics",subj:["math","quant"]},
  reas:{n:"Logical Reasoning",subj:["ment","reas"]},

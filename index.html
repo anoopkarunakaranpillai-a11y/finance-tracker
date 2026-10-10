@@ -10604,7 +10604,7 @@ function chart(el,cfg){if(!el||typeof Chart==="undefined")return;Chart.defaults.
 const subjChip=s=>`<span class="chip">${SUBJ[s]?SUBJ[s].i+" "+esc(SUBJ[s].n):esc(s)}</span>`;
 const srcChip=q=>isPrev(q)?`<span class="chip prev">📄 Previous Question${q.exam?" · "+esc(q.exam):""}${q.year?" "+esc(q.year):""}</span>`:`<span class="chip prac">Practice Question</span>`;
 /* ---------- navigation ---------- */
-const NAV=[["home","Dashboard","🏠"],["dailytests","Daily Mock Tests","🗓️"],["prev","Previous Year Papers","📄"],["models","Model Question Papers","🧾"],["practice","Practice by Subject","✏️"],["degree","Degree-Level Exams","🎓"],["comp","Competitive Exams","🏁"],["bank","Question Bank","🗂️"],["history","My Results","📋"],["certs","My Certificates","🏅"],["perf","My Learning Progress","📊"],["planner","Study Planner","🗓"],["pdf","PDF Downloads","⬇️"],["profile","Profile and Settings","👤"]];
+const NAV=[["home","Dashboard","🏠"],["kpsc","Kerala PSC Exam Practice","🏛️"],["dailytests","Daily Mock Tests","🗓️"],["prev","Previous Year Papers","📄"],["models","Model Question Papers","🧾"],["practice","Practice by Subject","✏️"],["degree","Degree-Level Exams","🎓"],["comp","Competitive Exams","🏁"],["bank","Question Bank","🗂️"],["history","My Results","📋"],["certs","My Certificates","🏅"],["perf","My Learning Progress","📊"],["planner","Study Planner","🗓"],["pdf","PDF Downloads","⬇️"],["profile","Profile and Settings","👤"]];
 const NAV_MORE=[["tools","Practice Tools","🧰"],["study","Study Material","📖"],["daily","Daily 20","📅"],["mock","Custom Mock Test","⏱️"],["flash","Flashcards","🃏"],["formulas","Formulas & Shortcuts","📐"],["ca","Current Affairs","📰"],["mistakes","Wrong Answer Notebook","❌"],["fav","Bookmarked Questions","⭐"],["updates","Daily Updates","🔄"],["search","Search","🔎"],["admin","Admin","🛠️"]];
 const ALLNAV=NAV.concat(NAV_MORE);
 function navOn(k){if(ROUTE===k)return true;if(ROUTE==="exam"&&T)return(T.navk||(T.dtest?"dailytests":T.model?"models":T.mode==="mock"?"mock":"practice"))===k;return(NAVPARENT[ROUTE]||"")===k}
@@ -11751,22 +11751,142 @@ const AUTO_DEF={
  "retryTime": "11:48",
  "timezone": "Asia/Kuwait",
  "target": 100,
- "alloc": {"gkca": 15, "eng": 10, "quant": 15, "reas": 15, "sci": 10, "comp": 10, "deg": 15, "compx": 10},
- "langs": {"gkca": "ml", "eng": "en", "quant": "ml", "reas": "ml", "sci": "ml", "comp": "ml", "deg": "en", "compx": "en"},
- "difficulty": {"easy": 30, "medium": 40, "hard": 20, "advanced": 10},
- "levels": ["school", "hsec", "diploma", "degree", "entrance", "recruit"],
- "exams": ["Kerala PSC", "SSC", "Banking", "Railway", "UPSC", "Teaching", "Police", "University entrance", "University semester"],
- "sources": {
-  "official": ["https://www.keralapsc.gov.in/previous-question-papers", "https://upsc.gov.in/examinations/previous-question-papers"],
-  "currentAffairs": ["pib.gov.in", "thehindu.com", "indianexpress.com", "reuters.com", "bbc.com", "isro.gov.in", "kerala.gov.in", "keralapsc.gov.in"]
+ "pscTag": [
+  "gkca",
+  "eng",
+  "quant",
+  "reas",
+  "sci",
+  "comp"
+ ],
+ "pscMix": {
+  "sslc": 40,
+  "plus2": 30,
+  "degree": 30
  },
- "validation": {"blindCheck": true, "calcCheck": true, "nearDupThreshold": 0.8, "caMaxAgeDays": 60, "caRetireDays": 180, "rejectAllNoneOfAbove": true},
- "retry": {"maxFixRounds": 6, "maxCandidates": 170},
+ "alloc": {
+  "gkca": 15,
+  "eng": 10,
+  "quant": 15,
+  "reas": 15,
+  "sci": 10,
+  "comp": 10,
+  "deg": 15,
+  "compx": 10
+ },
+ "langs": {
+  "gkca": "ml",
+  "eng": "en",
+  "quant": "ml",
+  "reas": "ml",
+  "sci": "ml",
+  "comp": "ml",
+  "deg": "en",
+  "compx": "en"
+ },
+ "difficulty": {
+  "easy": 30,
+  "medium": 40,
+  "hard": 20,
+  "advanced": 10
+ },
+ "levels": [
+  "school",
+  "hsec",
+  "diploma",
+  "degree",
+  "entrance",
+  "recruit"
+ ],
+ "exams": [
+  "Kerala PSC",
+  "SSC",
+  "Banking",
+  "Railway",
+  "UPSC",
+  "Teaching",
+  "Police",
+  "University entrance",
+  "University semester"
+ ],
+ "sources": {
+  "official": [],
+  "currentAffairs": [
+   "pib.gov.in",
+   "thehindu.com",
+   "indianexpress.com",
+   "reuters.com",
+   "bbc.com",
+   "isro.gov.in",
+   "kerala.gov.in",
+   "keralapsc.gov.in"
+  ]
+ },
+ "validation": {
+  "blindCheck": true,
+  "calcCheck": true,
+  "nearDupThreshold": 0.8,
+  "caMaxAgeDays": 60,
+  "caRetireDays": 180,
+  "rejectAllNoneOfAbove": true
+ },
+ "retry": {
+  "maxFixRounds": 6,
+  "maxCandidates": 170
+ },
  "tests": [
-  {"k": "T1", "title": "General Knowledge & Current Affairs", "cats": ["gkca"], "n": 25, "min": 25, "mk": 1, "ng": 0.3333333333, "pass": 40},
-  {"k": "T2", "title": "Quantitative Aptitude & Logical Reasoning", "cats": ["quant", "reas"], "n": 30, "min": 36, "mk": 1, "ng": 0.25, "pass": 40},
-  {"k": "T3", "title": "English, Science & Computer Knowledge", "cats": ["eng", "sci", "comp"], "n": 30, "min": 30, "mk": 1, "ng": 0.3333333333, "pass": 40},
-  {"k": "T4", "title": "Degree-Level & Competitive Exam Practice", "cats": ["deg", "compx"], "n": 25, "min": 30, "mk": 1, "ng": 0.25, "pass": 40}
+  {
+   "k": "T1",
+   "title": "General Knowledge & Current Affairs",
+   "cats": [
+    "gkca"
+   ],
+   "n": 25,
+   "min": 25,
+   "mk": 1,
+   "ng": 0.3333333333,
+   "pass": 40
+  },
+  {
+   "k": "T2",
+   "title": "Quantitative Aptitude & Logical Reasoning",
+   "cats": [
+    "quant",
+    "reas"
+   ],
+   "n": 30,
+   "min": 36,
+   "mk": 1,
+   "ng": 0.25,
+   "pass": 40
+  },
+  {
+   "k": "T3",
+   "title": "English, Science & Computer Knowledge",
+   "cats": [
+    "eng",
+    "sci",
+    "comp"
+   ],
+   "n": 30,
+   "min": 30,
+   "mk": 1,
+   "ng": 0.3333333333,
+   "pass": 40
+  },
+  {
+   "k": "T4",
+   "title": "Degree-Level & Competitive Exam Practice",
+   "cats": [
+    "deg",
+    "compx"
+   ],
+   "n": 25,
+   "min": 30,
+   "mk": 1,
+   "ng": 0.25,
+   "pass": 40
+  }
  ]
 };
 let AUTO=Object.assign({},AUTO_DEF,lsGet("asw.auto",{}));
@@ -11775,7 +11895,7 @@ const LVLN={school:"School",hsec:"Higher secondary",diploma:"Diploma",degree:"De
 const DMETA={v:null,p:null};
 function loadMeta(force){if(force)DMETA.p=null;if(DMETA.p)return DMETA.p;DMETA.p=(window.__dailyMeta?window.__dailyMeta():Promise.resolve({})).then(m=>{DMETA.v=m||{};return DMETA.v}).catch(()=>{DMETA.v={};return DMETA.v});return DMETA.p}
 const DLV2={easy:1,medium:2,hard:3,advanced:3};
-function v2Inject(date,data){let add=0;(data.bank||[]).forEach(x=>{if(QMAP.has(x.id))return;BANK.push({id:x.id,s:SUBJ[x.s]?x.s:"gk",t:x.t||"General",d:DLV2[x.d]||2,dd:x.d,type:"mcq",q:x.q,o:x.o.slice(),a:x.a,e:x.e||"",tip:"",src:"practice",marks:x.marks||1,neg:x.neg??1/3,lang:x.lang||"en",daily:date,dcat:x.cat,lv:x.cat==="deg"?"degree":x.cat==="compx"?"comp":"school",lvl:x.lvl,exam:x.exam,ref:x.ref,evd:x.evd,exp:x.exp,origin:x.src});add++});
+function v2Inject(date,data){let add=0;(data.bank||[]).forEach(x=>{if(QMAP.has(x.id))return;BANK.push({id:x.id,s:SUBJ[x.s]?x.s:"gk",t:x.t||"General",d:DLV2[x.d]||2,dd:x.d,type:"mcq",q:x.q,o:x.o.slice(),a:x.a,e:x.e||"",tip:"",src:"practice",marks:x.marks||1,neg:x.neg??1/3,lang:x.lang||"en",daily:date,dcat:x.cat,lv:x.cat==="deg"?"degree":x.cat==="compx"?"comp":"school",lvl:x.lvl,psc:x.psc,exam:x.exam,ref:x.ref,evd:x.evd,exp:x.exp,origin:x.src});add++});
   (data.ca||[]).forEach((c,i)=>{const id="cad"+date.replace(/-/g,"")+i;if(!CA_BASE.some(x=>x.id===id))CA_BASE.push({id,d:c.d,cat:c.cat,t:c.t,src:c.src,url:c.url})});
   if(add){rebuild();DUPS=null}}
 const kwNow=()=>new Date(Date.now()+3*36e5);
@@ -11859,6 +11979,65 @@ async function autoReview(B){const box=B.querySelector("#autoRev");const m=await
   box.querySelectorAll("[data-ap]").forEach(b=>b.onclick=async()=>{const x=items[+b.dataset.ap];if(!x.o||x.o.length!==4||![0,1,2,3].includes(x.a))return toast("This question needs 4 options and an answer; add it through Add question instead.");
     await putCustom("c"+Date.now().toString(36)+Math.random().toString(36).slice(2,4),{s:SUBJ[x.s]?x.s:"gk",t:x.t||"General",type:"mcq",d:DLV2[x.d]||2,q:x.q,o:x.o,a:x.a,e:x.e||"",tip:"",src:"practice",marks:1,neg:1/3,lang:x.lang||"en",ver:"verified",st:"pub",origin:"review "+x.date});await dismiss(x);toast("Approved and published");autoReview(B)});
   box.querySelectorAll("[data-ds]").forEach(b=>b.onclick=async()=>{await dismiss(items[+b.dataset.ds]);toast("Discarded");autoReview(B)})}
+
+/* ================= Kerala PSC Exam Practice (model questions) ================= */
+const KL={sslc:{n:"SSLC level",i:"🎒",d:"10th-level preliminary pattern · LDC, LGS, Office Attendant style",bias:[1,2]},plus2:{n:"Plus Two level",i:"📘",d:"Plus Two-level preliminary pattern · Civil Excise Officer, Police Constable style",bias:[2,2]},degree:{n:"Degree level",i:"🎓",d:"Degree-level preliminary pattern · Secretariat / University Assistant, SI style",bias:[2,3]}};
+const KPAT={q:100,min:75,mk:1,ng:1/3};
+const KSEC=[["Kerala & Indian History",["kh","ih"],10],["Geography",["geo"],5],["Economics",["econ"],5],["Constitution, Civics & Governance",["con","kga"],10],["General Science & Public Health",["sci","ph"],12],["General Knowledge, Arts & Laws",["gk","psc","law"],8],["Current Affairs",["ca"],10],["Computer Awareness",["comp"],5],["Mathematics & Mental Ability",["math","quant","ment","reas"],15],["English",["eng","veng"],10],["Malayalam",["mal"],10]];
+const KSUBJ=[...new Set(KSEC.flatMap(s=>s[1]))];
+function pscLv(q){if(q.psc)return q.psc;const l=lvOf(q);if(l==="degree")return null;if(l==="comp")return"plus2";return q.d>=3?"degree":q.d===2?"plus2":"sslc"}
+function kPool(lv){return allQ().filter(q=>KSUBJ.includes(q.s)&&validQ(q)&&(pscLv(q)===lv))}
+function kTagged(lv){return allQ().filter(q=>q.psc===lv).length}
+function kBuild(lv,seed,n){const r=seeded("kpsc-"+lv+"-"+seed),scale=(n||100)/100,used=new Set(),ids=[],sec=[],lvPool=kPool(lv),any=allQ().filter(q=>KSUBJ.includes(q.s)&&validQ(q));
+  const [lo,hi]=KL[lv].bias,pref=q=>q.d>=lo&&q.d<=hi?0:1;
+  KSEC.forEach(([lab,subs,k])=>{const want=Math.max(1,Math.round(k*scale)),pick=[];const take=L=>{for(const q of shuffle(L,r).sort((a,b)=>pref(a)-pref(b))){if(pick.length>=want)break;if(!used.has(q.id)){used.add(q.id);pick.push(q.id)}}};
+    take(lvPool.filter(q=>subs.includes(q.s)));if(pick.length<want)take(any.filter(q=>subs.includes(q.s)));if(pick.length){sec.push([lab,pick.length]);ids.push(...pick)}});
+  if(n&&ids.length>n)return{ids:shuffle(ids,r).slice(0,n),sec:null};return{ids,sec}}
+const kKey=(lv,s)=>`KPSC-${lv.toUpperCase()}-M${s}`;
+const KN=12;
+function kStart(lv,seed,mode){const b=kBuild(lv,seed);const t=`Kerala PSC ${KL[lv].n} · Model Exam ${seed}`;
+  if(mode==="practice")return startSession({mode:"practice",title:t+" (practice)",ids:b.ids,sec:b.sec,instant:true,navk:"kpsc",key:kKey(lv,seed)+"-P",cat:"Kerala PSC · "+KL[lv].n});
+  startSession({mode:"mock",title:t,ids:b.ids,sec:b.sec,limit:KPAT.min*60,neg:true,ng:KPAT.ng,mk:KPAT.mk,shuffleO:P.shuffleO,key:kKey(lv,seed),tid:kKey(lv,seed),navk:"kpsc",cat:"Kerala PSC · "+KL[lv].n})}
+let KF={lv:"",att:"",sort:"num",tab:"dash"};
+const kRes=()=>HIST.filter(h=>/^KPSC-/.test(h.key||"")||/^Kerala PSC/.test(h.cat||""));
+VIEWS.kpsc=v=>{const R=kRes(),M=R.filter(r=>r.mode==="mock"),avg=M.length?Math.round(M.reduce((s,r)=>s+r.pct,0)/M.length):null,best=M.length?Math.max(...M.map(r=>r.pct)):null,time=R.reduce((s,r)=>s+r.time,0),full=new Set(M.filter(r=>/^KPSC-\w+-M\d+$/.test(r.key)).map(r=>r.key));
+  const wrong=mistakes().filter(id=>{const q=Q(id);return q&&KSUBJ.includes(q.s)}),bm=P.fav.filter(id=>Q(id)&&KSUBJ.includes(Q(id).s)),A=analyse(R),weak=A.subj.filter(x=>x.a>=5).slice(0,1)[0];
+  const lvStat=lv=>{const pool=kPool(lv),a=pool.filter(q=>P.att[q.id]),c=a.filter(q=>P.att[q.id].ok);return{n:pool.length,a:a.length,acc:a.length?pct(c.length,a.length):null,done:[...full].filter(k=>k.startsWith("KPSC-"+lv.toUpperCase())).length}};
+  const tabs=[["dash","Dashboard"],["lib","Model exam library"],["modes","Practice modes"],["custom","Custom test"]];
+  let body="";
+  if(KF.tab==="dash")body=`<div class="tiles t4">${[["Official papers in app","0",'<a href="https://www.keralapsc.gov.in/previous-question-papers" target="_blank" rel="noopener">view on keralapsc.gov.in ↗</a>'],["Model exams available",KN*3,"12 per level, plus unlimited custom tests"],["Tests attempted",R.length],["Full model exams completed",full.size],["Average score",avg==null?"—":avg+"%"],["Best score",best==null?"—":best+"%"],["Practice time",fmtT(time)],["Bookmarked questions",bm.length],["Incorrect to revisit",wrong.length]].map(([l,val,sub])=>`<div class="tile"><b>${val}</b><small>${l}</small>${sub?`<em>${sub}</em>`:""}</div>`).join("")}</div>
+   <section class="card"><h3>Preparation by level</h3>${Object.entries(KL).map(([k,x])=>{const s=lvStat(k);return`<div class="wrow"><span>${x.i} ${x.n}</span><div class="bar"><i style="width:${pct(s.a,s.n)}%"></i></div><b>${pct(s.a,s.n)}%</b><span class="small mut">${s.a} of ${s.n} questions practised${s.acc!=null?` · ${s.acc}% correct`:""} · ${s.done}/${KN} model exams</span></div>`}).join("")}</section>
+   <section class="card"><h3>🎯 Recommended next</h3>${weak?`<p>Your weakest Kerala PSC subject is <b>${esc(weak.n)}</b> at <b class="bad">${weak.acc}%</b>. Do a 25-question topic test on it, then a full model exam.</p><div class="row"><button class="btn pri" data-kw="${weak.k}">Practise ${esc(weak.n)}</button></div>`:`<p class="mut">Take your first model exam to get recommendations.</p>`}
+    ${P.examDate?`<p class="small">Exam date ${fmtD(P.examDate)} · daily target ${P.goal||20} questions (${(P.dc||{})[today()]||0} done today).</p>`:`<p class="small mut">Set your exam date and daily target in <a href="#planner" data-go="planner">Study Planner</a>.</p>`}</section>`;
+  else if(KF.tab==="lib"){const cards=[];Object.keys(KL).forEach(lv=>{for(let s=1;s<=KN;s++){const key=kKey(lv,s),at=HIST.filter(h=>h.key===key);cards.push({lv,s,key,at,last:at.length?at[at.length-1].ts:0})}});
+    let L=cards.filter(c=>(!KF.lv||c.lv===KF.lv)&&(!KF.att||(KF.att==="y"?c.at.length:!c.at.length)));if(KF.sort==="recent")L.sort((a,b)=>b.last-a.last);
+    body=`<section class="card filt"><label>Level<select id="kfL"><option value="">All levels</option>${Object.entries(KL).map(([k,x])=>`<option value="${k}" ${KF.lv===k?"selected":""}>${x.n}</option>`).join("")}</select></label><label>Status<select id="kfA"><option value="">All</option><option value="y" ${KF.att==="y"?"selected":""}>Attempted</option><option value="n" ${KF.att==="n"?"selected":""}>Not attempted</option></select></label><label>Sort<select id="kfS"><option value="num">Level and number</option><option value="recent" ${KF.sort==="recent"?"selected":""}>Most recently practised</option></select></label></section>
+     <div class="g2 dts">${L.map(c=>{const best=c.at.reduce((m,x)=>Math.max(m,x.pct),-1);return`<article class="card dt"><div class="row sb"><span class="pill pb2">Model exam · not an official paper</span><span class="chip">${KL[c.lv].i} ${KL[c.lv].n}</span></div><h3>Model Exam ${c.s}</h3><p class="mono small">${c.key}</p><div class="facts"><span><b>${KPAT.q}</b> questions</span><span><b>${KPAT.min}</b> min</span><span>−⅓ per wrong</span><span>Answer key: generated, checked</span></div><p class="small mut">Practice configuration in the common preliminary pattern; check the official notification for your exam.</p>
+       <div class="row">${c.at.length?`<span class="pill pg">✓ ${c.at.length} attempt${c.at.length>1?"s":""} · best ${best}%</span>`:`<span class="pill">○ Not attempted</span>`}</div><div class="row"><button class="btn pri" data-ks="${c.lv}|${c.s}">${c.at.length?"🔄 Retake":"▶ Start exam"}</button><button class="btn sm" data-kp="${c.lv}|${c.s}">Practice mode</button><button class="btn sm" data-kd="${c.lv}|${c.s}">⬇ Paper</button><button class="btn sm" data-kk="${c.lv}|${c.s}">${P.keys||c.at.length?"⬇ Answer key":"🔒 Answer key"}</button></div></article>`}).join("")}</div>`}
+  else if(KF.tab==="modes")body=`<div class="tools">${[["mock","⏱️","Live mock test","Random 100-question paper, timed"],["q10","⚡","Quick test · 10","10 questions"],["q25","⚡","Quick test · 25","25 questions"],["q50","⚡","Quick test · 50","50 questions"],["q100","⚡","Quick test · 100","100 questions"],["topic","🎯","Topic-wise practice","Pick a subject and topic"],["practice","✏️","Practice mode","Answers and explanations after each question"],["wrong","♻️","Repeat incorrect","Your wrong Kerala PSC answers"],["bm","⭐","Bookmarked questions","Questions you starred"]].map(([k,i,n,d])=>`<button class="tool" data-km="${k}"><span aria-hidden="true">${i}</span><b>${n}</b><small>${d}</small></button>`).join("")}</div><p class="small mut">Level for these modes: <select id="kmL">${Object.entries(KL).map(([k,x])=>`<option value="${k}" ${(KF.mlv||"sslc")===k?"selected":""}>${x.n}</option>`).join("")}</select></p>`;
+  else body=`<section class="card"><h3>Custom test</h3><div class="form"><label>Level<select id="kcL">${Object.entries(KL).map(([k,x])=>`<option value="${k}">${x.n}</option>`).join("")}</select></label><label>Questions<select id="kcN"><option>10</option><option selected>25</option><option>50</option><option>100</option></select></label><label>Difficulty<select id="kcD"><option value="">Mixed</option><option value="1">Beginner</option><option value="2">Intermediate</option><option value="3">Advanced</option></select></label><label>Time limit (minutes)<input type="number" id="kcT" min="1" max="200" value="19"></label></div>
+    <p class="small"><b>Subjects</b></p><div class="chips">${KSEC.map(([l],i)=>`<label class="chip-b"><input type="checkbox" data-kcs="${i}" checked> ${esc(l)}</label>`).join("")}</div><p class="small" id="kcI"></p><div class="row end"><button class="btn pri lg" id="kcGo">Start custom test</button></div></section>`;
+  v.innerHTML=`<div class="ph"><h2>🏛️ Kerala PSC Exam Practice</h2><p class="mut">Model examinations in the Kerala PSC preliminary pattern for SSLC, Plus Two and Degree levels. All questions here are <b>model questions</b> written and checked for practice. They are not official previous-year questions; official papers are on <a href="https://www.keralapsc.gov.in/previous-question-papers" target="_blank" rel="noopener">keralapsc.gov.in ↗</a>. New level-tagged questions are added every morning.</p></div>
+   <div class="chips">${tabs.map(([k,l])=>`<button class="chip-b ${KF.tab===k?"on":""}" data-kt="${k}">${l}</button>`).join("")}</div>${body}
+   <section class="card"><p class="small mut">Level-tagged questions available: SSLC ${kTagged("sslc")}, Plus Two ${kTagged("plus2")}, Degree ${kTagged("degree")}. Until each level has enough tagged questions, model exams are completed with general bank questions of a matching difficulty.</p></section>`;
+  v.querySelectorAll("[data-kt]").forEach(b=>b.onclick=()=>{KF.tab=b.dataset.kt;render()});
+  const lvs=s=>s.split("|");v.querySelectorAll("[data-ks]").forEach(b=>b.onclick=()=>{const[lv,s]=lvs(b.dataset.ks);kStart(lv,+s)});v.querySelectorAll("[data-kp]").forEach(b=>b.onclick=()=>{const[lv,s]=lvs(b.dataset.kp);kStart(lv,+s,"practice")});
+  v.querySelectorAll("[data-kd],[data-kk]").forEach(b=>b.onclick=()=>{const[lv,s]=lvs(b.dataset.kd||b.dataset.kk),key=!!b.dataset.kk;if(key&&!(P.keys||HIST.some(h=>h.key===kKey(lv,s))))return toast("The answer key unlocks after you attempt this exam once (or switch on “Show answer keys” in Profile).");
+    busy(b,async()=>{const m=kBuild(lv,+s);await saveFile(await paperPdf({id:kKey(lv,s),title:`Kerala PSC ${KL[lv].n} · Model Exam ${s}`,ids:m.ids,min:KPAT.min,mk:KPAT.mk,ng:KPAT.ng,label:"Kerala PSC model exam (not an official paper)"},key),fname(kKey(lv,s)+(key?"_answer_key":""))+".pdf","Model exam")})});
+  if($("#kfL")){$("#kfL").onchange=e=>{KF.lv=e.target.value;render()};$("#kfA").onchange=e=>{KF.att=e.target.value;render()};$("#kfS").onchange=e=>{KF.sort=e.target.value;render()}}
+  v.querySelectorAll("[data-kw]").forEach(b=>b.onclick=()=>runAct({t:"weak",s:b.dataset.kw,d:2}));
+  if($("#kmL"))$("#kmL").onchange=e=>{KF.mlv=e.target.value};
+  v.querySelectorAll("[data-km]").forEach(b=>b.onclick=()=>{const lv=KF.mlv||"sslc",k=b.dataset.km,cat="Kerala PSC · "+KL[lv].n;
+    if(k==="mock"){const m=kBuild(lv,"live"+Date.now());return startSession({mode:"mock",title:`Kerala PSC ${KL[lv].n} · Live mock test`,ids:m.ids,sec:m.sec,limit:KPAT.min*60,neg:true,ng:KPAT.ng,key:"KPSC-"+lv.toUpperCase()+"-LIVE",navk:"kpsc",cat})}
+    if(/^q\d+$/.test(k)){const n=+k.slice(1),m=kBuild(lv,"q"+Date.now(),n);return startSession({mode:"mock",title:`Kerala PSC ${KL[lv].n} · Quick test (${n})`,ids:m.ids,sec:m.sec,limit:Math.round(n*0.75)*60,neg:true,ng:KPAT.ng,key:"KPSC-"+lv.toUpperCase()+"-Q"+n,navk:"kpsc",cat})}
+    if(k==="practice"){const ids=shuffle(kPool(lv).map(q=>q.id)).slice(0,20);return startSession({mode:"practice",title:`Kerala PSC ${KL[lv].n} · Practice`,ids,instant:true,navk:"kpsc",key:"KPSC-"+lv.toUpperCase()+"-PR",cat})}
+    if(k==="topic")return topicPicker(false);
+    if(k==="wrong"){const ids=mistakes().filter(id=>KSUBJ.includes((Q(id)||{}).s));if(!ids.length)return toast("No incorrect Kerala PSC answers to repeat yet.");return startSession({mode:"practice",title:"Kerala PSC · Repeat incorrect",ids:shuffle(ids),instant:true,navk:"kpsc",cat})}
+    if(k==="bm"){const ids=P.fav.filter(id=>Q(id)&&KSUBJ.includes(Q(id).s));if(!ids.length)return toast("No bookmarked questions yet. Tap ☆ on any question.");return startSession({mode:"practice",title:"Kerala PSC · Bookmarked",ids:shuffle(ids),instant:P.instant,navk:"kpsc",cat})}});
+  if($("#kcGo")){const pool=()=>{const lv=$("#kcL").value,d=$("#kcD").value,subs=[...v.querySelectorAll("[data-kcs]:checked")].flatMap(c=>KSEC[+c.dataset.kcs][1]);return allQ().filter(q=>subs.includes(q.s)&&validQ(q)&&(!d||(d==="3"?q.d>=3:q.d===+d))).sort((a,b)=>(pscLv(a)===lv?0:1)-(pscLv(b)===lv?0:1))};
+    const info=()=>{$("#kcI").textContent=`${pool().length} questions match.`};v.querySelectorAll("#kcL,#kcD,[data-kcs]").forEach(e=>e.onchange=info);$("#kcN").onchange=()=>{$("#kcT").value=Math.round(+$("#kcN").value*.75);info()};info();
+    $("#kcGo").onclick=()=>{const p=pool(),n=+$("#kcN").value;if(!p.length)return toast("No questions match. Tick more subjects or change the difficulty.");const lv=$("#kcL").value,top=p.filter(q=>pscLv(q)===lv),ids=shuffle(top.map(q=>q.id)).concat(shuffle(p.filter(q=>pscLv(q)!==lv).map(q=>q.id))).slice(0,n);
+      startSession({mode:"mock",title:`Kerala PSC ${KL[lv].n} · Custom test (${ids.length})`,ids:shuffle(ids),limit:Math.max(1,+$("#kcT").value||n)*60,neg:true,ng:KPAT.ng,key:"KPSC-"+lv.toUpperCase()+"-CUSTOM",navk:"kpsc",cat:"Kerala PSC · "+KL[lv].n})}}};
 
 /* ---------- boot ---------- */
 (function boot(){const d=lsGet(LSK,null);if(d)P=Object.assign(defaultP(),d);migrateTests();

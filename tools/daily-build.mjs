@@ -39,6 +39,8 @@ function check(x){const P=[],R=[];// P = reject (invalid), R = needs admin revie
   if(!DIFFS.includes(x.d))P.push("difficulty must be easy|medium|hard|advanced");
   if(!LEVELS.includes(x.lvl))P.push("qualification level missing or unknown");
   if(x.cat==="deg"&&!["degree","entrance"].includes(x.lvl))P.push("degree questions need level degree or entrance");
+  if(x.psc!=null&&!["sslc","plus2","degree"].includes(x.psc))P.push("psc level must be sslc, plus2 or degree");
+  if((C.pscTag||[]).includes(x.cat)&&!x.psc)P.push("Kerala PSC level (psc) missing");
   if(x.cat==="compx"&&!(C.exams||[]).includes(x.exam))P.push("competitive questions need an exam from the configured list");
   if(!x.q||String(x.q).trim().length<8)P.push("question text too short");
   if(!Array.isArray(x.o)||x.o.length!==4||x.o.some(o=>!String(o||"").trim()))P.push("needs exactly 4 non-empty options");
@@ -75,7 +77,7 @@ for(const x of cands){const pr=done.get(x.k);if(pr&&pr!=="awaiting review")conti
   if(R.length){review++;out.review.push(Object.assign({},x,{reason:R.join("; ")}));LOG.push({k:x.k,result:"awaiting review",reason:R.join("; ")});continue}
   batchH.add(h);exist.push({id:"new",w,wq,os,where:"this batch"});seq++;
   const q={id:`d${YMD}x${String(seq).padStart(3,"0")}`,k:x.k,cat:x.cat,s:x.s,t:x.t,lvl:x.lvl,d:x.d,q:String(x.q).trim(),o:x.o.map(o=>String(o).trim()),a:x.a,e:String(x.e).trim(),lang:x.lang,marks:x.marks||1,neg:x.neg??((C.tests.find(t=>t.cats.includes(x.cat))||{}).ng??1/3),src:"ai-practice",created:DATE,verified:DATE,vby:[V.blindCheck?"independent-answer":null,x.calc?"calculation":null,x.s==="ca"?"source":null].filter(Boolean),status:"published"};
-  if(x.exam)q.exam=x.exam;if(x.ref)q.ref=x.ref;if(x.evd){q.evd=x.evd;const e=new Date(x.evd+"T00:00:00Z");e.setUTCDate(e.getUTCDate()+V.caRetireDays);q.exp=e.toISOString().slice(0,10)}
+  if(x.psc)q.psc=x.psc;if(x.exam)q.exam=x.exam;if(x.ref)q.ref=x.ref;if(x.evd){q.evd=x.evd;const e=new Date(x.evd+"T00:00:00Z");e.setUTCDate(e.getUTCDate()+V.caRetireDays);q.exp=e.toISOString().slice(0,10)}
   out.bank.push(q);added.push(q);pub++;LOG.push({k:x.k,result:"published",id:q.id})}
 // ---- tests: new questions first, topped up from the built-in bank, no question in two tests
 const builtin=rd(path.join(DD,"text","builtin.json"),[]);const catOf=s=>order.find(c=>c!=="compx"&&CATS[c].subj.includes(s));
@@ -98,6 +100,7 @@ const rep={batch:prevR.batch||`B-${YMD}-01`,date:DATE,scheduled:`${C.time} ${C.t
   generated:sum("generated",gen),duplicates:sum("duplicates",dupE+dupN),exactDuplicates:sum("exactDuplicates",dupE),nearDuplicates:sum("nearDuplicates",dupN),rejected:sum("rejected",invalid),awaitingReview:out.review.length,
   unique:sum("unique",gen-dupE-dupN),validated:all.length,published:all.length,addedThisRun:pub,target:C.target,achieved:all.length>=C.target,perCat,difficulty:dist,
   tests:out.tests.length+legacyN,newTests:out.tests.map(t=>t.id),modelPapers:out.tests.length,officialChecked:(out.official&&out.official.checked||[]).length,officialNew:(out.official&&out.official.found||[]).length,
+  psc:{sslc:all.filter(q=>q.psc==="sslc").length,plus2:all.filter(q=>q.psc==="plus2").length,degree:all.filter(q=>q.psc==="degree").length},
   currentAffairs:out.ca.length,pdf:"Generated in the app for every test (question paper, answer key, solutions)",errors:(run.errors||[]).slice(-20),retries:run.retries||0,
   newSubjects:[...new Set(added.map(q=>q.s))],newTopics:[...new Set(added.map(q=>q.t))].slice(0,60)};
 rep.status=rep.achieved?"Completed":(rep.published+rep.awaitingReview>=C.target&&rep.awaitingReview?"Awaiting Review":rep.published>0?"Partially Completed":"Failed");
