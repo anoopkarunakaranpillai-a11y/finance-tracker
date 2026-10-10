@@ -35,9 +35,15 @@ const seenG=new Set();(N||[]).forEach((g,gi)=>{const w=`navamika[${gi}]`;
     if(!Number.isInteger(q.answer)||!q.options||q.answer<0||q.answer>=q.options.length)P(ww+".answer","answer must be the index of the correct option");
     const k=norm(q.q)+"|"+(q.show||"")+"|"+(q.options||[]).map(o=>o.e||o.t||o.s||o.c).join(",");if(sq.has(k))P(ww,"duplicate question inside this game");sq.add(k);
     const txt=[q.q,q.say,q.good,...(q.options||[]).map(o=>o.t)].join(" ");if(BAD.test(txt))P(ww,"not suitable for a KG1 child")})});
-/* Arya */
-const A=J.arya;if(!Array.isArray(A)||A.length<2||A.length>4)P("arya","2 to 4 tests (tests 1-2: Kerala PSC Malayalam, 25 questions; tests 3-4: English competitive/degree, 20 questions)");
-const seenQ=new Map();(A||[]).forEach((t,ti)=>{const w=`arya[${ti}]`;
+/* Arya v2: daily batch built by tools/daily-build.mjs */
+if(J.v===2){const B=J.bank||[],ids=new Set(B.map(q=>q.id));if(ids.size!==B.length)P("bank","duplicate question IDs");
+  B.forEach((q,i)=>{const w=`bank[${i}]`;if(!/^d\d{8}x\d{3}$/.test(q.id))P(w+".id","bad id");if(!Array.isArray(q.o)||q.o.length!==4||new Set(q.o.map(norm)).size!==4)P(w+".o","4 different options");if(![0,1,2,3].includes(q.a))P(w+".a","answer 0-3");if(!q.e)P(w+".e","explanation");if(q.status!=="published")P(w+".status","only published questions belong in bank");
+    const h=hash(q.q);if(known.has(h))P(w,"repeats a question already used on "+known.get(h))});
+  const T=J.tests||[];if((T.length+(J.arya||[]).length)<4)P("tests","at least 4 mock tests per day");const allIds=new Set();
+  T.forEach((t,i)=>{if(!/^DMT-\d{8}-N\d+$/.test(t.id))P(`tests[${i}].id`,"bad test id");if(!t.ids||t.ids.length<10)P(`tests[${i}].ids`,"at least 10 questions");t.ids.forEach(id=>{if(allIds.has(id))P(`tests[${i}]`,"question "+id+" is used in two tests today");allIds.add(id)});if(!(t.min>0))P(`tests[${i}].min`,"duration")});
+  if(!J.report||!J.report.status)P("report","report missing")}
+const A=J.arya;if(J.v!==2&&(!Array.isArray(A)||A.length<2||A.length>4))P("arya","2 to 4 tests (tests 1-2: Kerala PSC Malayalam, 25 questions; tests 3-4: English competitive/degree, 20 questions)");
+const seenQ=new Map();(J.v===2?[]:(A||[])).forEach((t,ti)=>{const w=`arya[${ti}]`;
   if(t.n!==ti+1)P(w+".n",`n must be ${ti+1}`);if(!t.title)P(w+".title","title required");const EN=ti>=2;const NQ=EN?20:25;if(EN&&!["comp","degree"].includes(t.cat))P(w+".cat",'tests 3 and 4 need cat "comp" or "degree"');const SS=EN?(SUBJ_EN[t.cat]||[]):SUBJ;
   if(!Array.isArray(t.questions)||t.questions.length!==NQ)P(w+".questions",`exactly ${NQ} questions (has ${(t.questions||[]).length})`);
   if(Array.isArray(t.questions)&&t.questions.length===NQ){const c=[0,0,0,0],lo=EN?2:3,hi=EN?8:9;t.questions.forEach(q=>{if([0,1,2,3].includes(q.a))c[q.a]++});if(Math.max(...c)>hi||Math.min(...c)<lo)P(w+".questions",`correct answers must be spread over A-D (now A:${c[0]} B:${c[1]} C:${c[2]} D:${c[3]}; each must be ${lo}-${hi})`)}
@@ -57,4 +63,4 @@ const seenQ=new Map();(A||[]).forEach((t,ti)=>{const w=`arya[${ti}]`;
     const h=hash(q.q+"|"+[...(q.o||[])].map(norm).sort().join("|"));const hq=hash(q.q);
     if(seenQ.has(hq))P(ww,"duplicate of "+seenQ.get(hq)+" today");seenQ.set(hq,ww);
     if(known.has(hq))P(ww,"repeats a question already used on "+known.get(hq))})});
-const ok=!probs.length;console.log(JSON.stringify({ok,file,games:(N||[]).length,test1:((A||[])[0]||{}).questions?.length||0,test2:((A||[])[1]||{}).questions?.length||0,test3:((A||[])[2]||{}).questions?.length||0,test4:((A||[])[3]||{}).questions?.length||0,problems:probs},null,1));process.exit(ok?0:1);
+const ok=!probs.length;console.log(JSON.stringify({ok,file,games:(N||[]).length,v:J.v||1,bank:(J.bank||[]).length,tests:(J.tests||[]).length,status:J.report&&J.report.status,test1:((A||[])[0]||{}).questions?.length||0,test2:((A||[])[1]||{}).questions?.length||0,test3:((A||[])[2]||{}).questions?.length||0,test4:((A||[])[3]||{}).questions?.length||0,problems:probs},null,1));process.exit(ok?0:1);

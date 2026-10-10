@@ -1,48 +1,78 @@
-# Daily learning content — instructions for the 9 AM scheduled run
+# Daily learning content — procedure for the scheduled run (v2)
 
-Every morning, before 9:00 AM Kuwait time (Asia/Kuwait, UTC+3), new content is added for:
+Runs every day at the time in the settings (default **08:48 Asia/Kuwait**, retry **11:48**) as the Claude scheduled task
+"Daily learning content (Navamika games + Arya mock tests)". It does not depend on anyone opening the website.
 
-- **Navamika** (KG1, about 4 years old): at least 5 new learning games.
-- **Arya** (Kerala PSC aspirant, also preparing for degree-level and competitive exams): 4 new mock tests a day:
-  - Tests 1 and 2: Kerala PSC LDC pattern, 25 questions each, in Malayalam (English questions in English).
-  - Test 3: competitive-exam aptitude in English (`cat: "comp"`), 20 questions.
-  - Test 4: degree-level practice in English (`cat: "degree"`), 20 questions.
-  The app adds about 9 rotating tests from the question bank, so Arya always has at least 4 options even if a run fails.
+Daily output:
+- **Arya's Study Window:** at least **100 new, unique, validated questions** (the target is in the settings), published as one batch,
+  plus **4 or more new mock tests** built from them, current-affairs items, and a check of official previous-paper sites.
+- **Navamika:** at least 5 new learning games.
 
-The content lives in this repository (`daily/`) and is mirrored into the tracker's Claude artifact database.
+Everything is traceable: `daily/DATE.json` (published batch + report), `daily/logs/DATE.json` (outcome of every candidate),
+`daily/work/DATE/` (raw candidates, independent answers, run history), `daily/log.json` (execution history), `daily/index.json` (reports per day).
 
-## Steps (idempotent: running twice must not create duplicates)
+## Settings
 
-1. Kuwait date: `TZ=Asia/Kuwait date +%F` → `DATE` (e.g. `2026-10-06`). Key: `DAILY_LEARNING_YYYY_MM_DD`.
-2. If `daily/DATE.json` already exists **and** `node tools/daily-validate.mjs daily/DATE.json` passes **and** `DATE` is in `daily/index.json`:
-   skip generation. Go straight to step 7 (make sure the database copy exists), then finish.
-3. Read the last 7 daily files (`daily/*.json`) to see recent topics, and avoid repeating them. Never reuse a question: the validator compares against `daily/hashes.json` (built-in bank + every earlier day).
-4. Write `daily/DATE.json` in the format below.
-5. Run `node tools/daily-validate.mjs daily/DATE.json`. If it fails, fix **only** the items listed in `problems` (replace that one question or game), then validate again. Up to 6 rounds. Never publish a file that fails validation.
-6. `node tools/daily-publish.mjs daily/DATE.json`, then `git add daily && git commit -m "Daily learning content DATE" && git push origin HEAD:main` (fetch + rebase first if the push is rejected).
-7. Mirror to the tracker artifact `https://claude.ai/artifact/TeNqAQT1owgtE6u2CBEaQX` with the ArtifactData tool:
-   - First `get` documents `DATE` and `_index` in collection `daily` (a missing document is fine). Writes to an existing document need its `version` as `if_version`.
-   - In one `batch`: `set` document `DATE` in collection `daily` with `file_path` = `daily/DATE.json` (pin `if_version` if it existed), and `set` document `_index` in collection `daily` with `{"dates": [...all dates from daily/index.json, newest first, max 120], "latest": DATE, "updated": "<ISO time>"}`.
-   - Read `_index` back once to confirm it lists DATE.
-8. If anything fails after retries: append `{"date":DATE,"status":"failed","error":"<short reason>"}` to `daily/log.json`, commit and push it, and end with a short message that says what failed. Yesterday's content stays available automatically.
+`daily/config.default.json` holds the defaults. The admin page (Arya › Admin › Automation) saves changes to the tracker database,
+document `_auto` in collection `qbank`; step 1 copies them to `daily/config.json`, which overrides the defaults.
+Settings: enabled, run time, timezone, daily target, category allocation, language per category, difficulty mix, exam list,
+official and current-affairs sources, validation switches, retry limits (`retry.maxFixRounds`, `retry.maxCandidates`), test plan, `retry.dates` (days the admin asked to re-run) and `dismissed` (review items the admin handled).
 
-## File format (`daily/DATE.json`)
+## Steps
+
+1. **Date and settings.** `DATE=$(TZ=Asia/Kuwait date +%F)`. Load ArtifactData (ToolSearch "select:ArtifactData") and `get` collection `qbank`, doc `_auto`
+   on `https://claude.ai/artifact/TeNqAQT1owgtE6u2CBEaQX`. If it exists, parse its `j` field (JSON text) and write it to `daily/config.json`.
+   - If `enabled` is false: record a run in `daily/work/DATE/run.json` with `"kind":"skipped"`, commit, and finish with "Skipped: automation is switched off".
+   - If the settings' `time`/`retryTime` differ from this scheduled task's schedule, update the task with `update_trigger`
+     (cron `CRON_TZ=<timezone> <mm> <hh>,<retry hh> * * *`) and note it in the summary.
+   - Also process any dates listed in `retry.dates` (the admin's "Retry batch" button): re-run steps 2–12 for each, then write `_auto` back with `retry.dates` emptied (pin `if_version`, keep every other field).
+2. **Run record.** Create or update `daily/work/DATE/run.json`: `{"started": first start time, "runs": [{"at": now, "kind": "scheduled|retry|manual"}], "errors": [], "retries": n}`.
+3. **Idempotency.** If `daily/DATE.json` has `"v": 2`, its `report.status` is `Completed`, the database already has document `daily/DATE` with the same `report.published`, stop here and report "already done".
+   Otherwise continue; everything below **resumes**: earlier candidate files are kept, published questions keep their IDs and are never counted twice.
+4. **What is still needed.** `node tools/daily-build.mjs DATE --dry` prints `perCat` (published/target per category). Generate only for categories that are short,
+   about 20% more than the shortfall (some candidates will be rejected), never more than `retry.maxCandidates` in total for the day.
+5. **Write candidates** to new files `daily/work/DATE/candidates-<category>-<run>.json` (arrays of objects, format below). Use new keys `k` (e.g. `quant-017`); never reuse a key.
+6. **Current affairs.** Search the web for 5–8 important items from the last 30 days from the configured sources. Save them to `daily/work/DATE/ca.json`
+   (`[{"d":"YYYY-MM-DD event date","pub":"YYYY-MM-DD","cat":"India|Kerala|World|Economy|Science & Technology|Sports|Awards|Appointments|Environment","t":"one sentence","src":"source name","url":"https://…","ver":"DATE"}]`).
+   Current-affairs questions (`s:"ca"`) must cite one of these with `ref` (URL) and `evd` (event date). Never publish news you could not confirm today.
+7. **Official previous papers.** WebFetch each URL in `sources.official`. Save `daily/work/DATE/official.json` = `{"checked":[{"url":…,"ok":true|false,"note":…}],"found":[{"title":…,"exam":…,"year":…,"url":…,"date":…}]}`,
+   where `found` lists only papers that were not listed in any earlier `official.json`. Do **not** import papers automatically and never call generated questions "previous-year".
+8. **Independent answer check.** Give the new candidates **without `a`, `e`, `calc`** to a separate agent (Agent tool), asking it to solve each one and return only JSON `{"k": answer index}`.
+   Save its answer as `daily/work/DATE/verify-<run>.json`. If the Agent tool is unavailable, solve them yourself again from a copy with answers removed, in a separate step, and note `"selfcheck": true` in run.json.
+   The builder rejects any question where the independent answer differs from the key.
+9. **Build.** `node tools/daily-build.mjs DATE`. It rejects invalid questions, exact and near duplicates (against the built-in bank and every earlier day),
+   wrong calculations, failed independent checks and old news; it puts fixable ones in the review queue; publishes the rest; builds the 4 tests; writes the report.
+   If `published` is below the target, repeat steps 4–9 for the short categories (up to `retry.maxFixRounds` rounds). Do not loosen the checks to reach the number.
+10. **Navamika.** If `daily/DATE.json` has no `navamika` games yet, write 5–7 games to `daily/work/DATE/navamika.json` (format below) and run the build again.
+11. **Validate and publish.** `node tools/daily-validate.mjs daily/DATE.json` must pass (fix only the reported items). Then `node tools/daily-publish.mjs daily/DATE.json`,
+    `git add daily && git commit -m "Daily learning content DATE (batch …)" && git push origin HEAD:main` (fetch + rebase first if rejected).
+12. **Mirror to the tracker database** (`https://claude.ai/artifact/TeNqAQT1owgtE6u2CBEaQX`, collection `daily`): `get` docs `DATE` and `_index` for their versions, then one `batch`:
+    `set` `DATE` with `file_path` = `daily/DATE.json`, and `set` `_index` with `{"dates": [all dates from daily/index.json, newest first, max 120], "latest", "updated", "reports", "totals", "next", "config"}` copied from `daily/index.json`.
+    Read `_index` back once to confirm. If the day file is over 240 KB, say so (the database limit is 256 KB).
+13. **Report and alert.** Finish with one summary line: `STATUS · DATE · batch · published/target new questions · tests · review · rejected · duplicates · official papers found · push ok/failed · database ok/failed`.
+    If the status is not **Completed**, start the line with `⚠ ACTION NEEDED:` and say why. If anything fails after retries, add the error to run.json `errors`, rebuild (the report then shows it), commit and push.
+
+Statuses: **Completed** (target reached) · **Awaiting Review** (target reachable once the admin approves review items) · **Partially Completed** (some published) · **Failed** (none).
+
+## Candidate question format
 
 ```json
-{
- "date": "2026-10-06",
- "key": "DAILY_LEARNING_2026_10_06",
- "generatedAt": "<ISO time>",
- "source": "scheduled",
- "navamika": [ GAME, GAME, GAME, GAME, GAME ],
- "arya": [
-  {"n": 1, "title": "Daily Mock Test 1", "subject": "Mixed (LDC pattern)", "difficulty": "medium", "questions": [ Q1 … Q25 ]},
-  {"n": 2, "title": "Daily Mock Test 2", "subject": "Mixed (LDC pattern)", "difficulty": "medium", "questions": [ Q1 … Q25 ]},
-  {"n": 3, "cat": "comp", "title": "Competitive Aptitude Test", "subject": "Quant · Reasoning · English", "difficulty": "medium", "questions": [ Q1 … Q20 ]},
-  {"n": 4, "cat": "degree", "title": "Degree-Level Practice Test", "subject": "e.g. Commerce & Economics", "difficulty": "medium", "questions": [ Q1 … Q20 ]}
- ]
-}
+{"k": "quant-007", "cat": "quant", "s": "math", "t": "Profit and loss", "lvl": "recruit", "exam": "Kerala PSC", "d": "medium",
+ "q": "800 രൂപയ്ക്ക് വാങ്ങിയ സാധനം 1000 രൂപയ്ക്ക് വിറ്റാൽ ലാഭശതമാനം എത്ര?", "o": ["20%", "25%", "15%", "30%"], "a": 1,
+ "e": "ലാഭം 200; 200 ÷ 800 × 100 = 25%.", "lang": "ml", "calc": "(1000-800)/800*100"}
 ```
+
+- `cat` and the allowed subjects `s`:
+  `gkca` (gk, ca, kh, ih, geo, con, kga, econ, law, psc) · `eng` (eng, veng) · `quant` (math, quant) · `reas` (ment, reas) · `sci` (sci, ph) · `comp` (comp) ·
+  `deg` (acc, dcs, dmath, dphy, dchem, dbio, decon, mgmt, hum, engg) · `compx` (quant, reas, veng, gk, comp, math, ment, eng, sci, con, econ; must name an `exam` from the settings).
+- `lvl`: school · hsec · diploma · degree · entrance · recruit (degree questions: degree or entrance).
+- `d`: easy · medium · hard · advanced, following the difficulty mix in the settings.
+- `lang` per category from the settings (default: Malayalam for gkca, quant, reas, sci, comp; English for eng, deg, compx). Malayalam questions are written in Malayalam script.
+- Exactly 4 different options, one correct answer `a` (0–3). No "all/none/both of the above" and no "A and B" options. Spread answers over A–D.
+- `e`: a short explanation that names the correct answer.
+- `calc`: required for numeric maths questions: a plain arithmetic expression (+ − × as *, ÷ as /, ^, sqrt) whose value equals the correct option. Use `"nocalc": true` only for non-numeric maths questions.
+- Current affairs: `ref` (https URL from ca.json) and `evd` (event date). They retire automatically after the configured number of days.
+- Accuracy first: only facts you are certain of; standard textbook facts for degree topics; work out every number. Never claim a question comes from a real exam paper.
 
 ### Navamika GAME (5–7 per day)
 
@@ -63,29 +93,3 @@ The content lives in this repository (`daily/`) and is mirrored into the tracker
 - `answer`: index of the correct option. **Spread correct answers across positions.**
 - Use simple words a 4-year-old understands, cheerful `good` lines, everyday objects, animals, fruit, colours, shapes, numbers to 20, letters. Nothing scary, violent or unsuitable. Use widely supported emoji (avoid emoji newer than 2021).
 - Vary game types day to day and mix at least 4 different types each day. Keep at most one memory and one tracing game per day.
-
-### Arya question Q (exactly 25 per test, numbered 1–25)
-
-```json
-{"n": 1, "q": "ദണ്ഡി യാത്ര ആരംഭിച്ച വർഷം:", "o": ["1920","1930","1942","1919"], "a": 1,
- "e": "1930 മാർച്ച് 12-ന് സബർമതി ആശ്രമത്തിൽ നിന്നാണ് ദണ്ഡി യാത്ര ആരംഭിച്ചത്.",
- "s": "ih", "t": "National movement", "d": "easy", "marks": 1, "lang": "ml"}
-```
-
-- Language: **Malayalam for every question except English-language questions** (`s: "eng"`, written in English, `lang: "en"`). Other questions must be written in Malayalam with `lang: "ml"`.
-- Exactly 4 different options and exactly one correct answer (`a` = 0–3). In each test, the correct answers must be spread over A–D (each position 3–9 times).
-- `e`: a short explanation that names the correct answer.
-- `s` (subject) must be one of: gk, kh (Kerala history), ih (Indian history), geo, con (constitution), kga (Kerala governance), ca (current affairs), sci, math, ment (mental ability), eng, mal (Malayalam language), comp, psc, econ, ph (public health), law.
-- `d`: easy | medium | hard. Aim for about 40% easy, 45% medium, 15% hard.
-- Suggested mix per test (LDC pattern): history 3–4 (ih/kh), geography 2–3, constitution/kga 3, science 3, public health 1–2, economics 1–2, computer 1, important laws 0–1, arithmetic/mental ability 3, English 2, Malayalam language 1–2, GK 1–2, current affairs 0–3.
-- **Accuracy matters more than anything**: use only facts you are certain of. Skip anything disputed or with more than one accepted answer.
-- **Current affairs** (`s: "ca"`): only include an item if you have confirmed it with a web search today and it happened in the last 60 days. Put the source date in the explanation. If you can't verify, use other subjects instead.
-- Never present questions as actual previous PSC questions.
-
-### Tests 3 and 4 (English, exactly 20 questions each, numbered 1–20)
-
-- Same question format, with `"lang": "en"` and the question written in English.
-- Test 3 (`cat: "comp"`): subjects `quant` (quantitative aptitude), `reas` (logical reasoning), `veng` (verbal English), `comp` (computer knowledge). Suggested mix: 7 quant, 7 reas, 5 veng, 1 comp, in the style of SSC, banking and railway exams.
-- Test 4 (`cat: "degree"`): undergraduate level, 2–3 disciplines per day, rotating through `acc` (accountancy & commerce), `dcs` (computer science), `dmath` (mathematics & statistics), `dphy`, `dchem`, `dbio` (life sciences), `decon` (economics), `mgmt` (business & management), `hum` (humanities & social sciences), `engg` (engineering basics).
-- Correct answers spread over A–D, each position 2–8 times per test. Numeric answers must be checked by working them out.
-- Use only standard textbook facts; never claim a question comes from a particular university or exam paper.
