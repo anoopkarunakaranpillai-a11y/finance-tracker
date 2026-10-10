@@ -1,0 +1,23 @@
+name: Kerala PSC access probe
+on:
+  push:
+    paths: [".github/workflows/psc-probe.yml"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Probe
+        run: |
+          mkdir -p psc/probe
+          curl -sS -A "AnoopsFinanceTracker-PSC-sync/1.0 (+https://github.com/anoopkarunakaranpillai-a11y/finance-tracker)" -o psc/probe/robots.txt -w "robots %{http_code}\n" https://www.keralapsc.gov.in/robots.txt || true
+          curl -sS -A "AnoopsFinanceTracker-PSC-sync/1.0" -o psc/probe/page0.html -w "page0 %{http_code}\n" "https://www.keralapsc.gov.in/previous-question-papers?tid=All&page=0" || true
+          curl -sS -A "AnoopsFinanceTracker-PSC-sync/1.0" -o psc/probe/171-2016.pdf -w "pdf %{http_code}\n" https://www.keralapsc.gov.in/sites/default/files/2018-08/171-2016.pdf || true
+          ls -la psc/probe; which pdftotext tesseract || true
+      - name: Commit
+        run: |
+          git config user.name "Claude"; git config user.email "noreply@anthropic.com"
+          git add psc/probe && git commit -m "PSC access probe results" -m "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>" && git push || echo nothing
