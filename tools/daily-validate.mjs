@@ -2,6 +2,7 @@
 // Exit 0 = valid. Exit 1 = problems (printed as JSON so only the bad items get regenerated).
 import fs from "node:fs";import crypto from "node:crypto";import path from "node:path";
 const SUBJ=["gk","kh","ih","geo","con","kga","ca","sci","math","ment","eng","mal","comp","psc","econ","ph","law"];
+const SUBJ_EN={comp:["quant","reas","veng","comp"],degree:["acc","dcs","dmath","dphy","dchem","dbio","decon","mgmt","hum","engg"]};
 const NTYPES=["alphabet","numbers","counting","colors","shapes","animals","fruits","matching","memory","tracing","sounds","vocabulary","puzzles","observation","logic","rhymes"];
 const SHAPES=["circle","square","triangle","rectangle","star","oval","heart","diamond","hexagon","balloon","flower","fish"];
 const BAD=/\b(kill|blood|gun|knife|die|dead|death|sexy|hate|stupid|idiot|alcohol|beer|wine|cigarette)\b/i;
@@ -35,11 +36,11 @@ const seenG=new Set();(N||[]).forEach((g,gi)=>{const w=`navamika[${gi}]`;
     const k=norm(q.q)+"|"+(q.show||"")+"|"+(q.options||[]).map(o=>o.e||o.t||o.s||o.c).join(",");if(sq.has(k))P(ww,"duplicate question inside this game");sq.add(k);
     const txt=[q.q,q.say,q.good,...(q.options||[]).map(o=>o.t)].join(" ");if(BAD.test(txt))P(ww,"not suitable for a KG1 child")})});
 /* Arya */
-const A=J.arya;if(!Array.isArray(A)||A.length!==2)P("arya","exactly 2 tests");
+const A=J.arya;if(!Array.isArray(A)||A.length<2||A.length>4)P("arya","2 to 4 tests (tests 1-2: Kerala PSC Malayalam, 25 questions; tests 3-4: English competitive/degree, 20 questions)");
 const seenQ=new Map();(A||[]).forEach((t,ti)=>{const w=`arya[${ti}]`;
-  if(t.n!==ti+1)P(w+".n",`n must be ${ti+1}`);if(!t.title)P(w+".title","title required");
-  if(!Array.isArray(t.questions)||t.questions.length!==25)P(w+".questions",`exactly 25 questions (has ${(t.questions||[]).length})`);
-  if(Array.isArray(t.questions)&&t.questions.length===25){const c=[0,0,0,0];t.questions.forEach(q=>{if([0,1,2,3].includes(q.a))c[q.a]++});if(Math.max(...c)>9||Math.min(...c)<3)P(w+".questions",`correct answers must be spread over A-D (now A:${c[0]} B:${c[1]} C:${c[2]} D:${c[3]}; each must be 3-9)`)}
+  if(t.n!==ti+1)P(w+".n",`n must be ${ti+1}`);if(!t.title)P(w+".title","title required");const EN=ti>=2;const NQ=EN?20:25;if(EN&&!["comp","degree"].includes(t.cat))P(w+".cat",'tests 3 and 4 need cat "comp" or "degree"');const SS=EN?(SUBJ_EN[t.cat]||[]):SUBJ;
+  if(!Array.isArray(t.questions)||t.questions.length!==NQ)P(w+".questions",`exactly ${NQ} questions (has ${(t.questions||[]).length})`);
+  if(Array.isArray(t.questions)&&t.questions.length===NQ){const c=[0,0,0,0],lo=EN?2:3,hi=EN?8:9;t.questions.forEach(q=>{if([0,1,2,3].includes(q.a))c[q.a]++});if(Math.max(...c)>hi||Math.min(...c)<lo)P(w+".questions",`correct answers must be spread over A-D (now A:${c[0]} B:${c[1]} C:${c[2]} D:${c[3]}; each must be ${lo}-${hi})`)}
   (t.questions||[]).forEach((q,qi)=>{const ww=`${w}.questions[${qi}]`;
     if(q.n!==qi+1)P(ww+".n",`n must be ${qi+1}`);
     if(!q.q||q.q.length<8)P(ww+".q","question text required");
@@ -48,12 +49,12 @@ const seenQ=new Map();(A||[]).forEach((t,ti)=>{const w=`arya[${ti}]`;
     if(![0,1,2,3].includes(q.a))P(ww+".a","a must be 0,1,2 or 3 (index of the one correct option)");
     if(!q.e||q.e.length<10)P(ww+".e","explanation required");
     else if(Array.isArray(q.o)&&[0,1,2,3].includes(q.a)){const right=norm(q.o[q.a]),e=norm(q.e);const others=q.o.filter((x,i)=>i!==q.a).map(norm).filter(x=>x.length>2&&e.includes(x)&&!right.includes(x));if(right.length>1&&!e.includes(right)&&others.length)P(ww+".e","explanation seems to support a different option than the answer")}
-    if(!SUBJ.includes(q.s))P(ww+".s","subject must be one of "+SUBJ.join(","));
+    if(!SS.includes(q.s))P(ww+".s","subject must be one of "+SS.join(","));
     if(!q.t)P(ww+".t","topic required");if(!["easy","medium","hard"].includes(q.d))P(ww+".d","easy|medium|hard");
     if(!Number.isInteger(q.marks)||q.marks<1)P(ww+".marks","positive integer");
-    if(q.s!=="eng"&&q.lang!=="ml")P(ww+".lang",'non-English questions must be in Malayalam with lang:"ml"');
-    if(q.s!=="eng"&&!/[ഀ-ൿ]/.test(q.q))P(ww+".q","non-English questions must be written in Malayalam");
+    if(EN){if(q.lang!=="en")P(ww+".lang",'tests 3-4 are in English: lang:"en"')}else{if(q.s!=="eng"&&q.lang!=="ml")P(ww+".lang",'non-English questions must be in Malayalam with lang:"ml"');
+    if(q.s!=="eng"&&!/[ഀ-ൿ]/.test(q.q))P(ww+".q","non-English questions must be written in Malayalam")}
     const h=hash(q.q+"|"+[...(q.o||[])].map(norm).sort().join("|"));const hq=hash(q.q);
     if(seenQ.has(hq))P(ww,"duplicate of "+seenQ.get(hq)+" today");seenQ.set(hq,ww);
     if(known.has(hq))P(ww,"repeats a question already used on "+known.get(hq))})});
-const ok=!probs.length;console.log(JSON.stringify({ok,file,games:(N||[]).length,test1:((A||[])[0]||{}).questions?.length||0,test2:((A||[])[1]||{}).questions?.length||0,problems:probs},null,1));process.exit(ok?0:1);
+const ok=!probs.length;console.log(JSON.stringify({ok,file,games:(N||[]).length,test1:((A||[])[0]||{}).questions?.length||0,test2:((A||[])[1]||{}).questions?.length||0,test3:((A||[])[2]||{}).questions?.length||0,test4:((A||[])[3]||{}).questions?.length||0,problems:probs},null,1));process.exit(ok?0:1);

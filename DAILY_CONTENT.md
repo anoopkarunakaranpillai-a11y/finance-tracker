@@ -3,7 +3,11 @@
 Every morning, before 9:00 AM Kuwait time (Asia/Kuwait, UTC+3), new content is added for:
 
 - **Navamika** (KG1, about 4 years old): at least 5 new learning games.
-- **Arya** (Kerala PSC LDC aspirant): exactly 2 new mock tests of exactly 25 questions each (50 questions/day).
+- **Arya** (Kerala PSC aspirant, also preparing for degree-level and competitive exams): 4 new mock tests a day:
+  - Tests 1 and 2: Kerala PSC LDC pattern, 25 questions each, in Malayalam (English questions in English).
+  - Test 3: competitive-exam aptitude in English (`cat: "comp"`), 20 questions.
+  - Test 4: degree-level practice in English (`cat: "degree"`), 20 questions.
+  The app adds about 9 rotating tests from the question bank, so Arya always has at least 4 options even if a run fails.
 
 The content lives in this repository (`daily/`) and is mirrored into the tracker's Claude artifact database.
 
@@ -33,7 +37,9 @@ The content lives in this repository (`daily/`) and is mirrored into the tracker
  "navamika": [ GAME, GAME, GAME, GAME, GAME ],
  "arya": [
   {"n": 1, "title": "Daily Mock Test 1", "subject": "Mixed (LDC pattern)", "difficulty": "medium", "questions": [ Q1 … Q25 ]},
-  {"n": 2, "title": "Daily Mock Test 2", "subject": "Mixed (LDC pattern)", "difficulty": "medium", "questions": [ Q1 … Q25 ]}
+  {"n": 2, "title": "Daily Mock Test 2", "subject": "Mixed (LDC pattern)", "difficulty": "medium", "questions": [ Q1 … Q25 ]},
+  {"n": 3, "cat": "comp", "title": "Competitive Aptitude Test", "subject": "Quant · Reasoning · English", "difficulty": "medium", "questions": [ Q1 … Q20 ]},
+  {"n": 4, "cat": "degree", "title": "Degree-Level Practice Test", "subject": "e.g. Commerce & Economics", "difficulty": "medium", "questions": [ Q1 … Q20 ]}
  ]
 }
 ```
@@ -75,3 +81,11 @@ The content lives in this repository (`daily/`) and is mirrored into the tracker
 - **Accuracy matters more than anything**: use only facts you are certain of. Skip anything disputed or with more than one accepted answer.
 - **Current affairs** (`s: "ca"`): only include an item if you have confirmed it with a web search today and it happened in the last 60 days. Put the source date in the explanation. If you can't verify, use other subjects instead.
 - Never present questions as actual previous PSC questions.
+
+### Tests 3 and 4 (English, exactly 20 questions each, numbered 1–20)
+
+- Same question format, with `"lang": "en"` and the question written in English.
+- Test 3 (`cat: "comp"`): subjects `quant` (quantitative aptitude), `reas` (logical reasoning), `veng` (verbal English), `comp` (computer knowledge). Suggested mix: 7 quant, 7 reas, 5 veng, 1 comp, in the style of SSC, banking and railway exams.
+- Test 4 (`cat: "degree"`): undergraduate level, 2–3 disciplines per day, rotating through `acc` (accountancy & commerce), `dcs` (computer science), `dmath` (mathematics & statistics), `dphy`, `dchem`, `dbio` (life sciences), `decon` (economics), `mgmt` (business & management), `hum` (humanities & social sciences), `engg` (engineering basics).
+- Correct answers spread over A–D, each position 2–8 times per test. Numeric answers must be checked by working them out.
+- Use only standard textbook facts; never claim a question comes from a particular university or exam paper.
