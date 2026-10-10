@@ -7,7 +7,8 @@ BASE = "https://www.keralapsc.gov.in"
 UA = "AnoopsFinanceTracker-PSC-sync/1.0 (+https://github.com/anoopkarunakaranpillai-a11y/finance-tracker)"
 DELAY = float(os.environ.get("PSC_DELAY", "2"))
 OUT = os.path.join(os.path.dirname(__file__), "..", "..", "psc")
-rp = urllib.robotparser.RobotFileParser(); rp.set_url(BASE + "/robots.txt"); rp.read()
+rp = urllib.robotparser.RobotFileParser()
+rp.parse(urllib.request.urlopen(urllib.request.Request(BASE + "/robots.txt", headers={"User-Agent": UA}), timeout=60).read().decode("utf-8", "replace").splitlines())
 log = {"started": datetime.datetime.utcnow().isoformat() + "Z", "requests": 0, "errors": []}
 def get(url, tries=3):
     if not rp.can_fetch(UA, url):
