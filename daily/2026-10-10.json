@@ -1,7 +1,8 @@
 {
+ "v": 2,
  "date": "2026-10-10",
  "key": "DAILY_LEARNING_2026_10_10",
- "generatedAt": "2026-10-10T05:51:30.475Z",
+ "generatedAt": "2026-10-10T20:18:22.300Z",
  "source": "scheduled",
  "navamika": [
   {
@@ -1402,5 +1403,4168 @@
     }
    ]
   }
- ]
+ ],
+ "bank": [
+  {
+   "id": "d20261010x001",
+   "k": "gkca-001",
+   "cat": "gkca",
+   "s": "ca",
+   "t": "Nobel Prize 2026",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "2026-ലെ സാഹിത്യ നൊബേൽ സമ്മാനം നേടിയ ആൻ കാഴ്സൺ ഏത് രാജ്യക്കാരിയാണ്?",
+   "o": [
+    "ദക്ഷിണാഫ്രിക്ക",
+    "ഓസ്ട്രേലിയ",
+    "കാനഡ",
+    "അയർലൻഡ്"
+   ],
+   "a": 2,
+   "e": "ശരിയുത്തരം: കാനഡ. കനേഡിയൻ കവയിത്രി ആൻ കാഴ്സണാണ് 2026-ലെ സാഹിത്യ നൊബേൽ (പ്രഖ്യാപനം 2026 ഒക്ടോബർ 8).",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "source"
+   ],
+   "status": "published",
+   "exam": "Kerala PSC",
+   "ref": "https://www.aljazeera.com/news/2026/10/8/canadian-anne-carson-wins-2026-nobel-prize-in-literature",
+   "evd": "2026-10-08",
+   "exp": "2027-04-06"
+  },
+  {
+   "id": "d20261010x002",
+   "k": "gkca-002",
+   "cat": "gkca",
+   "s": "ca",
+   "t": "Nobel Prize 2026",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "2026-ലെ സമാധാന നൊബേൽ സമ്മാനം നേടിയ, ഐക്യരാഷ്ട്രസഭയുടെ മുൻ മനുഷ്യാവകാശ ഹൈക്കമ്മീഷണർ ആര്?",
+   "o": [
+    "മേരി റോബിൻസൺ",
+    "ലൂയിസ് ആർബർ",
+    "മിഷേൽ ബാച്ചലെറ്റ്",
+    "നവി പിള്ള"
+   ],
+   "a": 3,
+   "e": "ശരിയുത്തരം: നവി പിള്ള. ദക്ഷിണാഫ്രിക്കൻ നിയമജ്ഞയായ നവനീതം (നവി) പിള്ളയ്ക്കാണ് 2026-ലെ സമാധാന നൊബേൽ (2026 ഒക്ടോബർ 9).",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "source"
+   ],
+   "status": "published",
+   "exam": "Kerala PSC",
+   "ref": "https://time.com/article/2026/10/05/nobel-prize-2026-winners/",
+   "evd": "2026-10-09",
+   "exp": "2027-04-07"
+  },
+  {
+   "id": "d20261010x003",
+   "k": "gkca-003",
+   "cat": "gkca",
+   "s": "ca",
+   "t": "Nobel Prize 2026",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "2026-ലെ ഭൗതികശാസ്ത്ര നൊബേൽ നേടിയ ഫ്രാൻസിസ് ഹാൽസന്റെ ഗവേഷണവുമായി ബന്ധപ്പെട്ട, ദക്ഷിണധ്രുവത്തിലെ നിരീക്ഷണകേന്ദ്രം ഏത്?",
+   "o": [
+    "സൂപ്പർ-കാമിയോകാൻഡെ",
+    "ഐസ്ക്യൂബ് ന്യൂട്രിനോ ഒബ്സർവേറ്ററി",
+    "ലിഗോ (LIGO)",
+    "ജെയിംസ് വെബ് ദൂരദർശിനി"
+   ],
+   "a": 1,
+   "e": "ശരിയുത്തരം: ഐസ്ക്യൂബ് ന്യൂട്രിനോ ഒബ്സർവേറ്ററി. ബെൽജിയൻ ശാസ്ത്രജ്ഞൻ ഹാൽസന് ഐസ്ക്യൂബിനും ഉയർന്ന ഊർജ്ജമുള്ള ജ്യോതിശാസ്ത്ര ന്യൂട്രിനോകളുടെ കണ്ടെത്തലിനുമാണ് സമ്മാനം.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "source"
+   ],
+   "status": "published",
+   "exam": "Kerala PSC",
+   "ref": "https://www.khaleejtimes.com/world/belgium-francis-halzen-wins-nobel-prize-in-physics-2026",
+   "evd": "2026-10-06",
+   "exp": "2027-04-04"
+  },
+  {
+   "id": "d20261010x004",
+   "k": "gkca-004",
+   "cat": "gkca",
+   "s": "ca",
+   "t": "Nobel Prize 2026",
+   "lvl": "recruit",
+   "d": "hard",
+   "q": "2026-ലെ വൈദ്യശാസ്ത്ര നൊബേൽ സമ്മാനം ഏത് മേഖലയിലെ കണ്ടുപിടിത്തങ്ങൾക്കാണ്?",
+   "o": [
+    "സ്റ്റെം സെൽ റീപ്രോഗ്രാമിംഗ്",
+    "mRNA വാക്സിൻ",
+    "CRISPR ജീൻ എഡിറ്റിംഗ്",
+    "ഓപ്റ്റോജെനറ്റിക്സ്"
+   ],
+   "a": 3,
+   "e": "ശരിയുത്തരം: ഓപ്റ്റോജെനറ്റിക്സ്. പ്രകാശം ഉപയോഗിച്ച് മസ്തിഷ്ക കോശങ്ങളെ നിയന്ത്രിക്കുന്ന ഈ രീതിക്ക് കാൾ ഡൈസെറോത്ത്, പീറ്റർ ഹെഗെമാൻ, ജോർജ് നാഗൽ എന്നിവർക്കാണ് സമ്മാനം.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "source"
+   ],
+   "status": "published",
+   "exam": "Kerala PSC",
+   "ref": "https://time.com/article/2026/10/05/nobel-prize-2026-winners/",
+   "evd": "2026-10-05",
+   "exp": "2027-04-03"
+  },
+  {
+   "id": "d20261010x005",
+   "k": "gkca-005",
+   "cat": "gkca",
+   "s": "ca",
+   "t": "Nobel Prize 2026",
+   "lvl": "recruit",
+   "d": "hard",
+   "q": "2026-ലെ രസതന്ത്ര നൊബേൽ നേടിയ ഹെൻറി കാഗൻ, കെൻസോ സോയി എന്നിവരുടെ ഗവേഷണം ഏത് വിഷയവുമായി ബന്ധപ്പെട്ടതാണ്?",
+   "o": [
+    "മെറ്റൽ-ഓർഗാനിക് ഫ്രെയിംവർക്കുകൾ",
+    "ക്വാണ്ടം ഡോട്ടുകൾ",
+    "ലിഥിയം-അയോൺ ബാറ്ററി",
+    "തന്മാത്രകളുടെ കൈരാലിറ്റി (ഹസ്തത)"
+   ],
+   "a": 3,
+   "e": "ശരിയുത്തരം: തന്മാത്രകളുടെ കൈരാലിറ്റി (ഹസ്തത). തന്മാത്രകളുടെ 'കൈവശത' (handedness), ഹോമോകൈരാലിറ്റി എങ്ങനെ ഉണ്ടാകുന്നു എന്നതിനാണ് സമ്മാനം.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "source"
+   ],
+   "status": "published",
+   "exam": "Kerala PSC",
+   "ref": "https://time.com/article/2026/10/05/nobel-prize-2026-winners/",
+   "evd": "2026-10-07",
+   "exp": "2027-04-05"
+  },
+  {
+   "id": "d20261010x006",
+   "k": "gkca-006",
+   "cat": "gkca",
+   "s": "ca",
+   "t": "RBI monetary policy",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "2026 ഒക്ടോബർ 7-ലെ പണനയ അവലോകനത്തിൽ റിസർവ് ബാങ്ക് റിപ്പോ നിരക്ക് എത്രയായി ഉയർത്തി?",
+   "o": [
+    "5.25%",
+    "5.75%",
+    "6.00%",
+    "5.50%"
+   ],
+   "a": 3,
+   "e": "ശരിയുത്തരം: 5.50%. ഗവർണർ സഞ്ജയ് മൽഹോത്രയുടെ അധ്യക്ഷതയിലുള്ള പണനയ സമിതി റിപ്പോ നിരക്ക് 25 ബേസിസ് പോയിന്റ് ഉയർത്തി 5.25%-ൽ നിന്ന് 5.50% ആക്കി.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "source"
+   ],
+   "status": "published",
+   "exam": "Kerala PSC",
+   "ref": "https://www.scconline.com/blog/post/2026/10/09/rbi-hikes-repo-rate-to-5-50-percent-october-2026/",
+   "evd": "2026-10-07",
+   "exp": "2027-04-05"
+  },
+  {
+   "id": "d20261010x007",
+   "k": "gkca-007",
+   "cat": "gkca",
+   "s": "ca",
+   "t": "Asian Games 2026",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "ജപ്പാനിലെ ഐച്ചി-നഗോയയിൽ നടന്ന 2026 ഏഷ്യൻ ഗെയിംസിൽ മെഡൽ പട്ടികയിൽ ഇന്ത്യയുടെ സ്ഥാനം എത്ര?",
+   "o": [
+    "അഞ്ചാം സ്ഥാനം",
+    "നാലാം സ്ഥാനം",
+    "മൂന്നാം സ്ഥാനം",
+    "ആറാം സ്ഥാനം"
+   ],
+   "a": 1,
+   "e": "ശരിയുത്തരം: നാലാം സ്ഥാനം. 21 സ്വർണ്ണം, 27 വെള്ളി, 37 വെങ്കലം ഉൾപ്പെടെ 85 മെഡലുകളോടെ ഇന്ത്യ നാലാമതെത്തി; ചൈന ഒന്നാമത്.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "source"
+   ],
+   "status": "published",
+   "exam": "Kerala PSC",
+   "ref": "https://www.outlookindia.com/sports/others/india-final-medal-tally-asian-games-2026-fourth-place-standings-gold-silver-bronze-count-aichi-nagoya",
+   "evd": "2026-10-03",
+   "exp": "2027-04-01"
+  },
+  {
+   "id": "d20261010x008",
+   "k": "gkca-008",
+   "cat": "gkca",
+   "s": "con",
+   "t": "Fundamental Rights",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "തൊട്ടുകൂടായ്മ നിർത്തലാക്കുന്ന ഇന്ത്യൻ ഭരണഘടനയിലെ അനുച്ഛേദം ഏത്?",
+   "o": [
+    "അനുച്ഛേദം 32",
+    "അനുച്ഛേദം 21",
+    "അനുച്ഛേദം 17",
+    "അനുച്ഛേദം 14"
+   ],
+   "a": 2,
+   "e": "ശരിയുത്തരം: അനുച്ഛേദം 17. തൊട്ടുകൂടായ്മ നിർത്തലാക്കുകയും അതിന്റെ ആചരണം ശിക്ഷാർഹമാക്കുകയും ചെയ്യുന്നു.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261010x009",
+   "k": "gkca-010",
+   "cat": "gkca",
+   "s": "geo",
+   "t": "Rivers of Kerala",
+   "lvl": "recruit",
+   "d": "hard",
+   "q": "കേരളത്തിൽ കിഴക്കോട്ട് ഒഴുകുന്ന നദികളിൽ ഏറ്റവും വലുത് ഏത്?",
+   "o": [
+    "കബനി",
+    "പാമ്പാർ",
+    "ചാലിയാർ",
+    "ഭവാനി"
+   ],
+   "a": 0,
+   "e": "ശരിയുത്തരം: കബനി. കേരളത്തിലെ കിഴക്കോട്ടൊഴുകുന്ന മൂന്ന് നദികൾ കബനി, ഭവാനി, പാമ്പാർ; ഇവയിൽ ഏറ്റവും വലുത് വയനാട്ടിലൂടെ ഒഴുകുന്ന കബനിയാണ്.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261010x010",
+   "k": "gkca-011",
+   "cat": "gkca",
+   "s": "kh",
+   "t": "Renaissance movements",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "വൈക്കം സത്യാഗ്രഹം ആരംഭിച്ച വർഷം ഏത്?",
+   "o": [
+    "1936",
+    "1924",
+    "1931",
+    "1921"
+   ],
+   "a": 1,
+   "e": "ശരിയുത്തരം: 1924. 1924 മാർച്ച് 30-ന് ആരംഭിച്ച വൈക്കം സത്യാഗ്രഹം 1925-ൽ അവസാനിച്ചു.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261010x011",
+   "k": "gkca-012",
+   "cat": "gkca",
+   "s": "kh",
+   "t": "Guruvayur Satyagraha",
+   "lvl": "recruit",
+   "d": "advanced",
+   "q": "ഗുരുവായൂർ സത്യാഗ്രഹത്തിന്റെ (1931) വോളണ്ടിയർ ക്യാപ്റ്റൻ ആരായിരുന്നു?",
+   "o": [
+    "എ.കെ. ഗോപാലൻ",
+    "മന്നത്ത് പത്മനാഭൻ",
+    "കെ. കേളപ്പൻ",
+    "പി. കൃഷ്ണപിള്ള"
+   ],
+   "a": 0,
+   "e": "ശരിയുത്തരം: എ.കെ. ഗോപാലൻ. സത്യാഗ്രഹത്തിന് നേതൃത്വം നൽകിയത് കെ. കേളപ്പനും വോളണ്ടിയർ ക്യാപ്റ്റൻ എ.കെ.ജിയുമായിരുന്നു.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261010x012",
+   "k": "gkca-013",
+   "cat": "gkca",
+   "s": "ih",
+   "t": "Indian National Congress",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസിന്റെ ആദ്യ സമ്മേളനം (1885) നടന്നത് എവിടെ?",
+   "o": [
+    "മദ്രാസ്",
+    "അലഹബാദ്",
+    "കൽക്കത്ത",
+    "ബോംബെ"
+   ],
+   "a": 3,
+   "e": "ശരിയുത്തരം: ബോംബെ. 1885 ഡിസംബറിൽ ഗോകുൽദാസ് തേജ്പാൽ സംസ്കൃത കോളേജിൽ ഡബ്ല്യു.സി. ബാനർജിയുടെ അധ്യക്ഷതയിൽ.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261010x013",
+   "k": "gkca-014",
+   "cat": "gkca",
+   "s": "ih",
+   "t": "Freedom struggle",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "ഗാന്ധിജിയുടെ ദണ്ഡി യാത്ര (ഉപ്പുസത്യാഗ്രഹം) ആരംഭിച്ച വർഷം ഏത്?",
+   "o": [
+    "1930",
+    "1928",
+    "1942",
+    "1920"
+   ],
+   "a": 0,
+   "e": "ശരിയുത്തരം: 1930. 1930 മാർച്ച് 12-ന് സബർമതി ആശ്രമത്തിൽ നിന്ന് ആരംഭിച്ചു.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261010x014",
+   "k": "gkca-015",
+   "cat": "gkca",
+   "s": "geo",
+   "t": "Geography of India",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "ഇന്ത്യയുടെ തെക്കേ അറ്റമായ ഇന്ദിരാ പോയിന്റ് സ്ഥിതി ചെയ്യുന്നത് എവിടെ?",
+   "o": [
+    "ലക്ഷദ്വീപ്",
+    "ആൻഡമാൻ നിക്കോബാർ ദ്വീപുകൾ",
+    "കന്യാകുമാരി",
+    "രാമേശ്വരം"
+   ],
+   "a": 1,
+   "e": "ശരിയുത്തരം: ആൻഡമാൻ നിക്കോബാർ ദ്വീപുകൾ. ഗ്രേറ്റ് നിക്കോബാർ ദ്വീപിലാണ് ഇന്ദിരാ പോയിന്റ്; പ്രധാന കരയുടെ തെക്കേ അറ്റമാണ് കന്യാകുമാരി.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261010x015",
+   "k": "gkca-016",
+   "cat": "gkca",
+   "s": "econ",
+   "t": "Taxation",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "ഇന്ത്യയിൽ ചരക്ക്-സേവന നികുതി (GST) നിലവിൽ വന്നത് എന്ന്?",
+   "o": [
+    "2018 ജനുവരി 1",
+    "2017 ഏപ്രിൽ 1",
+    "2016 ഏപ്രിൽ 1",
+    "2017 ജൂലൈ 1"
+   ],
+   "a": 3,
+   "e": "ശരിയുത്തരം: 2017 ജൂലൈ 1. 101-ാം ഭരണഘടനാ ഭേദഗതിയുടെ അടിസ്ഥാനത്തിൽ 2017 ജൂലൈ 1 മുതൽ GST നടപ്പായി.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261010x016",
+   "k": "gkca-017",
+   "cat": "gkca",
+   "s": "law",
+   "t": "Right to Information",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "ഇന്ത്യയിൽ വിവരാവകാശ നിയമം പാസാക്കിയ വർഷം ഏത്?",
+   "o": [
+    "2012",
+    "2002",
+    "2005",
+    "2009"
+   ],
+   "a": 2,
+   "e": "ശരിയുത്തരം: 2005. വിവരാവകാശ നിയമം 2005-ൽ പാസാക്കി; 2005 ഒക്ടോബർ 12-ന് പൂർണ്ണമായി പ്രാബല്യത്തിൽ വന്നു.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261010x017",
+   "k": "gkca-018",
+   "cat": "gkca",
+   "s": "gk",
+   "t": "International organisations",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "അന്താരാഷ്ട്ര നീതിന്യായ കോടതിയുടെ (ICJ) ആസ്ഥാനം എവിടെ?",
+   "o": [
+    "വിയന്ന",
+    "ന്യൂയോർക്ക്",
+    "ജനീവ",
+    "ഹേഗ്"
+   ],
+   "a": 3,
+   "e": "ശരിയുത്തരം: ഹേഗ്. നെതർലൻഡ്സിലെ ഹേഗിലുള്ള പീസ് പാലസിലാണ് ICJ പ്രവർത്തിക്കുന്നത്.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261010x018",
+   "k": "gkca-020",
+   "cat": "gkca",
+   "s": "psc",
+   "t": "Kerala PSC",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "കേരള പബ്ലിക് സർവീസ് കമ്മീഷന്റെ ആസ്ഥാനം ഏത് ജില്ലയിലാണ്?",
+   "o": [
+    "കോഴിക്കോട്",
+    "തൃശ്ശൂർ",
+    "എറണാകുളം",
+    "തിരുവനന്തപുരം"
+   ],
+   "a": 3,
+   "e": "ശരിയുത്തരം: തിരുവനന്തപുരം. കേരള PSC-യുടെ ആസ്ഥാനം തിരുവനന്തപുരത്തെ പട്ടത്താണ്.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261010x019",
+   "k": "gkca-021",
+   "cat": "gkca",
+   "s": "con",
+   "t": "Constituent Assembly",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "ഇന്ത്യൻ ഭരണഘടനാ നിർമ്മാണ സഭയുടെ സ്ഥിരം അധ്യക്ഷൻ ആരായിരുന്നു?",
+   "o": [
+    "ജവഹർലാൽ നെഹ്റു",
+    "ഡോ. രാജേന്ദ്ര പ്രസാദ്",
+    "ഡോ. ബി.ആർ. അംബേദ്കർ",
+    "സച്ചിദാനന്ദ സിൻഹ"
+   ],
+   "a": 1,
+   "e": "ശരിയുത്തരം: ഡോ. രാജേന്ദ്ര പ്രസാദ്. സച്ചിദാനന്ദ സിൻഹ താൽക്കാലിക അധ്യക്ഷനും ഡോ. ബി.ആർ. അംബേദ്കർ ഡ്രാഫ്റ്റിംഗ് കമ്മിറ്റി ചെയർമാനുമായിരുന്നു.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261010x020",
+   "k": "gkca-022",
+   "cat": "gkca",
+   "s": "geo",
+   "t": "National parks of Kerala",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "സൈലന്റ് വാലി ദേശീയോദ്യാനം സ്ഥിതി ചെയ്യുന്ന ജില്ല ഏത്?",
+   "o": [
+    "പാലക്കാട്",
+    "കൊല്ലം",
+    "വയനാട്",
+    "ഇടുക്കി"
+   ],
+   "a": 0,
+   "e": "ശരിയുത്തരം: പാലക്കാട്. സൈലന്റ് വാലി ദേശീയോദ്യാനം 1984-ൽ പ്രഖ്യാപിച്ചു; പാലക്കാട് ജില്ലയിലെ മണ്ണാർക്കാട് താലൂക്കിൽ.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261010x021",
+   "k": "eng-001",
+   "cat": "eng",
+   "s": "veng",
+   "t": "Synonyms",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "Choose the word closest in meaning to 'Benevolent'.",
+   "o": [
+    "Cruel",
+    "Lazy",
+    "Kind",
+    "Proud"
+   ],
+   "a": 2,
+   "e": "Correct answer: Kind. 'Benevolent' means well-meaning and kind.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x022",
+   "k": "eng-002",
+   "cat": "eng",
+   "s": "veng",
+   "t": "Antonyms",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "Choose the word opposite in meaning to 'Scarce'.",
+   "o": [
+    "Abundant",
+    "Rare",
+    "Limited",
+    "Little"
+   ],
+   "a": 0,
+   "e": "Correct answer: Abundant. 'Scarce' means in short supply; its opposite is abundant.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x023",
+   "k": "eng-003",
+   "cat": "eng",
+   "s": "eng",
+   "t": "Prepositions",
+   "lvl": "school",
+   "d": "easy",
+   "q": "Fill in the blank: She has been working here ___ 2019.",
+   "o": [
+    "from",
+    "by",
+    "since",
+    "for"
+   ],
+   "a": 2,
+   "e": "Correct answer: since. 'Since' is used with a point in time in the present perfect continuous.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x024",
+   "k": "eng-004",
+   "cat": "eng",
+   "s": "veng",
+   "t": "One-word substitution",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "One word for 'a person who cannot be corrected or reformed':",
+   "o": [
+    "Incorrigible",
+    "Inevitable",
+    "Invincible",
+    "Infallible"
+   ],
+   "a": 0,
+   "e": "Correct answer: Incorrigible. It describes someone whose bad habits cannot be corrected.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x025",
+   "k": "eng-006",
+   "cat": "eng",
+   "s": "veng",
+   "t": "Idioms",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "The idiom 'to bite the bullet' means:",
+   "o": [
+    "to speak rudely to someone",
+    "to face a difficult situation bravely",
+    "to avoid a responsibility",
+    "to eat very quickly"
+   ],
+   "a": 1,
+   "e": "Correct answer: to face a difficult situation bravely, i.e. accept something unpleasant and deal with it.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x026",
+   "k": "eng-008",
+   "cat": "eng",
+   "s": "eng",
+   "t": "Reported speech",
+   "lvl": "hsec",
+   "d": "medium",
+   "q": "Choose the correct indirect form: He said, \"I am tired.\"",
+   "o": [
+    "He said that I am tired.",
+    "He said that I was tired.",
+    "He says that he was tired.",
+    "He said that he was tired."
+   ],
+   "a": 3,
+   "e": "Correct answer: He said that he was tired. With a past reporting verb, 'am' changes to 'was' and 'I' to 'he'.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x027",
+   "k": "eng-009",
+   "cat": "eng",
+   "s": "eng",
+   "t": "Articles",
+   "lvl": "school",
+   "d": "easy",
+   "q": "Fill in the blank: It took me ___ hour to finish the work.",
+   "o": [
+    "many",
+    "a",
+    "much",
+    "an"
+   ],
+   "a": 3,
+   "e": "Correct answer: an. 'Hour' begins with a vowel sound, so it takes 'an'.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x028",
+   "k": "eng-011",
+   "cat": "eng",
+   "s": "eng",
+   "t": "Error spotting",
+   "lvl": "recruit",
+   "d": "hard",
+   "q": "Find the part with an error: Neither of the boys / were present / at the meeting / yesterday.",
+   "o": [
+    "Neither of the boys",
+    "were present",
+    "yesterday",
+    "at the meeting"
+   ],
+   "a": 1,
+   "e": "Correct answer: were present. 'Neither of' takes a singular verb, so it should be 'was present'.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x029",
+   "k": "eng-012",
+   "cat": "eng",
+   "s": "eng",
+   "t": "Prepositions",
+   "lvl": "school",
+   "d": "easy",
+   "q": "Fill in the blank: He is very good ___ mathematics.",
+   "o": [
+    "on",
+    "at",
+    "for",
+    "in"
+   ],
+   "a": 1,
+   "e": "Correct answer: at. We say 'good at' a subject or skill.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x030",
+   "k": "eng-013",
+   "cat": "eng",
+   "s": "veng",
+   "t": "Vocabulary",
+   "lvl": "degree",
+   "d": "advanced",
+   "q": "The word 'ephemeral' means:",
+   "o": [
+    "lasting a very short time",
+    "very large in size",
+    "full of joy",
+    "extremely old"
+   ],
+   "a": 0,
+   "e": "Correct answer: lasting a very short time, as in 'ephemeral fame'.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x031",
+   "k": "eng-014",
+   "cat": "eng",
+   "s": "eng",
+   "t": "Conditionals",
+   "lvl": "hsec",
+   "d": "medium",
+   "q": "Fill in the blank: If I ___ you, I would accept the offer.",
+   "o": [
+    "am",
+    "be",
+    "being",
+    "were"
+   ],
+   "a": 3,
+   "e": "Correct answer: were. The second conditional uses the subjunctive 'were' for an imaginary situation.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x032",
+   "k": "eng-015",
+   "cat": "eng",
+   "s": "veng",
+   "t": "Antonyms",
+   "lvl": "school",
+   "d": "easy",
+   "q": "Choose the word opposite in meaning to 'Transparent'.",
+   "o": [
+    "Bright",
+    "Visible",
+    "Clear",
+    "Opaque"
+   ],
+   "a": 3,
+   "e": "Correct answer: Opaque. A transparent object lets light pass through; an opaque one does not.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x033",
+   "k": "eng-016",
+   "cat": "eng",
+   "s": "eng",
+   "t": "Subject-verb agreement",
+   "lvl": "recruit",
+   "d": "hard",
+   "q": "Choose the grammatically correct sentence.",
+   "o": [
+    "Each of student have a book.",
+    "Each of the students have a book.",
+    "Each of the students has a book.",
+    "Each of the student has a book."
+   ],
+   "a": 2,
+   "e": "Correct answer: Each of the students has a book. 'Each of' takes a plural noun and a singular verb.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x034",
+   "k": "quant-001",
+   "cat": "quant",
+   "s": "math",
+   "t": "Percentage",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "ഒരു സംഖ്യയുടെ 35% 140 ആയാൽ ആ സംഖ്യ ഏത്?",
+   "o": [
+    "490",
+    "400",
+    "350",
+    "420"
+   ],
+   "a": 1,
+   "e": "ശരിയുത്തരം: 400. 140 ÷ 35 × 100 = 400.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x035",
+   "k": "quant-002",
+   "cat": "quant",
+   "s": "math",
+   "t": "Compound interest",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "₹8000-ന് 10% വാർഷിക കൂട്ടുപലിശ നിരക്കിൽ 2 വർഷത്തെ കൂട്ടുപലിശ എത്ര?",
+   "o": [
+    "₹1680",
+    "₹1700",
+    "₹1600",
+    "₹1760"
+   ],
+   "a": 0,
+   "e": "ശരിയുത്തരം: ₹1680. 8000 × 1.1 × 1.1 = 9680; 9680 − 8000 = 1680.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x036",
+   "k": "quant-003",
+   "cat": "quant",
+   "s": "math",
+   "t": "Trains",
+   "lvl": "recruit",
+   "d": "hard",
+   "q": "മണിക്കൂറിൽ 54 കി.മീ. വേഗത്തിൽ ഓടുന്ന ഒരു ട്രെയിൻ 200 മീ. നീളമുള്ള പ്ലാറ്റ്ഫോം 30 സെക്കൻഡിൽ കടക്കുന്നു. ട്രെയിനിന്റെ നീളം എത്ര?",
+   "o": [
+    "250 മീ.",
+    "200 മീ.",
+    "450 മീ.",
+    "300 മീ."
+   ],
+   "a": 0,
+   "e": "ശരിയുത്തരം: 250 മീ. (54 കി.മീ./മണിക്കൂർ = 15 മീ./സെ.; 15 × 30 = 450 മീ.; 450 − 200 = 250 മീ.)",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x037",
+   "k": "quant-004",
+   "cat": "quant",
+   "s": "math",
+   "t": "Time and work",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "A ഒരു ജോലി 12 ദിവസം കൊണ്ടും B അതേ ജോലി 24 ദിവസം കൊണ്ടും ചെയ്തുതീർക്കും. ഇരുവരും ഒരുമിച്ച് എത്ര ദിവസം കൊണ്ട് തീർക്കും?",
+   "o": [
+    "9 ദിവസം",
+    "8 ദിവസം",
+    "6 ദിവസം",
+    "18 ദിവസം"
+   ],
+   "a": 1,
+   "e": "ശരിയുത്തരം: 8 ദിവസം. 1/12 + 1/24 = 3/24 = 1/8.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x038",
+   "k": "quant-005",
+   "cat": "quant",
+   "s": "math",
+   "t": "Average",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "5 സംഖ്യകളുടെ ശരാശരി 24. അവയിൽ ഒരു സംഖ്യ ഒഴിവാക്കിയപ്പോൾ ശരാശരി 22 ആയി. ഒഴിവാക്കിയ സംഖ്യ ഏത്?",
+   "o": [
+    "34",
+    "32",
+    "30",
+    "28"
+   ],
+   "a": 1,
+   "e": "ശരിയുത്തരം: 32. 5 × 24 = 120; 4 × 22 = 88; 120 − 88 = 32.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x039",
+   "k": "quant-006",
+   "cat": "quant",
+   "s": "math",
+   "t": "Discount",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "₹1500 വിലയുള്ള സാധനത്തിന് 20% കിഴിവും തുടർന്ന് 10% കിഴിവും നൽകിയാൽ വിറ്റ വില എത്ര?",
+   "o": [
+    "₹1125",
+    "₹1050",
+    "₹1200",
+    "₹1080"
+   ],
+   "a": 3,
+   "e": "ശരിയുത്തരം: ₹1080. 1500 × 0.8 = 1200; 1200 × 0.9 = 1080.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x040",
+   "k": "quant-007",
+   "cat": "quant",
+   "s": "math",
+   "t": "Mensuration",
+   "lvl": "hsec",
+   "d": "medium",
+   "q": "ഒരു സമചതുരത്തിന്റെ വികർണ്ണം 10 സെ.മീ. ആയാൽ അതിന്റെ പരപ്പളവ് എത്ര ച.സെ.മീ.?",
+   "o": [
+    "70",
+    "25",
+    "100",
+    "50"
+   ],
+   "a": 3,
+   "e": "ശരിയുത്തരം: 50. സമചതുരത്തിന്റെ പരപ്പളവ് = വികർണ്ണം² ÷ 2 = 100 ÷ 2 = 50.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x041",
+   "k": "quant-008",
+   "cat": "quant",
+   "s": "math",
+   "t": "Circle",
+   "lvl": "school",
+   "d": "easy",
+   "q": "ആരം 7 സെ.മീ. ആയ വൃത്തത്തിന്റെ പരപ്പളവ് എത്ര ച.സെ.മീ.? (π = 22/7)",
+   "o": [
+    "154",
+    "144",
+    "44",
+    "308"
+   ],
+   "a": 0,
+   "e": "ശരിയുത്തരം: 154. πr² = 22/7 × 7 × 7 = 154.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x042",
+   "k": "quant-010",
+   "cat": "quant",
+   "s": "math",
+   "t": "Ages",
+   "lvl": "recruit",
+   "d": "hard",
+   "q": "അച്ഛന്റെ ഇപ്പോഴത്തെ വയസ്സ് മകന്റെ വയസ്സിന്റെ 3 മടങ്ങാണ്. 10 വർഷം കഴിഞ്ഞാൽ അത് 2 മടങ്ങാകും. മകന്റെ ഇപ്പോഴത്തെ വയസ്സ് എത്ര?",
+   "o": [
+    "10",
+    "20",
+    "15",
+    "12"
+   ],
+   "a": 0,
+   "e": "ശരിയുത്തരം: 10. 3x + 10 = 2(x + 10) ⇒ x = 10.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x043",
+   "k": "quant-011",
+   "cat": "quant",
+   "s": "math",
+   "t": "LCM and ratio",
+   "lvl": "recruit",
+   "d": "advanced",
+   "q": "2 : 3 എന്ന അനുപാതത്തിലുള്ള രണ്ട് സംഖ്യകളുടെ ലസാഗു 54 ആയാൽ ചെറിയ സംഖ്യ ഏത്?",
+   "o": [
+    "9",
+    "18",
+    "12",
+    "27"
+   ],
+   "a": 1,
+   "e": "ശരിയുത്തരം: 18. സംഖ്യകൾ 2k, 3k; ലസാഗു 6k = 54 ⇒ k = 9; ചെറിയ സംഖ്യ 18.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x044",
+   "k": "quant-012",
+   "cat": "quant",
+   "s": "math",
+   "t": "Mixtures",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "30 ലിറ്റർ മിശ്രിതത്തിൽ പാലും വെള്ളവും 7 : 3 എന്ന അനുപാതത്തിലാണ്. വെള്ളം എത്ര ലിറ്റർ?",
+   "o": [
+    "21",
+    "9",
+    "10",
+    "7"
+   ],
+   "a": 1,
+   "e": "ശരിയുത്തരം: 9. 30 × 3/10 = 9 ലിറ്റർ.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x045",
+   "k": "quant-013",
+   "cat": "quant",
+   "s": "math",
+   "t": "Speed conversion",
+   "lvl": "school",
+   "d": "easy",
+   "q": "സെക്കൻഡിൽ 25 മീറ്റർ എന്ന വേഗം മണിക്കൂറിൽ എത്ര കി.മീ.?",
+   "o": [
+    "75",
+    "85",
+    "100",
+    "90"
+   ],
+   "a": 3,
+   "e": "ശരിയുത്തരം: 90. 25 × 18/5 = 90 കി.മീ./മണിക്കൂർ.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x046",
+   "k": "quant-014",
+   "cat": "quant",
+   "s": "math",
+   "t": "Simple interest",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "₹12000 സാധാരണ പലിശ നിരക്കിൽ 5 വർഷം കൊണ്ട് ₹15000 ആയാൽ വാർഷിക പലിശ നിരക്ക് എത്ര?",
+   "o": [
+    "4%",
+    "2.5%",
+    "5%",
+    "6%"
+   ],
+   "a": 2,
+   "e": "ശരിയുത്തരം: 5%. പലിശ 3000; നിരക്ക് = 3000 × 100 ÷ (12000 × 5) = 5%.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x047",
+   "k": "quant-015",
+   "cat": "quant",
+   "s": "math",
+   "t": "Decimals",
+   "lvl": "school",
+   "d": "easy",
+   "q": "0.25 × 0.4-ന്റെ വില എത്ര?",
+   "o": [
+    "1",
+    "0.01",
+    "0.1",
+    "0.001"
+   ],
+   "a": 2,
+   "e": "ശരിയുത്തരം: 0.1. 25 × 4 = 100; നാല് ദശാംശസ്ഥാനങ്ങൾ ⇒ 0.0100 = 0.1.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x048",
+   "k": "quant-016",
+   "cat": "quant",
+   "s": "math",
+   "t": "Powers",
+   "lvl": "school",
+   "d": "easy",
+   "q": "2¹⁰-ന്റെ വില എത്ര?",
+   "o": [
+    "1024",
+    "2048",
+    "512",
+    "1000"
+   ],
+   "a": 0,
+   "e": "ശരിയുത്തരം: 1024. 2⁵ = 32; 32 × 32 = 1024.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x049",
+   "k": "quant-017",
+   "cat": "quant",
+   "s": "math",
+   "t": "Profit and loss",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "ഒരു സാധനം ₹600-ന് വിറ്റപ്പോൾ 20% ലാഭം കിട്ടി. വാങ്ങിയ വില എത്ര?",
+   "o": [
+    "₹480",
+    "₹520",
+    "₹500",
+    "₹720"
+   ],
+   "a": 2,
+   "e": "ശരിയുത്തരം: ₹500. വാങ്ങിയ വില = 600 ÷ 1.2 = 500.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x050",
+   "k": "quant-018",
+   "cat": "quant",
+   "s": "math",
+   "t": "Percentage",
+   "lvl": "school",
+   "d": "easy",
+   "q": "ഒരു ക്ലാസിലെ 40 കുട്ടികളിൽ 60% പെൺകുട്ടികളാണ്. ആൺകുട്ടികളുടെ എണ്ണം എത്ര?",
+   "o": [
+    "16",
+    "20",
+    "24",
+    "14"
+   ],
+   "a": 0,
+   "e": "ശരിയുത്തരം: 16. ആൺകുട്ടികൾ 40% ⇒ 40 × 40/100 = 16.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x051",
+   "k": "quant-019",
+   "cat": "quant",
+   "s": "math",
+   "t": "Volume",
+   "lvl": "school",
+   "d": "easy",
+   "q": "വശം 4 സെ.മീ. ആയ ഒരു ക്യൂബിന്റെ വ്യാപ്തം എത്ര ഘന സെ.മീ.?",
+   "o": [
+    "16",
+    "48",
+    "96",
+    "64"
+   ],
+   "a": 3,
+   "e": "ശരിയുത്തരം: 64. വ്യാപ്തം = 4 × 4 × 4 = 64.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x052",
+   "k": "quant-020",
+   "cat": "quant",
+   "s": "math",
+   "t": "Linear equations",
+   "lvl": "school",
+   "d": "easy",
+   "q": "ഒരു സംഖ്യയുടെ 3 മടങ്ങിനോട് 7 കൂട്ടിയാൽ 40 കിട്ടും. സംഖ്യ ഏത്?",
+   "o": [
+    "11",
+    "9",
+    "12",
+    "13"
+   ],
+   "a": 0,
+   "e": "ശരിയുത്തരം: 11. 3x + 7 = 40 ⇒ 3x = 33 ⇒ x = 11.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x053",
+   "k": "reas-001",
+   "cat": "reas",
+   "s": "ment",
+   "t": "Number series",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "ശ്രേണിയിലെ അടുത്ത സംഖ്യ ഏത്? 1, 2, 6, 24, 120, ?",
+   "o": [
+    "240",
+    "600",
+    "840",
+    "720"
+   ],
+   "a": 3,
+   "e": "ശരിയുത്തരം: 720. ×2, ×3, ×4, ×5 എന്ന ക്രമത്തിൽ; 120 × 6 = 720.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x054",
+   "k": "reas-002",
+   "cat": "reas",
+   "s": "ment",
+   "t": "Number series",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "ശ്രേണിയിലെ അടുത്ത സംഖ്യ ഏത്? 7, 11, 19, 35, ?",
+   "o": [
+    "63",
+    "70",
+    "67",
+    "51"
+   ],
+   "a": 2,
+   "e": "ശരിയുത്തരം: 67. വ്യത്യാസങ്ങൾ 4, 8, 16, 32; 35 + 32 = 67.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x055",
+   "k": "reas-004",
+   "cat": "reas",
+   "s": "ment",
+   "t": "Coding-decoding",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "ഒരു കോഡ് ഭാഷയിൽ BOOK എന്നത് CPPL എന്നെഴുതിയാൽ WORD എങ്ങനെ എഴുതാം?",
+   "o": [
+    "XQSE",
+    "XPSE",
+    "VNQC",
+    "XPSF"
+   ],
+   "a": 1,
+   "e": "ശരിയുത്തരം: XPSE. ഓരോ അക്ഷരവും ഒരു സ്ഥാനം മുന്നോട്ട്: W→X, O→P, R→S, D→E.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x056",
+   "k": "reas-005",
+   "cat": "reas",
+   "s": "ment",
+   "t": "Coding-decoding",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "അക്ഷരങ്ങൾക്ക് അക്ഷരമാലയിലെ സ്ഥാനസംഖ്യ നൽകുമ്പോൾ PEN = 35 ആണെങ്കിൽ INK = ?",
+   "o": [
+    "34",
+    "32",
+    "30",
+    "36"
+   ],
+   "a": 0,
+   "e": "ശരിയുത്തരം: 34. I = 9, N = 14, K = 11; 9 + 14 + 11 = 34.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x057",
+   "k": "reas-006",
+   "cat": "reas",
+   "s": "ment",
+   "t": "Direction sense",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "ഒരാൾ കിഴക്കോട്ട് 4 കി.മീ. നടന്ന ശേഷം വടക്കോട്ട് 3 കി.മീ. നടന്നു. ആരംഭസ്ഥാനത്തുനിന്ന് അയാൾ എത്ര കി.മീ. അകലെയാണ്?",
+   "o": [
+    "6",
+    "7",
+    "5",
+    "1"
+   ],
+   "a": 2,
+   "e": "ശരിയുത്തരം: 5. പൈതഗോറസ്: √(4² + 3²) = √25 = 5 കി.മീ.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x058",
+   "k": "reas-007",
+   "cat": "reas",
+   "s": "ment",
+   "t": "Blood relations",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "P, Q-വിന്റെ അച്ഛനാണ്. R, P-യുടെ അച്ഛനാണ്. R, Q-വിന്റെ ആരാണ്?",
+   "o": [
+    "അമ്മാവൻ",
+    "മുത്തച്ഛൻ",
+    "അച്ഛൻ",
+    "സഹോദരൻ"
+   ],
+   "a": 1,
+   "e": "ശരിയുത്തരം: മുത്തച്ഛൻ. R, Q-വിന്റെ അച്ഛന്റെ അച്ഛനാണ്.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x059",
+   "k": "reas-008",
+   "cat": "reas",
+   "s": "ment",
+   "t": "Calendar",
+   "lvl": "recruit",
+   "d": "hard",
+   "q": "2026 ജനുവരി 1 വ്യാഴാഴ്ച ആയിരുന്നു. 2026 ഫെബ്രുവരി 1 ഏത് ദിവസമാണ്?",
+   "o": [
+    "ഞായറാഴ്ച",
+    "ശനിയാഴ്ച",
+    "വെള്ളിയാഴ്ച",
+    "തിങ്കളാഴ്ച"
+   ],
+   "a": 0,
+   "e": "ശരിയുത്തരം: ഞായറാഴ്ച. ജനുവരിക്ക് 31 ദിവസം; 31 ÷ 7 ശിഷ്ടം 3; വ്യാഴം + 3 = ഞായർ.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x060",
+   "k": "reas-009",
+   "cat": "reas",
+   "s": "ment",
+   "t": "Clocks",
+   "lvl": "recruit",
+   "d": "hard",
+   "q": "സമയം 4:20 ആകുമ്പോൾ ക്ലോക്കിലെ മണിക്കൂർ സൂചിക്കും മിനിറ്റ് സൂചിക്കും ഇടയിലുള്ള കോൺ എത്ര ഡിഗ്രി?",
+   "o": [
+    "0",
+    "20",
+    "10",
+    "15"
+   ],
+   "a": 2,
+   "e": "ശരിയുത്തരം: 10. |30 × 4 − 5.5 × 20| = |120 − 110| = 10°.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x061",
+   "k": "reas-010",
+   "cat": "reas",
+   "s": "ment",
+   "t": "Ranking",
+   "lvl": "school",
+   "d": "easy",
+   "q": "40 കുട്ടികളുള്ള ഒരു വരിയിൽ രമ മുന്നിൽ നിന്ന് 15-ാമതാണ്. പിന്നിൽ നിന്ന് അവൾ എത്രാമതാണ്?",
+   "o": [
+    "25",
+    "27",
+    "26",
+    "24"
+   ],
+   "a": 2,
+   "e": "ശരിയുത്തരം: 26. 40 − 15 + 1 = 26.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x062",
+   "k": "reas-011",
+   "cat": "reas",
+   "s": "ment",
+   "t": "Odd one out",
+   "lvl": "school",
+   "d": "easy",
+   "q": "കൂട്ടത്തിൽ ചേരാത്ത സംഖ്യ ഏത്? 2, 3, 5, 9, 11",
+   "o": [
+    "9",
+    "2",
+    "11",
+    "5"
+   ],
+   "a": 0,
+   "e": "ശരിയുത്തരം: 9. ബാക്കിയെല്ലാം അഭാജ്യസംഖ്യകളാണ്; 9 = 3 × 3.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x063",
+   "k": "reas-012",
+   "cat": "reas",
+   "s": "ment",
+   "t": "Analogy",
+   "lvl": "school",
+   "d": "easy",
+   "q": "3 : 27 :: 5 : ? — വിട്ടുപോയ സംഖ്യ ഏത്?",
+   "o": [
+    "75",
+    "25",
+    "15",
+    "125"
+   ],
+   "a": 3,
+   "e": "ശരിയുത്തരം: 125. 3³ = 27 എന്നപോലെ 5³ = 125.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x064",
+   "k": "reas-014",
+   "cat": "reas",
+   "s": "reas",
+   "t": "Syllogism",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "പ്രസ്താവനകൾ: എല്ലാ പൂച്ചകളും മൃഗങ്ങളാണ്. എല്ലാ മൃഗങ്ങളും ജീവികളാണ്. ശരിയായ നിഗമനം ഏത്?",
+   "o": [
+    "ചില മൃഗങ്ങൾ ജീവികളല്ല",
+    "എല്ലാ പൂച്ചകളും ജീവികളാണ്",
+    "ഒരു പൂച്ചയും ജീവിയല്ല",
+    "എല്ലാ ജീവികളും പൂച്ചകളാണ്"
+   ],
+   "a": 1,
+   "e": "ശരിയുത്തരം: എല്ലാ പൂച്ചകളും ജീവികളാണ്. പൂച്ചകൾ മൃഗങ്ങളിലും മൃഗങ്ങൾ ജീവികളിലും പൂർണ്ണമായി ഉൾപ്പെടുന്നു.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x065",
+   "k": "reas-015",
+   "cat": "reas",
+   "s": "reas",
+   "t": "Ordering",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "A, B-യേക്കാൾ ഉയരമുള്ളവനാണ്. C, A-യേക്കാൾ ഉയരമുള്ളവനാണ്. D, B-യേക്കാൾ ഉയരം കുറഞ്ഞവനാണ്. ഏറ്റവും ഉയരം കൂടിയത് ആര്?",
+   "o": [
+    "C",
+    "A",
+    "B",
+    "D"
+   ],
+   "a": 0,
+   "e": "ശരിയുത്തരം: C. ക്രമം: C > A > B > D.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x066",
+   "k": "reas-016",
+   "cat": "reas",
+   "s": "ment",
+   "t": "Number series",
+   "lvl": "recruit",
+   "d": "advanced",
+   "q": "ശ്രേണിയിലെ അടുത്ത സംഖ്യ ഏത്? 4, 9, 25, 49, 121, ?",
+   "o": [
+    "169",
+    "144",
+    "196",
+    "150"
+   ],
+   "a": 0,
+   "e": "ശരിയുത്തരം: 169. അഭാജ്യസംഖ്യകളുടെ വർഗ്ഗങ്ങൾ: 2², 3², 5², 7², 11², 13² = 169.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x067",
+   "k": "reas-017",
+   "cat": "reas",
+   "s": "ment",
+   "t": "Calendar",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "ഇന്ന് ബുധനാഴ്ചയാണ്. 45 ദിവസം കഴിഞ്ഞാൽ ഏത് ദിവസമായിരിക്കും?",
+   "o": [
+    "വ്യാഴാഴ്ച",
+    "ഞായറാഴ്ച",
+    "വെള്ളിയാഴ്ച",
+    "ശനിയാഴ്ച"
+   ],
+   "a": 3,
+   "e": "ശരിയുത്തരം: ശനിയാഴ്ച. 45 ÷ 7 ശിഷ്ടം 3; ബുധൻ + 3 = ശനി.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x068",
+   "k": "reas-018",
+   "cat": "reas",
+   "s": "ment",
+   "t": "Letter analogy",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "ACE : BDF :: GIK : ? — വിട്ടുപോയ അക്ഷരക്കൂട്ടം ഏത്?",
+   "o": [
+    "HIJ",
+    "GJL",
+    "HJL",
+    "IKM"
+   ],
+   "a": 2,
+   "e": "ശരിയുത്തരം: HJL. ഓരോ അക്ഷരവും ഒരു സ്ഥാനം മുന്നോട്ട്: G→H, I→J, K→L.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x069",
+   "k": "reas-019",
+   "cat": "reas",
+   "s": "ment",
+   "t": "Cubes",
+   "lvl": "recruit",
+   "d": "advanced",
+   "q": "ഒരു ക്യൂബിന്റെ എല്ലാ മുഖങ്ങളും പെയിന്റ് ചെയ്ത ശേഷം 27 ഒരേ വലിപ്പമുള്ള ചെറിയ ക്യൂബുകളാക്കി മുറിച്ചു. ഒരു മുഖത്തും പെയിന്റ് ഇല്ലാത്ത ചെറിയ ക്യൂബുകൾ എത്ര?",
+   "o": [
+    "1",
+    "8",
+    "6",
+    "0"
+   ],
+   "a": 0,
+   "e": "ശരിയുത്തരം: 1. (3 − 2)³ = 1; നടുവിലെ ക്യൂബിന് മാത്രം പെയിന്റ് ഇല്ല.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x070",
+   "k": "reas-020",
+   "cat": "reas",
+   "s": "ment",
+   "t": "Coding-decoding",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "ഒരു കോഡ് ഭാഷയിൽ MANGO എന്നത് OCPIQ എന്നെഴുതിയാൽ GRAPE എങ്ങനെ എഴുതാം?",
+   "o": [
+    "ITCRG",
+    "ITBRG",
+    "ISCRG",
+    "HTCRG"
+   ],
+   "a": 0,
+   "e": "ശരിയുത്തരം: ITCRG. ഓരോ അക്ഷരവും രണ്ട് സ്ഥാനം മുന്നോട്ട്: G→I, R→T, A→C, P→R, E→G.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x071",
+   "k": "sci-001",
+   "cat": "sci",
+   "s": "sci",
+   "t": "Newton's laws",
+   "lvl": "school",
+   "d": "easy",
+   "q": "10 കി.ഗ്രാം പിണ്ഡമുള്ള വസ്തുവിന് 2 m/s² ത്വരണം നൽകാൻ ആവശ്യമായ ബലം എത്ര?",
+   "o": [
+    "12 N",
+    "8 N",
+    "5 N",
+    "20 N"
+   ],
+   "a": 3,
+   "e": "ശരിയുത്തരം: 20 N. F = ma = 10 × 2 = 20 ന്യൂട്ടൺ.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x072",
+   "k": "sci-002",
+   "cat": "sci",
+   "s": "sci",
+   "t": "Light",
+   "lvl": "school",
+   "d": "easy",
+   "q": "പ്രകാശത്തിന് ഏറ്റവും കൂടുതൽ വേഗമുള്ളത് ഏത് മാധ്യമത്തിലാണ്?",
+   "o": [
+    "ജലത്തിൽ",
+    "ഗ്ലാസിൽ",
+    "ശൂന്യതയിൽ",
+    "വജ്രത്തിൽ"
+   ],
+   "a": 2,
+   "e": "ശരിയുത്തരം: ശൂന്യതയിൽ. ശൂന്യതയിൽ ഏകദേശം 3 × 10⁸ m/s; മറ്റ് മാധ്യമങ്ങളിൽ വേഗം കുറയും.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x073",
+   "k": "sci-003",
+   "cat": "sci",
+   "s": "sci",
+   "t": "Atmosphere",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "ഓസോൺ പാളി പ്രധാനമായും കാണപ്പെടുന്ന അന്തരീക്ഷ മണ്ഡലം ഏത്?",
+   "o": [
+    "തെർമോസ്ഫിയർ",
+    "മീസോസ്ഫിയർ",
+    "ട്രോപ്പോസ്ഫിയർ",
+    "സ്ട്രാറ്റോസ്ഫിയർ"
+   ],
+   "a": 3,
+   "e": "ശരിയുത്തരം: സ്ട്രാറ്റോസ്ഫിയർ. ഓസോൺ പാളി സ്ട്രാറ്റോസ്ഫിയറിലാണ്; അത് അൾട്രാവയലറ്റ് രശ്മികളെ തടയുന്നു.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x074",
+   "k": "sci-004",
+   "cat": "sci",
+   "s": "sci",
+   "t": "Atomic structure",
+   "lvl": "hsec",
+   "d": "medium",
+   "q": "ആറ്റത്തിന്റെ ന്യൂക്ലിയസ് കണ്ടെത്തിയ ശാസ്ത്രജ്ഞൻ ആര്?",
+   "o": [
+    "ജോൺ ഡാൾട്ടൺ",
+    "ഏണസ്റ്റ് റഥർഫോർഡ്",
+    "നീൽസ് ബോർ",
+    "ജെ.ജെ. തോംസൺ"
+   ],
+   "a": 1,
+   "e": "ശരിയുത്തരം: ഏണസ്റ്റ് റഥർഫോർഡ്. 1911-ലെ സ്വർണ്ണത്തകിട് പരീക്ഷണത്തിലൂടെ.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x075",
+   "k": "sci-005",
+   "cat": "sci",
+   "s": "sci",
+   "t": "Atomic structure",
+   "lvl": "hsec",
+   "d": "medium",
+   "q": "ന്യൂട്രോൺ കണ്ടെത്തിയത് ആര്?",
+   "o": [
+    "മാക്സ് പ്ലാങ്ക്",
+    "ജെയിംസ് ചാഡ്വിക്ക്",
+    "ആൽബർട്ട് ഐൻസ്റ്റീൻ",
+    "ഗോൾഡ്സ്റ്റീൻ"
+   ],
+   "a": 1,
+   "e": "ശരിയുത്തരം: ജെയിംസ് ചാഡ്വിക്ക്. 1932-ൽ ന്യൂട്രോൺ കണ്ടെത്തി.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x076",
+   "k": "sci-006",
+   "cat": "sci",
+   "s": "sci",
+   "t": "Cell biology",
+   "lvl": "school",
+   "d": "easy",
+   "q": "കോശത്തിന്റെ 'ഊർജ്ജനിലയം' (പവർഹൗസ്) എന്നറിയപ്പെടുന്നത് ഏത്?",
+   "o": [
+    "മൈറ്റോകോൺഡ്രിയ",
+    "ഗോൾഗി വസ്തു",
+    "റൈബോസോം",
+    "ലൈസോസോം"
+   ],
+   "a": 0,
+   "e": "ശരിയുത്തരം: മൈറ്റോകോൺഡ്രിയ. കോശശ്വസനത്തിലൂടെ ATP രൂപത്തിൽ ഊർജ്ജം ഉൽപ്പാദിപ്പിക്കുന്നു.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x077",
+   "k": "sci-007",
+   "cat": "sci",
+   "s": "sci",
+   "t": "Chemical reactions",
+   "lvl": "school",
+   "d": "medium",
+   "q": "ഇരുമ്പ് തുരുമ്പിക്കുന്നത് ഏത് തരം രാസപ്രവർത്തനത്തിന് ഉദാഹരണമാണ്?",
+   "o": [
+    "നിർവീര്യീകരണം",
+    "ഉത്പതനം",
+    "നിരോക്സീകരണം",
+    "ഓക്സീകരണം"
+   ],
+   "a": 3,
+   "e": "ശരിയുത്തരം: ഓക്സീകരണം. ഈർപ്പത്തിന്റെ സാന്നിധ്യത്തിൽ ഇരുമ്പ് ഓക്സിജനുമായി ചേർന്ന് അയൺ ഓക്സൈഡ് ഉണ്ടാകുന്നു.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x078",
+   "k": "sci-008",
+   "cat": "sci",
+   "s": "sci",
+   "t": "Acids",
+   "lvl": "school",
+   "d": "easy",
+   "q": "വിനാഗിരിയിൽ അടങ്ങിയിരിക്കുന്ന ആസിഡ് ഏത്?",
+   "o": [
+    "ടാർടാറിക് ആസിഡ്",
+    "അസറ്റിക് ആസിഡ്",
+    "ലാക്റ്റിക് ആസിഡ്",
+    "സിട്രിക് ആസിഡ്"
+   ],
+   "a": 1,
+   "e": "ശരിയുത്തരം: അസറ്റിക് ആസിഡ്. വിനാഗിരി നേർപ്പിച്ച അസറ്റിക് ആസിഡ് ലായനിയാണ്.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x079",
+   "k": "sci-009",
+   "cat": "sci",
+   "s": "sci",
+   "t": "Human heart",
+   "lvl": "school",
+   "d": "easy",
+   "q": "മനുഷ്യഹൃദയത്തിന് എത്ര അറകളുണ്ട്?",
+   "o": [
+    "2",
+    "4",
+    "3",
+    "5"
+   ],
+   "a": 1,
+   "e": "ശരിയുത്തരം: 4. രണ്ട് ഏട്രിയങ്ങളും രണ്ട് വെൻട്രിക്കിളുകളും.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x080",
+   "k": "sci-010",
+   "cat": "sci",
+   "s": "ph",
+   "t": "Medical instruments",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "രക്തസമ്മർദ്ദം അളക്കാൻ ഉപയോഗിക്കുന്ന ഉപകരണം ഏത്?",
+   "o": [
+    "സ്ഫിഗ്മോമാനോമീറ്റർ",
+    "ലാക്ടോമീറ്റർ",
+    "ബാരോമീറ്റർ",
+    "ഹൈഗ്രോമീറ്റർ"
+   ],
+   "a": 0,
+   "e": "ശരിയുത്തരം: സ്ഫിഗ്മോമാനോമീറ്റർ. ബാരോമീറ്റർ അന്തരീക്ഷമർദ്ദവും ഹൈഗ്രോമീറ്റർ ആർദ്രതയും അളക്കുന്നു.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x081",
+   "k": "sci-011",
+   "cat": "sci",
+   "s": "ph",
+   "t": "Immunisation",
+   "lvl": "recruit",
+   "d": "hard",
+   "q": "ഇന്ത്യയിൽ പൾസ് പോളിയോ പ്രതിരോധ പരിപാടി ആരംഭിച്ച വർഷം ഏത്?",
+   "o": [
+    "1990",
+    "1985",
+    "1995",
+    "2000"
+   ],
+   "a": 2,
+   "e": "ശരിയുത്തരം: 1995. 1995-ൽ പൾസ് പോളിയോ ആരംഭിച്ചു; 2014-ൽ ഇന്ത്യ പോളിയോ വിമുക്തമായി പ്രഖ്യാപിക്കപ്പെട്ടു.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x082",
+   "k": "sci-012",
+   "cat": "sci",
+   "s": "sci",
+   "t": "Electricity",
+   "lvl": "hsec",
+   "d": "medium",
+   "q": "12 V വോൾട്ടേജിൽ 4 Ω പ്രതിരോധമുള്ള ചാലകത്തിലൂടെ ഒഴുകുന്ന വൈദ്യുതി എത്ര?",
+   "o": [
+    "16 A",
+    "8 A",
+    "3 A",
+    "48 A"
+   ],
+   "a": 2,
+   "e": "ശരിയുത്തരം: 3 A. ഓം നിയമം: I = V/R = 12 ÷ 4 = 3 ആമ്പിയർ.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x083",
+   "k": "sci-013",
+   "cat": "sci",
+   "s": "sci",
+   "t": "Sound",
+   "lvl": "school",
+   "d": "medium",
+   "q": "താഴെ പറയുന്നവയിൽ ശബ്ദത്തിന് ഏറ്റവും കൂടുതൽ വേഗമുള്ളത് ഏതിലാണ്?",
+   "o": [
+    "ജലത്തിൽ",
+    "വായുവിൽ",
+    "ഉരുക്കിൽ",
+    "മണ്ണെണ്ണയിൽ"
+   ],
+   "a": 2,
+   "e": "ശരിയുത്തരം: ഉരുക്കിൽ. ശബ്ദത്തിന് ഖരങ്ങളിൽ ദ്രാവകങ്ങളേക്കാളും വാതകങ്ങളേക്കാളും വേഗം കൂടും.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x084",
+   "k": "comp-001",
+   "cat": "comp",
+   "s": "comp",
+   "t": "Number systems",
+   "lvl": "hsec",
+   "d": "medium",
+   "q": "ബൈനറി സംഖ്യ 1011-ന്റെ ദശാംശ രൂപം ഏത്?",
+   "o": [
+    "13",
+    "9",
+    "11",
+    "10"
+   ],
+   "a": 2,
+   "e": "ശരിയുത്തരം: 11. 1×8 + 0×4 + 1×2 + 1×1 = 11.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x085",
+   "k": "comp-002",
+   "cat": "comp",
+   "s": "comp",
+   "t": "Memory units",
+   "lvl": "school",
+   "d": "easy",
+   "q": "1 GB എത്ര MB ആണ് (ബൈനറി കണക്കിൽ)?",
+   "o": [
+    "512",
+    "1000",
+    "1024",
+    "2048"
+   ],
+   "a": 2,
+   "e": "ശരിയുത്തരം: 1024. 1 GB = 2¹⁰ MB = 1024 MB.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x086",
+   "k": "comp-003",
+   "cat": "comp",
+   "s": "comp",
+   "t": "Email",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "ഇമെയിലിലെ 'BCC' എന്നതിന്റെ പൂർണ്ണരൂപം എന്ത്?",
+   "o": [
+    "Basic Computer Copy",
+    "Back Carbon Copy",
+    "Blind Computer Code",
+    "Blind Carbon Copy"
+   ],
+   "a": 3,
+   "e": "ശരിയുത്തരം: Blind Carbon Copy. BCC-യിലുള്ളവരുടെ വിലാസം മറ്റ് സ്വീകർത്താക്കൾക്ക് കാണാനാകില്ല.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x087",
+   "k": "comp-004",
+   "cat": "comp",
+   "s": "comp",
+   "t": "Software",
+   "lvl": "school",
+   "d": "easy",
+   "q": "താഴെ പറയുന്നവയിൽ സ്പ്രെഡ്ഷീറ്റ് സോഫ്റ്റ്‌വെയർ ഏത്?",
+   "o": [
+    "Adobe Photoshop",
+    "MS Excel",
+    "MS Word",
+    "MS PowerPoint"
+   ],
+   "a": 1,
+   "e": "ശരിയുത്തരം: MS Excel. പട്ടികകളും കണക്കുകൂട്ടലുകളും ചെയ്യാനുള്ള സ്പ്രെഡ്ഷീറ്റ് പ്രോഗ്രാമാണ് Excel.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x088",
+   "k": "comp-005",
+   "cat": "comp",
+   "s": "comp",
+   "t": "Memory",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "താഴെ പറയുന്നവയിൽ ഏറ്റവും വേഗമേറിയ മെമ്മറി ഏത്?",
+   "o": [
+    "കാഷെ മെമ്മറി",
+    "DVD",
+    "RAM",
+    "ഹാർഡ് ഡിസ്ക്"
+   ],
+   "a": 0,
+   "e": "ശരിയുത്തരം: കാഷെ മെമ്മറി. CPU-വിനോട് ഏറ്റവും അടുത്തുള്ള കാഷെ മെമ്മറി RAM-നേക്കാൾ വേഗമേറിയതാണ്.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x089",
+   "k": "comp-006",
+   "cat": "comp",
+   "s": "comp",
+   "t": "Networking",
+   "lvl": "recruit",
+   "d": "hard",
+   "q": "ഒരു IPv4 വിലാസത്തിന് എത്ര ബിറ്റ് നീളമുണ്ട്?",
+   "o": [
+    "32",
+    "64",
+    "16",
+    "128"
+   ],
+   "a": 0,
+   "e": "ശരിയുത്തരം: 32. IPv4 വിലാസം 32 ബിറ്റും IPv6 വിലാസം 128 ബിറ്റുമാണ്.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x090",
+   "k": "comp-007",
+   "cat": "comp",
+   "s": "comp",
+   "t": "Keyboard shortcuts",
+   "lvl": "school",
+   "d": "easy",
+   "q": "കമ്പ്യൂട്ടറിൽ 'Ctrl + P' സാധാരണയായി എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
+   "o": [
+    "പേസ്റ്റ് ചെയ്യാൻ",
+    "പുതിയ ഫയൽ തുറക്കാൻ",
+    "പ്രിന്റ് ചെയ്യാൻ",
+    "സേവ് ചെയ്യാൻ"
+   ],
+   "a": 2,
+   "e": "ശരിയുത്തരം: പ്രിന്റ് ചെയ്യാൻ. Ctrl + P = Print; പേസ്റ്റിന് Ctrl + V.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x091",
+   "k": "comp-008",
+   "cat": "comp",
+   "s": "comp",
+   "t": "Operating systems",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "ലിനക്സ് (Linux) ഏത് തരം സോഫ്റ്റ്‌വെയറാണ്?",
+   "o": [
+    "ഡാറ്റാബേസ് പ്രോഗ്രാം",
+    "ആന്റിവൈറസ് സോഫ്റ്റ്‌വെയർ",
+    "ഓപ്പൺ സോഴ്സ് ഓപ്പറേറ്റിംഗ് സിസ്റ്റം",
+    "വെബ് ബ്രൗസർ"
+   ],
+   "a": 2,
+   "e": "ശരിയുത്തരം: ഓപ്പൺ സോഴ്സ് ഓപ്പറേറ്റിംഗ് സിസ്റ്റം. ലിനസ് ടോർവാൾഡ്സ് 1991-ൽ ലിനക്സ് കേർണൽ പുറത്തിറക്കി.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x092",
+   "k": "comp-009",
+   "cat": "comp",
+   "s": "comp",
+   "t": "Cyber security",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "'ഫിഷിംഗ്' (Phishing) എന്ന സൈബർ തട്ടിപ്പ് എന്താണ്?",
+   "o": [
+    "കമ്പ്യൂട്ടറിന്റെ വേഗം കൂട്ടൽ",
+    "വ്യാജ സന്ദേശങ്ങളോ വെബ്സൈറ്റുകളോ വഴി പാസ്‌വേഡ് പോലുള്ള വിവരങ്ങൾ കൈക്കലാക്കൽ",
+    "ഫയലുകൾ കംപ്രസ് ചെയ്യൽ",
+    "ഹാർഡ് ഡിസ്ക് ഫോർമാറ്റ് ചെയ്യൽ"
+   ],
+   "a": 1,
+   "e": "ശരിയുത്തരം: വ്യാജ സന്ദേശങ്ങളോ വെബ്സൈറ്റുകളോ വഴി പാസ്‌വേഡ് പോലുള്ള വിവരങ്ങൾ കൈക്കലാക്കൽ. ബാങ്കിന്റെയോ സ്ഥാപനത്തിന്റെയോ പേരിൽ വരുന്ന വ്യാജ ഇമെയിലുകൾ ഉദാഹരണം.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x093",
+   "k": "comp-010",
+   "cat": "comp",
+   "s": "comp",
+   "t": "Internet",
+   "lvl": "recruit",
+   "d": "hard",
+   "q": "ഡൊമെയ്ൻ നാമത്തെ IP വിലാസമാക്കി മാറ്റുന്ന ഇന്റർനെറ്റ് സംവിധാനം ഏത്?",
+   "o": [
+    "FTP",
+    "SMTP",
+    "DHCP",
+    "DNS"
+   ],
+   "a": 3,
+   "e": "ശരിയുത്തരം: DNS (Domain Name System). DHCP IP വിലാസം നൽകുന്നു, FTP ഫയൽ കൈമാറ്റത്തിനും SMTP ഇമെയിൽ അയയ്ക്കാനും.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x094",
+   "k": "comp-011",
+   "cat": "comp",
+   "s": "comp",
+   "t": "Keyboard shortcuts",
+   "lvl": "school",
+   "d": "easy",
+   "q": "'Ctrl + A' എന്ന കീബോർഡ് ഷോർട്ട്കട്ട് എന്തിനാണ്?",
+   "o": [
+    "എല്ലാം തിരഞ്ഞെടുക്കാൻ (Select All)",
+    "പുതിയ ടാബ് തുറക്കാൻ",
+    "അക്ഷരം ബോൾഡ് ആക്കാൻ",
+    "ഫയൽ അടയ്ക്കാൻ"
+   ],
+   "a": 0,
+   "e": "ശരിയുത്തരം: എല്ലാം തിരഞ്ഞെടുക്കാൻ (Select All). ബോൾഡ് ആക്കാൻ Ctrl + B ആണ്.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x095",
+   "k": "comp-012",
+   "cat": "comp",
+   "s": "comp",
+   "t": "Programming",
+   "lvl": "hsec",
+   "d": "medium",
+   "q": "ഒരു ഹൈ-ലെവൽ പ്രോഗ്രാം മുഴുവനായി ഒറ്റയടിക്ക് മെഷീൻ ഭാഷയിലേക്ക് മാറ്റുന്ന പ്രോഗ്രാം ഏത്?",
+   "o": [
+    "ഇന്റർപ്രെറ്റർ",
+    "ലോഡർ",
+    "കംപൈലർ",
+    "അസംബ്ലർ"
+   ],
+   "a": 2,
+   "e": "ശരിയുത്തരം: കംപൈലർ. ഇന്റർപ്രെറ്റർ വരി വരിയായി മാറ്റുന്നു; അസംബ്ലർ അസംബ്ലി ഭാഷയെ മാറ്റുന്നു.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x096",
+   "k": "comp-013",
+   "cat": "comp",
+   "s": "comp",
+   "t": "Data units",
+   "lvl": "school",
+   "d": "easy",
+   "q": "കമ്പ്യൂട്ടറിലെ ഏറ്റവും ചെറിയ ഡാറ്റാ യൂണിറ്റ് ഏത്?",
+   "o": [
+    "ബിറ്റ്",
+    "ബൈറ്റ്",
+    "കിലോബൈറ്റ്",
+    "നിബിൾ"
+   ],
+   "a": 0,
+   "e": "ശരിയുത്തരം: ബിറ്റ്. ബിറ്റിന് 0 അല്ലെങ്കിൽ 1 എന്ന മൂല്യം; 4 ബിറ്റ് = നിബിൾ, 8 ബിറ്റ് = ബൈറ്റ്.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x097",
+   "k": "deg-002",
+   "cat": "deg",
+   "s": "acc",
+   "t": "Depreciation",
+   "lvl": "degree",
+   "d": "medium",
+   "q": "A machine costs ₹50,000, has a residual value of ₹5,000 and a useful life of 9 years. What is the annual depreciation under the straight-line method?",
+   "o": [
+    "₹6,000",
+    "₹5,000",
+    "₹5,555",
+    "₹4,500"
+   ],
+   "a": 1,
+   "e": "Correct answer: ₹5,000. (50,000 − 5,000) ÷ 9 = 5,000.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x098",
+   "k": "deg-005",
+   "cat": "deg",
+   "s": "dmath",
+   "t": "Differentiation",
+   "lvl": "degree",
+   "d": "medium",
+   "q": "If f(x) = x³, what is f′(2)?",
+   "o": [
+    "4",
+    "8",
+    "12",
+    "6"
+   ],
+   "a": 2,
+   "e": "Correct answer: 12. f′(x) = 3x², so f′(2) = 3 × 4 = 12.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x099",
+   "k": "deg-007",
+   "cat": "deg",
+   "s": "dmath",
+   "t": "Integration",
+   "lvl": "entrance",
+   "d": "medium",
+   "q": "Evaluate the definite integral of 2x dx from x = 0 to x = 3.",
+   "o": [
+    "18",
+    "6",
+    "3",
+    "9"
+   ],
+   "a": 3,
+   "e": "Correct answer: 9. The antiderivative is x², so 3² − 0² = 9.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x100",
+   "k": "deg-010",
+   "cat": "deg",
+   "s": "dchem",
+   "t": "Chemical bonding",
+   "lvl": "entrance",
+   "d": "medium",
+   "q": "What is the hybridisation of the carbon atom in methane (CH4)?",
+   "o": [
+    "sp3",
+    "sp",
+    "sp2",
+    "dsp2"
+   ],
+   "a": 0,
+   "e": "Correct answer: sp3. Four sp3 orbitals form a tetrahedral molecule with bond angle about 109.5°.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x101",
+   "k": "deg-011",
+   "cat": "deg",
+   "s": "dchem",
+   "t": "pH",
+   "lvl": "entrance",
+   "d": "hard",
+   "q": "What is the pH of a 0.001 M solution of HCl (a strong acid)?",
+   "o": [
+    "3",
+    "1",
+    "11",
+    "2"
+   ],
+   "a": 0,
+   "e": "Correct answer: 3. [H+] = 10^-3 M, so pH = −log(10^-3) = 3.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x102",
+   "k": "deg-012",
+   "cat": "deg",
+   "s": "dbio",
+   "t": "Cell biology",
+   "lvl": "degree",
+   "d": "easy",
+   "q": "Which cell organelle is the site of protein synthesis?",
+   "o": [
+    "Golgi apparatus",
+    "Nucleolus",
+    "Ribosome",
+    "Lysosome"
+   ],
+   "a": 2,
+   "e": "Correct answer: Ribosome. Ribosomes translate mRNA into polypeptides.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x103",
+   "k": "deg-013",
+   "cat": "deg",
+   "s": "dbio",
+   "t": "Molecular biology",
+   "lvl": "degree",
+   "d": "hard",
+   "q": "The Meselson–Stahl experiment showed that DNA replication is:",
+   "o": [
+    "Conservative",
+    "Semi-conservative",
+    "Non-replicative",
+    "Dispersive"
+   ],
+   "a": 1,
+   "e": "Correct answer: Semi-conservative. Each new DNA molecule keeps one parent strand and one new strand.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x104",
+   "k": "deg-014",
+   "cat": "deg",
+   "s": "decon",
+   "t": "Demand",
+   "lvl": "degree",
+   "d": "easy",
+   "q": "The law of demand states that, other things being equal:",
+   "o": [
+    "quantity demanded rises when price rises",
+    "quantity demanded falls when price rises",
+    "supply rises when price rises",
+    "price does not affect quantity demanded"
+   ],
+   "a": 1,
+   "e": "Correct answer: quantity demanded falls when price rises, an inverse relationship between price and quantity demanded.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x105",
+   "k": "deg-016",
+   "cat": "deg",
+   "s": "mgmt",
+   "t": "Management thinkers",
+   "lvl": "degree",
+   "d": "hard",
+   "q": "Who coined the acronym POSDCORB to describe the functions of an executive?",
+   "o": [
+    "Peter Drucker",
+    "F. W. Taylor",
+    "Luther Gulick",
+    "Henri Fayol"
+   ],
+   "a": 2,
+   "e": "Correct answer: Luther Gulick (1937), with Lyndall Urwick: Planning, Organising, Staffing, Directing, Co-ordinating, Reporting, Budgeting.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x106",
+   "k": "deg-017",
+   "cat": "deg",
+   "s": "mgmt",
+   "t": "Motivation",
+   "lvl": "degree",
+   "d": "easy",
+   "q": "In Maslow's hierarchy of needs, which need is at the top?",
+   "o": [
+    "Esteem",
+    "Safety",
+    "Physiological",
+    "Self-actualisation"
+   ],
+   "a": 3,
+   "e": "Correct answer: Self-actualisation, realising one's full potential, is the highest level.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x107",
+   "k": "deg-018",
+   "cat": "deg",
+   "s": "hum",
+   "t": "Political philosophy",
+   "lvl": "degree",
+   "d": "easy",
+   "q": "Who wrote 'The Republic'?",
+   "o": [
+    "Plato",
+    "Aristotle",
+    "Socrates",
+    "Cicero"
+   ],
+   "a": 0,
+   "e": "Correct answer: Plato, who wrote 'The Republic' as a dialogue led by Socrates.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x108",
+   "k": "deg-019",
+   "cat": "deg",
+   "s": "engg",
+   "t": "Units",
+   "lvl": "degree",
+   "d": "easy",
+   "q": "One mechanical horsepower is approximately equal to:",
+   "o": [
+    "550 W",
+    "500 W",
+    "1000 W",
+    "746 W"
+   ],
+   "a": 3,
+   "e": "Correct answer: 746 W. 1 hp = 550 ft·lbf/s ≈ 746 watts.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x109",
+   "k": "deg-020",
+   "cat": "deg",
+   "s": "engg",
+   "t": "Thermodynamics",
+   "lvl": "entrance",
+   "d": "advanced",
+   "q": "What is the efficiency of a Carnot engine working between 500 K and 300 K?",
+   "o": [
+    "60%",
+    "25%",
+    "50%",
+    "40%"
+   ],
+   "a": 3,
+   "e": "Correct answer: 40%. η = 1 − 300/500 = 0.4 = 40%.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x110",
+   "k": "deg-021",
+   "cat": "deg",
+   "s": "acc",
+   "t": "Assets",
+   "lvl": "degree",
+   "d": "medium",
+   "q": "In accounting, goodwill is classified as:",
+   "o": [
+    "a current asset",
+    "a current liability",
+    "an intangible asset",
+    "an operating expense"
+   ],
+   "a": 2,
+   "e": "Correct answer: an intangible asset. Goodwill has no physical form but gives future economic benefit.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x111",
+   "k": "deg-022",
+   "cat": "deg",
+   "s": "dmath",
+   "t": "Logarithms",
+   "lvl": "entrance",
+   "d": "easy",
+   "q": "If log₁₀ x = 2, what is x?",
+   "o": [
+    "20",
+    "10",
+    "1000",
+    "100"
+   ],
+   "a": 3,
+   "e": "Correct answer: 100. log₁₀ x = 2 means x = 10² = 100.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x112",
+   "k": "deg-023",
+   "cat": "deg",
+   "s": "dmath",
+   "t": "Permutations",
+   "lvl": "entrance",
+   "d": "medium",
+   "q": "In how many distinct ways can the letters of the word BOOK be arranged?",
+   "o": [
+    "6",
+    "24",
+    "16",
+    "12"
+   ],
+   "a": 3,
+   "e": "Correct answer: 12. 4! ÷ 2! = 24 ÷ 2 = 12, since O is repeated twice.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x113",
+   "k": "deg-024",
+   "cat": "deg",
+   "s": "dphy",
+   "t": "Capacitance",
+   "lvl": "degree",
+   "d": "easy",
+   "q": "What is the SI unit of electrical capacitance?",
+   "o": [
+    "Siemens",
+    "Coulomb",
+    "Joule",
+    "Farad"
+   ],
+   "a": 3,
+   "e": "Correct answer: Farad. One farad is one coulomb per volt.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x114",
+   "k": "deg-025",
+   "cat": "deg",
+   "s": "decon",
+   "t": "National income",
+   "lvl": "degree",
+   "d": "hard",
+   "q": "The GDP deflator is calculated as:",
+   "o": [
+    "(Nominal GDP ÷ Population) × 100",
+    "Nominal GDP − Real GDP",
+    "(Nominal GDP ÷ Real GDP) × 100",
+    "(Real GDP ÷ Nominal GDP) × 100"
+   ],
+   "a": 2,
+   "e": "Correct answer: (Nominal GDP ÷ Real GDP) × 100, a measure of the overall price level.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x115",
+   "k": "deg-026",
+   "cat": "deg",
+   "s": "dbio",
+   "t": "Immunity",
+   "lvl": "degree",
+   "d": "medium",
+   "q": "Which cells produce antibodies in the human body?",
+   "o": [
+    "Neutrophils",
+    "Red blood cells",
+    "Plasma cells derived from B lymphocytes",
+    "Platelets"
+   ],
+   "a": 2,
+   "e": "Correct answer: Plasma cells derived from B lymphocytes secrete antibodies.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x116",
+   "k": "deg-028",
+   "cat": "deg",
+   "s": "hum",
+   "t": "Political philosophy",
+   "lvl": "degree",
+   "d": "medium",
+   "q": "Who wrote 'The Social Contract' (1762)?",
+   "o": [
+    "John Locke",
+    "Thomas Hobbes",
+    "Jean-Jacques Rousseau",
+    "Montesquieu"
+   ],
+   "a": 2,
+   "e": "Correct answer: Jean-Jacques Rousseau. Hobbes wrote 'Leviathan' and Locke 'Two Treatises of Government'.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261010x117",
+   "k": "compx-001",
+   "cat": "compx",
+   "s": "quant",
+   "t": "Profit and discount",
+   "lvl": "recruit",
+   "d": "hard",
+   "q": "A shopkeeper marks goods 25% above cost price and allows a 10% discount. What is his profit percentage?",
+   "o": [
+    "13.5%",
+    "12.5%",
+    "10%",
+    "15%"
+   ],
+   "a": 1,
+   "e": "Correct answer: 12.5%. 1.25 × 0.9 = 1.125, a gain of 12.5%.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published",
+   "exam": "SSC"
+  },
+  {
+   "id": "d20261010x118",
+   "k": "compx-002",
+   "cat": "compx",
+   "s": "quant",
+   "t": "Simple interest",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "What is the simple interest on ₹7,500 at 6% per annum for 4 years?",
+   "o": [
+    "₹1,800",
+    "₹1,650",
+    "₹1,500",
+    "₹2,100"
+   ],
+   "a": 0,
+   "e": "Correct answer: ₹1,800. 7500 × 6 × 4 ÷ 100 = 1800.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published",
+   "exam": "Banking"
+  },
+  {
+   "id": "d20261010x119",
+   "k": "compx-003",
+   "cat": "compx",
+   "s": "quant",
+   "t": "Trains",
+   "lvl": "recruit",
+   "d": "advanced",
+   "q": "Two trains 120 m and 180 m long run in opposite directions at 40 km/h and 50 km/h. How long do they take to cross each other completely?",
+   "o": [
+    "18 seconds",
+    "15 seconds",
+    "10 seconds",
+    "12 seconds"
+   ],
+   "a": 3,
+   "e": "Correct answer: 12 seconds. Relative speed 90 km/h = 25 m/s; (120 + 180) ÷ 25 = 12.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published",
+   "exam": "Railway"
+  },
+  {
+   "id": "d20261010x120",
+   "k": "compx-004",
+   "cat": "compx",
+   "s": "reas",
+   "t": "Number series",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "Find the next number: 3, 8, 15, 24, 35, ?",
+   "o": [
+    "46",
+    "48",
+    "49",
+    "50"
+   ],
+   "a": 1,
+   "e": "Correct answer: 48. The terms are n² − 1 for n = 2 to 6; next is 7² − 1 = 48.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published",
+   "exam": "SSC"
+  },
+  {
+   "id": "d20261010x121",
+   "k": "compx-005",
+   "cat": "compx",
+   "s": "reas",
+   "t": "Coding-decoding",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "If MOTHER is coded as NPUIFS, how is FATHER coded?",
+   "o": [
+    "GBUIFS",
+    "GZUIFS",
+    "EBUIFS",
+    "GBUHFS"
+   ],
+   "a": 0,
+   "e": "Correct answer: GBUIFS. Each letter moves one place forward: F→G, A→B, T→U, H→I, E→F, R→S.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "exam": "Banking"
+  },
+  {
+   "id": "d20261010x122",
+   "k": "compx-006",
+   "cat": "compx",
+   "s": "veng",
+   "t": "Synonyms",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "Choose the synonym of 'Candid'.",
+   "o": [
+    "Frank",
+    "Clever",
+    "Rude",
+    "Secretive"
+   ],
+   "a": 0,
+   "e": "Correct answer: Frank. 'Candid' means open and honest.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "exam": "Banking"
+  },
+  {
+   "id": "d20261010x123",
+   "k": "compx-007",
+   "cat": "compx",
+   "s": "gk",
+   "t": "Indian Railways",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "Who is known as the 'Father of Indian Railways'?",
+   "o": [
+    "Lord Curzon",
+    "Lord Canning",
+    "Lord Dalhousie",
+    "Lord Ripon"
+   ],
+   "a": 2,
+   "e": "Correct answer: Lord Dalhousie, Governor-General when the first passenger train ran from Bombay to Thane in 1853.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "exam": "Railway"
+  },
+  {
+   "id": "d20261010x124",
+   "k": "compx-008",
+   "cat": "compx",
+   "s": "con",
+   "t": "Election Commission",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "Which Article of the Indian Constitution provides for the Election Commission?",
+   "o": [
+    "Article 280",
+    "Article 356",
+    "Article 324",
+    "Article 312"
+   ],
+   "a": 2,
+   "e": "Correct answer: Article 324. Article 280 is the Finance Commission and Article 356 is President's Rule.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "exam": "UPSC"
+  },
+  {
+   "id": "d20261010x125",
+   "k": "compx-009",
+   "cat": "compx",
+   "s": "econ",
+   "t": "Planning",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "NITI Aayog, set up in 2015, replaced which body?",
+   "o": [
+    "Finance Commission",
+    "Planning Commission",
+    "National Development Council",
+    "Inter-State Council"
+   ],
+   "a": 1,
+   "e": "Correct answer: Planning Commission. NITI Aayog replaced it on 1 January 2015.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "exam": "UPSC"
+  },
+  {
+   "id": "d20261010x126",
+   "k": "compx-010",
+   "cat": "compx",
+   "s": "comp",
+   "t": "Digital banking",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "In online banking, what does 'OTP' stand for?",
+   "o": [
+    "One Time Password",
+    "Online Transfer Protocol",
+    "One Time Payment",
+    "Official Transaction Pin"
+   ],
+   "a": 0,
+   "e": "Correct answer: One Time Password, a code valid for a single login or transaction.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "exam": "Banking"
+  },
+  {
+   "id": "d20261010x127",
+   "k": "compx-011",
+   "cat": "compx",
+   "s": "sci",
+   "t": "Everyday science",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "Which gas is commonly used in fire extinguishers?",
+   "o": [
+    "Nitrogen dioxide",
+    "Carbon dioxide",
+    "Hydrogen",
+    "Oxygen"
+   ],
+   "a": 1,
+   "e": "Correct answer: Carbon dioxide. It is heavier than air and cuts off the oxygen supply to the fire.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "exam": "Police"
+  },
+  {
+   "id": "d20261010x128",
+   "k": "compx-012",
+   "cat": "compx",
+   "s": "math",
+   "t": "Arithmetic progression",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "What is the sum of the first 20 natural numbers?",
+   "o": [
+    "200",
+    "190",
+    "210",
+    "220"
+   ],
+   "a": 2,
+   "e": "Correct answer: 210. n(n + 1)/2 = 20 × 21 ÷ 2 = 210.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published",
+   "exam": "Teaching"
+  },
+  {
+   "id": "d20261010x129",
+   "k": "compx-013",
+   "cat": "compx",
+   "s": "ment",
+   "t": "Clocks",
+   "lvl": "entrance",
+   "d": "hard",
+   "q": "How many times do the hour and minute hands of a clock coincide in 12 hours?",
+   "o": [
+    "12",
+    "10",
+    "24",
+    "11"
+   ],
+   "a": 3,
+   "e": "Correct answer: 11. The hands coincide every 12/11 hours, i.e. 11 times in 12 hours.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-10",
+   "verified": "2026-10-10",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "exam": "University entrance"
+  }
+ ],
+ "tests": [
+  {
+   "n": 3,
+   "k": "T1",
+   "id": "DMT-20261010-N3",
+   "title": "General Knowledge & Current Affairs",
+   "cats": [
+    "gkca"
+   ],
+   "cat": "General Knowledge & Current Affairs",
+   "ids": [
+    "d20261010x013",
+    "d20261010x018",
+    "d20261010x002",
+    "d20261010x004",
+    "d20261010x010",
+    "d20261010x015",
+    "d20261010x011",
+    "d20261010x001",
+    "d20261010x007",
+    "d20261010x016",
+    "d20261010x003",
+    "d20261010x017",
+    "d20261010x019",
+    "d20261010x020",
+    "d20261010x009",
+    "d20261010x012",
+    "d20261010x006",
+    "d20261010x005",
+    "d20261010x014",
+    "d20261010x008",
+    "ih1",
+    "con2",
+    "psc5",
+    "kh3",
+    "gi1"
+   ],
+   "newQ": 20,
+   "min": 25,
+   "mk": 1,
+   "ng": 0.3333333333,
+   "pass": 40,
+   "published": "2026-10-10T20:18:22.299Z",
+   "diff": "Medium"
+  },
+  {
+   "n": 4,
+   "k": "T2",
+   "id": "DMT-20261010-N4",
+   "title": "Quantitative Aptitude & Logical Reasoning",
+   "cats": [
+    "quant",
+    "reas"
+   ],
+   "cat": "Quantitative Aptitude & Mathematics · Logical Reasoning",
+   "ids": [
+    "d20261010x057",
+    "d20261010x066",
+    "d20261010x069",
+    "d20261010x037",
+    "d20261010x067",
+    "d20261010x059",
+    "d20261010x035",
+    "d20261010x040",
+    "d20261010x063",
+    "d20261010x041",
+    "d20261010x048",
+    "d20261010x043",
+    "d20261010x052",
+    "d20261010x042",
+    "d20261010x051",
+    "d20261010x062",
+    "d20261010x058",
+    "d20261010x054",
+    "d20261010x060",
+    "d20261010x053",
+    "d20261010x044",
+    "d20261010x039",
+    "d20261010x049",
+    "d20261010x046",
+    "d20261010x050",
+    "d20261010x068",
+    "d20261010x038",
+    "d20261010x061",
+    "d20261010x056",
+    "d20261010x034"
+   ],
+   "newQ": 30,
+   "min": 36,
+   "mk": 1,
+   "ng": 0.25,
+   "pass": 40,
+   "published": "2026-10-10T20:18:22.300Z",
+   "diff": "Medium"
+  },
+  {
+   "n": 5,
+   "k": "T3",
+   "id": "DMT-20261010-N5",
+   "title": "English, Science & Computer Knowledge",
+   "cats": [
+    "eng",
+    "sci",
+    "comp"
+   ],
+   "cat": "English Language & Grammar · Science & General Science · Computer Knowledge",
+   "ids": [
+    "d20261010x075",
+    "d20261010x095",
+    "d20261010x090",
+    "d20261010x077",
+    "d20261010x091",
+    "d20261010x088",
+    "d20261010x033",
+    "d20261010x030",
+    "d20261010x085",
+    "d20261010x073",
+    "d20261010x078",
+    "d20261010x086",
+    "d20261010x031",
+    "d20261010x032",
+    "d20261010x072",
+    "d20261010x093",
+    "d20261010x087",
+    "d20261010x076",
+    "d20261010x089",
+    "d20261010x024",
+    "d20261010x026",
+    "d20261010x025",
+    "d20261010x028",
+    "d20261010x081",
+    "d20261010x080",
+    "d20261010x023",
+    "d20261010x079",
+    "d20261010x082",
+    "d20261010x029",
+    "d20261010x027"
+   ],
+   "newQ": 30,
+   "min": 30,
+   "mk": 1,
+   "ng": 0.3333333333,
+   "pass": 40,
+   "published": "2026-10-10T20:18:22.300Z",
+   "diff": "Medium"
+  },
+  {
+   "n": 6,
+   "k": "T4",
+   "id": "DMT-20261010-N6",
+   "title": "Degree-Level & Competitive Exam Practice",
+   "cats": [
+    "deg",
+    "compx"
+   ],
+   "cat": "Degree-Level Subject Questions · Competitive & Recruitment Exams",
+   "ids": [
+    "d20261010x118",
+    "d20261010x100",
+    "d20261010x109",
+    "d20261010x103",
+    "d20261010x116",
+    "d20261010x117",
+    "d20261010x112",
+    "d20261010x106",
+    "d20261010x107",
+    "d20261010x115",
+    "d20261010x129",
+    "d20261010x114",
+    "d20261010x124",
+    "d20261010x119",
+    "d20261010x121",
+    "d20261010x098",
+    "d20261010x127",
+    "d20261010x120",
+    "d20261010x110",
+    "d20261010x105",
+    "d20261010x126",
+    "d20261010x102",
+    "d20261010x111",
+    "d20261010x113",
+    "d20261010x128"
+   ],
+   "newQ": 25,
+   "min": 30,
+   "mk": 1,
+   "ng": 0.25,
+   "pass": 40,
+   "published": "2026-10-10T20:18:22.300Z",
+   "diff": "Medium"
+  }
+ ],
+ "ca": [
+  {
+   "d": "2026-10-05",
+   "pub": "2026-10-05",
+   "cat": "Science & Technology",
+   "t": "The 2026 Nobel Prize in Physiology or Medicine went to Karl Deisseroth, Peter Hegemann and Georg Nagel for pioneering discoveries in optogenetics, the use of light to study and control brain cells.",
+   "src": "TIME",
+   "url": "https://time.com/article/2026/10/05/nobel-prize-2026-winners/",
+   "ver": "2026-10-10"
+  },
+  {
+   "d": "2026-10-06",
+   "pub": "2026-10-06",
+   "cat": "Awards",
+   "t": "Belgian physicist Francis Halzen won the 2026 Nobel Prize in Physics for decisive contributions to the IceCube Neutrino Observatory at the South Pole and the discovery of high-energy neutrinos of astrophysical origin.",
+   "src": "Khaleej Times",
+   "url": "https://www.khaleejtimes.com/world/belgium-francis-halzen-wins-nobel-prize-in-physics-2026",
+   "ver": "2026-10-10"
+  },
+  {
+   "d": "2026-10-07",
+   "pub": "2026-10-07",
+   "cat": "Awards",
+   "t": "The 2026 Nobel Prize in Chemistry was awarded to Henri B. Kagan and Kenso Soai for work explaining molecular chirality (handedness) and how homochirality can arise.",
+   "src": "TIME",
+   "url": "https://time.com/article/2026/10/05/nobel-prize-2026-winners/",
+   "ver": "2026-10-10"
+  },
+  {
+   "d": "2026-10-08",
+   "pub": "2026-10-08",
+   "cat": "Awards",
+   "t": "Canadian poet Anne Carson won the 2026 Nobel Prize in Literature for a bold and inventive body of work that has created new forms for contemporary literature.",
+   "src": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/10/8/canadian-anne-carson-wins-2026-nobel-prize-in-literature",
+   "ver": "2026-10-10"
+  },
+  {
+   "d": "2026-10-09",
+   "pub": "2026-10-09",
+   "cat": "Awards",
+   "t": "South African jurist Navanethem (Navi) Pillay, former UN human rights chief, was awarded the 2026 Nobel Peace Prize for her efforts to promote peace and international law.",
+   "src": "TIME",
+   "url": "https://time.com/article/2026/10/05/nobel-prize-2026-winners/",
+   "ver": "2026-10-10"
+  },
+  {
+   "d": "2026-10-07",
+   "pub": "2026-10-09",
+   "cat": "Economy",
+   "t": "The RBI Monetary Policy Committee chaired by Governor Sanjay Malhotra raised the repo rate by 25 basis points from 5.25% to 5.50% on 7 October 2026.",
+   "src": "SCC Online",
+   "url": "https://www.scconline.com/blog/post/2026/10/09/rbi-hikes-repo-rate-to-5-50-percent-october-2026/",
+   "ver": "2026-10-10"
+  },
+  {
+   "d": "2026-10-03",
+   "pub": "2026-10-04",
+   "cat": "Sports",
+   "t": "India finished 4th at the 2026 Asian Games in Aichi-Nagoya, Japan, with 85 medals (21 gold, 27 silver, 37 bronze); China topped the table.",
+   "src": "Outlook India",
+   "url": "https://www.outlookindia.com/sports/others/india-final-medal-tally-asian-games-2026-fourth-place-standings-gold-silver-bronze-count-aichi-nagoya",
+   "ver": "2026-10-10"
+  }
+ ],
+ "review": [],
+ "official": {
+  "checked": [
+   {
+    "url": "https://www.keralapsc.gov.in/previous-question-papers",
+    "ok": false,
+    "note": "Fetch blocked: permission request for this URL was not answered in the unattended run (PROVENANCE_REQUIRED). Nothing imported."
+   },
+   {
+    "url": "https://upsc.gov.in/examinations/previous-question-papers",
+    "ok": false,
+    "note": "Fetch blocked: permission request for this URL was not answered in the unattended run (PROVENANCE_REQUIRED). Nothing imported."
+   }
+  ],
+  "found": []
+ },
+ "report": {
+  "batch": "B-20261010-01",
+  "date": "2026-10-10",
+  "scheduled": "08:48 Asia/Kuwait",
+  "runs": [
+   {
+    "at": "2026-10-10T20:03:30+00:00",
+    "kind": "scheduled"
+   }
+  ],
+  "started": "2026-10-10T20:03:30+00:00",
+  "finished": "2026-10-10T20:18:22.300Z",
+  "generated": 145,
+  "duplicates": 12,
+  "exactDuplicates": 4,
+  "nearDuplicates": 8,
+  "rejected": 4,
+  "awaitingReview": 0,
+  "unique": 133,
+  "validated": 129,
+  "published": 129,
+  "addedThisRun": 129,
+  "target": 100,
+  "achieved": true,
+  "perCat": {
+   "gkca": {
+    "target": 15,
+    "published": 20
+   },
+   "eng": {
+    "target": 10,
+    "published": 13
+   },
+   "quant": {
+    "target": 15,
+    "published": 19
+   },
+   "reas": {
+    "target": 15,
+    "published": 18
+   },
+   "sci": {
+    "target": 10,
+    "published": 13
+   },
+   "comp": {
+    "target": 10,
+    "published": 13
+   },
+   "deg": {
+    "target": 15,
+    "published": 20
+   },
+   "compx": {
+    "target": 10,
+    "published": 13
+   }
+  },
+  "difficulty": {
+   "easy": 41,
+   "medium": 40,
+   "hard": 14,
+   "advanced": 5
+  },
+  "tests": 6,
+  "newTests": [
+   "DMT-20261010-N3",
+   "DMT-20261010-N4",
+   "DMT-20261010-N5",
+   "DMT-20261010-N6"
+  ],
+  "modelPapers": 4,
+  "officialChecked": 2,
+  "officialNew": 0,
+  "currentAffairs": 7,
+  "pdf": "Generated in the app for every test (question paper, answer key, solutions)",
+  "errors": [],
+  "retries": 0,
+  "newSubjects": [
+   "ca",
+   "con",
+   "geo",
+   "kh",
+   "ih",
+   "econ",
+   "law",
+   "gk",
+   "psc",
+   "veng",
+   "eng",
+   "math",
+   "ment",
+   "reas",
+   "sci",
+   "ph",
+   "comp",
+   "acc",
+   "dmath",
+   "dchem",
+   "dbio",
+   "decon",
+   "mgmt",
+   "hum",
+   "engg",
+   "dphy",
+   "quant"
+  ],
+  "newTopics": [
+   "Nobel Prize 2026",
+   "RBI monetary policy",
+   "Asian Games 2026",
+   "Fundamental Rights",
+   "Rivers of Kerala",
+   "Renaissance movements",
+   "Guruvayur Satyagraha",
+   "Indian National Congress",
+   "Freedom struggle",
+   "Geography of India",
+   "Taxation",
+   "Right to Information",
+   "International organisations",
+   "Kerala PSC",
+   "Constituent Assembly",
+   "National parks of Kerala",
+   "Synonyms",
+   "Antonyms",
+   "Prepositions",
+   "One-word substitution",
+   "Idioms",
+   "Reported speech",
+   "Articles",
+   "Error spotting",
+   "Vocabulary",
+   "Conditionals",
+   "Subject-verb agreement",
+   "Percentage",
+   "Compound interest",
+   "Trains",
+   "Time and work",
+   "Average",
+   "Discount",
+   "Mensuration",
+   "Circle",
+   "Ages",
+   "LCM and ratio",
+   "Mixtures",
+   "Speed conversion",
+   "Simple interest",
+   "Decimals",
+   "Powers",
+   "Profit and loss",
+   "Volume",
+   "Linear equations",
+   "Number series",
+   "Coding-decoding",
+   "Direction sense",
+   "Blood relations",
+   "Calendar",
+   "Clocks",
+   "Ranking",
+   "Odd one out",
+   "Analogy",
+   "Syllogism",
+   "Ordering",
+   "Letter analogy",
+   "Cubes",
+   "Newton's laws",
+   "Light"
+  ],
+  "status": "Completed",
+  "bytes": 121133
+ }
 }

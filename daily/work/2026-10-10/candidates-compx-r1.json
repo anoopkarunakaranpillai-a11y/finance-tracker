@@ -1,0 +1,254 @@
+[
+ {
+  "k": "compx-001",
+  "cat": "compx",
+  "s": "quant",
+  "t": "Profit and discount",
+  "lvl": "recruit",
+  "d": "hard",
+  "q": "A shopkeeper marks goods 25% above cost price and allows a 10% discount. What is his profit percentage?",
+  "o": [
+   "13.5%",
+   "12.5%",
+   "10%",
+   "15%"
+  ],
+  "e": "Correct answer: 12.5%. 1.25 × 0.9 = 1.125, a gain of 12.5%.",
+  "calc": "(1.25*0.9-1)*100",
+  "exam": "SSC",
+  "a": 1,
+  "lang": "en"
+ },
+ {
+  "k": "compx-002",
+  "cat": "compx",
+  "s": "quant",
+  "t": "Simple interest",
+  "lvl": "recruit",
+  "d": "easy",
+  "q": "What is the simple interest on ₹7,500 at 6% per annum for 4 years?",
+  "o": [
+   "₹1,800",
+   "₹1,650",
+   "₹1,500",
+   "₹2,100"
+  ],
+  "e": "Correct answer: ₹1,800. 7500 × 6 × 4 ÷ 100 = 1800.",
+  "calc": "7500*6*4/100",
+  "exam": "Banking",
+  "a": 0,
+  "lang": "en"
+ },
+ {
+  "k": "compx-003",
+  "cat": "compx",
+  "s": "quant",
+  "t": "Trains",
+  "lvl": "recruit",
+  "d": "advanced",
+  "q": "Two trains 120 m and 180 m long run in opposite directions at 40 km/h and 50 km/h. How long do they take to cross each other completely?",
+  "o": [
+   "18 seconds",
+   "15 seconds",
+   "10 seconds",
+   "12 seconds"
+  ],
+  "e": "Correct answer: 12 seconds. Relative speed 90 km/h = 25 m/s; (120 + 180) ÷ 25 = 12.",
+  "calc": "(120+180)/(90*5/18)",
+  "exam": "Railway",
+  "a": 3,
+  "lang": "en"
+ },
+ {
+  "k": "compx-004",
+  "cat": "compx",
+  "s": "reas",
+  "t": "Number series",
+  "lvl": "recruit",
+  "d": "medium",
+  "q": "Find the next number: 3, 8, 15, 24, 35, ?",
+  "o": [
+   "46",
+   "48",
+   "49",
+   "50"
+  ],
+  "e": "Correct answer: 48. The terms are n² − 1 for n = 2 to 6; next is 7² − 1 = 48.",
+  "calc": "7^2-1",
+  "exam": "SSC",
+  "a": 1,
+  "lang": "en"
+ },
+ {
+  "k": "compx-005",
+  "cat": "compx",
+  "s": "reas",
+  "t": "Coding-decoding",
+  "lvl": "recruit",
+  "d": "medium",
+  "q": "If MOTHER is coded as NPUIFS, how is FATHER coded?",
+  "o": [
+   "GBUIFS",
+   "GZUIFS",
+   "EBUIFS",
+   "GBUHFS"
+  ],
+  "e": "Correct answer: GBUIFS. Each letter moves one place forward: F→G, A→B, T→U, H→I, E→F, R→S.",
+  "exam": "Banking",
+  "a": 0,
+  "lang": "en"
+ },
+ {
+  "k": "compx-006",
+  "cat": "compx",
+  "s": "veng",
+  "t": "Synonyms",
+  "lvl": "recruit",
+  "d": "easy",
+  "q": "Choose the synonym of 'Candid'.",
+  "o": [
+   "Frank",
+   "Clever",
+   "Rude",
+   "Secretive"
+  ],
+  "e": "Correct answer: Frank. 'Candid' means open and honest.",
+  "exam": "Banking",
+  "a": 0,
+  "lang": "en"
+ },
+ {
+  "k": "compx-007",
+  "cat": "compx",
+  "s": "gk",
+  "t": "Indian Railways",
+  "lvl": "recruit",
+  "d": "medium",
+  "q": "Who is known as the 'Father of Indian Railways'?",
+  "o": [
+   "Lord Curzon",
+   "Lord Canning",
+   "Lord Dalhousie",
+   "Lord Ripon"
+  ],
+  "e": "Correct answer: Lord Dalhousie, Governor-General when the first passenger train ran from Bombay to Thane in 1853.",
+  "exam": "Railway",
+  "a": 2,
+  "lang": "en"
+ },
+ {
+  "k": "compx-008",
+  "cat": "compx",
+  "s": "con",
+  "t": "Election Commission",
+  "lvl": "recruit",
+  "d": "medium",
+  "q": "Which Article of the Indian Constitution provides for the Election Commission?",
+  "o": [
+   "Article 280",
+   "Article 356",
+   "Article 324",
+   "Article 312"
+  ],
+  "e": "Correct answer: Article 324. Article 280 is the Finance Commission and Article 356 is President's Rule.",
+  "exam": "UPSC",
+  "a": 2,
+  "lang": "en"
+ },
+ {
+  "k": "compx-009",
+  "cat": "compx",
+  "s": "econ",
+  "t": "Planning",
+  "lvl": "recruit",
+  "d": "easy",
+  "q": "NITI Aayog, set up in 2015, replaced which body?",
+  "o": [
+   "Finance Commission",
+   "Planning Commission",
+   "National Development Council",
+   "Inter-State Council"
+  ],
+  "e": "Correct answer: Planning Commission. NITI Aayog replaced it on 1 January 2015.",
+  "exam": "UPSC",
+  "a": 1,
+  "lang": "en"
+ },
+ {
+  "k": "compx-010",
+  "cat": "compx",
+  "s": "comp",
+  "t": "Digital banking",
+  "lvl": "recruit",
+  "d": "easy",
+  "q": "In online banking, what does 'OTP' stand for?",
+  "o": [
+   "One Time Password",
+   "Online Transfer Protocol",
+   "One Time Payment",
+   "Official Transaction Pin"
+  ],
+  "e": "Correct answer: One Time Password, a code valid for a single login or transaction.",
+  "exam": "Banking",
+  "a": 0,
+  "lang": "en"
+ },
+ {
+  "k": "compx-011",
+  "cat": "compx",
+  "s": "sci",
+  "t": "Everyday science",
+  "lvl": "recruit",
+  "d": "easy",
+  "q": "Which gas is commonly used in fire extinguishers?",
+  "o": [
+   "Nitrogen dioxide",
+   "Carbon dioxide",
+   "Hydrogen",
+   "Oxygen"
+  ],
+  "e": "Correct answer: Carbon dioxide. It is heavier than air and cuts off the oxygen supply to the fire.",
+  "exam": "Police",
+  "a": 1,
+  "lang": "en"
+ },
+ {
+  "k": "compx-012",
+  "cat": "compx",
+  "s": "math",
+  "t": "Arithmetic progression",
+  "lvl": "recruit",
+  "d": "easy",
+  "q": "What is the sum of the first 20 natural numbers?",
+  "o": [
+   "200",
+   "190",
+   "210",
+   "220"
+  ],
+  "e": "Correct answer: 210. n(n + 1)/2 = 20 × 21 ÷ 2 = 210.",
+  "calc": "20*21/2",
+  "exam": "Teaching",
+  "a": 2,
+  "lang": "en"
+ },
+ {
+  "k": "compx-013",
+  "cat": "compx",
+  "s": "ment",
+  "t": "Clocks",
+  "lvl": "entrance",
+  "d": "hard",
+  "q": "How many times do the hour and minute hands of a clock coincide in 12 hours?",
+  "o": [
+   "12",
+   "10",
+   "24",
+   "11"
+  ],
+  "e": "Correct answer: 11. The hands coincide every 12/11 hours, i.e. 11 times in 12 hours.",
+  "exam": "University entrance",
+  "a": 3,
+  "lang": "en"
+ }
+]

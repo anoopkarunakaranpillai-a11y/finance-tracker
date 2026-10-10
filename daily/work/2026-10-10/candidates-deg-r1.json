@@ -1,0 +1,367 @@
+[
+ {
+  "k": "deg-001",
+  "cat": "deg",
+  "s": "acc",
+  "t": "Accounting equation",
+  "lvl": "degree",
+  "d": "easy",
+  "q": "According to the accounting equation, Assets are equal to:",
+  "o": [
+   "Revenue − Expenses",
+   "Liabilities − Capital",
+   "Liabilities + Capital",
+   "Capital − Liabilities"
+  ],
+  "e": "Correct answer: Liabilities + Capital. Every asset is financed either by outsiders (liabilities) or by the owner (capital).",
+  "a": 2,
+  "lang": "en"
+ },
+ {
+  "k": "deg-002",
+  "cat": "deg",
+  "s": "acc",
+  "t": "Depreciation",
+  "lvl": "degree",
+  "d": "medium",
+  "q": "A machine costs ₹50,000, has a residual value of ₹5,000 and a useful life of 9 years. What is the annual depreciation under the straight-line method?",
+  "o": [
+   "₹6,000",
+   "₹5,000",
+   "₹5,555",
+   "₹4,500"
+  ],
+  "e": "Correct answer: ₹5,000. (50,000 − 5,000) ÷ 9 = 5,000.",
+  "calc": "(50000-5000)/9",
+  "a": 1,
+  "lang": "en"
+ },
+ {
+  "k": "deg-003",
+  "cat": "deg",
+  "s": "dcs",
+  "t": "Algorithms",
+  "lvl": "degree",
+  "d": "medium",
+  "q": "What is the worst-case time complexity of binary search on a sorted array of n elements?",
+  "o": [
+   "O(1)",
+   "O(n log n)",
+   "O(n)",
+   "O(log n)"
+  ],
+  "e": "Correct answer: O(log n). Each comparison halves the search space.",
+  "a": 3,
+  "lang": "en"
+ },
+ {
+  "k": "deg-004",
+  "cat": "deg",
+  "s": "dcs",
+  "t": "Data structures",
+  "lvl": "degree",
+  "d": "easy",
+  "q": "Which data structure works on the Last In, First Out (LIFO) principle?",
+  "o": [
+   "Stack",
+   "Linked list",
+   "Binary tree",
+   "Queue"
+  ],
+  "e": "Correct answer: Stack. The last element pushed is the first popped; a queue is FIFO.",
+  "a": 0,
+  "lang": "en"
+ },
+ {
+  "k": "deg-005",
+  "cat": "deg",
+  "s": "dmath",
+  "t": "Differentiation",
+  "lvl": "degree",
+  "d": "medium",
+  "q": "If f(x) = x³, what is f′(2)?",
+  "o": [
+   "4",
+   "8",
+   "12",
+   "6"
+  ],
+  "e": "Correct answer: 12. f′(x) = 3x², so f′(2) = 3 × 4 = 12.",
+  "calc": "3*2^2",
+  "a": 2,
+  "lang": "en"
+ },
+ {
+  "k": "deg-006",
+  "cat": "deg",
+  "s": "dmath",
+  "t": "Matrices",
+  "lvl": "degree",
+  "d": "easy",
+  "q": "Find the determinant of the matrix [[2, 3], [1, 4]].",
+  "o": [
+   "11",
+   "-5",
+   "8",
+   "5"
+  ],
+  "e": "Correct answer: 5. 2 × 4 − 3 × 1 = 8 − 3 = 5.",
+  "calc": "2*4-3*1",
+  "a": 3,
+  "lang": "en"
+ },
+ {
+  "k": "deg-007",
+  "cat": "deg",
+  "s": "dmath",
+  "t": "Integration",
+  "lvl": "entrance",
+  "d": "medium",
+  "q": "Evaluate the definite integral of 2x dx from x = 0 to x = 3.",
+  "o": [
+   "18",
+   "6",
+   "3",
+   "9"
+  ],
+  "e": "Correct answer: 9. The antiderivative is x², so 3² − 0² = 9.",
+  "calc": "3^2-0^2",
+  "a": 3,
+  "lang": "en"
+ },
+ {
+  "k": "deg-008",
+  "cat": "deg",
+  "s": "dphy",
+  "t": "Magnetism",
+  "lvl": "degree",
+  "d": "medium",
+  "q": "What is the SI unit of magnetic flux?",
+  "o": [
+   "Henry",
+   "Weber",
+   "Gauss",
+   "Tesla"
+  ],
+  "e": "Correct answer: Weber. Tesla is the unit of magnetic flux density and henry of inductance.",
+  "a": 1,
+  "lang": "en"
+ },
+ {
+  "k": "deg-009",
+  "cat": "deg",
+  "s": "dphy",
+  "t": "Gravitation",
+  "lvl": "entrance",
+  "d": "medium",
+  "q": "The escape velocity from the Earth's surface is approximately:",
+  "o": [
+   "11.2 km/s",
+   "9.8 km/s",
+   "3.0 km/s",
+   "7.9 km/s"
+  ],
+  "e": "Correct answer: 11.2 km/s. About 7.9 km/s is the orbital velocity near the surface.",
+  "a": 0,
+  "lang": "en"
+ },
+ {
+  "k": "deg-010",
+  "cat": "deg",
+  "s": "dchem",
+  "t": "Chemical bonding",
+  "lvl": "entrance",
+  "d": "medium",
+  "q": "What is the hybridisation of the carbon atom in methane (CH4)?",
+  "o": [
+   "sp3",
+   "sp",
+   "sp2",
+   "dsp2"
+  ],
+  "e": "Correct answer: sp3. Four sp3 orbitals form a tetrahedral molecule with bond angle about 109.5°.",
+  "a": 0,
+  "lang": "en"
+ },
+ {
+  "k": "deg-011",
+  "cat": "deg",
+  "s": "dchem",
+  "t": "pH",
+  "lvl": "entrance",
+  "d": "hard",
+  "q": "What is the pH of a 0.001 M solution of HCl (a strong acid)?",
+  "o": [
+   "3",
+   "1",
+   "11",
+   "2"
+  ],
+  "e": "Correct answer: 3. [H+] = 10^-3 M, so pH = −log(10^-3) = 3.",
+  "a": 0,
+  "lang": "en"
+ },
+ {
+  "k": "deg-012",
+  "cat": "deg",
+  "s": "dbio",
+  "t": "Cell biology",
+  "lvl": "degree",
+  "d": "easy",
+  "q": "Which cell organelle is the site of protein synthesis?",
+  "o": [
+   "Golgi apparatus",
+   "Nucleolus",
+   "Ribosome",
+   "Lysosome"
+  ],
+  "e": "Correct answer: Ribosome. Ribosomes translate mRNA into polypeptides.",
+  "a": 2,
+  "lang": "en"
+ },
+ {
+  "k": "deg-013",
+  "cat": "deg",
+  "s": "dbio",
+  "t": "Molecular biology",
+  "lvl": "degree",
+  "d": "hard",
+  "q": "The Meselson–Stahl experiment showed that DNA replication is:",
+  "o": [
+   "Conservative",
+   "Semi-conservative",
+   "Non-replicative",
+   "Dispersive"
+  ],
+  "e": "Correct answer: Semi-conservative. Each new DNA molecule keeps one parent strand and one new strand.",
+  "a": 1,
+  "lang": "en"
+ },
+ {
+  "k": "deg-014",
+  "cat": "deg",
+  "s": "decon",
+  "t": "Demand",
+  "lvl": "degree",
+  "d": "easy",
+  "q": "The law of demand states that, other things being equal:",
+  "o": [
+   "quantity demanded rises when price rises",
+   "quantity demanded falls when price rises",
+   "supply rises when price rises",
+   "price does not affect quantity demanded"
+  ],
+  "e": "Correct answer: quantity demanded falls when price rises, an inverse relationship between price and quantity demanded.",
+  "a": 1,
+  "lang": "en"
+ },
+ {
+  "k": "deg-015",
+  "cat": "deg",
+  "s": "decon",
+  "t": "Elasticity",
+  "lvl": "degree",
+  "d": "medium",
+  "q": "If the price elasticity of demand for a good is greater than 1, demand is said to be:",
+  "o": [
+   "Inelastic",
+   "Unitary elastic",
+   "Elastic",
+   "Perfectly inelastic"
+  ],
+  "e": "Correct answer: Elastic. Quantity demanded changes by a larger percentage than price.",
+  "a": 2,
+  "lang": "en"
+ },
+ {
+  "k": "deg-016",
+  "cat": "deg",
+  "s": "mgmt",
+  "t": "Management thinkers",
+  "lvl": "degree",
+  "d": "hard",
+  "q": "Who coined the acronym POSDCORB to describe the functions of an executive?",
+  "o": [
+   "Peter Drucker",
+   "F. W. Taylor",
+   "Luther Gulick",
+   "Henri Fayol"
+  ],
+  "e": "Correct answer: Luther Gulick (1937), with Lyndall Urwick: Planning, Organising, Staffing, Directing, Co-ordinating, Reporting, Budgeting.",
+  "a": 2,
+  "lang": "en"
+ },
+ {
+  "k": "deg-017",
+  "cat": "deg",
+  "s": "mgmt",
+  "t": "Motivation",
+  "lvl": "degree",
+  "d": "easy",
+  "q": "In Maslow's hierarchy of needs, which need is at the top?",
+  "o": [
+   "Esteem",
+   "Safety",
+   "Physiological",
+   "Self-actualisation"
+  ],
+  "e": "Correct answer: Self-actualisation, realising one's full potential, is the highest level.",
+  "a": 3,
+  "lang": "en"
+ },
+ {
+  "k": "deg-018",
+  "cat": "deg",
+  "s": "hum",
+  "t": "Political philosophy",
+  "lvl": "degree",
+  "d": "easy",
+  "q": "Who wrote 'The Republic'?",
+  "o": [
+   "Plato",
+   "Aristotle",
+   "Socrates",
+   "Cicero"
+  ],
+  "e": "Correct answer: Plato, who wrote 'The Republic' as a dialogue led by Socrates.",
+  "a": 0,
+  "lang": "en"
+ },
+ {
+  "k": "deg-019",
+  "cat": "deg",
+  "s": "engg",
+  "t": "Units",
+  "lvl": "degree",
+  "d": "easy",
+  "q": "One mechanical horsepower is approximately equal to:",
+  "o": [
+   "550 W",
+   "500 W",
+   "1000 W",
+   "746 W"
+  ],
+  "e": "Correct answer: 746 W. 1 hp = 550 ft·lbf/s ≈ 746 watts.",
+  "a": 3,
+  "lang": "en"
+ },
+ {
+  "k": "deg-020",
+  "cat": "deg",
+  "s": "engg",
+  "t": "Thermodynamics",
+  "lvl": "entrance",
+  "d": "advanced",
+  "q": "What is the efficiency of a Carnot engine working between 500 K and 300 K?",
+  "o": [
+   "60%",
+   "25%",
+   "50%",
+   "40%"
+  ],
+  "e": "Correct answer: 40%. η = 1 − 300/500 = 0.4 = 40%.",
+  "calc": "(1-300/500)*100",
+  "a": 3,
+  "lang": "en"
+ }
+]

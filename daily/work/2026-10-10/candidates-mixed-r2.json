@@ -1,0 +1,277 @@
+[
+ {
+  "k": "eng-014",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Conditionals",
+  "lvl": "hsec",
+  "d": "medium",
+  "q": "Fill in the blank: If I ___ you, I would accept the offer.",
+  "o": [
+   "am",
+   "be",
+   "being",
+   "were"
+  ],
+  "e": "Correct answer: were. The second conditional uses the subjunctive 'were' for an imaginary situation.",
+  "a": 3,
+  "lang": "en"
+ },
+ {
+  "k": "eng-015",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Antonyms",
+  "lvl": "school",
+  "d": "easy",
+  "q": "Choose the word opposite in meaning to 'Transparent'.",
+  "o": [
+   "Bright",
+   "Visible",
+   "Clear",
+   "Opaque"
+  ],
+  "e": "Correct answer: Opaque. A transparent object lets light pass through; an opaque one does not.",
+  "a": 3,
+  "lang": "en"
+ },
+ {
+  "k": "eng-016",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Subject-verb agreement",
+  "lvl": "recruit",
+  "d": "hard",
+  "q": "Choose the grammatically correct sentence.",
+  "o": [
+   "Each of student have a book.",
+   "Each of the students have a book.",
+   "Each of the students has a book.",
+   "Each of the student has a book."
+  ],
+  "e": "Correct answer: Each of the students has a book. 'Each of' takes a plural noun and a singular verb.",
+  "a": 2,
+  "lang": "en"
+ },
+ {
+  "k": "quant-020",
+  "cat": "quant",
+  "s": "math",
+  "t": "Linear equations",
+  "lvl": "school",
+  "d": "easy",
+  "q": "ഒരു സംഖ്യയുടെ 3 മടങ്ങിനോട് 7 കൂട്ടിയാൽ 40 കിട്ടും. സംഖ്യ ഏത്?",
+  "o": [
+   "11",
+   "9",
+   "12",
+   "13"
+  ],
+  "e": "ശരിയുത്തരം: 11. 3x + 7 = 40 ⇒ 3x = 33 ⇒ x = 11.",
+  "calc": "(40-7)/3",
+  "a": 0,
+  "lang": "ml"
+ },
+ {
+  "k": "reas-020",
+  "cat": "reas",
+  "s": "ment",
+  "t": "Coding-decoding",
+  "lvl": "recruit",
+  "d": "medium",
+  "q": "ഒരു കോഡ് ഭാഷയിൽ MANGO എന്നത് OCPIQ എന്നെഴുതിയാൽ GRAPE എങ്ങനെ എഴുതാം?",
+  "o": [
+   "ITCRG",
+   "ITBRG",
+   "ISCRG",
+   "HTCRG"
+  ],
+  "e": "ശരിയുത്തരം: ITCRG. ഓരോ അക്ഷരവും രണ്ട് സ്ഥാനം മുന്നോട്ട്: G→I, R→T, A→C, P→R, E→G.",
+  "a": 0,
+  "lang": "ml"
+ },
+ {
+  "k": "gkca-021",
+  "cat": "gkca",
+  "s": "con",
+  "t": "Constituent Assembly",
+  "lvl": "recruit",
+  "d": "easy",
+  "q": "ഇന്ത്യൻ ഭരണഘടനാ നിർമ്മാണ സഭയുടെ സ്ഥിരം അധ്യക്ഷൻ ആരായിരുന്നു?",
+  "o": [
+   "ജവഹർലാൽ നെഹ്റു",
+   "ഡോ. രാജേന്ദ്ര പ്രസാദ്",
+   "ഡോ. ബി.ആർ. അംബേദ്കർ",
+   "സച്ചിദാനന്ദ സിൻഹ"
+  ],
+  "e": "ശരിയുത്തരം: ഡോ. രാജേന്ദ്ര പ്രസാദ്. സച്ചിദാനന്ദ സിൻഹ താൽക്കാലിക അധ്യക്ഷനും ഡോ. ബി.ആർ. അംബേദ്കർ ഡ്രാഫ്റ്റിംഗ് കമ്മിറ്റി ചെയർമാനുമായിരുന്നു.",
+  "exam": "Kerala PSC",
+  "a": 1,
+  "lang": "ml"
+ },
+ {
+  "k": "gkca-022",
+  "cat": "gkca",
+  "s": "geo",
+  "t": "National parks of Kerala",
+  "lvl": "recruit",
+  "d": "medium",
+  "q": "സൈലന്റ് വാലി ദേശീയോദ്യാനം സ്ഥിതി ചെയ്യുന്ന ജില്ല ഏത്?",
+  "o": [
+   "പാലക്കാട്",
+   "കൊല്ലം",
+   "വയനാട്",
+   "ഇടുക്കി"
+  ],
+  "e": "ശരിയുത്തരം: പാലക്കാട്. സൈലന്റ് വാലി ദേശീയോദ്യാനം 1984-ൽ പ്രഖ്യാപിച്ചു; പാലക്കാട് ജില്ലയിലെ മണ്ണാർക്കാട് താലൂക്കിൽ.",
+  "exam": "Kerala PSC",
+  "a": 0,
+  "lang": "ml"
+ },
+ {
+  "k": "deg-021",
+  "cat": "deg",
+  "s": "acc",
+  "t": "Assets",
+  "lvl": "degree",
+  "d": "medium",
+  "q": "In accounting, goodwill is classified as:",
+  "o": [
+   "a current asset",
+   "a current liability",
+   "an intangible asset",
+   "an operating expense"
+  ],
+  "e": "Correct answer: an intangible asset. Goodwill has no physical form but gives future economic benefit.",
+  "a": 2,
+  "lang": "en"
+ },
+ {
+  "k": "deg-022",
+  "cat": "deg",
+  "s": "dmath",
+  "t": "Logarithms",
+  "lvl": "entrance",
+  "d": "easy",
+  "q": "If log₁₀ x = 2, what is x?",
+  "o": [
+   "20",
+   "10",
+   "1000",
+   "100"
+  ],
+  "e": "Correct answer: 100. log₁₀ x = 2 means x = 10² = 100.",
+  "calc": "10^2",
+  "a": 3,
+  "lang": "en"
+ },
+ {
+  "k": "deg-023",
+  "cat": "deg",
+  "s": "dmath",
+  "t": "Permutations",
+  "lvl": "entrance",
+  "d": "medium",
+  "q": "In how many distinct ways can the letters of the word BOOK be arranged?",
+  "o": [
+   "6",
+   "24",
+   "16",
+   "12"
+  ],
+  "e": "Correct answer: 12. 4! ÷ 2! = 24 ÷ 2 = 12, since O is repeated twice.",
+  "calc": "4*3*2*1/2",
+  "a": 3,
+  "lang": "en"
+ },
+ {
+  "k": "deg-024",
+  "cat": "deg",
+  "s": "dphy",
+  "t": "Capacitance",
+  "lvl": "degree",
+  "d": "easy",
+  "q": "What is the SI unit of electrical capacitance?",
+  "o": [
+   "Siemens",
+   "Coulomb",
+   "Joule",
+   "Farad"
+  ],
+  "e": "Correct answer: Farad. One farad is one coulomb per volt.",
+  "a": 3,
+  "lang": "en"
+ },
+ {
+  "k": "deg-025",
+  "cat": "deg",
+  "s": "decon",
+  "t": "National income",
+  "lvl": "degree",
+  "d": "hard",
+  "q": "The GDP deflator is calculated as:",
+  "o": [
+   "(Nominal GDP ÷ Population) × 100",
+   "Nominal GDP − Real GDP",
+   "(Nominal GDP ÷ Real GDP) × 100",
+   "(Real GDP ÷ Nominal GDP) × 100"
+  ],
+  "e": "Correct answer: (Nominal GDP ÷ Real GDP) × 100, a measure of the overall price level.",
+  "a": 2,
+  "lang": "en"
+ },
+ {
+  "k": "deg-026",
+  "cat": "deg",
+  "s": "dbio",
+  "t": "Immunity",
+  "lvl": "degree",
+  "d": "medium",
+  "q": "Which cells produce antibodies in the human body?",
+  "o": [
+   "Neutrophils",
+   "Red blood cells",
+   "Plasma cells derived from B lymphocytes",
+   "Platelets"
+  ],
+  "e": "Correct answer: Plasma cells derived from B lymphocytes secrete antibodies.",
+  "a": 2,
+  "lang": "en"
+ },
+ {
+  "k": "deg-027",
+  "cat": "deg",
+  "s": "dcs",
+  "t": "Databases",
+  "lvl": "degree",
+  "d": "medium",
+  "q": "Which SQL command removes all rows from a table but keeps the table structure?",
+  "o": [
+   "TRUNCATE",
+   "CREATE",
+   "ALTER",
+   "DROP"
+  ],
+  "e": "Correct answer: TRUNCATE. DROP removes the table itself; ALTER changes its structure.",
+  "a": 0,
+  "lang": "en"
+ },
+ {
+  "k": "deg-028",
+  "cat": "deg",
+  "s": "hum",
+  "t": "Political philosophy",
+  "lvl": "degree",
+  "d": "medium",
+  "q": "Who wrote 'The Social Contract' (1762)?",
+  "o": [
+   "John Locke",
+   "Thomas Hobbes",
+   "Jean-Jacques Rousseau",
+   "Montesquieu"
+  ],
+  "e": "Correct answer: Jean-Jacques Rousseau. Hobbes wrote 'Leviathan' and Locke 'Two Treatises of Government'.",
+  "a": 2,
+  "lang": "en"
+ }
+]

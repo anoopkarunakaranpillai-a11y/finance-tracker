@@ -1,0 +1,236 @@
+[
+ {
+  "k": "eng-001",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Synonyms",
+  "lvl": "recruit",
+  "d": "easy",
+  "q": "Choose the word closest in meaning to 'Benevolent'.",
+  "o": [
+   "Cruel",
+   "Lazy",
+   "Kind",
+   "Proud"
+  ],
+  "e": "Correct answer: Kind. 'Benevolent' means well-meaning and kind.",
+  "a": 2,
+  "lang": "en"
+ },
+ {
+  "k": "eng-002",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Antonyms",
+  "lvl": "recruit",
+  "d": "easy",
+  "q": "Choose the word opposite in meaning to 'Scarce'.",
+  "o": [
+   "Abundant",
+   "Rare",
+   "Limited",
+   "Little"
+  ],
+  "e": "Correct answer: Abundant. 'Scarce' means in short supply; its opposite is abundant.",
+  "a": 0,
+  "lang": "en"
+ },
+ {
+  "k": "eng-003",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Prepositions",
+  "lvl": "school",
+  "d": "easy",
+  "q": "Fill in the blank: She has been working here ___ 2019.",
+  "o": [
+   "from",
+   "by",
+   "since",
+   "for"
+  ],
+  "e": "Correct answer: since. 'Since' is used with a point in time in the present perfect continuous.",
+  "a": 2,
+  "lang": "en"
+ },
+ {
+  "k": "eng-004",
+  "cat": "eng",
+  "s": "veng",
+  "t": "One-word substitution",
+  "lvl": "recruit",
+  "d": "medium",
+  "q": "One word for 'a person who cannot be corrected or reformed':",
+  "o": [
+   "Incorrigible",
+   "Inevitable",
+   "Invincible",
+   "Infallible"
+  ],
+  "e": "Correct answer: Incorrigible. It describes someone whose bad habits cannot be corrected.",
+  "a": 0,
+  "lang": "en"
+ },
+ {
+  "k": "eng-005",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Spelling",
+  "lvl": "recruit",
+  "d": "medium",
+  "q": "Choose the correctly spelt word.",
+  "o": [
+   "Acomodate",
+   "Accommodate",
+   "Acommodate",
+   "Accomodate"
+  ],
+  "e": "Correct answer: Accommodate, spelt with double 'c' and double 'm'.",
+  "a": 1,
+  "lang": "en"
+ },
+ {
+  "k": "eng-006",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Idioms",
+  "lvl": "recruit",
+  "d": "medium",
+  "q": "The idiom 'to bite the bullet' means:",
+  "o": [
+   "to speak rudely to someone",
+   "to face a difficult situation bravely",
+   "to avoid a responsibility",
+   "to eat very quickly"
+  ],
+  "e": "Correct answer: to face a difficult situation bravely, i.e. accept something unpleasant and deal with it.",
+  "a": 1,
+  "lang": "en"
+ },
+ {
+  "k": "eng-007",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Active and passive voice",
+  "lvl": "hsec",
+  "d": "medium",
+  "q": "Choose the passive form of: 'They are building a bridge.'",
+  "o": [
+   "A bridge has been built by them.",
+   "A bridge is being built by them.",
+   "A bridge is built by them.",
+   "A bridge was built by them."
+  ],
+  "e": "Correct answer: A bridge is being built by them. Present continuous active becomes 'is/are being + past participle'.",
+  "a": 1,
+  "lang": "en"
+ },
+ {
+  "k": "eng-008",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Reported speech",
+  "lvl": "hsec",
+  "d": "medium",
+  "q": "Choose the correct indirect form: He said, \"I am tired.\"",
+  "o": [
+   "He said that I am tired.",
+   "He said that I was tired.",
+   "He says that he was tired.",
+   "He said that he was tired."
+  ],
+  "e": "Correct answer: He said that he was tired. With a past reporting verb, 'am' changes to 'was' and 'I' to 'he'.",
+  "a": 3,
+  "lang": "en"
+ },
+ {
+  "k": "eng-009",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Articles",
+  "lvl": "school",
+  "d": "easy",
+  "q": "Fill in the blank: It took me ___ hour to finish the work.",
+  "o": [
+   "many",
+   "a",
+   "much",
+   "an"
+  ],
+  "e": "Correct answer: an. 'Hour' begins with a vowel sound, so it takes 'an'.",
+  "a": 3,
+  "lang": "en"
+ },
+ {
+  "k": "eng-010",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Plurals",
+  "lvl": "hsec",
+  "d": "hard",
+  "q": "What is the plural of 'criterion'?",
+  "o": [
+   "criteria",
+   "criterions",
+   "criterion's",
+   "criterias"
+  ],
+  "e": "Correct answer: criteria, the Greek-derived plural of 'criterion'.",
+  "a": 0,
+  "lang": "en"
+ },
+ {
+  "k": "eng-011",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Error spotting",
+  "lvl": "recruit",
+  "d": "hard",
+  "q": "Find the part with an error: Neither of the boys / were present / at the meeting / yesterday.",
+  "o": [
+   "Neither of the boys",
+   "were present",
+   "yesterday",
+   "at the meeting"
+  ],
+  "e": "Correct answer: were present. 'Neither of' takes a singular verb, so it should be 'was present'.",
+  "a": 1,
+  "lang": "en"
+ },
+ {
+  "k": "eng-012",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Prepositions",
+  "lvl": "school",
+  "d": "easy",
+  "q": "Fill in the blank: He is very good ___ mathematics.",
+  "o": [
+   "on",
+   "at",
+   "for",
+   "in"
+  ],
+  "e": "Correct answer: at. We say 'good at' a subject or skill.",
+  "a": 1,
+  "lang": "en"
+ },
+ {
+  "k": "eng-013",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Vocabulary",
+  "lvl": "degree",
+  "d": "advanced",
+  "q": "The word 'ephemeral' means:",
+  "o": [
+   "lasting a very short time",
+   "very large in size",
+   "full of joy",
+   "extremely old"
+  ],
+  "e": "Correct answer: lasting a very short time, as in 'ephemeral fame'.",
+  "a": 0,
+  "lang": "en"
+ }
+]

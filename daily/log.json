@@ -58,5 +58,21 @@
   "arya_test_1_questions": 25,
   "arya_test_2_questions": 25,
   "source": "scheduled"
+ },
+ {
+  "date": "2026-10-10",
+  "batch": "B-20261010-01",
+  "status": "Completed",
+  "completed_at": "2026-10-10T20:18:26.744Z",
+  "published": 129,
+  "target": 100,
+  "added_this_run": 129,
+  "review": 0,
+  "rejected": 4,
+  "duplicates": 12,
+  "tests": 6,
+  "navamika_games_count": 6,
+  "errors": 0,
+  "source": "scheduled"
  }
 ]
