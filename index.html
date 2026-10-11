@@ -4319,6 +4319,50 @@ body.arya .tab[aria-selected="true"]{box-shadow:inset 3px 0 0 #D9A63A}
 .ng-nc small{color:var(--nw-soft);font-weight:600;font-size:13px}
 .ng-nc .ng-ci{font-size:42px}
 .ng-allh{font-size:22px;margin:4px 0 12px}
+/* Story Time */
+.st-wrap{max-width:760px;margin:0 auto}
+.st-h{font-family:var(--nw-head);font-size:28px;margin:4px 0 6px;color:var(--nw-ink)}
+.st-list{display:grid;gap:14px;margin:14px 0}
+.st-card{font:inherit;display:flex;gap:16px;align-items:center;text-align:left;border:3px solid #FFC83D;border-radius:22px;padding:16px 18px;background:linear-gradient(120deg,#FFF6D8,#E7F4FF);color:#2B2340;cursor:pointer;min-height:96px}
+.st-card b{display:block;font-family:var(--nw-head);font-size:22px}.st-card small{display:block;font-weight:700;color:#5d5575}
+.st-cov{font-size:52px;line-height:1}
+.st-top{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:4px 0 10px}.st-top b{font-family:var(--nw-head);font-size:20px;flex:1;color:var(--nw-ink)}
+.st-back{min-height:44px;padding:6px 14px;font-size:15px}
+.st-scene{position:relative;width:100%;aspect-ratio:16/10;max-width:100%;border-radius:24px;overflow:hidden;border:3px solid #CFE3F7;box-shadow:0 10px 30px rgba(21,101,192,.12)}
+.st-town{background:linear-gradient(#BFE6FF 0 58%,#9BD77A 58% 100%)}
+.st-river{background:linear-gradient(#BFE6FF 0 45%,#9BD77A 45% 52%,#5BB4E8 52% 100%)}
+.st-dusk{background:linear-gradient(#3B3F7A 0 58%,#5E7F55 58% 100%)}
+.st-sun{background:radial-gradient(circle at 50% 30%,#FFF3B0,#FFD9A8 55%,#FFC2D1)}
+.st-it{position:absolute;line-height:1;transform:translate(0,0);filter:drop-shadow(0 4px 3px rgba(0,0,0,.15));user-select:none}
+.st-water{position:absolute;left:0;right:0;bottom:0;height:48%;background:repeating-linear-gradient(90deg,rgba(255,255,255,.18) 0 30px,transparent 30px 60px);animation:stWave 6s linear infinite;pointer-events:none}
+.st-dusk .st-water{display:none}
+.st-mirror{transform:scaleY(-1);opacity:.45;filter:blur(.6px)}
+.st-text{font-size:24px;line-height:1.5;font-weight:700;color:var(--nw-ink);margin:14px 4px 6px;max-width:60ch}
+.st-moral{background:#FFF6D8;border:2px solid #FFC83D;border-radius:16px;padding:12px 14px}
+.st-ml{font-size:22px;font-weight:700;color:#7A3E9D;margin:4px}
+.st-dots{display:flex;gap:6px;justify-content:center;margin:8px 0}.st-dots i{width:12px;height:12px;border-radius:50%;background:#D6E8F8}.st-dots i.seen{background:#9CC6F2}.st-dots i.on{background:#1A6FD1;transform:scale(1.25)}
+.st-ctl{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin:10px 0}.st-ctl .ng-btn.on{background:#FFE7F0;border-color:#F48FB1}
+.st-q{font-size:26px;font-weight:800;color:var(--nw-ink);display:flex;align-items:center;gap:10px;flex-wrap:wrap}.st-mini{min-height:44px;padding:4px 12px}
+.st-opts{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(200px,100%),1fr));gap:14px}
+.st-opt{font:inherit;display:grid;justify-items:center;gap:6px;padding:18px;border-radius:22px;border:3px solid #CFE3F7;background:#fff;color:#2B2340;cursor:pointer;min-height:140px}
+.st-opt span{font-size:58px;line-height:1}.st-opt b{font-size:20px}
+.st-opt.ok{border-color:#2E9E5B;background:#E6F7EC}.st-opt.no{border-color:#E57373;background:#FDECEC;opacity:.7}
+.st-fb{font-size:22px;font-weight:800;min-height:1.5em;text-align:center}
+.st-end{text-align:center}.st-big{font-size:64px}
+.st-bob{animation:stBob 2.4s ease-in-out infinite}.st-hop{animation:stHop 1.2s ease-in-out infinite}.st-shine{animation:stShine 1.8s ease-in-out infinite}
+.st-walk{animation:stWalk 3s ease-in-out infinite alternate}.st-shake{animation:stShake .5s ease-in-out infinite}.st-wobble{animation:stShake 1.6s ease-in-out infinite}
+.st-fall{animation:stFall 2.2s ease-in infinite}.st-pop{animation:stPop 2.2s ease-out infinite}.st-sink{animation:stSink 3s ease-in infinite}.st-sad{animation:stBob 4s ease-in-out infinite;filter:grayscale(.3)}
+@keyframes stBob{50%{transform:translateY(-8px)}}@keyframes stHop{50%{transform:translateY(-16px) rotate(-4deg)}}@keyframes stShine{50%{transform:scale(1.12);filter:drop-shadow(0 0 10px #FFE082)}}
+@keyframes stWalk{to{transform:translateX(22px)}}@keyframes stShake{25%{transform:rotate(-6deg)}75%{transform:rotate(6deg)}}
+@keyframes stFall{0%{transform:translateY(0) rotate(0)}70%{transform:translateY(90px) rotate(180deg);opacity:1}100%{transform:translateY(110px) rotate(200deg);opacity:0}}
+@keyframes stPop{0%,55%{transform:scale(0);opacity:0}75%{transform:scale(1.2);opacity:1}100%{transform:scale(1);opacity:0}}
+@keyframes stSink{0%{transform:translateY(0);opacity:1}100%{transform:translateY(70px);opacity:.15}}
+@keyframes stWave{to{background-position:60px 0}}
+@media (max-width:560px){.st-text{font-size:20px}.st-q{font-size:22px}.st-opt span{font-size:46px}.st-opt{min-height:120px}}
+@media (prefers-reduced-motion:reduce){.st-it,.st-water{animation:none!important}}
+:root[data-theme="dark"] .st-card{background:linear-gradient(120deg,#2A2540,#1B2B44);color:#EEE}:root[data-theme="dark"] .st-card small{color:#C9C3DA}
+:root[data-theme="dark"] .st-opt{background:#16243A;color:#EEE;border-color:#2C4A6E}:root[data-theme="dark"] .st-moral{background:#3A3220;color:#FFF3D1}
+:root[data-theme="dark"] .st-ml{color:#D9B8F0}
 
 /* ================= Sky theme: light blue & white, modern + interactive ================= */
 :root{
@@ -4518,6 +4562,7 @@ body.personal,body.learn,body[class]{--accent:#1A6FD1}
       <button class="tab" role="tab" data-m="learn" data-tab="learn" aria-selected="false" hidden><svg class="ti" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5C4 4.7 4.7 4 5.5 4H10a2 2 0 0 1 2 2v14a2 2 0 0 0-2-2H4zM20 5.5c0-.8-.7-1.5-1.5-1.5H14a2 2 0 0 0-2 2v14a2 2 0 0 1 2-2h6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Library</button>
       <button class="tab" role="tab" data-m="navw" data-tab="nhome" aria-selected="false" hidden><span aria-hidden="true" style="font-size:16px;width:20px;flex:none;display:inline-block;text-align:center;margin-right:2px">🏠</span>Workbook Home</button>
       <button class="tab" role="tab" data-m="navw" data-tab="ngame" aria-selected="false" hidden><span aria-hidden="true" style="font-size:16px;width:20px;flex:none;display:inline-block;text-align:center;margin-right:2px">🎮</span>Learning Games</button>
+      <button class="tab" role="tab" data-m="navw" data-tab="nstory" aria-selected="false" hidden><span aria-hidden="true" style="font-size:16px;width:20px;flex:none;display:inline-block;text-align:center;margin-right:2px">📖</span>Story Time</button>
       <button class="tab" role="tab" data-m="navw" data-tab="ntoday" aria-selected="false" hidden><span aria-hidden="true" style="font-size:16px;width:20px;flex:none;display:inline-block;text-align:center;margin-right:2px">📅</span>Today's Worksheet</button>
       <button class="tab" role="tab" data-m="navw" data-tab="nall" aria-selected="false" hidden><span aria-hidden="true" style="font-size:16px;width:20px;flex:none;display:inline-block;text-align:center;margin-right:2px">📚</span>All Worksheets</button>
       <button class="tab" role="tab" data-m="navw" data-tab="ncal" aria-selected="false" hidden><span aria-hidden="true" style="font-size:16px;width:20px;flex:none;display:inline-block;text-align:center;margin-right:2px">🗓️</span>Calendar</button>
@@ -4746,6 +4791,7 @@ body.personal,body.learn,body[class]{--accent:#1A6FD1}
 
   <section class="view nwb" id="v-nhome" hidden><div id="nwHome"></div></section>
   <section class="view nwb" id="v-ngame" hidden><div id="ngHost"></div></section>
+  <section class="view nwb" id="v-nstory" hidden><div id="nstHost"></div></section>
   <section class="view nwb" id="v-ntoday" hidden><div id="nwToday"></div></section>
   <section class="view nwb" id="v-nall" hidden><div id="nwAll"></div></section>
   <section class="view nwb" id="v-ncal" hidden><div id="nwCal"></div></section>
@@ -5265,7 +5311,7 @@ function renderReports(){
 }
 
 function renderAll(){try{renderNW()}catch(e){}renderBanner();renderScope();renderDash();renderPerf();renderTrades();renderAccounts();renderReports();renderCalendar();renderJournal();renderPersonal();showTab(ui.tab)}
-const ATABS=["arya"],NTABS=["nhome","ngame","ntoday","nall","ncal","nup","nprog","nset"],PTABS=["pover","pexp","pinc","pbill","pbud","pgoal","pacct"],TTABS=["dash","perf","trades","journal","live","signals","fx","accounts"];
+const ATABS=["arya"],NTABS=["nhome","ngame","nstory","ntoday","nall","ncal","nup","nprog","nset"],PTABS=["pover","pexp","pinc","pbill","pbud","pgoal","pacct"],TTABS=["dash","perf","trades","journal","live","signals","fx","accounts"];
 let mode="trading";try{const m=localStorage.getItem(LS+".mode");if(m==="personal"||m==="learn"||m==="navw"||m==="arya")mode=m}catch(e){}
 function setMode(m,go){mode=m;try{localStorage.setItem(LS+".mode",m)}catch(e){}
   document.body.classList.toggle("personal",m==="personal");document.body.classList.toggle("learn",m==="learn");document.body.classList.toggle("navw",m==="navw");document.body.classList.toggle("arya",m==="arya");
@@ -5281,9 +5327,9 @@ function showTab(t){
   ui.tab=t;try{localStorage.setItem(LS+".tab",t)}catch(e){}
   $(".mkt").hidden=t!=="dash"||clocksOff();try{homeSync()}catch(e){}
   $$(".tab").forEach(b=>b.setAttribute("aria-selected",b.dataset.tab===t));
-  ["dash","perf","trades","journal","live","signals","fx","accounts","learn","arya","nhome","ngame","ntoday","nall","ncal","nup","nprog","nset","nw","settings","pover","pexp","pinc","pbill","pbud","pgoal","pacct","calendar","reports"].forEach(v=>$("#v-"+v).hidden=v!==t);
+  ["dash","perf","trades","journal","live","signals","fx","accounts","learn","arya","nhome","ngame","nstory","ntoday","nall","ncal","nup","nprog","nset","nw","settings","pover","pexp","pinc","pbill","pbud","pgoal","pacct","calendar","reports"].forEach(v=>$("#v-"+v).hidden=v!==t);
   const sc=t==="dash"||t==="perf",pm=["pover","pexp","pinc","pbud","pacct"].includes(t);$("#scopeBar").hidden=!sc;$("#pMonthBar").hidden=!pm;$("#toprow").classList.toggle("noscope",!sc&&!pm);
-  $("#pageTitle").textContent="Anoop's Finance Tracker";const PGN={dash:"Dashboard",perf:"Performance",trades:"Trades",journal:"Trading journal",fx:"Forex economic calendar",live:"Live forex charts",signals:"Signal robot",learn:"Learning library",nw:"Full portfolio",settings:"Settings",pover:"Personal overview",pbill:"Bills",pacct:"Personal accounts",pexp:"Expenses",pinc:"Income",pbud:"Budget",pgoal:"Personal goals",accounts:"Accounts",calendar:"Calendar",reports:"Reports",arya:"📝 Aryas Study Window · Kerala PSC LDC",nhome:"📚 Navamika's Workbook",ngame:"🎮 Navamika's Learning Games",ntoday:"📚 Navamika's Workbook · Today's Worksheet",nall:"📚 Navamika's Workbook · All Worksheets",ncal:"📚 Navamika's Workbook · Calendar",nup:"📚 Navamika's Workbook · Upload",nprog:"📚 Navamika's Workbook · Progress",nset:"📚 Navamika's Workbook · Settings"};
+  $("#pageTitle").textContent="Anoop's Finance Tracker";const PGN={dash:"Dashboard",perf:"Performance",trades:"Trades",journal:"Trading journal",fx:"Forex economic calendar",live:"Live forex charts",signals:"Signal robot",learn:"Learning library",nw:"Full portfolio",settings:"Settings",pover:"Personal overview",pbill:"Bills",pacct:"Personal accounts",pexp:"Expenses",pinc:"Income",pbud:"Budget",pgoal:"Personal goals",accounts:"Accounts",calendar:"Calendar",reports:"Reports",arya:"📝 Aryas Study Window · Kerala PSC LDC",nhome:"📚 Navamika's Workbook",ngame:"🎮 Navamika's Learning Games",nstory:"📖 Navamika's Story Time",ntoday:"📚 Navamika's Workbook · Today's Worksheet",nall:"📚 Navamika's Workbook · All Worksheets",ncal:"📚 Navamika's Workbook · Calendar",nup:"📚 Navamika's Workbook · Upload",nprog:"📚 Navamika's Workbook · Progress",nset:"📚 Navamika's Workbook · Settings"};
   $("#pageSub").innerHTML=`<b class="pgn">${PGN[t]||""}</b> · `+new Date().toLocaleDateString("en-GB",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
   const __rd=()=>{if(ui.tab!==t)return;if(t==="dash")renderDash();if(t==="perf")renderPerf()};if(t==="dash"||t==="perf")requestAnimationFrame(()=>setTimeout(__rd,0));if(t==="journal")renderJournal();if(t==="fx")renderFx();if(t==="signals")renderSignals();if(t==="live")renderLive();if(t==="learn")renderLearn();if(t==="nw")renderNW(true);if(t==="settings")renderSettings();if(PTABS.includes(t))renderPersonal();if(NTABS.includes(t))try{nwRender()}catch(e){console.error(e)}if(t==="arya")try{window.__aswShow&&window.__aswShow()}catch(e){console.error(e)}
 }
@@ -7459,9 +7505,9 @@ function nwStats(){const today=nwKw().date,vis=NW.items.filter(nwVisible),avail=
   const subj=NW_SUBJ.map(s=>{const a=avail.filter(w=>w.subject===s.k),c=a.filter(w=>w.done).length;return{s,a:a.length,c,p:a.length?Math.round(c/a.length*100):0}});
   return{total:vis.length,avail:avail.length,done:done.length,pending:avail.filter(w=>!w.done).length,locked:vis.filter(w=>nwStat(w)==="scheduled").length,streak,week,last7,subj}}
 /* ---- views ---- */
-function nwRender(){const t=ui.tab;if(t==="ngame")return ngRender();if(t==="nhome")nwHome();else if(t==="ntoday")nwTodayV();else if(t==="nall")nwAll();else if(t==="ncal")nwCal();else if(t==="nup")nwUp();else if(t==="nprog")nwProg();else if(t==="nset")nwSet()}
+function nwRender(){const t=ui.tab;if(t==="ngame")return ngRender();if(t==="nstory")return nstRender();if(t==="nhome")nwHome();else if(t==="ntoday")nwTodayV();else if(t==="nall")nwAll();else if(t==="ncal")nwCal();else if(t==="nup")nwUp();else if(t==="nprog")nwProg();else if(t==="nset")nwSet()}
 function nwHead(){return`<div class="nw-hero"><div><div class="nw-eye">📚 ${esc(NW.child)}'s Workbook · ${esc(NW.cls)}</div><h2>${nwGreet()[0]} ${nwGreet()[1]} ${esc(NW.child)}!</h2><p>${nwToday().some(nwOpenable)?(nwToday().filter(nwOpenable).length>1?`${nwToday().filter(nwOpenable).length} ${esc(NW.cls)} worksheets are ready today!`:`Today's ${esc(NW.cls)} worksheet is ready!`):nwToday().length?"Today's worksheet is coming soon.":"Let's learn something new today."}</p></div><div class="nw-art" aria-hidden="true"><span>🖍️</span><span>⭐</span><span>📏</span></div></div>`}
-function nwHome(){nwHome0();try{ngHomeBanner()}catch(e){}}
+function nwHome(){nwHome0();try{ngHomeBanner()}catch(e){}try{nstHomeBanner()}catch(e){}}
 function nwHome0(){const el=$("#nwHome");if(!el)return;nwTick(true);const S=nwStats(),today=nwKw().date;
   const byDay=(L)=>{const m=new Map();L.forEach(w=>{if(!m.has(w.date))m.set(w.date,[]);m.get(w.date).push(w)});return[...m.entries()]};
   const prevD=byDay(nwSorted(NW.items.filter(w=>nwVisible(w)&&w.date<today)).reverse()).slice(0,6),nextD=byDay(nwSorted(NW.items.filter(w=>nwVisible(w)&&w.date>today))).slice(0,2);
@@ -9893,6 +9939,68 @@ function ngSheetsV(el){el.innerHTML=`<div class="ng">${ngNav("sheets")}<h2 class
 function ngHomeBanner(){const h=$("#nwHome");if(!h||h.querySelector(".ng-hb"))return;const st=ngDailyState(),dn=st.done.filter(Boolean).length,d=document.createElement("button");d.type="button";d.className="ng-hb";
   d.innerHTML=`<span class="ng-hbi" aria-hidden="true">🎮</span><span><b>Learning Games</b><small>🌟 Today’s Challenge: ${dn} / 3 · ⭐ ${ngStars()} stars</small></span><span class="ng-go" aria-hidden="true">▶</span>`;d.onclick=()=>{NGV={v:"home"};showTab("ngame")};h.prepend(d)}
 window.__ngWs=k=>ngWsDraw(k).toDataURL("image/png");
+
+/* ===== Navamika · Story Time (read-aloud picture stories) ===== */
+const NST_KEY=LS+".nstory";
+let NST=(()=>{try{return JSON.parse(localStorage.getItem(NST_KEY)||"{}")}catch(e){return{}}})();
+const nstSave=()=>{try{localStorage.setItem(NST_KEY,JSON.stringify(NST))}catch(e){}};
+// a scene item: [emoji, left %, top %, size rem, extra class]
+const NSTORIES=[{id:"greedy-dog",title:"The Greedy Dog",ml:"അത്യാഗ്രഹിയായ നായ",cover:"🐕🦴",
+ note:"An old Aesop fable, retold for little ones.",
+ pages:[
+  {bg:"town",scene:[["🏠",8,30,4],["🏡",72,26,4.4],["🌳",42,22,3.6],["🐕",36,58,5,"st-bob"]],t:"Once upon a time, there was a dog named Bruno. Bruno was always hungry, and he always wanted more and more."},
+  {bg:"town",scene:[["🏪",10,22,4.6],["🐕",44,56,5,"st-hop"],["🦴",66,66,3.2,"st-shine"]],t:"One day, Bruno found a big, juicy bone. “Yum! This bone is all mine!” said Bruno, wagging his tail."},
+  {bg:"river",scene:[["🌉",22,40,7],["🐕",36,30,4.2,"st-walk"],["🦴",50,40,2,"st-walk"],["🌳",80,18,3.4]],t:"Bruno held the bone in his mouth and walked home. On the way, he crossed a little bridge over a river."},
+  {bg:"river",scene:[["🐕",40,24,4.4],["🦴",54,34,2.2],["🐕",40,62,4.4,"st-mirror"],["🦴",54,62,2.2,"st-mirror"]],t:"Bruno looked down into the water. He saw another dog with another big bone!"},
+  {bg:"river",scene:[["🐕",40,26,4.4,"st-shake"],["😠",58,12,2.4],["🦴",54,36,2.2],["💭",70,6,3.2],["🦴🦴",74,9,1.4]],t:"“I want that bone too!” thought greedy Bruno. “Then I will have TWO bones!”"},
+  {bg:"river",scene:[["🐕",40,24,4.4],["💬",58,8,3],["🦴",50,40,2.2,"st-fall"],["💦",46,64,3.4,"st-pop"]],t:"So Bruno opened his mouth wide and barked, “WOOF!” Splash! His bone fell into the river."},
+  {bg:"river",scene:[["🌊",20,60,3.4],["🌊",60,62,3.4],["🦴",44,48,2.4,"st-sink"],["🐕",40,18,4,"st-wobble"]],t:"The bone sank down, down, down. And the other dog? It was only Bruno’s own reflection in the water!"},
+  {bg:"dusk",scene:[["🐕",40,52,5,"st-sad"],["😢",58,40,2.4],["🏠",78,28,3.6],["🌙",12,10,3]],t:"Now Bruno had no bone at all. He walked home sad and hungry."},
+  {bg:"sun",moral:true,scene:[["🌟",44,10,4,"st-shine"],["🐕",22,48,4.2,"st-bob"],["🦴",60,58,3]],t:"Be happy with what you have. When we are greedy, we can lose everything.",ml:"അത്യാഗ്രഹം ആപത്ത്."}],
+ quiz:[{q:"What did Bruno find?",o:[["🦴","A bone"],["⚽","A ball"],["🍎","An apple"]],a:0},
+  {q:"What did Bruno see in the water?",o:[["🐟","A fish"],["🐕","His own reflection"],["🐸","A frog"]],a:1},
+  {q:"What happened to the bone?",o:[["🏠","He took it home"],["🤝","He shared it"],["💦","It fell in the river"]],a:2},
+  {q:"What does the story teach us?",o:[["😊","Be happy with what you have"],["😠","Always want more"]],a:0}]}];
+let NSV={v:"home"};
+function nstScene(p){return`<div class="st-scene st-${p.bg}" role="img" aria-label="${esc(p.t)}">${p.scene.map(([e,x,y,s,c])=>`<span class="st-it ${c||""}" style="left:${x}%;top:${y}%;font-size:${s}rem" aria-hidden="true">${e}</span>`).join("")}${p.bg==="river"||p.bg==="dusk"?'<i class="st-water" aria-hidden="true"></i>':""}</div>`}
+function nstRender(){const el=$("#nstHost");if(!el)return;ngStop();
+  if(NSV.v==="read")return nstRead(el);if(NSV.v==="quiz")return nstQuiz(el);if(NSV.v==="done")return nstDone(el);
+  el.innerHTML=`<div class="st-wrap"><h2 class="st-h">📖 Story Time</h2><p class="ng-muted">Tap a story. Press 🔊 and the story is read aloud.</p>
+   <div class="st-list">${NSTORIES.map(s=>{const r=NST[s.id]||{};return`<button type="button" class="st-card" data-st="${s.id}"><span class="st-cov" aria-hidden="true">${s.cover}</span><span><b>${esc(s.title)}</b><small>${esc(s.ml)}</small><small>${s.pages.length} pages · ${s.quiz.length} questions${r.stars?` · ${"⭐".repeat(r.stars)}`:r.read?" · read ✓":" · new!"}</small></span></button>`}).join("")}</div>
+   <p class="ng-muted small">${esc(NSTORIES[0].note)}</p></div>`;
+  el.querySelectorAll("[data-st]").forEach(b=>b.onclick=()=>{NSV={v:"read",s:b.dataset.st,p:0,auto:false};nstRender();nstSpeak()})}
+function nstCur(){return NSTORIES.find(s=>s.id===NSV.s)}
+function nstSpeak(){const s=nstCur(),p=s&&s.pages[NSV.p];if(!p)return;const seq=++NSV.sq;
+  Promise.resolve(ngSayParts([{t:p.t}])).then(()=>{if(NSV.v!=="read"||NSV.sq!==seq||!NSV.auto)return;setTimeout(()=>{if(NSV.v!=="read"||NSV.sq!==seq||!NSV.auto)return;if(NSV.p<s.pages.length-1){NSV.p++;nstRender();nstSpeak()}else{NSV.auto=false;nstRender()}},900)}).catch(()=>{})}
+function nstRead(el){const s=nstCur(),p=s.pages[NSV.p],last=NSV.p===s.pages.length-1;NSV.sq=NSV.sq||0;
+  el.innerHTML=`<div class="st-wrap"><div class="st-top"><button type="button" class="ng-btn st-back" id="stHome">◀ Stories</button><b>${esc(s.title)}</b><span class="ng-muted">Page ${NSV.p+1} of ${s.pages.length}</span></div>
+   ${nstScene(p)}<p class="st-text ${p.moral?"st-moral":""}">${p.moral?"🌟 <b>The lesson:</b> ":""}${esc(p.t)}</p>${p.ml?`<p class="st-ml" lang="ml">${esc(p.ml)}</p>`:""}
+   <div class="st-dots" aria-hidden="true">${s.pages.map((_,i)=>`<i class="${i===NSV.p?"on":i<NSV.p?"seen":""}"></i>`).join("")}</div>
+   <div class="st-ctl"><button type="button" class="ng-btn" id="stPrev" ${NSV.p?"":"disabled"} aria-label="Previous page">◀</button><button type="button" class="ng-btn st-say" id="stSay">🔊 Read to me</button><button type="button" class="ng-btn ${NSV.auto?"on":""}" id="stAuto" aria-pressed="${!!NSV.auto}">${NSV.auto?"⏸ Stop":"▶ Read whole story"}</button>
+    ${last?`<button type="button" class="ng-btn pri" id="stQuiz">🎯 Story questions</button>`:`<button type="button" class="ng-btn pri" id="stNext" aria-label="Next page">▶</button>`}</div></div>`;
+  $("#stHome").onclick=()=>{NSV={v:"home"};nstRender()};$("#stSay").onclick=()=>{NSV.auto=false;nstSpeak()};
+  $("#stAuto").onclick=()=>{NSV.auto=!NSV.auto;if(NSV.auto){nstRender();nstSpeak()}else{ngStop();nstRender()}};
+  if($("#stPrev"))$("#stPrev").onclick=()=>{NSV.p--;NSV.auto=false;nstRender();nstSpeak()};
+  if($("#stNext"))$("#stNext").onclick=()=>{NSV.p++;NSV.auto=false;nstRender();nstSpeak()};
+  if($("#stQuiz"))$("#stQuiz").onclick=()=>{NST[s.id]=Object.assign({},NST[s.id],{read:true});nstSave();NSV={v:"quiz",s:s.id,i:0,cor:0};nstRender();nstAsk()};
+  if(last){NST[s.id]=Object.assign({},NST[s.id],{read:true});nstSave()}}
+function nstAsk(){const s=nstCur(),q=s&&s.quiz[NSV.i];if(q)ngSayParts([{t:q.q}])}
+function nstQuiz(el){const s=nstCur(),q=s.quiz[NSV.i];
+  el.innerHTML=`<div class="st-wrap"><div class="st-top"><button type="button" class="ng-btn st-back" id="stHome">◀ Stories</button><b>${esc(s.title)}</b><span class="ng-muted">Question ${NSV.i+1} of ${s.quiz.length}</span></div>
+   <p class="st-q">${esc(q.q)} <button type="button" class="ng-btn st-mini" id="stRep" aria-label="Hear the question again">🔊</button></p>
+   <div class="st-opts">${q.o.map(([e,t],i)=>`<button type="button" class="st-opt" data-o="${i}"><span aria-hidden="true">${e}</span><b>${esc(t)}</b></button>`).join("")}</div><p class="st-fb" id="stFb" role="status"></p></div>`;
+  $("#stHome").onclick=()=>{NSV={v:"home"};nstRender()};$("#stRep").onclick=nstAsk;let tried=false;
+  el.querySelectorAll("[data-o]").forEach(b=>b.onclick=()=>{const i=+b.dataset.o;if(i===q.a){b.classList.add("ok");if(!tried)NSV.cor++;el.querySelectorAll("[data-o]").forEach(x=>x.disabled=true);$("#stFb").textContent="🎉 Yes! Well done!";
+      Promise.resolve(NGA.playCorrect()).catch(()=>{});setTimeout(()=>{NSV.i++;if(NSV.i<s.quiz.length){nstRender();nstAsk()}else{NSV.v="done";nstRender()}},1600)}
+    else{tried=true;b.classList.add("no");b.disabled=true;$("#stFb").textContent="Try again! 🙂";Promise.resolve(NGA.playIncorrect()).catch(()=>{})}})}
+function nstDone(el){const s=nstCur(),n=s.quiz.length,st=NSV.cor===n?3:NSV.cor>=n-1?2:1;const r=NST[s.id]||{};NST[s.id]=Object.assign({},r,{read:true,stars:Math.max(r.stars||0,st),last:Date.now(),times:(r.times||0)+1});nstSave();
+  el.innerHTML=`<div class="st-wrap st-end"><div class="st-big" aria-hidden="true">${"⭐".repeat(st)}</div><h2 class="st-h">Great listening, ${esc(ngKid())}!</h2><p>You got <b>${NSV.cor}</b> of <b>${n}</b> right first time.</p><p class="st-moral">🌟 ${esc(s.pages[s.pages.length-1].t)}</p>
+   <div class="st-ctl"><button type="button" class="ng-btn" id="stAgain">📖 Read again</button><button type="button" class="ng-btn pri" id="stHome">📚 All stories</button></div></div>`;
+  Promise.resolve(NGA.playLevelComplete()).catch(()=>{});
+  $("#stAgain").onclick=()=>{NSV={v:"read",s:s.id,p:0,auto:false};nstRender();nstSpeak()};$("#stHome").onclick=()=>{NSV={v:"home"};nstRender()}}
+function nstHomeBanner(){const h=$("#nwHome");if(!h||h.querySelector(".st-hb"))return;const s=NSTORIES[0],r=NST[s.id]||{},d=document.createElement("button");d.type="button";d.className="ng-hb st-hb";
+  d.innerHTML=`<span class="ng-hbi" aria-hidden="true">📖</span><span><b>Story Time: ${esc(s.title)}</b><small>${r.stars?"⭐".repeat(r.stars)+" · read again":"New story! Tap to listen"}</small></span><span class="ng-go" aria-hidden="true">▶</span>`;
+  d.onclick=()=>{NSV={v:"read",s:s.id,p:0,auto:false};showTab("nstory");setTimeout(nstSpeak,250)};const g=h.querySelector(".ng-hb");g?g.after(d):h.prepend(d)}
 
 
 
