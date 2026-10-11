@@ -1,0 +1,242 @@
+[
+ {
+  "k": "comp-101",
+  "cat": "comp",
+  "s": "comp",
+  "t": "File extensions",
+  "lvl": "recruit",
+  "psc": "sslc",
+  "exam": "Kerala PSC",
+  "d": "easy",
+  "q": "'.mp3' എന്ന എക്സ്റ്റൻഷനുള്ള ഫയൽ ഏത് തരത്തിലുള്ളതാണ്?",
+  "o": [
+   "വീഡിയോ ഫയൽ",
+   "ചിത്ര ഫയൽ",
+   "ഓഡിയോ ഫയൽ",
+   "ടെക്സ്റ്റ് ഫയൽ"
+  ],
+  "a": 2,
+  "e": ".mp3 എന്നത് ശബ്ദം സൂക്ഷിക്കുന്ന ഓഡിയോ ഫയൽ ഫോർമാറ്റാണ്.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-113",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Input and output devices",
+  "lvl": "recruit",
+  "psc": "sslc",
+  "exam": "Kerala PSC",
+  "d": "easy",
+  "q": "താഴെ പറയുന്നവയിൽ ഇൻപുട്ട് ഉപകരണമായും ഔട്ട്പുട്ട് ഉപകരണമായും ഒരേസമയം പ്രവർത്തിക്കുന്നത് ഏത്?",
+  "o": [
+   "Monitor",
+   "Scanner",
+   "Keyboard",
+   "Touch screen"
+  ],
+  "a": 3,
+  "e": "സ്പർശനത്തിലൂടെ വിവരം സ്വീകരിക്കുകയും ദൃശ്യം കാണിക്കുകയും ചെയ്യുന്ന Touch screen ഇൻപുട്ട്-ഔട്ട്പുട്ട് ഉപകരണമാണ്.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-103",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Number systems",
+  "lvl": "recruit",
+  "psc": "plus2",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "q": "ദശാംശ സംഖ്യ 25-ന്റെ ബൈനറി രൂപം ഏത്?",
+  "o": [
+   "10011",
+   "11001",
+   "11011",
+   "10101"
+  ],
+  "a": 1,
+  "e": "25 = 16 + 8 + 1, അതിനാൽ ബൈനറി രൂപം 11001.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-104",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Spreadsheet basics",
+  "lvl": "recruit",
+  "psc": "sslc",
+  "exam": "Kerala PSC",
+  "d": "easy",
+  "q": "സ്പ്രെഡ്ഷീറ്റിൽ ഒരു റോയും (Row) കോളവും (Column) കൂടിച്ചേരുന്ന ഭാഗത്തെ എന്ത് വിളിക്കുന്നു?",
+  "o": [
+   "Cell",
+   "Range",
+   "Chart",
+   "Sheet tab"
+  ],
+  "a": 0,
+  "e": "റോയും കോളവും കൂടിച്ചേരുന്ന ഭാഗമാണ് Cell (ഉദാ: A1).",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-105",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Logic gates",
+  "lvl": "recruit",
+  "psc": "plus2",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "q": "എല്ലാ ഇൻപുട്ടുകളും 1 ആകുമ്പോൾ മാത്രം ഔട്ട്പുട്ട് 1 നൽകുന്ന ലോജിക് ഗേറ്റ് ഏത്?",
+  "o": [
+   "OR",
+   "NOT",
+   "XOR",
+   "AND"
+  ],
+  "a": 3,
+  "e": "എല്ലാ ഇൻപുട്ടുകളും 1 ആകുമ്പോൾ മാത്രമാണ് AND ഗേറ്റിന്റെ ഔട്ട്പുട്ട് 1 ആകുന്നത്.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-106",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Computer generations",
+  "lvl": "recruit",
+  "psc": "plus2",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "q": "മൂന്നാം തലമുറ കമ്പ്യൂട്ടറുകളിൽ പ്രധാനമായി ഉപയോഗിച്ച സാങ്കേതികവിദ്യ ഏത്?",
+  "o": [
+   "Vacuum tube",
+   "Transistor",
+   "Integrated Circuit (IC)",
+   "Microprocessor"
+  ],
+  "a": 2,
+  "e": "മൂന്നാം തലമുറ കമ്പ്യൂട്ടറുകളുടെ അടിസ്ഥാനം Integrated Circuit (IC) ആയിരുന്നു.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-107",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Cloud computing",
+  "lvl": "recruit",
+  "psc": "degree",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "q": "ക്ലൗഡ് കമ്പ്യൂട്ടിങ്ങിലെ 'SaaS' എന്നതിന്റെ പൂർണ്ണരൂപം എന്ത്?",
+  "o": [
+   "Software as a Service",
+   "System as a Service",
+   "Storage as a Service",
+   "Server as a Service"
+  ],
+  "a": 0,
+  "e": "SaaS = Software as a Service; ഇന്റർനെറ്റ് വഴി സോഫ്റ്റ്‌വെയർ ഒരു സേവനമായി നൽകുന്ന രീതി.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-108",
+  "cat": "comp",
+  "s": "comp",
+  "t": "DBMS keys",
+  "lvl": "recruit",
+  "psc": "degree",
+  "exam": "Kerala PSC",
+  "d": "hard",
+  "q": "DBMS-ൽ ഒരു ടേബിളിലെ ഫീൽഡ്, മറ്റൊരു ടേബിളിന്റെ പ്രൈമറി കീയെ സൂചിപ്പിച്ച് രണ്ട് ടേബിളുകളെ ബന്ധിപ്പിക്കുന്നുവെങ്കിൽ ആ ഫീൽഡിനെ എന്ത് വിളിക്കുന്നു?",
+  "o": [
+   "Primary key",
+   "Foreign key",
+   "Candidate key",
+   "Super key"
+  ],
+  "a": 1,
+  "e": "മറ്റൊരു ടേബിളിന്റെ പ്രൈമറി കീയെ സൂചിപ്പിക്കുന്ന ഫീൽഡാണ് Foreign key.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-109",
+  "cat": "comp",
+  "s": "comp",
+  "t": "CPU parts",
+  "lvl": "recruit",
+  "psc": "sslc",
+  "exam": "Kerala PSC",
+  "d": "easy",
+  "q": "CPU-വിൽ ഗണിതക്രിയകളും യുക്തിപരമായ (Logical) താരതമ്യങ്ങളും നടത്തുന്ന ഭാഗം ഏത്?",
+  "o": [
+   "Control Unit",
+   "Cache memory",
+   "ROM",
+   "ALU"
+  ],
+  "a": 3,
+  "e": "ഗണിത, ലോജിക്കൽ ക്രിയകൾ ചെയ്യുന്നത് ALU (Arithmetic Logic Unit) ആണ്.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-110",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Computer viruses and malware",
+  "lvl": "recruit",
+  "psc": "plus2",
+  "exam": "Kerala PSC",
+  "d": "hard",
+  "q": "മറ്റൊരു ഫയലിനോട് ചേരാതെ തന്നെ സ്വയം പകർപ്പുകൾ ഉണ്ടാക്കി നെറ്റ്‌വർക്ക് വഴി പടരുന്ന മാൽവെയർ ഏത്?",
+  "o": [
+   "Worm",
+   "Trojan horse",
+   "Spyware",
+   "Adware"
+  ],
+  "a": 0,
+  "e": "ഒരു ഹോസ്റ്റ് ഫയൽ ആവശ്യമില്ലാതെ സ്വയം പകർപ്പെടുത്ത് നെറ്റ്‌വർക്കിലൂടെ പടരുന്നതാണ് Worm.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-111",
+  "cat": "comp",
+  "s": "comp",
+  "t": "IT Act 2000",
+  "lvl": "recruit",
+  "psc": "degree",
+  "exam": "Kerala PSC",
+  "d": "advanced",
+  "q": "2015-ലെ ശ്രേയ സിംഗാൾ കേസിൽ (Shreya Singhal v. Union of India) സുപ്രീം കോടതി റദ്ദാക്കിയ ഐ.ടി. നിയമം 2000-ലെ വകുപ്പ് ഏത്?",
+  "o": [
+   "Section 43",
+   "Section 67",
+   "Section 66A",
+   "Section 69A"
+  ],
+  "a": 2,
+  "e": "ആക്ഷേപകരമായ ഓൺലൈൻ സന്ദേശങ്ങൾക്ക് ശിക്ഷ നൽകിയിരുന്ന Section 66A ഭരണഘടനാവിരുദ്ധമെന്ന് കണ്ട് 2015-ൽ റദ്ദാക്കി.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-112",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Abbreviations",
+  "lvl": "recruit",
+  "psc": "sslc",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "q": "'PDF' എന്നതിന്റെ പൂർണ്ണരൂപം എന്ത്?",
+  "o": [
+   "Printable Document File",
+   "Portable Document Format",
+   "Public Data Format",
+   "Portable Data File"
+  ],
+  "a": 1,
+  "e": "PDF = Portable Document Format; Adobe വികസിപ്പിച്ച ഫയൽ ഫോർമാറ്റ്.",
+  "lang": "ml"
+ }
+]

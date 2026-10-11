@@ -1,0 +1,242 @@
+[
+ {
+  "k": "eng-101",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Tenses",
+  "lvl": "recruit",
+  "psc": "sslc",
+  "exam": "Kerala PSC",
+  "d": "easy",
+  "q": "Fill in the blank: By the time we reached the station, the train ___.",
+  "o": [
+   "has left",
+   "had left",
+   "will leave",
+   "leaves"
+  ],
+  "a": 1,
+  "e": "The earlier of two past actions takes the past perfect, so 'had left' is correct.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-102",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Question tags",
+  "lvl": "recruit",
+  "psc": "degree",
+  "exam": "Kerala PSC",
+  "d": "hard",
+  "q": "Add the correct question tag: Let's go for a walk, ___?",
+  "o": [
+   "will we",
+   "don't we",
+   "won't we",
+   "shall we"
+  ],
+  "a": 3,
+  "e": "A sentence beginning with 'Let's' takes the tag 'shall we'.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-103",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Active and passive voice",
+  "lvl": "recruit",
+  "psc": "plus2",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "q": "Choose the correct passive form of: Who wrote this letter?",
+  "o": [
+   "By whom was this letter written?",
+   "By whom this letter was written?",
+   "By whom was this letter wrote?",
+   "By whom has this letter been write?"
+  ],
+  "a": 0,
+  "e": "The passive of a 'Who' question begins with 'By whom' and keeps question order with the past participle: 'By whom was this letter written?'",
+  "lang": "en"
+ },
+ {
+  "k": "eng-104",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Degrees of comparison",
+  "lvl": "recruit",
+  "psc": "sslc",
+  "exam": "Kerala PSC",
+  "d": "easy",
+  "q": "Fill in the blank: Mumbai is one of the ___ cities in India.",
+  "o": [
+   "larger",
+   "more larger",
+   "largest",
+   "most large"
+  ],
+  "a": 2,
+  "e": "The phrase 'one of the' is followed by a superlative and a plural noun, so 'largest' is correct.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-105",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Phrasal verbs",
+  "lvl": "recruit",
+  "psc": "sslc",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "q": "Fill in the blank: The meeting was ___ because the chairman was ill.",
+  "o": [
+   "called off",
+   "called on",
+   "called for",
+   "called up"
+  ],
+  "a": 0,
+  "e": "The phrasal verb 'called off' means cancelled.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-113",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Spelling",
+  "lvl": "recruit",
+  "psc": "plus2",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "q": "Which one of the following words is wrongly spelt?",
+  "o": [
+   "Necessary",
+   "Embarrass",
+   "Occurrence",
+   "Accomodate"
+  ],
+  "a": 3,
+  "e": "'Accomodate' is wrongly spelt; the correct form has double c and double m (accommodate).",
+  "lang": "en"
+ },
+ {
+  "k": "eng-107",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Plural forms",
+  "lvl": "recruit",
+  "psc": "plus2",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "q": "Choose the correct plural of 'mother-in-law'.",
+  "o": [
+   "mother-in-laws",
+   "mothers-in-law",
+   "mothers-in-laws",
+   "mother-ins-law"
+  ],
+  "a": 1,
+  "e": "In compound nouns the main word takes the plural, so the plural is 'mothers-in-law'.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-108",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Gerund and infinitive",
+  "lvl": "recruit",
+  "psc": "plus2",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "q": "Fill in the blank: I am looking forward to ___ you next week.",
+  "o": [
+   "meet",
+   "have met",
+   "meeting",
+   "met"
+  ],
+  "a": 2,
+  "e": "In 'look forward to', 'to' is a preposition, so it is followed by the gerund 'meeting'.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-109",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Conjunctions",
+  "lvl": "recruit",
+  "psc": "sslc",
+  "exam": "Kerala PSC",
+  "d": "easy",
+  "q": "Fill in the blank: ___ he was ill, he attended the class.",
+  "o": [
+   "Although",
+   "Because",
+   "Unless",
+   "So"
+  ],
+  "a": 0,
+  "e": "A contrast between two ideas is shown by the conjunction 'Although'.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-110",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Homophones",
+  "lvl": "recruit",
+  "psc": "sslc",
+  "exam": "Kerala PSC",
+  "d": "easy",
+  "q": "Choose the correct word: He was unable to ___ the pain any longer.",
+  "o": [
+   "bare",
+   "bair",
+   "beer",
+   "bear"
+  ],
+  "a": 3,
+  "e": "The verb 'bear' means to tolerate or endure.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-111",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Foreign phrases",
+  "lvl": "recruit",
+  "psc": "degree",
+  "exam": "Kerala PSC",
+  "d": "hard",
+  "q": "The Latin phrase 'sine qua non' means:",
+  "o": [
+   "a minor detail",
+   "an essential condition",
+   "a final decision",
+   "a formal apology"
+  ],
+  "a": 1,
+  "e": "'Sine qua non' (literally 'without which not') means an essential condition.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-112",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Correlative usage",
+  "lvl": "recruit",
+  "psc": "degree",
+  "exam": "Kerala PSC",
+  "d": "advanced",
+  "q": "Fill in the blank: Scarcely had I reached home ___ the phone rang.",
+  "o": [
+   "than",
+   "then",
+   "when",
+   "that"
+  ],
+  "a": 2,
+  "e": "'Scarcely' is followed by 'when' in this construction (Scarcely had ... when ...).",
+  "lang": "en"
+ }
+]

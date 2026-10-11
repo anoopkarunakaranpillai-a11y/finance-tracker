@@ -1,0 +1,347 @@
+[
+ {
+  "k": "deg-101",
+  "cat": "deg",
+  "s": "acc",
+  "t": "Journal entries",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "easy",
+  "q": "Goods worth ₹10,000 are purchased on credit from Ram. In the journal entry, which account is credited?",
+  "o": [
+   "Purchases A/c",
+   "Cash A/c",
+   "Ram's A/c",
+   "Sales A/c"
+  ],
+  "a": 2,
+  "e": "The supplier is the giver of the benefit, so Ram's A/c is credited while the goods account is debited.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-102",
+  "cat": "deg",
+  "s": "acc",
+  "t": "Cost accounting",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "medium",
+  "q": "Direct material ₹40,000, direct labour ₹25,000, direct expenses ₹5,000 and factory overheads ₹10,000. What is the prime cost?",
+  "o": [
+   "₹70,000",
+   "₹80,000",
+   "₹65,000",
+   "₹45,000"
+  ],
+  "a": 0,
+  "e": "Prime cost = direct material + direct labour + direct expenses = ₹70,000; factory overheads are excluded.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-103",
+  "cat": "deg",
+  "s": "dcs",
+  "t": "Graph traversal",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "medium",
+  "q": "Which data structure is normally used to implement breadth-first search (BFS) of a graph?",
+  "o": [
+   "Stack",
+   "Binary heap",
+   "Hash table",
+   "Queue"
+  ],
+  "a": 3,
+  "e": "BFS visits vertices level by level, so it uses a Queue (first in, first out).",
+  "lang": "en"
+ },
+ {
+  "k": "deg-119",
+  "cat": "deg",
+  "s": "dcs",
+  "t": "Binary search trees",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "hard",
+  "q": "An inorder traversal of a binary search tree visits the keys in:",
+  "o": [
+   "Descending order",
+   "Ascending (sorted) order",
+   "Level-by-level order",
+   "Random order"
+  ],
+  "a": 1,
+  "e": "In a BST, left subtree < root < right subtree, so inorder (left, root, right) gives Ascending (sorted) order.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-105",
+  "cat": "deg",
+  "s": "dmath",
+  "t": "Determinants",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "medium",
+  "q": "What is the determinant of the 3 × 3 matrix [[1, 2, 3], [0, 4, 5], [0, 0, 6]]?",
+  "o": [
+   "12",
+   "24",
+   "30",
+   "0"
+  ],
+  "a": 1,
+  "e": "For an upper triangular matrix the determinant is the product of the diagonal entries: 1 × 4 × 6 = 24.",
+  "lang": "en",
+  "calc": "1*4*6"
+ },
+ {
+  "k": "deg-106",
+  "cat": "deg",
+  "s": "dmath",
+  "t": "Probability",
+  "lvl": "entrance",
+  "exam": "University entrance",
+  "d": "advanced",
+  "q": "One card is drawn at random from a well-shuffled pack of 52 cards. What is the probability that it is a king or a heart?",
+  "o": [
+   "1/4",
+   "17/52",
+   "1/13",
+   "4/13"
+  ],
+  "a": 3,
+  "e": "P(king or heart) = (4 + 13 − 1)/52 = 16/52 = 4/13, since the king of hearts is counted only once.",
+  "lang": "en",
+  "calc": "(4+13-1)/52"
+ },
+ {
+  "k": "deg-107",
+  "cat": "deg",
+  "s": "dmath",
+  "t": "Limits",
+  "lvl": "entrance",
+  "exam": "University entrance",
+  "d": "easy",
+  "q": "Evaluate the limit of (x² − 9)/(x − 3) as x approaches 3.",
+  "o": [
+   "6",
+   "0",
+   "1",
+   "Does not exist"
+  ],
+  "a": 0,
+  "e": "Factorising, the expression equals x + 3 for x ≠ 3, so the limit is 6.",
+  "lang": "en",
+  "calc": "3+3"
+ },
+ {
+  "k": "deg-108",
+  "cat": "deg",
+  "s": "dphy",
+  "t": "Simple pendulum",
+  "lvl": "entrance",
+  "exam": "University entrance",
+  "d": "medium",
+  "q": "If the length of a simple pendulum is made four times its original value (g unchanged), its time period becomes:",
+  "o": [
+   "Half",
+   "Unchanged",
+   "Twice",
+   "Four times"
+  ],
+  "a": 2,
+  "e": "T = 2π√(L/g), so T is proportional to √L; quadrupling L makes the period Twice the original.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-120",
+  "cat": "deg",
+  "s": "dphy",
+  "t": "Matter waves",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "hard",
+  "q": "According to de Broglie, the wavelength associated with a moving particle equals:",
+  "o": [
+   "Planck's constant divided by its momentum",
+   "Its momentum divided by Planck's constant",
+   "Planck's constant multiplied by its momentum",
+   "Planck's constant divided by its kinetic energy"
+  ],
+  "a": 0,
+  "e": "De Broglie's relation λ = h/p says the wavelength is Planck's constant divided by its momentum.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-110",
+  "cat": "deg",
+  "s": "dchem",
+  "t": "Functional groups",
+  "lvl": "entrance",
+  "exam": "University entrance",
+  "d": "easy",
+  "q": "The functional group –CHO is characteristic of which class of organic compounds?",
+  "o": [
+   "Ketones",
+   "Aldehydes",
+   "Carboxylic acids",
+   "Esters"
+  ],
+  "a": 1,
+  "e": "The formyl group –CHO is the functional group of Aldehydes, for example ethanal (CH3CHO).",
+  "lang": "en"
+ },
+ {
+  "k": "deg-111",
+  "cat": "deg",
+  "s": "dchem",
+  "t": "Chemical kinetics",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "advanced",
+  "q": "What is the unit of the rate constant (k) for a first-order reaction?",
+  "o": [
+   "mol L⁻¹ s⁻¹",
+   "L mol⁻¹ s⁻¹",
+   "s⁻¹",
+   "L² mol⁻² s⁻¹"
+  ],
+  "a": 2,
+  "e": "For a first-order reaction, rate = k[A], so k has the unit of time⁻¹, i.e. s⁻¹.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-112",
+  "cat": "deg",
+  "s": "dbio",
+  "t": "Mendelian genetics",
+  "lvl": "entrance",
+  "exam": "University entrance",
+  "d": "medium",
+  "q": "In Mendel's dihybrid cross (round yellow × wrinkled green), what is the phenotypic ratio in the F2 generation?",
+  "o": [
+   "9:7",
+   "1:2:1",
+   "1:1:1:1",
+   "9:3:3:1"
+  ],
+  "a": 3,
+  "e": "Independent assortment of two gene pairs gives an F2 phenotypic ratio of 9:3:3:1.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-113",
+  "cat": "deg",
+  "s": "dbio",
+  "t": "Ecology",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "hard",
+  "q": "The ten per cent law of energy transfer between trophic levels was proposed by:",
+  "o": [
+   "Raymond Lindeman",
+   "Charles Elton",
+   "Arthur Tansley",
+   "Eugene Odum"
+  ],
+  "a": 0,
+  "e": "Raymond Lindeman (1942) stated that only about 10% of energy passes from one trophic level to the next.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-114",
+  "cat": "deg",
+  "s": "decon",
+  "t": "Elasticity",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "medium",
+  "q": "If the cross elasticity of demand between two goods is positive, the goods are:",
+  "o": [
+   "Complements",
+   "Inferior goods",
+   "Substitutes",
+   "Giffen goods"
+  ],
+  "a": 2,
+  "e": "A positive cross elasticity means a rise in the price of one good raises demand for the other, so they are Substitutes (e.g. tea and coffee).",
+  "lang": "en"
+ },
+ {
+  "k": "deg-115",
+  "cat": "deg",
+  "s": "decon",
+  "t": "Central banking",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "easy",
+  "q": "When a central bank provides funds to commercial banks facing a liquidity crisis, it is acting as the:",
+  "o": [
+   "Custodian of foreign exchange",
+   "Lender of last resort",
+   "Bank of issue",
+   "Controller of credit"
+  ],
+  "a": 1,
+  "e": "Giving emergency funds to banks in distress is the central bank's role as Lender of last resort.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-116",
+  "cat": "deg",
+  "s": "mgmt",
+  "t": "Controlling",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "easy",
+  "q": "Which function of management compares actual performance with set standards and takes corrective action?",
+  "o": [
+   "Planning",
+   "Organising",
+   "Staffing",
+   "Controlling"
+  ],
+  "a": 3,
+  "e": "Controlling measures actual performance against standards, finds deviations and corrects them.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-117",
+  "cat": "deg",
+  "s": "mgmt",
+  "t": "Types of plans",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "medium",
+  "q": "A plan that states the expected results for a given future period in numerical terms is called a:",
+  "o": [
+   "Budget",
+   "Policy",
+   "Procedure",
+   "Rule"
+  ],
+  "a": 0,
+  "e": "A Budget is a single-use plan expressing expected results in numbers, such as money or units.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-118",
+  "cat": "deg",
+  "s": "hum",
+  "t": "Psychology",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "hard",
+  "q": "In Freudian theory, which defence mechanism involves attributing one's own unacceptable thoughts or feelings to other people?",
+  "o": [
+   "Repression",
+   "Sublimation",
+   "Projection",
+   "Regression"
+  ],
+  "a": 2,
+  "e": "Projection is the defence mechanism in which a person sees their own unacceptable impulses in others.",
+  "lang": "en"
+ }
+]

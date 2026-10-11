@@ -1,0 +1,236 @@
+[
+ {
+  "k": "compx-101",
+  "cat": "compx",
+  "s": "quant",
+  "t": "Percentage",
+  "lvl": "recruit",
+  "exam": "SSC",
+  "d": "medium",
+  "q": "If A's salary is 25% more than B's salary, by what percentage is B's salary less than A's?",
+  "o": [
+   "25%",
+   "20%",
+   "15%",
+   "30%"
+  ],
+  "a": 1,
+  "e": "If B = 100, A = 125; B is 25 less out of 125, i.e. 25/125 × 100 = 20%.",
+  "lang": "en",
+  "calc": "25/125*100"
+ },
+ {
+  "k": "compx-102",
+  "cat": "compx",
+  "s": "quant",
+  "t": "Partnership",
+  "lvl": "recruit",
+  "exam": "Banking",
+  "d": "medium",
+  "q": "A invests ₹4,000 for 12 months and B invests ₹6,000 for 8 months in a business. Out of a total profit of ₹1,200, what is A's share?",
+  "o": [
+   "₹600",
+   "₹480",
+   "₹720",
+   "₹800"
+  ],
+  "a": 0,
+  "e": "Capital-months: A 48,000 and B 48,000, so the ratio is 1:1 and A gets ₹600.",
+  "lang": "en",
+  "calc": "1200*48000/(48000+48000)"
+ },
+ {
+  "k": "compx-103",
+  "cat": "compx",
+  "s": "math",
+  "t": "Pipes and cisterns",
+  "lvl": "recruit",
+  "exam": "Railway",
+  "d": "hard",
+  "q": "Pipe A can fill a tank in 12 hours and pipe B can empty the full tank in 18 hours. If both are opened together on an empty tank, how long will it take to fill it?",
+  "o": [
+   "30 hours",
+   "24 hours",
+   "7.2 hours",
+   "36 hours"
+  ],
+  "a": 3,
+  "e": "Net filling per hour = 1/12 − 1/18 = 1/36, so the tank fills in 36 hours.",
+  "lang": "en",
+  "calc": "1/(1/12-1/18)"
+ },
+ {
+  "k": "compx-104",
+  "cat": "compx",
+  "s": "math",
+  "t": "Averages",
+  "lvl": "recruit",
+  "exam": "Police",
+  "d": "easy",
+  "q": "The average of five numbers is 20. When one number is removed, the average of the remaining four becomes 18. What is the removed number?",
+  "o": [
+   "24",
+   "30",
+   "28",
+   "32"
+  ],
+  "a": 2,
+  "e": "Total of five = 100 and total of four = 72, so the removed number is 100 − 72 = 28.",
+  "lang": "en",
+  "calc": "5*20-4*18"
+ },
+ {
+  "k": "compx-105",
+  "cat": "compx",
+  "s": "reas",
+  "t": "Direction sense",
+  "lvl": "recruit",
+  "exam": "SSC",
+  "d": "easy",
+  "q": "A man walks 3 km north and then 4 km east. How far is he from his starting point?",
+  "o": [
+   "5 km",
+   "7 km",
+   "1 km",
+   "12 km"
+  ],
+  "a": 0,
+  "e": "The path forms a right triangle, so the distance is √(3² + 4²) = 5 km.",
+  "lang": "en",
+  "calc": "sqrt(3^2+4^2)"
+ },
+ {
+  "k": "compx-106",
+  "cat": "compx",
+  "s": "ment",
+  "t": "Ranking",
+  "lvl": "recruit",
+  "exam": "Banking",
+  "d": "easy",
+  "q": "In a row of 40 students, Ravi is 12th from the left end. What is his position from the right end?",
+  "o": [
+   "28th",
+   "30th",
+   "27th",
+   "29th"
+  ],
+  "a": 3,
+  "e": "Position from right = 40 − 12 + 1 = 29, so Ravi is 29th.",
+  "lang": "en",
+  "calc": "40-12+1"
+ },
+ {
+  "k": "compx-107",
+  "cat": "compx",
+  "s": "veng",
+  "t": "Antonyms",
+  "lvl": "recruit",
+  "exam": "Teaching",
+  "d": "medium",
+  "q": "Choose the antonym of 'Benevolent'.",
+  "o": [
+   "Charitable",
+   "Humane",
+   "Malevolent",
+   "Gracious"
+  ],
+  "a": 2,
+  "e": "Benevolent means kind and well-meaning; its opposite is Malevolent, meaning wishing harm to others.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-108",
+  "cat": "compx",
+  "s": "eng",
+  "t": "Idioms",
+  "lvl": "recruit",
+  "exam": "Railway",
+  "d": "medium",
+  "q": "What does the idiom 'to bell the cat' mean?",
+  "o": [
+   "To make a loud noise",
+   "To undertake a risky task for the sake of others",
+   "To catch someone red-handed",
+   "To waste time on trifles"
+  ],
+  "a": 1,
+  "e": "The idiom, from the fable of the mice, means: To undertake a risky task for the sake of others.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-109",
+  "cat": "compx",
+  "s": "gk",
+  "t": "Indian geography",
+  "lvl": "recruit",
+  "exam": "UPSC",
+  "d": "hard",
+  "q": "The Tropic of Cancer passes through how many states of India?",
+  "o": [
+   "6",
+   "7",
+   "9",
+   "8"
+  ],
+  "a": 3,
+  "e": "It passes through 8 states: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-110",
+  "cat": "compx",
+  "s": "comp",
+  "t": "Operating systems",
+  "lvl": "recruit",
+  "exam": "Banking",
+  "d": "easy",
+  "q": "Which of the following is an open-source operating system?",
+  "o": [
+   "Linux",
+   "Microsoft Windows",
+   "Apple macOS",
+   "Apple iOS"
+  ],
+  "a": 0,
+  "e": "Linux is open source; its kernel's source code is freely available under the GNU GPL.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-111",
+  "cat": "compx",
+  "s": "con",
+  "t": "Schedules of the Constitution",
+  "lvl": "recruit",
+  "exam": "Police",
+  "d": "medium",
+  "q": "Which Schedule of the Indian Constitution lists the languages recognised by the Constitution?",
+  "o": [
+   "Seventh Schedule",
+   "Eighth Schedule",
+   "Ninth Schedule",
+   "Tenth Schedule"
+  ],
+  "a": 1,
+  "e": "The Eighth Schedule lists the recognised languages, currently 22.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-112",
+  "cat": "compx",
+  "s": "econ",
+  "t": "Public finance",
+  "lvl": "recruit",
+  "exam": "UPSC",
+  "d": "advanced",
+  "q": "The Laffer curve shows the relationship between:",
+  "o": [
+   "Inflation and unemployment",
+   "Money supply and interest rates",
+   "Tax rates and tax revenue",
+   "Income and consumption"
+  ],
+  "a": 2,
+  "e": "The Laffer curve links Tax rates and tax revenue, suggesting revenue falls beyond a certain tax rate.",
+  "lang": "en"
+ }
+]

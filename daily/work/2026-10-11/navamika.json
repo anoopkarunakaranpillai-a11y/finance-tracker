@@ -1,0 +1,53 @@
+[
+{"id":"fruit-colours","type":"fruits","title":"Fruit Colours","desc":"What colour is the fruit?","difficulty":"easy","instructions":"Look at the fruit and tap its colour.",
+ "questions":[
+  {"q":"What colour is the banana?","show":"🍌","options":[{"c":"#E53935","t":"Red"},{"c":"#FDD835","t":"Yellow"},{"c":"#1E88E5","t":"Blue"}],"answer":1,"good":"Yes! Bananas are yellow!"},
+  {"q":"What colour is the strawberry?","show":"🍓","options":[{"c":"#E53935","t":"Red"},{"c":"#8E24AA","t":"Purple"},{"c":"#FDD835","t":"Yellow"}],"answer":0,"good":"Yummy red strawberry!"},
+  {"q":"What colour is the orange?","show":"🍊","options":[{"c":"#43A047","t":"Green"},{"c":"#1E88E5","t":"Blue"},{"c":"#FB8C00","t":"Orange"}],"answer":2,"good":"An orange is orange!"},
+  {"q":"What colour are the grapes?","show":"🍇","options":[{"c":"#FB8C00","t":"Orange"},{"c":"#8E24AA","t":"Purple"},{"c":"#E53935","t":"Red"}],"answer":1,"good":"Purple grapes, well done!"},
+  {"q":"What colour is the kiwi inside?","show":"🥝","options":[{"c":"#1E88E5","t":"Blue"},{"c":"#E53935","t":"Red"},{"c":"#43A047","t":"Green"}],"answer":2,"good":"Green kiwi, great job!"},
+  {"q":"What colour is the watermelon inside?","show":"🍉","options":[{"c":"#E53935","t":"Red"},{"c":"#FDD835","t":"Yellow"},{"c":"#1E88E5","t":"Blue"}],"answer":0,"good":"Red and juicy!"}
+ ]},
+{"id":"count-the-bugs","type":"counting","title":"Count the Bugs","desc":"How many little friends?","difficulty":"easy","instructions":"Count the bugs and tap the number.",
+ "questions":[
+  {"q":"How many ladybirds?","show":"🐞🐞","options":[{"t":"1"},{"t":"2"},{"t":"3"}],"answer":1,"good":"Two ladybirds!"},
+  {"q":"How many butterflies?","show":"🦋🦋🦋🦋","options":[{"t":"3"},{"t":"5"},{"t":"4"}],"answer":2,"good":"Four butterflies flying!"},
+  {"q":"How many bees?","show":"🐝🐝🐝","options":[{"t":"3"},{"t":"2"},{"t":"6"}],"answer":0,"good":"Buzz buzz, three bees!"},
+  {"q":"How many snails?","show":"🐌","options":[{"t":"2"},{"t":"1"},{"t":"4"}],"answer":1,"good":"Just one slow snail!"},
+  {"q":"How many ants?","show":"🐜🐜🐜🐜🐜","options":[{"t":"4"},{"t":"6"},{"t":"5"}],"answer":2,"good":"Five busy ants!"},
+  {"q":"How many caterpillars?","show":"🐛🐛🐛🐛🐛🐛","options":[{"t":"6"},{"t":"5"},{"t":"7"}],"answer":0,"good":"Six wiggly caterpillars!"}
+ ]},
+{"id":"shapes-at-home","type":"shapes","title":"Shapes at Home","desc":"Find the shape of things","difficulty":"medium","instructions":"Look at the thing and tap the shape that matches.",
+ "questions":[
+  {"q":"What shape is the clock?","show":"🕒","options":[{"s":"square","t":"Square"},{"s":"circle","t":"Circle"},{"s":"triangle","t":"Triangle"}],"answer":1,"good":"A clock is round like a circle!"},
+  {"q":"What shape is a slice of pizza?","show":"🍕","options":[{"s":"triangle","t":"Triangle"},{"s":"heart","t":"Heart"},{"s":"rectangle","t":"Rectangle"}],"answer":0,"good":"Pizza slices are triangles!"},
+  {"q":"Which shape is a door?","show":"🚪","options":[{"s":"circle","t":"Circle"},{"s":"star","t":"Star"},{"s":"rectangle","t":"Rectangle"}],"answer":2,"good":"A door is a rectangle!"},
+  {"q":"Which shape twinkles in the night sky?","show":"🌙","options":[{"s":"square","t":"Square"},{"s":"star","t":"Star"},{"s":"oval","t":"Oval"}],"answer":1,"good":"Twinkle twinkle little star!"},
+  {"q":"What shape is an egg?","show":"🥚","options":[{"s":"triangle","t":"Triangle"},{"s":"square","t":"Square"},{"s":"oval","t":"Oval"}],"answer":2,"good":"An egg is an oval!"}
+ ]},
+{"id":"weather-words","type":"vocabulary","title":"Weather Words","desc":"Sun, rain and snow","difficulty":"easy","instructions":"Listen and tap the right picture.",
+ "questions":[
+  {"q":"Which one is the sun?","options":[{"e":"☁️","t":"Cloud"},{"e":"☀️","t":"Sun"},{"e":"❄️","t":"Snow"}],"answer":1,"good":"The sun is bright and warm!"},
+  {"q":"What do we use when it rains?","show":"🌧️","options":[{"e":"☂️","t":"Umbrella"},{"e":"🕶️","t":"Sunglasses"},{"e":"🧢","t":"Cap"}],"answer":0,"good":"An umbrella keeps us dry!"},
+  {"q":"What can we make with snow?","show":"❄️","options":[{"e":"🏖️","t":"Beach"},{"e":"🌻","t":"Sunflower"},{"e":"⛄","t":"Snowman"}],"answer":2,"good":"A happy snowman!"},
+  {"q":"What comes in the sky after rain and sun?","show":"🌦️","options":[{"e":"🌈","t":"Rainbow"},{"e":"🌙","t":"Moon"},{"e":"⭐","t":"Star"}],"answer":0,"good":"A colourful rainbow!"},
+  {"q":"What do we see in the sky at night?","options":[{"e":"☀️","t":"Sun"},{"e":"🌈","t":"Rainbow"},{"e":"🌙","t":"Moon"}],"answer":2,"good":"Good night, moon!"}
+ ]},
+{"id":"pattern-party","type":"puzzles","title":"Pattern Party","desc":"What comes next?","difficulty":"medium","instructions":"Look at the pattern and tap what comes next.",
+ "questions":[
+  {"q":"What comes next?","show":"🍎🍌🍎🍌🍎","options":[{"e":"🍇","t":"Grapes"},{"e":"🍌","t":"Banana"},{"e":"🍎","t":"Apple"}],"answer":1,"good":"Apple, banana, apple, banana!"},
+  {"q":"What comes next?","show":"🐶🐱🐶🐱","options":[{"e":"🐶","t":"Dog"},{"e":"🐭","t":"Mouse"},{"e":"🐱","t":"Cat"}],"answer":0,"good":"Woof! The dog is next!"},
+  {"q":"What comes next?","show":"⭐⭐🌙⭐⭐","options":[{"e":"☀️","t":"Sun"},{"e":"⭐","t":"Star"},{"e":"🌙","t":"Moon"}],"answer":2,"good":"Star, star, moon!"},
+  {"q":"What number comes next?","show":"1, 2, 3, ?","options":[{"t":"5"},{"t":"4"},{"t":"1"}],"answer":1,"good":"1, 2, 3, 4!"},
+  {"q":"What comes next?","show":"🔴🔵🔴🔵🔴","options":[{"e":"🔵","t":"Blue"},{"e":"🟢","t":"Green"},{"e":"🔴","t":"Red"}],"answer":0,"good":"Red, blue, red, blue!"}
+ ]},
+{"id":"what-to-wear","type":"logic","title":"What Shall I Wear?","desc":"Pick the right thing to wear","difficulty":"medium","instructions":"Listen and tap the best answer.",
+ "questions":[
+  {"q":"What do we wear on our feet?","options":[{"e":"🧤","t":"Gloves"},{"e":"👟","t":"Shoes"},{"e":"🎩","t":"Hat"}],"answer":1,"good":"Shoes go on our feet!"},
+  {"q":"What do we wear on our hands when it is cold?","show":"🥶","options":[{"e":"🧦","t":"Socks"},{"e":"👓","t":"Glasses"},{"e":"🧤","t":"Gloves"}],"answer":2,"good":"Warm gloves for cold hands!"},
+  {"q":"What do we wear to go swimming?","show":"🏊","options":[{"e":"👙","t":"Swimsuit"},{"e":"🧥","t":"Coat"},{"e":"🧣","t":"Scarf"}],"answer":0,"good":"Splash! Time to swim!"},
+  {"q":"What do we wear to sleep?","show":"🛏️","options":[{"e":"🥾","t":"Boots"},{"e":"🧣","t":"Scarf"},{"e":"👕","t":"Pyjama top"}],"answer":2,"good":"Cosy clothes for bedtime!"},
+  {"q":"What keeps the sun out of our eyes?","show":"☀️","options":[{"e":"🕶️","t":"Sunglasses"},{"e":"🧦","t":"Socks"},{"e":"🧤","t":"Gloves"}],"answer":0,"good":"Cool sunglasses!"}
+ ]},
+{"id":"trace-o-to-r","type":"tracing","title":"Trace O to R","desc":"Draw the letters O, P, Q, R","difficulty":"easy","instructions":"Follow the dots with your finger.","chars":["O","P","Q","R"]}
+]
