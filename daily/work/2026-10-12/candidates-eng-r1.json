@@ -1,0 +1,242 @@
+[
+ {
+  "k": "eng-201",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Prepositions",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "easy",
+  "psc": "sslc",
+  "q": "Fill in the blank: She is fond ___ classical music.",
+  "o": [
+   "for",
+   "with",
+   "of",
+   "about"
+  ],
+  "a": 2,
+  "e": "The correct phrase is 'fond of': She is fond of classical music.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-202",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Tenses",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "easy",
+  "psc": "sslc",
+  "q": "Fill in the blank: When I entered the room, they ___ television.",
+  "o": [
+   "watch",
+   "are watching",
+   "have watched",
+   "were watching"
+  ],
+  "a": 3,
+  "e": "An action in progress when another past action happened takes the past continuous: they were watching television.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-203",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Voice",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "psc": "plus2",
+  "q": "Choose the passive form of: 'The teacher is teaching the students.'",
+  "o": [
+   "The students were being taught by the teacher.",
+   "The students are being taught by the teacher.",
+   "The students are taught by the teacher.",
+   "The students have been taught by the teacher."
+  ],
+  "a": 1,
+  "e": "Present continuous passive uses is/are being + past participle: The students are being taught by the teacher.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-204",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Reported speech",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "psc": "plus2",
+  "q": "Choose the correct indirect form: She said to me, \"Where do you live?\"",
+  "o": [
+   "She said me where I lived.",
+   "She asked me where do I live.",
+   "She asked me where did I live.",
+   "She asked me where I lived."
+  ],
+  "a": 3,
+  "e": "Indirect questions use statement word order and the tense shifts back: She asked me where I lived.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-205",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Question tags",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "hard",
+  "psc": "degree",
+  "q": "Add the correct question tag: Nobody called me yesterday, ___?",
+  "o": [
+   "did he",
+   "did they",
+   "didn't they",
+   "didn't he"
+  ],
+  "a": 1,
+  "e": "'Nobody' is negative in meaning and is referred to by 'they', so the tag is positive: did they.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-206",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Synonyms",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "easy",
+  "psc": "sslc",
+  "q": "Choose the word closest in meaning to 'Candid'.",
+  "o": [
+   "Timid",
+   "Frank",
+   "Secretive",
+   "Cunning"
+  ],
+  "a": 1,
+  "e": "'Candid' means open and honest; its synonym is 'Frank'.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-207",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Antonyms",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "psc": "plus2",
+  "q": "Choose the word opposite in meaning to 'Lethargic'.",
+  "o": [
+   "Energetic",
+   "Sluggish",
+   "Indifferent",
+   "Drowsy"
+  ],
+  "a": 0,
+  "e": "'Lethargic' means dull and lacking vigour; its antonym is 'Energetic'.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-208",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Idioms",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "easy",
+  "psc": "sslc",
+  "q": "The idiom 'to let the cat out of the bag' means:",
+  "o": [
+   "to create confusion",
+   "to waste an opportunity",
+   "to reveal a secret",
+   "to set an animal free"
+  ],
+  "a": 2,
+  "e": "'To let the cat out of the bag' means to reveal a secret, usually by mistake.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-209",
+  "cat": "eng",
+  "s": "veng",
+  "t": "One-word substitution",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "psc": "sslc",
+  "q": "One word for 'a person who walks in his or her sleep':",
+  "o": [
+   "Insomniac",
+   "Somnambulist",
+   "Hypnotist",
+   "Sycophant"
+  ],
+  "a": 1,
+  "e": "A person who walks in sleep is called a Somnambulist.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-210",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Spelling",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "psc": "degree",
+  "q": "Fill in the blank with the correctly spelt word: The new hotel can ___ two hundred guests.",
+  "o": [
+   "accommodate",
+   "acommodate",
+   "acommodatte",
+   "accomodate"
+  ],
+  "a": 0,
+  "e": "The correct spelling has a double 'c' and a double 'm': accommodate.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-211",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Conditionals",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "hard",
+  "psc": "plus2",
+  "q": "Fill in the blank: If he had studied harder, he ___ the exam.",
+  "o": [
+   "had passed",
+   "would have passed",
+   "will pass",
+   "would pass"
+  ],
+  "a": 1,
+  "e": "Third conditional: if + past perfect in the if-clause, and 'would have passed' (would have + past participle) in the main clause.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-212",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Idioms",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "advanced",
+  "psc": "degree",
+  "q": "What is meant by a 'Pyrrhic victory'?",
+  "o": [
+   "a victory celebrated with bonfires",
+   "a victory achieved by deceit",
+   "a victory won at too great a cost",
+   "a quick and easy victory"
+  ],
+  "a": 2,
+  "e": "Named after King Pyrrhus of Epirus, a Pyrrhic victory is a victory won at too great a cost to the victor.",
+  "lang": "en"
+ }
+]

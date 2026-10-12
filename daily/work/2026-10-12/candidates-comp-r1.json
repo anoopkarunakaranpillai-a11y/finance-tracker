@@ -1,0 +1,245 @@
+[
+ {
+  "k": "comp-201",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Keyboard shortcuts",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "easy",
+  "psc": "sslc",
+  "q": "കമ്പ്യൂട്ടറിൽ 'Ctrl + S' എന്ന കീബോർഡ് ഷോർട്ട്കട്ട് എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
+  "o": [
+   "പുതിയ ഫയൽ തുറക്കാൻ",
+   "ഫയൽ സേവ് ചെയ്യാൻ",
+   "ഫയൽ പ്രിന്റ് ചെയ്യാൻ",
+   "ടെക്സ്റ്റ് തിരയാൻ"
+  ],
+  "a": 1,
+  "e": "Ctrl + S ഉപയോഗിക്കുന്നത് ഫയൽ സേവ് ചെയ്യാൻ ആണ്.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-202",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Number systems",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "hard",
+  "psc": "degree",
+  "q": "ഹെക്സാഡെസിമൽ സംഖ്യ 2F-ന്റെ ദശാംശ (Decimal) രൂപം ഏത്?",
+  "o": [
+   "32",
+   "215",
+   "47",
+   "45"
+  ],
+  "a": 2,
+  "e": "2F = 2 × 16 + 15 (F) = 47.",
+  "lang": "ml",
+  "calc": "2*16+15"
+ },
+ {
+  "k": "comp-203",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Number systems",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "psc": "plus2",
+  "q": "ബൈനറി സംഖ്യ 11111111-ന്റെ ദശാംശ (Decimal) മൂല്യം എത്ര?",
+  "o": [
+   "127",
+   "255",
+   "511",
+   "256"
+  ],
+  "a": 1,
+  "e": "എട്ട് ബിറ്റുകളും 1 ആയാൽ മൂല്യം 2⁸ − 1 = 255.",
+  "lang": "ml",
+  "calc": "2^8-1"
+ },
+ {
+  "k": "comp-204",
+  "cat": "comp",
+  "s": "comp",
+  "t": "File extensions",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "easy",
+  "psc": "sslc",
+  "q": "'.xlsx' എന്ന ഫയൽ എക്സ്റ്റൻഷൻ ഏത് സോഫ്റ്റ്‌വെയറുമായി ബന്ധപ്പെട്ടതാണ്?",
+  "o": [
+   "MS Access",
+   "MS PowerPoint",
+   "MS Word",
+   "MS Excel"
+  ],
+  "a": 3,
+  "e": "'.xlsx' എന്നത് MS Excel വർക്ക്ബുക്ക് ഫയലുകളുടെ എക്സ്റ്റൻഷൻ ആണ്.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-205",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Networking",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "easy",
+  "psc": "sslc",
+  "q": "ലോകമെമ്പാടും വ്യാപിച്ചുകിടക്കുന്ന ഇന്റർനെറ്റ് ഏത് തരം നെറ്റ്‌വർക്കിന് ഉദാഹരണമാണ്?",
+  "o": [
+   "WAN",
+   "MAN",
+   "PAN",
+   "LAN"
+  ],
+  "a": 0,
+  "e": "വിശാലമായ ഭൂപ്രദേശത്ത് വ്യാപിച്ചുകിടക്കുന്ന നെറ്റ്‌വർക്കാണ് WAN; ഇന്റർനെറ്റ് ഏറ്റവും വലിയ WAN ആണ്.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-206",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Networking",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "hard",
+  "psc": "degree",
+  "q": "OSI മോഡലിൽ IP (Internet Protocol) പ്രവർത്തിക്കുന്നത് ഏത് ലെയറിലാണ്?",
+  "o": [
+   "Transport layer",
+   "Data link layer",
+   "Network layer",
+   "Session layer"
+  ],
+  "a": 2,
+  "e": "പാക്കറ്റുകളുടെ അഡ്രസ്സിംഗും റൂട്ടിംഗും നടത്തുന്ന IP, OSI മോഡലിലെ Network layer-ൽ പ്രവർത്തിക്കുന്നു.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-207",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Cyber security",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "psc": "plus2",
+  "q": "ഉപയോക്താവിന്റെ ഫയലുകൾ എൻക്രിപ്റ്റ് ചെയ്ത് ലോക്ക് ചെയ്ത ശേഷം അവ തിരികെ നൽകാൻ പണം (മോചനദ്രവ്യം) ആവശ്യപ്പെടുന്ന മാൽവെയർ ഏത്?",
+  "o": [
+   "Trojan",
+   "Adware",
+   "Ransomware",
+   "Spyware"
+  ],
+  "a": 2,
+  "e": "ഫയലുകൾ എൻക്രിപ്റ്റ് ചെയ്ത് മോചനദ്രവ്യം (ransom) ആവശ്യപ്പെടുന്ന മാൽവെയറാണ് Ransomware.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-208",
+  "cat": "comp",
+  "s": "comp",
+  "t": "MS Office shortcuts",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "easy",
+  "psc": "sslc",
+  "q": "MS Word-ൽ തിരഞ്ഞെടുത്ത ടെക്സ്റ്റ് ബോൾഡ് (Bold) ആക്കാൻ ഉപയോഗിക്കുന്ന ഷോർട്ട്കട്ട് ഏത്?",
+  "o": [
+   "Ctrl + I",
+   "Ctrl + U",
+   "Ctrl + B",
+   "Ctrl + D"
+  ],
+  "a": 2,
+  "e": "MS Word-ൽ ടെക്സ്റ്റ് ബോൾഡ് ആക്കാനുള്ള ഷോർട്ട്കട്ട് Ctrl + B ആണ്.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-209",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Internet",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "psc": "plus2",
+  "q": "ബ്രൗസറിനും വെബ്സൈറ്റിനും ഇടയിലുള്ള ഡാറ്റ കൈമാറ്റം എൻക്രിപ്റ്റ് ചെയ്ത് സുരക്ഷിതമാക്കുന്ന പ്രോട്ടോക്കോൾ ഏത്?",
+  "o": [
+   "FTP",
+   "HTTPS",
+   "Telnet",
+   "SMTP"
+  ],
+  "a": 1,
+  "e": "HTTPS (HyperText Transfer Protocol Secure) TLS/SSL ഉപയോഗിച്ച് ഡാറ്റ എൻക്രിപ്റ്റ് ചെയ്യുന്നു.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-210",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Software",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "psc": "sslc",
+  "q": "താഴെ പറയുന്നവയിൽ ഓപ്പൺ സോഴ്സ് (Open Source) ഓഫീസ് സോഫ്റ്റ്‌വെയർ ഏത്?",
+  "o": [
+   "iWork",
+   "WPS Office",
+   "LibreOffice",
+   "MS Office"
+  ],
+  "a": 2,
+  "e": "സോഴ്സ് കോഡ് സൗജന്യമായി ലഭ്യമായ ഓപ്പൺ സോഴ്സ് ഓഫീസ് സ്യൂട്ടാണ് LibreOffice.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-211",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Spreadsheet",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "psc": "plus2",
+  "q": "MS Excel-ൽ A1 = 4, A2 = 8, A3 = 12, A4 = 16 ആണെങ്കിൽ =AVERAGE(A1:A4) എന്ന ഫോർമുലയുടെ ഫലം എത്ര?",
+  "o": [
+   "12",
+   "16",
+   "40",
+   "10"
+  ],
+  "a": 3,
+  "e": "(4 + 8 + 12 + 16) ÷ 4 = 40 ÷ 4 = 10.",
+  "lang": "ml",
+  "calc": "(4+8+12+16)/4"
+ },
+ {
+  "k": "comp-212",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Cyber security",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "advanced",
+  "psc": "degree",
+  "q": "Public key cryptography-ൽ ഒരു സന്ദേശത്തിന് ഡിജിറ്റൽ സിഗ്നേച്ചർ സൃഷ്ടിക്കാൻ അയയ്ക്കുന്നയാൾ ഉപയോഗിക്കുന്ന കീ ഏത്?",
+  "o": [
+   "സ്വീകരിക്കുന്നയാളുടെ പ്രൈവറ്റ് കീ",
+   "സ്വീകരിക്കുന്നയാളുടെ പബ്ലിക് കീ",
+   "അയയ്ക്കുന്നയാളുടെ പ്രൈവറ്റ് കീ",
+   "അയയ്ക്കുന്നയാളുടെ പബ്ലിക് കീ"
+  ],
+  "a": 2,
+  "e": "ഡിജിറ്റൽ സിഗ്നേച്ചർ സൃഷ്ടിക്കുന്നത് അയയ്ക്കുന്നയാളുടെ പ്രൈവറ്റ് കീ ഉപയോഗിച്ചാണ്; സ്വീകർത്താവ് അനുബന്ധ കീ ഉപയോഗിച്ച് അത് പരിശോധിക്കുന്നു.",
+  "lang": "ml"
+ }
+]

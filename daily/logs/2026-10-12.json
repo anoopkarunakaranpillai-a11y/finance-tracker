@@ -1,0 +1,607 @@
+{
+ "date": "2026-10-12",
+ "batch": "B-20261012-01",
+ "at": "2026-10-12T06:04:24.259Z",
+ "candidates": [
+  {
+   "k": "gkca-201",
+   "result": "published",
+   "id": "d20261012x001"
+  },
+  {
+   "k": "gkca-202",
+   "result": "published",
+   "id": "d20261012x002"
+  },
+  {
+   "k": "gkca-203",
+   "result": "published",
+   "id": "d20261012x003"
+  },
+  {
+   "k": "gkca-204",
+   "result": "published",
+   "id": "d20261012x004"
+  },
+  {
+   "k": "gkca-205",
+   "result": "published",
+   "id": "d20261012x005"
+  },
+  {
+   "k": "gkca-206",
+   "result": "published",
+   "id": "d20261012x006"
+  },
+  {
+   "k": "gkca-207",
+   "result": "published",
+   "id": "d20261012x007"
+  },
+  {
+   "k": "gkca-208",
+   "result": "published",
+   "id": "d20261012x008"
+  },
+  {
+   "k": "gkca-209",
+   "result": "published",
+   "id": "d20261012x009"
+  },
+  {
+   "k": "gkca-210",
+   "result": "published",
+   "id": "d20261012x010"
+  },
+  {
+   "k": "gkca-211",
+   "result": "published",
+   "id": "d20261012x011"
+  },
+  {
+   "k": "gkca-212",
+   "result": "published",
+   "id": "d20261012x012"
+  },
+  {
+   "k": "gkca-213",
+   "result": "published",
+   "id": "d20261012x013"
+  },
+  {
+   "k": "gkca-214",
+   "result": "published",
+   "id": "d20261012x014"
+  },
+  {
+   "k": "gkca-215",
+   "result": "published",
+   "id": "d20261012x015"
+  },
+  {
+   "k": "gkca-216",
+   "result": "published",
+   "id": "d20261012x016"
+  },
+  {
+   "k": "gkca-217",
+   "result": "published",
+   "id": "d20261012x017"
+  },
+  {
+   "k": "gkca-218",
+   "result": "published",
+   "id": "d20261012x018"
+  },
+  {
+   "k": "eng-201",
+   "result": "published",
+   "id": "d20261012x019"
+  },
+  {
+   "k": "eng-202",
+   "result": "published",
+   "id": "d20261012x020"
+  },
+  {
+   "k": "eng-203",
+   "result": "published",
+   "id": "d20261012x021"
+  },
+  {
+   "k": "eng-204",
+   "result": "published",
+   "id": "d20261012x022"
+  },
+  {
+   "k": "eng-205",
+   "result": "published",
+   "id": "d20261012x023"
+  },
+  {
+   "k": "eng-206",
+   "result": "published",
+   "id": "d20261012x024"
+  },
+  {
+   "k": "eng-207",
+   "result": "published",
+   "id": "d20261012x025"
+  },
+  {
+   "k": "eng-208",
+   "result": "published",
+   "id": "d20261012x026"
+  },
+  {
+   "k": "eng-209",
+   "result": "published",
+   "id": "d20261012x027"
+  },
+  {
+   "k": "eng-210",
+   "result": "published",
+   "id": "d20261012x028"
+  },
+  {
+   "k": "eng-211",
+   "result": "published",
+   "id": "d20261012x029"
+  },
+  {
+   "k": "eng-212",
+   "result": "published",
+   "id": "d20261012x030"
+  },
+  {
+   "k": "quant-201",
+   "result": "published",
+   "id": "d20261012x031"
+  },
+  {
+   "k": "quant-202",
+   "result": "published",
+   "id": "d20261012x032"
+  },
+  {
+   "k": "quant-203",
+   "result": "published",
+   "id": "d20261012x033"
+  },
+  {
+   "k": "quant-204",
+   "result": "published",
+   "id": "d20261012x034"
+  },
+  {
+   "k": "quant-205",
+   "result": "published",
+   "id": "d20261012x035"
+  },
+  {
+   "k": "quant-206",
+   "result": "published",
+   "id": "d20261012x036"
+  },
+  {
+   "k": "quant-207",
+   "result": "published",
+   "id": "d20261012x037"
+  },
+  {
+   "k": "quant-208",
+   "result": "published",
+   "id": "d20261012x038"
+  },
+  {
+   "k": "quant-209",
+   "result": "published",
+   "id": "d20261012x039"
+  },
+  {
+   "k": "quant-210",
+   "result": "published",
+   "id": "d20261012x040"
+  },
+  {
+   "k": "quant-211",
+   "result": "published",
+   "id": "d20261012x041"
+  },
+  {
+   "k": "quant-212",
+   "result": "published",
+   "id": "d20261012x042"
+  },
+  {
+   "k": "quant-213",
+   "result": "published",
+   "id": "d20261012x043"
+  },
+  {
+   "k": "quant-214",
+   "result": "published",
+   "id": "d20261012x044"
+  },
+  {
+   "k": "quant-215",
+   "result": "published",
+   "id": "d20261012x045"
+  },
+  {
+   "k": "quant-216",
+   "result": "published",
+   "id": "d20261012x046"
+  },
+  {
+   "k": "quant-217",
+   "result": "published",
+   "id": "d20261012x047"
+  },
+  {
+   "k": "quant-218",
+   "result": "published",
+   "id": "d20261012x048"
+  },
+  {
+   "k": "reas-201",
+   "result": "published",
+   "id": "d20261012x049"
+  },
+  {
+   "k": "reas-202",
+   "result": "published",
+   "id": "d20261012x050"
+  },
+  {
+   "k": "reas-203",
+   "result": "published",
+   "id": "d20261012x051"
+  },
+  {
+   "k": "reas-204",
+   "result": "published",
+   "id": "d20261012x052"
+  },
+  {
+   "k": "reas-205",
+   "result": "published",
+   "id": "d20261012x053"
+  },
+  {
+   "k": "reas-206",
+   "result": "published",
+   "id": "d20261012x054"
+  },
+  {
+   "k": "reas-207",
+   "result": "published",
+   "id": "d20261012x055"
+  },
+  {
+   "k": "reas-208",
+   "result": "published",
+   "id": "d20261012x056"
+  },
+  {
+   "k": "reas-209",
+   "result": "published",
+   "id": "d20261012x057"
+  },
+  {
+   "k": "reas-210",
+   "result": "published",
+   "id": "d20261012x058"
+  },
+  {
+   "k": "reas-211",
+   "result": "published",
+   "id": "d20261012x059"
+  },
+  {
+   "k": "reas-212",
+   "result": "published",
+   "id": "d20261012x060"
+  },
+  {
+   "k": "reas-213",
+   "result": "published",
+   "id": "d20261012x061"
+  },
+  {
+   "k": "reas-214",
+   "result": "published",
+   "id": "d20261012x062"
+  },
+  {
+   "k": "reas-215",
+   "result": "published",
+   "id": "d20261012x063"
+  },
+  {
+   "k": "reas-216",
+   "result": "published",
+   "id": "d20261012x064"
+  },
+  {
+   "k": "reas-217",
+   "result": "published",
+   "id": "d20261012x065"
+  },
+  {
+   "k": "reas-218",
+   "result": "published",
+   "id": "d20261012x066"
+  },
+  {
+   "k": "sci-201",
+   "result": "published",
+   "id": "d20261012x067"
+  },
+  {
+   "k": "sci-202",
+   "result": "published",
+   "id": "d20261012x068"
+  },
+  {
+   "k": "sci-203",
+   "result": "published",
+   "id": "d20261012x069"
+  },
+  {
+   "k": "sci-204",
+   "result": "published",
+   "id": "d20261012x070"
+  },
+  {
+   "k": "sci-205",
+   "result": "published",
+   "id": "d20261012x071"
+  },
+  {
+   "k": "sci-206",
+   "result": "published",
+   "id": "d20261012x072"
+  },
+  {
+   "k": "sci-207",
+   "result": "published",
+   "id": "d20261012x073"
+  },
+  {
+   "k": "sci-208",
+   "result": "published",
+   "id": "d20261012x074"
+  },
+  {
+   "k": "sci-209",
+   "result": "published",
+   "id": "d20261012x075"
+  },
+  {
+   "k": "sci-210",
+   "result": "published",
+   "id": "d20261012x076"
+  },
+  {
+   "k": "sci-211",
+   "result": "published",
+   "id": "d20261012x077"
+  },
+  {
+   "k": "sci-212",
+   "result": "published",
+   "id": "d20261012x078"
+  },
+  {
+   "k": "comp-201",
+   "result": "published",
+   "id": "d20261012x079"
+  },
+  {
+   "k": "comp-202",
+   "result": "published",
+   "id": "d20261012x080"
+  },
+  {
+   "k": "comp-203",
+   "result": "published",
+   "id": "d20261012x081"
+  },
+  {
+   "k": "comp-204",
+   "result": "published",
+   "id": "d20261012x082"
+  },
+  {
+   "k": "comp-205",
+   "result": "published",
+   "id": "d20261012x083"
+  },
+  {
+   "k": "comp-206",
+   "result": "published",
+   "id": "d20261012x084"
+  },
+  {
+   "k": "comp-207",
+   "result": "published",
+   "id": "d20261012x085"
+  },
+  {
+   "k": "comp-208",
+   "result": "published",
+   "id": "d20261012x086"
+  },
+  {
+   "k": "comp-209",
+   "result": "published",
+   "id": "d20261012x087"
+  },
+  {
+   "k": "comp-210",
+   "result": "published",
+   "id": "d20261012x088"
+  },
+  {
+   "k": "comp-211",
+   "result": "published",
+   "id": "d20261012x089"
+  },
+  {
+   "k": "comp-212",
+   "result": "published",
+   "id": "d20261012x090"
+  },
+  {
+   "k": "deg-201",
+   "result": "published",
+   "id": "d20261012x091"
+  },
+  {
+   "k": "deg-202",
+   "result": "published",
+   "id": "d20261012x092"
+  },
+  {
+   "k": "deg-203",
+   "result": "published",
+   "id": "d20261012x093"
+  },
+  {
+   "k": "deg-204",
+   "result": "published",
+   "id": "d20261012x094"
+  },
+  {
+   "k": "deg-205",
+   "result": "published",
+   "id": "d20261012x095"
+  },
+  {
+   "k": "deg-206",
+   "result": "published",
+   "id": "d20261012x096"
+  },
+  {
+   "k": "deg-207",
+   "result": "published",
+   "id": "d20261012x097"
+  },
+  {
+   "k": "deg-208",
+   "result": "published",
+   "id": "d20261012x098"
+  },
+  {
+   "k": "deg-209",
+   "result": "published",
+   "id": "d20261012x099"
+  },
+  {
+   "k": "deg-210",
+   "result": "published",
+   "id": "d20261012x100"
+  },
+  {
+   "k": "deg-211",
+   "result": "published",
+   "id": "d20261012x101"
+  },
+  {
+   "k": "deg-212",
+   "result": "published",
+   "id": "d20261012x102"
+  },
+  {
+   "k": "deg-213",
+   "result": "published",
+   "id": "d20261012x103"
+  },
+  {
+   "k": "deg-214",
+   "result": "published",
+   "id": "d20261012x104"
+  },
+  {
+   "k": "deg-215",
+   "result": "published",
+   "id": "d20261012x105"
+  },
+  {
+   "k": "deg-216",
+   "result": "published",
+   "id": "d20261012x106"
+  },
+  {
+   "k": "deg-217",
+   "result": "published",
+   "id": "d20261012x107"
+  },
+  {
+   "k": "deg-218",
+   "result": "published",
+   "id": "d20261012x108"
+  },
+  {
+   "k": "compx-201",
+   "result": "published",
+   "id": "d20261012x109"
+  },
+  {
+   "k": "compx-202",
+   "result": "published",
+   "id": "d20261012x110"
+  },
+  {
+   "k": "compx-203",
+   "result": "published",
+   "id": "d20261012x111"
+  },
+  {
+   "k": "compx-204",
+   "result": "published",
+   "id": "d20261012x112"
+  },
+  {
+   "k": "compx-205",
+   "result": "published",
+   "id": "d20261012x113"
+  },
+  {
+   "k": "compx-206",
+   "result": "published",
+   "id": "d20261012x114"
+  },
+  {
+   "k": "compx-207",
+   "result": "published",
+   "id": "d20261012x115"
+  },
+  {
+   "k": "compx-208",
+   "result": "published",
+   "id": "d20261012x116"
+  },
+  {
+   "k": "compx-209",
+   "result": "published",
+   "id": "d20261012x117"
+  },
+  {
+   "k": "compx-210",
+   "result": "published",
+   "id": "d20261012x118"
+  },
+  {
+   "k": "compx-211",
+   "result": "published",
+   "id": "d20261012x119"
+  },
+  {
+   "k": "compx-212",
+   "result": "published",
+   "id": "d20261012x120"
+  }
+ ]
+}

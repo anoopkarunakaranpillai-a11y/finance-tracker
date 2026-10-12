@@ -1,0 +1,233 @@
+[
+ {
+  "k": "compx-201",
+  "cat": "compx",
+  "s": "quant",
+  "t": "Simple interest",
+  "lvl": "recruit",
+  "exam": "Banking",
+  "d": "medium",
+  "lang": "en",
+  "q": "A sum of money doubles itself in 8 years at simple interest. What is the rate of interest per annum?",
+  "o": [
+   "12.5%",
+   "8%",
+   "15%",
+   "10%"
+  ],
+  "a": 0,
+  "e": "The interest equals the principal over eight years, so each year earns one-eighth of the principal, i.e. 12.5% per annum.",
+  "calc": "100/8"
+ },
+ {
+  "k": "compx-202",
+  "cat": "compx",
+  "s": "quant",
+  "t": "Ages",
+  "lvl": "recruit",
+  "exam": "SSC",
+  "d": "hard",
+  "lang": "en",
+  "q": "The ratio of the present ages of A and B is 3 : 5. After 6 years, the ratio will be 2 : 3. What is B's present age?",
+  "o": [
+   "18 years",
+   "24 years",
+   "36 years",
+   "30 years"
+  ],
+  "a": 3,
+  "e": "(3x + 6)/(5x + 6) = 2/3 gives x = 6, so B's present age is 5 × 6 = 30 years.",
+  "calc": "5*6"
+ },
+ {
+  "k": "compx-203",
+  "cat": "compx",
+  "s": "math",
+  "t": "Squares",
+  "lvl": "recruit",
+  "exam": "Railway",
+  "d": "easy",
+  "lang": "en",
+  "q": "What is the value of 15² − 13²?",
+  "o": [
+   "56",
+   "28",
+   "52",
+   "4"
+  ],
+  "a": 0,
+  "e": "15² − 13² = 225 − 169 = 56.",
+  "calc": "15^2-13^2"
+ },
+ {
+  "k": "compx-204",
+  "cat": "compx",
+  "s": "reas",
+  "t": "Odd one out",
+  "lvl": "recruit",
+  "exam": "SSC",
+  "d": "easy",
+  "lang": "en",
+  "q": "Find the odd one out: 121, 169, 225, 200",
+  "o": [
+   "121",
+   "169",
+   "225",
+   "200"
+  ],
+  "a": 3,
+  "e": "200 is not a perfect square; each of the others is the square of an odd number."
+ },
+ {
+  "k": "compx-205",
+  "cat": "compx",
+  "s": "reas",
+  "t": "Blood relations",
+  "lvl": "recruit",
+  "exam": "Police",
+  "d": "medium",
+  "lang": "en",
+  "q": "Pointing to a boy, Rita says, 'He is the only son of my mother's husband.' How is the boy related to Rita?",
+  "o": [
+   "Uncle",
+   "Cousin",
+   "Nephew",
+   "Brother"
+  ],
+  "a": 3,
+  "e": "Rita's mother's husband is her dad, and his only son is Rita's brother."
+ },
+ {
+  "k": "compx-206",
+  "cat": "compx",
+  "s": "veng",
+  "t": "Synonyms",
+  "lvl": "recruit",
+  "exam": "Teaching",
+  "d": "easy",
+  "lang": "en",
+  "q": "Choose the word closest in meaning to 'Lucid'.",
+  "o": [
+   "Gloomy",
+   "Lucky",
+   "Lazy",
+   "Clear"
+  ],
+  "a": 3,
+  "e": "'Lucid' means clear and easy to understand."
+ },
+ {
+  "k": "compx-207",
+  "cat": "compx",
+  "s": "veng",
+  "t": "Antonyms",
+  "lvl": "recruit",
+  "exam": "UPSC",
+  "d": "hard",
+  "lang": "en",
+  "q": "Choose the word most nearly opposite in meaning to 'Frugal'.",
+  "o": [
+   "Sparing",
+   "Thrifty",
+   "Economical",
+   "Extravagant"
+  ],
+  "a": 3,
+  "e": "'Frugal' means careful with money; its opposite is extravagant."
+ },
+ {
+  "k": "compx-208",
+  "cat": "compx",
+  "s": "gk",
+  "t": "Indian rivers",
+  "lvl": "recruit",
+  "exam": "Railway",
+  "d": "medium",
+  "lang": "en",
+  "q": "Which is the longest river of peninsular India?",
+  "o": [
+   "Mahanadi",
+   "Narmada",
+   "Krishna",
+   "Godavari"
+  ],
+  "a": 3,
+  "e": "The Godavari, often called the Dakshin Ganga, is the longest river of peninsular India."
+ },
+ {
+  "k": "compx-209",
+  "cat": "compx",
+  "s": "comp",
+  "t": "Internet protocols",
+  "lvl": "recruit",
+  "exam": "Banking",
+  "d": "easy",
+  "lang": "en",
+  "q": "Which protocol is used to send e-mail from a client to a mail server?",
+  "o": [
+   "IMAP",
+   "POP3",
+   "SMTP",
+   "FTP"
+  ],
+  "a": 2,
+  "e": "SMTP (Simple Mail Transfer Protocol) is used for sending e-mail; separate protocols handle retrieving it."
+ },
+ {
+  "k": "compx-210",
+  "cat": "compx",
+  "s": "sci",
+  "t": "Human blood",
+  "lvl": "recruit",
+  "exam": "Police",
+  "d": "medium",
+  "lang": "en",
+  "q": "Which blood cells play the main role in the clotting of blood?",
+  "o": [
+   "Platelets",
+   "Neutrophils",
+   "Red blood cells",
+   "Lymphocytes"
+  ],
+  "a": 0,
+  "e": "Platelets (thrombocytes) gather at a wound and start the clotting process."
+ },
+ {
+  "k": "compx-211",
+  "cat": "compx",
+  "s": "con",
+  "t": "Constitutional amendments",
+  "lvl": "recruit",
+  "exam": "UPSC",
+  "d": "advanced",
+  "lang": "en",
+  "q": "Which Constitutional Amendment Act added the Tenth Schedule (the anti-defection law) to the Constitution of India?",
+  "o": [
+   "44th Amendment",
+   "52nd Amendment",
+   "42nd Amendment",
+   "61st Amendment"
+  ],
+  "a": 1,
+  "e": "The 52nd Amendment Act, 1985 added the Tenth Schedule containing the anti-defection provisions."
+ },
+ {
+  "k": "compx-212",
+  "cat": "compx",
+  "s": "econ",
+  "t": "Inflation",
+  "lvl": "recruit",
+  "exam": "Teaching",
+  "d": "medium",
+  "lang": "en",
+  "q": "A situation in which high inflation occurs together with stagnant economic growth and high unemployment is called:",
+  "o": [
+   "Reflation",
+   "Stagflation",
+   "Disinflation",
+   "Deflation"
+  ],
+  "a": 1,
+  "e": "Stagflation combines stagnation in output and employment with persistent inflation."
+ }
+]

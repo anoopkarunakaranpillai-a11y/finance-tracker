@@ -1,0 +1,622 @@
+[
+ {
+  "id": "big-and-little-letters",
+  "type": "alphabet",
+  "title": "Big and Little Letters",
+  "desc": "Find the little letter friend!",
+  "difficulty": "medium",
+  "instructions": "Look at the big letter and tap its little letter.",
+  "questions": [
+   {
+    "q": "Which is little a?",
+    "show": "A",
+    "options": [
+     {
+      "t": "b"
+     },
+     {
+      "t": "a"
+     },
+     {
+      "t": "d"
+     }
+    ],
+    "answer": 1,
+    "good": "Yes! Big A and little a are friends!"
+   },
+   {
+    "q": "Which is little b?",
+    "show": "B",
+    "options": [
+     {
+      "t": "b"
+     },
+     {
+      "t": "p"
+     },
+     {
+      "t": "h"
+     }
+    ],
+    "answer": 0,
+    "good": "Super! That is little b!"
+   },
+   {
+    "q": "Which is little m?",
+    "show": "M",
+    "options": [
+     {
+      "t": "n"
+     },
+     {
+      "t": "w"
+     },
+     {
+      "t": "m"
+     }
+    ],
+    "answer": 2,
+    "good": "Great job! Little m has two humps!"
+   },
+   {
+    "q": "Which is little e?",
+    "show": "E",
+    "options": [
+     {
+      "t": "c"
+     },
+     {
+      "t": "o"
+     },
+     {
+      "t": "a"
+     },
+     {
+      "t": "e"
+     }
+    ],
+    "answer": 3,
+    "good": "Well done! That is little e!"
+   },
+   {
+    "q": "Which is little t?",
+    "show": "T",
+    "options": [
+     {
+      "t": "f"
+     },
+     {
+      "t": "t"
+     },
+     {
+      "t": "l"
+     }
+    ],
+    "answer": 1,
+    "good": "Hooray! Little t looks like a cross!"
+   },
+   {
+    "q": "Which is little s?",
+    "show": "S",
+    "options": [
+     {
+      "t": "s"
+     },
+     {
+      "t": "z"
+     },
+     {
+      "t": "c"
+     }
+    ],
+    "answer": 0,
+    "good": "Yes! Little s is like a snake!"
+   }
+  ]
+ },
+ {
+  "id": "vroom-vroom-sounds",
+  "type": "sounds",
+  "title": "Vroom Vroom!",
+  "desc": "Which one makes this sound?",
+  "difficulty": "easy",
+  "instructions": "Listen to the sound and tap the right picture.",
+  "questions": [
+   {
+    "q": "Which one goes choo-choo?",
+    "options": [
+     {
+      "e": "🚗",
+      "t": "Car"
+     },
+     {
+      "e": "🚂",
+      "t": "Train"
+     },
+     {
+      "e": "🚲",
+      "t": "Bicycle"
+     }
+    ],
+    "answer": 1,
+    "good": "Choo-choo! The train is coming!"
+   },
+   {
+    "q": "Which one goes nee-naw nee-naw?",
+    "options": [
+     {
+      "e": "🚑",
+      "t": "Ambulance"
+     },
+     {
+      "e": "🚜",
+      "t": "Tractor"
+     },
+     {
+      "e": "⛵",
+      "t": "Boat"
+     }
+    ],
+    "answer": 0,
+    "good": "Yes! The ambulance goes nee-naw to help people!"
+   },
+   {
+    "q": "Which one goes ring-ring?",
+    "options": [
+     {
+      "e": "✈️",
+      "t": "Plane"
+     },
+     {
+      "e": "🚌",
+      "t": "Bus"
+     },
+     {
+      "e": "🚲",
+      "t": "Bicycle"
+     }
+    ],
+    "answer": 2,
+    "good": "Ring-ring! The bicycle bell!"
+   },
+   {
+    "q": "Which one goes beep-beep?",
+    "options": [
+     {
+      "e": "🚗",
+      "t": "Car"
+     },
+     {
+      "e": "🐢",
+      "t": "Turtle"
+     },
+     {
+      "e": "🌳",
+      "t": "Tree"
+     }
+    ],
+    "answer": 0,
+    "good": "Beep-beep! The car says hello!"
+   },
+   {
+    "q": "Which one goes whoosh up in the sky?",
+    "options": [
+     {
+      "e": "🚂",
+      "t": "Train"
+     },
+     {
+      "e": "🚜",
+      "t": "Tractor"
+     },
+     {
+      "e": "✈️",
+      "t": "Plane"
+     }
+    ],
+    "answer": 2,
+    "good": "Whoosh! The plane flies high!"
+   },
+   {
+    "q": "Which one goes toot-toot on the water?",
+    "options": [
+     {
+      "e": "🚌",
+      "t": "Bus"
+     },
+     {
+      "e": "🚢",
+      "t": "Ship"
+     },
+     {
+      "e": "🚗",
+      "t": "Car"
+     }
+    ],
+    "answer": 1,
+    "good": "Toot-toot! The ship sails on the sea!"
+   }
+  ]
+ },
+ {
+  "id": "find-the-twin",
+  "type": "observation",
+  "title": "Find the Twin",
+  "desc": "Look closely and find the same one!",
+  "difficulty": "easy",
+  "instructions": "Look at the big picture and tap the one that is the same.",
+  "questions": [
+   {
+    "q": "Which one is the same?",
+    "show": "🐘",
+    "options": [
+     {
+      "e": "🐭"
+     },
+     {
+      "e": "🐘"
+     },
+     {
+      "e": "🦒"
+     }
+    ],
+    "answer": 1,
+    "good": "Yes! Two big elephants!"
+   },
+   {
+    "q": "Which one is the same?",
+    "show": "🍉",
+    "options": [
+     {
+      "e": "🍉"
+     },
+     {
+      "e": "🍓"
+     },
+     {
+      "e": "🍒"
+     }
+    ],
+    "answer": 0,
+    "good": "Great looking! Two juicy watermelons!"
+   },
+   {
+    "q": "Which one is the same?",
+    "show": "🦋",
+    "options": [
+     {
+      "e": "🐝"
+     },
+     {
+      "e": "🐞"
+     },
+     {
+      "e": "🦋"
+     }
+    ],
+    "answer": 2,
+    "good": "Flutter flutter! Two pretty butterflies!"
+   },
+   {
+    "q": "Which one is the same?",
+    "show": "⚽",
+    "options": [
+     {
+      "e": "🏀"
+     },
+     {
+      "e": "⚽"
+     },
+     {
+      "e": "🎾"
+     },
+     {
+      "e": "🏈"
+     }
+    ],
+    "answer": 1,
+    "good": "Kick! Two footballs!"
+   },
+   {
+    "q": "Which one is the same?",
+    "show": "🌙",
+    "options": [
+     {
+      "e": "⭐"
+     },
+     {
+      "e": "☀️"
+     },
+     {
+      "e": "☁️"
+     },
+     {
+      "e": "🌙"
+     }
+    ],
+    "answer": 3,
+    "good": "Goodnight moon! You found it!"
+   },
+   {
+    "q": "Which one is the same?",
+    "show": "🦆",
+    "options": [
+     {
+      "e": "🦆"
+     },
+     {
+      "e": "🐔"
+     },
+     {
+      "e": "🐧"
+     }
+    ],
+    "answer": 0,
+    "good": "Quack quack! Two little ducks!"
+   }
+  ]
+ },
+ {
+  "id": "more-or-fewer",
+  "type": "numbers",
+  "title": "Bigger and Smaller",
+  "desc": "Count and compare numbers!",
+  "difficulty": "medium",
+  "instructions": "Count the pictures or tap the right number.",
+  "questions": [
+   {
+    "q": "How many strawberries?",
+    "show": "🍓🍓🍓🍓",
+    "options": [
+     {
+      "t": "2"
+     },
+     {
+      "t": "4"
+     },
+     {
+      "t": "6"
+     }
+    ],
+    "answer": 1,
+    "good": "Yes! 4 yummy strawberries!"
+   },
+   {
+    "q": "Which number is bigger?",
+    "options": [
+     {
+      "t": "3"
+     },
+     {
+      "t": "1"
+     }
+    ],
+    "answer": 0,
+    "good": "Great! 3 is more than 1!"
+   },
+   {
+    "q": "Which number is bigger?",
+    "options": [
+     {
+      "t": "5"
+     },
+     {
+      "t": "8"
+     },
+     {
+      "t": "3"
+     }
+    ],
+    "answer": 1,
+    "good": "Well done! 8 is the biggest!"
+   },
+   {
+    "q": "Which number is smaller?",
+    "options": [
+     {
+      "t": "6"
+     },
+     {
+      "t": "9"
+     },
+     {
+      "t": "2"
+     }
+    ],
+    "answer": 2,
+    "good": "Yes! 2 is the smallest!"
+   },
+   {
+    "q": "How many chicks?",
+    "show": "🐥🐥🐥🐥🐥",
+    "options": [
+     {
+      "t": "3"
+     },
+     {
+      "t": "4"
+     },
+     {
+      "t": "5"
+     }
+    ],
+    "answer": 2,
+    "good": "Peep peep! 5 little chicks!"
+   },
+   {
+    "q": "Which number is bigger?",
+    "options": [
+     {
+      "t": "10"
+     },
+     {
+      "t": "7"
+     },
+     {
+      "t": "4"
+     }
+    ],
+    "answer": 0,
+    "good": "Hooray! 10 is the biggest!"
+   }
+  ]
+ },
+ {
+  "id": "yummy-animal-food",
+  "type": "animals",
+  "title": "Yummy Animal Food",
+  "desc": "What does each animal like to eat?",
+  "difficulty": "easy",
+  "instructions": "Tap the food the animal likes.",
+  "questions": [
+   {
+    "q": "What does the rabbit like to eat?",
+    "show": "🐰",
+    "options": [
+     {
+      "e": "🥕",
+      "t": "Carrot"
+     },
+     {
+      "e": "🍰",
+      "t": "Cake"
+     },
+     {
+      "e": "🧦",
+      "t": "Sock"
+     }
+    ],
+    "answer": 0,
+    "good": "Crunch crunch! Rabbits love carrots!"
+   },
+   {
+    "q": "What does the monkey like to eat?",
+    "show": "🐒",
+    "options": [
+     {
+      "e": "🧱",
+      "t": "Brick"
+     },
+     {
+      "e": "🍌",
+      "t": "Banana"
+     },
+     {
+      "e": "👟",
+      "t": "Shoe"
+     }
+    ],
+    "answer": 1,
+    "good": "Yum! Monkeys love bananas!"
+   },
+   {
+    "q": "What does the cow eat?",
+    "show": "🐄",
+    "options": [
+     {
+      "e": "🍭",
+      "t": "Lollipop"
+     },
+     {
+      "e": "🪨",
+      "t": "Rock"
+     },
+     {
+      "e": "🌿",
+      "t": "Grass"
+     }
+    ],
+    "answer": 2,
+    "good": "Moo! Cows munch green grass!"
+   },
+   {
+    "q": "What does the bee like?",
+    "show": "🐝",
+    "options": [
+     {
+      "e": "🍕",
+      "t": "Pizza"
+     },
+     {
+      "e": "🌼",
+      "t": "Flower"
+     },
+     {
+      "e": "🧸",
+      "t": "Teddy"
+     }
+    ],
+    "answer": 1,
+    "good": "Buzz! Bees visit flowers!"
+   },
+   {
+    "q": "What does the cat like to drink?",
+    "show": "🐱",
+    "options": [
+     {
+      "e": "🧃",
+      "t": "Juice box"
+     },
+     {
+      "e": "☕",
+      "t": "Coffee"
+     },
+     {
+      "e": "🥛",
+      "t": "Milk"
+     }
+    ],
+    "answer": 2,
+    "good": "Meow! A little milk for the kitty!"
+   },
+   {
+    "q": "What does the panda eat?",
+    "show": "🐼",
+    "options": [
+     {
+      "e": "🎋",
+      "t": "Bamboo"
+     },
+     {
+      "e": "🍦",
+      "t": "Ice cream"
+     },
+     {
+      "e": "🎈",
+      "t": "Balloon"
+     }
+    ],
+    "answer": 0,
+    "good": "Munch munch! Pandas love bamboo!"
+   }
+  ]
+ },
+ {
+  "id": "vehicle-memory",
+  "type": "memory",
+  "title": "Vehicle Memory",
+  "desc": "Find the matching pairs of cars, buses and boats!",
+  "difficulty": "medium",
+  "instructions": "Turn over two cards. Find the ones that match!",
+  "pairs": [
+   "🚗",
+   "🚌",
+   "🚂",
+   "⛵"
+  ]
+ },
+ {
+  "id": "trace-s-to-v",
+  "type": "tracing",
+  "title": "Trace S to V",
+  "desc": "Draw the letters S, T, U and V.",
+  "difficulty": "easy",
+  "instructions": "Follow the dotted line with your finger.",
+  "chars": [
+   "S",
+   "T",
+   "U",
+   "V"
+  ]
+ }
+]

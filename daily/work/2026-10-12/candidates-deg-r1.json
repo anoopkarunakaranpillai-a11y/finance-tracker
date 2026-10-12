@@ -1,0 +1,350 @@
+[
+ {
+  "k": "deg-201",
+  "cat": "deg",
+  "s": "acc",
+  "t": "Classification of accounts",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "easy",
+  "lang": "en",
+  "q": "Under the traditional classification of accounts, which of the following is a nominal account?",
+  "o": [
+   "Debtors Account",
+   "Bank Account",
+   "Salaries Account",
+   "Machinery Account"
+  ],
+  "a": 2,
+  "e": "Salaries Account records an expense, and expense and income accounts are nominal accounts."
+ },
+ {
+  "k": "deg-202",
+  "cat": "deg",
+  "s": "acc",
+  "t": "Trading account",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "medium",
+  "lang": "en",
+  "q": "Opening stock ₹20,000, purchases ₹80,000, closing stock ₹30,000 and sales ₹1,20,000. What is the gross profit?",
+  "o": [
+   "₹70,000",
+   "₹40,000",
+   "₹50,000",
+   "₹1,00,000"
+  ],
+  "a": 2,
+  "e": "Cost of goods sold = opening stock + purchases − closing stock; gross profit = sales − that cost = ₹50,000.",
+  "calc": "120000-(20000+80000-30000)"
+ },
+ {
+  "k": "deg-203",
+  "cat": "deg",
+  "s": "dcs",
+  "t": "Normalisation",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "medium",
+  "lang": "en",
+  "q": "Which normal form removes partial dependencies of non-key attributes on a composite primary key?",
+  "o": [
+   "Third normal form (3NF)",
+   "Boyce–Codd normal form (BCNF)",
+   "Second normal form (2NF)",
+   "First normal form (1NF)"
+  ],
+  "a": 2,
+  "e": "Second normal form (2NF) requires every non-key attribute to depend on the whole key, which removes partial dependencies."
+ },
+ {
+  "k": "deg-204",
+  "cat": "deg",
+  "s": "dcs",
+  "t": "Heaps",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "hard",
+  "lang": "en",
+  "q": "What is the time complexity of building a binary heap from n unordered elements using the bottom-up (heapify) method?",
+  "o": [
+   "O(n²)",
+   "O(n log n)",
+   "O(n)",
+   "O(log n)"
+  ],
+  "a": 2,
+  "e": "Bottom-up heap construction takes O(n) time, because most nodes lie near the leaves and need only short sift-downs."
+ },
+ {
+  "k": "deg-205",
+  "cat": "deg",
+  "s": "dmath",
+  "t": "Eigenvalues",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "medium",
+  "lang": "en",
+  "q": "What is the sum of the eigenvalues of the matrix [[4, 1], [2, 3]]?",
+  "o": [
+   "10",
+   "7",
+   "12",
+   "5"
+  ],
+  "a": 1,
+  "e": "The sum of the eigenvalues equals the trace of the matrix: 4 + 3 = 7.",
+  "calc": "4+3"
+ },
+ {
+  "k": "deg-206",
+  "cat": "deg",
+  "s": "dmath",
+  "t": "Functions",
+  "lvl": "entrance",
+  "exam": "University entrance",
+  "d": "advanced",
+  "lang": "en",
+  "q": "How many onto (surjective) functions are there from a set with 4 elements to a set with 2 elements?",
+  "o": [
+   "12",
+   "16",
+   "8",
+   "14"
+  ],
+  "a": 3,
+  "e": "Of the 2^4 functions, exactly two are constant and hence not onto, leaving 2^4 − 2 = 14.",
+  "calc": "2^4-2"
+ },
+ {
+  "k": "deg-207",
+  "cat": "deg",
+  "s": "dphy",
+  "t": "Dimensions",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "medium",
+  "lang": "en",
+  "q": "What is the dimensional formula of Planck's constant?",
+  "o": [
+   "[ML²T⁻²]",
+   "[ML²T⁻¹]",
+   "[MLT⁻²]",
+   "[MLT⁻¹]"
+  ],
+  "a": 1,
+  "e": "h = E/ν (energy divided by frequency), giving [ML²T⁻¹], the same as angular momentum."
+ },
+ {
+  "k": "deg-208",
+  "cat": "deg",
+  "s": "dphy",
+  "t": "Moment of inertia",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "hard",
+  "lang": "en",
+  "q": "What is the moment of inertia of a thin uniform rod of mass M and length L about an axis perpendicular to it through one end?",
+  "o": [
+   "2ML²/3",
+   "ML²/3",
+   "ML²/12",
+   "ML²/2"
+  ],
+  "a": 1,
+  "e": "Applying the parallel-axis theorem to the centre-of-mass value with a shift of L/2 gives ML²/3."
+ },
+ {
+  "k": "deg-209",
+  "cat": "deg",
+  "s": "dchem",
+  "t": "VSEPR theory",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "easy",
+  "lang": "en",
+  "q": "What is the shape of the sulphur hexafluoride (SF₆) molecule?",
+  "o": [
+   "Square planar",
+   "Octahedral",
+   "Tetrahedral",
+   "Trigonal bipyramidal"
+  ],
+  "a": 1,
+  "e": "Sulphur in SF₆ has six bond pairs and no lone pairs, so the molecule is octahedral."
+ },
+ {
+  "k": "deg-210",
+  "cat": "deg",
+  "s": "dchem",
+  "t": "Electronic configuration",
+  "lvl": "entrance",
+  "exam": "University entrance",
+  "d": "advanced",
+  "lang": "en",
+  "q": "How many unpaired electrons are present in the Fe³⁺ ion (atomic number of Fe = 26)?",
+  "o": [
+   "4",
+   "2",
+   "6",
+   "5"
+  ],
+  "a": 3,
+  "e": "Fe³⁺ has a half-filled 3d⁵ configuration, so it has 5 unpaired electrons.",
+  "calc": "5"
+ },
+ {
+  "k": "deg-211",
+  "cat": "deg",
+  "s": "dbio",
+  "t": "DNA replication",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "easy",
+  "lang": "en",
+  "q": "Which enzyme joins the Okazaki fragments on the lagging strand during DNA replication?",
+  "o": [
+   "Topoisomerase",
+   "DNA helicase",
+   "DNA ligase",
+   "Primase"
+  ],
+  "a": 2,
+  "e": "DNA ligase seals the nicks between adjacent Okazaki fragments on the lagging strand."
+ },
+ {
+  "k": "deg-212",
+  "cat": "deg",
+  "s": "dbio",
+  "t": "Population genetics",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "hard",
+  "lang": "en",
+  "q": "In a population in Hardy–Weinberg equilibrium, the frequency of the recessive allele is 0.3. What is the expected frequency of heterozygotes?",
+  "o": [
+   "0.21",
+   "0.09",
+   "0.49",
+   "0.42"
+  ],
+  "a": 3,
+  "e": "The dominant allele frequency p is 0.7, so heterozygotes = 2pq = 2 × 0.7 × 0.3 = 0.42.",
+  "calc": "2*0.7*0.3"
+ },
+ {
+  "k": "deg-213",
+  "cat": "deg",
+  "s": "decon",
+  "t": "Keynesian multiplier",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "hard",
+  "lang": "en",
+  "q": "If the marginal propensity to consume (MPC) is 0.8, what is the value of the investment multiplier?",
+  "o": [
+   "1.25",
+   "4",
+   "5",
+   "8"
+  ],
+  "a": 2,
+  "e": "Multiplier = 1/(1 − MPC) = 1/0.2 = 5.",
+  "calc": "1/(1-0.8)"
+ },
+ {
+  "k": "deg-214",
+  "cat": "deg",
+  "s": "decon",
+  "t": "Monetary economics",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "medium",
+  "lang": "en",
+  "q": "Gresham's law states that:",
+  "o": [
+   "Bad money drives good money out of circulation",
+   "Money is neutral in the long run",
+   "Price level varies directly with the quantity of money",
+   "Supply creates its own demand"
+  ],
+  "a": 0,
+  "e": "Gresham's law: bad money drives good money out of circulation, as people hoard the more valuable coins."
+ },
+ {
+  "k": "deg-215",
+  "cat": "deg",
+  "s": "mgmt",
+  "t": "Motivation theories",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "easy",
+  "lang": "en",
+  "q": "Herzberg's two-factor theory of motivation classifies workplace factors into:",
+  "o": [
+   "Valence and expectancy factors",
+   "Needs and wants",
+   "Hygiene factors and motivators",
+   "Existence and relatedness factors"
+  ],
+  "a": 2,
+  "e": "Frederick Herzberg divided job factors into hygiene factors and motivators."
+ },
+ {
+  "k": "deg-216",
+  "cat": "deg",
+  "s": "mgmt",
+  "t": "Principles of management",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "medium",
+  "lang": "en",
+  "q": "Who formulated the 14 principles of management, such as unity of command and scalar chain?",
+  "o": [
+   "F. W. Taylor",
+   "Max Weber",
+   "Elton Mayo",
+   "Henri Fayol"
+  ],
+  "a": 3,
+  "e": "Henri Fayol set out the 14 principles of management in his 1916 work on general and industrial administration."
+ },
+ {
+  "k": "deg-217",
+  "cat": "deg",
+  "s": "hum",
+  "t": "Political philosophy",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "medium",
+  "lang": "en",
+  "q": "Who wrote 'Leviathan' (1651), which describes life in the state of nature as 'solitary, poor, nasty, brutish, and short'?",
+  "o": [
+   "Thomas Hobbes",
+   "Niccolò Machiavelli",
+   "Jean-Jacques Rousseau",
+   "John Locke"
+  ],
+  "a": 0,
+  "e": "'Leviathan' was written by the English philosopher Thomas Hobbes."
+ },
+ {
+  "k": "deg-218",
+  "cat": "deg",
+  "s": "engg",
+  "t": "Thermodynamic cycles",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "easy",
+  "lang": "en",
+  "q": "Which ideal thermodynamic cycle is the basis of steam power plants?",
+  "o": [
+   "Brayton cycle",
+   "Diesel cycle",
+   "Rankine cycle",
+   "Stirling cycle"
+  ],
+  "a": 2,
+  "e": "The Rankine cycle (pump, boiler, turbine, condenser) is the ideal cycle for steam power plants."
+ }
+]
