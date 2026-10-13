@@ -1,0 +1,235 @@
+[
+ {
+  "k": "compx-301",
+  "cat": "compx",
+  "s": "quant",
+  "t": "Speed",
+  "lvl": "recruit",
+  "d": "easy",
+  "q": "A car covers 360 km in 4.5 hours. What is its average speed?",
+  "o": [
+   "72 km/h",
+   "80 km/h",
+   "75 km/h",
+   "90 km/h"
+  ],
+  "a": 1,
+  "e": "Average speed = 360 ÷ 4.5 = 80 km/h.",
+  "lang": "en",
+  "exam": "SSC",
+  "calc": "360/4.5"
+ },
+ {
+  "k": "compx-302",
+  "cat": "compx",
+  "s": "math",
+  "t": "Percentage",
+  "lvl": "recruit",
+  "d": "easy",
+  "q": "What is 15% of 640?",
+  "o": [
+   "84",
+   "106",
+   "96",
+   "112"
+  ],
+  "a": 2,
+  "e": "15% of 640 = 640 × 15 ÷ 100 = 96.",
+  "lang": "en",
+  "exam": "Banking",
+  "calc": "640*15/100"
+ },
+ {
+  "k": "compx-303",
+  "cat": "compx",
+  "s": "quant",
+  "t": "Time and work",
+  "lvl": "recruit",
+  "d": "medium",
+  "q": "A can finish a piece of work in 10 days and B can finish it in 15 days. In how many days can they finish it working together?",
+  "o": [
+   "9 days",
+   "6 days",
+   "12.5 days",
+   "5 days"
+  ],
+  "a": 1,
+  "e": "Together they do 1/10 + 1/15 = 1/6 of the work per day, so they need 6 days.",
+  "lang": "en",
+  "exam": "Railway",
+  "calc": "10*15/(10+15)"
+ },
+ {
+  "k": "compx-304",
+  "cat": "compx",
+  "s": "math",
+  "t": "LCM",
+  "lvl": "recruit",
+  "d": "medium",
+  "q": "What is the LCM of 12, 18 and 30?",
+  "o": [
+   "90",
+   "120",
+   "180",
+   "360"
+  ],
+  "a": 2,
+  "e": "12 = 2²×3, 18 = 2×3², 30 = 2×3×5; LCM = 2² × 3² × 5 = 180.",
+  "lang": "en",
+  "exam": "SSC",
+  "calc": "2^2*3^2*5"
+ },
+ {
+  "k": "compx-305",
+  "cat": "compx",
+  "s": "quant",
+  "t": "Successive discounts",
+  "lvl": "recruit",
+  "d": "hard",
+  "q": "Two successive discounts of 20% and 10% are equivalent to a single discount of:",
+  "o": [
+   "30%",
+   "32%",
+   "25%",
+   "28%"
+  ],
+  "a": 3,
+  "e": "Price after discounts = 100 × 0.8 × 0.9 = 72, so the single equivalent discount is 28%.",
+  "lang": "en",
+  "exam": "Banking",
+  "calc": "100-100*0.8*0.9"
+ },
+ {
+  "k": "compx-306",
+  "cat": "compx",
+  "s": "reas",
+  "t": "Analogy",
+  "lvl": "recruit",
+  "d": "easy",
+  "q": "Doctor : Hospital :: Teacher : ?",
+  "o": [
+   "School",
+   "Chalk",
+   "Student",
+   "Book"
+  ],
+  "a": 0,
+  "e": "A doctor works in a hospital; similarly a teacher works in a School.",
+  "lang": "en",
+  "exam": "Police"
+ },
+ {
+  "k": "compx-307",
+  "cat": "compx",
+  "s": "reas",
+  "t": "Calendar",
+  "lvl": "recruit",
+  "d": "medium",
+  "q": "If 1 January 2026 is a Thursday, what day of the week is 1 January 2027?",
+  "o": [
+   "Friday",
+   "Saturday",
+   "Wednesday",
+   "Thursday"
+  ],
+  "a": 0,
+  "e": "2026 is not a leap year, so it has 365 days = 52 weeks + 1 odd day; the day moves one ahead to Friday.",
+  "lang": "en",
+  "exam": "Railway"
+ },
+ {
+  "k": "compx-308",
+  "cat": "compx",
+  "s": "veng",
+  "t": "Spelling",
+  "lvl": "entrance",
+  "d": "medium",
+  "q": "Choose the correctly spelt word.",
+  "o": [
+   "Embarrass",
+   "Embarass",
+   "Embaras",
+   "Embarrasse"
+  ],
+  "a": 0,
+  "e": "The correct spelling has a double 'r' and a double 's': Embarrass.",
+  "lang": "en",
+  "exam": "Teaching"
+ },
+ {
+  "k": "compx-309",
+  "cat": "compx",
+  "s": "con",
+  "t": "Fundamental rights",
+  "lvl": "recruit",
+  "d": "hard",
+  "q": "Which Article of the Indian Constitution abolishes untouchability?",
+  "o": [
+   "Article 14",
+   "Article 17",
+   "Article 32",
+   "Article 21"
+  ],
+  "a": 1,
+  "e": "Article 17 abolishes untouchability and forbids its practice in any form.",
+  "lang": "en",
+  "exam": "UPSC"
+ },
+ {
+  "k": "compx-310",
+  "cat": "compx",
+  "s": "sci",
+  "t": "SI units",
+  "lvl": "recruit",
+  "d": "easy",
+  "q": "What is the SI unit of power?",
+  "o": [
+   "Newton",
+   "Pascal",
+   "Watt",
+   "Joule"
+  ],
+  "a": 2,
+  "e": "Power is the rate of doing work; its SI unit is the Watt (1 J/s).",
+  "lang": "en",
+  "exam": "Police"
+ },
+ {
+  "k": "compx-311",
+  "cat": "compx",
+  "s": "econ",
+  "t": "Monetary policy",
+  "lvl": "recruit",
+  "d": "advanced",
+  "q": "How many members are there in the Monetary Policy Committee (MPC) of the Reserve Bank of India?",
+  "o": [
+   "Seven",
+   "Four",
+   "Five",
+   "Six"
+  ],
+  "a": 3,
+  "e": "The RBI's Monetary Policy Committee has Six members: three from the RBI (including the Governor as chairperson) and three external members appointed by the Government.",
+  "lang": "en",
+  "exam": "UPSC"
+ },
+ {
+  "k": "compx-312",
+  "cat": "compx",
+  "s": "comp",
+  "t": "Malware",
+  "lvl": "entrance",
+  "d": "medium",
+  "q": "Which type of malicious program disguises itself as useful, legitimate software to trick users into installing it?",
+  "o": [
+   "Cookie",
+   "Worm",
+   "Firewall",
+   "Trojan horse"
+  ],
+  "a": 3,
+  "e": "A Trojan horse appears to be legitimate software but carries a hidden harmful function.",
+  "lang": "en",
+  "exam": "Teaching"
+ }
+]

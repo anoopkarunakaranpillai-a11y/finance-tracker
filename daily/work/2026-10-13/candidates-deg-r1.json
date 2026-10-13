@@ -1,0 +1,352 @@
+[
+ {
+  "k": "deg-301",
+  "cat": "deg",
+  "s": "acc",
+  "t": "Accounting ratios",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "easy",
+  "q": "A firm has current assets of ₹1,50,000 and current liabilities of ₹60,000. What is its current ratio?",
+  "o": [
+   "0.4 : 1",
+   "1.5 : 1",
+   "2.5 : 1",
+   "3 : 1"
+  ],
+  "a": 2,
+  "e": "Current ratio = current assets ÷ current liabilities = 150000 ÷ 60000, so the answer is 2.5 : 1.",
+  "lang": "en",
+  "calc": "150000/60000"
+ },
+ {
+  "k": "deg-302",
+  "cat": "deg",
+  "s": "acc",
+  "t": "Accounting concepts",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "medium",
+  "q": "Which accounting concept requires that the expenses of a period be recorded against the revenues earned in that same period?",
+  "o": [
+   "Going concern concept",
+   "Dual aspect concept",
+   "Money measurement concept",
+   "Matching concept"
+  ],
+  "a": 3,
+  "e": "The Matching concept says costs incurred to earn revenue must be recognised in the same accounting period as that revenue.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-303",
+  "cat": "deg",
+  "s": "dcs",
+  "t": "Expression conversion",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "medium",
+  "q": "What is the postfix form of the infix expression A + B * C?",
+  "o": [
+   "ABC*+",
+   "+A*BC",
+   "AB+C*",
+   "AB*C+"
+  ],
+  "a": 0,
+  "e": "Multiplication has higher precedence, so B * C is converted first; the full postfix expression is ABC*+.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-304",
+  "cat": "deg",
+  "s": "dcs",
+  "t": "Sorting algorithms",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "hard",
+  "q": "What is the worst-case time complexity of quicksort on n elements?",
+  "o": [
+   "O(n log n)",
+   "O(n)",
+   "O(n²)",
+   "O(log n)"
+  ],
+  "a": 2,
+  "e": "When the pivot is always the smallest or largest element (e.g. an already sorted array with first-element pivot), partitions are maximally unbalanced and quicksort takes O(n²) time.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-305",
+  "cat": "deg",
+  "s": "dmath",
+  "t": "Binomial theorem",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "easy",
+  "q": "What is the coefficient of x² in the expansion of (1 + x)⁶?",
+  "o": [
+   "15",
+   "20",
+   "12",
+   "30"
+  ],
+  "a": 0,
+  "e": "The coefficient is the binomial coefficient C(6, 2) = (6 × 5) ÷ (2 × 1) = 15.",
+  "lang": "en",
+  "calc": "6*5/2"
+ },
+ {
+  "k": "deg-306",
+  "cat": "deg",
+  "s": "dmath",
+  "t": "Definite integrals",
+  "lvl": "entrance",
+  "exam": "University entrance",
+  "d": "medium",
+  "q": "Evaluate the definite integral of sin x dx from x = 0 to x = π.",
+  "o": [
+   "π/2",
+   "1/2",
+   "4",
+   "2"
+  ],
+  "a": 3,
+  "e": "The antiderivative of sin x is −cos x; between the limits this gives (−cos π) − (−cos 0) = 1 + 1 = 2.",
+  "lang": "en",
+  "calc": "1+1"
+ },
+ {
+  "k": "deg-307",
+  "cat": "deg",
+  "s": "dmath",
+  "t": "Combinatorics",
+  "lvl": "entrance",
+  "exam": "University entrance",
+  "d": "hard",
+  "q": "How many diagonals does a convex polygon with 10 sides (decagon) have?",
+  "o": [
+   "35",
+   "45",
+   "40",
+   "30"
+  ],
+  "a": 0,
+  "e": "Number of diagonals = n(n − 3)/2 = 10 × 7 ÷ 2 = 35.",
+  "lang": "en",
+  "calc": "10*(10-3)/2"
+ },
+ {
+  "k": "deg-308",
+  "cat": "deg",
+  "s": "dphy",
+  "t": "Photoelectric effect",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "medium",
+  "q": "Light of photon energy 5 eV falls on a metal surface whose work function is 2 eV. What is the maximum kinetic energy of the emitted photoelectrons?",
+  "o": [
+   "7 eV",
+   "3 eV",
+   "2.5 eV",
+   "10 eV"
+  ],
+  "a": 1,
+  "e": "By Einstein's photoelectric equation, KEmax = hν − φ = 5 − 2 = 3 eV.",
+  "lang": "en",
+  "calc": "5-2"
+ },
+ {
+  "k": "deg-309",
+  "cat": "deg",
+  "s": "dphy",
+  "t": "Bohr model",
+  "lvl": "entrance",
+  "exam": "University entrance",
+  "d": "hard",
+  "q": "The ground-state energy of the hydrogen atom is -13.6 eV. According to the Bohr model, what is the energy of the electron in the n = 2 level?",
+  "o": [
+   "-3.4 eV",
+   "-27.2 eV",
+   "-1.51 eV",
+   "-6.8 eV"
+  ],
+  "a": 0,
+  "e": "Eₙ = -13.6/n² eV, so for n = 2 the energy is -13.6 ÷ 4 = -3.4 eV.",
+  "lang": "en",
+  "calc": "-13.6/4"
+ },
+ {
+  "k": "deg-310",
+  "cat": "deg",
+  "s": "dchem",
+  "t": "Mole concept",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "easy",
+  "q": "How many moles of water are present in 36 g of water (molar mass of H₂O = 18 g/mol)?",
+  "o": [
+   "0.5 mol",
+   "1 mol",
+   "3 mol",
+   "2 mol"
+  ],
+  "a": 3,
+  "e": "Moles = mass ÷ molar mass = 36 ÷ 18 = 2 mol.",
+  "lang": "en",
+  "calc": "36/18"
+ },
+ {
+  "k": "deg-311",
+  "cat": "deg",
+  "s": "dchem",
+  "t": "Aromaticity",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "advanced",
+  "q": "According to Hückel's rule, a planar, cyclic, fully conjugated compound is aromatic if it contains:",
+  "o": [
+   "4n + 1 π electrons",
+   "4n + 2 π electrons",
+   "4n π electrons",
+   "2n π electrons"
+  ],
+  "a": 1,
+  "e": "Hückel's rule: aromatic systems have 4n + 2 π electrons (n = 0, 1, 2 ...); benzene, with six, is the classic example.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-312",
+  "cat": "deg",
+  "s": "dbio",
+  "t": "Photosynthesis",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "medium",
+  "q": "Which enzyme catalyses the fixation of CO₂ onto ribulose-1,5-bisphosphate in the Calvin cycle?",
+  "o": [
+   "ATP synthase",
+   "RuBisCO",
+   "Nitrogenase",
+   "PEP carboxylase"
+  ],
+  "a": 1,
+  "e": "RuBisCO (ribulose bisphosphate carboxylase-oxygenase) fixes CO₂ in the first step of the Calvin cycle and is the most abundant protein on Earth.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-313",
+  "cat": "deg",
+  "s": "dbio",
+  "t": "Excretory system",
+  "lvl": "entrance",
+  "exam": "University entrance",
+  "d": "easy",
+  "q": "What is the structural and functional unit of the human kidney?",
+  "o": [
+   "Alveolus",
+   "Nephron",
+   "Neuron",
+   "Villus"
+  ],
+  "a": 1,
+  "e": "The Nephron filters blood and forms urine; each human kidney has about a million of them.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-314",
+  "cat": "deg",
+  "s": "decon",
+  "t": "Market structures",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "medium",
+  "q": "Under perfect competition, what kind of profit does a firm earn in long-run equilibrium?",
+  "o": [
+   "Losses",
+   "Monopoly profit",
+   "Normal profit",
+   "Supernormal profit"
+  ],
+  "a": 2,
+  "e": "Free entry and exit drive price down to minimum average cost in the long run, so firms earn only Normal profit.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-315",
+  "cat": "deg",
+  "s": "decon",
+  "t": "Phillips curve",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "hard",
+  "q": "The original Phillips curve shows an inverse relationship between:",
+  "o": [
+   "Inflation and unemployment",
+   "Interest rate and investment",
+   "Price and quantity demanded",
+   "Tax rate and tax revenue"
+  ],
+  "a": 0,
+  "e": "A. W. Phillips found that lower unemployment was associated with faster wage growth, i.e. the curve relates Inflation and unemployment inversely.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-316",
+  "cat": "deg",
+  "s": "mgmt",
+  "t": "Organising",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "easy",
+  "q": "In management, 'span of control' refers to:",
+  "o": [
+   "The time period of a plan",
+   "The number of subordinates a manager can effectively supervise",
+   "The number of levels in the hierarchy",
+   "The total budget a manager controls"
+  ],
+  "a": 1,
+  "e": "Span of control means The number of subordinates a manager can effectively supervise; a wide span gives a flat organisation.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-317",
+  "cat": "deg",
+  "s": "hum",
+  "t": "Sociology",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "medium",
+  "q": "Who coined the term 'sociology' and is often called the father of sociology?",
+  "o": [
+   "Émile Durkheim",
+   "Max Weber",
+   "Karl Marx",
+   "Auguste Comte"
+  ],
+  "a": 3,
+  "e": "Auguste Comte, the French positivist thinker, coined the term 'sociology' in the 1830s.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-318",
+  "cat": "deg",
+  "s": "engg",
+  "t": "Strength of materials",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "advanced",
+  "q": "A steel bar under axial load has a stress of 200 MPa and a strain of 0.001 within the elastic limit. What is its Young's modulus?",
+  "o": [
+   "2000 GPa",
+   "20 GPa",
+   "200 GPa",
+   "0.2 GPa"
+  ],
+  "a": 2,
+  "e": "Young's modulus = stress ÷ strain = 200 MPa ÷ 0.001 = 200000 MPa, i.e. 200 GPa.",
+  "lang": "en",
+  "calc": "200/0.001/1000"
+ }
+]

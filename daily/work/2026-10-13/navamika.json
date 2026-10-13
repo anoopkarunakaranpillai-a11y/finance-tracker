@@ -1,0 +1,41 @@
+[
+ {"id":"colour-match-fun","type":"colors","title":"Colour Match Fun","desc":"What colour is it?","difficulty":"easy","instructions":"Look at the picture and tap its colour.",
+  "questions":[
+   {"q":"What colour is the banana?","show":"🍌","options":[{"c":"#2E7D32"},{"c":"#FDD835"},{"c":"#1E88E5"}],"answer":1,"good":"Yes! The banana is yellow!"},
+   {"q":"What colour is the strawberry?","show":"🍓","options":[{"c":"#E53935"},{"c":"#8E24AA"},{"c":"#FDD835"}],"answer":0,"good":"Yummy! The strawberry is red!"},
+   {"q":"What colour is the leaf?","show":"🍃","options":[{"c":"#1E88E5"},{"c":"#E53935"},{"c":"#43A047"}],"answer":2,"good":"Great! The leaf is green!"},
+   {"q":"What colour is the orange?","show":"🍊","options":[{"c":"#8E24AA"},{"c":"#43A047"},{"c":"#1E88E5"},{"c":"#FB8C00"}],"answer":3,"good":"Super! The orange is orange!"},
+   {"q":"What colour is the grape bunch?","show":"🍇","options":[{"c":"#8E24AA"},{"c":"#FDD835"},{"c":"#43A047"}],"answer":0,"good":"Well done! The grapes are purple!"},
+   {"q":"What colour is the blue heart?","show":"💙","options":[{"c":"#E53935"},{"c":"#1E88E5"},{"c":"#FDD835"}],"answer":1,"good":"Yes! That heart is blue!"}
+  ]},
+ {"id":"what-goes-together","type":"matching","title":"What Goes Together?","desc":"Find the best friend for each thing!","difficulty":"easy","instructions":"Look at the big picture. Tap the thing that goes with it.",
+  "questions":[
+   {"q":"What goes with the sock?","show":"🧦","options":[{"e":"🍕","t":"Pizza"},{"e":"👟","t":"Shoe"},{"e":"🐟","t":"Fish"}],"answer":1,"good":"Yes! Socks go with shoes!"},
+   {"q":"What goes with the toothbrush?","show":"🪥","options":[{"e":"🦷","t":"Teeth"},{"e":"🌳","t":"Tree"},{"e":"🚗","t":"Car"}],"answer":0,"good":"Brush brush! The toothbrush cleans our teeth!"},
+   {"q":"What goes with the cup?","show":"☕","options":[{"e":"⚽","t":"Ball"},{"e":"🐱","t":"Cat"},{"e":"🍽️","t":"Plate"},{"e":"🥄","t":"Spoon"}],"answer":3,"good":"Clink! A cup and a spoon go together!"},
+   {"q":"What goes with the rain?","show":"🌧️","options":[{"e":"🕶️","t":"Sunglasses"},{"e":"☂️","t":"Umbrella"},{"e":"🏖️","t":"Beach"}],"answer":1,"good":"Yes! An umbrella keeps us dry!"},
+   {"q":"What goes with the bee?","show":"🐝","options":[{"e":"🦴","t":"Bone"},{"e":"🧀","t":"Cheese"},{"e":"🌻","t":"Flower"}],"answer":2,"good":"Buzz buzz! Bees love flowers!"},
+   {"q":"What goes with the pillow?","show":"🛏️","options":[{"e":"😴","t":"Sleep"},{"e":"🏃","t":"Run"},{"e":"🍦","t":"Ice cream"}],"answer":0,"good":"Good night! A bed is for sleeping!"}
+  ]},
+ {"id":"rhyme-time-friends","type":"rhymes","title":"Rhyme Time Friends","desc":"Which words sound the same at the end?","difficulty":"medium","instructions":"Say the word. Tap the picture that rhymes with it.",
+  "questions":[
+   {"q":"What rhymes with CAT?","show":"🐱","options":[{"e":"🎩","t":"Hat"},{"e":"🐶","t":"Dog"},{"e":"🍎","t":"Apple"}],"answer":0,"good":"Cat, hat! They rhyme!"},
+   {"q":"What rhymes with SUN?","show":"☀️","options":[{"e":"🌙","t":"Moon"},{"e":"⭐","t":"Star"},{"e":"🍔","t":"Bun"}],"answer":2,"good":"Sun, bun! Great rhyming!"},
+   {"q":"What rhymes with BEE?","show":"🐝","options":[{"e":"🌳","t":"Tree"},{"e":"🐄","t":"Cow"},{"e":"🚌","t":"Bus"}],"answer":0,"good":"Bee, tree! You did it!"},
+   {"q":"What rhymes with GOAT?","show":"🐐","options":[{"e":"🐟","t":"Fish"},{"e":"⛵","t":"Boat"},{"e":"🍌","t":"Banana"}],"answer":1,"good":"Goat, boat! Hooray!"},
+   {"q":"What rhymes with CAKE?","show":"🎂","options":[{"e":"🍪","t":"Cookie"},{"e":"🧁","t":"Cupcake"},{"e":"🎈","t":"Balloon"},{"e":"🐍","t":"Snake"}],"answer":3,"good":"Cake, snake! Silly rhyme!"},
+   {"q":"What rhymes with MOUSE?","show":"🐭","options":[{"e":"🏠","t":"House"},{"e":"🧀","t":"Cheese"},{"e":"🐈","t":"Cat"}],"answer":0,"good":"Mouse, house! Wonderful!"}
+  ]},
+ {"id":"count-the-treats","type":"counting","title":"Count the Treats","desc":"How many yummy treats?","difficulty":"easy","instructions":"Count the treats and tap the right number.",
+  "questions":[
+   {"q":"How many cookies?","show":"🍪🍪🍪","options":[{"t":"2"},{"t":"3"},{"t":"4"}],"answer":1,"good":"Yes! 3 cookies!"},
+   {"q":"How many apples?","show":"🍎🍎🍎🍎🍎","options":[{"t":"5"},{"t":"4"},{"t":"6"}],"answer":0,"good":"Great counting! 5 apples!"},
+   {"q":"How many cupcakes?","show":"🧁🧁","options":[{"t":"1"},{"t":"3"},{"t":"2"}],"answer":2,"good":"Yummy! 2 cupcakes!"},
+   {"q":"How many lollipops?","show":"🍭🍭🍭🍭","options":[{"t":"3"},{"t":"5"},{"t":"6"},{"t":"4"}],"answer":3,"good":"Super! 4 lollipops!"},
+   {"q":"How many bananas?","show":"🍌🍌🍌🍌🍌🍌","options":[{"t":"6"},{"t":"7"},{"t":"5"}],"answer":0,"good":"Wow! 6 bananas!"},
+   {"q":"How many ice creams?","show":"🍦","options":[{"t":"2"},{"t":"1"},{"t":"3"}],"answer":1,"good":"Just 1 ice cream! Well done!"},
+   {"q":"How many cherries?","show":"🍒🍒🍒🍒🍒🍒🍒","options":[{"t":"8"},{"t":"6"},{"t":"7"}],"answer":2,"good":"Amazing! 7 cherries!"}
+  ]},
+ {"id":"sea-friends-memory","type":"memory","title":"Sea Friends Memory","desc":"Find the matching sea friends!","difficulty":"medium","instructions":"Turn over two cards. Find the pairs that match.","pairs":["🐠","🐙","🐢","🦀","🐳"]},
+ {"id":"trace-w-to-z","type":"tracing","title":"Trace W to Z","desc":"Draw the last letters!","difficulty":"easy","instructions":"Follow the dots with your finger to draw each letter.","chars":["W","X","Y","Z"]}
+]

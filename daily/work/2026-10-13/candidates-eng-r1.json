@@ -1,0 +1,242 @@
+[
+ {
+  "k": "eng-301",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Synonyms",
+  "lvl": "recruit",
+  "d": "easy",
+  "q": "Choose the word closest in meaning to 'Abundant'.",
+  "o": [
+   "Plentiful",
+   "Scarce",
+   "Tiny",
+   "Hidden"
+  ],
+  "a": 0,
+  "e": "'Abundant' means existing in large quantities, so the synonym is 'Plentiful'.",
+  "lang": "en",
+  "psc": "sslc",
+  "exam": "Kerala PSC"
+ },
+ {
+  "k": "eng-302",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Antonyms",
+  "lvl": "school",
+  "d": "easy",
+  "q": "Choose the word opposite in meaning to 'Ancient'.",
+  "o": [
+   "Aged",
+   "Antique",
+   "Historic",
+   "Modern"
+  ],
+  "a": 3,
+  "e": "'Ancient' means belonging to the distant past; its opposite is 'Modern'.",
+  "lang": "en",
+  "psc": "sslc",
+  "exam": "Kerala PSC"
+ },
+ {
+  "k": "eng-303",
+  "cat": "eng",
+  "s": "veng",
+  "t": "One-word substitution",
+  "lvl": "recruit",
+  "d": "easy",
+  "q": "One word for 'a person who does not believe in the existence of God':",
+  "o": [
+   "Optimist",
+   "Egoist",
+   "Atheist",
+   "Pacifist"
+  ],
+  "a": 2,
+  "e": "A person who does not believe that God exists is an 'Atheist'.",
+  "lang": "en",
+  "psc": "sslc",
+  "exam": "Kerala PSC"
+ },
+ {
+  "k": "eng-304",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Verb forms",
+  "lvl": "school",
+  "d": "easy",
+  "q": "What is the past participle of the verb 'swim'?",
+  "o": [
+   "swam",
+   "swum",
+   "swimmed",
+   "swimming"
+  ],
+  "a": 1,
+  "e": "The past participle of 'swim' is 'swum', as in 'I have swum across the river.'",
+  "lang": "en",
+  "psc": "sslc",
+  "exam": "Kerala PSC"
+ },
+ {
+  "k": "eng-305",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Prepositions",
+  "lvl": "recruit",
+  "d": "medium",
+  "q": "Fill in the blank: He was accused ___ theft.",
+  "o": [
+   "of",
+   "with",
+   "for",
+   "on"
+  ],
+  "a": 0,
+  "e": "The verb 'accuse' is followed by 'of': He was accused of theft.",
+  "lang": "en",
+  "psc": "sslc",
+  "exam": "Kerala PSC"
+ },
+ {
+  "k": "eng-306",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Plural forms",
+  "lvl": "hsec",
+  "d": "medium",
+  "q": "Choose the correct plural of 'analysis'.",
+  "o": [
+   "analysises",
+   "analysiss",
+   "analysies",
+   "analyses"
+  ],
+  "a": 3,
+  "e": "Nouns ending in '-is' form the plural with '-es' in place of '-is', so the plural is 'analyses'.",
+  "lang": "en",
+  "psc": "plus2",
+  "exam": "Kerala PSC"
+ },
+ {
+  "k": "eng-307",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Tenses",
+  "lvl": "recruit",
+  "d": "medium",
+  "q": "Fill in the blank: By next March, I ___ my course.",
+  "o": [
+   "had completed",
+   "will have completed",
+   "will complete",
+   "has completed"
+  ],
+  "a": 1,
+  "e": "An action that will be finished before a stated future time takes the future perfect tense: 'will have completed'.",
+  "lang": "en",
+  "psc": "plus2",
+  "exam": "Kerala PSC"
+ },
+ {
+  "k": "eng-308",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Idioms",
+  "lvl": "recruit",
+  "d": "medium",
+  "q": "The idiom 'a red herring' means:",
+  "o": [
+   "A sign of approaching danger",
+   "A person who is very angry",
+   "Something that misleads or distracts from the main issue",
+   "A rare and valuable object"
+  ],
+  "a": 2,
+  "e": "The idiom 'a red herring' means 'Something that misleads or distracts from the main issue'.",
+  "lang": "en",
+  "psc": "plus2",
+  "exam": "Kerala PSC"
+ },
+ {
+  "k": "eng-309",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Active and passive voice",
+  "lvl": "hsec",
+  "d": "hard",
+  "q": "Choose the correct passive form of: Open the door.",
+  "o": [
+   "The door is opened.",
+   "The door was opened.",
+   "Let the door is opened.",
+   "Let the door be opened."
+  ],
+  "a": 3,
+  "e": "An imperative sentence is changed into the passive with 'Let ... be + past participle': 'Let the door be opened.'",
+  "lang": "en",
+  "psc": "plus2",
+  "exam": "Kerala PSC"
+ },
+ {
+  "k": "eng-310",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Foreign phrases",
+  "lvl": "recruit",
+  "d": "medium",
+  "q": "The Latin phrase 'bona fide' means:",
+  "o": [
+   "Final; without any appeal",
+   "Genuine; made in good faith",
+   "Temporary; for the time being",
+   "False; done with a hidden motive"
+  ],
+  "a": 1,
+  "e": "'Bona fide' literally means 'in good faith', i.e. 'Genuine; made in good faith'.",
+  "lang": "en",
+  "psc": "degree",
+  "exam": "Kerala PSC"
+ },
+ {
+  "k": "eng-311",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Subjunctive mood",
+  "lvl": "recruit",
+  "d": "hard",
+  "q": "Fill in the blank: It is high time we ___ home.",
+  "o": [
+   "leave",
+   "have left",
+   "left",
+   "are leaving"
+  ],
+  "a": 2,
+  "e": "After the expression 'It is high time', the past tense is used to show that the action is already due, so the answer is 'left'.",
+  "lang": "en",
+  "psc": "degree",
+  "exam": "Kerala PSC"
+ },
+ {
+  "k": "eng-312",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Synonyms",
+  "lvl": "recruit",
+  "d": "advanced",
+  "q": "Choose the word closest in meaning to 'Obsequious'.",
+  "o": [
+   "Servile",
+   "Arrogant",
+   "Candid",
+   "Obstinate"
+  ],
+  "a": 0,
+  "e": "'Obsequious' means excessively eager to please or obey others; its synonym is 'Servile'.",
+  "lang": "en",
+  "psc": "degree",
+  "exam": "Kerala PSC"
+ }
+]

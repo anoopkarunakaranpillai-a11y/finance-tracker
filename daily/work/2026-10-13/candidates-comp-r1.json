@@ -1,0 +1,242 @@
+[
+ {
+  "k": "comp-301",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Computer pioneers",
+  "lvl": "recruit",
+  "d": "easy",
+  "q": "'കമ്പ്യൂട്ടറിന്റെ പിതാവ്' എന്നറിയപ്പെടുന്നത് ആര്?",
+  "o": [
+   "Alan Turing",
+   "Bill Gates",
+   "John von Neumann",
+   "Charles Babbage"
+  ],
+  "a": 3,
+  "e": "അനലിറ്റിക്കൽ എഞ്ചിൻ രൂപകല്പന ചെയ്ത Charles Babbage ആണ് 'കമ്പ്യൂട്ടറിന്റെ പിതാവ്' എന്നറിയപ്പെടുന്നത്.",
+  "lang": "ml",
+  "psc": "sslc",
+  "exam": "Kerala PSC"
+ },
+ {
+  "k": "comp-302",
+  "cat": "comp",
+  "s": "comp",
+  "t": "World Wide Web",
+  "lvl": "recruit",
+  "d": "easy",
+  "q": "വേൾഡ് വൈഡ് വെബ് (WWW) കണ്ടുപിടിച്ചത് ആര്?",
+  "o": [
+   "Larry Page",
+   "Tim Berners-Lee",
+   "Vint Cerf",
+   "Steve Jobs"
+  ],
+  "a": 1,
+  "e": "1989-ൽ CERN-ൽ പ്രവർത്തിക്കവേ Tim Berners-Lee ആണ് വേൾഡ് വൈഡ് വെബ് വികസിപ്പിച്ചത്.",
+  "lang": "ml",
+  "psc": "sslc",
+  "exam": "Kerala PSC"
+ },
+ {
+  "k": "comp-303",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Abbreviations",
+  "lvl": "recruit",
+  "d": "easy",
+  "q": "'URL' എന്നതിന്റെ പൂർണ്ണരൂപം എന്ത്?",
+  "o": [
+   "Uniform Resource Locator",
+   "Uniform Routing Line",
+   "Universal Reference Link",
+   "Unified Resource Library"
+  ],
+  "a": 0,
+  "e": "വെബ് വിലാസത്തെ സൂചിപ്പിക്കുന്ന URL-ന്റെ പൂർണ്ണരൂപം Uniform Resource Locator എന്നാണ്.",
+  "lang": "ml",
+  "psc": "sslc",
+  "exam": "Kerala PSC"
+ },
+ {
+  "k": "comp-304",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Volatile memory",
+  "lvl": "recruit",
+  "d": "medium",
+  "q": "വൈദ്യുതി നിലയ്ക്കുമ്പോൾ ഉള്ളടക്കം നഷ്ടപ്പെടുന്ന (Volatile) മെമ്മറി ഏത്?",
+  "o": [
+   "ROM",
+   "RAM",
+   "DVD",
+   "Hard disk"
+  ],
+  "a": 1,
+  "e": "RAM ഒരു വോളറ്റൈൽ മെമ്മറിയാണ്; വൈദ്യുതി നിലച്ചാൽ അതിലെ ഡാറ്റ നഷ്ടപ്പെടും.",
+  "lang": "ml",
+  "psc": "sslc",
+  "exam": "Kerala PSC"
+ },
+ {
+  "k": "comp-305",
+  "cat": "comp",
+  "s": "comp",
+  "t": "MS Word shortcuts",
+  "lvl": "recruit",
+  "d": "medium",
+  "q": "MS Word-ൽ ഒരു പുതിയ ബ്ലാങ്ക് ഡോക്യുമെന്റ് തുറക്കാൻ ഉപയോഗിക്കുന്ന കീബോർഡ് ഷോർട്ട്കട്ട് ഏത്?",
+  "o": [
+   "Ctrl + O",
+   "Ctrl + D",
+   "Ctrl + B",
+   "Ctrl + N"
+  ],
+  "a": 3,
+  "e": "പുതിയ (New) ഡോക്യുമെന്റ് തുറക്കാനുള്ള ഷോർട്ട്കട്ട് Ctrl + N ആണ്.",
+  "lang": "ml",
+  "psc": "sslc",
+  "exam": "Kerala PSC"
+ },
+ {
+  "k": "comp-306",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Data units",
+  "lvl": "recruit",
+  "d": "medium",
+  "q": "ഒരു നിബിൾ (Nibble) എത്ര ബിറ്റുകൾ ചേർന്നതാണ്?",
+  "o": [
+   "2 ബിറ്റ്",
+   "16 ബിറ്റ്",
+   "4 ബിറ്റ്",
+   "8 ബിറ്റ്"
+  ],
+  "a": 2,
+  "e": "ഒരു നിബിൾ = 4 ബിറ്റ്; അതായത് ഒരു ബൈറ്റിന്റെ പകുതി.",
+  "lang": "ml",
+  "psc": "plus2",
+  "exam": "Kerala PSC"
+ },
+ {
+  "k": "comp-307",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Universal gates",
+  "lvl": "hsec",
+  "d": "medium",
+  "q": "താഴെ പറയുന്നവയിൽ യൂണിവേഴ്സൽ ഗേറ്റ് (Universal Gate) ഏത്?",
+  "o": [
+   "NAND",
+   "XNOR",
+   "NOT",
+   "XOR"
+  ],
+  "a": 0,
+  "e": "NAND ഗേറ്റുകൾ മാത്രം ഉപയോഗിച്ച് മറ്റേത് ലോജിക് ഗേറ്റും നിർമ്മിക്കാം; അതിനാൽ NAND ഒരു യൂണിവേഴ്സൽ ഗേറ്റാണ്.",
+  "lang": "ml",
+  "psc": "plus2",
+  "exam": "Kerala PSC"
+ },
+ {
+  "k": "comp-308",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Number systems",
+  "lvl": "hsec",
+  "d": "easy",
+  "q": "ഒക്ടൽ (Octal) സംഖ്യാ സമ്പ്രദായത്തിന്റെ ബേസ് (Base) എത്ര?",
+  "o": [
+   "16",
+   "10",
+   "2",
+   "8"
+  ],
+  "a": 3,
+  "e": "ഒക്ടൽ സമ്പ്രദായത്തിൽ 0 മുതൽ 7 വരെയുള്ള അക്കങ്ങൾ ഉപയോഗിക്കുന്നു; അതിന്റെ ബേസ് 8 ആണ്.",
+  "lang": "ml",
+  "psc": "plus2",
+  "exam": "Kerala PSC"
+ },
+ {
+  "k": "comp-309",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Network topology",
+  "lvl": "recruit",
+  "d": "medium",
+  "q": "എല്ലാ കമ്പ്യൂട്ടറുകളും ഒരു കേന്ദ്ര ഹബ്ബുമായോ സ്വിച്ചുമായോ ബന്ധിപ്പിച്ചിരിക്കുന്ന നെറ്റ്‌വർക്ക് ടോപ്പോളജി ഏത്?",
+  "o": [
+   "Ring",
+   "Star",
+   "Bus",
+   "Mesh"
+  ],
+  "a": 1,
+  "e": "ഓരോ നോഡും ഒരു കേന്ദ്ര ഉപകരണവുമായി ബന്ധിപ്പിക്കുന്ന ഘടനയാണ് Star ടോപ്പോളജി.",
+  "lang": "ml",
+  "psc": "plus2",
+  "exam": "Kerala PSC"
+ },
+ {
+  "k": "comp-310",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Port numbers",
+  "lvl": "recruit",
+  "d": "hard",
+  "q": "HTTP പ്രോട്ടോക്കോളിന്റെ ഡിഫോൾട്ട് പോർട്ട് നമ്പർ ഏത്?",
+  "o": [
+   "80",
+   "443",
+   "21",
+   "25"
+  ],
+  "a": 0,
+  "e": "HTTP സാധാരണയായി പോർട്ട് 80 ഉപയോഗിക്കുന്നു.",
+  "lang": "ml",
+  "psc": "degree",
+  "exam": "Kerala PSC"
+ },
+ {
+  "k": "comp-311",
+  "cat": "comp",
+  "s": "comp",
+  "t": "SQL commands",
+  "lvl": "recruit",
+  "d": "hard",
+  "q": "താഴെ പറയുന്നവയിൽ DDL (Data Definition Language) വിഭാഗത്തിൽപ്പെടുന്ന SQL കമാൻഡ് ഏത്?",
+  "o": [
+   "UPDATE",
+   "INSERT",
+   "CREATE",
+   "DELETE"
+  ],
+  "a": 2,
+  "e": "ഡാറ്റാബേസ് ഘടന നിർവചിക്കുന്ന CREATE ഒരു DDL കമാൻഡാണ്; ഡാറ്റ കൈകാര്യം ചെയ്യുന്ന കമാൻഡുകൾ DML വിഭാഗത്തിലാണ്.",
+  "lang": "ml",
+  "psc": "degree",
+  "exam": "Kerala PSC"
+ },
+ {
+  "k": "comp-312",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Two's complement",
+  "lvl": "recruit",
+  "d": "advanced",
+  "q": "8 ബിറ്റ് ടൂസ് കോംപ്ലിമെന്റ് (Two's complement) രീതിയിൽ പ്രതിനിധീകരിക്കാവുന്ന സംഖ്യകളുടെ പരിധി ഏത്?",
+  "o": [
+   "0 മുതൽ 255 വരെ",
+   "−127 മുതൽ +127 വരെ",
+   "−128 മുതൽ +127 വരെ",
+   "−255 മുതൽ +255 വരെ"
+  ],
+  "a": 2,
+  "e": "n ബിറ്റ് ടൂസ് കോംപ്ലിമെന്റിൽ പരിധി −2^(n−1) മുതൽ 2^(n−1)−1 വരെ; n = 8 ആകുമ്പോൾ −128 മുതൽ +127 വരെ.",
+  "lang": "ml",
+  "psc": "degree",
+  "exam": "Kerala PSC"
+ }
+]

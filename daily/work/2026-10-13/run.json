@@ -1,0 +1,19 @@
+{
+ "started": "2026-10-13T05:49:31+00:00",
+ "runs": [
+  {
+   "at": "2026-10-13T05:49:31+00:00",
+   "kind": "scheduled"
+  }
+ ],
+ "errors": [],
+ "retries": 0,
+ "notes": [
+  "Settings: no _auto document in the tracker database; defaults from daily/config.default.json used (enabled, 08:48/11:48 Asia/Kuwait, matches the schedule).",
+  "Candidates: 120 written by 4 separate writer agents (r1); independent answer check by 3 separate blind-solver agents (no keys, explanations or calc): 120/120 agree. Options were then shuffled to spread answers evenly over A-D, with the solvers' chosen option remapped to its new position (verify-r1.json).",
+  "Build: 110 published; 8 duplicates/near-duplicates of earlier questions and 2 invalid (deg-303 repeated option, deg-306 two options matched the calculation) were rejected; every category met its allocation so no fix round was needed.",
+  "Current affairs: 5 items confirmed by web search on 2026-10-13 (ca.json); 5 CA questions cite them.",
+  "Official previous papers: sources.official is empty in the settings, so no sites were checked; nothing imported.",
+  "Navamika: 6 games written (colors, matching, rhymes, counting, memory, tracing)."
+ ]
+}
