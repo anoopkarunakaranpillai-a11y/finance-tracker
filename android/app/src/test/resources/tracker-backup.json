@@ -1,0 +1,37 @@
+{
+ "app": "anoops-finance-tracker",
+ "version": 1,
+ "exported": "2026-10-14T18:00:00.000Z",
+ "state": {
+  "accounts": [{"id": "t1", "name": "Trading account", "broker": "FXPro", "currency": "USD"}],
+  "trades": [],
+  "money": {
+   "v": 4,
+   "cur": "KWD",
+   "tx": [
+    {"id": "m1", "date": "2026-09-01", "time": "", "type": "income", "cat": "salary", "amount": 1450, "note": "Monthly salary", "acct": "pa-bank", "merchant": "Employer"},
+    {"id": "m2", "date": "2026-09-01", "time": "", "type": "expense", "cat": "housing", "amount": 450, "note": "Apartment rent", "acct": "pa-bank", "billId": "b1"},
+    {"id": "m3", "date": "2026-09-03", "time": "09:15", "type": "expense", "cat": "groceries", "amount": 38.5, "note": "Weekly groceries", "acct": "pa-card", "merchant": "Lulu Hypermarket", "tags": ["family", "food"]},
+    {"id": "m4", "date": "2026-09-04", "time": "", "type": "transfer", "cat": "transfer", "amount": 60, "note": "ATM withdrawal", "acct": "pa-bank", "toAcct": "pa-cash"},
+    {"id": "m5", "date": "2026-09-26", "time": "", "type": "transfer", "cat": "transfer", "amount": 120.25, "note": "Credit card payment", "acct": "pa-bank", "toAcct": "pa-card"},
+    {"id": "m6", "date": "2026-09-20", "time": "", "type": "expense", "cat": "dining", "amount": "18.750", "note": "Dinner, \"Talabat\"", "acct": "pa-card"},
+    {"id": "bad1", "date": "not-a-date", "type": "expense", "cat": "fun", "amount": 5, "acct": "pa-cash"},
+    {"id": "bad2", "date": "2026-09-05", "type": "expense", "cat": "fun", "amount": -5, "acct": "pa-cash"},
+    {"id": "m7", "date": "2026-09-10", "type": "expense", "cat": "fun", "amount": 11, "acct": "pa-missing", "note": "Cinema"}
+   ],
+   "budgets": {"groceries": 160, "dining": 60, "fun": ""},
+   "goals": [
+    {"id": "g1", "name": "Emergency fund", "type": "savings", "target": 3000, "saved": 1200, "deadline": "2027-06-30", "color": "--c-teal", "history": [{"date": "2026-09-01", "amount": 1200}]}
+   ],
+   "accounts": [
+    {"id": "pa-bank", "name": "NBK Salary", "type": "bank", "opening": 2500, "d": {"inst": "National Bank of Kuwait", "last4": "1234"}},
+    {"id": "pa-cash", "name": "Cash", "type": "cash", "opening": 80},
+    {"id": "pa-card", "name": "Visa", "type": "card", "opening": -150, "d": {"limit": "1500", "due": "25"}}
+   ],
+   "bills": [
+    {"id": "b1", "title": "Rent", "amount": 450, "cat": "housing", "provider": "Landlord", "due": "2026-10-01", "repeat": "monthly", "remindDays": 3, "acct": "pa-bank", "note": "", "number": "", "paid": ["2026-09-01"]}
+   ]
+  }
+ },
+ "library": null
+}

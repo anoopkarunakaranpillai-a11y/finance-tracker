@@ -1,0 +1,137 @@
+name: Android app
+
+on:
+  push:
+    branches: [main]
+    paths: ["android/**", ".github/workflows/android.yml", ".github/scripts/android_*"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: android-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build, unit and UI tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    defaults:
+      run:
+        working-directory: android
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - uses: gradle/actions/setup-gradle@v4
+
+      - name: Optional release signing key (from repository secrets)
+        env:
+          KS: ${{ secrets.FT_KEYSTORE_BASE64 }}
+        run: |
+          if [ -n "$KS" ]; then
+            echo "$KS" | base64 -d > "$RUNNER_TEMP/upload.jks"
+            echo "FT_KEYSTORE_PATH=$RUNNER_TEMP/upload.jks" >> "$GITHUB_ENV"
+            echo "Release signing: on"
+          else
+            echo "Release signing: off (no FT_KEYSTORE_BASE64 secret). Release APK/AAB will be unsigned."
+          fi
+
+      - name: Build APKs and AAB, run unit + UI tests and lint
+        id: gradle
+        env:
+          FT_KEYSTORE_PASSWORD: ${{ secrets.FT_KEYSTORE_PASSWORD }}
+          FT_KEY_ALIAS: ${{ secrets.FT_KEY_ALIAS }}
+          FT_KEY_PASSWORD: ${{ secrets.FT_KEY_PASSWORD }}
+          FT_VERSION_CODE: ${{ github.run_number }}
+        run: |
+          set +e
+          chmod +x gradlew
+          ./gradlew --no-daemon --continue assembleDebug assembleRelease bundleRelease testDebugUnitTest lintDebug > ../ci-build.log 2>&1
+          code=$?
+          echo "code=$code" >> "$GITHUB_OUTPUT"
+          tail -60 ../ci-build.log
+          exit 0
+
+      - name: Collect results
+        if: always()
+        run: python3 ../.github/scripts/android_ci_report.py build ../ci-out
+
+      - name: Publish results to the android-ci branch
+        if: always()
+        working-directory: .
+        env:
+          TOKEN: ${{ github.token }}
+        run: |
+          rm -rf /tmp/pub && mkdir /tmp/pub && cp -r ci-out/. /tmp/pub/
+          cd /tmp/pub
+          git init -q -b android-ci
+          git config user.name "android-ci"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          echo "Run ${{ github.run_number }} · commit ${{ github.sha }} · gradle exit ${{ steps.gradle.outputs.code }}" > RUN.txt
+          git add -A && git commit -q -m "Android CI run ${{ github.run_number }} for ${{ github.sha }}"
+          git push -q -f "https://x-access-token:${TOKEN}@github.com/${{ github.repository }}.git" android-ci
+
+      - name: Attach APK and AAB to the "android-latest" release
+        if: steps.gradle.outputs.code == '0'
+        working-directory: .
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release delete android-latest -y --cleanup-tag || true
+          files="ci-out/app-debug.apk"
+          for f in ci-out/app-release.apk ci-out/app-release-unsigned.apk ci-out/app-release.aab; do [ -f "$f" ] && files="$files $f"; done
+          gh release create android-latest $files --prerelease --target "${{ github.sha }}" \
+            --title "Android app (latest build ${{ github.run_number }})" \
+            --notes "Install app-debug.apk on your phone to try the app. The release APK/AAB are for Google Play and are only signed when the signing secrets are set."
+
+      - name: Fail if the build failed
+        if: steps.gradle.outputs.code != '0'
+        run: exit 1
+
+  device:
+    name: Emulator tests and launch time
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - uses: gradle/actions/setup-gradle@v4
+      - name: Enable KVM
+        run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
+      - name: Run on emulator (API 34, Pixel 6)
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 34
+          target: google_apis
+          arch: x86_64
+          profile: pixel_6
+          disable-animations: true
+          emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
+          script: bash .github/scripts/android_device_run.sh
+      - name: Collect results
+        if: always()
+        working-directory: android
+        run: python3 ../.github/scripts/android_ci_report.py device ../device-out
+      - name: Add device results to the android-ci branch
+        if: always()
+        env:
+          TOKEN: ${{ github.token }}
+        run: |
+          rm -rf /tmp/pub && git clone -q --depth 1 -b android-ci "https://x-access-token:${TOKEN}@github.com/${{ github.repository }}.git" /tmp/pub
+          cp -r device-out/. /tmp/pub/
+          cd /tmp/pub
+          git config user.name "android-ci"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A && git commit -q -m "Device results for run ${{ github.run_number }}" && git push -q origin android-ci
