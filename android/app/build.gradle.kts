@@ -3,6 +3,7 @@ plugins {
     id("org.jetbrains.kotlin.android")
     id("org.jetbrains.kotlin.plugin.compose")
     id("com.google.devtools.ksp")
+    id("androidx.room")
 }
 
 // Release signing comes from environment variables (set as GitHub secrets in CI,
@@ -76,8 +77,9 @@ android {
     }
 }
 
-ksp {
-    arg("room.schemaLocation", "$projectDir/schemas")
+// Room schema history (one JSON per database version) for migration checks; the plugin handles variants safely.
+room {
+    schemaDirectory("$projectDir/schemas")
 }
 
 dependencies {
