@@ -7,6 +7,8 @@ import androidx.compose.ui.test.junit4.createAndroidComposeRule
 import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.performClick
+import androidx.compose.ui.test.onRoot
+import androidx.compose.ui.test.printToString
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import kotlinx.coroutines.runBlocking
 import org.junit.Assert.assertTrue
@@ -56,7 +58,8 @@ class StudyCornerTest {
             if (r.contains("true,true,true,true,function")) break
             Thread.sleep(1_500)
         }
-        assertTrue("Study page state: $r", r.contains("true,true,true,true,function"))
+        val ui = runCatching { rule.onRoot(useUnmergedTree = true).printToString(maxDepth = 12) }.getOrElse { "semantics: $it" }
+        assertTrue("Study page state: $r\n$ui", r.contains("true,true,true,true,function"))
     }
 
     @Test fun TC_EDU_02_navamika_pages_load_in_study_only_mode() = check("navw", "nhome")
