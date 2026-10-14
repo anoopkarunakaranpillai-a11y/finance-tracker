@@ -10,6 +10,14 @@ echo "connected exit: $?" >> ../device.log
   echo "abi: $(adb shell getprop ro.product.cpu.abi)"
 } > ../device-info.txt
 adb install -r app/build/outputs/apk/debug/app-debug.apk >> ../device.log 2>&1
+adb install -r app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk >> ../device.log 2>&1
+# Screenshot tour with demo data (kept installed so the images can be pulled)
+adb shell am instrument -w -e class com.anoop.financetracker.ScreenshotTour com.anoop.financetracker.debug.test/androidx.test.runner.AndroidJUnitRunner >> ../device.log 2>&1
+mkdir -p ../shots
+for f in $(adb shell run-as com.anoop.financetracker.debug ls files/shots 2>/dev/null | tr -d '\r'); do
+  adb exec-out run-as com.anoop.financetracker.debug cat "files/shots/$f" > "../shots/$f"
+done
+ls -la ../shots >> ../device.log
 : > ../launch.txt
 for i in 1 2 3; do
   adb shell am force-stop com.anoop.financetracker.debug

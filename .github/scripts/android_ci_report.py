@@ -59,6 +59,11 @@ else:
     times = [int(x) for x in re.findall(r"TotalTime:\s*(\d+)", launch)]
     summary = {"kind": "device", "errors": errs, "tests": tests, "launch_ms": times, "device": info,
                "passed": sum(t["status"] == "Pass" for t in tests), "failed": sum(t["status"] == "Fail" for t in tests)}
+    if os.path.isdir("../shots"):
+        os.makedirs(os.path.join(out, "shots"), exist_ok=True)
+        for f in os.listdir("../shots"):
+            if f.endswith(".png") and os.path.getsize(os.path.join("../shots", f)) > 0:
+                shutil.copy(os.path.join("../shots", f), os.path.join(out, "shots", f))
     open(os.path.join(out, "device-log-tail.txt"), "w").write(tail + "\n\n--- launch ---\n" + launch)
     json.dump(summary, open(os.path.join(out, "device-summary.json"), "w"), indent=1)
 print(json.dumps({k: v for k, v in summary.items() if k not in ("tests",)}, indent=1)[:3000])
