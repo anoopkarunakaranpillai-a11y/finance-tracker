@@ -178,9 +178,10 @@ fun ChoiceField(label: String, value: String, choices: List<Choice>, onPick: (St
 
 @Composable
 fun KeyValue(k: String, v: String, color: Color = Color.Unspecified, bold: Boolean = false) {
-    Row(Modifier.fillMaxWidth().padding(vertical = 3.dp), horizontalArrangement = Arrangement.SpaceBetween) {
-        Text(k, style = MaterialTheme.typography.bodyMedium, color = Ft.c.muted)
-        Text(v, style = MaterialTheme.typography.bodyMedium, color = color, fontWeight = if (bold) FontWeight.Bold else FontWeight.Medium)
+    Row(Modifier.fillMaxWidth().padding(vertical = 3.dp), verticalAlignment = Alignment.Top) {
+        Text(k, style = MaterialTheme.typography.bodyMedium, color = Ft.c.muted, modifier = Modifier.weight(1f).padding(end = 12.dp))
+        Text(v, style = MaterialTheme.typography.bodyMedium, color = color, fontWeight = if (bold) FontWeight.Bold else FontWeight.Medium,
+            textAlign = TextAlign.End, modifier = Modifier.weight(1.3f, fill = false))
     }
 }
 
@@ -191,7 +192,7 @@ fun StatTile(label: String, value: String, color: Color, modifier: Modifier = Mo
             Text(label, style = MaterialTheme.typography.labelMedium, color = Ft.c.muted)
             Spacer(Modifier.size(4.dp))
             Text(value, style = MaterialTheme.typography.titleMedium, color = color, fontWeight = FontWeight.Bold, maxLines = 1, overflow = TextOverflow.Ellipsis)
-            if (sub != null) Text(sub, style = MaterialTheme.typography.labelSmall, color = Ft.c.muted, maxLines = 1)
+            if (sub != null) Text(sub, style = MaterialTheme.typography.labelSmall, color = Ft.c.muted, maxLines = 2)
         }
     }
 }

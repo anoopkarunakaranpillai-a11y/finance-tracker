@@ -32,6 +32,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.lifecycle.viewmodel.initializer
@@ -112,7 +113,8 @@ fun AppRoot(container: AppContainer, nav: NavHostController = rememberNavControl
             if (isTop && !wide) NavigationBar {
                 TOP.forEach { d ->
                     NavigationBarItem(selected = route == d.route, onClick = { go(d.route) },
-                        icon = { Icon(d.icon, contentDescription = null) }, label = { Text(d.label, maxLines = 1) },
+                        icon = { Icon(d.icon, contentDescription = null) },
+                        label = { Text(d.label, maxLines = 1, softWrap = false, style = MaterialTheme.typography.labelSmall.copy(letterSpacing = 0.sp)) },
                         modifier = Modifier.testTag("nav-${d.route}"))
                 }
             }

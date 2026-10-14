@@ -194,8 +194,9 @@ fun DashboardScreen(st: FinanceState, nav: NavHostController) {
 @Composable
 private fun QuickAction(label: String, modifier: Modifier, onClick: () -> Unit) {
     FilledTonalButton(onClick = onClick, modifier = modifier.heightIn(min = 48.dp),
+        contentPadding = androidx.compose.foundation.layout.PaddingValues(horizontal = 4.dp, vertical = 8.dp),
         colors = androidx.compose.material3.ButtonDefaults.filledTonalButtonColors(containerColor = Color.White.copy(alpha = 0.18f), contentColor = Color.White)) {
-        Text(label, maxLines = 1, style = MaterialTheme.typography.labelLarge)
+        Text(label, maxLines = 1, softWrap = false, style = MaterialTheme.typography.labelLarge)
     }
 }
 
