@@ -106,7 +106,10 @@ fun StudyWebScreen(who: String, onBack: () -> Unit) {
             style = MaterialTheme.typography.bodySmall, modifier = Modifier.fillMaxWidth().background(Ft.c.warn.copy(alpha = 0.18f)).padding(10.dp).testTag("offline-banner"))
         if (progress in 1..99) LinearProgressIndicator(progress = { progress / 100f }, modifier = Modifier.fillMaxWidth())
         Box(Modifier.fillMaxSize()) {
-            AndroidView(modifier = Modifier.fillMaxSize(), factory = { c ->
+            AndroidView(modifier = Modifier.fillMaxSize(), onRelease = { w ->
+                // Free the page (and its text-to-speech engine) when the screen goes away.
+                (w.tag as? StudyBridge)?.release(); w.stopLoading(); w.destroy()
+            }, factory = { c ->
                 WebView(c).apply {
                     val bridge = StudyBridge(c, this, host)
                     tag = bridge
@@ -170,10 +173,7 @@ fun StudyWebScreen(who: String, onBack: () -> Unit) {
         }
     }
     DisposableEffect(Unit) {
-        onDispose {
-            web?.let { w -> (w.tag as? StudyBridge)?.release(); w.stopLoading(); w.destroy() }
-            fileCb?.onReceiveValue(emptyArray())
-        }
+        onDispose { fileCb?.onReceiveValue(emptyArray()) }
     }
 }
 
