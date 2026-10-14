@@ -19,7 +19,7 @@ def junit(pattern):
                 el = tc.find(tag)
                 if el is not None:
                     st = s
-                    msg = ((el.get("message") or "") + "\n" + (el.text or ""))[:1500]
+                    msg = ((el.get("message") or "") + "\n" + (el.text or ""))[:5000]
             tests.append({"class": tc.get("classname"), "name": tc.get("name"), "status": st,
                           "time": float(tc.get("time") or 0), "message": msg.strip()})
     return tests

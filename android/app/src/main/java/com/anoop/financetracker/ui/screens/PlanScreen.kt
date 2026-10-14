@@ -109,7 +109,7 @@ private fun BudgetsTab(st: FinanceState, vm: AppViewModel) {
                     if (i > 0) HorizontalDivider(color = Ft.c.line)
                     val limit = st.budgets.firstOrNull { it.category == c.key }?.limitMils
                     val sp = spent[c.key] ?: 0L
-                    Column(Modifier.fillMaxWidth().heightIn(min = 52.dp).clickable { edit = c.key }.padding(vertical = 8.dp).testTag("budget-${c.key}")) {
+                    Column(Modifier.fillMaxWidth().heightIn(min = 52.dp).clickable { edit = if (edit == c.key) null else c.key }.padding(vertical = 8.dp).testTag("budget-${c.key}")) {
                         Row(verticalAlignment = Alignment.CenterVertically) {
                             Text("${c.emoji}  ${c.name}", modifier = Modifier.weight(1f))
                             Text(if (limit != null) "${m(sp)} / ${m(limit)}" else if (sp > 0) "${m(sp)} · no limit" else "Set limit",
@@ -117,24 +117,31 @@ private fun BudgetsTab(st: FinanceState, vm: AppViewModel) {
                         }
                         if (limit != null) ProgressBar(sp.toDouble() / limit, Modifier.padding(top = 6.dp))
                     }
+                    if (edit == c.key) BudgetEditor(c.key, limit, cur, onSave = { v -> vm.setBudget(c.key, v); edit = null }, onCancel = { edit = null })
                 }
             }
         }
     }
-    edit?.let { key ->
-        val c = Categories.find(key, st.custom)
-        var text by remember(key) { mutableStateOf(st.budgets.firstOrNull { it.category == key }?.let { Money.toInput(it.limitMils, cur) } ?: "") }
-        var err by remember(key) { mutableStateOf<String?>(null) }
-        AlertDialog(onDismissRequest = { edit = null }, title = { Text("${c.emoji} ${c.name}") },
-            text = { Column { Text("Monthly limit in $cur. Leave empty for no limit.", color = Ft.c.muted); Spacer(Modifier.size(8.dp)); AmountField(text, { text = it; err = null }, "Monthly limit", err, tag = "budget") } },
-            confirmButton = { TextButton(onClick = {
-                if (text.isBlank()) { vm.setBudget(key, null); edit = null }
+}
+
+/** Inline editor shown under a category row (no pop-up, so it stays usable with large fonts and the keyboard open). */
+@Composable
+private fun BudgetEditor(key: String, limit: Long?, cur: String, onSave: (Long?) -> Unit, onCancel: () -> Unit) {
+    var text by remember(key) { mutableStateOf(limit?.let { Money.toInput(it, cur) } ?: "") }
+    var err by remember(key) { mutableStateOf<String?>(null) }
+    Column(Modifier.fillMaxWidth().padding(bottom = 10.dp)) {
+        AmountField(text, { text = it; err = null }, "Monthly limit ($cur) · empty = no limit", err, tag = "budget")
+        Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+            Button(onClick = {
+                if (text.isBlank()) onSave(null)
                 else when (val p = Money.parsePositive(text, cur)) {
-                    is Money.Parse.Ok -> { vm.setBudget(key, p.mils); edit = null }
+                    is Money.Parse.Ok -> onSave(p.mils)
                     is Money.Parse.Error -> err = p.message
                 }
-            }, modifier = Modifier.testTag("budget-save")) { Text("Save") } },
-            dismissButton = { TextButton(onClick = { edit = null }) { Text("Cancel") } })
+            }, modifier = Modifier.testTag("budget-save")) { Text("Save") }
+            if (limit != null) OutlinedButton(onClick = { onSave(null) }) { Text("Remove limit") }
+            TextButton(onClick = onCancel) { Text("Cancel") }
+        }
     }
 }
 

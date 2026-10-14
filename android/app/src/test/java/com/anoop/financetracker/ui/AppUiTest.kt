@@ -46,6 +46,12 @@ class AppUiTest {
     private fun waitTag(tag: String) = rule.waitUntil(5_000) { rule.onAllNodesWithTag(tag).fetchSemanticsNodes().isNotEmpty() }
     private fun waitText(text: String, substring: Boolean = true) =
         rule.waitUntil(5_000) { rule.onAllNodesWithText(text, substring = substring).fetchSemanticsNodes().isNotEmpty() }
+    /** Waits for a repository condition, letting the paused Robolectric main looper run Room/coroutine callbacks. */
+    private fun waitRepo(cond: () -> Boolean) = rule.waitUntil(8_000) {
+        org.robolectric.Shadows.shadowOf(android.os.Looper.getMainLooper()).idle()
+        Thread.sleep(20)
+        cond()
+    }
     private fun tag(t: String): SemanticsNodeInteraction = rule.onNodeWithTag(t, useUnmergedTree = true)
 
     private fun addExpense(amount: String, category: String = "groceries", note: String = "") {
@@ -102,7 +108,7 @@ class AppUiTest {
         tag("qa-transfer").performClick(); waitTag("field-amount")
         tag("field-amount").performTextInput("60")
         tag("tx-save").performScrollTo().performClick()
-        rule.waitUntil(5_000) { runBlocking { c.repo.allTxs() }.isNotEmpty() }
+        waitRepo { runBlocking { c.repo.allTxs() }.isNotEmpty() }
         waitTag("total-balance")
         val t = runBlocking { c.repo.allTxs() }.single()
         assertEquals("transfer", t.type)
@@ -127,7 +133,7 @@ class AppUiTest {
         waitText("Delete this transaction?")
         assertEquals(1, runBlocking { c.repo.allTxs() }.size) // nothing removed before confirming
         rule.onNodeWithTag("confirm").performClick()
-        rule.waitUntil(5_000) { runBlocking { c.repo.allTxs() }.isEmpty() }
+        waitRepo { runBlocking { c.repo.allTxs() }.isEmpty() }
     }
 
     @Test fun TC_UI_06_first_run_start_fresh_creates_default_accounts() {
@@ -135,7 +141,7 @@ class AppUiTest {
         waitTag("welcome-start")
         tag("welcome-start").performClick()
         waitTag("total-balance")
-        rule.waitUntil(5_000) { runBlocking { c.repo.snapshot("KWD").accounts.size } == 3 }
+        waitRepo { runBlocking { c.repo.snapshot("KWD").accounts.size } == 3 }
     }
 
     @Test fun TC_UI_07_empty_states_are_helpful() {
@@ -165,7 +171,7 @@ class AppUiTest {
         waitTag("field-budget")
         tag("field-budget").performTextInput("150")
         tag("budget-save").performClick()
-        rule.waitUntil(5_000) { runBlocking { c.repo.snapshot("KWD").budgets }.isNotEmpty() }
+        waitRepo { runBlocking { c.repo.snapshot("KWD").budgets }.isNotEmpty() }
         tag("nav-dashboard").performClick()
         waitText("KWD 0.000 of KWD 150.000")
     }
