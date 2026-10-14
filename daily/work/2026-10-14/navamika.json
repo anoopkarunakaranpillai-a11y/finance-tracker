@@ -1,0 +1,667 @@
+[
+ {
+  "id": "jungle-friends",
+  "type": "animals",
+  "title": "Jungle Friends",
+  "desc": "Find the animal!",
+  "difficulty": "easy",
+  "instructions": "Listen and tap the right animal.",
+  "questions": [
+   {
+    "q": "Which animal has a long trunk?",
+    "options": [
+     {
+      "e": "🐒",
+      "t": "Monkey"
+     },
+     {
+      "e": "🐘",
+      "t": "Elephant"
+     },
+     {
+      "e": "🦁",
+      "t": "Lion"
+     }
+    ],
+    "answer": 1,
+    "good": "Yes! The elephant has a long trunk!"
+   },
+   {
+    "q": "Which animal has black and white stripes?",
+    "options": [
+     {
+      "e": "🦓",
+      "t": "Zebra"
+     },
+     {
+      "e": "🐻",
+      "t": "Bear"
+     },
+     {
+      "e": "🐊",
+      "t": "Crocodile"
+     }
+    ],
+    "answer": 0,
+    "good": "Great! The zebra has stripes!"
+   },
+   {
+    "q": "Which animal has a very long neck?",
+    "options": [
+     {
+      "e": "🐯",
+      "t": "Tiger"
+     },
+     {
+      "e": "🐒",
+      "t": "Monkey"
+     },
+     {
+      "e": "🦒",
+      "t": "Giraffe"
+     }
+    ],
+    "answer": 2,
+    "good": "Wow! The giraffe has a long neck!"
+   },
+   {
+    "q": "Who loves to eat bananas?",
+    "options": [
+     {
+      "e": "🦁",
+      "t": "Lion"
+     },
+     {
+      "e": "🐍",
+      "t": "Snake"
+     },
+     {
+      "e": "🐘",
+      "t": "Elephant"
+     },
+     {
+      "e": "🐒",
+      "t": "Monkey"
+     }
+    ],
+    "answer": 3,
+    "good": "Yummy! Monkeys love bananas!"
+   },
+   {
+    "q": "Which animal says ROAR?",
+    "options": [
+     {
+      "e": "🐑",
+      "t": "Sheep"
+     },
+     {
+      "e": "🦁",
+      "t": "Lion"
+     },
+     {
+      "e": "🐥",
+      "t": "Chick"
+     }
+    ],
+    "answer": 1,
+    "good": "Roar! The lion is the king of the jungle!"
+   },
+   {
+    "q": "Which animal is orange with black stripes?",
+    "options": [
+     {
+      "e": "🐯",
+      "t": "Tiger"
+     },
+     {
+      "e": "🦓",
+      "t": "Zebra"
+     },
+     {
+      "e": "🐼",
+      "t": "Panda"
+     }
+    ],
+    "answer": 0,
+    "good": "Super! The tiger is orange with stripes!"
+   }
+  ]
+ },
+ {
+  "id": "shape-detective",
+  "type": "shapes",
+  "title": "Shape Detective",
+  "desc": "Can you spot the shape?",
+  "difficulty": "easy",
+  "instructions": "Look carefully and tap the shape.",
+  "questions": [
+   {
+    "q": "Tap the circle.",
+    "options": [
+     {
+      "s": "square"
+     },
+     {
+      "s": "triangle"
+     },
+     {
+      "s": "circle"
+     }
+    ],
+    "answer": 2,
+    "good": "Yes! A circle is round!"
+   },
+   {
+    "q": "Tap the star.",
+    "options": [
+     {
+      "s": "star"
+     },
+     {
+      "s": "heart"
+     },
+     {
+      "s": "oval"
+     }
+    ],
+    "answer": 0,
+    "good": "Twinkle twinkle! That is a star!"
+   },
+   {
+    "q": "Tap the triangle. It has 3 sides.",
+    "options": [
+     {
+      "s": "rectangle"
+     },
+     {
+      "s": "triangle"
+     },
+     {
+      "s": "circle"
+     },
+     {
+      "s": "diamond"
+     }
+    ],
+    "answer": 1,
+    "good": "Great! A triangle has 3 sides!"
+   },
+   {
+    "q": "Tap the heart.",
+    "options": [
+     {
+      "s": "square"
+     },
+     {
+      "s": "star"
+     },
+     {
+      "s": "heart"
+     }
+    ],
+    "answer": 2,
+    "good": "Lovely! That is a heart!"
+   },
+   {
+    "q": "Tap the square. All its sides are the same.",
+    "options": [
+     {
+      "s": "oval"
+     },
+     {
+      "s": "hexagon"
+     },
+     {
+      "s": "triangle"
+     },
+     {
+      "s": "square"
+     }
+    ],
+    "answer": 3,
+    "good": "Well done! That is a square!"
+   },
+   {
+    "q": "Which shape is a slice of pizza like?",
+    "show": "🍕",
+    "options": [
+     {
+      "s": "triangle"
+     },
+     {
+      "s": "circle"
+     },
+     {
+      "s": "square"
+     }
+    ],
+    "answer": 0,
+    "good": "Yes! A pizza slice looks like a triangle!"
+   }
+  ]
+ },
+ {
+  "id": "fruit-shop",
+  "type": "fruits",
+  "title": "Fruit Shop",
+  "desc": "Let's buy some fruit!",
+  "difficulty": "easy",
+  "instructions": "Listen and tap the fruit.",
+  "questions": [
+   {
+    "q": "Find the mango.",
+    "options": [
+     {
+      "e": "🥭",
+      "t": "Mango"
+     },
+     {
+      "e": "🍎",
+      "t": "Apple"
+     },
+     {
+      "e": "🍇",
+      "t": "Grapes"
+     }
+    ],
+    "answer": 0,
+    "good": "Sweet! That is a mango!"
+   },
+   {
+    "q": "Find the pineapple.",
+    "options": [
+     {
+      "e": "🍌",
+      "t": "Banana"
+     },
+     {
+      "e": "🍓",
+      "t": "Strawberry"
+     },
+     {
+      "e": "🍍",
+      "t": "Pineapple"
+     }
+    ],
+    "answer": 2,
+    "good": "Yes! The pineapple has spiky leaves!"
+   },
+   {
+    "q": "Which fruit is big and green outside, red inside?",
+    "options": [
+     {
+      "e": "🍋",
+      "t": "Lemon"
+     },
+     {
+      "e": "🍉",
+      "t": "Watermelon"
+     },
+     {
+      "e": "🍒",
+      "t": "Cherries"
+     }
+    ],
+    "answer": 1,
+    "good": "Great! A watermelon is red inside!"
+   },
+   {
+    "q": "Find the cherries.",
+    "options": [
+     {
+      "e": "🍐",
+      "t": "Pear"
+     },
+     {
+      "e": "🍑",
+      "t": "Peach"
+     },
+     {
+      "e": "🥝",
+      "t": "Kiwi"
+     },
+     {
+      "e": "🍒",
+      "t": "Cherries"
+     }
+    ],
+    "answer": 3,
+    "good": "Yummy! Two little red cherries!"
+   },
+   {
+    "q": "Which fruit is yellow and sour?",
+    "options": [
+     {
+      "e": "🍋",
+      "t": "Lemon"
+     },
+     {
+      "e": "🍇",
+      "t": "Grapes"
+     },
+     {
+      "e": "🍎",
+      "t": "Apple"
+     }
+    ],
+    "answer": 0,
+    "good": "Sour! The lemon is yellow!"
+   },
+   {
+    "q": "Find the coconut.",
+    "options": [
+     {
+      "e": "🍌",
+      "t": "Banana"
+     },
+     {
+      "e": "🥥",
+      "t": "Coconut"
+     },
+     {
+      "e": "🍊",
+      "t": "Orange"
+     }
+    ],
+    "answer": 1,
+    "good": "Yes! Kerala has lots of coconuts!"
+   }
+  ]
+ },
+ {
+  "id": "pattern-train",
+  "type": "puzzles",
+  "title": "Pattern Train",
+  "desc": "What comes next?",
+  "difficulty": "medium",
+  "instructions": "Look at the pattern and tap what comes next.",
+  "questions": [
+   {
+    "q": "What comes next?",
+    "show": "🍎🍌🍎🍌🍎 ?",
+    "options": [
+     {
+      "e": "🍎"
+     },
+     {
+      "e": "🍌"
+     },
+     {
+      "e": "🍇"
+     }
+    ],
+    "answer": 1,
+    "good": "Yes! Apple, banana, apple, banana!"
+   },
+   {
+    "q": "What comes next?",
+    "show": "🔴🔵🔴🔵 ?",
+    "options": [
+     {
+      "e": "🔴"
+     },
+     {
+      "e": "🟢"
+     },
+     {
+      "e": "🔵"
+     }
+    ],
+    "answer": 0,
+    "good": "Great! Red comes next!"
+   },
+   {
+    "q": "What comes next?",
+    "show": "🐱🐶🐶🐱🐶🐶🐱 ?",
+    "options": [
+     {
+      "e": "🐭"
+     },
+     {
+      "e": "🐱"
+     },
+     {
+      "e": "🐶"
+     }
+    ],
+    "answer": 2,
+    "good": "Woof! The dog comes next!"
+   },
+   {
+    "q": "What comes next?",
+    "show": "⭐🌙⭐🌙 ?",
+    "options": [
+     {
+      "e": "🌙"
+     },
+     {
+      "e": "☀️"
+     },
+     {
+      "e": "☁️"
+     },
+     {
+      "e": "⭐"
+     }
+    ],
+    "answer": 3,
+    "good": "Twinkle! The star comes next!"
+   },
+   {
+    "q": "What comes next?",
+    "show": "1, 2, 3, 4, ?",
+    "options": [
+     {
+      "t": "6"
+     },
+     {
+      "t": "5"
+     },
+     {
+      "t": "3"
+     }
+    ],
+    "answer": 1,
+    "good": "Super counting! 5 comes next!"
+   },
+   {
+    "q": "What comes next?",
+    "show": "🚗🚌🚗🚌 ?",
+    "options": [
+     {
+      "e": "🚗"
+     },
+     {
+      "e": "🚲"
+     },
+     {
+      "e": "🚌"
+     }
+    ],
+    "answer": 0,
+    "good": "Vroom! The car comes next!"
+   }
+  ]
+ },
+ {
+  "id": "opposites-fun",
+  "type": "vocabulary",
+  "title": "Opposites Fun",
+  "desc": "Hot or cold? Up or down?",
+  "difficulty": "medium",
+  "instructions": "Listen and tap the right picture.",
+  "questions": [
+   {
+    "q": "Which one is hot?",
+    "options": [
+     {
+      "e": "🧊",
+      "t": "Ice"
+     },
+     {
+      "e": "🔥",
+      "t": "Fire"
+     },
+     {
+      "e": "⛄",
+      "t": "Snowman"
+     }
+    ],
+    "answer": 1,
+    "good": "Yes! Fire is hot. Be careful!"
+   },
+   {
+    "q": "Which one is cold?",
+    "options": [
+     {
+      "e": "🍦",
+      "t": "Ice cream"
+     },
+     {
+      "e": "☀️",
+      "t": "Sun"
+     },
+     {
+      "e": "☕",
+      "t": "Hot tea"
+     }
+    ],
+    "answer": 0,
+    "good": "Brrr! Ice cream is cold!"
+   },
+   {
+    "q": "Which one is happy?",
+    "options": [
+     {
+      "e": "😢",
+      "t": "Sad"
+     },
+     {
+      "e": "😴",
+      "t": "Sleepy"
+     },
+     {
+      "e": "😀",
+      "t": "Happy"
+     }
+    ],
+    "answer": 2,
+    "good": "Yay! A big happy smile!"
+   },
+   {
+    "q": "Which one is fast?",
+    "options": [
+     {
+      "e": "🐢",
+      "t": "Turtle"
+     },
+     {
+      "e": "🐇",
+      "t": "Rabbit"
+     },
+     {
+      "e": "🐌",
+      "t": "Snail"
+     }
+    ],
+    "answer": 1,
+    "good": "Hop hop! The rabbit is fast!"
+   },
+   {
+    "q": "Which one is day?",
+    "options": [
+     {
+      "e": "🌙",
+      "t": "Moon"
+     },
+     {
+      "e": "⭐",
+      "t": "Star"
+     },
+     {
+      "e": "🦉",
+      "t": "Owl"
+     },
+     {
+      "e": "☀️",
+      "t": "Sun"
+     }
+    ],
+    "answer": 3,
+    "good": "Good morning! The sun shines in the day!"
+   },
+   {
+    "q": "Which one is small?",
+    "options": [
+     {
+      "e": "🐜",
+      "t": "Ant"
+     },
+     {
+      "e": "🐘",
+      "t": "Elephant"
+     },
+     {
+      "e": "🐋",
+      "t": "Whale"
+     }
+    ],
+    "answer": 0,
+    "good": "Tiny! The ant is small!"
+   },
+   {
+    "q": "Which one is up high?",
+    "options": [
+     {
+      "e": "🐟",
+      "t": "Fish"
+     },
+     {
+      "e": "🐛",
+      "t": "Worm"
+     },
+     {
+      "e": "🎈",
+      "t": "Balloon"
+     },
+     {
+      "e": "🐢",
+      "t": "Turtle"
+     }
+    ],
+    "answer": 2,
+    "good": "Up, up, up goes the balloon!"
+   }
+  ]
+ },
+ {
+  "id": "toy-box-memory",
+  "type": "memory",
+  "title": "Toy Box Memory",
+  "desc": "Find the matching toys!",
+  "difficulty": "easy",
+  "instructions": "Turn two cards. Find the pairs!",
+  "pairs": [
+   "🧸",
+   "⚽",
+   "🪀",
+   "🎈",
+   "🚂"
+  ]
+ },
+ {
+  "id": "trace-6-to-10",
+  "type": "tracing",
+  "title": "Trace 6 to 10",
+  "desc": "Let's write numbers!",
+  "difficulty": "easy",
+  "instructions": "Trace each number with your finger.",
+  "chars": [
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ]
+ }
+]

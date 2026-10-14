@@ -1,0 +1,242 @@
+[
+ {
+  "k": "eng-401",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Tenses",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "easy",
+  "psc": "sslc",
+  "q": "Fill in the blank: The sun ___ in the east.",
+  "o": [
+   "rise",
+   "rises",
+   "is rising",
+   "rose"
+  ],
+  "a": 1,
+  "e": "Universal truths take the simple present tense, so 'rises' is correct.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-402",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Articles",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "easy",
+  "psc": "sslc",
+  "q": "Fill in the blank: ___ Ganga is a sacred river.",
+  "o": [
+   "A",
+   "An",
+   "The",
+   "No article"
+  ],
+  "a": 2,
+  "e": "Names of rivers take the definite article, so 'The' Ganga is correct.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-403",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Prepositions",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "psc": "sslc",
+  "q": "Fill in the blank: She is senior ___ me in the office.",
+  "o": [
+   "to",
+   "than",
+   "from",
+   "over"
+  ],
+  "a": 0,
+  "e": "Latin comparatives like senior, junior, superior and inferior take 'to', so 'to' is correct.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-404",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Active and passive voice",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "psc": "plus2",
+  "q": "Choose the correct passive form of: They will finish the work by evening.",
+  "o": [
+   "The work would be finished by them by evening.",
+   "The work will finish by them by evening.",
+   "The work will be finishing by them by evening.",
+   "The work will be finished by them by evening."
+  ],
+  "a": 3,
+  "e": "Future simple passive is will + be + past participle: 'The work will be finished by them by evening.'",
+  "lang": "en"
+ },
+ {
+  "k": "eng-405",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Reported speech",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "hard",
+  "psc": "plus2",
+  "q": "Choose the correct indirect form: He said, \"Let us wait for the bus.\"",
+  "o": [
+   "He told that let us wait for the bus.",
+   "He suggested that they should wait for the bus.",
+   "He suggested that let them wait for the bus.",
+   "He said that we waited for the bus."
+  ],
+  "a": 1,
+  "e": "'Let us' expressing a proposal is reported with 'suggested that ... should': 'He suggested that they should wait for the bus.'",
+  "lang": "en"
+ },
+ {
+  "k": "eng-406",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Question tags",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "easy",
+  "psc": "sslc",
+  "q": "Add the correct question tag: I am right, ___?",
+  "o": [
+   "amn't I",
+   "isn't it",
+   "aren't I",
+   "don't I"
+  ],
+  "a": 2,
+  "e": "The standard tag for 'I am' is 'aren't I', so 'I am right, aren't I?' is correct.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-407",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Error spotting",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "psc": "plus2",
+  "q": "Find the part with an error: One of my friend / is a doctor / in the city hospital. / No error",
+  "o": [
+   "One of my friend",
+   "is a doctor",
+   "in the city hospital.",
+   "No error"
+  ],
+  "a": 0,
+  "e": "'One of' must be followed by a plural noun: 'One of my friends'. The error is in 'One of my friend'.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-408",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Synonyms",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "psc": "degree",
+  "q": "Choose the word closest in meaning to 'Meticulous'.",
+  "o": [
+   "Careless",
+   "Painstaking",
+   "Timid",
+   "Generous"
+  ],
+  "a": 1,
+  "e": "'Meticulous' means showing great attention to detail, so its synonym is 'Painstaking'.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-409",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Antonyms",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "psc": "plus2",
+  "q": "Choose the word opposite in meaning to 'Frugal'.",
+  "o": [
+   "Thrifty",
+   "Economical",
+   "Sparing",
+   "Extravagant"
+  ],
+  "a": 3,
+  "e": "'Frugal' means careful with money; its opposite is 'Extravagant'. The other three are synonyms.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-410",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Idioms",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "easy",
+  "psc": "sslc",
+  "q": "The idiom 'to burn the midnight oil' means:",
+  "o": [
+   "to waste money",
+   "to start a fire",
+   "to work or study late into the night",
+   "to lose one's temper"
+  ],
+  "a": 2,
+  "e": "'To burn the midnight oil' means to work or study late into the night.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-411",
+  "cat": "eng",
+  "s": "veng",
+  "t": "One-word substitution",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "hard",
+  "psc": "degree",
+  "q": "One word for 'a speech delivered without previous preparation':",
+  "o": [
+   "Extempore",
+   "Soliloquy",
+   "Eulogy",
+   "Monologue"
+  ],
+  "a": 0,
+  "e": "A speech made without preparation is 'Extempore'. A soliloquy is talking to oneself on stage; a eulogy praises someone.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-412",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Spelling",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "advanced",
+  "psc": "degree",
+  "q": "Choose the correctly spelt word.",
+  "o": [
+   "Embarassment",
+   "Embarrasment",
+   "Emberrassment",
+   "Embarrassment"
+  ],
+  "a": 3,
+  "e": "The correct spelling has double 'r' and double 's': 'Embarrassment'.",
+  "lang": "en"
+ }
+]

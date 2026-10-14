@@ -1,0 +1,21 @@
+{
+ "started": "2026-10-14T05:49:33+00:00",
+ "runs": [
+  {
+   "at": "2026-10-14T05:49:33+00:00",
+   "kind": "scheduled"
+  }
+ ],
+ "errors": [],
+ "retries": 0,
+ "notes": [
+  "Settings: no _auto document in the tracker database; defaults from daily/config.default.json used (enabled, 08:48/11:48 Asia/Kuwait, matches the schedule).",
+  "Candidates r1: 120 written by 4 separate writer agents; independent answer check by 3 separate blind-solver agents (no keys, explanations or calc): 120/120 agree (verify-r1.json). reas-411 option 64 replaced by 216 before the build because 64 is both a square and a cube.",
+  "Build r1: 109 published; 10 duplicates/near-duplicates (built-in bank and earlier days) and 1 rejected (reas-409, explanation names a second direction) - left rejected.",
+  "Fix round r2: eng (9/10) and compx (8/10) were below allocation; 9 candidates written, blind-checked by a separate agent 9/9 agree (verify-r2.json); 7 published, 2 matched questions already published today and were not counted.",
+  "Correction: reas-411 explanation had '216 = 4³' after the option swap; corrected to '216 = 6³' in the candidate and the published bank before validation.",
+  "Current affairs: 5 items confirmed by web search on 2026-10-14 (ca.json); 5 CA questions cite them.",
+  "Official previous papers: sources.official is empty in the settings, so no sites were checked; nothing imported.",
+  "Navamika: 7 games written (animals, shapes, fruits, puzzles, vocabulary, memory, tracing)."
+ ]
+}

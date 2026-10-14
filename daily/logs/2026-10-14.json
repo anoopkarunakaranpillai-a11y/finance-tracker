@@ -1,0 +1,650 @@
+{
+ "date": "2026-10-14",
+ "batch": "B-20261014-01",
+ "at": "2026-10-14T05:58:35.018Z",
+ "candidates": [
+  {
+   "k": "gkca-401",
+   "result": "published",
+   "id": "d20261014x001"
+  },
+  {
+   "k": "gkca-402",
+   "result": "published",
+   "id": "d20261014x002"
+  },
+  {
+   "k": "gkca-403",
+   "result": "published",
+   "id": "d20261014x003"
+  },
+  {
+   "k": "gkca-404",
+   "result": "published",
+   "id": "d20261014x004"
+  },
+  {
+   "k": "gkca-405",
+   "result": "published",
+   "id": "d20261014x005"
+  },
+  {
+   "k": "gkca-406",
+   "result": "near-duplicate",
+   "reason": "too close to built-in bank (kh3)"
+  },
+  {
+   "k": "gkca-407",
+   "result": "published",
+   "id": "d20261014x006"
+  },
+  {
+   "k": "gkca-408",
+   "result": "published",
+   "id": "d20261014x007"
+  },
+  {
+   "k": "gkca-409",
+   "result": "published",
+   "id": "d20261014x008"
+  },
+  {
+   "k": "gkca-410",
+   "result": "published",
+   "id": "d20261014x009"
+  },
+  {
+   "k": "gkca-411",
+   "result": "published",
+   "id": "d20261014x010"
+  },
+  {
+   "k": "gkca-412",
+   "result": "published",
+   "id": "d20261014x011"
+  },
+  {
+   "k": "gkca-413",
+   "result": "published",
+   "id": "d20261014x012"
+  },
+  {
+   "k": "gkca-414",
+   "result": "published",
+   "id": "d20261014x013"
+  },
+  {
+   "k": "gkca-415",
+   "result": "published",
+   "id": "d20261014x014"
+  },
+  {
+   "k": "gkca-416",
+   "result": "published",
+   "id": "d20261014x015"
+  },
+  {
+   "k": "gkca-417",
+   "result": "published",
+   "id": "d20261014x016"
+  },
+  {
+   "k": "gkca-418",
+   "result": "published",
+   "id": "d20261014x017"
+  },
+  {
+   "k": "eng-401",
+   "result": "duplicate",
+   "reason": "same question as 2026-10-07"
+  },
+  {
+   "k": "eng-402",
+   "result": "published",
+   "id": "d20261014x018"
+  },
+  {
+   "k": "eng-403",
+   "result": "published",
+   "id": "d20261014x019"
+  },
+  {
+   "k": "eng-404",
+   "result": "published",
+   "id": "d20261014x020"
+  },
+  {
+   "k": "eng-405",
+   "result": "published",
+   "id": "d20261014x021"
+  },
+  {
+   "k": "eng-406",
+   "result": "published",
+   "id": "d20261014x022"
+  },
+  {
+   "k": "eng-407",
+   "result": "published",
+   "id": "d20261014x023"
+  },
+  {
+   "k": "eng-408",
+   "result": "published",
+   "id": "d20261014x024"
+  },
+  {
+   "k": "eng-409",
+   "result": "near-duplicate",
+   "reason": "too close to 2026-10-12 (d20261012x115)"
+  },
+  {
+   "k": "eng-410",
+   "result": "published",
+   "id": "d20261014x025"
+  },
+  {
+   "k": "eng-411",
+   "result": "published",
+   "id": "d20261014x026"
+  },
+  {
+   "k": "eng-412",
+   "result": "duplicate",
+   "reason": "same question as built-in bank"
+  },
+  {
+   "k": "quant-401",
+   "result": "published",
+   "id": "d20261014x027"
+  },
+  {
+   "k": "quant-402",
+   "result": "published",
+   "id": "d20261014x028"
+  },
+  {
+   "k": "quant-403",
+   "result": "published",
+   "id": "d20261014x029"
+  },
+  {
+   "k": "quant-404",
+   "result": "published",
+   "id": "d20261014x030"
+  },
+  {
+   "k": "quant-405",
+   "result": "published",
+   "id": "d20261014x031"
+  },
+  {
+   "k": "quant-406",
+   "result": "published",
+   "id": "d20261014x032"
+  },
+  {
+   "k": "quant-407",
+   "result": "published",
+   "id": "d20261014x033"
+  },
+  {
+   "k": "quant-408",
+   "result": "published",
+   "id": "d20261014x034"
+  },
+  {
+   "k": "quant-409",
+   "result": "published",
+   "id": "d20261014x035"
+  },
+  {
+   "k": "quant-410",
+   "result": "published",
+   "id": "d20261014x036"
+  },
+  {
+   "k": "quant-411",
+   "result": "published",
+   "id": "d20261014x037"
+  },
+  {
+   "k": "quant-412",
+   "result": "published",
+   "id": "d20261014x038"
+  },
+  {
+   "k": "quant-413",
+   "result": "published",
+   "id": "d20261014x039"
+  },
+  {
+   "k": "quant-414",
+   "result": "published",
+   "id": "d20261014x040"
+  },
+  {
+   "k": "quant-415",
+   "result": "published",
+   "id": "d20261014x041"
+  },
+  {
+   "k": "quant-416",
+   "result": "published",
+   "id": "d20261014x042"
+  },
+  {
+   "k": "quant-417",
+   "result": "published",
+   "id": "d20261014x043"
+  },
+  {
+   "k": "quant-418",
+   "result": "published",
+   "id": "d20261014x044"
+  },
+  {
+   "k": "reas-401",
+   "result": "published",
+   "id": "d20261014x045"
+  },
+  {
+   "k": "reas-402",
+   "result": "published",
+   "id": "d20261014x046"
+  },
+  {
+   "k": "reas-403",
+   "result": "near-duplicate",
+   "reason": "too close to 2026-10-06 (2026-10-06.json)"
+  },
+  {
+   "k": "reas-404",
+   "result": "published",
+   "id": "d20261014x047"
+  },
+  {
+   "k": "reas-405",
+   "result": "published",
+   "id": "d20261014x048"
+  },
+  {
+   "k": "reas-406",
+   "result": "published",
+   "id": "d20261014x049"
+  },
+  {
+   "k": "reas-407",
+   "result": "published",
+   "id": "d20261014x050"
+  },
+  {
+   "k": "reas-408",
+   "result": "published",
+   "id": "d20261014x051"
+  },
+  {
+   "k": "reas-409",
+   "result": "rejected",
+   "reason": "the explanation points to a different option"
+  },
+  {
+   "k": "reas-410",
+   "result": "published",
+   "id": "d20261014x052"
+  },
+  {
+   "k": "reas-411",
+   "result": "published",
+   "id": "d20261014x053"
+  },
+  {
+   "k": "reas-412",
+   "result": "published",
+   "id": "d20261014x054"
+  },
+  {
+   "k": "reas-413",
+   "result": "published",
+   "id": "d20261014x055"
+  },
+  {
+   "k": "reas-414",
+   "result": "published",
+   "id": "d20261014x056"
+  },
+  {
+   "k": "reas-415",
+   "result": "published",
+   "id": "d20261014x057"
+  },
+  {
+   "k": "reas-416",
+   "result": "published",
+   "id": "d20261014x058"
+  },
+  {
+   "k": "reas-417",
+   "result": "published",
+   "id": "d20261014x059"
+  },
+  {
+   "k": "reas-418",
+   "result": "published",
+   "id": "d20261014x060"
+  },
+  {
+   "k": "sci-401",
+   "result": "published",
+   "id": "d20261014x061"
+  },
+  {
+   "k": "sci-402",
+   "result": "published",
+   "id": "d20261014x062"
+  },
+  {
+   "k": "sci-403",
+   "result": "published",
+   "id": "d20261014x063"
+  },
+  {
+   "k": "sci-404",
+   "result": "published",
+   "id": "d20261014x064"
+  },
+  {
+   "k": "sci-405",
+   "result": "published",
+   "id": "d20261014x065"
+  },
+  {
+   "k": "sci-406",
+   "result": "published",
+   "id": "d20261014x066"
+  },
+  {
+   "k": "sci-407",
+   "result": "published",
+   "id": "d20261014x067"
+  },
+  {
+   "k": "sci-408",
+   "result": "published",
+   "id": "d20261014x068"
+  },
+  {
+   "k": "sci-409",
+   "result": "published",
+   "id": "d20261014x069"
+  },
+  {
+   "k": "sci-410",
+   "result": "published",
+   "id": "d20261014x070"
+  },
+  {
+   "k": "sci-411",
+   "result": "published",
+   "id": "d20261014x071"
+  },
+  {
+   "k": "sci-412",
+   "result": "published",
+   "id": "d20261014x072"
+  },
+  {
+   "k": "comp-401",
+   "result": "published",
+   "id": "d20261014x073"
+  },
+  {
+   "k": "comp-402",
+   "result": "published",
+   "id": "d20261014x074"
+  },
+  {
+   "k": "comp-403",
+   "result": "published",
+   "id": "d20261014x075"
+  },
+  {
+   "k": "comp-404",
+   "result": "published",
+   "id": "d20261014x076"
+  },
+  {
+   "k": "comp-405",
+   "result": "published",
+   "id": "d20261014x077"
+  },
+  {
+   "k": "comp-406",
+   "result": "published",
+   "id": "d20261014x078"
+  },
+  {
+   "k": "comp-407",
+   "result": "published",
+   "id": "d20261014x079"
+  },
+  {
+   "k": "comp-408",
+   "result": "published",
+   "id": "d20261014x080"
+  },
+  {
+   "k": "comp-409",
+   "result": "published",
+   "id": "d20261014x081"
+  },
+  {
+   "k": "comp-410",
+   "result": "published",
+   "id": "d20261014x082"
+  },
+  {
+   "k": "comp-411",
+   "result": "published",
+   "id": "d20261014x083"
+  },
+  {
+   "k": "comp-412",
+   "result": "published",
+   "id": "d20261014x084"
+  },
+  {
+   "k": "deg-401",
+   "result": "published",
+   "id": "d20261014x085"
+  },
+  {
+   "k": "deg-402",
+   "result": "published",
+   "id": "d20261014x086"
+  },
+  {
+   "k": "deg-403",
+   "result": "published",
+   "id": "d20261014x087"
+  },
+  {
+   "k": "deg-404",
+   "result": "near-duplicate",
+   "reason": "too close to built-in bank (xdcs7)"
+  },
+  {
+   "k": "deg-405",
+   "result": "published",
+   "id": "d20261014x088"
+  },
+  {
+   "k": "deg-406",
+   "result": "published",
+   "id": "d20261014x089"
+  },
+  {
+   "k": "deg-407",
+   "result": "published",
+   "id": "d20261014x090"
+  },
+  {
+   "k": "deg-408",
+   "result": "published",
+   "id": "d20261014x091"
+  },
+  {
+   "k": "deg-409",
+   "result": "published",
+   "id": "d20261014x092"
+  },
+  {
+   "k": "deg-410",
+   "result": "published",
+   "id": "d20261014x093"
+  },
+  {
+   "k": "deg-411",
+   "result": "published",
+   "id": "d20261014x094"
+  },
+  {
+   "k": "deg-412",
+   "result": "published",
+   "id": "d20261014x095"
+  },
+  {
+   "k": "deg-413",
+   "result": "published",
+   "id": "d20261014x096"
+  },
+  {
+   "k": "deg-414",
+   "result": "published",
+   "id": "d20261014x097"
+  },
+  {
+   "k": "deg-415",
+   "result": "published",
+   "id": "d20261014x098"
+  },
+  {
+   "k": "deg-416",
+   "result": "published",
+   "id": "d20261014x099"
+  },
+  {
+   "k": "deg-417",
+   "result": "published",
+   "id": "d20261014x100"
+  },
+  {
+   "k": "deg-418",
+   "result": "published",
+   "id": "d20261014x101"
+  },
+  {
+   "k": "compx-401",
+   "result": "near-duplicate",
+   "reason": "too close to built-in bank (xquant9)"
+  },
+  {
+   "k": "compx-402",
+   "result": "published",
+   "id": "d20261014x102"
+  },
+  {
+   "k": "compx-403",
+   "result": "published",
+   "id": "d20261014x103"
+  },
+  {
+   "k": "compx-404",
+   "result": "published",
+   "id": "d20261014x104"
+  },
+  {
+   "k": "compx-405",
+   "result": "near-duplicate",
+   "reason": "too close to built-in bank (xreas1)"
+  },
+  {
+   "k": "compx-406",
+   "result": "duplicate",
+   "reason": "same question as built-in bank"
+  },
+  {
+   "k": "compx-407",
+   "result": "published",
+   "id": "d20261014x105"
+  },
+  {
+   "k": "compx-408",
+   "result": "published",
+   "id": "d20261014x106"
+  },
+  {
+   "k": "compx-409",
+   "result": "published",
+   "id": "d20261014x107"
+  },
+  {
+   "k": "compx-410",
+   "result": "published",
+   "id": "d20261014x108"
+  },
+  {
+   "k": "compx-411",
+   "result": "duplicate",
+   "reason": "same question as built-in bank"
+  },
+  {
+   "k": "compx-412",
+   "result": "published",
+   "id": "d20261014x109"
+  },
+  {
+   "k": "eng-413",
+   "result": "published",
+   "id": "d20261014x110"
+  },
+  {
+   "k": "eng-414",
+   "result": "published",
+   "id": "d20261014x111"
+  },
+  {
+   "k": "eng-415",
+   "result": "published",
+   "id": "d20261014x112"
+  },
+  {
+   "k": "eng-416",
+   "result": "published",
+   "id": "d20261014x113"
+  },
+  {
+   "k": "compx-413",
+   "result": "published",
+   "id": "d20261014x114"
+  },
+  {
+   "k": "compx-414",
+   "result": "published",
+   "id": "d20261014x115"
+  },
+  {
+   "k": "compx-415",
+   "result": "already published today (not counted again)"
+  },
+  {
+   "k": "compx-416",
+   "result": "already published today (not counted again)"
+  },
+  {
+   "k": "compx-417",
+   "result": "published",
+   "id": "d20261014x116"
+  }
+ ]
+}

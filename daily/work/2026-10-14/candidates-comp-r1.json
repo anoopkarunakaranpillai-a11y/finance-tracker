@@ -1,0 +1,246 @@
+[
+ {
+  "k": "comp-401",
+  "cat": "comp",
+  "s": "comp",
+  "t": "BIOS",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "easy",
+  "psc": "sslc",
+  "q": "കമ്പ്യൂട്ടർ ഓൺ ചെയ്യുമ്പോൾ പ്രവർത്തിക്കുന്ന BIOS പ്രോഗ്രാം സാധാരണയായി സംഭരിച്ചിരിക്കുന്നത് ഏത് മെമ്മറിയിലാണ്?",
+  "o": [
+   "RAM",
+   "Cache മെമ്മറി",
+   "ROM",
+   "ഹാർഡ് ഡിസ്ക്"
+  ],
+  "a": 2,
+  "e": "BIOS മദർബോർഡിലെ ROM (ഫ്ലാഷ് ROM) ചിപ്പിലാണ് സംഭരിക്കുന്നത്; അതിനാൽ ഉത്തരം ROM.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-402",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Memory units",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "psc": "sslc",
+  "q": "1 KB (കിലോബൈറ്റ്) എത്ര ബിറ്റുകൾക്ക് തുല്യമാണ് (ബൈനറി കണക്കിൽ)?",
+  "o": [
+   "8192",
+   "1024",
+   "8000",
+   "4096"
+  ],
+  "a": 0,
+  "e": "1 KB = 1024 ബൈറ്റ്; 1 ബൈറ്റ് = 8 ബിറ്റ്; 1024 × 8 = 8192 ബിറ്റ്.",
+  "lang": "ml",
+  "calc": "1024*8"
+ },
+ {
+  "k": "comp-403",
+  "cat": "comp",
+  "s": "comp",
+  "t": "MAC address",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "hard",
+  "psc": "degree",
+  "q": "ഒരു നെറ്റ്‌വർക്ക് ഇന്റർഫേസ് കാർഡിന്റെ MAC വിലാസത്തിന് എത്ര ബിറ്റ് നീളമുണ്ട്?",
+  "o": [
+   "32",
+   "48",
+   "64",
+   "128"
+  ],
+  "a": 1,
+  "e": "MAC വിലാസം 6 ബൈറ്റ്, അതായത് 48 ബിറ്റ് നീളമുള്ളതാണ്.",
+  "lang": "ml",
+  "calc": "6*8"
+ },
+ {
+  "k": "comp-404",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Email protocols",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "easy",
+  "psc": "sslc",
+  "q": "ഇമെയിൽ സന്ദേശങ്ങൾ അയയ്ക്കാൻ (send) ഉപയോഗിക്കുന്ന പ്രോട്ടോക്കോൾ ഏത്?",
+  "o": [
+   "POP3",
+   "IMAP",
+   "SMTP",
+   "FTP"
+  ],
+  "a": 2,
+  "e": "SMTP (Simple Mail Transfer Protocol) ആണ് ഇമെയിൽ അയയ്ക്കാൻ ഉപയോഗിക്കുന്നത്; POP3, IMAP എന്നിവ മെയിൽ സ്വീകരിക്കാനാണ്.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-405",
+  "cat": "comp",
+  "s": "comp",
+  "t": "MS Word shortcuts",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "psc": "plus2",
+  "q": "MS Word-ൽ 'Find and Replace' ഡയലോഗ് ബോക്സിലെ Replace തുറക്കാൻ ഉപയോഗിക്കുന്ന ഷോർട്ട്കട്ട് ഏത്?",
+  "o": [
+   "Ctrl + F",
+   "Ctrl + H",
+   "Ctrl + R",
+   "Ctrl + G"
+  ],
+  "a": 1,
+  "e": "Ctrl + H ആണ് Replace തുറക്കുന്നത്. Ctrl + F – Find, Ctrl + R – Right align, Ctrl + G – Go To.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-406",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Spreadsheet references",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "psc": "plus2",
+  "q": "MS Excel-ൽ '$A$1' എന്നത് ഏത് തരം സെൽ റഫറൻസാണ്?",
+  "o": [
+   "Relative reference",
+   "Mixed reference",
+   "Absolute reference",
+   "Circular reference"
+  ],
+  "a": 2,
+  "e": "റോയ്ക്കും കോളത്തിനും മുന്നിൽ $ ചിഹ്നം ഉള്ളതിനാൽ $A$1 ഒരു Absolute reference ആണ്; ഫോർമുല കോപ്പി ചെയ്താലും അത് മാറില്ല.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-407",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Number systems",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "psc": "plus2",
+  "q": "ബൈനറി സംഖ്യ 110101-ന്റെ ദശാംശ (Decimal) രൂപം ഏത്?",
+  "o": [
+   "51",
+   "45",
+   "55",
+   "53"
+  ],
+  "a": 3,
+  "e": "110101 = 32 + 16 + 0 + 4 + 0 + 1 = 53.",
+  "lang": "ml",
+  "calc": "32+16+4+1"
+ },
+ {
+  "k": "comp-408",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Number systems",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "hard",
+  "psc": "degree",
+  "q": "ഒക്ടൽ സംഖ്യ (157)₈-ന്റെ ദശാംശ (Decimal) രൂപം ഏത്?",
+  "o": [
+   "111",
+   "157",
+   "109",
+   "117"
+  ],
+  "a": 0,
+  "e": "(157)₈ = 1×64 + 5×8 + 7 = 64 + 40 + 7 = 111.",
+  "lang": "ml",
+  "calc": "1*64+5*8+7"
+ },
+ {
+  "k": "comp-409",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Cyber security",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "psc": "sslc",
+  "q": "വെബ്സൈറ്റുകളിൽ കാണുന്ന CAPTCHA പരിശോധനയുടെ പ്രധാന ലക്ഷ്യം എന്ത്?",
+  "o": [
+   "ഇന്റർനെറ്റ് വേഗത കൂട്ടുക",
+   "പാസ്‌വേഡ് എൻക്രിപ്റ്റ് ചെയ്യുക",
+   "വൈറസുകളെ നീക്കം ചെയ്യുക",
+   "ഉപയോക്താവ് മനുഷ്യനാണോ ഓട്ടോമേറ്റഡ് പ്രോഗ്രാം (bot) ആണോ എന്ന് തിരിച്ചറിയുക"
+  ],
+  "a": 3,
+  "e": "CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart) മനുഷ്യനെയും bot-നെയും തിരിച്ചറിയാനുള്ളതാണ്.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-410",
+  "cat": "comp",
+  "s": "comp",
+  "t": "File extensions",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "easy",
+  "psc": "sslc",
+  "q": "താഴെ പറയുന്നവയിൽ കംപ്രസ് ചെയ്ത ആർക്കൈവ് (archive) ഫയലിന്റെ എക്സ്റ്റൻഷൻ ഏത്?",
+  "o": [
+   ".zip",
+   ".docx",
+   ".html",
+   ".wav"
+  ],
+  "a": 0,
+  "e": ".zip ആണ് കംപ്രസ് ചെയ്ത ആർക്കൈവ് ഫയൽ; .docx – Word ഡോക്യുമെന്റ്, .html – വെബ് പേജ്, .wav – ഓഡിയോ.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-411",
+  "cat": "comp",
+  "s": "comp",
+  "t": "IT Act 2000",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "advanced",
+  "psc": "degree",
+  "q": "ഐ.ടി. നിയമം 2000-ലെ ഏത് വകുപ്പാണ് സൈബർ ഭീകരവാദത്തിന് (Cyber terrorism) ശിക്ഷ വ്യവസ്ഥ ചെയ്യുന്നത്?",
+  "o": [
+   "വകുപ്പ് 66A",
+   "വകുപ്പ് 66F",
+   "വകുപ്പ് 67",
+   "വകുപ്പ് 43"
+  ],
+  "a": 1,
+  "e": "2008-ലെ ഭേദഗതിയിലൂടെ ചേർത്ത വകുപ്പ് 66F ആണ് സൈബർ ഭീകരവാദത്തിനുള്ള ശിക്ഷ (ജീവപര്യന്തം വരെ) നിർദ്ദേശിക്കുന്നത്.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-412",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Processor",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "easy",
+  "psc": "plus2",
+  "q": "കമ്പ്യൂട്ടർ പ്രോസസറിന്റെ ക്ലോക്ക് സ്പീഡ് അളക്കുന്ന യൂണിറ്റ് ഏത്?",
+  "o": [
+   "Byte",
+   "bps",
+   "Pixel",
+   "Hertz (GHz)"
+  ],
+  "a": 3,
+  "e": "പ്രോസസറിന്റെ ക്ലോക്ക് സ്പീഡ് Hertz-ൽ (സാധാരണയായി GHz) ആണ് അളക്കുന്നത്.",
+  "lang": "ml"
+ }
+]
