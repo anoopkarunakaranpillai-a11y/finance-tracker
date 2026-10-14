@@ -2,7 +2,9 @@
 # Runs on the Android emulator in CI: instrumented tests, then three cold launches to measure start-up time.
 set +e
 cd "$(dirname "$0")/../../android"
+adb logcat -c
 ./gradlew --no-daemon connectedDebugAndroidTest > ../device.log 2>&1
+adb logcat -d -v brief "*:W" | grep -v "^W/\(ziparchive\|adbd\|cr_\)" | tail -400 > ../logcat.txt
 echo "connected exit: $?" >> ../device.log
 {
   echo "model: $(adb shell getprop ro.product.model)"

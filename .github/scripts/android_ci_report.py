@@ -59,6 +59,8 @@ else:
     times = [int(x) for x in re.findall(r"TotalTime:\s*(\d+)", launch)]
     summary = {"kind": "device", "errors": errs, "tests": tests, "launch_ms": times, "device": info,
                "passed": sum(t["status"] == "Pass" for t in tests), "failed": sum(t["status"] == "Fail" for t in tests)}
+    if os.path.exists("../logcat.txt"):
+        shutil.copy("../logcat.txt", os.path.join(out, "logcat.txt"))
     if os.path.isdir("../shots"):
         os.makedirs(os.path.join(out, "shots"), exist_ok=True)
         for f in os.listdir("../shots"):
