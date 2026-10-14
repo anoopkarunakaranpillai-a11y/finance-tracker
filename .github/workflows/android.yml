@@ -82,12 +82,14 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release delete android-latest -y --cleanup-tag || true
           files="ci-out/app-debug.apk"
           for f in ci-out/app-release.apk ci-out/app-release-unsigned.apk ci-out/app-release.aab; do [ -f "$f" ] && files="$files $f"; done
-          gh release create android-latest $files --prerelease --target "${{ github.sha }}" \
-            --title "Android app (latest build ${{ github.run_number }})" \
-            --notes "Install app-debug.apk on your phone to try the app. The release APK/AAB are for Google Play and are only signed when the signing secrets are set."
+          notes="Build ${{ github.run_number }} from commit ${{ github.sha }}. Install app-debug.apk on your phone to try the app. The release APK/AAB are for Google Play and are only signed when the signing secrets are set."
+          gh release view android-latest >/dev/null 2>&1 || gh release create android-latest --prerelease --target "${{ github.sha }}" --title "Android app" --notes "$notes"
+          gh release edit android-latest --draft=false --prerelease --title "Android app (latest build ${{ github.run_number }})" --notes "$notes"
+          for f in $files; do
+            for i in 1 2 3 4; do gh release upload android-latest "$f" --clobber && break; echo "retry $i for $f"; sleep 15; done
+          done
 
       - name: Fail if the build failed
         if: steps.gradle.outputs.code != '0'
