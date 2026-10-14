@@ -156,6 +156,7 @@ fun StudyWebScreen(who: String, onBack: () -> Unit) {
                     }
                     loadUrl(studyUrl(who))
                     web = this
+                    StudyBridge.current = java.lang.ref.WeakReference(this)
                 }
             })
             if (failed) Column(Modifier.fillMaxSize().background(MaterialTheme.colorScheme.background).padding(24.dp),

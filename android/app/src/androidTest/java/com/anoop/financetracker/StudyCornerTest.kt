@@ -35,7 +35,7 @@ class StudyCornerTest {
         var out = ""
         val latch = CountDownLatch(1)
         rule.runOnUiThread {
-            val w = findWebView(rule.activity.window.decorView)
+            val w = com.anoop.financetracker.study.StudyBridge.current?.get() ?: findWebView(rule.activity.window.decorView)
             if (w == null) { out = "no WebView; views=" + tree(rule.activity.window.decorView, 0); latch.countDown() } else w.evaluateJavascript(script) { r -> out = r ?: ""; latch.countDown() }
         }
         latch.await(10, TimeUnit.SECONDS)

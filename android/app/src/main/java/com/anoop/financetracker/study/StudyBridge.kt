@@ -143,6 +143,9 @@ class StudyBridge(private val ctx: Context, private val web: WebView, private va
 
 
     companion object {
+        /** The WebView currently showing the study pages (read by on-device tests). */
+        @Volatile var current: java.lang.ref.WeakReference<WebView>? = null
+
         /** Injected at document start so the page sees Android-backed download, share, print and speech. */
         const val SHIM = """(function(){
 if(window.__ftShim)return;window.__ftShim=1;var B=window.FTAndroid;if(!B)return;
