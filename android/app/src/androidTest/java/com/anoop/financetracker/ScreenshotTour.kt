@@ -39,7 +39,8 @@ class ScreenshotTour {
     private fun shot(name: String) {
         rule.waitForIdle()
         Thread.sleep(700)
-        val bmp = rule.onRoot().captureToImage().asAndroidBitmap()
+        // A real screen capture, so WebView content (the study pages) is included.
+        val bmp = InstrumentationRegistry.getInstrumentation().uiAutomation.takeScreenshot() ?: rule.onRoot().captureToImage().asAndroidBitmap()
         val dir = File(app().filesDir, "shots").apply { mkdirs() }
         File(dir, "$name.png").outputStream().use { bmp.compress(Bitmap.CompressFormat.PNG, 100, it) }
     }

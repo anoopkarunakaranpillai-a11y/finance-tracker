@@ -3,7 +3,7 @@ name: Android app
 on:
   push:
     branches: [main]
-    paths: ["android/**", ".github/workflows/android.yml", ".github/scripts/android_*"]
+    paths: ["android/**", "!android/docs/**", "!android/README.md", ".github/workflows/android.yml", ".github/scripts/android_*"]
   workflow_dispatch:
 
 permissions:
@@ -131,6 +131,7 @@ jobs:
         run: |
           rm -rf /tmp/pub && git clone -q --depth 1 -b android-ci "https://x-access-token:${TOKEN}@github.com/${{ github.repository }}.git" /tmp/pub
           cp -r device-out/. /tmp/pub/
+          python3 .github/scripts/android_register.py /tmp/pub /tmp/pub || true
           cd /tmp/pub
           git config user.name "android-ci"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
