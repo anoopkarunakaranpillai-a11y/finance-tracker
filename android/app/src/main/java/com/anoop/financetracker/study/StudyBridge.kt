@@ -76,7 +76,7 @@ class StudyBridge(private val ctx: Context, private val web: WebView, private va
         if (!allowed()) { done(id, true); return }
         main.post {
             ensureTts()
-            if (!ttsReady) { pending += arrayOf(id, text, lang, pitch, rate, volume); return@post }
+            if (!ttsReady) { pending += arrayOf<Any>(id, text, lang, pitch, rate, volume); return@post }
             doSpeak(id, text, lang, pitch, rate, volume)
         }
     }

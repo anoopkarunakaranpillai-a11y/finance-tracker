@@ -61,6 +61,7 @@ import java.time.LocalDate
 import java.time.YearMonth
 import java.time.temporal.ChronoUnit
 
+@OptIn(androidx.compose.material3.ExperimentalMaterial3Api::class)
 @Composable
 fun PlanScreen(st: FinanceState, vm: AppViewModel) {
     var tab by rememberSaveable { mutableStateOf(0) }
