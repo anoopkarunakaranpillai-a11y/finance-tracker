@@ -138,7 +138,12 @@ fun AppRoot(container: AppContainer, nav: NavHostController = rememberNavControl
                 }
             }
             Box(Modifier.weight(1f)) {
-                NavHost(nav, startDestination = "dashboard") {
+                NavHost(nav, startDestination = "dashboard",
+                    // Instant screen changes: snappy, and avoids fading the study WebView through an offscreen layer.
+                    enterTransition = { androidx.compose.animation.EnterTransition.None },
+                    exitTransition = { androidx.compose.animation.ExitTransition.None },
+                    popEnterTransition = { androidx.compose.animation.EnterTransition.None },
+                    popExitTransition = { androidx.compose.animation.ExitTransition.None }) {
                     composable("dashboard") { DashboardScreen(st, nav) }
                     composable("transactions") { TransactionsScreen(st, vm, nav) }
                     composable("plan") { PlanScreen(st, vm) }
