@@ -118,7 +118,8 @@ fun StudyWebScreen(who: String, onBack: () -> Unit) {
                     settings.javaScriptEnabled = true
                     settings.domStorageEnabled = true
                     settings.databaseEnabled = true
-                    settings.mediaPlaybackRequiresUserGesture = false
+                    // Sounds start after a tap (the browser default); the games always begin with one.
+                    settings.mediaPlaybackRequiresUserGesture = true
                     settings.allowFileAccess = false
                     settings.allowContentAccess = false
                     settings.mixedContentMode = WebSettings.MIXED_CONTENT_NEVER_ALLOW
