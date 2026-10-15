@@ -108,6 +108,7 @@ fun StudyWebScreen(who: String, onBack: () -> Unit) {
         Box(Modifier.fillMaxSize()) {
             AndroidView(modifier = Modifier.fillMaxSize(), onRelease = { w ->
                 // Free the page (and its text-to-speech engine) when the screen goes away.
+                android.util.Log.i("FTStudy", "WebView released")
                 (w.tag as? StudyBridge)?.release(); w.stopLoading(); w.destroy()
             }, factory = { c ->
                 android.util.Log.i("FTStudy", "creating WebView for $who")
@@ -150,7 +151,7 @@ fun StudyWebScreen(who: String, onBack: () -> Unit) {
                         }
                     }
                     webChromeClient = object : WebChromeClient() {
-                        override fun onProgressChanged(view: WebView, p: Int) { progress = p }
+                        override fun onProgressChanged(view: WebView, p: Int) { progress = p; android.util.Log.i("FTStudy", "progress $p") }
                         override fun onShowFileChooser(view: WebView, cb: ValueCallback<Array<Uri>>, params: FileChooserParams): Boolean {
                             fileCb?.onReceiveValue(emptyArray())
                             fileCb = cb

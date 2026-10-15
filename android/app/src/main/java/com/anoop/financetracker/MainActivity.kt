@@ -46,6 +46,7 @@ class MainActivity : FragmentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         enableEdgeToEdge()
         super.onCreate(savedInstanceState)
+        android.util.Log.i("FTStudy", "MainActivity onCreate restored=${savedInstanceState != null}")
         val container = (application as FinanceApp).container() ?: run { finish(); return }
         DailyWorker.schedule(this)
         ProcessLifecycleOwner.get().lifecycle.addObserver(lifecycleWatcher)
@@ -98,7 +99,13 @@ class MainActivity : FragmentActivity() {
         )
     }
 
+    override fun onConfigurationChanged(newConfig: android.content.res.Configuration) {
+        super.onConfigurationChanged(newConfig)
+        android.util.Log.i("FTStudy", "MainActivity configuration changed")
+    }
+
     override fun onDestroy() {
+        android.util.Log.i("FTStudy", "MainActivity onDestroy finishing=$isFinishing changing=$isChangingConfigurations")
         ProcessLifecycleOwner.get().lifecycle.removeObserver(lifecycleWatcher)
         super.onDestroy()
     }
