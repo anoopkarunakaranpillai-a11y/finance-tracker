@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Runs on the Android emulator in CI: instrumented tests, then three cold launches to measure start-up time.
+# Runs on the Android emulator in CI: instrumented tests, screenshot tours, then three cold launches to measure start-up time.
 set +e
 cd "$(dirname "$0")/../../android"
 adb logcat -c

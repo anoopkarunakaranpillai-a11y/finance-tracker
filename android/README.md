@@ -11,6 +11,18 @@ Your finance data stays on the phone in an encrypted database. The children's st
   - [Build, signing & Google Play](docs/RELEASE.md)
   - [Test register & report](docs/TEST_REGISTER.md)
 
+## Screenshots
+
+These were captured automatically on an Android 14 emulator (Pixel 6) during CI, using demo data.
+
+| Dashboard | Transactions | Add expense | Budgets |
+|---|---|---|---|
+| ![](docs/screenshots/01-dashboard.jpg) | ![](docs/screenshots/02-transactions.jpg) | ![](docs/screenshots/03-add-expense.jpg) | ![](docs/screenshots/04-budgets.jpg) |
+| **Goals** | **Bills** | **Reports** | **Settings** |
+| ![](docs/screenshots/05-goals.jpg) | ![](docs/screenshots/06-bills.jpg) | ![](docs/screenshots/07-reports.jpg) | ![](docs/screenshots/08-settings.jpg) |
+| **Study corner** | **Navamika** | **Arya** | **Light theme** |
+| ![](docs/screenshots/09-study-corner.jpg) | ![](docs/screenshots/11-study-navamika.jpg) | ![](docs/screenshots/12-study-arya.jpg) | ![](docs/screenshots/10-dashboard-light.jpg) |
+
 ## Features
 
 | Area | What you can do |
