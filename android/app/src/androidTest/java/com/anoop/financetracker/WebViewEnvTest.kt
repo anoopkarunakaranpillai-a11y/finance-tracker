@@ -32,7 +32,7 @@ class WebViewEnvTest {
     }
 
     /** Loads the real study page in a plain WebView (optionally with the app's shim and a dummy bridge) and reports how far it gets. */
-    private fun loadStudy(withShim: Boolean): String {
+    private fun loadStudy(withShim: Boolean, attach: Int = 0): String {
         val ins = InstrumentationRegistry.getInstrumentation()
         val done = CountDownLatch(1)
         var result = "not finished"
@@ -65,9 +65,13 @@ class WebViewEnvTest {
                 }
             }
             w.loadUrl(com.anoop.financetracker.study.studyUrl("navw"))
+            if (attach > 0) {
+                if (attach == 2) w.setLayerType(android.view.View.LAYER_TYPE_SOFTWARE, null)
+                scenario!!.onActivity { a -> a.addContentView(w, android.view.ViewGroup.LayoutParams(-1, -1)) }
+            }
         }
         val ok = done.await(90, TimeUnit.SECONDS)
-        android.util.Log.i("FTStudyEnv", "shim=$withShim finished=$ok progress=$progress result=$result")
+        android.util.Log.i("FTStudyEnv", "attach=$attach shim=$withShim finished=$ok progress=$progress result=$result")
         return "finished=$ok progress=$progress result=$result"
     }
 
@@ -79,5 +83,19 @@ class WebViewEnvTest {
     @Test fun ENV_03_study_page_loads_with_app_shim() {
         val r = loadStudy(true)
         assertTrue(r, r.startsWith("finished=true") && r.contains("studyonly"))
+    }
+
+    private var scenario: androidx.test.core.app.ActivityScenario<MainActivity>? = null
+
+    @Test fun ENV_04_study_page_loads_when_attached_to_a_window() {
+        scenario = androidx.test.core.app.ActivityScenario.launch(MainActivity::class.java)
+        val r = try { loadStudy(true, attach = 1) } finally { scenario?.close() }
+        assertTrue(r, r.startsWith("finished=true"))
+    }
+
+    @Test fun ENV_05_study_page_loads_attached_with_software_rendering() {
+        scenario = androidx.test.core.app.ActivityScenario.launch(MainActivity::class.java)
+        val r = try { loadStudy(true, attach = 2) } finally { scenario?.close() }
+        assertTrue(r, r.startsWith("finished=true"))
     }
 }
