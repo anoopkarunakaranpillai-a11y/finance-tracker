@@ -1,0 +1,112 @@
+{
+ "kind": "device",
+ "errors": [],
+ "tests": [
+  {
+   "class": "com.anoop.financetracker.DeviceTest",
+   "name": "TC_INST_01_app_installs_and_launches_to_a_usable_screen",
+   "status": "Pass",
+   "time": 7.595,
+   "message": ""
+  },
+  {
+   "class": "com.anoop.financetracker.DeviceTest",
+   "name": "TC_SEC_04_database_file_on_disk_is_encrypted",
+   "status": "Pass",
+   "time": 3.848,
+   "message": ""
+  },
+  {
+   "class": "com.anoop.financetracker.DeviceTest",
+   "name": "TC_PERSIST_02_data_is_still_there_after_the_activity_is_recreated",
+   "status": "Pass",
+   "time": 4.165,
+   "message": ""
+  },
+  {
+   "class": "com.anoop.financetracker.DeviceTest",
+   "name": "TC_INST_02_add_expense_end_to_end_on_device",
+   "status": "Pass",
+   "time": 11.553,
+   "message": ""
+  },
+  {
+   "class": "com.anoop.financetracker.ScreenshotTour",
+   "name": "tour",
+   "status": "Pass",
+   "time": 18.674,
+   "message": ""
+  },
+  {
+   "class": "com.anoop.financetracker.StudyCornerTest",
+   "name": "TC_EDU_03_arya_pages_load_in_study_only_mode",
+   "status": "Pass",
+   "time": 11.324,
+   "message": ""
+  },
+  {
+   "class": "com.anoop.financetracker.StudyCornerTest",
+   "name": "TC_EDU_02_navamika_pages_load_in_study_only_mode",
+   "status": "Pass",
+   "time": 6.052,
+   "message": ""
+  },
+  {
+   "class": "com.anoop.financetracker.StudyScreenshots",
+   "name": "tourStudy",
+   "status": "Pass",
+   "time": 39.357,
+   "message": ""
+  },
+  {
+   "class": "com.anoop.financetracker.WebViewEnvTest",
+   "name": "ENV_06_app_study_webview_loads_when_attached_outside_compose",
+   "status": "Pass",
+   "time": 7.12,
+   "message": ""
+  },
+  {
+   "class": "com.anoop.financetracker.WebViewEnvTest",
+   "name": "ENV_01_webview_can_load_a_local_page",
+   "status": "Pass",
+   "time": 0.541,
+   "message": ""
+  },
+  {
+   "class": "com.anoop.financetracker.WebViewEnvTest",
+   "name": "ENV_05_study_page_loads_attached_with_software_rendering",
+   "status": "Pass",
+   "time": 4.764,
+   "message": ""
+  },
+  {
+   "class": "com.anoop.financetracker.WebViewEnvTest",
+   "name": "ENV_03_study_page_loads_with_app_shim",
+   "status": "Pass",
+   "time": 2.151,
+   "message": ""
+  },
+  {
+   "class": "com.anoop.financetracker.WebViewEnvTest",
+   "name": "ENV_04_study_page_loads_when_attached_to_a_window",
+   "status": "Pass",
+   "time": 7.168,
+   "message": ""
+  },
+  {
+   "class": "com.anoop.financetracker.WebViewEnvTest",
+   "name": "ENV_02_study_page_loads_in_plain_webview",
+   "status": "Pass",
+   "time": 0.601,
+   "message": ""
+  }
+ ],
+ "launch_ms": [
+  1701,
+  1507,
+  1779
+ ],
+ "device": "model: sdk_gphone64_x86_64\nandroid: 14 (API 34)\nabi: x86_64\n",
+ "passed": 14,
+ "failed": 0
+}
