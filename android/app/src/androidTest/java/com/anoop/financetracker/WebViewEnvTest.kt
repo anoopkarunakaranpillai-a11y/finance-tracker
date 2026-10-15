@@ -98,4 +98,24 @@ class WebViewEnvTest {
         val r = try { loadStudy(true, attach = 2) } finally { scenario?.close() }
         assertTrue(r, r.startsWith("finished=true"))
     }
+
+    @Test fun ENV_06_app_study_webview_loads_when_attached_outside_compose() {
+        val sc = androidx.test.core.app.ActivityScenario.launch(MainActivity::class.java)
+        val done = CountDownLatch(1)
+        var result = "not finished"
+        var progress = 0
+        try {
+            sc.onActivity { a ->
+                val host = android.net.Uri.parse(BuildConfig.STUDY_BASE_URL).host!!
+                lateinit var w: WebView
+                w = com.anoop.financetracker.study.createStudyWebView(a, "navw", host, onProgress = { progress = it }, onFinished = {
+                    w.evaluateJavascript("document.documentElement.className+'|'+document.body.className") { r -> result = r ?: "null"; done.countDown() }
+                })
+                a.addContentView(w, android.view.ViewGroup.LayoutParams(-1, -1))
+            }
+            val ok = done.await(90, TimeUnit.SECONDS)
+            android.util.Log.i("FTStudyEnv", "ENV_06 finished=$ok progress=$progress result=$result")
+            assertTrue("finished=$ok progress=$progress result=$result", ok && result.contains("studyonly"))
+        } finally { sc.close() }
+    }
 }

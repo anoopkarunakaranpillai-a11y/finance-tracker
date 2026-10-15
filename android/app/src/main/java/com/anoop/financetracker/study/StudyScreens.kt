@@ -112,61 +112,17 @@ fun StudyWebScreen(who: String, onBack: () -> Unit) {
                 (w.tag as? StudyBridge)?.release(); w.stopLoading(); w.destroy()
             }, factory = { c ->
                 android.util.Log.i("FTStudy", "creating WebView for $who")
-                WebView(c).apply {
-                    val bridge = StudyBridge(c, this, host)
-                    tag = bridge
-                    settings.javaScriptEnabled = true
-                    settings.domStorageEnabled = true
-                    settings.databaseEnabled = true
-                    // Sounds start after a tap (the browser default); the games always begin with one.
-                    settings.mediaPlaybackRequiresUserGesture = true
-                    settings.allowFileAccess = false
-                    settings.allowContentAccess = false
-                    settings.mixedContentMode = WebSettings.MIXED_CONTENT_NEVER_ALLOW
-                    settings.cacheMode = WebSettings.LOAD_DEFAULT
-                    settings.userAgentString = settings.userAgentString + " FTAndroid/" + BuildConfig.VERSION_NAME
-                    addJavascriptInterface(bridge, "FTAndroid")
-                    val early = WebViewFeature.isFeatureSupported(WebViewFeature.DOCUMENT_START_SCRIPT)
-                    if (early) WebViewCompat.addDocumentStartJavaScript(this, StudyBridge.SHIM, setOf("https://$host"))
-                    webViewClient = object : WebViewClient() {
-                        override fun shouldOverrideUrlLoading(view: WebView, req: WebResourceRequest): Boolean {
-                            val u = req.url
-                            if (u.scheme == "https" && u.host.equals(host, true)) return false
-                            // Anything else opens outside the app.
-                            runCatching { c.startActivity(Intent(Intent.ACTION_VIEW, u).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)) }
-                            return true
-                        }
-                        override fun onPageStarted(view: WebView, url: String?, favicon: Bitmap?) {
-                            bridge.currentHost = Uri.parse(url ?: "").host ?: ""
-                            failed = false
-                            if (!early) view.evaluateJavascript(StudyBridge.SHIM, null)
-                        }
-                        override fun onPageFinished(view: WebView, url: String?) {
-                            android.util.Log.i("FTStudy", "page finished")
-                            bridge.currentHost = Uri.parse(url ?: "").host ?: ""
-                            if (!early) view.evaluateJavascript(StudyBridge.SHIM, null)
-                        }
-                        override fun onReceivedError(view: WebView, req: WebResourceRequest, err: WebResourceError) {
-                            android.util.Log.w("FTStudy", "load error ${err.errorCode} main=${req.isForMainFrame}")
-                            if (req.isForMainFrame) failed = true
-                        }
-                    }
-                    webChromeClient = object : WebChromeClient() {
-                        override fun onProgressChanged(view: WebView, p: Int) { progress = p; android.util.Log.i("FTStudy", "progress $p") }
-                        override fun onShowFileChooser(view: WebView, cb: ValueCallback<Array<Uri>>, params: FileChooserParams): Boolean {
-                            fileCb?.onReceiveValue(emptyArray())
-                            fileCb = cb
-                            val types = params.acceptTypes.filter { it.isNotBlank() }.flatMap { it.split(',') }.map { it.trim() }
-                                .map { if (it.startsWith(".")) "*/*" else it }.ifEmpty { listOf("*/*") }
-                            runCatching { pickFiles.launch(types.toTypedArray()) }.onFailure { cb.onReceiveValue(emptyArray()); fileCb = null }
-                            return true
-                        }
-                    }
-                    loadUrl(studyUrl(who))
-                    web = this
-                    StudyBridge.current = java.lang.ref.WeakReference(this)
-                    android.util.Log.i("FTStudy", "WebView ready, loading")
-                }
+                createStudyWebView(c, who, host,
+                    onProgress = { progress = it },
+                    onFailed = { failed = it },
+                    onFileChooser = { cb, accept ->
+                        fileCb?.onReceiveValue(emptyArray())
+                        fileCb = cb
+                        val types = accept.filter { it.isNotBlank() }.flatMap { it.split(',') }.map { it.trim() }
+                            .map { if (it.startsWith(".")) "*/*" else it }.ifEmpty { listOf("*/*") }
+                        runCatching { pickFiles.launch(types.toTypedArray()) }.onFailure { cb.onReceiveValue(emptyArray()); fileCb = null }
+                        true
+                    }).also { web = it }
             })
             if (failed) Column(Modifier.fillMaxSize().background(MaterialTheme.colorScheme.background).padding(24.dp),
                 horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.Center) {
@@ -180,6 +136,60 @@ fun StudyWebScreen(who: String, onBack: () -> Unit) {
     }
     DisposableEffect(Unit) {
         onDispose { fileCb?.onReceiveValue(emptyArray()) }
+    }
+}
+
+/** Builds the study WebView with the app's settings, Android bridge and safety rules (shared with on-device tests). */
+fun createStudyWebView(
+    c: Context, who: String, host: String,
+    onProgress: (Int) -> Unit = {}, onFailed: (Boolean) -> Unit = {}, onFinished: () -> Unit = {},
+    onFileChooser: (ValueCallback<Array<Uri>>, Array<String>) -> Boolean = { _, _ -> false },
+): WebView {
+    return WebView(c).apply {
+        val bridge = StudyBridge(c, this, host)
+        tag = bridge
+        settings.javaScriptEnabled = true
+        settings.domStorageEnabled = true
+        settings.databaseEnabled = true
+        // Sounds start after a tap (the browser default); the games always begin with one.
+        settings.mediaPlaybackRequiresUserGesture = true
+        settings.allowFileAccess = false
+        settings.allowContentAccess = false
+        settings.mixedContentMode = WebSettings.MIXED_CONTENT_NEVER_ALLOW
+        settings.cacheMode = WebSettings.LOAD_DEFAULT
+        settings.userAgentString = settings.userAgentString + " FTAndroid/" + BuildConfig.VERSION_NAME
+        addJavascriptInterface(bridge, "FTAndroid")
+        val early = WebViewFeature.isFeatureSupported(WebViewFeature.DOCUMENT_START_SCRIPT)
+        if (early) WebViewCompat.addDocumentStartJavaScript(this, StudyBridge.SHIM, setOf("https://$host"))
+        webViewClient = object : WebViewClient() {
+            override fun shouldOverrideUrlLoading(view: WebView, req: WebResourceRequest): Boolean {
+                val u = req.url
+                if (u.scheme == "https" && u.host.equals(host, true)) return false
+                // Anything else opens outside the app.
+                runCatching { c.startActivity(Intent(Intent.ACTION_VIEW, u).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)) }
+                return true
+            }
+            override fun onPageStarted(view: WebView, url: String?, favicon: Bitmap?) {
+                bridge.currentHost = Uri.parse(url ?: "").host ?: ""
+                onFailed(false)
+                if (!early) view.evaluateJavascript(StudyBridge.SHIM, null)
+            }
+            override fun onPageFinished(view: WebView, url: String?) {
+                onFinished()
+                bridge.currentHost = Uri.parse(url ?: "").host ?: ""
+                if (!early) view.evaluateJavascript(StudyBridge.SHIM, null)
+            }
+            override fun onReceivedError(view: WebView, req: WebResourceRequest, err: WebResourceError) {
+                android.util.Log.w("FTStudy", "load error ${err.errorCode} main=${req.isForMainFrame}")
+                if (req.isForMainFrame) onFailed(true)
+            }
+        }
+        webChromeClient = object : WebChromeClient() {
+            override fun onProgressChanged(view: WebView, p: Int) { onProgress(p) }
+            override fun onShowFileChooser(view: WebView, cb: ValueCallback<Array<Uri>>, params: FileChooserParams): Boolean = onFileChooser(cb, params.acceptTypes)
+        }
+        loadUrl(studyUrl(who))
+        StudyBridge.current = java.lang.ref.WeakReference(this)
     }
 }
 
