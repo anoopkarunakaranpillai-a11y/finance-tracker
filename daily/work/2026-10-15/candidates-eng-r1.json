@@ -1,0 +1,242 @@
+[
+ {
+  "k": "eng-501",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Synonyms",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "plus2",
+  "d": "medium",
+  "q": "Choose the word closest in meaning to 'Garrulous'.",
+  "o": [
+   "Talkative",
+   "Generous",
+   "Silent",
+   "Angry"
+  ],
+  "a": 0,
+  "e": "'Garrulous' means excessively talkative, so the answer is 'Talkative'.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-502",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Antonyms",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "sslc",
+  "d": "easy",
+  "q": "Choose the word opposite in meaning to 'Diligent'.",
+  "o": [
+   "Punctual",
+   "Intelligent",
+   "Lazy",
+   "Honest"
+  ],
+  "a": 2,
+  "e": "'Diligent' means hard-working; its opposite is 'Lazy'.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-503",
+  "cat": "eng",
+  "s": "veng",
+  "t": "One-word substitution",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "sslc",
+  "d": "easy",
+  "q": "One word for 'a person who can speak two languages':",
+  "o": [
+   "Biennial",
+   "Biped",
+   "Bipartisan",
+   "Bilingual"
+  ],
+  "a": 3,
+  "e": "A person who speaks two languages is 'Bilingual'.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-504",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Idioms",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "sslc",
+  "d": "medium",
+  "q": "The idiom 'to call a spade a spade' means:",
+  "o": [
+   "To speak plainly and frankly",
+   "To work in the garden",
+   "To avoid an argument",
+   "To make a false promise"
+  ],
+  "a": 0,
+  "e": "'To call a spade a spade' means to speak plainly and frankly.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-505",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Subject-verb agreement",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "sslc",
+  "d": "medium",
+  "q": "Fill in the blank: Each of the students ___ given a prize.",
+  "o": [
+   "was",
+   "were",
+   "have been",
+   "are"
+  ],
+  "a": 0,
+  "e": "'Each' takes a singular verb, so 'was' is correct.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-506",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Prepositions",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "sslc",
+  "d": "easy",
+  "q": "Fill in the blank: He prefers tea ___ coffee.",
+  "o": [
+   "from",
+   "with",
+   "than",
+   "to"
+  ],
+  "a": 3,
+  "e": "'Prefer' is followed by 'to': He prefers tea to coffee.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-507",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Spelling",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "plus2",
+  "d": "easy",
+  "q": "Choose the correctly spelt word.",
+  "o": [
+   "Neccesary",
+   "Necesary",
+   "Necessary",
+   "Neccessary"
+  ],
+  "a": 2,
+  "e": "The correct spelling is 'Necessary' (one c, double s).",
+  "lang": "en"
+ },
+ {
+  "k": "eng-508",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Conditionals",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "plus2",
+  "d": "medium",
+  "q": "Fill in the blank: If it rains tomorrow, we ___ the match.",
+  "o": [
+   "would cancel",
+   "had cancelled",
+   "will cancel",
+   "cancelled"
+  ],
+  "a": 2,
+  "e": "First conditional: if + simple present, will + verb. So 'will cancel'.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-509",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Degrees of comparison",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "plus2",
+  "d": "medium",
+  "q": "Fill in the blank: Of the two plans, this one is the ___.",
+  "o": [
+   "good",
+   "best",
+   "better",
+   "most good"
+  ],
+  "a": 2,
+  "e": "When comparing two things, the comparative is used: 'the better'.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-510",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Subject-verb agreement",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "degree",
+  "d": "hard",
+  "q": "Fill in the blank: Bread and butter ___ my usual breakfast.",
+  "o": [
+   "have been",
+   "are",
+   "were",
+   "is"
+  ],
+  "a": 3,
+  "e": "'Bread and butter' expresses a single idea, so it takes a singular verb: 'is'.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-511",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Verbs (lie/lay)",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "degree",
+  "d": "hard",
+  "q": "Fill in the blank: The book is ___ on the table where you left it.",
+  "o": [
+   "lying",
+   "lain",
+   "laying",
+   "laid"
+  ],
+  "a": 0,
+  "e": "Intransitive 'lie' (to rest) has the -ing form 'lying'; 'laying' is from transitive 'lay'. Answer: 'lying'.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-512",
+  "cat": "eng",
+  "s": "veng",
+  "t": "One-word substitution",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "degree",
+  "d": "advanced",
+  "q": "One word for 'government by old people':",
+  "o": [
+   "Plutocracy",
+   "Gerontocracy",
+   "Oligarchy",
+   "Theocracy"
+  ],
+  "a": 1,
+  "e": "Government by old people is 'Gerontocracy' (plutocracy = the rich, theocracy = religious leaders, oligarchy = a few).",
+  "lang": "en"
+ }
+]

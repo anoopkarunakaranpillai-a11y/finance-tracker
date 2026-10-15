@@ -1,0 +1,352 @@
+[
+ {
+  "k": "deg-501",
+  "cat": "deg",
+  "lang": "en",
+  "s": "acc",
+  "t": "Partnership accounts",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "medium",
+  "q": "Under the Indian Partnership Act, 1932, if there is no partnership deed, interest on partners' capital is:",
+  "o": [
+   "Allowed at 12% per annum",
+   "Allowed at the bank rate",
+   "Allowed at 6% per annum",
+   "Not allowed"
+  ],
+  "a": 3,
+  "e": "In the absence of a deed, no interest is allowed on partners' capital (only interest on partners' loans at 6% p.a.). Answer: Not allowed."
+ },
+ {
+  "k": "deg-502",
+  "cat": "deg",
+  "lang": "en",
+  "s": "acc",
+  "t": "Marginal costing",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "medium",
+  "q": "Fixed costs are ₹60,000, the selling price is ₹20 per unit and the variable cost is ₹12 per unit. What is the break-even point in units?",
+  "o": [
+   "5,000 units",
+   "3,000 units",
+   "7,500 units",
+   "10,000 units"
+  ],
+  "a": 2,
+  "e": "Contribution per unit = 20 − 12 = ₹8; BEP = 60,000 ÷ 8 = 7,500 units.",
+  "calc": "60000/(20-12)"
+ },
+ {
+  "k": "deg-503",
+  "cat": "deg",
+  "lang": "en",
+  "s": "dcs",
+  "t": "Operating systems – deadlocks",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "medium",
+  "q": "The Banker's algorithm in operating systems is used for:",
+  "o": [
+   "Disk scheduling",
+   "Deadlock avoidance",
+   "Deadlock detection only",
+   "Page replacement"
+  ],
+  "a": 1,
+  "e": "The Banker's algorithm grants a request only if the system stays in a safe state, so it is a deadlock avoidance algorithm."
+ },
+ {
+  "k": "deg-504",
+  "cat": "deg",
+  "lang": "en",
+  "s": "dcs",
+  "t": "Graph theory – spanning trees",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "easy",
+  "q": "How many edges does a spanning tree of a connected graph with 10 vertices have?",
+  "o": [
+   "9",
+   "45",
+   "10",
+   "11"
+  ],
+  "a": 0,
+  "e": "A spanning tree on n vertices has n − 1 edges, so 10 − 1 = 9.",
+  "calc": "10-1"
+ },
+ {
+  "k": "deg-505",
+  "cat": "deg",
+  "lang": "en",
+  "s": "dmath",
+  "t": "Differential equations",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "hard",
+  "q": "What are the order and degree of the differential equation (d²y/dx²)³ + (dy/dx)⁴ + y = 0?",
+  "o": [
+   "Order 2, degree 4",
+   "Order 2, degree 3",
+   "Order 4, degree 2",
+   "Order 3, degree 2"
+  ],
+  "a": 1,
+  "e": "The highest derivative is d²y/dx² (order 2) and its power is 3 (degree 3). Answer: order 2, degree 3.",
+  "nocalc": true
+ },
+ {
+  "k": "deg-506",
+  "cat": "deg",
+  "lang": "en",
+  "s": "dmath",
+  "t": "Set theory",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "easy",
+  "q": "How many elements does the power set of a set with 5 elements have?",
+  "o": [
+   "25",
+   "10",
+   "120",
+   "32"
+  ],
+  "a": 3,
+  "e": "A set with n elements has 2ⁿ subsets; 2⁵ = 32.",
+  "calc": "2^5"
+ },
+ {
+  "k": "deg-507",
+  "cat": "deg",
+  "lang": "en",
+  "s": "dphy",
+  "t": "Radioactivity",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "easy",
+  "q": "A radioactive sample of 80 g has a half-life of 5 days. How much of it remains undecayed after 15 days?",
+  "o": [
+   "10 g",
+   "20 g",
+   "40 g",
+   "5 g"
+  ],
+  "a": 0,
+  "e": "15 days = 3 half-lives; 80 × (1/2)³ = 10 g.",
+  "calc": "80/2^3"
+ },
+ {
+  "k": "deg-508",
+  "cat": "deg",
+  "lang": "en",
+  "s": "dphy",
+  "t": "Atomic physics",
+  "lvl": "degree",
+  "exam": "University entrance",
+  "d": "advanced",
+  "q": "Which experiment, using a beam of silver atoms in a non-uniform magnetic field, demonstrated space quantisation of angular momentum?",
+  "o": [
+   "Franck–Hertz experiment",
+   "Michelson–Morley experiment",
+   "Stern–Gerlach experiment",
+   "Davisson–Germer experiment"
+  ],
+  "a": 2,
+  "e": "The Stern–Gerlach experiment split a silver-atom beam into discrete components, showing space quantisation."
+ },
+ {
+  "k": "deg-509",
+  "cat": "deg",
+  "lang": "en",
+  "s": "dchem",
+  "t": "Organic reactions",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "medium",
+  "q": "Reduction of the carbonyl group of an aldehyde or ketone to a CH₂ group using zinc amalgam and concentrated HCl is called:",
+  "o": [
+   "Rosenmund reduction",
+   "Cannizzaro reaction",
+   "Clemmensen reduction",
+   "Wolff–Kishner reduction"
+  ],
+  "a": 2,
+  "e": "Zn–Hg with conc. HCl converts C=O to CH₂: the Clemmensen reduction."
+ },
+ {
+  "k": "deg-510",
+  "cat": "deg",
+  "lang": "en",
+  "s": "dchem",
+  "t": "Molecular orbital theory",
+  "lvl": "degree",
+  "exam": "University entrance",
+  "d": "advanced",
+  "q": "According to molecular orbital theory, what is the bond order of the O₂⁺ ion?",
+  "o": [
+   "3",
+   "2.5",
+   "2",
+   "1.5"
+  ],
+  "a": 1,
+  "e": "O₂⁺ has 15 electrons: 10 bonding and 5 antibonding; bond order = (10 − 5)/2 = 2.5.",
+  "calc": "(10-5)/2"
+ },
+ {
+  "k": "deg-511",
+  "cat": "deg",
+  "lang": "en",
+  "s": "dbio",
+  "t": "Plant hormones",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "easy",
+  "q": "Which plant hormone promotes closure of stomata during water stress?",
+  "o": [
+   "Gibberellin",
+   "Auxin",
+   "Abscisic acid",
+   "Cytokinin"
+  ],
+  "a": 2,
+  "e": "Abscisic acid (ABA), the stress hormone, causes stomatal closure."
+ },
+ {
+  "k": "deg-512",
+  "cat": "deg",
+  "lang": "en",
+  "s": "dbio",
+  "t": "Muscle contraction",
+  "lvl": "degree",
+  "exam": "University entrance",
+  "d": "hard",
+  "q": "According to the sliding filament theory, which part of the sarcomere does NOT change in length during muscle contraction?",
+  "o": [
+   "A band",
+   "Distance between Z lines",
+   "I band",
+   "H zone"
+  ],
+  "a": 0,
+  "e": "The A band equals the length of the thick (myosin) filaments, so it stays constant while the I band and H zone shorten."
+ },
+ {
+  "k": "deg-513",
+  "cat": "deg",
+  "lang": "en",
+  "s": "decon",
+  "t": "Consumer behaviour",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "medium",
+  "q": "Engel's law states that as a household's income rises:",
+  "o": [
+   "The proportion of income saved falls",
+   "The proportion of income spent on food falls",
+   "The total amount spent on food falls",
+   "Spending on luxuries falls"
+  ],
+  "a": 1,
+  "e": "Engel's law: the share (proportion) of income spent on food falls as income rises, even if the absolute amount rises."
+ },
+ {
+  "k": "deg-514",
+  "cat": "deg",
+  "lang": "en",
+  "s": "decon",
+  "t": "Interest rates",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "easy",
+  "q": "Using the Fisher approximation, if the nominal interest rate is 9% and the inflation rate is 5%, what is the real interest rate?",
+  "o": [
+   "1.8%",
+   "45%",
+   "14%",
+   "4%"
+  ],
+  "a": 3,
+  "e": "Real rate ≈ nominal rate − inflation = 9% − 5% = 4%.",
+  "calc": "9-5"
+ },
+ {
+  "k": "deg-515",
+  "cat": "deg",
+  "lang": "en",
+  "s": "mgmt",
+  "t": "Leadership",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "medium",
+  "q": "The Managerial Grid, which plots concern for people against concern for production, was developed by:",
+  "o": [
+   "Rensis Likert",
+   "Tannenbaum and Schmidt",
+   "Hersey and Blanchard",
+   "Blake and Mouton"
+  ],
+  "a": 3,
+  "e": "Robert Blake and Jane Mouton developed the Managerial Grid."
+ },
+ {
+  "k": "deg-516",
+  "cat": "deg",
+  "lang": "en",
+  "s": "hum",
+  "t": "Indian sociology",
+  "lvl": "degree",
+  "exam": "UPSC",
+  "d": "hard",
+  "q": "Who introduced the concept of 'Sanskritisation' to describe upward mobility in the Indian caste system?",
+  "o": [
+   "André Béteille",
+   "G. S. Ghurye",
+   "Yogendra Singh",
+   "M. N. Srinivas"
+  ],
+  "a": 3,
+  "e": "M. N. Srinivas introduced 'Sanskritisation' in his study of the Coorgs."
+ },
+ {
+  "k": "deg-517",
+  "cat": "deg",
+  "lang": "en",
+  "s": "hum",
+  "t": "Sociological thinkers",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "medium",
+  "q": "'The Protestant Ethic and the Spirit of Capitalism' was written by:",
+  "o": [
+   "Herbert Spencer",
+   "Max Weber",
+   "Émile Durkheim",
+   "Karl Marx"
+  ],
+  "a": 1,
+  "e": "Max Weber wrote 'The Protestant Ethic and the Spirit of Capitalism'."
+ },
+ {
+  "k": "deg-518",
+  "cat": "deg",
+  "lang": "en",
+  "s": "engg",
+  "t": "Strength of materials",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "hard",
+  "q": "A simply supported beam of span 6 m carries a central point load of 20 kN. What is the maximum bending moment (neglect self-weight)?",
+  "o": [
+   "120 kN·m",
+   "30 kN·m",
+   "60 kN·m",
+   "15 kN·m"
+  ],
+  "a": 1,
+  "e": "M_max = WL/4 = 20 × 6 / 4 = 30 kN·m at mid-span.",
+  "calc": "20*6/4"
+ }
+]

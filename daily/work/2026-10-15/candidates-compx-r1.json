@@ -1,0 +1,235 @@
+[
+ {
+  "k": "compx-501",
+  "cat": "compx",
+  "s": "quant",
+  "t": "Compound interest",
+  "lvl": "recruit",
+  "exam": "Banking",
+  "d": "medium",
+  "q": "What is the compound interest on ₹5,000 for 2 years at 10% per annum, compounded annually?",
+  "o": [
+   "₹1,050",
+   "₹1,000",
+   "₹1,025",
+   "₹1,100"
+  ],
+  "a": 0,
+  "e": "Amount = 5000 × 1.1 × 1.1 = ₹6,050, so CI = ₹1,050.",
+  "lang": "en",
+  "calc": "5000*11*11/100-5000"
+ },
+ {
+  "k": "compx-502",
+  "cat": "compx",
+  "s": "quant",
+  "t": "Average speed",
+  "lvl": "recruit",
+  "exam": "SSC",
+  "d": "medium",
+  "q": "A man travels from A to B at 60 km/h and returns from B to A at 40 km/h. What is his average speed for the whole journey?",
+  "o": [
+   "45 km/h",
+   "48 km/h",
+   "52 km/h",
+   "50 km/h"
+  ],
+  "a": 1,
+  "e": "For equal distances, average speed = 2xy/(x + y) = 2 × 60 × 40 / 100 = 48 km/h.",
+  "lang": "en",
+  "calc": "2*60*40/(60+40)"
+ },
+ {
+  "k": "compx-503",
+  "cat": "compx",
+  "s": "math",
+  "t": "HCF",
+  "lvl": "recruit",
+  "exam": "Railway",
+  "d": "easy",
+  "q": "What is the HCF of 36, 84 and 120?",
+  "o": [
+   "6",
+   "24",
+   "12",
+   "4"
+  ],
+  "a": 2,
+  "e": "36 = 2²×3², 84 = 2²×3×7, 120 = 2³×3×5; common factors 2²×3 = 12.",
+  "lang": "en",
+  "calc": "2*2*3"
+ },
+ {
+  "k": "compx-504",
+  "cat": "compx",
+  "s": "reas",
+  "t": "Number series",
+  "lvl": "recruit",
+  "exam": "SSC",
+  "d": "medium",
+  "q": "Find the next number: 1, 4, 13, 40, 121, ?",
+  "o": [
+   "243",
+   "364",
+   "361",
+   "484"
+  ],
+  "a": 1,
+  "e": "Each term = previous × 3 + 1: 121 × 3 + 1 = 364.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-505",
+  "cat": "compx",
+  "s": "reas",
+  "t": "Blood relations",
+  "lvl": "recruit",
+  "exam": "Police",
+  "d": "easy",
+  "q": "A is B's sister. C is B's mother. D is C's father. How is A related to D?",
+  "o": [
+   "Grandmother",
+   "Granddaughter",
+   "Daughter",
+   "Niece"
+  ],
+  "a": 1,
+  "e": "A is a daughter of C, and C is D's child, so A is D's granddaughter.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-506",
+  "cat": "compx",
+  "s": "veng",
+  "t": "Synonyms",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "easy",
+  "q": "Choose the word closest in meaning to 'Placid'.",
+  "o": [
+   "Calm",
+   "Restless",
+   "Bright",
+   "Rough"
+  ],
+  "a": 0,
+  "e": "'Placid' means calm and peaceful, so the answer is 'Calm'.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-507",
+  "cat": "compx",
+  "s": "sci",
+  "t": "Human body",
+  "lvl": "recruit",
+  "exam": "Railway",
+  "d": "easy",
+  "q": "Which is the largest gland in the human body?",
+  "o": [
+   "Pancreas",
+   "Liver",
+   "Pituitary",
+   "Thyroid"
+  ],
+  "a": 1,
+  "e": "The liver is the largest gland in the human body.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-508",
+  "cat": "compx",
+  "s": "con",
+  "t": "Fundamental rights",
+  "lvl": "recruit",
+  "exam": "UPSC",
+  "d": "medium",
+  "q": "Which Article of the Constitution of India guarantees the Right to Constitutional Remedies (the right to move the Supreme Court for enforcement of Fundamental Rights)?",
+  "o": [
+   "Article 19",
+   "Article 226",
+   "Article 32",
+   "Article 21"
+  ],
+  "a": 2,
+  "e": "Article 32 provides the Right to Constitutional Remedies; Article 226 is the corresponding power of High Courts, not a Fundamental Right.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-509",
+  "cat": "compx",
+  "s": "econ",
+  "t": "Government budget",
+  "lvl": "recruit",
+  "exam": "UPSC",
+  "d": "hard",
+  "q": "Fiscal deficit of a government is best defined as:",
+  "o": [
+   "Revenue expenditure minus revenue receipts",
+   "Fiscal deficit minus interest payments",
+   "Capital expenditure minus capital receipts",
+   "Total expenditure minus total receipts excluding borrowings"
+  ],
+  "a": 3,
+  "e": "Fiscal deficit = total expenditure − total receipts excluding borrowings. (Revenue expenditure − revenue receipts is revenue deficit; fiscal deficit − interest is primary deficit.)",
+  "lang": "en"
+ },
+ {
+  "k": "compx-510",
+  "cat": "compx",
+  "s": "comp",
+  "t": "Windows shortcuts",
+  "lvl": "recruit",
+  "exam": "Banking",
+  "d": "medium",
+  "q": "Which keyboard shortcut opens the Task Manager directly in Microsoft Windows?",
+  "o": [
+   "Ctrl + Shift + Esc",
+   "Alt + F4",
+   "Ctrl + Shift + N",
+   "Ctrl + Alt + Tab"
+  ],
+  "a": 0,
+  "e": "Ctrl + Shift + Esc opens the Task Manager directly in Windows.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-511",
+  "cat": "compx",
+  "s": "math",
+  "t": "Remainders",
+  "lvl": "recruit",
+  "exam": "Teaching",
+  "d": "hard",
+  "q": "A number leaves a remainder of 3 when divided by 5. What is the remainder when the square of that number is divided by 5?",
+  "o": [
+   "2",
+   "4",
+   "3",
+   "1"
+  ],
+  "a": 1,
+  "e": "If n = 5k + 3, then n² = 25k² + 30k + 9; 9 leaves remainder 4 on division by 5. Answer: 4.",
+  "lang": "en",
+  "calc": "3*3-5"
+ },
+ {
+  "k": "compx-512",
+  "cat": "compx",
+  "s": "math",
+  "t": "Arithmetic progression",
+  "lvl": "entrance",
+  "exam": "University entrance",
+  "d": "advanced",
+  "q": "What is the sum of all two-digit numbers that are divisible by 3?",
+  "o": [
+   "1665",
+   "1620",
+   "1530",
+   "1683"
+  ],
+  "a": 0,
+  "e": "They are 12, 15, ..., 99: 30 terms. Sum = 30 × (12 + 99)/2 = 1665.",
+  "lang": "en",
+  "calc": "30*(12+99)/2"
+ }
+]

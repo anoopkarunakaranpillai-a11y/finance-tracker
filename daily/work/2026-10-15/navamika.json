@@ -1,0 +1,648 @@
+[
+ {
+  "id": "first-letter-fun",
+  "type": "alphabet",
+  "title": "First Letter Fun",
+  "desc": "Which letter does it start with?",
+  "difficulty": "easy",
+  "instructions": "Look at the picture. Tap the letter it starts with.",
+  "questions": [
+   {
+    "q": "Apple starts with…",
+    "show": "🍎",
+    "options": [
+     {
+      "t": "A"
+     },
+     {
+      "t": "M"
+     },
+     {
+      "t": "S"
+     }
+    ],
+    "answer": 0,
+    "good": "Yes! A for Apple!"
+   },
+   {
+    "q": "Ball starts with…",
+    "show": "⚽",
+    "options": [
+     {
+      "t": "T"
+     },
+     {
+      "t": "B"
+     },
+     {
+      "t": "K"
+     }
+    ],
+    "answer": 1,
+    "good": "Great! B for Ball!"
+   },
+   {
+    "q": "Cat starts with…",
+    "show": "🐱",
+    "options": [
+     {
+      "t": "D"
+     },
+     {
+      "t": "P"
+     },
+     {
+      "t": "C"
+     }
+    ],
+    "answer": 2,
+    "good": "Meow! C for Cat!"
+   },
+   {
+    "q": "Sun starts with…",
+    "show": "☀️",
+    "options": [
+     {
+      "t": "S"
+     },
+     {
+      "t": "R"
+     },
+     {
+      "t": "F"
+     }
+    ],
+    "answer": 0,
+    "good": "Shiny! S for Sun!"
+   },
+   {
+    "q": "Fish starts with…",
+    "show": "🐟",
+    "options": [
+     {
+      "t": "H"
+     },
+     {
+      "t": "F"
+     },
+     {
+      "t": "L"
+     }
+    ],
+    "answer": 1,
+    "good": "Splash! F for Fish!"
+   },
+   {
+    "q": "Moon starts with…",
+    "show": "🌙",
+    "options": [
+     {
+      "t": "N"
+     },
+     {
+      "t": "W"
+     },
+     {
+      "t": "M"
+     }
+    ],
+    "answer": 2,
+    "good": "Super! M for Moon!"
+   }
+  ]
+ },
+ {
+  "id": "what-comes-next-number",
+  "type": "numbers",
+  "title": "What Comes Next?",
+  "desc": "Find the next number",
+  "difficulty": "medium",
+  "instructions": "Count along and tap the number that comes next.",
+  "questions": [
+   {
+    "q": "1, 2, 3, …?",
+    "show": "1, 2, 3, ?",
+    "options": [
+     {
+      "t": "5"
+     },
+     {
+      "t": "4"
+     },
+     {
+      "t": "2"
+     }
+    ],
+    "answer": 1,
+    "good": "Yes, 4 comes next!"
+   },
+   {
+    "q": "5, 6, 7, …?",
+    "show": "5, 6, 7, ?",
+    "options": [
+     {
+      "t": "8"
+     },
+     {
+      "t": "9"
+     },
+     {
+      "t": "6"
+     }
+    ],
+    "answer": 0,
+    "good": "Well done, it's 8!"
+   },
+   {
+    "q": "2, 3, 4, …?",
+    "show": "2, 3, 4, ?",
+    "options": [
+     {
+      "t": "3"
+     },
+     {
+      "t": "6"
+     },
+     {
+      "t": "5"
+     }
+    ],
+    "answer": 2,
+    "good": "Hooray, 5!"
+   },
+   {
+    "q": "8, 9, 10, …?",
+    "show": "8, 9, 10, ?",
+    "options": [
+     {
+      "t": "11"
+     },
+     {
+      "t": "12"
+     },
+     {
+      "t": "7"
+     }
+    ],
+    "answer": 0,
+    "good": "Wow, 11! Big number!"
+   },
+   {
+    "q": "12, 13, 14, …?",
+    "show": "12, 13, 14, ?",
+    "options": [
+     {
+      "t": "16"
+     },
+     {
+      "t": "15"
+     },
+     {
+      "t": "13"
+     }
+    ],
+    "answer": 1,
+    "good": "Clever! 15 comes next!"
+   },
+   {
+    "q": "4, 5, 6, …?",
+    "show": "4, 5, 6, ?",
+    "options": [
+     {
+      "t": "8"
+     },
+     {
+      "t": "5"
+     },
+     {
+      "t": "7"
+     }
+    ],
+    "answer": 2,
+    "good": "Yes! 7!"
+   }
+  ]
+ },
+ {
+  "id": "colour-of-things",
+  "type": "colors",
+  "title": "What Colour Is It?",
+  "desc": "Match things to their colour",
+  "difficulty": "easy",
+  "instructions": "Look at the picture. Tap its colour.",
+  "questions": [
+   {
+    "q": "What colour is the banana?",
+    "show": "🍌",
+    "options": [
+     {
+      "c": "#2E7D32",
+      "t": "green"
+     },
+     {
+      "c": "#FDD835",
+      "t": "yellow"
+     },
+     {
+      "c": "#1E88E5",
+      "t": "blue"
+     }
+    ],
+    "answer": 1,
+    "good": "Yes! Bananas are yellow!"
+   },
+   {
+    "q": "What colour is the leaf?",
+    "show": "🍃",
+    "options": [
+     {
+      "c": "#2E7D32",
+      "t": "green"
+     },
+     {
+      "c": "#E53935",
+      "t": "red"
+     },
+     {
+      "c": "#8E24AA",
+      "t": "purple"
+     }
+    ],
+    "answer": 0,
+    "good": "Green leaf, well done!"
+   },
+   {
+    "q": "What colour is the strawberry?",
+    "show": "🍓",
+    "options": [
+     {
+      "c": "#1E88E5",
+      "t": "blue"
+     },
+     {
+      "c": "#FDD835",
+      "t": "yellow"
+     },
+     {
+      "c": "#E53935",
+      "t": "red"
+     }
+    ],
+    "answer": 2,
+    "good": "Red and yummy!"
+   },
+   {
+    "q": "What colour is the carrot?",
+    "show": "🥕",
+    "options": [
+     {
+      "c": "#FB8C00",
+      "t": "orange"
+     },
+     {
+      "c": "#8E24AA",
+      "t": "purple"
+     },
+     {
+      "c": "#2E7D32",
+      "t": "green"
+     }
+    ],
+    "answer": 0,
+    "good": "Orange carrot! Crunch!"
+   },
+   {
+    "q": "What colour are the grapes?",
+    "show": "🍇",
+    "options": [
+     {
+      "c": "#FDD835",
+      "t": "yellow"
+     },
+     {
+      "c": "#8E24AA",
+      "t": "purple"
+     },
+     {
+      "c": "#FB8C00",
+      "t": "orange"
+     }
+    ],
+    "answer": 1,
+    "good": "Purple grapes, great!"
+   },
+   {
+    "q": "What colour is the snowman?",
+    "show": "⛄",
+    "options": [
+     {
+      "c": "#E53935",
+      "t": "red"
+     },
+     {
+      "c": "#2E7D32",
+      "t": "green"
+     },
+     {
+      "c": "#FFFFFF",
+      "t": "white"
+     }
+    ],
+    "answer": 2,
+    "good": "White like snow!"
+   }
+  ]
+ },
+ {
+  "id": "who-says-that",
+  "type": "sounds",
+  "title": "Who Says That?",
+  "desc": "Animal sounds",
+  "difficulty": "easy",
+  "instructions": "Listen to the sound. Tap the animal that says it.",
+  "questions": [
+   {
+    "q": "Who says “Moo”?",
+    "show": "Moo!",
+    "options": [
+     {
+      "e": "🐶",
+      "t": "Dog"
+     },
+     {
+      "e": "🐄",
+      "t": "Cow"
+     },
+     {
+      "e": "🐱",
+      "t": "Cat"
+     }
+    ],
+    "answer": 1,
+    "good": "Moo! The cow says moo!"
+   },
+   {
+    "q": "Who says “Woof”?",
+    "show": "Woof!",
+    "options": [
+     {
+      "e": "🐶",
+      "t": "Dog"
+     },
+     {
+      "e": "🐑",
+      "t": "Sheep"
+     },
+     {
+      "e": "🐸",
+      "t": "Frog"
+     }
+    ],
+    "answer": 0,
+    "good": "Woof woof! Good dog!"
+   },
+   {
+    "q": "Who says “Quack”?",
+    "show": "Quack!",
+    "options": [
+     {
+      "e": "🐷",
+      "t": "Pig"
+     },
+     {
+      "e": "🐮",
+      "t": "Cow"
+     },
+     {
+      "e": "🦆",
+      "t": "Duck"
+     }
+    ],
+    "answer": 2,
+    "good": "Quack quack! Silly duck!"
+   },
+   {
+    "q": "Who says “Baa”?",
+    "show": "Baa!",
+    "options": [
+     {
+      "e": "🐑",
+      "t": "Sheep"
+     },
+     {
+      "e": "🐔",
+      "t": "Hen"
+     },
+     {
+      "e": "🐴",
+      "t": "Horse"
+     }
+    ],
+    "answer": 0,
+    "good": "Baa! Fluffy sheep!"
+   },
+   {
+    "q": "Who says “Oink”?",
+    "show": "Oink!",
+    "options": [
+     {
+      "e": "🐱",
+      "t": "Cat"
+     },
+     {
+      "e": "🐷",
+      "t": "Pig"
+     },
+     {
+      "e": "🦆",
+      "t": "Duck"
+     }
+    ],
+    "answer": 1,
+    "good": "Oink oink! Happy pig!"
+   },
+   {
+    "q": "Who says “Ribbit”?",
+    "show": "Ribbit!",
+    "options": [
+     {
+      "e": "🐶",
+      "t": "Dog"
+     },
+     {
+      "e": "🐄",
+      "t": "Cow"
+     },
+     {
+      "e": "🐸",
+      "t": "Frog"
+     }
+    ],
+    "answer": 2,
+    "good": "Ribbit! Hop hop, frog!"
+   }
+  ]
+ },
+ {
+  "id": "odd-one-out-fun",
+  "type": "observation",
+  "title": "Odd One Out",
+  "desc": "Which one does not belong?",
+  "difficulty": "medium",
+  "instructions": "Look at all the pictures. Tap the one that does not belong.",
+  "questions": [
+   {
+    "q": "Three are fruits. Which one is not?",
+    "options": [
+     {
+      "e": "🍎",
+      "t": "Apple"
+     },
+     {
+      "e": "🍌",
+      "t": "Banana"
+     },
+     {
+      "e": "🚗",
+      "t": "Car"
+     },
+     {
+      "e": "🍇",
+      "t": "Grapes"
+     }
+    ],
+    "answer": 2,
+    "good": "Yes! A car is not a fruit!"
+   },
+   {
+    "q": "Three are animals. Which one is not?",
+    "options": [
+     {
+      "e": "⚽",
+      "t": "Ball"
+     },
+     {
+      "e": "🐶",
+      "t": "Dog"
+     },
+     {
+      "e": "🐱",
+      "t": "Cat"
+     },
+     {
+      "e": "🐰",
+      "t": "Rabbit"
+     }
+    ],
+    "answer": 0,
+    "good": "Right! The ball is a toy!"
+   },
+   {
+    "q": "Three are red. Which one is not?",
+    "options": [
+     {
+      "s": "circle",
+      "c": "#E53935"
+     },
+     {
+      "s": "star",
+      "c": "#E53935"
+     },
+     {
+      "s": "heart",
+      "c": "#E53935"
+     },
+     {
+      "s": "square",
+      "c": "#1E88E5"
+     }
+    ],
+    "answer": 3,
+    "good": "Great! The blue one is different!"
+   },
+   {
+    "q": "Three can fly. Which one cannot?",
+    "options": [
+     {
+      "e": "🐦",
+      "t": "Bird"
+     },
+     {
+      "e": "🐢",
+      "t": "Turtle"
+     },
+     {
+      "e": "🦋",
+      "t": "Butterfly"
+     },
+     {
+      "e": "🐝",
+      "t": "Bee"
+     }
+    ],
+    "answer": 1,
+    "good": "Yes! The turtle walks slowly!"
+   },
+   {
+    "q": "Three are things to wear. Which one is not?",
+    "options": [
+     {
+      "e": "👕",
+      "t": "Shirt"
+     },
+     {
+      "e": "🧢",
+      "t": "Cap"
+     },
+     {
+      "e": "🍌",
+      "t": "Banana"
+     },
+     {
+      "e": "🧦",
+      "t": "Socks"
+     }
+    ],
+    "answer": 2,
+    "good": "Ha ha! We eat bananas, we do not wear them!"
+   },
+   {
+    "q": "Three are circles. Which one is not?",
+    "options": [
+     {
+      "s": "circle",
+      "c": "#43A047"
+     },
+     {
+      "s": "circle",
+      "c": "#FB8C00"
+     },
+     {
+      "s": "circle",
+      "c": "#8E24AA"
+     },
+     {
+      "s": "triangle",
+      "c": "#1E88E5"
+     }
+    ],
+    "answer": 3,
+    "good": "Super! That is a triangle!"
+   }
+  ]
+ },
+ {
+  "id": "trace-a-to-d-small",
+  "type": "tracing",
+  "title": "Trace a to d",
+  "desc": "Small letters",
+  "difficulty": "easy",
+  "instructions": "Trace each small letter with your finger.",
+  "chars": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ]
+ }
+]
