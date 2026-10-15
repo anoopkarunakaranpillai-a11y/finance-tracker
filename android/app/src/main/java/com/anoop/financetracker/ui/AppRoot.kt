@@ -79,7 +79,7 @@ object Routes {
 
 /** Root of the app UI. [container] is passed in so tests can supply an in-memory database. */
 @Composable
-fun AppRoot(container: AppContainer, nav: NavHostController = rememberNavController()) {
+fun AppRoot(container: AppContainer, nav: NavHostController = rememberNavController(), deepLink: String? = null) {
     val vm: AppViewModel = viewModel(factory = viewModelFactory { initializer { AppViewModel(container) } })
     val st by vm.state.collectAsStateWithLifecycle()
     val snack = remember { SnackbarHostState() }
@@ -99,6 +99,7 @@ fun AppRoot(container: AppContainer, nav: NavHostController = rememberNavControl
         return
     }
 
+    LaunchedEffect(deepLink) { if (deepLink != null) runCatching { nav.navigate(deepLink) } }
     val entry by nav.currentBackStackEntryAsState()
     val route = entry?.destination?.route ?: "dashboard"
     val isTop = TOP.any { it.route == route }

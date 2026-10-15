@@ -78,7 +78,7 @@ class MainActivity : FragmentActivity() {
                 onBiometric = { promptBiometric() },
                 check = { pin -> val ok = PinHasher.verify(pin, s.pinHash); if (ok) locked = false; ok },
             )
-            else -> AppRoot(container)
+            else -> AppRoot(container, deepLink = intent?.getStringExtra(EXTRA_ROUTE)?.takeIf { it in DEEP_LINKS })
         }
     }
 
@@ -97,6 +97,12 @@ class MainActivity : FragmentActivity() {
                 .setNegativeButtonText("Use PIN")
                 .build()
         )
+    }
+
+    companion object {
+        /** Optional screen to open at launch, e.g. "study/navw" (used by tests and future home-screen shortcuts). */
+        const val EXTRA_ROUTE = "route"
+        val DEEP_LINKS = setOf("study", "study/navw", "study/arya", "transactions", "plan", "reports", "settings", "accounts")
     }
 
     override fun onConfigurationChanged(newConfig: android.content.res.Configuration) {
