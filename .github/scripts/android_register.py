@@ -13,7 +13,10 @@ run_txt = open(os.path.join(res_dir, "RUN.txt")).read().strip() if os.path.exist
 results = {}
 for src, d in (("CI unit/UI (Robolectric, JVM 17)", build), ("CI emulator (Pixel 6, Android 14)", device)):
     for t in d.get("tests", []):
-        tid = "_".join(t["name"].split("_")[:3])  # TC_XXX_NN
+        if t["name"].startswith("tour"):
+            continue  # screenshot tours are evidence, not test cases
+        parts = t["name"].split("_")
+        tid = "_".join(parts[:3] if parts[0] == "TC" else parts[:2])  # TC_XXX_NN or ENV_NN
         results[tid] = dict(t, env=src)
 
 REQ = {
@@ -115,6 +118,12 @@ CASES = [
  ("TC_EDU_01","REQ-09","Study corner","Website study-only mode","Website build","Open ?study=navw and ?study=arya in a browser","Only Navamika's or Arya's tabs; finance and trading hidden; no errors","High"),
  ("TC_EDU_02","REQ-09","Study corner","Navamika pages inside the app","Emulator online","Dashboard → Study → Navamika; inspect the page","Website loads in study-only mode; Navamika tabs only; no finance tabs; Android bridge and speech present","High"),
  ("TC_EDU_03","REQ-09","Study corner","Arya pages inside the app","Emulator online","Dashboard → Study → Arya; inspect the page","Website loads in study-only mode; Arya tab only; Android bridge present","High"),
+ ("ENV_01","REQ-13","Device check","WebView can load a local page","Emulator","Load a tiny HTML page","Page finishes; JavaScript runs","Low"),
+ ("ENV_02","REQ-09","Device check","Study website loads in a plain WebView","Emulator online","Load the study URL","Finishes in study-only mode","Medium"),
+ ("ENV_03","REQ-09","Device check","Study website loads with the app's script","Emulator online","Load with the Android shim and a stub bridge","Finishes; bridge visible","Medium"),
+ ("ENV_04","REQ-09","Device check","Study website loads when shown in a window","Emulator online","Attach the WebView to the activity","Finishes","Medium"),
+ ("ENV_05","REQ-09","Device check","Study website with software drawing","Emulator online","Attach with a software layer","Finishes","Low"),
+ ("ENV_06","REQ-09","Device check","The app's own study WebView","Emulator online","Create it with the app's factory, settings and bridge","Finishes in study-only mode","High"),
  ("TC_PERF_01","REQ-13","Performance","Cold launch time","Emulator Pixel 6 API 34, debug build, empty data","3 cold starts (am start -W)","Each under 3,000 ms","High"),
  ("TC_MAN_01","REQ-11","Security","Biometric unlock","Phone with fingerprint or face enrolled","Turn on PIN + biometrics; reopen","Biometric prompt unlocks; PIN fallback works","High"),
  ("TC_MAN_02","REQ-08","Notifications","Permission prompt and delivery","Android 13+ phone","Turn on bill reminders; wait for 09:00","Permission asked once; notification shown; amounts hidden on lock screen","High"),
