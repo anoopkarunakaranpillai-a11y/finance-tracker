@@ -110,6 +110,7 @@ fun StudyWebScreen(who: String, onBack: () -> Unit) {
                 // Free the page (and its text-to-speech engine) when the screen goes away.
                 (w.tag as? StudyBridge)?.release(); w.stopLoading(); w.destroy()
             }, factory = { c ->
+                android.util.Log.i("FTStudy", "creating WebView for $who")
                 WebView(c).apply {
                     val bridge = StudyBridge(c, this, host)
                     tag = bridge
@@ -139,10 +140,12 @@ fun StudyWebScreen(who: String, onBack: () -> Unit) {
                             if (!early) view.evaluateJavascript(StudyBridge.SHIM, null)
                         }
                         override fun onPageFinished(view: WebView, url: String?) {
+                            android.util.Log.i("FTStudy", "page finished")
                             bridge.currentHost = Uri.parse(url ?: "").host ?: ""
                             if (!early) view.evaluateJavascript(StudyBridge.SHIM, null)
                         }
                         override fun onReceivedError(view: WebView, req: WebResourceRequest, err: WebResourceError) {
+                            android.util.Log.w("FTStudy", "load error ${err.errorCode} main=${req.isForMainFrame}")
                             if (req.isForMainFrame) failed = true
                         }
                     }
@@ -160,6 +163,7 @@ fun StudyWebScreen(who: String, onBack: () -> Unit) {
                     loadUrl(studyUrl(who))
                     web = this
                     StudyBridge.current = java.lang.ref.WeakReference(this)
+                    android.util.Log.i("FTStudy", "WebView ready, loading")
                 }
             })
             if (failed) Column(Modifier.fillMaxSize().background(MaterialTheme.colorScheme.background).padding(24.dp),

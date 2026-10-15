@@ -4,7 +4,7 @@ set +e
 cd "$(dirname "$0")/../../android"
 adb logcat -c
 ./gradlew --no-daemon connectedDebugAndroidTest > ../device.log 2>&1
-adb logcat -d -v brief "*:W" "chromium:V" "cr_*:V" "TestRunner:V" | grep -v "^W/\(ziparchive\|adbd\|InputManager\|WifiService\|AppInfoHelper\|SQLiteLog\)" | tail -600 > ../logcat.txt
+adb logcat -d -v brief "*:I" | grep -i "FTStudy\|chromium\|cr_\|AndroidRuntime\|TestRunner\|financetracker\|ActivityTaskManager\|WebView" | grep -v "^W/\(ziparchive\|adbd\|InputManager\|WifiService\|AppInfoHelper\|SQLiteLog\)" | tail -1500 > ../logcat.txt
 echo "connected exit: $?" >> ../device.log
 {
   echo "model: $(adb shell getprop ro.product.model)"
