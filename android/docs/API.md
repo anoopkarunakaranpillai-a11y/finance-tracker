@@ -88,7 +88,16 @@ The app injects `window.FTAndroid`, and only acts on calls while the page is on 
 | `speechSynthesis.speak(u)` | `speak(id, text, lang, pitch, rate, volume)`: Android text-to-speech. The page is called back via `__ftTtsDone(id, error)`, which fires `u.onend` or `u.onerror`. |
 | `speechSynthesis.cancel()` | `stopSpeaking()` |
 
-## 4. Scheduling
+## 4. Launch route
+
+`MainActivity` accepts an optional string extra `route`, which opens a screen at launch. Allowed values:
+
+- `study`, `study/navw`, `study/arya`
+- `transactions`, `plan`, `reports`, `settings`, `accounts`
+
+Any other value is ignored. The on-device tests use it, and it is ready for home-screen shortcuts.
+
+## 5. Scheduling
 
 | Job | Where it runs | When |
 |---|---|---|
