@@ -4531,7 +4531,7 @@ body.personal,body.learn,body[class]{--accent:#1A6FD1}
 /* bill-due badge contrast (light) */
 :root:not([data-theme="dark"]) .bdc.today,:root:not([data-theme="dark"]) .bdc.soon{color:#7C3A06}
 
-html.studyonly .modesw [data-mode="trading"],html.studyonly .modesw [data-mode="personal"],html.studyonly .modesw [data-mode="learn"],html.studyonly #acctBtn,html.studyonly #banner,html.studyonly .mkt,html.studyonly .tab:not([data-m="navw"]):not([data-m="arya"]){display:none!important}
+html.studyonly .modesw,html.studyonly #acctBtn,html.studyonly #banner,html.studyonly .mkt,html.studyonly .tab:not([data-m="navw"]):not([data-m="arya"]),html.studyonly.study-navw .tab[data-m="arya"],html.studyonly.study-arya .tab[data-m="navw"]{display:none!important}
 </style>
 
 <header class="hero">
@@ -5316,8 +5316,8 @@ function renderAll(){try{renderNW()}catch(e){}renderBanner();renderScope();rende
 const ATABS=["arya"],NTABS=["nhome","ngame","nstory","ntoday","nall","ncal","nup","nprog","nset"],PTABS=["pover","pexp","pinc","pbill","pbud","pgoal","pacct"],TTABS=["dash","perf","trades","journal","live","signals","fx","accounts"];
 let mode="trading";try{const m=localStorage.getItem(LS+".mode");if(m==="personal"||m==="learn"||m==="navw"||m==="arya")mode=m}catch(e){}
 const STUDY_ONLY=(()=>{try{const q=new URLSearchParams(location.search).get("study");return q==="navw"||q==="arya"?q:""}catch(e){return""}})();
-if(STUDY_ONLY){mode=STUDY_ONLY;document.documentElement.classList.add("studyonly")}
-function setMode(m,go){if(STUDY_ONLY&&m!=="navw"&&m!=="arya")m=STUDY_ONLY;mode=m;try{localStorage.setItem(LS+".mode",m)}catch(e){}
+if(STUDY_ONLY){mode=STUDY_ONLY;document.documentElement.classList.add("studyonly","study-"+STUDY_ONLY)}
+function setMode(m,go){if(STUDY_ONLY)m=STUDY_ONLY;mode=m;if(!STUDY_ONLY)try{localStorage.setItem(LS+".mode",m)}catch(e){}
   document.body.classList.toggle("personal",m==="personal");document.body.classList.toggle("learn",m==="learn");document.body.classList.toggle("navw",m==="navw");document.body.classList.toggle("arya",m==="arya");
   $$(".modesw button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.mode===m));
   $$(".tab[data-m]").forEach(b=>b.hidden=b.dataset.m!==m);
@@ -5326,10 +5326,10 @@ function setMode(m,go){if(STUDY_ONLY&&m!=="navw"&&m!=="arya")m=STUDY_ONLY;mode=m
   if(go!==false)showTab(m==="arya"?"arya":m==="navw"?(NTABS.includes(ui.lastN)?ui.lastN:"nhome"):m==="learn"?"learn":m==="personal"?(PTABS.includes(ui.lastP)?ui.lastP:"pover"):(TTABS.includes(ui.lastT)?ui.lastT:"dash"));
 }
 function showTab(t){
-  if(STUDY_ONLY&&!(NTABS.includes(t)||ATABS.includes(t)))t=STUDY_ONLY==="arya"?"arya":"nhome";
+  if(STUDY_ONLY&&!(STUDY_ONLY==="arya"?ATABS:NTABS).includes(t))t=STUDY_ONLY==="arya"?"arya":"nhome";
   if(PTABS.includes(t)&&mode!=="personal"){setMode("personal",false)}else if(TTABS.includes(t)&&mode!=="trading"){setMode("trading",false)}else if(LTABS.includes(t)&&mode!=="learn"){setMode("learn",false)}else if(NTABS.includes(t)&&mode!=="navw"){setMode("navw",false)}else if(ATABS.includes(t)&&mode!=="arya"){setMode("arya",false)}
   if(PTABS.includes(t))ui.lastP=t;if(NTABS.includes(t))ui.lastN=t;if(TTABS.includes(t))ui.lastT=t;
-  ui.tab=t;try{localStorage.setItem(LS+".tab",t)}catch(e){}
+  ui.tab=t;if(!STUDY_ONLY)try{localStorage.setItem(LS+".tab",t)}catch(e){}
   $(".mkt").hidden=t!=="dash"||clocksOff();try{homeSync()}catch(e){}
   $$(".tab").forEach(b=>b.setAttribute("aria-selected",b.dataset.tab===t));
   ["dash","perf","trades","journal","live","signals","fx","accounts","learn","arya","nhome","ngame","nstory","ntoday","nall","ncal","nup","nprog","nset","nw","settings","pover","pexp","pinc","pbill","pbud","pgoal","pacct","calendar","reports"].forEach(v=>$("#v-"+v).hidden=v!==t);
@@ -8615,7 +8615,7 @@ applyTheme();
 window.__mailReady=true;
 setTimeout(()=>{try{renderFx()}catch(e){}},50);
 try{const st=localStorage.getItem(LS+".start");if(st&&st!=="last")ui.tab=st==="personal"?"pover":st==="learn"?"learn":"dash"}catch(e){}
-if(STUDY_ONLY&&!(NTABS.includes(ui.tab)||ATABS.includes(ui.tab)))ui.tab=STUDY_ONLY==="arya"?"arya":"nhome";
+if(STUDY_ONLY&&!(STUDY_ONLY==="arya"?ATABS:NTABS).includes(ui.tab))ui.tab=STUDY_ONLY==="arya"?"arya":"nhome";
 if(PTABS.includes(ui.tab))mode="personal";else if(TTABS.includes(ui.tab))mode="trading";else if(LTABS.includes(ui.tab))mode="learn";else if(NTABS.includes(ui.tab))mode="navw";else if(ATABS.includes(ui.tab))mode="arya";setMode(mode,false);
 lWire();renderLearn();nwWire();
 $("#acctBtn").onclick=acctMenu;$("#dCur").onclick=e=>{const b=e.target.closest("[data-v]");if(!b)return;nwc().disp=b.dataset.v;persist();nwPrevTotal=null;renderHeads();renderNW(true)};$("#dBillAdd").onclick=()=>openEntry("bill");authBoot();
