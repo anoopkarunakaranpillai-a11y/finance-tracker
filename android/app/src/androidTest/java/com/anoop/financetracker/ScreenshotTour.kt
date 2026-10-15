@@ -105,16 +105,23 @@ class ScreenshotTour {
         rule.onNodeWithTag("nav-settings").performClick(); waitTag("field-currency"); shot("08-settings")
         rule.onNodeWithTag("nav-dashboard").performClick(); waitTag("open-study")
         rule.onNodeWithTag("open-study").performClick(); waitTag("study-arya"); shot("09-study-corner")
-        // The study pages load from the website inside the app (the emulator has internet in CI).
-        rule.onNodeWithTag("study-navw").performClick(); Thread.sleep(12_000); shot("11-study-navamika")
-        rule.runOnUiThread { rule.activity.onBackPressedDispatcher.onBackPressed() }
-        waitTag("study-arya")
-        rule.onNodeWithTag("study-arya").performClick(); Thread.sleep(12_000); shot("12-study-arya")
-        rule.runOnUiThread { rule.activity.onBackPressedDispatcher.onBackPressed() }
-        waitTag("study-arya")
         rule.runOnUiThread { rule.activity.onBackPressedDispatcher.onBackPressed() }
         runBlocking { c.settings.update { it.copy(theme = "light") } }
         waitTag("total-balance"); shot("10-dashboard-light")
         runBlocking { c.settings.update { it.copy(theme = "dark") } }
+    }
+
+    /** The study pages are captured outside the Compose test clock, which stops WebView pages from finishing. */
+    @Test fun tourStudy() {
+        val ins = InstrumentationRegistry.getInstrumentation()
+        for ((who, name) in listOf("navw" to "11-study-navamika", "arya" to "12-study-arya")) {
+            val intent = android.content.Intent(ins.targetContext, MainActivity::class.java).putExtra(MainActivity.EXTRA_ROUTE, "study/$who")
+            androidx.test.core.app.ActivityScenario.launch<MainActivity>(intent).use {
+                Thread.sleep(15_000)
+                val bmp = ins.uiAutomation.takeScreenshot()
+                val dir = File(app().filesDir, "shots").apply { mkdirs() }
+                File(dir, "$name.png").outputStream().use { bmp.compress(Bitmap.CompressFormat.PNG, 100, it) }
+            }
+        }
     }
 }

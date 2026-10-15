@@ -108,10 +108,8 @@ fun StudyWebScreen(who: String, onBack: () -> Unit) {
         Box(Modifier.fillMaxSize()) {
             AndroidView(modifier = Modifier.fillMaxSize(), onRelease = { w ->
                 // Free the page (and its text-to-speech engine) when the screen goes away.
-                android.util.Log.i("FTStudy", "WebView released")
                 (w.tag as? StudyBridge)?.release(); w.stopLoading(); w.destroy()
             }, factory = { c ->
-                android.util.Log.i("FTStudy", "creating WebView for $who")
                 createStudyWebView(c, who, host,
                     onProgress = { progress = it },
                     onFailed = { failed = it },
