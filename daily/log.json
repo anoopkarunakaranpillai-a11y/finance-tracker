@@ -154,5 +154,37 @@
   "navamika_games_count": 6,
   "errors": 0,
   "source": "scheduled"
+ },
+ {
+  "date": "2026-10-17",
+  "batch": "B-20261017-01",
+  "status": "Completed",
+  "completed_at": "2026-10-17T06:01:13.777Z",
+  "published": 128,
+  "target": 100,
+  "added_this_run": 128,
+  "review": 0,
+  "rejected": 2,
+  "duplicates": 0,
+  "tests": 4,
+  "navamika_games_count": 6,
+  "errors": 0,
+  "source": "scheduled"
+ },
+ {
+  "date": "2026-10-17",
+  "batch": "B-20261017-01",
+  "status": "Completed",
+  "completed_at": "2026-10-17T06:01:24.726Z",
+  "published": 128,
+  "target": 100,
+  "added_this_run": 0,
+  "review": 0,
+  "rejected": 2,
+  "duplicates": 0,
+  "tests": 4,
+  "navamika_games_count": 6,
+  "errors": 0,
+  "source": "scheduled"
  }
 ]

@@ -1,0 +1,45 @@
+[
+ {"id":"count-the-fishes","type":"counting","title":"Count the Fishes","desc":"How many can you see?","difficulty":"easy","instructions":"Count the pictures and tap the right number.",
+  "questions":[
+   {"q":"How many fish?","show":"🐟🐟🐟","options":[{"t":"2"},{"t":"3"},{"t":"4"}],"answer":1,"good":"Yes! 3 little fish!"},
+   {"q":"How many ducks?","show":"🦆🦆🦆🦆🦆","options":[{"t":"5"},{"t":"4"},{"t":"6"}],"answer":0,"good":"5 ducks say quack quack!"},
+   {"q":"How many balloons?","show":"🎈🎈","options":[{"t":"3"},{"t":"1"},{"t":"2"}],"answer":2,"good":"2 balloons! Pop pop!"},
+   {"q":"How many stars?","show":"⭐⭐⭐⭐","options":[{"t":"4"},{"t":"3"},{"t":"5"}],"answer":0,"good":"4 shiny stars!"},
+   {"q":"How many cars?","show":"🚗🚗🚗🚗🚗🚗","options":[{"t":"5"},{"t":"7"},{"t":"6"}],"answer":2,"good":"6 cars! Vroom!"},
+   {"q":"How many apples?","show":"🍎","options":[{"t":"2"},{"t":"1"},{"t":"3"}],"answer":1,"good":"Just 1 apple. Crunch!"}
+  ]},
+ {"id":"who-helps-us","type":"vocabulary","title":"Who Helps Us?","desc":"Meet our helpers","difficulty":"easy","instructions":"Listen and tap the right helper.",
+  "questions":[
+   {"q":"Who helps us when we feel sick?","options":[{"e":"🧑‍🍳","t":"Cook"},{"e":"🧑‍⚕️","t":"Doctor"},{"e":"🧑‍🌾","t":"Farmer"}],"answer":1,"good":"The doctor helps us feel better!"},
+   {"q":"Who grows rice and vegetables?","options":[{"e":"🧑‍🌾","t":"Farmer"},{"e":"🧑‍🚒","t":"Firefighter"},{"e":"🧑‍🏫","t":"Teacher"}],"answer":0,"good":"The farmer grows our food!"},
+   {"q":"Who puts out a fire?","options":[{"e":"🧑‍⚕️","t":"Doctor"},{"e":"🧑‍🍳","t":"Cook"},{"e":"🧑‍🚒","t":"Firefighter"}],"answer":2,"good":"Brave firefighter! Whoosh goes the water!"},
+   {"q":"Who teaches us letters and numbers?","options":[{"e":"🧑‍🌾","t":"Farmer"},{"e":"🧑‍🏫","t":"Teacher"},{"e":"🧑‍🚒","t":"Firefighter"}],"answer":1,"good":"Our teacher helps us learn!"},
+   {"q":"Who makes yummy food in a kitchen?","options":[{"e":"🧑‍🏫","t":"Teacher"},{"e":"🧑‍⚕️","t":"Doctor"},{"e":"🧑‍🍳","t":"Cook"}],"answer":2,"good":"The cook makes tasty food!"}
+  ]},
+ {"id":"which-is-bigger","type":"logic","title":"Which Is Bigger?","desc":"Big or small?","difficulty":"medium","instructions":"Tap the one that is bigger.",
+  "questions":[
+   {"q":"Which animal is bigger?","options":[{"e":"🐭","t":"Mouse"},{"e":"🐘","t":"Elephant"}],"answer":1,"good":"The elephant is very big!"},
+   {"q":"Which is bigger?","options":[{"e":"🐄","t":"Cow"},{"e":"🐜","t":"Ant"}],"answer":0,"good":"Yes! A cow is much bigger than an ant!"},
+   {"q":"Which is bigger?","options":[{"e":"🍇","t":"Grape"},{"e":"🍉","t":"Watermelon"}],"answer":1,"good":"A watermelon is big and juicy!"},
+   {"q":"Which is bigger?","options":[{"e":"🚌","t":"Bus"},{"e":"🚲","t":"Bicycle"}],"answer":0,"good":"The bus is big! Many people can ride!"},
+   {"q":"Which is bigger?","options":[{"e":"🐝","t":"Bee"},{"e":"🦒","t":"Giraffe"}],"answer":1,"good":"The giraffe is so tall!"}
+  ]},
+ {"id":"number-before","type":"numbers","title":"Number Before","desc":"What comes just before?","difficulty":"medium","instructions":"Look at the number and tap the one that comes just before it.",
+  "questions":[
+   {"q":"What comes just before 3?","show":"? , 3","options":[{"t":"2"},{"t":"4"},{"t":"1"}],"answer":0,"good":"2 comes before 3!"},
+   {"q":"What comes just before 6?","show":"? , 6","options":[{"t":"7"},{"t":"5"},{"t":"4"}],"answer":1,"good":"5, 6! Well done!"},
+   {"q":"What comes just before 10?","show":"? , 10","options":[{"t":"8"},{"t":"11"},{"t":"9"}],"answer":2,"good":"9 comes before 10!"},
+   {"q":"What comes just before 8?","show":"? , 8","options":[{"t":"7"},{"t":"9"},{"t":"6"}],"answer":0,"good":"7, 8! Super!"},
+   {"q":"What comes just before 13?","show":"? , 13","options":[{"t":"14"},{"t":"11"},{"t":"12"}],"answer":2,"good":"12 comes before 13! Great counting!"},
+   {"q":"What comes just before 2?","show":"? , 2","options":[{"t":"3"},{"t":"1"},{"t":"0"}],"answer":1,"good":"1, 2! You did it!"}
+  ]},
+ {"id":"find-the-shape","type":"shapes","title":"Find the Shape","desc":"Tap the shape I say","difficulty":"easy","instructions":"Listen to the shape name and tap it.",
+  "questions":[
+   {"q":"Tap the heart.","options":[{"s":"star","c":"#F4B400"},{"s":"heart","c":"#E53935"},{"s":"circle","c":"#1E88E5"}],"answer":1,"good":"A lovely heart!"},
+   {"q":"Tap the triangle.","options":[{"s":"square","c":"#43A047"},{"s":"oval","c":"#8E24AA"},{"s":"triangle","c":"#FB8C00"}],"answer":2,"good":"A triangle has 3 sides!"},
+   {"q":"Tap the star.","options":[{"s":"star","c":"#F4B400"},{"s":"diamond","c":"#00ACC1"},{"s":"heart","c":"#E53935"}],"answer":0,"good":"Twinkle twinkle little star!"},
+   {"q":"Tap the circle.","options":[{"s":"rectangle","c":"#6D4C41"},{"s":"circle","c":"#1E88E5"},{"s":"triangle","c":"#FB8C00"}],"answer":1,"good":"Round like a ball!"},
+   {"q":"Tap the square.","options":[{"s":"hexagon","c":"#3949AB"},{"s":"star","c":"#F4B400"},{"s":"square","c":"#43A047"}],"answer":2,"good":"A square has 4 equal sides!"}
+  ]},
+ {"id":"breakfast-memory","type":"memory","title":"Breakfast Memory","desc":"Find the matching pairs","difficulty":"easy","instructions":"Turn two cards and find the same pictures.","pairs":["🍌","🥛","🍞","🥚"]}
+]

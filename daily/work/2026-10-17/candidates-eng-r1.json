@@ -1,0 +1,262 @@
+[
+ {
+  "k": "eng-701",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Synonyms",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "plus2",
+  "d": "medium",
+  "q": "Choose the word closest in meaning to 'LACONIC'.",
+  "o": [
+   "Verbose",
+   "Cheerful",
+   "Lazy",
+   "Concise"
+  ],
+  "a": 3,
+  "e": "'Laconic' means using very few words, so the synonym is 'Concise'.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-712",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Number (nouns)",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "sslc",
+  "d": "easy",
+  "q": "What is the plural of 'criterion'?",
+  "o": [
+   "criteria",
+   "criterions",
+   "criterias",
+   "criterion"
+  ],
+  "a": 0,
+  "e": "'Criterion' is of Greek origin; its plural is 'criteria'.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-714",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Antonyms",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "sslc",
+  "d": "easy",
+  "q": "Choose the word opposite in meaning to 'OBSOLETE'.",
+  "o": [
+   "Ancient",
+   "Modern",
+   "Outdated",
+   "Broken"
+  ],
+  "a": 1,
+  "e": "'Obsolete' means no longer in use; its opposite is 'Modern'.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-715",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Idioms",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "sslc",
+  "d": "medium",
+  "q": "What does the idiom 'to cry over spilt milk' mean?",
+  "o": [
+   "to waste food carelessly",
+   "to complain about poor service",
+   "to regret what cannot be undone",
+   "to weep loudly in public"
+  ],
+  "a": 2,
+  "e": "'To cry over spilt milk' means to regret or complain about something that cannot be undone.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-716",
+  "cat": "eng",
+  "s": "veng",
+  "t": "One-word substitution",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "degree",
+  "d": "medium",
+  "q": "One word for 'a person who hates mankind':",
+  "o": [
+   "Philanthropist",
+   "Misogynist",
+   "Misanthrope",
+   "Pessimist"
+  ],
+  "a": 2,
+  "e": "A hater of mankind is a 'Misanthrope' (a misogynist hates women; a philanthropist loves mankind).",
+  "lang": "en"
+ },
+ {
+  "k": "eng-725",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Synonyms",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "sslc",
+  "d": "easy",
+  "q": "Choose the word closest in meaning to 'PRUDENT'.",
+  "o": [
+   "Sensible",
+   "Reckless",
+   "Timid",
+   "Proud"
+  ],
+  "a": 0,
+  "e": "'Prudent' means acting with care and good judgement, so the synonym is 'Sensible'.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-718",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Subject-verb agreement",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "plus2",
+  "d": "medium",
+  "q": "The quality of these mangoes ____ not good.",
+  "o": [
+   "are",
+   "is",
+   "were",
+   "have been"
+  ],
+  "a": 1,
+  "e": "The subject is 'quality' (singular), not 'mangoes', so the verb is 'is'.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-719",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Prepositions",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "sslc",
+  "d": "easy",
+  "q": "She is married ____ a doctor.",
+  "o": [
+   "with",
+   "by",
+   "for",
+   "to"
+  ],
+  "a": 3,
+  "e": "The correct expression is 'married to' someone.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-720",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Tenses",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "plus2",
+  "d": "hard",
+  "q": "I ____ in this city for ten years now.",
+  "o": [
+   "am living",
+   "have been living",
+   "was living",
+   "live"
+  ],
+  "a": 1,
+  "e": "An action that began in the past and continues now, with 'for ten years', takes the present perfect continuous: 'have been living'.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-721",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Question tags",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "plus2",
+  "d": "medium",
+  "q": "She hardly ever complains, ____?",
+  "o": [
+   "doesn't she",
+   "is she",
+   "isn't she",
+   "does she"
+  ],
+  "a": 3,
+  "e": "'Hardly' makes the statement negative, so the tag is positive: 'does she?'.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-722",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Active and passive voice",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "degree",
+  "d": "hard",
+  "q": "Choose the correct passive form of: \"Somebody has stolen my purse.\"",
+  "o": [
+   "My purse has been stolen.",
+   "My purse was being stolen.",
+   "My purse had stolen.",
+   "My purse has stolen."
+  ],
+  "a": 0,
+  "e": "Present perfect passive is 'has been + past participle': 'My purse has been stolen.' (the agent 'somebody' is dropped).",
+  "lang": "en"
+ },
+ {
+  "k": "eng-723",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Reported speech",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "degree",
+  "d": "hard",
+  "q": "Choose the correct indirect form of: He said to me, \"Please help me.\"",
+  "o": [
+   "He said me to help him.",
+   "He asked me please help him.",
+   "He requested me to help him.",
+   "He requested me that help him."
+  ],
+  "a": 2,
+  "e": "A polite request is reported with 'requested' + object + to-infinitive: 'He requested me to help him.'",
+  "lang": "en"
+ },
+ {
+  "k": "eng-724",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Inversion",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "degree",
+  "d": "advanced",
+  "q": "Not only ____ the exam, but he also topped the class.",
+  "o": [
+   "he passed",
+   "did he pass",
+   "he did pass",
+   "passed he"
+  ],
+  "a": 1,
+  "e": "When a sentence begins with 'Not only', the auxiliary comes before the subject: 'Not only did he pass the exam...'.",
+  "lang": "en"
+ }
+]

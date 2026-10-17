@@ -1,0 +1,265 @@
+[
+ {
+  "k": "comp-705",
+  "cat": "comp",
+  "s": "comp",
+  "t": "MS Excel shortcuts",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "plus2",
+  "d": "medium",
+  "q": "MS Excel-ൽ ഒരു സെല്ലിൽ ഇന്നത്തെ തീയതി (current date) ചേർക്കാനുള്ള കീബോർഡ് ഷോർട്ട്കട്ട് ഏത്?",
+  "o": [
+   "Ctrl+D",
+   "Ctrl+T",
+   "Ctrl+;",
+   "Ctrl+Shift+;"
+  ],
+  "a": 2,
+  "e": "Ctrl+; നിലവിലെ തീയതി ചേർക്കുന്നു (Ctrl+Shift+; സമയം ചേർക്കുന്നു).",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-706",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Networking",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "degree",
+  "d": "hard",
+  "q": "HTTPS പ്രോട്ടോക്കോൾ സാധാരണയായി ഉപയോഗിക്കുന്ന default port നമ്പർ ഏത്?",
+  "o": [
+   "80",
+   "21",
+   "25",
+   "443"
+  ],
+  "a": 3,
+  "e": "HTTPS-ന്റെ default port 443 ആണ് (HTTP 80, FTP 21, SMTP 25).",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-708",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Internet",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "plus2",
+  "d": "medium",
+  "q": "ഒരു IPv6 വിലാസത്തിന്റെ നീളം എത്ര ബിറ്റ് ആണ്?",
+  "o": [
+   "128",
+   "32",
+   "64",
+   "256"
+  ],
+  "a": 0,
+  "e": "IPv6 വിലാസം 128 ബിറ്റ് ആണ് (IPv4 32 ബിറ്റ്).",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-714",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Hardware",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "sslc",
+  "d": "easy",
+  "q": "പ്രിന്ററിന്റെ റെസല്യൂഷൻ (print resolution) അളക്കാൻ ഉപയോഗിക്കുന്ന യൂണിറ്റ് ഏത്?",
+  "o": [
+   "RPM",
+   "DPI",
+   "MIPS",
+   "Hz"
+  ],
+  "a": 1,
+  "e": "പ്രിന്റർ റെസല്യൂഷൻ DPI (Dots Per Inch)-ൽ ആണ് അളക്കുന്നത്.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-715",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Number systems",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "sslc",
+  "d": "medium",
+  "q": "ബൈനറി സംഖ്യ 1110011-ന്റെ ദശാംശ (decimal) മൂല്യം എത്ര?",
+  "o": [
+   "113",
+   "117",
+   "103",
+   "115"
+  ],
+  "a": 3,
+  "e": "1110011 = 64 + 32 + 16 + 0 + 0 + 2 + 1 = 115.",
+  "lang": "ml",
+  "calc": "64+32+16+2+1"
+ },
+ {
+  "k": "comp-716",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Number systems",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "plus2",
+  "d": "medium",
+  "q": "ഒക്ടൽ (octal) സംഖ്യ 64-ന്റെ ദശാംശ മൂല്യം എത്ര?",
+  "o": [
+   "52",
+   "48",
+   "54",
+   "44"
+  ],
+  "a": 0,
+  "e": "64 (base 8) = 6 × 8 + 4 = 52.",
+  "lang": "ml",
+  "calc": "6*8+4"
+ },
+ {
+  "k": "comp-717",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Number systems",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "degree",
+  "d": "hard",
+  "q": "ഹെക്സാഡെസിമൽ സംഖ്യ 1A3-ന്റെ ദശാംശ മൂല്യം എത്ര?",
+  "o": [
+   "409",
+   "413",
+   "419",
+   "429"
+  ],
+  "a": 2,
+  "e": "1A3 = 1 × 256 + 10 × 16 + 3 = 256 + 160 + 3 = 419.",
+  "lang": "ml",
+  "calc": "1*256+10*16+3"
+ },
+ {
+  "k": "comp-718",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Networking",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "degree",
+  "d": "hard",
+  "q": "Wi-Fi (വയർലെസ് LAN) ഏത് IEEE സ്റ്റാൻഡേർഡിനെ അടിസ്ഥാനമാക്കിയുള്ളതാണ്?",
+  "o": [
+   "IEEE 802.3",
+   "IEEE 802.11",
+   "IEEE 802.15",
+   "IEEE 802.5"
+  ],
+  "a": 1,
+  "e": "Wi-Fi IEEE 802.11 ആണ്; 802.3 Ethernet, 802.15 WPAN, 802.5 Token Ring.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-719",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Cyber security",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "sslc",
+  "d": "easy",
+  "q": "ഒരു Firewall-ന്റെ പ്രധാന ധർമ്മം എന്ത്?",
+  "o": [
+   "നെറ്റ്‌വർക്കിലേക്കുള്ള അനധികൃത പ്രവേശനം തടയുന്നു",
+   "ഫയലുകൾ കംപ്രസ് ചെയ്യുന്നു",
+   "ഡാറ്റ ബാക്കപ്പ് ചെയ്യുന്നു",
+   "ഹാർഡ് ഡിസ്ക് ഡീഫ്രാഗ്മെന്റ് ചെയ്യുന്നു"
+  ],
+  "a": 0,
+  "e": "Firewall നിശ്ചിത നിയമങ്ങൾ അനുസരിച്ച് നെറ്റ്‌വർക്ക് ട്രാഫിക് നിയന്ത്രിച്ച് അനധികൃത പ്രവേശനം തടയുന്നു.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-720",
+  "cat": "comp",
+  "s": "comp",
+  "t": "MS Word shortcuts",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "sslc",
+  "d": "easy",
+  "q": "MS Word-ൽ തിരഞ്ഞെടുത്ത ഖണ്ഡിക മധ്യത്തിലേക്ക് (Center align) ക്രമീകരിക്കാനുള്ള ഷോർട്ട്കട്ട് ഏത്?",
+  "o": [
+   "Ctrl+C",
+   "Ctrl+L",
+   "Ctrl+J",
+   "Ctrl+E"
+  ],
+  "a": 3,
+  "e": "Ctrl+E Center align ചെയ്യുന്നു (Ctrl+L Left, Ctrl+J Justify, Ctrl+C Copy).",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-721",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Networking",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "plus2",
+  "d": "medium",
+  "q": "ഒരു നെറ്റ്‌വർക്കിലെ ഉപകരണങ്ങൾക്ക് IP വിലാസം സ്വയമേവ (automatically) നൽകുന്ന പ്രോട്ടോക്കോൾ ഏത്?",
+  "o": [
+   "FTP",
+   "SMTP",
+   "DHCP",
+   "SNMP"
+  ],
+  "a": 2,
+  "e": "DHCP (Dynamic Host Configuration Protocol) ഉപകരണങ്ങൾക്ക് IP വിലാസം സ്വയമേവ നൽകുന്നു.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-722",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Networking",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "degree",
+  "d": "advanced",
+  "q": "255.255.255.192 എന്ന subnet mask-ന്റെ CIDR രൂപം ഏത്?",
+  "o": [
+   "/25",
+   "/26",
+   "/24",
+   "/27"
+  ],
+  "a": 1,
+  "e": "192 = 11000000 (2 ബിറ്റ്); 24 + 2 = 26, അതിനാൽ /26.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-723",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Software",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "sslc",
+  "d": "easy",
+  "q": "താഴെ പറയുന്നവയിൽ വെബ് ബ്രൗസർ അല്ലാത്തത് ഏത്?",
+  "o": [
+   "Safari",
+   "MySQL",
+   "Google Chrome",
+   "Mozilla Firefox"
+  ],
+  "a": 1,
+  "e": "MySQL ഒരു ഡാറ്റാബേസ് മാനേജ്മെന്റ് സിസ്റ്റമാണ്; മറ്റുള്ളവ വെബ് ബ്രൗസറുകളാണ്.",
+  "lang": "ml"
+ }
+]

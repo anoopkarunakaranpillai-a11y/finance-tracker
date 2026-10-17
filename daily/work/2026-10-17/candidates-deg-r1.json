@@ -1,0 +1,330 @@
+[
+ {
+  "k": "deg-701",
+  "cat": "deg",
+  "s": "acc",
+  "t": "Accounting equation",
+  "lvl": "degree",
+  "d": "easy",
+  "q": "A business has total assets of ₹2,50,000 and outside liabilities of ₹90,000. According to the accounting equation, what is the owner's capital?",
+  "o": [
+   "₹3,40,000",
+   "₹1,60,000",
+   "₹2,50,000",
+   "₹90,000"
+  ],
+  "a": 1,
+  "e": "Capital = Assets − Liabilities = 2,50,000 − 90,000 = ₹1,60,000.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-702",
+  "cat": "deg",
+  "s": "acc",
+  "t": "Ratio analysis",
+  "lvl": "degree",
+  "d": "medium",
+  "q": "Net credit sales of a firm are ₹4,80,000 and its average trade receivables (debtors) are ₹80,000. What is the debtors (trade receivables) turnover ratio?",
+  "o": [
+   "4 times",
+   "5 times",
+   "8 times",
+   "6 times"
+  ],
+  "a": 3,
+  "e": "Debtors turnover = Net credit sales ÷ Average debtors = 4,80,000 ÷ 80,000 = 6 times.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-703",
+  "cat": "deg",
+  "s": "dcs",
+  "t": "Operating systems",
+  "lvl": "degree",
+  "d": "medium",
+  "q": "Which page replacement algorithm can suffer from Belady's anomaly, where increasing the number of page frames increases the number of page faults?",
+  "o": [
+   "FIFO (First In, First Out)",
+   "LRU (Least Recently Used)",
+   "Optimal page replacement",
+   "LFU with stack property"
+  ],
+  "a": 0,
+  "e": "FIFO page replacement is not a stack algorithm and can show Belady's anomaly; LRU and Optimal cannot.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-704",
+  "cat": "deg",
+  "s": "dcs",
+  "t": "Binary trees",
+  "lvl": "degree",
+  "d": "hard",
+  "q": "What is the maximum number of nodes in a binary tree of height 4, if the root is taken to be at height 0?",
+  "o": [
+   "15",
+   "16",
+   "31",
+   "32"
+  ],
+  "a": 2,
+  "e": "Levels 0 to 4 can hold 1 + 2 + 4 + 8 + 16 = 2^5 − 1 = 31 nodes.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-705",
+  "cat": "deg",
+  "s": "dmath",
+  "t": "Differentiation",
+  "lvl": "degree",
+  "d": "medium",
+  "q": "If y = x⁴ − 3x², what is the value of d²y/dx² at x = 2?",
+  "o": [
+   "36",
+   "42",
+   "48",
+   "30"
+  ],
+  "a": 1,
+  "e": "dy/dx = 4x³ − 6x; d²y/dx² = 12x² − 6 = 12(4) − 6 = 42.",
+  "lang": "en",
+  "calc": "12*2^2-6"
+ },
+ {
+  "k": "deg-706",
+  "cat": "deg",
+  "s": "dmath",
+  "t": "Definite integrals",
+  "lvl": "degree",
+  "d": "medium",
+  "q": "Evaluate the definite integral of x³ dx from x = 0 to x = 2.",
+  "o": [
+   "8",
+   "2",
+   "4",
+   "16"
+  ],
+  "a": 2,
+  "e": "∫x³ dx = x⁴/4; from 0 to 2 this is 16/4 = 4.",
+  "lang": "en",
+  "calc": "2^4/4"
+ },
+ {
+  "k": "deg-707",
+  "cat": "deg",
+  "s": "dmath",
+  "t": "Binomial distribution",
+  "lvl": "degree",
+  "d": "hard",
+  "q": "A binomial distribution has n = 20 and p = 0.3. What is its variance?",
+  "o": [
+   "6",
+   "4.2",
+   "1.8",
+   "14"
+  ],
+  "a": 1,
+  "e": "Variance = npq = 20 × 0.3 × 0.7 = 4.2 (the mean np is 6).",
+  "lang": "en",
+  "calc": "20*0.3*0.7"
+ },
+ {
+  "k": "deg-708",
+  "cat": "deg",
+  "s": "dmath",
+  "t": "Determinants",
+  "lvl": "entrance",
+  "d": "advanced",
+  "q": "If A is a 3 × 3 matrix with det A = 4, what is det(2A)?",
+  "o": [
+   "8",
+   "16",
+   "24",
+   "32"
+  ],
+  "a": 3,
+  "e": "For an n × n matrix, det(kA) = kⁿ det A, so det(2A) = 2³ × 4 = 32.",
+  "lang": "en",
+  "calc": "2^3*4"
+ },
+ {
+  "k": "deg-709",
+  "cat": "deg",
+  "s": "dphy",
+  "t": "Polarisation",
+  "lvl": "degree",
+  "d": "medium",
+  "q": "When unpolarised light is incident on a transparent surface at Brewster's angle, the angle between the reflected ray and the refracted ray is:",
+  "o": [
+   "90°",
+   "45°",
+   "60°",
+   "180°"
+  ],
+  "a": 0,
+  "e": "At Brewster's angle (tan θ = μ) the reflected and refracted rays are perpendicular, i.e. at 90°, and the reflected light is completely plane polarised.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-719",
+  "cat": "deg",
+  "s": "dphy",
+  "t": "Interference",
+  "lvl": "entrance",
+  "d": "hard",
+  "q": "In Young's double-slit experiment, light of wavelength 600 nm is used, the slit separation is 0.5 mm and the screen is 1 m away. What is the fringe width?",
+  "o": [
+   "0.6 mm",
+   "2.4 mm",
+   "1.2 mm",
+   "3.0 mm"
+  ],
+  "a": 2,
+  "e": "β = λD/d = (600 × 10⁻⁹ × 1) ÷ (0.5 × 10⁻³) = 1.2 × 10⁻³ m = 1.2 mm.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-711",
+  "cat": "deg",
+  "s": "dchem",
+  "t": "IUPAC nomenclature",
+  "lvl": "degree",
+  "d": "easy",
+  "q": "What is the IUPAC name of isobutane, CH₃–CH(CH₃)–CH₃?",
+  "o": [
+   "Butane",
+   "2-Methylpropane",
+   "2-Methylbutane",
+   "1-Methylpropane"
+  ],
+  "a": 1,
+  "e": "The longest chain has 3 carbons with a methyl group on C-2, so the name is 2-methylpropane.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-712",
+  "cat": "deg",
+  "s": "dchem",
+  "t": "Chemical bonding",
+  "lvl": "degree",
+  "d": "easy",
+  "q": "How many sigma (σ) and pi (π) bonds are present in a molecule of ethyne (C₂H₂, H–C≡C–H)?",
+  "o": [
+   "2 σ and 3 π",
+   "5 σ and 0 π",
+   "3 σ and 2 π",
+   "4 σ and 1 π"
+  ],
+  "a": 2,
+  "e": "Two C–H σ bonds plus one σ bond in the C≡C triple bond give 3 σ; the triple bond also has 2 π bonds.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-713",
+  "cat": "deg",
+  "s": "dbio",
+  "t": "Cell division",
+  "lvl": "degree",
+  "d": "medium",
+  "q": "Crossing over between homologous chromosomes takes place during which sub-stage of prophase I of meiosis?",
+  "o": [
+   "Leptotene",
+   "Zygotene",
+   "Diplotene",
+   "Pachytene"
+  ],
+  "a": 3,
+  "e": "Crossing over (exchange of segments between non-sister chromatids) occurs at pachytene; chiasmata become visible at diplotene.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-714",
+  "cat": "deg",
+  "s": "dbio",
+  "t": "Respiration",
+  "lvl": "degree",
+  "d": "easy",
+  "q": "What is the net gain of ATP molecules (by substrate-level phosphorylation) from glycolysis of one molecule of glucose?",
+  "o": [
+   "2",
+   "4",
+   "36",
+   "8"
+  ],
+  "a": 0,
+  "e": "Glycolysis produces 4 ATP but uses 2 ATP, giving a net gain of 2 ATP per glucose.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-715",
+  "cat": "deg",
+  "s": "decon",
+  "t": "Cost curves",
+  "lvl": "degree",
+  "d": "medium",
+  "q": "The shape of the average fixed cost (AFC) curve of a firm is a:",
+  "o": [
+   "U-shaped curve",
+   "Rectangular hyperbola",
+   "Horizontal straight line",
+   "Vertical straight line"
+  ],
+  "a": 1,
+  "e": "Total fixed cost is constant, so AFC × output is constant and the AFC curve is a rectangular hyperbola.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-716",
+  "cat": "deg",
+  "s": "mgmt",
+  "t": "Management thinkers",
+  "lvl": "degree",
+  "d": "easy",
+  "q": "The concept of 'Management by Objectives' (MBO) was popularised by which author in 'The Practice of Management' (1954)?",
+  "o": [
+   "Henri Fayol",
+   "Elton Mayo",
+   "Peter F. Drucker",
+   "F. W. Taylor"
+  ],
+  "a": 2,
+  "e": "Peter F. Drucker popularised Management by Objectives in 'The Practice of Management' (1954).",
+  "lang": "en"
+ },
+ {
+  "k": "deg-717",
+  "cat": "deg",
+  "s": "hum",
+  "t": "Political thought",
+  "lvl": "degree",
+  "d": "medium",
+  "q": "Who wrote 'A Vindication of the Rights of Woman' (1792)?",
+  "o": [
+   "Mary Wollstonecraft",
+   "Simone de Beauvoir",
+   "Virginia Woolf",
+   "Jane Austen"
+  ],
+  "a": 0,
+  "e": "'A Vindication of the Rights of Woman' (1792) was written by Mary Wollstonecraft.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-718",
+  "cat": "deg",
+  "s": "engg",
+  "t": "Strength of materials",
+  "lvl": "degree",
+  "d": "advanced",
+  "q": "According to Euler's theory, what is the critical buckling load of a long column of length L with both ends pinned (hinged), flexural rigidity EI?",
+  "o": [
+   "π²EI / (4L²)",
+   "4π²EI / L²",
+   "π²EI / L²",
+   "2π²EI / L²"
+  ],
+  "a": 2,
+  "e": "For both ends pinned the effective length equals L, so P_cr = π²EI / L².",
+  "lang": "en"
+ }
+]

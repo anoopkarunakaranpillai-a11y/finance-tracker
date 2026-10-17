@@ -1,0 +1,273 @@
+[
+ {
+  "k": "compx-701",
+  "cat": "compx",
+  "s": "quant",
+  "t": "Profit and loss",
+  "lvl": "recruit",
+  "d": "medium",
+  "q": "The cost price of 20 articles is equal to the selling price of 16 articles. What is the profit percentage?",
+  "o": [
+   "20%",
+   "25%",
+   "16%",
+   "4%"
+  ],
+  "a": 1,
+  "e": "Let CP of 1 article = ₹1; SP of 16 = ₹20, so SP of 1 = 20/16. Profit % = (20 − 16)/16 × 100 = 25%.",
+  "lang": "en",
+  "exam": "SSC",
+  "calc": "(20-16)/16*100"
+ },
+ {
+  "k": "compx-702",
+  "cat": "compx",
+  "s": "math",
+  "t": "Square roots",
+  "lvl": "recruit",
+  "d": "easy",
+  "q": "What is the value of √1764?",
+  "o": [
+   "38",
+   "44",
+   "42",
+   "48"
+  ],
+  "a": 2,
+  "e": "42 × 42 = 1764, so √1764 = 42.",
+  "lang": "en",
+  "exam": "Railway",
+  "calc": "sqrt(1764)"
+ },
+ {
+  "k": "compx-703",
+  "cat": "compx",
+  "s": "quant",
+  "t": "Compound interest",
+  "lvl": "recruit",
+  "d": "medium",
+  "q": "What amount will ₹8,000 become in 1 year at 10% per annum, compounded half-yearly?",
+  "o": [
+   "₹8,820",
+   "₹8,800",
+   "₹8,840",
+   "₹8,810"
+  ],
+  "a": 0,
+  "e": "Half-yearly rate 5% for 2 periods: 8000 × 1.05 × 1.05 = ₹8,820.",
+  "lang": "en",
+  "exam": "Banking",
+  "calc": "8000*1.05^2"
+ },
+ {
+  "k": "compx-704",
+  "cat": "compx",
+  "s": "math",
+  "t": "Speed and distance",
+  "lvl": "recruit",
+  "d": "easy",
+  "q": "A train 150 m long passes a telegraph pole in 10 seconds. What is its speed in km/h?",
+  "o": [
+   "48 km/h",
+   "60 km/h",
+   "45 km/h",
+   "54 km/h"
+  ],
+  "a": 3,
+  "e": "Speed = 150/10 = 15 m/s = 15 × 18/5 = 54 km/h.",
+  "lang": "en",
+  "exam": "Police",
+  "calc": "150/10*18/5"
+ },
+ {
+  "k": "compx-705",
+  "cat": "compx",
+  "s": "quant",
+  "t": "Factorials",
+  "lvl": "entrance",
+  "d": "advanced",
+  "q": "How many zeros are there at the end of 100! (100 factorial)?",
+  "o": [
+   "20",
+   "24",
+   "25",
+   "10"
+  ],
+  "a": 1,
+  "e": "Count factors of 5: ⌊100/5⌋ + ⌊100/25⌋ = 20 + 4 = 24 trailing zeros.",
+  "lang": "en",
+  "exam": "University entrance",
+  "calc": "100/5+100/25"
+ },
+ {
+  "k": "compx-706",
+  "cat": "compx",
+  "s": "reas",
+  "t": "Number series",
+  "lvl": "recruit",
+  "d": "medium",
+  "q": "Find the next number in the series: 5, 11, 23, 47, 95, ?",
+  "o": [
+   "190",
+   "189",
+   "191",
+   "193"
+  ],
+  "a": 2,
+  "e": "Each term is (previous × 2) + 1: 95 × 2 + 1 = 191.",
+  "lang": "en",
+  "exam": "Banking"
+ },
+ {
+  "k": "compx-707",
+  "cat": "compx",
+  "s": "reas",
+  "t": "Directions",
+  "lvl": "recruit",
+  "d": "hard",
+  "q": "A man is facing north. He turns 90° clockwise, then turns 180°, and then turns 90° anticlockwise. Which direction is he facing now?",
+  "o": [
+   "North",
+   "East",
+   "West",
+   "South"
+  ],
+  "a": 3,
+  "e": "North → 90° clockwise = East → 180° = West → 90° anticlockwise = South.",
+  "lang": "en",
+  "exam": "SSC"
+ },
+ {
+  "k": "compx-708",
+  "cat": "compx",
+  "s": "ment",
+  "t": "Clocks",
+  "lvl": "recruit",
+  "d": "hard",
+  "q": "What is the angle between the hour hand and the minute hand of a clock at 3:40?",
+  "o": [
+   "120°",
+   "130°",
+   "140°",
+   "150°"
+  ],
+  "a": 1,
+  "e": "Angle = |30H − 5.5M| = |90 − 220| = 130°.",
+  "lang": "en",
+  "exam": "Teaching"
+ },
+ {
+  "k": "compx-709",
+  "cat": "compx",
+  "s": "veng",
+  "t": "Antonyms",
+  "lvl": "recruit",
+  "d": "medium",
+  "q": "Choose the word most nearly opposite in meaning to 'Ephemeral'.",
+  "o": [
+   "Permanent",
+   "Fleeting",
+   "Brief",
+   "Momentary"
+  ],
+  "a": 0,
+  "e": "'Ephemeral' means lasting a very short time; its opposite is 'Permanent'.",
+  "lang": "en",
+  "exam": "Teaching"
+ },
+ {
+  "k": "compx-710",
+  "cat": "compx",
+  "s": "econ",
+  "t": "Taxation",
+  "lvl": "recruit",
+  "d": "easy",
+  "q": "Which of the following is a direct tax in India?",
+  "o": [
+   "Goods and Services Tax",
+   "Customs duty",
+   "Income tax",
+   "Excise duty"
+  ],
+  "a": 2,
+  "e": "Income tax is paid directly by the person on whom it is levied, so it is a direct tax; GST, customs and excise are indirect taxes.",
+  "lang": "en",
+  "exam": "Railway"
+ },
+ {
+  "k": "compx-711",
+  "cat": "compx",
+  "s": "gk",
+  "t": "Indian geography",
+  "lvl": "recruit",
+  "d": "hard",
+  "q": "Which mountain pass connects the Kashmir Valley with Ladakh?",
+  "o": [
+   "Nathu La",
+   "Shipki La",
+   "Bomdi La",
+   "Zoji La"
+  ],
+  "a": 3,
+  "e": "Zoji La, on the Srinagar–Leh route, connects the Kashmir Valley with Ladakh.",
+  "lang": "en",
+  "exam": "UPSC"
+ },
+ {
+  "k": "compx-712",
+  "cat": "compx",
+  "s": "con",
+  "t": "Emergency provisions",
+  "lvl": "recruit",
+  "d": "medium",
+  "q": "Which Article of the Constitution of India deals with the proclamation of a Financial Emergency?",
+  "o": [
+   "Article 352",
+   "Article 356",
+   "Article 360",
+   "Article 365"
+  ],
+  "a": 2,
+  "e": "Article 360 provides for a Financial Emergency; Article 352 covers National Emergency and Article 356 President's Rule.",
+  "lang": "en",
+  "exam": "UPSC"
+ },
+ {
+  "k": "compx-714",
+  "cat": "compx",
+  "s": "sci",
+  "t": "Periodic table",
+  "lvl": "entrance",
+  "d": "easy",
+  "q": "Which element has the highest electronegativity on the Pauling scale?",
+  "o": [
+   "Oxygen",
+   "Fluorine",
+   "Chlorine",
+   "Nitrogen"
+  ],
+  "a": 1,
+  "e": "Fluorine is the most electronegative element (about 4.0 on the Pauling scale).",
+  "lang": "en",
+  "exam": "University entrance"
+ },
+ {
+  "k": "compx-715",
+  "cat": "compx",
+  "s": "comp",
+  "t": "Internet basics",
+  "lvl": "recruit",
+  "exam": "Railway",
+  "d": "easy",
+  "q": "In a web address, what does the abbreviation 'URL' stand for?",
+  "o": [
+   "Universal Remote Link",
+   "Uniform Resource Locator",
+   "Unified Routing Language",
+   "User Resource Library"
+  ],
+  "a": 1,
+  "e": "URL stands for Uniform Resource Locator, the address of a resource on the web.",
+  "lang": "en"
+ }
+]
