@@ -1,0 +1,46 @@
+[
+ {"id":"baby-animal-match","type":"matching","title":"Mummy and Baby","desc":"Find each mummy's baby!","difficulty":"easy","instructions":"Look at the mummy. Tap her baby.",
+  "questions":[
+   {"q":"Who is the hen's baby?","show":"🐔","options":[{"e":"🐥","t":"Chick"},{"e":"🐶","t":"Puppy"},{"e":"🐱","t":"Kitten"}],"answer":0,"good":"Yes! The chick says cheep cheep!"},
+   {"q":"Who is the cat's baby?","show":"🐈","options":[{"e":"🐥","t":"Chick"},{"e":"🐱","t":"Kitten"},{"e":"🐸","t":"Frog"}],"answer":1,"good":"Meow! A little kitten!"},
+   {"q":"Who is the dog's baby?","show":"🐕","options":[{"e":"🐟","t":"Fish"},{"e":"🐥","t":"Chick"},{"e":"🐶","t":"Puppy"}],"answer":2,"good":"Woof! A happy puppy!"},
+   {"q":"Baby birds hatch from what?","show":"🐦","options":[{"e":"🍎","t":"Apple"},{"e":"⚽","t":"Ball"},{"e":"🥚","t":"Egg"}],"answer":2,"good":"Crack! Baby birds come out of eggs!"},
+   {"q":"Who is the cow's baby?","show":"🐄","options":[{"e":"🐮","t":"Calf"},{"e":"🐥","t":"Chick"},{"e":"🐱","t":"Kitten"}],"answer":0,"good":"Moo! A baby calf!"}
+  ]},
+ {"id":"rhyme-and-shine","type":"rhymes","title":"Rhyme and Shine","desc":"Which words sound alike?","difficulty":"medium","instructions":"Say the word. Tap the one that rhymes.",
+  "questions":[
+   {"q":"What rhymes with CAT?","show":"🐱","options":[{"e":"🐶","t":"Dog"},{"e":"🎩","t":"Hat"},{"e":"🐟","t":"Fish"}],"answer":1,"good":"Cat, hat! They rhyme!"},
+   {"q":"What rhymes with BEE?","show":"🐝","options":[{"e":"🌳","t":"Tree"},{"e":"🚗","t":"Car"},{"e":"🍎","t":"Apple"}],"answer":0,"good":"Bee, tree! Super!"},
+   {"q":"What rhymes with STAR?","show":"⭐","options":[{"e":"🌙","t":"Moon"},{"e":"☀️","t":"Sun"},{"e":"🚗","t":"Car"}],"answer":2,"good":"Star, car! Zoom zoom!"},
+   {"q":"What rhymes with BOAT?","show":"⛵","options":[{"e":"🐐","t":"Goat"},{"e":"🐄","t":"Cow"},{"e":"🐑","t":"Sheep"}],"answer":0,"good":"Boat, goat! Well done!"},
+   {"q":"What rhymes with CAKE?","show":"🎂","options":[{"e":"🍪","t":"Cookie"},{"e":"🐍","t":"Snake"},{"e":"🍌","t":"Banana"}],"answer":1,"good":"Cake, snake! Hiss hiss!"},
+   {"q":"What rhymes with MOUSE?","show":"🐭","options":[{"e":"🚌","t":"Bus"},{"e":"🌸","t":"Flower"},{"e":"🏠","t":"House"}],"answer":2,"good":"Mouse, house! Great listening!"}
+  ]},
+ {"id":"rainbow-colours","type":"colors","title":"Rainbow Colours","desc":"Find the right colour!","difficulty":"easy","instructions":"Listen to the colour. Tap it!",
+  "questions":[
+   {"q":"Which one is RED?","show":"🍓","options":[{"c":"#2E7D32","t":"Green"},{"c":"#E53935","t":"Red"},{"c":"#1E88E5","t":"Blue"}],"answer":1,"good":"Red like a strawberry!"},
+   {"q":"Which one is YELLOW?","show":"🌻","options":[{"c":"#FDD835","t":"Yellow"},{"c":"#8E24AA","t":"Purple"},{"c":"#E53935","t":"Red"}],"answer":0,"good":"Yellow like a sunflower!"},
+   {"q":"Which one is BLUE?","show":"🐳","options":[{"c":"#FB8C00","t":"Orange"},{"c":"#43A047","t":"Green"},{"c":"#1E88E5","t":"Blue"}],"answer":2,"good":"Blue like the sea!"},
+   {"q":"Which one is GREEN?","show":"🐸","options":[{"c":"#E53935","t":"Red"},{"c":"#43A047","t":"Green"},{"c":"#FDD835","t":"Yellow"}],"answer":1,"good":"Green like a froggy!"},
+   {"q":"Which one is ORANGE?","show":"🥕","options":[{"c":"#1E88E5","t":"Blue"},{"c":"#8E24AA","t":"Purple"},{"c":"#FB8C00","t":"Orange"}],"answer":2,"good":"Orange like a carrot!"},
+   {"q":"Which one is PURPLE?","show":"🍇","options":[{"c":"#8E24AA","t":"Purple"},{"c":"#43A047","t":"Green"},{"c":"#FB8C00","t":"Orange"}],"answer":0,"good":"Purple like grapes!"}
+  ]},
+ {"id":"fruit-basket","type":"fruits","title":"Fruit Basket","desc":"Name the yummy fruits!","difficulty":"easy","instructions":"Listen and tap the right fruit.",
+  "questions":[
+   {"q":"Which one is a banana?","options":[{"e":"🍎","t":"Apple"},{"e":"🍇","t":"Grapes"},{"e":"🍌","t":"Banana"}],"answer":2,"good":"Yes! A long yellow banana!"},
+   {"q":"Which one is a mango?","options":[{"e":"🥭","t":"Mango"},{"e":"🍓","t":"Strawberry"},{"e":"🍉","t":"Watermelon"}],"answer":0,"good":"Mmm, a sweet mango!"},
+   {"q":"Which one is a watermelon?","options":[{"e":"🍍","t":"Pineapple"},{"e":"🍉","t":"Watermelon"},{"e":"🍒","t":"Cherries"}],"answer":1,"good":"Big and juicy watermelon!"},
+   {"q":"Which fruit is spiky on the outside?","options":[{"e":"🍌","t":"Banana"},{"e":"🍇","t":"Grapes"},{"e":"🍍","t":"Pineapple"}],"answer":2,"good":"Pineapple is spiky! Ouch!"},
+   {"q":"Which one is an orange?","options":[{"e":"🍋","t":"Lemon"},{"e":"🍊","t":"Orange"},{"e":"🍐","t":"Pear"}],"answer":1,"good":"Round and orange! Yummy!"}
+  ]},
+ {"id":"letter-sound-zoo","type":"alphabet","title":"Letter Zoo","desc":"Which animal starts with this letter?","difficulty":"medium","instructions":"Look at the letter. Tap the animal that starts with it.",
+  "questions":[
+   {"q":"Which animal starts with C?","show":"C","options":[{"e":"🐄","t":"Cow"},{"e":"🐶","t":"Dog"},{"e":"🐘","t":"Elephant"}],"answer":0,"good":"C for Cow! Moo!"},
+   {"q":"Which animal starts with D?","show":"D","options":[{"e":"🐱","t":"Cat"},{"e":"🦆","t":"Duck"},{"e":"🐟","t":"Fish"}],"answer":1,"good":"D for Duck! Quack quack!"},
+   {"q":"Which animal starts with L?","show":"L","options":[{"e":"🐯","t":"Tiger"},{"e":"🐸","t":"Frog"},{"e":"🦁","t":"Lion"}],"answer":2,"good":"L for Lion! Roar!"},
+   {"q":"Which animal starts with M?","show":"M","options":[{"e":"🐒","t":"Monkey"},{"e":"🐰","t":"Rabbit"},{"e":"🐝","t":"Bee"}],"answer":0,"good":"M for Monkey! Ooh ooh!"},
+   {"q":"Which animal starts with R?","show":"R","options":[{"e":"🐻","t":"Bear"},{"e":"🐰","t":"Rabbit"},{"e":"🐮","t":"Cow"}],"answer":1,"good":"R for Rabbit! Hop hop!"},
+   {"q":"Which animal starts with Z?","show":"Z","options":[{"e":"🐴","t":"Horse"},{"e":"🐑","t":"Sheep"},{"e":"🦓","t":"Zebra"}],"answer":2,"good":"Z for Zebra! Stripes!"}
+  ]},
+ {"id":"trace-e-to-h-small","type":"tracing","title":"Trace e f g h","desc":"Draw little letters!","difficulty":"easy","instructions":"Follow the dots with your finger.","chars":["e","f","g","h"]}
+]

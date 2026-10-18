@@ -1,0 +1,274 @@
+[
+ {
+  "k": "compx-801",
+  "cat": "compx",
+  "s": "quant",
+  "t": "Ratio and proportion",
+  "lvl": "recruit",
+  "exam": "SSC",
+  "d": "easy",
+  "q": "₹1,800 is divided between A and B in the ratio 4 : 5. What is B's share?",
+  "o": [
+   "₹800",
+   "₹1,000",
+   "₹900",
+   "₹1,200"
+  ],
+  "a": 1,
+  "e": "B gets 5/9 × 1,800 = ₹1,000.",
+  "lang": "en",
+  "calc": "1800*5/9"
+ },
+ {
+  "k": "compx-802",
+  "cat": "compx",
+  "s": "quant",
+  "t": "Compound interest",
+  "lvl": "recruit",
+  "exam": "Banking",
+  "d": "medium",
+  "q": "What is the difference between compound interest (compounded annually) and simple interest on ₹10,000 for 2 years at 5% per annum?",
+  "o": [
+   "₹25",
+   "₹50",
+   "₹10",
+   "₹250"
+  ],
+  "a": 0,
+  "e": "For 2 years, difference = P(r/100)² = 10,000 × (1/20)² = ₹25.",
+  "lang": "en",
+  "calc": "10000*(5/100)^2"
+ },
+ {
+  "k": "compx-803",
+  "cat": "compx",
+  "s": "math",
+  "t": "Mensuration",
+  "lvl": "recruit",
+  "exam": "Railway",
+  "d": "medium",
+  "q": "What is the length of the diagonal of a square whose area is 50 cm²?",
+  "o": [
+   "5 cm",
+   "10 cm",
+   "25 cm",
+   "20 cm"
+  ],
+  "a": 1,
+  "e": "Diagonal² = 2 × area = 100, so the diagonal is 10 cm.",
+  "lang": "en",
+  "calc": "sqrt(2*50)"
+ },
+ {
+  "k": "compx-804",
+  "cat": "compx",
+  "s": "reas",
+  "t": "Number series",
+  "lvl": "recruit",
+  "exam": "Police",
+  "d": "medium",
+  "q": "Find the next number in the series: 6, 11, 21, 36, 56, ?",
+  "o": [
+   "76",
+   "86",
+   "81",
+   "91"
+  ],
+  "a": 2,
+  "e": "The differences are 5, 10, 15, 20, so the next difference is 25: 56 + 25 = 81.",
+  "lang": "en",
+  "calc": "56+25"
+ },
+ {
+  "k": "compx-805",
+  "cat": "compx",
+  "s": "ment",
+  "t": "Odd one out",
+  "lvl": "recruit",
+  "exam": "Teaching",
+  "d": "medium",
+  "q": "Find the odd one out: Mercury, Venus, Moon, Mars",
+  "o": [
+   "Mercury",
+   "Venus",
+   "Mars",
+   "Moon"
+  ],
+  "a": 3,
+  "e": "Moon is a natural satellite; the other three are planets.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-806",
+  "cat": "compx",
+  "s": "veng",
+  "t": "Synonyms",
+  "lvl": "recruit",
+  "exam": "Banking",
+  "d": "easy",
+  "q": "Choose the word closest in meaning to 'Obstinate'.",
+  "o": [
+   "Stubborn",
+   "Flexible",
+   "Timid",
+   "Generous"
+  ],
+  "a": 0,
+  "e": "'Obstinate' means Stubborn, refusing to change one's opinion.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-807",
+  "cat": "compx",
+  "s": "eng",
+  "t": "One-word substitution",
+  "lvl": "recruit",
+  "exam": "SSC",
+  "d": "medium",
+  "q": "Choose the one word for: 'An abnormal fear of heights'.",
+  "o": [
+   "Claustrophobia",
+   "Acrophobia",
+   "Hydrophobia",
+   "Agoraphobia"
+  ],
+  "a": 1,
+  "e": "Acrophobia is an extreme fear of heights.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-808",
+  "cat": "compx",
+  "s": "gk",
+  "t": "Indian polity",
+  "lvl": "recruit",
+  "exam": "UPSC",
+  "d": "medium",
+  "q": "Which Article of the Constitution of India lays down the procedure for the impeachment of the President?",
+  "o": [
+   "Article 52",
+   "Article 72",
+   "Article 61",
+   "Article 74"
+  ],
+  "a": 2,
+  "e": "Article 61 sets out the impeachment procedure for violation of the Constitution.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-809",
+  "cat": "compx",
+  "s": "con",
+  "t": "Constitutional offices",
+  "lvl": "recruit",
+  "exam": "UPSC",
+  "d": "hard",
+  "q": "Which Article of the Constitution of India provides for the office of the Attorney General of India?",
+  "o": [
+   "Article 165",
+   "Article 76",
+   "Article 148",
+   "Article 124"
+  ],
+  "a": 1,
+  "e": "Article 76 provides for the Attorney General, the highest law officer of the Union.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-810",
+  "cat": "compx",
+  "s": "econ",
+  "t": "Money supply",
+  "lvl": "recruit",
+  "exam": "Banking",
+  "d": "medium",
+  "q": "Among the RBI's money supply measures, which aggregate is known as 'broad money'?",
+  "o": [
+   "M1",
+   "M2",
+   "M4",
+   "M3"
+  ],
+  "a": 3,
+  "e": "M3, which adds net time deposits with banks to narrow money, is called broad money.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-811",
+  "cat": "compx",
+  "s": "comp",
+  "t": "Networking devices",
+  "lvl": "recruit",
+  "exam": "Railway",
+  "d": "easy",
+  "q": "Which device converts digital signals from a computer into analog signals for transmission over telephone lines, and back again?",
+  "o": [
+   "Modem",
+   "Router",
+   "Switch",
+   "Hub"
+  ],
+  "a": 0,
+  "e": "A Modem (modulator–demodulator) performs this conversion.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-812",
+  "cat": "compx",
+  "s": "sci",
+  "t": "Vitamins",
+  "lvl": "recruit",
+  "exam": "Teaching",
+  "d": "easy",
+  "q": "Which vitamin is synthesised in the human skin on exposure to sunlight?",
+  "o": [
+   "Vitamin A",
+   "Vitamin C",
+   "Vitamin D",
+   "Vitamin K"
+  ],
+  "a": 2,
+  "e": "Ultraviolet rays help the skin make Vitamin D, the 'sunshine vitamin'.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-813",
+  "cat": "compx",
+  "s": "quant",
+  "t": "Combinations",
+  "lvl": "recruit",
+  "exam": "SSC",
+  "d": "hard",
+  "q": "In how many ways can a committee of 3 men and 2 women be formed from 6 men and 4 women?",
+  "o": [
+   "120",
+   "60",
+   "210",
+   "240"
+  ],
+  "a": 0,
+  "e": "⁶C₃ × ⁴C₂ = 20 × 6 = 120.",
+  "lang": "en",
+  "calc": "(6*5*4/6)*(4*3/2)"
+ },
+ {
+  "k": "compx-814",
+  "cat": "compx",
+  "s": "quant",
+  "t": "Compound interest",
+  "lvl": "recruit",
+  "exam": "Police",
+  "d": "advanced",
+  "q": "A sum of money at compound interest (compounded annually) amounts to ₹8,820 in 2 years and ₹9,261 in 3 years. What is the sum?",
+  "o": [
+   "₹7,500",
+   "₹8,400",
+   "₹7,800",
+   "₹8,000"
+  ],
+  "a": 3,
+  "e": "Rate = 441 ÷ 8,820 = 5%; sum = 8,820 ÷ (1.05)² = ₹8,000.",
+  "lang": "en",
+  "calc": "8820/(9261/8820)^2"
+ }
+]
