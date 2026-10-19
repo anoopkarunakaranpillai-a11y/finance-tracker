@@ -1,0 +1,262 @@
+[
+ {
+  "k": "eng-901",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Synonyms",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "plus2",
+  "d": "medium",
+  "q": "Choose the word closest in meaning to 'Taciturn'.",
+  "o": [
+   "Talkative",
+   "Reserved",
+   "Furious",
+   "Cheerful"
+  ],
+  "a": 1,
+  "e": "'Taciturn' means saying little; its synonym is 'Reserved'.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-902",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Antonyms",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "plus2",
+  "d": "medium",
+  "q": "Choose the word opposite in meaning to 'Benign'.",
+  "o": [
+   "Malignant",
+   "Gentle",
+   "Kindly",
+   "Harmless"
+  ],
+  "a": 0,
+  "e": "'Benign' means kind or harmless; its opposite is 'Malignant'.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-903",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Idioms",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "sslc",
+  "d": "easy",
+  "q": "The idiom 'to hold your horses' means:",
+  "o": [
+   "to ride very fast",
+   "to own many animals",
+   "to be patient and wait",
+   "to win a race easily"
+  ],
+  "a": 2,
+  "e": "'To hold your horses' means to be patient and wait.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-904",
+  "cat": "eng",
+  "s": "veng",
+  "t": "One-word substitution",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "degree",
+  "d": "hard",
+  "q": "Select the single word for 'one who knows everything':",
+  "o": [
+   "Omnipotent",
+   "Omnipresent",
+   "Omnivorous",
+   "Omniscient"
+  ],
+  "a": 3,
+  "e": "'Omniscient' means all-knowing (omnipotent = all-powerful, omnipresent = present everywhere).",
+  "lang": "en"
+ },
+ {
+  "k": "eng-905",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Error spotting",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "plus2",
+  "d": "medium",
+  "q": "Identify the part of the sentence that contains an error: He has been living / in Kochi / since five years / with his family.",
+  "o": [
+   "He has been living",
+   "in Kochi",
+   "since five years",
+   "with his family"
+  ],
+  "a": 2,
+  "e": "'since five years' is wrong; a period of time takes 'for': 'for five years'.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-906",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Prepositions",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "sslc",
+  "d": "easy",
+  "q": "Fill in the blank: The committee consists ___ seven members.",
+  "o": [
+   "in",
+   "of",
+   "with",
+   "from"
+  ],
+  "a": 1,
+  "e": "'Consist of' is the correct usage: the committee consists of seven members.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-907",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Tenses",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "sslc",
+  "d": "easy",
+  "q": "Fill in the blank with the correct verb form: The sun ___ in the east.",
+  "o": [
+   "rises",
+   "rose",
+   "is rising",
+   "has risen"
+  ],
+  "a": 0,
+  "e": "Universal truths take the simple present: 'The sun rises in the east.'",
+  "lang": "en"
+ },
+ {
+  "k": "eng-908",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Active and passive voice",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "sslc",
+  "d": "medium",
+  "q": "Choose the correct passive form of: She was singing a song.",
+  "o": [
+   "A song was sung by her.",
+   "A song is being sung by her.",
+   "A song has been sung by her.",
+   "A song was being sung by her."
+  ],
+  "a": 3,
+  "e": "Past continuous active becomes 'was/were being + past participle': 'A song was being sung by her.'",
+  "lang": "en"
+ },
+ {
+  "k": "eng-909",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Spelling",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "sslc",
+  "d": "easy",
+  "q": "Select the correctly spelt word meaning 'to make someone feel awkward or ashamed'.",
+  "o": [
+   "Embarass",
+   "Embarrass",
+   "Embaress",
+   "Embarras"
+  ],
+  "a": 1,
+  "e": "The correct spelling is 'Embarrass' (double r, double s).",
+  "lang": "en"
+ },
+ {
+  "k": "eng-910",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Antonyms",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "degree",
+  "d": "hard",
+  "q": "Choose the word opposite in meaning to 'Zenith'.",
+  "o": [
+   "Peak",
+   "Summit",
+   "Nadir",
+   "Apex"
+  ],
+  "a": 2,
+  "e": "'Zenith' is the highest point; its opposite is 'Nadir', the lowest point.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-911",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Idioms",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "degree",
+  "d": "hard",
+  "q": "What does the idiom 'to smell a rat' mean?",
+  "o": [
+   "to suspect that something is wrong",
+   "to clean a dirty place",
+   "to catch a thief red-handed",
+   "to dislike strong odours"
+  ],
+  "a": 0,
+  "e": "'To smell a rat' means to suspect that something is wrong.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-912",
+  "cat": "eng",
+  "s": "veng",
+  "t": "One-word substitution",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "degree",
+  "d": "advanced",
+  "q": "One word for 'a position that provides a salary but requires little or no work':",
+  "o": [
+   "Pension",
+   "Stipend",
+   "Honorarium",
+   "Sinecure"
+  ],
+  "a": 3,
+  "e": "A 'Sinecure' is a paid office with little or no work.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-913",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Tenses",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "plus2",
+  "d": "medium",
+  "q": "Fill in the blank: She ___ for the examination since morning.",
+  "o": [
+   "has been preparing",
+   "is preparing",
+   "was preparing",
+   "prepares"
+  ],
+  "a": 0,
+  "e": "An action begun in the past and continuing now, with 'since', takes the present perfect continuous: 'has been preparing'.",
+  "lang": "en"
+ }
+]

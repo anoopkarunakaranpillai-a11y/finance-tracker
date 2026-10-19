@@ -1,0 +1,255 @@
+[
+ {
+  "k": "compx-901",
+  "cat": "compx",
+  "s": "quant",
+  "t": "Time and work",
+  "lvl": "recruit",
+  "exam": "SSC",
+  "d": "easy",
+  "q": "Ravi alone can complete a job in 10 days and Suresh alone can complete it in 15 days. Working together, in how many days will they finish it?",
+  "o": [
+   "5 days",
+   "8 days",
+   "6 days",
+   "12.5 days"
+  ],
+  "a": 2,
+  "e": "Combined work per day = 1/10 + 1/15 = 1/6, so they take 6 days.",
+  "lang": "en",
+  "calc": "1/(1/10+1/15)"
+ },
+ {
+  "k": "compx-902",
+  "cat": "compx",
+  "s": "quant",
+  "t": "Simple interest",
+  "lvl": "recruit",
+  "exam": "Banking",
+  "d": "medium",
+  "q": "Money lent at simple interest grows to triple the principal over a period of 10 years. Find the annual interest rate.",
+  "o": [
+   "10%",
+   "30%",
+   "15%",
+   "20%"
+  ],
+  "a": 3,
+  "e": "Interest = 2 × principal in 10 years, so rate = 200/10 = 20%.",
+  "lang": "en",
+  "calc": "(3-1)*100/10"
+ },
+ {
+  "k": "compx-903",
+  "cat": "compx",
+  "s": "math",
+  "t": "Mensuration",
+  "lvl": "recruit",
+  "exam": "Railway",
+  "d": "medium",
+  "q": "The total surface area of a cube is 150 cm². What is its volume?",
+  "o": [
+   "125 cm³",
+   "150 cm³",
+   "216 cm³",
+   "100 cm³"
+  ],
+  "a": 0,
+  "e": "6a² = 150 gives a = 5 cm, so volume = 5³ = 125 cm³.",
+  "lang": "en",
+  "calc": "5^3"
+ },
+ {
+  "k": "compx-904",
+  "cat": "compx",
+  "s": "quant",
+  "t": "Mixtures",
+  "lvl": "recruit",
+  "exam": "Banking",
+  "d": "advanced",
+  "q": "A 60-litre mixture contains milk and water in the ratio 5 : 1. How many litres of water must be added to make the ratio 5 : 3?",
+  "o": [
+   "10 litres",
+   "20 litres",
+   "30 litres",
+   "24 litres"
+  ],
+  "a": 1,
+  "e": "Milk = 50 L, water = 10 L. For 5 : 3, water must be 30 L, so add 20 litres.",
+  "lang": "en",
+  "calc": "50*3/5-10"
+ },
+ {
+  "k": "compx-905",
+  "cat": "compx",
+  "s": "reas",
+  "t": "Letter series",
+  "lvl": "recruit",
+  "exam": "SSC",
+  "d": "easy",
+  "q": "Which letter comes next in the series: B, E, H, K, ?",
+  "o": [
+   "M",
+   "O",
+   "N",
+   "L"
+  ],
+  "a": 2,
+  "e": "Each letter is 3 places after the previous one: K + 3 = N.",
+  "lang": "en",
+  "nocalc": true
+ },
+ {
+  "k": "compx-906",
+  "cat": "compx",
+  "s": "reas",
+  "t": "Calendar",
+  "lvl": "recruit",
+  "exam": "Police",
+  "d": "hard",
+  "q": "If 15 August of a certain year falls on a Monday, on which day of the week will 15 September of the same year fall?",
+  "o": [
+   "Wednesday",
+   "Friday",
+   "Tuesday",
+   "Thursday"
+  ],
+  "a": 3,
+  "e": "August has 31 days; 31 = 4 weeks + 3 days, so Monday + 3 = Thursday.",
+  "lang": "en",
+  "nocalc": true
+ },
+ {
+  "k": "compx-907",
+  "cat": "compx",
+  "s": "econ",
+  "t": "Fiscal policy",
+  "lvl": "recruit",
+  "exam": "UPSC",
+  "d": "medium",
+  "q": "In macroeconomics, the \"crowding out\" effect refers to:",
+  "o": [
+   "A fall in private investment caused by increased government borrowing",
+   "A rise in exports caused by currency depreciation",
+   "A fall in prices caused by excess supply of goods",
+   "A rise in savings caused by higher income tax"
+  ],
+  "a": 0,
+  "e": "Government borrowing raises interest rates and reduces private investment; that is crowding out.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-908",
+  "cat": "compx",
+  "s": "veng",
+  "t": "Collective nouns",
+  "lvl": "recruit",
+  "exam": "SSC",
+  "d": "easy",
+  "q": "Choose the correct collective noun: A ___ of lions.",
+  "o": [
+   "herd",
+   "pride",
+   "swarm",
+   "school"
+  ],
+  "a": 1,
+  "e": "A group of lions is called a pride.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-909",
+  "cat": "compx",
+  "s": "veng",
+  "t": "Figures of speech",
+  "lvl": "recruit",
+  "exam": "Teaching",
+  "d": "medium",
+  "q": "Identify the figure of speech in the sentence: \"The wind whispered through the trees.\"",
+  "o": [
+   "Simile",
+   "Hyperbole",
+   "Personification",
+   "Alliteration"
+  ],
+  "a": 2,
+  "e": "Giving the human action of whispering to the wind is personification.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-910",
+  "cat": "compx",
+  "s": "gk",
+  "t": "Indian freedom movement",
+  "lvl": "recruit",
+  "exam": "Railway",
+  "d": "medium",
+  "q": "In which year did the Indian National Congress launch the Quit India Movement?",
+  "o": [
+   "1930",
+   "1920",
+   "1947",
+   "1942"
+  ],
+  "a": 3,
+  "e": "The Quit India Movement was launched in August 1942.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-911",
+  "cat": "compx",
+  "s": "con",
+  "t": "Constitutional amendments",
+  "lvl": "recruit",
+  "exam": "UPSC",
+  "d": "hard",
+  "q": "Which Constitutional Amendment Act lowered the voting age in India from 21 years to 18 years?",
+  "o": [
+   "61st Amendment Act",
+   "42nd Amendment Act",
+   "44th Amendment Act",
+   "73rd Amendment Act"
+  ],
+  "a": 0,
+  "e": "The 61st Amendment Act, 1988 reduced the voting age from 21 to 18 years.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-912",
+  "cat": "compx",
+  "s": "comp",
+  "t": "Spreadsheets",
+  "lvl": "recruit",
+  "exam": "Banking",
+  "d": "easy",
+  "q": "In Microsoft Excel, a formula entered in a cell must begin with which symbol?",
+  "o": [
+   "#",
+   "=",
+   "@",
+   "&"
+  ],
+  "a": 1,
+  "e": "Every Excel formula starts with the equals sign (=).",
+  "lang": "en"
+ },
+ {
+  "k": "compx-913",
+  "cat": "compx",
+  "s": "sci",
+  "t": "Defects of vision",
+  "lvl": "recruit",
+  "exam": "Police",
+  "d": "easy",
+  "q": "Which type of lens is used in spectacles to correct myopia (short-sightedness)?",
+  "o": [
+   "Convex lens",
+   "Cylindrical lens",
+   "Concave lens",
+   "Bifocal convex lens"
+  ],
+  "a": 2,
+  "e": "Myopia is corrected with a diverging, i.e. concave, lens.",
+  "lang": "en"
+ }
+]

@@ -1,0 +1,37 @@
+[
+ {"id":"count-the-balloons","type":"counting","title":"Balloon Count","desc":"Count the happy balloons!","difficulty":"easy","instructions":"Count the pictures. Tap the right number.",
+  "questions":[
+   {"q":"How many balloons?","show":"🎈🎈🎈","options":[{"t":"2"},{"t":"3"},{"t":"4"}],"answer":1,"good":"Yes! 3 balloons. Pop, pop, pop!"},
+   {"q":"How many stars?","show":"⭐⭐⭐⭐⭐","options":[{"t":"5"},{"t":"4"},{"t":"6"}],"answer":0,"good":"Twinkle twinkle! 5 stars!"},
+   {"q":"How many ducks?","show":"🦆🦆","options":[{"t":"1"},{"t":"3"},{"t":"2"}],"answer":2,"good":"Quack quack! 2 ducks!"},
+   {"q":"How many cars?","show":"🚗🚗🚗🚗","options":[{"t":"3"},{"t":"5"},{"t":"4"}],"answer":2,"good":"Vroom! 4 cars!"},
+   {"q":"How many apples?","show":"🍎🍎🍎🍎🍎🍎","options":[{"t":"6"},{"t":"7"},{"t":"5"}],"answer":0,"good":"Crunch! 6 red apples!"},
+   {"q":"How many suns?","show":"☀️","options":[{"t":"2"},{"t":"1"},{"t":"3"}],"answer":1,"good":"Just 1 bright sun!"}
+  ]},
+ {"id":"day-or-night","type":"logic","title":"Day or Night?","desc":"When do we see it?","difficulty":"easy","instructions":"Listen and tap the right picture.",
+  "questions":[
+   {"q":"What do we see in the sky at night?","show":"🌃","options":[{"e":"🌙","t":"Moon"},{"e":"🌈","t":"Rainbow"},{"e":"🦋","t":"Butterfly"}],"answer":0,"good":"Yes! The moon shines at night!"},
+   {"q":"What shines in the sky in the day?","show":"🏞️","options":[{"e":"⭐","t":"Star"},{"e":"☀️","t":"Sun"},{"e":"🌙","t":"Moon"}],"answer":1,"good":"Yes! The sun gives us daylight!"},
+   {"q":"What do we do at night?","show":"🌙","options":[{"e":"🏫","t":"Go to school"},{"e":"⚽","t":"Play football"},{"e":"🛏️","t":"Sleep"}],"answer":2,"good":"Night night! Time to sleep!"},
+   {"q":"Who wakes us up in the morning?","show":"🌅","options":[{"e":"🦉","t":"Owl"},{"e":"🐓","t":"Rooster"},{"e":"🦇","t":"Bat"}],"answer":1,"good":"Cock-a-doodle-doo! Good morning!"},
+   {"q":"What do we eat in the morning?","show":"🌞","options":[{"e":"🥣","t":"Breakfast"},{"e":"🍰","t":"Birthday cake"},{"e":"🧸","t":"Teddy"}],"answer":0,"good":"Yummy breakfast to start the day!"}
+  ]},
+ {"id":"music-makers","type":"sounds","title":"Music Makers","desc":"Which one makes music?","difficulty":"easy","instructions":"Listen and tap the right picture.",
+  "questions":[
+   {"q":"Which one goes boom boom?","show":"🎵","options":[{"e":"🍌","t":"Banana"},{"e":"🥁","t":"Drum"},{"e":"🧦","t":"Sock"}],"answer":1,"good":"Boom boom! Bang the drum!"},
+   {"q":"Which one do we strum?","show":"🎶","options":[{"e":"🎸","t":"Guitar"},{"e":"🥄","t":"Spoon"},{"e":"🧢","t":"Cap"}],"answer":0,"good":"Strum strum! A guitar!"},
+   {"q":"Which one goes ring ring?","show":"🔊","options":[{"e":"🍪","t":"Cookie"},{"e":"🪑","t":"Chair"},{"e":"🔔","t":"Bell"}],"answer":2,"good":"Ring ring! The bell rings!"},
+   {"q":"Which one do we blow, toot toot?","show":"🎵","options":[{"e":"🎺","t":"Trumpet"},{"e":"👟","t":"Shoe"},{"e":"🍇","t":"Grapes"}],"answer":0,"good":"Toot toot! A shiny trumpet!"},
+   {"q":"Which one has black and white keys?","show":"🎶","options":[{"e":"🚲","t":"Bicycle"},{"e":"🎹","t":"Piano"},{"e":"🐼","t":"Panda"}],"answer":1,"good":"Plink plonk! The piano!"}
+  ]},
+ {"id":"flower-patterns","type":"puzzles","title":"Pattern Garden","desc":"What comes next?","difficulty":"medium","instructions":"Look at the pattern. Tap what comes next.",
+  "questions":[
+   {"q":"What comes next?","show":"🌸🌼🌸🌼🌸","options":[{"e":"🌸","t":"Pink flower"},{"e":"🌼","t":"Yellow flower"},{"e":"🍄","t":"Mushroom"}],"answer":1,"good":"Super! Pink, yellow, pink, yellow!"},
+   {"q":"What comes next?","show":"🍎🍎🍌🍎🍎","options":[{"e":"🍇","t":"Grapes"},{"e":"🍎","t":"Apple"},{"e":"🍌","t":"Banana"}],"answer":2,"good":"Great! Apple, apple, banana!"},
+   {"q":"What comes next?","show":"🐱🐶🐱🐶","options":[{"e":"🐱","t":"Cat"},{"e":"🐶","t":"Dog"},{"e":"🐭","t":"Mouse"}],"answer":0,"good":"Meow! The cat comes next!"},
+   {"q":"What comes next?","show":"🔴🔵🔴🔵🔴","options":[{"c":"#FFD400","s":"circle"},{"c":"#E53935","s":"circle"},{"c":"#1E63D6","s":"circle"}],"answer":2,"good":"Yes! Red, blue, red, blue!"},
+   {"q":"What comes next?","show":"⭐🌙⭐🌙⭐","options":[{"e":"☀️","t":"Sun"},{"e":"🌙","t":"Moon"},{"e":"⭐","t":"Star"}],"answer":1,"good":"Wonderful! Star, moon, star, moon!"}
+  ]},
+ {"id":"veggie-memory","type":"memory","title":"Veggie Memory","desc":"Find the matching vegetables!","difficulty":"easy","instructions":"Turn two cards. Find the pairs!","pairs":["🥕","🌽","🥦","🍅"]},
+ {"id":"trace-i-to-l-small","type":"tracing","title":"Trace i to l","desc":"Little letters i, j, k, l","difficulty":"easy","instructions":"Follow the dots with your finger.","chars":["i","j","k","l"]}
+]

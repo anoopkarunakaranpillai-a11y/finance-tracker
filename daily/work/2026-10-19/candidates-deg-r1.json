@@ -1,0 +1,332 @@
+[
+ {
+  "k": "deg-901",
+  "cat": "deg",
+  "s": "acc",
+  "t": "Bills of exchange",
+  "lvl": "degree",
+  "d": "easy",
+  "q": "Under the Negotiable Instruments Act, 1881, how many days of grace are added to the period of a usance bill of exchange to find its date of maturity?",
+  "o": [
+   "3 days",
+   "1 day",
+   "5 days",
+   "7 days"
+  ],
+  "a": 0,
+  "e": "Three days of grace are allowed, so the correct answer is 3 days.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-902",
+  "cat": "deg",
+  "s": "acc",
+  "t": "Marginal costing",
+  "lvl": "degree",
+  "d": "medium",
+  "q": "A product sells for ₹50 per unit and its variable cost is ₹30 per unit. What is its profit-volume (P/V) ratio?",
+  "o": [
+   "60%",
+   "40%",
+   "25%",
+   "66.67%"
+  ],
+  "a": 1,
+  "e": "P/V ratio = contribution/sales = (50 − 30)/50 × 100 = 40%.",
+  "lang": "en",
+  "calc": "(50-30)/50*100"
+ },
+ {
+  "k": "deg-903",
+  "cat": "deg",
+  "s": "acc",
+  "t": "Inventory valuation",
+  "lvl": "degree",
+  "d": "medium",
+  "q": "Under which inventory valuation method does the closing stock consist of the most recently purchased goods, valued at their latest purchase prices?",
+  "o": [
+   "LIFO (Last In, First Out)",
+   "Simple average cost",
+   "FIFO (First In, First Out)",
+   "Base stock method"
+  ],
+  "a": 2,
+  "e": "Under FIFO the oldest goods are issued first, so closing stock is valued at the latest prices: FIFO.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-904",
+  "cat": "deg",
+  "s": "dcs",
+  "t": "Stack applications",
+  "lvl": "degree",
+  "d": "medium",
+  "q": "Using a stack, what is the value of the postfix expression 2 3 4 * + ?",
+  "o": [
+   "20",
+   "24",
+   "10",
+   "14"
+  ],
+  "a": 3,
+  "e": "3 × 4 = 12 is computed first, then 2 + 12 = 14.",
+  "lang": "en",
+  "calc": "2+3*4"
+ },
+ {
+  "k": "deg-905",
+  "cat": "deg",
+  "s": "dcs",
+  "t": "Computer networks",
+  "lvl": "degree",
+  "d": "easy",
+  "q": "Which application-layer protocol of the TCP/IP suite translates human-readable domain names into IP addresses?",
+  "o": [
+   "DNS",
+   "DHCP",
+   "SMTP",
+   "ARP"
+  ],
+  "a": 0,
+  "e": "The Domain Name System (DNS) resolves domain names to IP addresses.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-906",
+  "cat": "deg",
+  "s": "dmath",
+  "t": "Graph theory",
+  "lvl": "entrance",
+  "d": "medium",
+  "q": "How many edges does the complete graph K₈ (a simple graph on 8 vertices in which every pair of vertices is joined) have?",
+  "o": [
+   "56",
+   "28",
+   "16",
+   "64"
+  ],
+  "a": 1,
+  "e": "Edges of Kₙ = n(n − 1)/2 = 8 × 7/2 = 28.",
+  "lang": "en",
+  "calc": "8*7/2"
+ },
+ {
+  "k": "deg-907",
+  "cat": "deg",
+  "s": "dmath",
+  "t": "Derivatives",
+  "lvl": "degree",
+  "d": "hard",
+  "q": "What is the derivative of ln(sin x) with respect to x (for sin x > 0)?",
+  "o": [
+   "tan x",
+   "sec x",
+   "cot x",
+   "−cot x"
+  ],
+  "a": 2,
+  "e": "By the chain rule, d/dx ln(sin x) = cos x/sin x = cot x.",
+  "lang": "en",
+  "nocalc": true
+ },
+ {
+  "k": "deg-908",
+  "cat": "deg",
+  "s": "dmath",
+  "t": "Mean value theorem",
+  "lvl": "degree",
+  "d": "hard",
+  "q": "For f(x) = x² on the interval [1, 3], what value of c satisfies the conclusion of Lagrange's mean value theorem?",
+  "o": [
+   "1.5",
+   "2.5",
+   "4",
+   "2"
+  ],
+  "a": 3,
+  "e": "f′(c) = 2c must equal (9 − 1)/(3 − 1) = 4, so c = 2.",
+  "lang": "en",
+  "calc": "(3^2-1^2)/(3-1)/2"
+ },
+ {
+  "k": "deg-909",
+  "cat": "deg",
+  "s": "dphy",
+  "t": "Gravitation",
+  "lvl": "entrance",
+  "d": "medium",
+  "q": "For a satellite orbiting just above the Earth's surface, what is the ratio of the escape velocity to the orbital velocity at that height?",
+  "o": [
+   "√2 : 1",
+   "2 : 1",
+   "1 : √2",
+   "√3 : 1"
+  ],
+  "a": 0,
+  "e": "vₑ = √(2gR) and v₀ = √(gR), so vₑ : v₀ = √2 : 1.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-910",
+  "cat": "deg",
+  "s": "dchem",
+  "t": "Acid strength",
+  "lvl": "degree",
+  "d": "hard",
+  "q": "Which of the following carboxylic acids is the strongest acid?",
+  "o": [
+   "Acetic acid (CH₃–COOH)",
+   "Trichloroacetic acid (Cl₃C–COOH)",
+   "Chloroacetic acid (ClCH₂–COOH)",
+   "Dichloroacetic acid (Cl₂CH–COOH)"
+  ],
+  "a": 1,
+  "e": "Three electron-withdrawing Cl atoms (−I effect) most stabilise the carboxylate ion, so trichloroacetic acid is the strongest.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-911",
+  "cat": "deg",
+  "s": "dchem",
+  "t": "Chemical equilibrium",
+  "lvl": "entrance",
+  "d": "easy",
+  "q": "For the exothermic reaction N₂(g) + 3H₂(g) ⇌ 2NH₃(g), which change shifts the equilibrium towards more ammonia, according to Le Chatelier's principle?",
+  "o": [
+   "Decreasing the pressure",
+   "Increasing the temperature",
+   "Increasing the pressure",
+   "Adding an inert gas at constant volume"
+  ],
+  "a": 2,
+  "e": "Four moles of gas give two moles of product, so increasing the pressure favours ammonia formation.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-912",
+  "cat": "deg",
+  "s": "dbio",
+  "t": "Nitrogen fixation",
+  "lvl": "degree",
+  "d": "hard",
+  "q": "What is the main role of leghaemoglobin in the root nodules of leguminous plants?",
+  "o": [
+   "It converts ammonia into nitrates",
+   "It fixes carbon dioxide in the nodule cells",
+   "It transports nitrogen gas into the nodule",
+   "It protects nitrogenase from oxygen by binding O₂"
+  ],
+  "a": 3,
+  "e": "Leghaemoglobin is an oxygen scavenger; it protects the oxygen-sensitive enzyme nitrogenase.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-913",
+  "cat": "deg",
+  "s": "dbio",
+  "t": "Genetic code",
+  "lvl": "degree",
+  "d": "advanced",
+  "q": "Of the 64 codons of the standard genetic code, how many code for amino acids (sense codons)?",
+  "o": [
+   "61",
+   "60",
+   "62",
+   "63"
+  ],
+  "a": 0,
+  "e": "Three codons (UAA, UAG, UGA) are stop codons, so 64 − 3 = 61 code for amino acids.",
+  "lang": "en",
+  "calc": "64-3"
+ },
+ {
+  "k": "deg-914",
+  "cat": "deg",
+  "s": "decon",
+  "t": "Classical economics",
+  "lvl": "degree",
+  "d": "medium",
+  "q": "The proposition that \"supply creates its own demand\" is known as:",
+  "o": [
+   "Engel's law",
+   "Say's law",
+   "Wagner's law",
+   "Gossen's law"
+  ],
+  "a": 1,
+  "e": "Say's law of markets, after J. B. Say, states that supply creates its own demand.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-915",
+  "cat": "deg",
+  "s": "decon",
+  "t": "Consumer theory",
+  "lvl": "degree",
+  "d": "advanced",
+  "q": "For which type of good does the quantity demanded rise when its price rises, because a strong negative income effect outweighs the substitution effect?",
+  "o": [
+   "Normal good",
+   "Luxury good",
+   "Giffen good",
+   "Complementary good"
+  ],
+  "a": 2,
+  "e": "This positive price effect defines a Giffen good, a special kind of inferior good.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-916",
+  "cat": "deg",
+  "s": "mgmt",
+  "t": "Managerial roles",
+  "lvl": "degree",
+  "d": "easy",
+  "q": "Who grouped the work of managers into ten roles under three headings: interpersonal, informational and decisional?",
+  "o": [
+   "Peter Drucker",
+   "Henri Fayol",
+   "Chester Barnard",
+   "Henry Mintzberg"
+  ],
+  "a": 3,
+  "e": "Henry Mintzberg described the ten managerial roles in three groups.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-917",
+  "cat": "deg",
+  "s": "hum",
+  "t": "Western philosophy",
+  "lvl": "degree",
+  "d": "easy",
+  "q": "The famous dictum \"Cogito, ergo sum\" (I think, therefore I am) was given by:",
+  "o": [
+   "René Descartes",
+   "Immanuel Kant",
+   "John Locke",
+   "David Hume"
+  ],
+  "a": 0,
+  "e": "\"Cogito, ergo sum\" is the starting point of René Descartes' philosophy.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-918",
+  "cat": "deg",
+  "s": "engg",
+  "t": "Circuit laws",
+  "lvl": "degree",
+  "d": "medium",
+  "q": "Kirchhoff's current law (the algebraic sum of currents meeting at a node is zero) follows from the conservation of:",
+  "o": [
+   "Energy",
+   "Electric charge",
+   "Momentum",
+   "Magnetic flux"
+  ],
+  "a": 1,
+  "e": "Charge cannot accumulate at a node, so KCL expresses conservation of electric charge.",
+  "lang": "en"
+ }
+]

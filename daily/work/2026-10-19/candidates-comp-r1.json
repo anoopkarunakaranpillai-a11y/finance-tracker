@@ -1,0 +1,263 @@
+[
+ {
+  "k": "comp-901",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Hardware",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "sslc",
+  "d": "easy",
+  "q": "കമ്പ്യൂട്ടറിൽ AC വൈദ്യുതിയെ കമ്പ്യൂട്ടർ ഘടകങ്ങൾക്ക് ആവശ്യമായ DC വൈദ്യുതിയാക്കി മാറ്റുന്ന ഭാഗം ഏത്?",
+  "o": [
+   "UPS",
+   "SMPS",
+   "ALU",
+   "NIC"
+  ],
+  "a": 1,
+  "e": "SMPS (Switched Mode Power Supply) ആണ് AC-യെ DC ആക്കി മാറ്റുന്നത്.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-902",
+  "cat": "comp",
+  "s": "comp",
+  "t": "System software",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "degree",
+  "d": "medium",
+  "q": "ഒരു പ്രത്യേക ഹാർഡ്‌വെയർ ഉപകരണവുമായി ഓപ്പറേറ്റിംഗ് സിസ്റ്റത്തിന് ആശയവിനിമയം നടത്താൻ സഹായിക്കുന്ന സോഫ്റ്റ്‌വെയർ ഏത്?",
+  "o": [
+   "Compiler",
+   "Spreadsheet",
+   "Device driver",
+   "Web browser"
+  ],
+  "a": 2,
+  "e": "Device driver ആണ് OS-നും ഹാർഡ്‌വെയർ ഉപകരണത്തിനും ഇടയിലുള്ള ആശയവിനിമയം സാധ്യമാക്കുന്നത്.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-903",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Network topology",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "plus2",
+  "d": "medium",
+  "q": "നെറ്റ്‌വർക്കിലെ ഓരോ ഉപകരണവും മറ്റെല്ലാ ഉപകരണങ്ങളുമായും നേരിട്ട് ബന്ധിപ്പിച്ചിരിക്കുന്ന ടോപ്പോളജി ഏത്?",
+  "o": [
+   "Bus",
+   "Ring",
+   "Star",
+   "Mesh"
+  ],
+  "a": 3,
+  "e": "എല്ലാ നോഡുകളും പരസ്പരം നേരിട്ട് ബന്ധിപ്പിക്കുന്നത് Mesh ടോപ്പോളജിയിലാണ്.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-904",
+  "cat": "comp",
+  "s": "comp",
+  "t": "History of internet",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "plus2",
+  "d": "medium",
+  "q": "ഇന്റർനെറ്റിന്റെ മുൻഗാമിയായി കണക്കാക്കപ്പെടുന്ന, അമേരിക്കൻ പ്രതിരോധ വകുപ്പിന്റെ ഏജൻസി വികസിപ്പിച്ച നെറ്റ്‌വർക്ക് ഏത്?",
+  "o": [
+   "ARPANET",
+   "ETHERNET",
+   "NICNET",
+   "ERNET"
+  ],
+  "a": 0,
+  "e": "അമേരിക്കൻ പ്രതിരോധ വകുപ്പിന്റെ ARPA വികസിപ്പിച്ച ARPANET ആണ് ഇന്റർനെറ്റിന്റെ മുൻഗാമി.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-905",
+  "cat": "comp",
+  "s": "comp",
+  "t": "MS Excel",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "sslc",
+  "d": "easy",
+  "q": "MS Excel-ൽ ഒരു സെല്ലിൽ ഫോർമുല ടൈപ്പ് ചെയ്യുമ്പോൾ സാധാരണയായി ആദ്യം നൽകുന്ന ചിഹ്നം ഏത്?",
+  "o": [
+   "#",
+   "&",
+   "=",
+   "$"
+  ],
+  "a": 2,
+  "e": "Excel-ൽ ഫോർമുലകൾ '=' ചിഹ്നത്തോടെയാണ് ആരംഭിക്കുന്നത്.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-906",
+  "cat": "comp",
+  "s": "comp",
+  "t": "MS PowerPoint",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "plus2",
+  "d": "medium",
+  "q": "MS PowerPoint-ൽ സ്ലൈഡ് ഷോ ആദ്യ സ്ലൈഡ് മുതൽ ആരംഭിക്കാൻ ഉപയോഗിക്കുന്ന കീ ഏത്?",
+  "o": [
+   "F5",
+   "F7",
+   "F12",
+   "Shift + F5"
+  ],
+  "a": 0,
+  "e": "F5 അമർത്തിയാൽ സ്ലൈഡ് ഷോ ആദ്യം മുതൽ ആരംഭിക്കും (Shift + F5 നിലവിലെ സ്ലൈഡ് മുതൽ).",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-907",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Number systems",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "degree",
+  "d": "hard",
+  "q": "ഹെക്സാഡെസിമൽ സംഖ്യ 7D-യെ ദശാംശ (Decimal) സംഖ്യയാക്കിയാൽ ലഭിക്കുന്നത് എത്ര?",
+  "o": [
+   "113",
+   "123",
+   "127",
+   "125"
+  ],
+  "a": 3,
+  "e": "7D = 7×16 + 13 = 125.",
+  "lang": "ml",
+  "calc": "7*16+13"
+ },
+ {
+  "k": "comp-908",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Cyber security",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "degree",
+  "d": "hard",
+  "q": "വിശ്വസനീയ സ്ഥാപനമെന്ന വ്യാജേന SMS (ടെക്സ്റ്റ് സന്ദേശം) വഴി വ്യക്തിഗത വിവരങ്ങൾ ചോർത്താൻ ശ്രമിക്കുന്ന ഫിഷിംഗ് തട്ടിപ്പിനെ എന്ത് വിളിക്കുന്നു?",
+  "o": [
+   "Vishing",
+   "Smishing",
+   "Pharming",
+   "Spamming"
+  ],
+  "a": 1,
+  "e": "SMS വഴിയുള്ള ഫിഷിംഗ് Smishing ആണ് (ഫോൺ കോൾ വഴിയുള്ളത് Vishing).",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-909",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Malware",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "sslc",
+  "d": "medium",
+  "q": "ഉപകാരപ്രദമായ സോഫ്റ്റ്‌വെയറാണെന്ന് തോന്നിപ്പിച്ച് ഉപയോക്താവിനെക്കൊണ്ട് ഇൻസ്റ്റാൾ ചെയ്യിച്ച ശേഷം രഹസ്യമായി ദോഷകരമായ പ്രവർത്തനങ്ങൾ നടത്തുന്ന മാൽവെയർ ഏത്?",
+  "o": [
+   "Worm",
+   "Adware",
+   "Trojan horse",
+   "Ransomware"
+  ],
+  "a": 2,
+  "e": "ഉപകാരപ്രദമെന്ന് നടിച്ച് കടന്നുകയറുന്ന മാൽവെയർ Trojan horse ആണ്.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-910",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Storage devices",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "plus2",
+  "d": "hard",
+  "q": "ഹാർഡ് ഡിസ്ക് ഡ്രൈവിലെ പ്ലാറ്ററുകളുടെ ഭ്രമണ വേഗത (rotational speed) സൂചിപ്പിക്കാൻ ഉപയോഗിക്കുന്ന യൂണിറ്റ് ഏത്?",
+  "o": [
+   "RPM",
+   "DPI",
+   "PPM",
+   "MIPS"
+  ],
+  "a": 0,
+  "e": "ഹാർഡ് ഡിസ്കിന്റെ ഭ്രമണ വേഗത RPM (Revolutions Per Minute) ലാണ് സൂചിപ്പിക്കുന്നത്.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-911",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Software",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "sslc",
+  "d": "easy",
+  "q": "താഴെ പറയുന്നവയിൽ സിസ്റ്റം സോഫ്റ്റ്‌വെയറിന് ഉദാഹരണം ഏത്?",
+  "o": [
+   "MS Word",
+   "Windows",
+   "Adobe Photoshop",
+   "VLC Media Player"
+  ],
+  "a": 1,
+  "e": "ഓപ്പറേറ്റിംഗ് സിസ്റ്റമായ Windows സിസ്റ്റം സോഫ്റ്റ്‌വെയറാണ്; മറ്റുള്ളവ ആപ്ലിക്കേഷൻ സോഫ്റ്റ്‌വെയറുകളാണ്.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-912",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Email protocols",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "degree",
+  "d": "advanced",
+  "q": "ഇമെയിലുകൾ സെർവറിൽ തന്നെ സൂക്ഷിച്ചുകൊണ്ട് ഒന്നിലധികം ഉപകരണങ്ങളിൽ സിങ്ക് (synchronize) ചെയ്ത് വായിക്കാൻ സഹായിക്കുന്ന മെയിൽ സ്വീകരണ പ്രോട്ടോക്കോൾ ഏത്?",
+  "o": [
+   "SMTP",
+   "FTP",
+   "SNMP",
+   "IMAP"
+  ],
+  "a": 3,
+  "e": "IMAP മെയിലുകൾ സെർവറിൽ നിലനിർത്തി വിവിധ ഉപകരണങ്ങളിൽ സിങ്ക് ചെയ്യുന്നു.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-913",
+  "cat": "comp",
+  "s": "comp",
+  "t": "History of computers",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "sslc",
+  "d": "easy",
+  "q": "ചാൾസ് ബാബേജിന്റെ അനലിറ്റിക്കൽ എഞ്ചിനു വേണ്ടി അൽഗോരിതം തയ്യാറാക്കിയതിനാൽ 'ലോകത്തിലെ ആദ്യ കമ്പ്യൂട്ടർ പ്രോഗ്രാമർ' എന്നറിയപ്പെടുന്നത് ആര്?",
+  "o": [
+   "Ada Lovelace",
+   "Grace Hopper",
+   "Herman Hollerith",
+   "Alan Turing"
+  ],
+  "a": 0,
+  "e": "Ada Lovelace ആണ് ആദ്യ കമ്പ്യൂട്ടർ പ്രോഗ്രാമറായി അറിയപ്പെടുന്നത്.",
+  "lang": "ml"
+ }
+]
