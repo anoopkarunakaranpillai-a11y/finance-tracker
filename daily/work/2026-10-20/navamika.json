@@ -1,0 +1,620 @@
+[
+ {
+  "id": "trace-m-to-p-small",
+  "type": "tracing",
+  "title": "Trace m n o p",
+  "desc": "Draw four small letters!",
+  "difficulty": "easy",
+  "instructions": "Follow the dots with your finger.",
+  "chars": [
+   "m",
+   "n",
+   "o",
+   "p"
+  ]
+ },
+ {
+  "id": "colour-of-the-sky-and-sea",
+  "type": "colors",
+  "title": "Colour Hunt",
+  "desc": "What colour is it?",
+  "difficulty": "easy",
+  "instructions": "Look at the picture and tap its colour.",
+  "questions": [
+   {
+    "q": "What colour is a banana?",
+    "show": "🍌",
+    "options": [
+     {
+      "c": "#E53935",
+      "t": "Red"
+     },
+     {
+      "c": "#FDD835",
+      "t": "Yellow"
+     },
+     {
+      "c": "#1E88E5",
+      "t": "Blue"
+     }
+    ],
+    "answer": 1,
+    "good": "Yes! A banana is yellow!"
+   },
+   {
+    "q": "What colour is a frog?",
+    "show": "🐸",
+    "options": [
+     {
+      "c": "#43A047",
+      "t": "Green"
+     },
+     {
+      "c": "#8E24AA",
+      "t": "Purple"
+     },
+     {
+      "c": "#FB8C00",
+      "t": "Orange"
+     }
+    ],
+    "answer": 0,
+    "good": "Ribbit! The frog is green!"
+   },
+   {
+    "q": "What colour is a carrot?",
+    "show": "🥕",
+    "options": [
+     {
+      "c": "#1E88E5",
+      "t": "Blue"
+     },
+     {
+      "c": "#43A047",
+      "t": "Green"
+     },
+     {
+      "c": "#FB8C00",
+      "t": "Orange"
+     }
+    ],
+    "answer": 2,
+    "good": "Crunchy orange carrot!"
+   },
+   {
+    "q": "What colour is a strawberry?",
+    "show": "🍓",
+    "options": [
+     {
+      "c": "#FDD835",
+      "t": "Yellow"
+     },
+     {
+      "c": "#E53935",
+      "t": "Red"
+     },
+     {
+      "c": "#1E88E5",
+      "t": "Blue"
+     }
+    ],
+    "answer": 1,
+    "good": "Yummy red strawberry!"
+   },
+   {
+    "q": "What colour is the sky on a sunny day?",
+    "show": "☀️",
+    "options": [
+     {
+      "c": "#795548",
+      "t": "Brown"
+     },
+     {
+      "c": "#E53935",
+      "t": "Red"
+     },
+     {
+      "c": "#1E88E5",
+      "t": "Blue"
+     }
+    ],
+    "answer": 2,
+    "good": "The sunny sky is blue!"
+   },
+   {
+    "q": "What colour is snow?",
+    "show": "⛄",
+    "options": [
+     {
+      "c": "#FFFFFF",
+      "t": "White"
+     },
+     {
+      "c": "#43A047",
+      "t": "Green"
+     },
+     {
+      "c": "#FB8C00",
+      "t": "Orange"
+     }
+    ],
+    "answer": 0,
+    "good": "Snow is white and soft!"
+   }
+  ]
+ },
+ {
+  "id": "animal-babies-and-legs",
+  "type": "animals",
+  "title": "Animal Friends",
+  "desc": "Fun animal questions",
+  "difficulty": "easy",
+  "instructions": "Listen and tap the right animal.",
+  "questions": [
+   {
+    "q": "Who says moo?",
+    "options": [
+     {
+      "e": "🐶",
+      "t": "Dog"
+     },
+     {
+      "e": "🐄",
+      "t": "Cow"
+     },
+     {
+      "e": "🐱",
+      "t": "Cat"
+     }
+    ],
+    "answer": 1,
+    "good": "Moo! The cow says moo!"
+   },
+   {
+    "q": "Who can fly in the sky?",
+    "options": [
+     {
+      "e": "🐢",
+      "t": "Turtle"
+     },
+     {
+      "e": "🐘",
+      "t": "Elephant"
+     },
+     {
+      "e": "🐦",
+      "t": "Bird"
+     }
+    ],
+    "answer": 2,
+    "good": "Flap flap! The bird can fly!"
+   },
+   {
+    "q": "Who has a long trunk?",
+    "options": [
+     {
+      "e": "🐘",
+      "t": "Elephant"
+     },
+     {
+      "e": "🐰",
+      "t": "Rabbit"
+     },
+     {
+      "e": "🐔",
+      "t": "Hen"
+     }
+    ],
+    "answer": 0,
+    "good": "The elephant has a long trunk!"
+   },
+   {
+    "q": "Who loves to eat carrots?",
+    "show": "🥕",
+    "options": [
+     {
+      "e": "🦁",
+      "t": "Lion"
+     },
+     {
+      "e": "🐟",
+      "t": "Fish"
+     },
+     {
+      "e": "🐰",
+      "t": "Rabbit"
+     }
+    ],
+    "answer": 2,
+    "good": "Munch munch! The rabbit loves carrots!"
+   },
+   {
+    "q": "Who lays eggs?",
+    "show": "🥚",
+    "options": [
+     {
+      "e": "🐔",
+      "t": "Hen"
+     },
+     {
+      "e": "🐄",
+      "t": "Cow"
+     },
+     {
+      "e": "🐶",
+      "t": "Dog"
+     }
+    ],
+    "answer": 0,
+    "good": "Cluck cluck! The hen lays eggs!"
+   },
+   {
+    "q": "Who swims in the water?",
+    "show": "🌊",
+    "options": [
+     {
+      "e": "🐒",
+      "t": "Monkey"
+     },
+     {
+      "e": "🐟",
+      "t": "Fish"
+     },
+     {
+      "e": "🐑",
+      "t": "Sheep"
+     }
+    ],
+    "answer": 1,
+    "good": "Splash! The fish swims!"
+   }
+  ]
+ },
+ {
+  "id": "one-more-please",
+  "type": "numbers",
+  "title": "One More, Please!",
+  "desc": "Add one more",
+  "difficulty": "medium",
+  "instructions": "What number comes when we add one more?",
+  "questions": [
+   {
+    "q": "2 and one more is?",
+    "show": "🍎🍎 + 🍎",
+    "options": [
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     },
+     {
+      "t": "4"
+     }
+    ],
+    "answer": 1,
+    "good": "Yes! 2 and 1 more makes 3!"
+   },
+   {
+    "q": "4 and one more is?",
+    "show": "⭐⭐⭐⭐ + ⭐",
+    "options": [
+     {
+      "t": "5"
+     },
+     {
+      "t": "6"
+     },
+     {
+      "t": "4"
+     }
+    ],
+    "answer": 0,
+    "good": "Super! 4 and 1 more makes 5!"
+   },
+   {
+    "q": "1 and one more is?",
+    "show": "🎈 + 🎈",
+    "options": [
+     {
+      "t": "3"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "2"
+     }
+    ],
+    "answer": 2,
+    "good": "Great! 1 and 1 more makes 2!"
+   },
+   {
+    "q": "5 and one more is?",
+    "show": "🐟🐟🐟🐟🐟 + 🐟",
+    "options": [
+     {
+      "t": "7"
+     },
+     {
+      "t": "6"
+     },
+     {
+      "t": "5"
+     }
+    ],
+    "answer": 1,
+    "good": "Wow! 5 and 1 more makes 6!"
+   },
+   {
+    "q": "3 and one more is?",
+    "show": "🌸🌸🌸 + 🌸",
+    "options": [
+     {
+      "t": "3"
+     },
+     {
+      "t": "5"
+     },
+     {
+      "t": "4"
+     }
+    ],
+    "answer": 2,
+    "good": "Lovely! 3 and 1 more makes 4!"
+   },
+   {
+    "q": "6 and one more is?",
+    "show": "6 + 1",
+    "options": [
+     {
+      "t": "7"
+     },
+     {
+      "t": "8"
+     },
+     {
+      "t": "6"
+     }
+    ],
+    "answer": 0,
+    "good": "Brilliant! 6 and 1 more makes 7!"
+   }
+  ]
+ },
+ {
+  "id": "shape-in-the-picture",
+  "type": "shapes",
+  "title": "Shape Spotter",
+  "desc": "Find the shape",
+  "difficulty": "easy",
+  "instructions": "Listen and tap the shape.",
+  "questions": [
+   {
+    "q": "Which one is a circle?",
+    "options": [
+     {
+      "s": "square"
+     },
+     {
+      "s": "circle"
+     },
+     {
+      "s": "triangle"
+     }
+    ],
+    "answer": 1,
+    "good": "Round and round, a circle!"
+   },
+   {
+    "q": "Which one is a star?",
+    "options": [
+     {
+      "s": "star"
+     },
+     {
+      "s": "heart"
+     },
+     {
+      "s": "oval"
+     }
+    ],
+    "answer": 0,
+    "good": "Twinkle twinkle, a star!"
+   },
+   {
+    "q": "Which one is a heart?",
+    "options": [
+     {
+      "s": "diamond"
+     },
+     {
+      "s": "rectangle"
+     },
+     {
+      "s": "heart"
+     }
+    ],
+    "answer": 2,
+    "good": "A heart full of love!"
+   },
+   {
+    "q": "Which one is a triangle?",
+    "options": [
+     {
+      "s": "circle"
+     },
+     {
+      "s": "triangle"
+     },
+     {
+      "s": "square"
+     }
+    ],
+    "answer": 1,
+    "good": "Three sides, a triangle!"
+   },
+   {
+    "q": "Which one is a square?",
+    "options": [
+     {
+      "s": "oval"
+     },
+     {
+      "s": "star"
+     },
+     {
+      "s": "square"
+     }
+    ],
+    "answer": 2,
+    "good": "Four equal sides, a square!"
+   },
+   {
+    "q": "A pizza slice looks like which shape?",
+    "show": "🍕",
+    "options": [
+     {
+      "s": "triangle"
+     },
+     {
+      "s": "circle"
+     },
+     {
+      "s": "heart"
+     }
+    ],
+    "answer": 0,
+    "good": "Yes! A pizza slice is like a triangle!"
+   }
+  ]
+ },
+ {
+  "id": "what-do-we-wear",
+  "type": "vocabulary",
+  "title": "Dress Up Time",
+  "desc": "What do we wear?",
+  "difficulty": "medium",
+  "instructions": "Listen and tap the right thing.",
+  "questions": [
+   {
+    "q": "What do we wear on our feet?",
+    "options": [
+     {
+      "e": "🧢",
+      "t": "Cap"
+     },
+     {
+      "e": "👟",
+      "t": "Shoes"
+     },
+     {
+      "e": "🧤",
+      "t": "Gloves"
+     }
+    ],
+    "answer": 1,
+    "good": "Shoes go on our feet!"
+   },
+   {
+    "q": "What do we wear on our head?",
+    "options": [
+     {
+      "e": "🧢",
+      "t": "Cap"
+     },
+     {
+      "e": "🧦",
+      "t": "Socks"
+     },
+     {
+      "e": "👖",
+      "t": "Pants"
+     }
+    ],
+    "answer": 0,
+    "good": "A cap goes on our head!"
+   },
+   {
+    "q": "What do we use when it rains?",
+    "show": "🌧️",
+    "options": [
+     {
+      "e": "🕶️",
+      "t": "Sunglasses"
+     },
+     {
+      "e": "🩳",
+      "t": "Shorts"
+     },
+     {
+      "e": "☂️",
+      "t": "Umbrella"
+     }
+    ],
+    "answer": 2,
+    "good": "An umbrella keeps us dry!"
+   },
+   {
+    "q": "What keeps our hands warm?",
+    "show": "❄️",
+    "options": [
+     {
+      "e": "👟",
+      "t": "Shoes"
+     },
+     {
+      "e": "🧤",
+      "t": "Gloves"
+     },
+     {
+      "e": "🧢",
+      "t": "Cap"
+     }
+    ],
+    "answer": 1,
+    "good": "Gloves keep hands warm!"
+   },
+   {
+    "q": "What do we wear to sleep?",
+    "show": "🌙",
+    "options": [
+     {
+      "e": "🥾",
+      "t": "Boots"
+     },
+     {
+      "e": "🧥",
+      "t": "Coat"
+     },
+     {
+      "e": "👕",
+      "t": "Night shirt"
+     }
+    ],
+    "answer": 2,
+    "good": "A comfy shirt for sleep time!"
+   },
+   {
+    "q": "What do we wear on our eyes in the sun?",
+    "show": "☀️",
+    "options": [
+     {
+      "e": "🕶️",
+      "t": "Sunglasses"
+     },
+     {
+      "e": "🧦",
+      "t": "Socks"
+     },
+     {
+      "e": "🧣",
+      "t": "Scarf"
+     }
+    ],
+    "answer": 0,
+    "good": "Cool sunglasses for sunny days!"
+   }
+  ]
+ }
+]

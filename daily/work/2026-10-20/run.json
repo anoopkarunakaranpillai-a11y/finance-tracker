@@ -1,0 +1,20 @@
+{
+ "started": "2026-10-20T05:50:25+00:00",
+ "runs": [
+  {
+   "at": "2026-10-20T05:50:25+00:00",
+   "kind": "scheduled"
+  }
+ ],
+ "errors": [],
+ "retries": 0,
+ "notes": [
+  "Settings: no _auto document in the tracker database; defaults from daily/config.default.json used (enabled, 08:48/11:48 Asia/Kuwait, matches the schedule).",
+  "Current affairs: 5 items confirmed by web search on 2026-10-20 (ca.json: Morocco's first woman PM, ICC Players of the Month Sept 2026, Asian Para Games 2026 flag bearers, CBD COP17 in Yerevan, first organic Palmyra jaggery export to Bulgaria); 7 CA questions cite them.",
+  "Candidates r1: 124 written by 5 separate writer agents (gkca 16, eng 13, quant 19, reas 19, sci 13, comp 13, deg 18, compx 13) + 7 CA questions.",
+  "Independent answer check: a separate blind-solver agent solved the 124 (shuffled, without keys, explanations or calc): verify-r1.json; another agent solved the 7 CA questions from web sources: verify-ca-r1.json. No key disagreed.",
+  "Build r1: 127 published; 3 duplicates (2 exact, 1 near) and 1 rejected (two options identical). All categories at or above allocation; no fix round needed.",
+  "Official previous papers: sources.official is empty in the settings, so no sites were checked; nothing imported.",
+  "Navamika: 6 games written (tracing, colors, animals, numbers, shapes, vocabulary)."
+ ]
+}
