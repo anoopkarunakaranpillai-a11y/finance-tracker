@@ -1,0 +1,20 @@
+{
+ "started": "2026-10-21T05:50:57+00:00",
+ "runs": [
+  {
+   "at": "2026-10-21T05:50:57+00:00",
+   "kind": "scheduled"
+  }
+ ],
+ "errors": [],
+ "retries": 0,
+ "notes": [
+  "Settings: no _auto document in the tracker database; defaults from daily/config.default.json used (enabled, 08:48/11:48 Asia/Kuwait, matches the schedule).",
+  "Current affairs: 6 items confirmed by web search on 2026-10-21 (ca.json: Mona Agarwal Asian Para Games 10m air rifle gold, Vishvajit More U23 Greco-Roman silver, Anup Bagchi HDFC Bank MD & CEO, 25th SCO Council of Heads of Government in Dushanbe, death of KUFOS founding VC Dr B. Madhusoodana Kurup, September 2026 CPI inflation 5.54%); 6 CA questions cite them.",
+  "Candidates r1: 124 written by 5 separate writer agents (gkca 16, eng 13, quant 19, reas 19, sci 13, comp 13, deg 18, compx 13) + 6 CA questions.",
+  "Independent answer check: a separate blind-solver agent solved the 124 (shuffled, without keys, explanations or calc): verify-r1.json; another agent solved the 6 CA questions from web sources: verify-ca-r1.json. No key disagreed.",
+  "Build r1: 124 published; 2 duplicates (1 exact, 1 near) and 4 rejected (3 explanation/option mismatch, 1 two identical options). All categories at or above allocation; no fix round needed.",
+  "Official previous papers: sources.official is empty in the settings, so no sites were checked; nothing imported.",
+  "Navamika: 6 games written (tracing, counting, sounds, alphabet, matching, fruits)."
+ ]
+}

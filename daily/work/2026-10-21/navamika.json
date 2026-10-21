@@ -1,0 +1,48 @@
+[
+ {"id":"trace-q-to-t-small","type":"tracing","title":"Trace q r s t","desc":"Draw four little letters!","difficulty":"easy","instructions":"Follow the dots with your finger.","chars":["q","r","s","t"]},
+ {"id":"count-the-cupcakes","type":"counting","title":"Count the Cupcakes","desc":"How many yummy things?","difficulty":"easy","instructions":"Count and tap the right number.",
+  "questions":[
+   {"q":"How many cupcakes?","show":"🧁🧁🧁","options":[{"t":"2"},{"t":"3"},{"t":"4"}],"answer":1,"good":"Yes! 3 cupcakes!"},
+   {"q":"How many bananas?","show":"🍌🍌🍌🍌🍌","options":[{"t":"5"},{"t":"4"},{"t":"6"}],"answer":0,"good":"Great counting! 5 bananas!"},
+   {"q":"How many cookies?","show":"🍪🍪","options":[{"t":"1"},{"t":"3"},{"t":"2"}],"answer":2,"good":"Yummy! 2 cookies!"},
+   {"q":"How many lollipops?","show":"🍭🍭🍭🍭","options":[{"t":"3"},{"t":"5"},{"t":"4"}],"answer":2,"good":"Super! 4 lollipops!"},
+   {"q":"How many strawberries?","show":"🍓🍓🍓🍓🍓🍓","options":[{"t":"6"},{"t":"7"},{"t":"5"}],"answer":0,"good":"Wow! 6 strawberries!"},
+   {"q":"How many ice creams?","show":"🍦","options":[{"t":"2"},{"t":"1"},{"t":"3"}],"answer":1,"good":"Just 1 ice cream. Well done!"}
+  ]},
+ {"id":"sounds-at-the-farm","type":"sounds","title":"Farm Sounds","desc":"Who makes this sound?","difficulty":"easy","instructions":"Listen to the sound and tap the animal.",
+  "questions":[
+   {"q":"Who says Moo?","show":"Moo!","options":[{"e":"🐄","t":"Cow"},{"e":"🐱","t":"Cat"},{"e":"🐶","t":"Dog"}],"answer":0,"good":"Moo! The cow says moo!"},
+   {"q":"Who says Baa?","show":"Baa!","options":[{"e":"🐷","t":"Pig"},{"e":"🐑","t":"Sheep"},{"e":"🐴","t":"Horse"}],"answer":1,"good":"Baa! The sheep says baa!"},
+   {"q":"Who says Oink?","show":"Oink!","options":[{"e":"🐔","t":"Hen"},{"e":"🐄","t":"Cow"},{"e":"🐷","t":"Pig"}],"answer":2,"good":"Oink oink! Silly pig!"},
+   {"q":"Who says Quack?","show":"Quack!","options":[{"e":"🦆","t":"Duck"},{"e":"🐑","t":"Sheep"},{"e":"🐶","t":"Dog"}],"answer":0,"good":"Quack quack! The duck!"},
+   {"q":"Who says Neigh?","show":"Neigh!","options":[{"e":"🐱","t":"Cat"},{"e":"🐴","t":"Horse"},{"e":"🐷","t":"Pig"}],"answer":1,"good":"Neigh! The horse!"},
+   {"q":"Who says Cluck?","show":"Cluck!","options":[{"e":"🐄","t":"Cow"},{"e":"🦆","t":"Duck"},{"e":"🐔","t":"Hen"}],"answer":2,"good":"Cluck cluck! The hen!"}
+  ]},
+ {"id":"letter-a-b-c-friends","type":"alphabet","title":"Letter Friends","desc":"What does it start with?","difficulty":"medium","instructions":"Look at the picture and tap its first letter.",
+  "questions":[
+   {"q":"Apple starts with…","show":"🍎","options":[{"t":"A"},{"t":"B"},{"t":"C"}],"answer":0,"good":"A for Apple!"},
+   {"q":"Ball starts with…","show":"⚽","options":[{"t":"D"},{"t":"B"},{"t":"P"}],"answer":1,"good":"B for Ball!"},
+   {"q":"Sun starts with…","show":"☀️","options":[{"t":"M"},{"t":"T"},{"t":"S"}],"answer":2,"good":"S for Sun!"},
+   {"q":"Fish starts with…","show":"🐟","options":[{"t":"F"},{"t":"H"},{"t":"E"}],"answer":0,"good":"F for Fish!"},
+   {"q":"Moon starts with…","show":"🌙","options":[{"t":"N"},{"t":"M"},{"t":"W"}],"answer":1,"good":"M for Moon!"},
+   {"q":"Tree starts with…","show":"🌳","options":[{"t":"L"},{"t":"R"},{"t":"T"}],"answer":2,"good":"T for Tree!"}
+  ]},
+ {"id":"things-that-go-together","type":"matching","title":"Perfect Pairs","desc":"Which two go together?","difficulty":"easy","instructions":"Tap the thing that goes with the picture.",
+  "questions":[
+   {"q":"What goes with a toothbrush?","show":"🪥","options":[{"e":"🍕","t":"Pizza"},{"e":"🦷","t":"Tooth"},{"e":"🚗","t":"Car"}],"answer":1,"good":"Brush brush! Clean teeth!"},
+   {"q":"What goes with a sock?","show":"🧦","options":[{"e":"🥾","t":"Boot"},{"e":"🍎","t":"Apple"},{"e":"🎈","t":"Balloon"}],"answer":0,"good":"Socks go in shoes!"},
+   {"q":"What goes with rain?","show":"🌧️","options":[{"e":"🍌","t":"Banana"},{"e":"⚽","t":"Ball"},{"e":"☂️","t":"Umbrella"}],"answer":2,"good":"An umbrella keeps us dry!"},
+   {"q":"What goes with a bee?","show":"🐝","options":[{"e":"🌸","t":"Flower"},{"e":"🚌","t":"Bus"},{"e":"🧦","t":"Sock"}],"answer":0,"good":"Bees love flowers! Buzz!"},
+   {"q":"What goes with a pencil?","show":"✏️","options":[{"e":"🐟","t":"Fish"},{"e":"📒","t":"Notebook"},{"e":"🍦","t":"Ice cream"}],"answer":1,"good":"We draw in a notebook!"},
+   {"q":"What goes with a key?","show":"🔑","options":[{"e":"🐸","t":"Frog"},{"e":"🍇","t":"Grapes"},{"e":"🔒","t":"Lock"}],"answer":2,"good":"Click! The key opens the lock!"}
+  ]},
+ {"id":"fruit-colour-fun","type":"fruits","title":"Fruit Fun","desc":"Find the yummy fruit!","difficulty":"medium","instructions":"Listen and tap the right fruit.",
+  "questions":[
+   {"q":"Which fruit is yellow and long?","options":[{"e":"🍌","t":"Banana"},{"e":"🍇","t":"Grapes"},{"e":"🍒","t":"Cherries"}],"answer":0,"good":"Yes! A yellow banana!"},
+   {"q":"Which fruit is big and green with red inside?","options":[{"e":"🍋","t":"Lemon"},{"e":"🍉","t":"Watermelon"},{"e":"🍓","t":"Strawberry"}],"answer":1,"good":"Juicy watermelon!"},
+   {"q":"Which fruit is orange and round?","options":[{"e":"🍇","t":"Grapes"},{"e":"🍐","t":"Pear"},{"e":"🍊","t":"Orange"}],"answer":2,"good":"An orange orange!"},
+   {"q":"Which fruit grows in a bunch?","options":[{"e":"🍇","t":"Grapes"},{"e":"🍎","t":"Apple"},{"e":"🥭","t":"Mango"}],"answer":0,"good":"A bunch of grapes!"},
+   {"q":"Which fruit has a hard brown shell?","options":[{"e":"🍓","t":"Strawberry"},{"e":"🥥","t":"Coconut"},{"e":"🍌","t":"Banana"}],"answer":1,"good":"Knock knock! A coconut!"},
+   {"q":"Which fruit is small and red with a stem?","options":[{"e":"🍉","t":"Watermelon"},{"e":"🍍","t":"Pineapple"},{"e":"🍒","t":"Cherries"}],"answer":2,"good":"Sweet red cherries!"}
+  ]}
+]
