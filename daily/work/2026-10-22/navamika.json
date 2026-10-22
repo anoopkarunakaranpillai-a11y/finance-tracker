@@ -1,0 +1,45 @@
+[
+ {"id":"trace-u-to-x-small","type":"tracing","title":"Trace u v w x","desc":"Four more little letters!","difficulty":"easy","instructions":"Follow the dots with your finger.","chars":["u","v","w","x"]},
+ {"id":"count-the-flowers","type":"counting","title":"Count the Flowers","desc":"How many pretty things?","difficulty":"easy","instructions":"Count and tap the right number.",
+  "questions":[
+   {"q":"How many flowers?","show":"🌼🌼🌼🌼","options":[{"t":"3"},{"t":"5"},{"t":"4"}],"answer":2,"good":"Yes! 4 flowers!"},
+   {"q":"How many butterflies?","show":"🦋🦋","options":[{"t":"2"},{"t":"1"},{"t":"3"}],"answer":0,"good":"Great! 2 butterflies!"},
+   {"q":"How many strawberries?","show":"🍓🍓🍓🍓🍓🍓","options":[{"t":"5"},{"t":"6"},{"t":"7"}],"answer":1,"good":"Yummy! 6 strawberries!"},
+   {"q":"How many balls?","show":"⚽⚽⚽","options":[{"t":"4"},{"t":"2"},{"t":"3"}],"answer":2,"good":"Super! 3 balls!"},
+   {"q":"How many hearts?","show":"❤️❤️❤️❤️❤️","options":[{"t":"5"},{"t":"4"},{"t":"6"}],"answer":0,"good":"Lovely! 5 hearts!"},
+   {"q":"How many trees?","show":"🌳🌳🌳🌳🌳🌳🌳","options":[{"t":"8"},{"t":"7"},{"t":"6"}],"answer":1,"good":"Wow! 7 trees!"}
+  ]},
+ {"id":"colour-the-fruit","type":"colors","title":"Fruit Colours","desc":"What colour is it?","difficulty":"easy","instructions":"Look at the fruit and tap its colour.",
+  "questions":[
+   {"q":"What colour is a banana?","show":"🍌","options":[{"c":"#3366FF","t":"Blue"},{"c":"#FFD43B","t":"Yellow"},{"c":"#9C36B5","t":"Purple"}],"answer":1,"good":"Yes! Bananas are yellow!"},
+   {"q":"What colour is a strawberry?","show":"🍓","options":[{"c":"#E03131","t":"Red"},{"c":"#2F9E44","t":"Green"},{"c":"#1C7ED6","t":"Blue"}],"answer":0,"good":"Right! Strawberries are red!"},
+   {"q":"What colour is this pear?","show":"🍐","options":[{"c":"#F76707","t":"Orange"},{"c":"#E03131","t":"Red"},{"c":"#82C91E","t":"Green"}],"answer":2,"good":"Well done! Green pear!"},
+   {"q":"What colour are these grapes?","show":"🍇","options":[{"c":"#7048E8","t":"Purple"},{"c":"#FFD43B","t":"Yellow"},{"c":"#F76707","t":"Orange"}],"answer":0,"good":"Yes! Purple grapes!"},
+   {"q":"What colour is an orange?","show":"🍊","options":[{"c":"#2F9E44","t":"Green"},{"c":"#F76707","t":"Orange"},{"c":"#1C7ED6","t":"Blue"}],"answer":1,"good":"Great! Oranges are orange!"}
+  ]},
+ {"id":"who-am-i-animals","type":"animals","title":"Who Am I?","desc":"Guess the animal!","difficulty":"easy","instructions":"Listen to the clue and tap the animal.",
+  "questions":[
+   {"q":"I have a long trunk. Who am I?","options":[{"e":"🐘","t":"Elephant"},{"e":"🐶","t":"Dog"},{"e":"🐔","t":"Hen"}],"answer":0,"good":"Yes! The elephant has a trunk!"},
+   {"q":"I hop and hop. Who am I?","options":[{"e":"🐄","t":"Cow"},{"e":"🐢","t":"Turtle"},{"e":"🐰","t":"Rabbit"}],"answer":2,"good":"Hop hop! The rabbit!"},
+   {"q":"I have a long neck. Who am I?","options":[{"e":"🐷","t":"Pig"},{"e":"🦒","t":"Giraffe"},{"e":"🐱","t":"Cat"}],"answer":1,"good":"Right! The giraffe is so tall!"},
+   {"q":"I can swim and I quack. Who am I?","options":[{"e":"🦆","t":"Duck"},{"e":"🐴","t":"Horse"},{"e":"🐒","t":"Monkey"}],"answer":0,"good":"Quack quack! The duck!"},
+   {"q":"I carry my house on my back. Who am I?","options":[{"e":"🐑","t":"Sheep"},{"e":"🦁","t":"Lion"},{"e":"🐌","t":"Snail"}],"answer":2,"good":"Yes! The snail has a shell!"},
+   {"q":"I give us milk. Who am I?","options":[{"e":"🐸","t":"Frog"},{"e":"🐄","t":"Cow"},{"e":"🐝","t":"Bee"}],"answer":1,"good":"Moo! The cow gives milk!"}
+  ]},
+ {"id":"shape-hunt","type":"shapes","title":"Shape Hunt","desc":"Find the shape!","difficulty":"medium","instructions":"Listen and tap the shape.",
+  "questions":[
+   {"q":"Tap the circle.","options":[{"s":"square","t":"Square"},{"s":"circle","t":"Circle"},{"s":"triangle","t":"Triangle"}],"answer":1,"good":"Round and round! A circle!"},
+   {"q":"Tap the star.","options":[{"s":"star","t":"Star"},{"s":"heart","t":"Heart"},{"s":"oval","t":"Oval"}],"answer":0,"good":"Twinkle! A star!"},
+   {"q":"Tap the triangle.","options":[{"s":"rectangle","t":"Rectangle"},{"s":"circle","t":"Circle"},{"s":"triangle","t":"Triangle"}],"answer":2,"good":"Yes! 3 sides, a triangle!"},
+   {"q":"Tap the heart.","options":[{"s":"diamond","t":"Diamond"},{"s":"heart","t":"Heart"},{"s":"square","t":"Square"}],"answer":1,"good":"Lovely! A heart!"},
+   {"q":"Tap the square.","options":[{"s":"square","t":"Square"},{"s":"star","t":"Star"},{"s":"hexagon","t":"Hexagon"}],"answer":0,"good":"Great! 4 equal sides!"}
+  ]},
+ {"id":"number-after","type":"numbers","title":"What Comes After?","desc":"Count up by one!","difficulty":"medium","instructions":"Which number comes next?",
+  "questions":[
+   {"q":"What comes after 3?","show":"1, 2, 3, ?","options":[{"t":"5"},{"t":"4"},{"t":"2"}],"answer":1,"good":"Yes! 4 comes after 3!"},
+   {"q":"What comes after 6?","show":"4, 5, 6, ?","options":[{"t":"7"},{"t":"8"},{"t":"5"}],"answer":0,"good":"Super! 7!"},
+   {"q":"What comes after 9?","show":"7, 8, 9, ?","options":[{"t":"11"},{"t":"8"},{"t":"10"}],"answer":2,"good":"Wow! 10!"},
+   {"q":"What comes after 12?","show":"10, 11, 12, ?","options":[{"t":"13"},{"t":"14"},{"t":"11"}],"answer":0,"good":"Great counting! 13!"},
+   {"q":"What comes after 15?","show":"13, 14, 15, ?","options":[{"t":"17"},{"t":"16"},{"t":"14"}],"answer":1,"good":"Yes! 16!"}
+  ]}
+]
