@@ -1,0 +1,242 @@
+[
+ {
+  "k": "comp-1301",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Abbreviations",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "sslc",
+  "d": "easy",
+  "q": "കമ്പ്യൂട്ടറുമായി ബന്ധപ്പെട്ട 'USB' എന്നതിന്റെ പൂർണ്ണരൂപം എന്ത്?",
+  "o": [
+   "Universal Serial Bus",
+   "Unified System Bus",
+   "Universal Storage Board",
+   "United Serial Board"
+  ],
+  "a": 0,
+  "e": "USB എന്നതിന്റെ പൂർണ്ണരൂപം Universal Serial Bus എന്നാണ്.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-1302",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Number systems",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "plus2",
+  "d": "medium",
+  "q": "ദശാംശ (Decimal) സംഖ്യ 100-ന്റെ ബൈനറി രൂപം ഏത്?",
+  "o": [
+   "1010100",
+   "1100100",
+   "1100010",
+   "1110100"
+  ],
+  "a": 1,
+  "e": "100 = 64 + 32 + 4 ആയതിനാൽ ബൈനറി രൂപം 1100100 ആണ്.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-1303",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Computer pioneers",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "plus2",
+  "d": "medium",
+  "q": "കമ്പ്യൂട്ടർ മൗസ് (Mouse) കണ്ടുപിടിച്ചത് ആര്?",
+  "o": [
+   "Charles Babbage",
+   "Tim Berners-Lee",
+   "Douglas Engelbart",
+   "Alan Turing"
+  ],
+  "a": 2,
+  "e": "1960-കളിൽ കമ്പ്യൂട്ടർ മൗസ് കണ്ടുപിടിച്ചത് Douglas Engelbart ആണ്.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-1304",
+  "cat": "comp",
+  "s": "comp",
+  "t": "LibreOffice",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "sslc",
+  "d": "easy",
+  "q": "LibreOffice-ൽ പ്രസന്റേഷൻ (Presentation) തയ്യാറാക്കാൻ ഉപയോഗിക്കുന്ന ആപ്ലിക്കേഷൻ ഏത്?",
+  "o": [
+   "Writer",
+   "Calc",
+   "Base",
+   "Impress"
+  ],
+  "a": 3,
+  "e": "LibreOffice-ലെ പ്രസന്റേഷൻ സോഫ്റ്റ്‌വെയർ Impress ആണ് (MS PowerPoint-ന് തുല്യം).",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-1305",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Transmission media",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "sslc",
+  "d": "easy",
+  "q": "പ്രകാശ സ്പന്ദനങ്ങളുടെ (light pulses) രൂപത്തിൽ ഡാറ്റ കൈമാറുന്ന നെറ്റ്‌വർക്ക് കേബിൾ ഏത്?",
+  "o": [
+   "Optical fibre cable",
+   "Coaxial cable",
+   "Twisted pair cable",
+   "Telephone wire"
+  ],
+  "a": 0,
+  "e": "ഡാറ്റ പ്രകാശ രൂപത്തിൽ കൈമാറുന്നത് Optical fibre cable ആണ്; മറ്റുള്ളവ വൈദ്യുത സിഗ്നലുകൾ ഉപയോഗിക്കുന്നു.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-1306",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Internet basics",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "sslc",
+  "d": "medium",
+  "q": "ഒരു വെബ് പേജിൽ ക്ലിക്ക് ചെയ്യുമ്പോൾ മറ്റൊരു പേജിലേക്കോ ഫയലിലേക്കോ നേരിട്ട് എത്തിക്കുന്ന ലിങ്കിനെ എന്ത് വിളിക്കുന്നു?",
+  "o": [
+   "Bookmark",
+   "Hyperlink",
+   "Domain",
+   "Firmware"
+  ],
+  "a": 1,
+  "e": "ക്ലിക്ക് ചെയ്താൽ മറ്റൊരു പേജിലേക്ക് കൊണ്ടുപോകുന്ന ലിങ്കാണ് Hyperlink.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-1307",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Cyber security",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "plus2",
+  "d": "medium",
+  "q": "അനധികൃതർക്ക് വായിക്കാൻ കഴിയാത്ത വിധം ഡാറ്റയെ രഹസ്യ കോഡ് രൂപത്തിലേക്ക് മാറ്റുന്ന പ്രക്രിയയെ എന്ത് വിളിക്കുന്നു?",
+  "o": [
+   "Compression",
+   "Formatting",
+   "Encryption",
+   "Defragmentation"
+  ],
+  "a": 2,
+  "e": "ഡാറ്റയെ രഹസ്യ കോഡ് (ciphertext) രൂപത്തിലാക്കുന്ന പ്രക്രിയയാണ് Encryption.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-1308",
+  "cat": "comp",
+  "s": "comp",
+  "t": "IT Act 2000",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "degree",
+  "d": "hard",
+  "q": "ഇലക്ട്രോണിക് രൂപത്തിൽ അശ്ലീല (obscene) ഉള്ളടക്കം പ്രസിദ്ധീകരിക്കുന്നതിനോ കൈമാറുന്നതിനോ ശിക്ഷ വ്യവസ്ഥ ചെയ്യുന്ന ഐ.ടി. നിയമം 2000-ലെ വകുപ്പ് ഏത്?",
+  "o": [
+   "വകുപ്പ് 43",
+   "വകുപ്പ് 65",
+   "വകുപ്പ് 72",
+   "വകുപ്പ് 67"
+  ],
+  "a": 3,
+  "e": "ഇലക്ട്രോണിക് രൂപത്തിലുള്ള അശ്ലീല ഉള്ളടക്കത്തിന്റെ പ്രസിദ്ധീകരണം/കൈമാറ്റം വകുപ്പ് 67 പ്രകാരം ശിക്ഷാർഹമാണ്.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-1309",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Spreadsheet basics",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "plus2",
+  "d": "medium",
+  "q": "MS Excel വർക്ക്ഷീറ്റിൽ (സാധാരണ A1 റഫറൻസ് രീതിയിൽ) കോളങ്ങളെ (Columns) തിരിച്ചറിയുന്നത് എങ്ങനെ?",
+  "o": [
+   "അക്കങ്ങൾ (1, 2, 3...) ഉപയോഗിച്ച്",
+   "റോമൻ അക്കങ്ങൾ (I, II, III) ഉപയോഗിച്ച്",
+   "അക്ഷരങ്ങൾ (A, B, C...) ഉപയോഗിച്ച്",
+   "ചിഹ്നങ്ങൾ (#, @, $) ഉപയോഗിച്ച്"
+  ],
+  "a": 2,
+  "e": "A1 രീതിയിൽ കോളങ്ങളെ അക്ഷരങ്ങൾ (A, B, C...) ഉപയോഗിച്ച് സൂചിപ്പിക്കുന്നു; റോകൾ നമ്പറുകൾ കൊണ്ടാണ്.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-1310",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Input and output devices",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "sslc",
+  "d": "easy",
+  "q": "താഴെ പറയുന്നവയിൽ ഔട്ട്പുട്ട് (Output) ഉപകരണം ഏത്?",
+  "o": [
+   "Keyboard",
+   "Scanner",
+   "Joystick",
+   "Speaker"
+  ],
+  "a": 3,
+  "e": "ശബ്ദം പുറത്തേക്ക് നൽകുന്ന Speaker ഒരു ഔട്ട്പുട്ട് ഉപകരണമാണ്; മറ്റുള്ളവ ഇൻപുട്ട് ഉപകരണങ്ങളാണ്.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-1311",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Memory",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "degree",
+  "d": "advanced",
+  "q": "നിർമ്മാണശേഷം ഉപയോക്താവിന് ഒരിക്കൽ മാത്രം പ്രോഗ്രാം ചെയ്യാവുന്നതും പിന്നീട് മായ്ച്ചുകളയാൻ (erase) കഴിയാത്തതുമായ ROM ഏത്?",
+  "o": [
+   "PROM",
+   "EPROM",
+   "EEPROM",
+   "Flash ROM"
+  ],
+  "a": 0,
+  "e": "ഒരിക്കൽ മാത്രം എഴുതാവുന്ന (One-time programmable) ROM ആണ് PROM (Programmable ROM); ഒരിക്കൽ എഴുതിയ ഡാറ്റ പിന്നീട് മായ്ക്കാനോ മാറ്റാനോ കഴിയില്ല.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-1312",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Number systems",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "degree",
+  "d": "hard",
+  "q": "ബൈനറി സംഖ്യ 1010-ന്റെ 1's complement (വൺസ് കോംപ്ലിമെന്റ്) ഏത്?",
+  "o": [
+   "0110",
+   "0101",
+   "1011",
+   "0100"
+  ],
+  "a": 1,
+  "e": "1's complement കാണാൻ ഓരോ ബിറ്റും തിരിച്ചിടുന്നു (0→1, 1→0); അതിനാൽ 1010-ന്റേത് 0101 ആണ്.",
+  "lang": "ml"
+ }
+]

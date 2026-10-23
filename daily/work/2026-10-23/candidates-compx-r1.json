@@ -1,0 +1,236 @@
+[
+ {
+  "k": "compx-1301",
+  "cat": "compx",
+  "s": "quant",
+  "t": "Mensuration (cylinder)",
+  "lvl": "recruit",
+  "exam": "SSC",
+  "d": "easy",
+  "q": "What is the volume of a right circular cylinder of radius 7 cm and height 10 cm? (Take π = 22/7)",
+  "o": [
+   "1,540 cm³",
+   "1,440 cm³",
+   "3,080 cm³",
+   "1,550 cm³"
+  ],
+  "a": 0,
+  "e": "Volume = πr²h = 22/7 × 7 × 7 × 10 = 1,540 cm³.",
+  "lang": "en",
+  "calc": "22/7*7*7*10"
+ },
+ {
+  "k": "compx-1302",
+  "cat": "compx",
+  "s": "quant",
+  "t": "Simple interest",
+  "lvl": "recruit",
+  "exam": "Banking",
+  "d": "medium",
+  "q": "A sum of money lent at simple interest amounts to ₹6,000 in 3 years and to ₹7,000 in 5 years. What is the sum?",
+  "o": [
+   "₹5,000",
+   "₹4,500",
+   "₹4,000",
+   "₹4,800"
+  ],
+  "a": 1,
+  "e": "Interest for 2 years = ₹1,000, so ₹500 a year; principal = 6,000 − 3 × 500 = ₹4,500.",
+  "lang": "en",
+  "calc": "6000-3*(7000-6000)/2"
+ },
+ {
+  "k": "compx-1303",
+  "cat": "compx",
+  "s": "math",
+  "t": "Speed and time",
+  "lvl": "recruit",
+  "exam": "Railway",
+  "d": "medium",
+  "q": "A person covers a certain distance in 40 minutes at 45 km/h. At what speed must he travel to cover the same distance in 30 minutes?",
+  "o": [
+   "55 km/h",
+   "65 km/h",
+   "60 km/h",
+   "50 km/h"
+  ],
+  "a": 2,
+  "e": "Distance = 45 × 40/60 = 30 km; covering 30 km in half an hour needs 60 km/h.",
+  "lang": "en",
+  "calc": "45*40/30"
+ },
+ {
+  "k": "compx-1304",
+  "cat": "compx",
+  "s": "econ",
+  "t": "Indian economy",
+  "lvl": "recruit",
+  "exam": "UPSC",
+  "d": "hard",
+  "q": "The term 'Hindu rate of growth', used for the low growth rate of the Indian economy from the 1950s to the 1980s, was coined by:",
+  "o": [
+   "Amartya Sen",
+   "Jagdish Bhagwati",
+   "K. N. Raj",
+   "Raj Krishna"
+  ],
+  "a": 3,
+  "e": "Economist Raj Krishna coined the phrase for India's roughly 3.5% annual growth in that period.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-1305",
+  "cat": "compx",
+  "s": "eng",
+  "t": "Parts of speech",
+  "lvl": "recruit",
+  "exam": "Teaching",
+  "d": "easy",
+  "q": "In the sentence 'She sings beautifully', the word 'beautifully' is a(n):",
+  "o": [
+   "Adverb",
+   "Adjective",
+   "Noun",
+   "Pronoun"
+  ],
+  "a": 0,
+  "e": "'Beautifully' tells us how she sings, so it modifies the verb and is an Adverb.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-1306",
+  "cat": "compx",
+  "s": "reas",
+  "t": "Number analogy",
+  "lvl": "recruit",
+  "exam": "Police",
+  "d": "medium",
+  "q": "Find the missing term: 4 : 64 :: 6 : ?",
+  "o": [
+   "36",
+   "216",
+   "196",
+   "256"
+  ],
+  "a": 1,
+  "e": "64 is the cube of 4, so the missing term is the cube of 6, which is 216.",
+  "lang": "en",
+  "calc": "6^3"
+ },
+ {
+  "k": "compx-1307",
+  "cat": "compx",
+  "s": "sci",
+  "t": "Electricity",
+  "lvl": "entrance",
+  "exam": "University entrance",
+  "d": "hard",
+  "q": "What is the SI unit of electrical resistivity?",
+  "o": [
+   "Ohm",
+   "Ohm per metre",
+   "Ohm-metre",
+   "Siemens"
+  ],
+  "a": 2,
+  "e": "Resistivity ρ = RA/L, giving units of ohm × m²/m, i.e. the Ohm-metre.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-1308",
+  "cat": "compx",
+  "s": "con",
+  "t": "Directive Principles",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "easy",
+  "q": "Which Part of the Constitution of India contains the Directive Principles of State Policy?",
+  "o": [
+   "Part III",
+   "Part IVA",
+   "Part V",
+   "Part IV"
+  ],
+  "a": 3,
+  "e": "The Directive Principles of State Policy are in Part IV (Articles 36 to 51).",
+  "lang": "en"
+ },
+ {
+  "k": "compx-1309",
+  "cat": "compx",
+  "s": "gk",
+  "t": "Indus Valley Civilisation",
+  "lvl": "recruit",
+  "exam": "SSC",
+  "d": "easy",
+  "q": "The Harappan dockyard site of Lothal is located in which present-day Indian state?",
+  "o": [
+   "Gujarat",
+   "Rajasthan",
+   "Haryana",
+   "Punjab"
+  ],
+  "a": 0,
+  "e": "Lothal, known for its ancient dockyard, lies in the Ahmedabad district of Gujarat.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-1310",
+  "cat": "compx",
+  "s": "comp",
+  "t": "Computer memory",
+  "lvl": "recruit",
+  "exam": "Banking",
+  "d": "medium",
+  "q": "Which type of computer memory loses its contents when the power supply is switched off?",
+  "o": [
+   "ROM",
+   "RAM",
+   "Hard disk",
+   "Solid-state drive"
+  ],
+  "a": 1,
+  "e": "RAM is volatile memory: its data is lost once power is removed.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-1311",
+  "cat": "compx",
+  "s": "math",
+  "t": "HCF and LCM",
+  "lvl": "recruit",
+  "exam": "Railway",
+  "d": "medium",
+  "q": "The HCF of two numbers is 12 and their LCM is 360. If one of the numbers is 72, what is the other number?",
+  "o": [
+   "48",
+   "90",
+   "60",
+   "30"
+  ],
+  "a": 2,
+  "e": "Product of the numbers = HCF × LCM, so the other number = 12 × 360 ÷ 72 = 60.",
+  "lang": "en",
+  "calc": "12*360/72"
+ },
+ {
+  "k": "compx-1312",
+  "cat": "compx",
+  "s": "quant",
+  "t": "Permutations",
+  "lvl": "recruit",
+  "exam": "UPSC",
+  "d": "advanced",
+  "q": "In how many different ways can the letters of the word LEADER be arranged?",
+  "o": [
+   "720",
+   "180",
+   "120",
+   "360"
+  ],
+  "a": 3,
+  "e": "LEADER has 6 letters with E repeated twice, so arrangements = 6!/2! = 360.",
+  "lang": "en",
+  "calc": "720/2"
+ }
+]

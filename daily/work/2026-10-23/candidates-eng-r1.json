@@ -1,0 +1,242 @@
+[
+ {
+  "k": "eng-1301",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Synonyms",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "degree",
+  "d": "advanced",
+  "q": "Choose the word closest in meaning to 'Recalcitrant'.",
+  "o": [
+   "Defiant",
+   "Obedient",
+   "Grateful",
+   "Anxious"
+  ],
+  "a": 0,
+  "e": "'Recalcitrant' means stubbornly refusing to obey authority, so its synonym is 'Defiant'.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-1302",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Antonyms",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "sslc",
+  "d": "easy",
+  "q": "Choose the word opposite in meaning to 'Reluctant'.",
+  "o": [
+   "Hesitant",
+   "Unwilling",
+   "Willing",
+   "Doubtful"
+  ],
+  "a": 2,
+  "e": "'Reluctant' means not eager to do something; its opposite is 'Willing'.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-1303",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Spelling",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "plus2",
+  "d": "medium",
+  "q": "Which one of the following words is correctly spelt?",
+  "o": [
+   "Rythm",
+   "Rhythym",
+   "Rhytm",
+   "Rhythm"
+  ],
+  "a": 3,
+  "e": "The correct spelling is 'Rhythm' (r-h-y-t-h-m).",
+  "lang": "en"
+ },
+ {
+  "k": "eng-1304",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Articles",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "plus2",
+  "d": "medium",
+  "q": "Fill in the blank: My cousin is ___ M.A. in English literature.",
+  "o": [
+   "a",
+   "an",
+   "the",
+   "any"
+  ],
+  "a": 1,
+  "e": "'M.A.' is pronounced 'em-ay', beginning with a vowel sound, so the article 'an' is used.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-1305",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Prepositions",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "sslc",
+  "d": "easy",
+  "q": "Fill in the blank: This express train is bound ___ Chennai.",
+  "o": [
+   "for",
+   "to",
+   "at",
+   "in"
+  ],
+  "a": 0,
+  "e": "A vehicle heading towards a destination is 'bound for' that place, so the answer is 'for'.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-1306",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Tenses",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "sslc",
+  "d": "easy",
+  "q": "Fill in the blank: Look! The children ___ in the rain.",
+  "o": [
+   "play",
+   "are playing",
+   "have played",
+   "played"
+  ],
+  "a": 1,
+  "e": "'Look!' shows an action happening at this moment, so the present continuous 'are playing' is correct.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-1307",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Active and passive voice",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "degree",
+  "d": "hard",
+  "q": "Choose the correct passive form of: Who is knocking at the door?",
+  "o": [
+   "By whom was the door knocked at?",
+   "Who is being knocked at the door?",
+   "By whom is the door being knocked at?",
+   "By whom the door is being knocked at?"
+  ],
+  "a": 2,
+  "e": "The present continuous question becomes 'By whom is the door being knocked at?' in the passive, keeping the question word order.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-1308",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Reported speech",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "plus2",
+  "d": "medium",
+  "q": "Choose the correct indirect form: He said, \"What a beautiful flower it is!\"",
+  "o": [
+   "He exclaimed what a beautiful flower it is.",
+   "He said that what a beautiful flower it was.",
+   "He exclaimed that it is a very beautiful flower.",
+   "He exclaimed that it was a very beautiful flower."
+  ],
+  "a": 3,
+  "e": "An exclamatory sentence is reported with 'exclaimed', the exclamation becomes a statement and the tense shifts back: 'He exclaimed that it was a very beautiful flower.'",
+  "lang": "en"
+ },
+ {
+  "k": "eng-1309",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Question tags",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "sslc",
+  "d": "medium",
+  "q": "Add the correct question tag: There is no milk in the fridge, ___?",
+  "o": [
+   "is there",
+   "isn't there",
+   "is it",
+   "isn't it"
+  ],
+  "a": 0,
+  "e": "The sentence is negative because of 'no' and begins with 'There is', so the positive tag 'is there' is used.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-1310",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Error spotting",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "plus2",
+  "d": "hard",
+  "q": "Find the part with an error: The cattle / is grazing / in the / green field.",
+  "o": [
+   "The cattle",
+   "is grazing",
+   "in the",
+   "green field"
+  ],
+  "a": 1,
+  "e": "'Cattle' is always plural, so 'is grazing' is wrong; it should be 'are grazing'.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-1311",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Idioms",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "sslc",
+  "d": "easy",
+  "q": "The idiom 'to turn a deaf ear' means:",
+  "o": [
+   "to listen very carefully",
+   "to become hard of hearing",
+   "to deliberately ignore a request or advice",
+   "to whisper a secret to someone"
+  ],
+  "a": 2,
+  "e": "'To turn a deaf ear' means 'to deliberately ignore a request or advice'.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-1312",
+  "cat": "eng",
+  "s": "eng",
+  "t": "One-word substitution",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "degree",
+  "d": "medium",
+  "q": "One word for 'a person who is indifferent to pleasure and pain':",
+  "o": [
+   "Hedonist",
+   "Epicure",
+   "Cynic",
+   "Stoic"
+  ],
+  "a": 3,
+  "e": "A person who remains indifferent to pleasure and pain is called a 'Stoic'.",
+  "lang": "en"
+ }
+]

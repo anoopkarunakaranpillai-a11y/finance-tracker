@@ -1,0 +1,4576 @@
+{
+ "v": 2,
+ "date": "2026-10-23",
+ "key": "DAILY_LEARNING_2026_10_23",
+ "bank": [
+  {
+   "id": "d20261023x001",
+   "k": "gkca-1301",
+   "cat": "gkca",
+   "s": "kh",
+   "t": "Kayyur revolt",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "1941-ലെ കർഷകസമരത്തിലൂടെ പ്രസിദ്ധമായ കയ്യൂർ ഇന്ന് കേരളത്തിലെ ഏത് ജില്ലയിലാണ്?",
+   "o": [
+    "കണ്ണൂർ",
+    "കാസർഗോഡ്",
+    "കോഴിക്കോട്",
+    "വയനാട്"
+   ],
+   "a": 1,
+   "e": "കയ്യൂർ സമരം നടന്ന കയ്യൂർ ഇന്ന് കാസർഗോഡ് ജില്ലയിലാണ്.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "sslc",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x002",
+   "k": "gkca-1302",
+   "cat": "gkca",
+   "s": "kh",
+   "t": "Edakkal caves",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "ചരിത്രാതീതകാലത്തെ ശിലാചിത്രങ്ങൾക്ക് പ്രസിദ്ധമായ വയനാട്ടിലെ എടക്കൽ ഗുഹ സ്ഥിതി ചെയ്യുന്നത് ഏത് മലയിലാണ്?",
+   "o": [
+    "അമ്പുകുത്തി മല",
+    "ചെമ്പ്ര മല",
+    "ബ്രഹ്മഗിരി",
+    "വെള്ളരിമല"
+   ],
+   "a": 0,
+   "e": "എടക്കൽ ഗുഹ വയനാട്ടിലെ അമ്പുകുത്തി മലയിലാണ് സ്ഥിതി ചെയ്യുന്നത്.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "plus2",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x003",
+   "k": "gkca-1303",
+   "cat": "gkca",
+   "s": "kh",
+   "t": "Nivarthana agitation",
+   "lvl": "recruit",
+   "d": "hard",
+   "q": "തിരുവിതാംകൂറിൽ നിയമസഭാ പ്രാതിനിധ്യത്തിനായി ഈഴവ, ക്രിസ്ത്യൻ, മുസ്ലിം വിഭാഗങ്ങൾ നടത്തിയ നിവർത്തന പ്രക്ഷോഭം ആരംഭിച്ച വർഷം ഏത്?",
+   "o": [
+    "1928",
+    "1936",
+    "1932",
+    "1938"
+   ],
+   "a": 2,
+   "e": "നിവർത്തന പ്രക്ഷോഭം ആരംഭിച്ചത് 1932-ലാണ്.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "degree",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x004",
+   "k": "gkca-1304",
+   "cat": "gkca",
+   "s": "ih",
+   "t": "Kalinga war",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "അശോക ചക്രവർത്തി യുദ്ധം ചെയ്ത് കീഴടക്കിയ പുരാതന കലിംഗ ഇന്നത്തെ ഏത് സംസ്ഥാനത്താണ്?",
+   "o": [
+    "ആന്ധ്രാപ്രദേശ്",
+    "ബിഹാർ",
+    "പശ്ചിമ ബംഗാൾ",
+    "ഒഡീഷ"
+   ],
+   "a": 3,
+   "e": "പുരാതന കലിംഗ ദേശം ഇന്നത്തെ ഒഡീഷ സംസ്ഥാനമാണ്.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "sslc",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x005",
+   "k": "gkca-1305",
+   "cat": "gkca",
+   "s": "ih",
+   "t": "Round Table Conferences",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "1931-ൽ ലണ്ടനിൽ നടന്ന രണ്ടാം വട്ടമേശ സമ്മേളനത്തിൽ ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസിനെ പ്രതിനിധീകരിച്ച് പങ്കെടുത്തത് ആര്?",
+   "o": [
+    "ജവഹർലാൽ നെഹ്റു",
+    "മഹാത്മാ ഗാന്ധി",
+    "സുഭാഷ് ചന്ദ്രബോസ്",
+    "സർദാർ വല്ലഭ്ഭായ് പട്ടേൽ"
+   ],
+   "a": 1,
+   "e": "രണ്ടാം വട്ടമേശ സമ്മേളനത്തിൽ കോൺഗ്രസിന്റെ ഏക പ്രതിനിധിയായി മഹാത്മാ ഗാന്ധി പങ്കെടുത്തു.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "plus2",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x006",
+   "k": "gkca-1306",
+   "cat": "gkca",
+   "s": "geo",
+   "t": "Lakes of India",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "ഇന്ത്യയിലെ ഏറ്റവും വലിയ ശുദ്ധജല തടാകമായ വൂളാർ തടാകം സ്ഥിതി ചെയ്യുന്നത് എവിടെ?",
+   "o": [
+    "ജമ്മു കശ്മീർ",
+    "ഹിമാചൽ പ്രദേശ്",
+    "ഉത്തരാഖണ്ഡ്",
+    "സിക്കിം"
+   ],
+   "a": 0,
+   "e": "വൂളാർ തടാകം സ്ഥിതി ചെയ്യുന്നത് ജമ്മു കശ്മീർ കേന്ദ്രഭരണപ്രദേശത്താണ്.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "plus2",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x007",
+   "k": "gkca-1307",
+   "cat": "gkca",
+   "s": "con",
+   "t": "Constitutional amendment",
+   "lvl": "recruit",
+   "d": "hard",
+   "q": "ഭരണഘടന ഭേദഗതി ചെയ്യാനുള്ള പാർലമെന്റിന്റെ അധികാരവും അതിന്റെ നടപടിക്രമവും പ്രതിപാദിക്കുന്ന അനുച്ഛേദം ഏത്?",
+   "o": [
+    "അനുച്ഛേദം 360",
+    "അനുച്ഛേദം 343",
+    "അനുച്ഛേദം 368",
+    "അനുച്ഛേദം 370"
+   ],
+   "a": 2,
+   "e": "ഭരണഘടനാ ഭേദഗതിയെക്കുറിച്ച് പ്രതിപാദിക്കുന്നത് അനുച്ഛേദം 368 ആണ് (ഭാഗം XX).",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "degree",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x008",
+   "k": "gkca-1308",
+   "cat": "gkca",
+   "s": "kga",
+   "t": "Marayur sandalwood",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "പ്രകൃതിദത്ത ചന്ദനക്കാടുകൾക്ക് പ്രസിദ്ധമായ മറയൂർ ഏത് ജില്ലയിലാണ്?",
+   "o": [
+    "പാലക്കാട്",
+    "വയനാട്",
+    "പത്തനംതിട്ട",
+    "ഇടുക്കി"
+   ],
+   "a": 3,
+   "e": "ചന്ദനക്കാടുകൾക്ക് പ്രസിദ്ധമായ മറയൂർ ഇടുക്കി ജില്ലയിലാണ്.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "sslc",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x009",
+   "k": "gkca-1309",
+   "cat": "gkca",
+   "s": "kga",
+   "t": "Below sea level farming",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "സമുദ്രനിരപ്പിനു താഴെ നെൽകൃഷി ചെയ്യുന്നതിന് പ്രസിദ്ധമായ കേരളത്തിലെ പ്രദേശം ഏത്?",
+   "o": [
+    "അട്ടപ്പാടി",
+    "കുട്ടനാട്",
+    "വയനാട്",
+    "ദേവികുളം"
+   ],
+   "a": 1,
+   "e": "സമുദ്രനിരപ്പിനു താഴെയുള്ള കൃഷിക്ക് പ്രസിദ്ധമായ പ്രദേശം കുട്ടനാട് ആണ്.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "sslc",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x010",
+   "k": "gkca-1310",
+   "cat": "gkca",
+   "s": "econ",
+   "t": "Stock exchanges",
+   "lvl": "recruit",
+   "d": "hard",
+   "q": "1875-ൽ സ്ഥാപിതമായ, ഏഷ്യയിലെ ഏറ്റവും പഴക്കമുള്ള ഓഹരി വിപണി ഏത്?",
+   "o": [
+    "നാഷണൽ സ്റ്റോക്ക് എക്സ്ചേഞ്ച്",
+    "ടോക്കിയോ സ്റ്റോക്ക് എക്സ്ചേഞ്ച്",
+    "ബോംബെ സ്റ്റോക്ക് എക്സ്ചേഞ്ച്",
+    "കൽക്കത്ത സ്റ്റോക്ക് എക്സ്ചേഞ്ച്"
+   ],
+   "a": 2,
+   "e": "1875-ൽ സ്ഥാപിതമായ ബോംബെ സ്റ്റോക്ക് എക്സ്ചേഞ്ച് (BSE) ആണ് ഏഷ്യയിലെ ഏറ്റവും പഴയ ഓഹരി വിപണി.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "degree",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x011",
+   "k": "gkca-1311",
+   "cat": "gkca",
+   "s": "mal",
+   "t": "Titles of poets",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "വാല്മീകി രാമായണം മലയാളത്തിലേക്ക് വിവർത്തനം ചെയ്തതിനാൽ 'കേരള വാല്മീകി' എന്നറിയപ്പെടുന്ന കവി ആര്?",
+   "o": [
+    "വള്ളത്തോൾ നാരായണമേനോൻ",
+    "കൊടുങ്ങല്ലൂർ കുഞ്ഞിക്കുട്ടൻ തമ്പുരാൻ",
+    "കേരളവർമ്മ വലിയകോയിത്തമ്പുരാൻ",
+    "ഉള്ളൂർ എസ്. പരമേശ്വരയ്യർ"
+   ],
+   "a": 0,
+   "e": "വാല്മീകി രാമായണം വിവർത്തനം ചെയ്ത വള്ളത്തോൾ നാരായണമേനോൻ ആണ് 'കേരള വാല്മീകി'.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "plus2",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x012",
+   "k": "gkca-1312",
+   "cat": "gkca",
+   "s": "gk",
+   "t": "Nicknames of countries",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "'ആയിരം തടാകങ്ങളുടെ നാട്' എന്നറിയപ്പെടുന്ന രാജ്യം ഏത്?",
+   "o": [
+    "നോർവേ",
+    "സ്വീഡൻ",
+    "ഡെന്മാർക്ക്",
+    "ഫിൻലാൻഡ്"
+   ],
+   "a": 3,
+   "e": "'ആയിരം തടാകങ്ങളുടെ നാട്' എന്നറിയപ്പെടുന്നത് ഫിൻലാൻഡ് ആണ്.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "sslc",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x013",
+   "k": "gkca-1313",
+   "cat": "gkca",
+   "s": "law",
+   "t": "Indian Penal Code",
+   "lvl": "recruit",
+   "d": "advanced",
+   "q": "ഇന്ത്യൻ ശിക്ഷാനിയമത്തിന്റെ (IPC, 1860) കരട് തയ്യാറാക്കിയ ഒന്നാം നിയമ കമ്മീഷന്റെ അധ്യക്ഷൻ ആര്?",
+   "o": [
+    "തോമസ് ബാബിങ്ടൺ മെക്കാളെ",
+    "കോൺവാലിസ് പ്രഭു",
+    "ഡൽഹൗസി പ്രഭു",
+    "വില്യം ബെന്റിക് പ്രഭു"
+   ],
+   "a": 0,
+   "e": "IPC-യുടെ കരട് തയ്യാറാക്കിയ ഒന്നാം നിയമ കമ്മീഷന്റെ അധ്യക്ഷൻ തോമസ് ബാബിങ്ടൺ മെക്കാളെ ആയിരുന്നു.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "degree",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x014",
+   "k": "gkca-ca-1301",
+   "cat": "gkca",
+   "s": "ca",
+   "t": "Supreme Court judges sworn in October 2026",
+   "lvl": "recruit",
+   "d": "hard",
+   "q": "2026 ഒക്ടോബർ 6-ന് സുപ്രീം കോടതി ജഡ്ജിമാരായി സത്യപ്രതിജ്ഞ ചെയ്തവരിൽ, മുമ്പ് ഗുജറാത്ത് ഹൈക്കോടതി ചീഫ് ജസ്റ്റിസായിരുന്നത് ആര്?",
+   "o": [
+    "ജസ്റ്റിസ് സുനിത അഗർവാൾ",
+    "ജസ്റ്റിസ് ദേവേന്ദ്ര കുമാർ ഉപാധ്യായ",
+    "ജസ്റ്റിസ് അപരേഷ് കുമാർ സിങ്",
+    "ജസ്റ്റിസ് ഹിമ കോഹ്‌ലി"
+   ],
+   "a": 0,
+   "e": "ഗുജറാത്ത് ഹൈക്കോടതി ചീഫ് ജസ്റ്റിസായിരുന്ന ജസ്റ്റിസ് സുനിത അഗർവാൾ 2026 ഒക്ടോബർ 6-ന് സുപ്രീം കോടതി ജഡ്ജിയായി സത്യപ്രതിജ്ഞ ചെയ്തു.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer",
+    "source"
+   ],
+   "status": "published",
+   "psc": "degree",
+   "exam": "Kerala PSC",
+   "ref": "https://www.scobserver.in/journal/supreme-court-judge-appointments-october-2026/",
+   "evd": "2026-10-06",
+   "exp": "2027-04-04"
+  },
+  {
+   "id": "d20261023x015",
+   "k": "gkca-ca-1302",
+   "cat": "gkca",
+   "s": "ca",
+   "t": "Exercise AUSTRAHIND 2026",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "2026 ഒക്ടോബറിൽ ആരംഭിച്ച ഇന്ത്യ–ഓസ്ട്രേലിയ സംയുക്ത സൈനികാഭ്യാസം 'ഓസ്ട്രാഹിന്ദ് (AUSTRAHIND) 2026'-ന്റെ വേദി ഏത്?",
+   "o": [
+    "കൊച്ചി",
+    "തിരുവനന്തപുരം",
+    "പെർത്ത്",
+    "ജോധ്പുർ"
+   ],
+   "a": 1,
+   "e": "അഞ്ചാമത് ഓസ്ട്രാഹിന്ദ് സൈനികാഭ്യാസം 2026 ഒക്ടോബറിൽ തിരുവനന്തപുരത്ത് ആരംഭിച്ചു; നവംബർ 1 വരെ നീളും.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer",
+    "source"
+   ],
+   "status": "published",
+   "psc": "sslc",
+   "exam": "Kerala PSC",
+   "ref": "https://newsonair.gov.in/joint-military-exercise-austrahind-2026-between-india-and-australia-commences-in-thiruvananthapuram/",
+   "evd": "2026-10-19",
+   "exp": "2027-04-17"
+  },
+  {
+   "id": "d20261023x016",
+   "k": "gkca-ca-1303",
+   "cat": "gkca",
+   "s": "ca",
+   "t": "Asian Para Games 2026 – women's 400m T20",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "2026 ഏഷ്യൻ പാരാ ഗെയിംസിൽ വനിതകളുടെ 400 മീറ്റർ T20 ഇനത്തിൽ ഗെയിംസ് റെക്കോർഡോടെ സ്വർണം നേടിയ ഇന്ത്യൻ താരം ആര്?",
+   "o": [
+    "സിമ്രൻ",
+    "മോന അഗർവാൾ",
+    "ദീപ്തി ജീവൻജി",
+    "ഭവിന പട്ടേൽ"
+   ],
+   "a": 2,
+   "e": "ദീപ്തി ജീവൻജി 56.36 സെക്കൻഡിൽ ഗെയിംസ് റെക്കോർഡോടെ വനിതകളുടെ 400 മീറ്റർ T20 സ്വർണം നേടി.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer",
+    "source"
+   ],
+   "status": "published",
+   "psc": "plus2",
+   "exam": "Kerala PSC",
+   "ref": "https://newsonair.gov.in/deepthi-jeevanji-wins-gold-in-womens-400m-t20-sets-new-games-record-at-asian-para-games-2026/",
+   "evd": "2026-10-20",
+   "exp": "2027-04-18"
+  },
+  {
+   "id": "d20261023x017",
+   "k": "gkca-ca-1304",
+   "cat": "gkca",
+   "s": "ca",
+   "t": "Asian Para Games 2026 – women's 200m T12",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "2026 ഏഷ്യൻ പാരാ ഗെയിംസിൽ വനിതകളുടെ 200 മീറ്റർ T12 ഇനത്തിൽ 24.80 സെക്കൻഡിൽ ഗെയിംസ് റെക്കോർഡോടെ സ്വർണം നേടിയ ഇന്ത്യൻ താരം ആര്?",
+   "o": [
+    "ദീപ്തി ജീവൻജി",
+    "തേജൽബെൻ ദാമോർ",
+    "അവനി ലേഖറ",
+    "സിമ്രൻ"
+   ],
+   "a": 3,
+   "e": "സിമ്രൻ 24.80 സെക്കൻഡിൽ ഗെയിംസ് റെക്കോർഡോടെ 200 മീറ്റർ T12 സ്വർണം നേടി; ഇതേ ഇനത്തിൽ തേജൽബെൻ വെങ്കലം നേടി.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer",
+    "source"
+   ],
+   "status": "published",
+   "psc": "sslc",
+   "exam": "Kerala PSC",
+   "ref": "https://newsonair.gov.in/asian-para-games-2026-india-wins-26-medals-including-six-gold-simran-and-deepthi-set-new-games-records/",
+   "evd": "2026-10-20",
+   "exp": "2027-04-18"
+  },
+  {
+   "id": "d20261023x018",
+   "k": "gkca-ca-1305",
+   "cat": "gkca",
+   "s": "ca",
+   "t": "ISRO NVS-03 satellite",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "GSLV Mk II റോക്കറ്റിൽ വിക്ഷേപിക്കാൻ ISRO 2026 ഒക്ടോബറിൽ തയ്യാറെടുക്കുന്ന NVS-03 ഉപഗ്രഹം ഏത് ഇന്ത്യൻ സംവിധാനത്തിന്റെ ഭാഗമാണ്?",
+   "o": [
+    "നാവിക് (NavIC) നാവിഗേഷൻ സംവിധാനം",
+    "ഗഗൻ (GAGAN) സംവിധാനം",
+    "ഗലീലിയോ സംവിധാനം",
+    "ബെയ്ദൗ സംവിധാനം"
+   ],
+   "a": 0,
+   "e": "NVS-03 ഉൾപ്പെടുന്നത് ഇന്ത്യയുടെ പ്രാദേശിക ഗതിനിർണയ സംവിധാനത്തിൽ: ശരിയുത്തരം നാവിക് (NavIC) നാവിഗേഷൻ സംവിധാനം; ഇത് രണ്ടാം തലമുറ ഉപഗ്രഹമാണ്.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer",
+    "source"
+   ],
+   "status": "published",
+   "psc": "plus2",
+   "exam": "Kerala PSC",
+   "ref": "https://www.gktoday.in/isro-to-launch-nvs-03-navigation-satellite-on-october-30/",
+   "evd": "2026-10-22",
+   "exp": "2027-04-20"
+  },
+  {
+   "id": "d20261023x019",
+   "k": "eng-1301",
+   "cat": "eng",
+   "s": "veng",
+   "t": "Synonyms",
+   "lvl": "recruit",
+   "d": "advanced",
+   "q": "Choose the word closest in meaning to 'Recalcitrant'.",
+   "o": [
+    "Defiant",
+    "Obedient",
+    "Grateful",
+    "Anxious"
+   ],
+   "a": 0,
+   "e": "'Recalcitrant' means stubbornly refusing to obey authority, so its synonym is 'Defiant'.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "degree",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x020",
+   "k": "eng-1302",
+   "cat": "eng",
+   "s": "veng",
+   "t": "Antonyms",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "Choose the word opposite in meaning to 'Reluctant'.",
+   "o": [
+    "Hesitant",
+    "Unwilling",
+    "Willing",
+    "Doubtful"
+   ],
+   "a": 2,
+   "e": "'Reluctant' means not eager to do something; its opposite is 'Willing'.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "sslc",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x021",
+   "k": "eng-1304",
+   "cat": "eng",
+   "s": "eng",
+   "t": "Articles",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "Fill in the blank: My cousin is ___ M.A. in English literature.",
+   "o": [
+    "a",
+    "an",
+    "the",
+    "any"
+   ],
+   "a": 1,
+   "e": "'M.A.' is pronounced 'em-ay', beginning with a vowel sound, so the article 'an' is used.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "plus2",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x022",
+   "k": "eng-1305",
+   "cat": "eng",
+   "s": "eng",
+   "t": "Prepositions",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "Fill in the blank: This express train is bound ___ Chennai.",
+   "o": [
+    "for",
+    "to",
+    "at",
+    "in"
+   ],
+   "a": 0,
+   "e": "A vehicle heading towards a destination is 'bound for' that place, so the answer is 'for'.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "sslc",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x023",
+   "k": "eng-1306",
+   "cat": "eng",
+   "s": "eng",
+   "t": "Tenses",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "Fill in the blank: Look! The children ___ in the rain.",
+   "o": [
+    "play",
+    "are playing",
+    "have played",
+    "played"
+   ],
+   "a": 1,
+   "e": "'Look!' shows an action happening at this moment, so the present continuous 'are playing' is correct.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "sslc",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x024",
+   "k": "eng-1307",
+   "cat": "eng",
+   "s": "eng",
+   "t": "Active and passive voice",
+   "lvl": "recruit",
+   "d": "hard",
+   "q": "Choose the correct passive form of: Who is knocking at the door?",
+   "o": [
+    "By whom was the door knocked at?",
+    "Who is being knocked at the door?",
+    "By whom is the door being knocked at?",
+    "By whom the door is being knocked at?"
+   ],
+   "a": 2,
+   "e": "The present continuous question becomes 'By whom is the door being knocked at?' in the passive, keeping the question word order.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "degree",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x025",
+   "k": "eng-1308",
+   "cat": "eng",
+   "s": "eng",
+   "t": "Reported speech",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "Choose the correct indirect form: He said, \"What a beautiful flower it is!\"",
+   "o": [
+    "He exclaimed what a beautiful flower it is.",
+    "He said that what a beautiful flower it was.",
+    "He exclaimed that it is a very beautiful flower.",
+    "He exclaimed that it was a very beautiful flower."
+   ],
+   "a": 3,
+   "e": "An exclamatory sentence is reported with 'exclaimed', the exclamation becomes a statement and the tense shifts back: 'He exclaimed that it was a very beautiful flower.'",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "plus2",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x026",
+   "k": "eng-1309",
+   "cat": "eng",
+   "s": "eng",
+   "t": "Question tags",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "Add the correct question tag: There is no milk in the fridge, ___?",
+   "o": [
+    "is there",
+    "isn't there",
+    "is it",
+    "isn't it"
+   ],
+   "a": 0,
+   "e": "The sentence is negative because of 'no' and begins with 'There is', so the positive tag 'is there' is used.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "sslc",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x027",
+   "k": "eng-1310",
+   "cat": "eng",
+   "s": "eng",
+   "t": "Error spotting",
+   "lvl": "recruit",
+   "d": "hard",
+   "q": "Find the part with an error: The cattle / is grazing / in the / green field.",
+   "o": [
+    "The cattle",
+    "is grazing",
+    "in the",
+    "green field"
+   ],
+   "a": 1,
+   "e": "'Cattle' is always plural, so 'is grazing' is wrong; it should be 'are grazing'.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "plus2",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x028",
+   "k": "eng-1311",
+   "cat": "eng",
+   "s": "eng",
+   "t": "Idioms",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "The idiom 'to turn a deaf ear' means:",
+   "o": [
+    "to listen very carefully",
+    "to become hard of hearing",
+    "to deliberately ignore a request or advice",
+    "to whisper a secret to someone"
+   ],
+   "a": 2,
+   "e": "'To turn a deaf ear' means 'to deliberately ignore a request or advice'.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "sslc",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x029",
+   "k": "eng-1312",
+   "cat": "eng",
+   "s": "eng",
+   "t": "One-word substitution",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "One word for 'a person who is indifferent to pleasure and pain':",
+   "o": [
+    "Hedonist",
+    "Epicure",
+    "Cynic",
+    "Stoic"
+   ],
+   "a": 3,
+   "e": "A person who remains indifferent to pleasure and pain is called a 'Stoic'.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "degree",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x030",
+   "k": "quant-1301",
+   "cat": "quant",
+   "s": "math",
+   "t": "Percentage",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "720-ന്റെ 15% എത്ര?",
+   "o": [
+    "98",
+    "108",
+    "112",
+    "118"
+   ],
+   "a": 1,
+   "e": "720 × 15/100 = 108. ശരിയുത്തരം 108.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published",
+   "psc": "sslc",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x031",
+   "k": "quant-1302",
+   "cat": "quant",
+   "s": "quant",
+   "t": "Ratio",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "4 : 7 എന്ന അനുപാതത്തിലുള്ള രണ്ട് സംഖ്യകളുടെ തുക 132 ആണ്. വലിയ സംഖ്യ ഏത്?",
+   "o": [
+    "84",
+    "48",
+    "77",
+    "96"
+   ],
+   "a": 0,
+   "e": "ഒരു ഭാഗം = 132 ÷ 11 = 12; വലിയ സംഖ്യ = 7 × 12 = 84.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published",
+   "psc": "sslc",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x032",
+   "k": "quant-1303",
+   "cat": "quant",
+   "s": "math",
+   "t": "Averages",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "6-ന്റെ ആദ്യത്തെ 10 ഗുണിതങ്ങളുടെ (6, 12, ..., 60) ശരാശരി എത്ര?",
+   "o": [
+    "30",
+    "36",
+    "33",
+    "39"
+   ],
+   "a": 2,
+   "e": "ശരാശരി = (6 + 60) ÷ 2 = 33.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published",
+   "psc": "sslc",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x033",
+   "k": "quant-1304",
+   "cat": "quant",
+   "s": "quant",
+   "t": "Time and work",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "A ഒരു ജോലി 16 ദിവസം കൊണ്ടും B അതേ ജോലി 48 ദിവസം കൊണ്ടും ചെയ്തുതീർക്കും. ഇരുവരും ഒരുമിച്ച് ജോലി ചെയ്താൽ എത്ര ദിവസം കൊണ്ട് തീരും?",
+   "o": [
+    "14 ദിവസം",
+    "10 ദിവസം",
+    "16 ദിവസം",
+    "12 ദിവസം"
+   ],
+   "a": 3,
+   "e": "ഒരു ദിവസത്തെ ജോലി = 1/16 + 1/48 = 4/48 = 1/12; അതിനാൽ 12 ദിവസം.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published",
+   "psc": "sslc",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x034",
+   "k": "quant-1305",
+   "cat": "quant",
+   "s": "math",
+   "t": "Average speed",
+   "lvl": "recruit",
+   "d": "advanced",
+   "q": "ഒരാൾ ഒരേ നീളമുള്ള മൂന്ന് ദൂരങ്ങൾ യഥാക്രമം മണിക്കൂറിൽ 10 കി.മീ., 20 കി.മീ., 60 കി.മീ. വേഗങ്ങളിൽ സഞ്ചരിച്ചു. മുഴുവൻ യാത്രയിലെ ശരാശരി വേഗം എത്ര?",
+   "o": [
+    "30 കി.മീ./മണിക്കൂർ",
+    "18 കി.മീ./മണിക്കൂർ",
+    "20 കി.മീ./മണിക്കൂർ",
+    "15 കി.മീ./മണിക്കൂർ"
+   ],
+   "a": 1,
+   "e": "ശരാശരി വേഗം = 3 ÷ (1/10 + 1/20 + 1/60) = 3 ÷ (1/6) = 18 കി.മീ./മണിക്കൂർ.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published",
+   "psc": "degree",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x035",
+   "k": "quant-1306",
+   "cat": "quant",
+   "s": "quant",
+   "t": "Simple interest",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "₹8400-ന് 6.5% വാർഷിക സാധാരണ പലിശ നിരക്കിൽ 4 വർഷത്തെ പലിശ എത്ര?",
+   "o": [
+    "₹2184",
+    "₹2148",
+    "₹2284",
+    "₹2084"
+   ],
+   "a": 0,
+   "e": "പലിശ = 8400 × 6.5 × 4 ÷ 100 = ₹2184.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published",
+   "psc": "plus2",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x036",
+   "k": "quant-1307",
+   "cat": "quant",
+   "s": "math",
+   "t": "Compound interest",
+   "lvl": "recruit",
+   "d": "hard",
+   "q": "₹40000 വർഷംതോറും കൂട്ടുന്ന 5% വാർഷിക കൂട്ടുപലിശ നിരക്കിൽ നിക്ഷേപിച്ചാൽ 2 വർഷം കഴിയുമ്പോൾ ലഭിക്കുന്ന ആകെ തുക എത്ര?",
+   "o": [
+    "₹44000",
+    "₹42050",
+    "₹44100",
+    "₹44200"
+   ],
+   "a": 2,
+   "e": "തുക = 40000 × 1.05 × 1.05 = ₹44100.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published",
+   "psc": "plus2",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x037",
+   "k": "quant-1308",
+   "cat": "quant",
+   "s": "quant",
+   "t": "Number system",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "20-നും 40-നും ഇടയിലുള്ള എല്ലാ അഭാജ്യസംഖ്യകളുടെയും (prime numbers) തുക എത്ര?",
+   "o": [
+    "108",
+    "127",
+    "97",
+    "120"
+   ],
+   "a": 3,
+   "e": "20-നും 40-നും ഇടയിലുള്ള അഭാജ്യസംഖ്യകൾ 23, 29, 31, 37; തുക = 120.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published",
+   "psc": "sslc",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x038",
+   "k": "quant-1309",
+   "cat": "quant",
+   "s": "math",
+   "t": "HCF",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "72, 108, 180 എന്നീ സംഖ്യകളുടെ ഉ.സാ.ഘ. (HCF) എത്ര?",
+   "o": [
+    "18",
+    "36",
+    "24",
+    "12"
+   ],
+   "a": 1,
+   "e": "മൂന്ന് സംഖ്യകളുടെയും പൊതുഘടകങ്ങളിൽ ഏറ്റവും വലുത് 2² × 3² = 36 ആണ്.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published",
+   "psc": "sslc",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x039",
+   "k": "quant-1310",
+   "cat": "quant",
+   "s": "quant",
+   "t": "Mensuration (cube)",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "ഒരു ക്യൂബിന്റെ ആകെ ഉപരിതല പരപ്പളവ് 486 ച.സെ.മീ. ആണ്. അതിന്റെ വ്യാപ്തം എത്ര ഘന സെ.മീ.?",
+   "o": [
+    "729",
+    "512",
+    "343",
+    "1000"
+   ],
+   "a": 0,
+   "e": "6a² = 486 ⇒ a² = 81 ⇒ a = 9; വ്യാപ്തം = 9³ = 729 ഘന സെ.മീ.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published",
+   "psc": "plus2",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x040",
+   "k": "quant-1311",
+   "cat": "quant",
+   "s": "math",
+   "t": "Problems on ages",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "A-യുടെയും B-യുടെയും ഇപ്പോഴത്തെ വയസ്സുകളുടെ തുക 60 ആണ്. 5 വർഷം മുമ്പ് അവരുടെ വയസ്സുകളുടെ അനുപാതം 3 : 7 ആയിരുന്നു. B-യുടെ ഇപ്പോഴത്തെ വയസ്സ് എത്ര?",
+   "o": [
+    "38",
+    "45",
+    "40",
+    "42"
+   ],
+   "a": 2,
+   "e": "5 വർഷം മുമ്പുള്ള തുക 50; B-യുടെ അന്നത്തെ വയസ്സ് 50 × 7/10 = 35; ഇപ്പോൾ 35 + 5 = 40.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published",
+   "psc": "plus2",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x041",
+   "k": "quant-1312",
+   "cat": "quant",
+   "s": "quant",
+   "t": "Profit and loss (false weight)",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "ഒരു കച്ചവടക്കാരൻ വാങ്ങിയ വിലയ്ക്കുതന്നെ സാധനം വിൽക്കുന്നുവെന്ന് പറയുന്നു, പക്ഷേ 1 കി.ഗ്രാമിന് പകരം 800 ഗ്രാം മാത്രം തൂക്കി നൽകുന്നു. അയാളുടെ ലാഭശതമാനം എത്ര?",
+   "o": [
+    "20%",
+    "12.5%",
+    "22.5%",
+    "25%"
+   ],
+   "a": 3,
+   "e": "ലാഭം = 200/800 × 100 = 25%.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published",
+   "psc": "plus2",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x042",
+   "k": "quant-1313",
+   "cat": "quant",
+   "s": "math",
+   "t": "Marked price and discount",
+   "lvl": "recruit",
+   "d": "hard",
+   "q": "₹1200-ന് വാങ്ങിയ ഒരു സാധനത്തിന് 20% കിഴിവ് നൽകിയ ശേഷവും 20% ലാഭം കിട്ടണമെങ്കിൽ അതിന്റെ വില എത്ര രൂപയായി രേഖപ്പെടുത്തണം?",
+   "o": [
+    "₹1680",
+    "₹1800",
+    "₹1740",
+    "₹1920"
+   ],
+   "a": 1,
+   "e": "വിറ്റ വില = 1200 × 1.2 = 1440; രേഖപ്പെടുത്തിയ വില = 1440 ÷ 0.8 = ₹1800.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published",
+   "psc": "degree",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x043",
+   "k": "quant-1314",
+   "cat": "quant",
+   "s": "quant",
+   "t": "Mixtures",
+   "lvl": "recruit",
+   "d": "hard",
+   "q": "60 ലിറ്റർ ലായനിയിൽ 20% ആസിഡ് ഉണ്ട്. ആസിഡിന്റെ അളവ് 40% ആക്കാൻ എത്ര ലിറ്റർ ശുദ്ധമായ ആസിഡ് ചേർക്കണം?",
+   "o": [
+    "20 ലിറ്റർ",
+    "18 ലിറ്റർ",
+    "24 ലിറ്റർ",
+    "15 ലിറ്റർ"
+   ],
+   "a": 0,
+   "e": "(12 + x) = 0.4(60 + x) ⇒ 0.6x = 12 ⇒ x = 20 ലിറ്റർ.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published",
+   "psc": "degree",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x044",
+   "k": "quant-1317",
+   "cat": "quant",
+   "s": "math",
+   "t": "Fractions",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "(2/3 + 3/4) ÷ 17/24-ന്റെ വില എത്ര?",
+   "o": [
+    "2",
+    "1/2",
+    "5/2",
+    "3/2"
+   ],
+   "a": 0,
+   "e": "2/3 + 3/4 = 17/12; 17/12 × 24/17 = 2.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published",
+   "psc": "plus2",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x045",
+   "k": "quant-1318",
+   "cat": "quant",
+   "s": "quant",
+   "t": "Simplification",
+   "lvl": "recruit",
+   "d": "advanced",
+   "q": "(0.75³ + 0.25³) ÷ (0.75² − 0.75 × 0.25 + 0.25²)-ന്റെ വില എത്ര?",
+   "o": [
+    "0.5",
+    "1",
+    "1.5",
+    "1.25"
+   ],
+   "a": 1,
+   "e": "(a³ + b³) ÷ (a² − ab + b²) = a + b = 0.75 + 0.25 = 1.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published",
+   "psc": "degree",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x046",
+   "k": "reas-1301",
+   "cat": "reas",
+   "s": "ment",
+   "t": "Number series",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "ശ്രേണിയിലെ അടുത്ത സംഖ്യ ഏത്? 1, 2, 5, 14, 41, ?",
+   "o": [
+    "122",
+    "123",
+    "121",
+    "124"
+   ],
+   "a": 0,
+   "e": "ഓരോ സംഖ്യയെയും 3 കൊണ്ട് ഗുണിച്ച് 1 കുറയ്ക്കുന്നു (വ്യത്യാസങ്ങൾ 1, 3, 9, 27, 81). 41 × 3 − 1 = 122.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published",
+   "psc": "sslc",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x047",
+   "k": "reas-1302",
+   "cat": "reas",
+   "s": "ment",
+   "t": "Alternating number series",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "ശ്രേണിയിലെ അടുത്ത സംഖ്യ ഏത്? 8, 12, 9, 13, 10, 14, ?",
+   "o": [
+    "15",
+    "11",
+    "18",
+    "12"
+   ],
+   "a": 1,
+   "e": "+4, −3 എന്നിങ്ങനെ മാറിമാറി വരുന്നു: 8→12→9→13→10→14. അടുത്തത് 14 − 3 = 11.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published",
+   "psc": "sslc",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x048",
+   "k": "reas-1303",
+   "cat": "reas",
+   "s": "reas",
+   "t": "Number series",
+   "lvl": "recruit",
+   "d": "advanced",
+   "q": "ശ്രേണിയിലെ അടുത്ത സംഖ്യ ഏത്? 2, 12, 36, 80, 150, ?",
+   "o": [
+    "248",
+    "256",
+    "252",
+    "240"
+   ],
+   "a": 2,
+   "e": "ഓരോ പദവും n³ + n² ആണ്: 1+1, 8+4, 27+9, 64+16, 125+25. അടുത്തത് 216 + 36 = 252.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published",
+   "psc": "degree",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x049",
+   "k": "reas-1304",
+   "cat": "reas",
+   "s": "reas",
+   "t": "Letter series",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "ശ്രേണിയിലെ അടുത്ത അക്ഷരജോടി ഏത്? AZ, CX, FU, JQ, ?",
+   "o": [
+    "OM",
+    "NL",
+    "PK",
+    "OL"
+   ],
+   "a": 3,
+   "e": "ആദ്യ അക്ഷരം +2, +3, +4, +5 ക്രമത്തിൽ മുന്നോട്ട് (A, C, F, J, O); രണ്ടാമത്തേത് −2, −3, −4, −5 ക്രമത്തിൽ പിന്നോട്ട് (Z, X, U, Q, L). അതിനാൽ ഉത്തരം OL.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "plus2",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x050",
+   "k": "reas-1305",
+   "cat": "reas",
+   "s": "reas",
+   "t": "Coding-decoding",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "ഒരു കോഡ് ഭാഷയിൽ KITE എന്നത് DSHJ എന്നെഴുതുന്നു. അതേ രീതിയിൽ MOST എങ്ങനെ എഴുതാം?",
+   "o": [
+    "SRNL",
+    "SRLN",
+    "UTPN",
+    "TSNL"
+   ],
+   "a": 0,
+   "e": "വാക്ക് തിരിച്ചെഴുതി (KITE → ETIK) ഓരോ അക്ഷരവും ഒരു സ്ഥാനം പിന്നോട്ട് മാറ്റുന്നു. MOST → TSOM → SRNL.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "plus2",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x051",
+   "k": "reas-1306",
+   "cat": "reas",
+   "s": "reas",
+   "t": "Coding-decoding (words)",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "ഒരു കോഡ് ഭാഷയിൽ 'sky is blue' = 'ta na ri', 'blue water' = 'ri mo', 'water is cold' = 'mo na su' എന്നിങ്ങനെയാണ് (കോഡുകളുടെ ക്രമം വാക്കുകളുടെ ക്രമത്തിലാകണമെന്നില്ല). 'sky' എന്ന വാക്കിന്റെ കോഡ് ഏത്?",
+   "o": [
+    "na",
+    "ta",
+    "ri",
+    "su"
+   ],
+   "a": 1,
+   "e": "ഒന്നാം വാക്യത്തിലെ മറ്റു രണ്ട് വാക്കുകളുടെയും കോഡുകൾ മറ്റു വാക്യങ്ങളിൽ ആവർത്തിക്കുന്നു; ഒന്നാം വാക്യത്തിൽ മാത്രമുള്ള കോഡ് ta ആണ്. അതിനാൽ sky = ta.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "sslc",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x052",
+   "k": "reas-1307",
+   "cat": "reas",
+   "s": "reas",
+   "t": "Letter analogy",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "CAT : DCW :: DOG : ? — വിട്ടുപോയ അക്ഷരക്കൂട്ടം ഏത്?",
+   "o": [
+    "EPI",
+    "FQJ",
+    "EQJ",
+    "EQI"
+   ],
+   "a": 2,
+   "e": "ഒന്നാം അക്ഷരം +1, രണ്ടാമത്തേത് +2, മൂന്നാമത്തേത് +3 സ്ഥാനം മുന്നോട്ട്: D→E, O→Q, G→J. ഉത്തരം EQJ.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "sslc",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x053",
+   "k": "reas-1308",
+   "cat": "reas",
+   "s": "reas",
+   "t": "Odd one out",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "കൂട്ടത്തിൽ ചേരാത്ത സംഖ്യാജോടി ഏത്?",
+   "o": [
+    "(3, 10)",
+    "(5, 26)",
+    "(7, 50)",
+    "(9, 81)"
+   ],
+   "a": 3,
+   "e": "മറ്റു ജോടികളിൽ രണ്ടാമത്തെ സംഖ്യ = ഒന്നാമത്തേതിന്റെ വർഗം + 1 ആണ്. 9² + 1 = 82 ആയതിനാൽ (9, 81) ചേരുന്നില്ല.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "plus2",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x054",
+   "k": "reas-1309",
+   "cat": "reas",
+   "s": "reas",
+   "t": "Blood relations",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "A, B-യുടെ മകളാണ്. B, C-യുടെ ഭാര്യയാണ്. C, D-യുടെ മകനാണ്. A, D-യുടെ ആരാണ്?",
+   "o": [
+    "മകന്റെ മകൾ",
+    "മകളുടെ മകൾ",
+    "മരുമകൾ",
+    "സഹോദരി"
+   ],
+   "a": 0,
+   "e": "A, B-യുടെയും ഭർത്താവ് C-യുടെയും പുത്രിയാണ്. C, D-യുടെ മകനായതിനാൽ A, D-യുടെ മകന്റെ മകൾ (പൗത്രി) ആണ്.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "sslc",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x055",
+   "k": "reas-1310",
+   "cat": "reas",
+   "s": "reas",
+   "t": "Direction sense",
+   "lvl": "recruit",
+   "d": "hard",
+   "q": "ഒരാൾ തെക്കോട്ട് 5 കി.മീ. നടന്നു. പിന്നീട് വലത്തോട്ട് തിരിഞ്ഞ് 3 കി.മീ. നടന്നു. വീണ്ടും വലത്തോട്ട് തിരിഞ്ഞ് 9 കി.മീ. നടന്നു. ആരംഭസ്ഥാനത്തുനിന്ന് ഇപ്പോൾ അയാൾ എത്ര അകലെ, ഏത് ദിശയിലാണ്?",
+   "o": [
+    "5 കി.മീ. വടക്കുകിഴക്ക്",
+    "5 കി.മീ. വടക്കുപടിഞ്ഞാറ്",
+    "7 കി.മീ. തെക്കുപടിഞ്ഞാറ്",
+    "4 കി.മീ. വടക്ക്"
+   ],
+   "a": 1,
+   "e": "തെക്കോട്ട് നടക്കുമ്പോൾ വലത്ത് പടിഞ്ഞാറ്, പിന്നെ വലത്ത് വടക്ക്. ആകെ സ്ഥാനമാറ്റം: പടിഞ്ഞാറോട്ട് 3, വടക്കോട്ട് 9 − 5 = 4. ദൂരം √(9+16) = 5; ഉത്തരം 5 കി.മീ. വടക്കുപടിഞ്ഞാറ്.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "plus2",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x056",
+   "k": "reas-1311",
+   "cat": "reas",
+   "s": "reas",
+   "t": "Ranking",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "ഒരു വരിയിൽ ലേഖ ഇടത്തുനിന്ന് 7-ാമതും വിനു വലത്തുനിന്ന് 9-ാമതുമാണ്. ലേഖ വിനുവിന്റെ ഇടതുവശത്താണ്; ഇരുവർക്കുമിടയിൽ കൃത്യം 4 പേരുണ്ട്. വരിയിൽ ആകെ എത്ര പേരുണ്ട്?",
+   "o": [
+    "21",
+    "19",
+    "20",
+    "18"
+   ],
+   "a": 2,
+   "e": "വിനു ഇടത്തുനിന്ന് 7 + 4 + 1 = 12-ാമതാണ്. ആകെ = 12 + 9 − 1 = 20 പേർ.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published",
+   "psc": "sslc",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x057",
+   "k": "reas-1312",
+   "cat": "reas",
+   "s": "reas",
+   "t": "Calendar",
+   "lvl": "recruit",
+   "d": "hard",
+   "q": "അധിവർഷമല്ലാത്ത ഒരു വർഷത്തിൽ ജനുവരിയുടെ അതേ കലണ്ടർ (അതേ ആഴ്ചദിവസത്തിൽ ആരംഭിക്കുന്നതും അതേ എണ്ണം ദിവസങ്ങളുള്ളതും) ഉള്ള മാസം ഏത്?",
+   "o": [
+    "ജൂലൈ",
+    "ഏപ്രിൽ",
+    "ഡിസംബർ",
+    "ഒക്ടോബർ"
+   ],
+   "a": 3,
+   "e": "ജനുവരി 1 മുതൽ സെപ്റ്റംബർ 30 വരെ 273 ദിവസം = കൃത്യം 39 ആഴ്ച; ഒറ്റ ദിവസങ്ങൾ 0. ഇരു മാസങ്ങൾക്കും 31 ദിവസം. അതിനാൽ ഉത്തരം ഒക്ടോബർ.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "degree",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x058",
+   "k": "reas-1313",
+   "cat": "reas",
+   "s": "reas",
+   "t": "Clock angle",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "സമയം 3:25 ആകുമ്പോൾ ക്ലോക്കിലെ മണിക്കൂർ സൂചിക്കും മിനിറ്റ് സൂചിക്കും ഇടയിലുള്ള ചെറിയ കോൺ എത്ര?",
+   "o": [
+    "47.5°",
+    "45°",
+    "52.5°",
+    "42.5°"
+   ],
+   "a": 0,
+   "e": "കോൺ = |30H − 5.5M| = |90 − 137.5| = 47.5°. (മിനിറ്റ് സൂചി 150°, മണിക്കൂർ സൂചി 102.5°.)",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published",
+   "psc": "sslc",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x059",
+   "k": "reas-1314",
+   "cat": "reas",
+   "s": "reas",
+   "t": "Seating arrangement",
+   "lvl": "recruit",
+   "d": "hard",
+   "q": "A, B, C, D, E, F എന്നീ ആറുപേർ വടക്കോട്ട് തിരിഞ്ഞ് ഒരു വരിയിൽ ഇരിക്കുന്നു. C ഇടത്തേ അറ്റത്താണ്. E, C-യുടെ വലത്തുനിന്ന് മൂന്നാമതാണ്. B, E-യുടെ തൊട്ടു വലത്തും D, E-യുടെ തൊട്ടു ഇടത്തുമാണ്. F ഒരു അറ്റത്തുമല്ല. C-ക്കും D-ക്കും ഇടയിൽ ഇരിക്കുന്നത് ആര്?",
+   "o": [
+    "A",
+    "F",
+    "E",
+    "B"
+   ],
+   "a": 1,
+   "e": "ഇടത്തുനിന്നുള്ള ക്രമം: C, F, D, E, B, A. C (1), E (4), B (5), D (3); F അറ്റത്തല്ലാത്തതിനാൽ 2-ാം സ്ഥാനം. അതിനാൽ നടുവിൽ F.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "degree",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x060",
+   "k": "reas-1315",
+   "cat": "reas",
+   "s": "reas",
+   "t": "Syllogism",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "പ്രസ്താവനകൾ: എല്ലാ പൂക്കളും ചെടികളാണ്. എല്ലാ ചെടികളും മരങ്ങളാണ്. ചില മരങ്ങൾ കല്ലുകളാണ്. ഈ പ്രസ്താവനകളിൽ നിന്ന് നിശ്ചയമായും ശരിയാകുന്ന നിഗമനം ഏത്?",
+   "o": [
+    "ചില പൂക്കൾ കല്ലുകളാണ്",
+    "ചില ചെടികൾ കല്ലുകളാണ്",
+    "എല്ലാ പൂക്കളും മരങ്ങളാണ്",
+    "എല്ലാ മരങ്ങളും പൂക്കളാണ്"
+   ],
+   "a": 2,
+   "e": "പൂക്കൾ ⊂ ചെടികൾ ⊂ മരങ്ങൾ; അതിനാൽ 'എല്ലാ പൂക്കളും മരങ്ങളാണ്' നിശ്ചയമായും ശരി. കല്ലുകളായ മരങ്ങൾ ചെടികളോ പൂക്കളോ ആകണമെന്നില്ല.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "degree",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x061",
+   "k": "reas-1316",
+   "cat": "reas",
+   "s": "reas",
+   "t": "Alphabet position",
+   "lvl": "recruit",
+   "d": "advanced",
+   "q": "ഇംഗ്ലീഷ് അക്ഷരമാലയിലെ ആദ്യ 13 അക്ഷരങ്ങൾ അതേ ക്രമത്തിലും ബാക്കി 13 അക്ഷരങ്ങൾ (N മുതൽ Z വരെ) വിപരീതക്രമത്തിലും എഴുതിയാൽ, ഇടത്തുനിന്ന് 16-ാമത്തെ അക്ഷരത്തിന് 5 സ്ഥാനം വലത്തുള്ള അക്ഷരം ഏത്?",
+   "o": [
+    "U",
+    "R",
+    "T",
+    "S"
+   ],
+   "a": 3,
+   "e": "പുതിയ ക്രമത്തിൽ 14-ാം സ്ഥാനം മുതൽ Z, Y, X, ... വരുന്നു; 16-ാമത് X. അതിന് 5 സ്ഥാനം വലത്ത് 21-ാം സ്ഥാനം, അതായത് വിപരീതഭാഗത്തിലെ 8-ാമത്തെ അക്ഷരം S.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "degree",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x062",
+   "k": "reas-1317",
+   "cat": "reas",
+   "s": "reas",
+   "t": "Missing number",
+   "lvl": "recruit",
+   "d": "hard",
+   "q": "(8, 3) → 55; (6, 4) → 20; (9, 5) → ? — വിട്ടുപോയ സംഖ്യ ഏത്?",
+   "o": [
+    "56",
+    "54",
+    "70",
+    "46"
+   ],
+   "a": 0,
+   "e": "നിയമം: a² − b². 64 − 9 = 55, 36 − 16 = 20. അതിനാൽ 81 − 25 = 56.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published",
+   "psc": "plus2",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x063",
+   "k": "sci-1301",
+   "cat": "sci",
+   "s": "sci",
+   "t": "Electric fuse",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "വൈദ്യുത സർക്യൂട്ടിലെ ഫ്യൂസ് വയറിന് ഉണ്ടായിരിക്കേണ്ട പ്രധാന സവിശേഷത ഏത്?",
+   "o": [
+    "ഉയർന്ന ദ്രവണാങ്കം",
+    "ഉയർന്ന സാന്ദ്രത",
+    "കാന്തിക സ്വഭാവം",
+    "കുറഞ്ഞ ദ്രവണാങ്കം"
+   ],
+   "a": 3,
+   "e": "അമിത വൈദ്യുതി പ്രവഹിക്കുമ്പോൾ ഉരുകിപ്പോകാൻ ഫ്യൂസ് വയറിന് കുറഞ്ഞ ദ്രവണാങ്കം ഉണ്ടായിരിക്കണം.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "sslc",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x064",
+   "k": "sci-1302",
+   "cat": "sci",
+   "s": "sci",
+   "t": "Electric motor",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "ഒരു ഇലക്ട്രിക് മോട്ടോറിൽ നടക്കുന്ന ഊർജ്ജമാറ്റം ഏത്?",
+   "o": [
+    "വൈദ്യുതോർജം യാന്ത്രികോർജമാക്കുന്നു",
+    "യാന്ത്രികോർജം വൈദ്യുതോർജമാക്കുന്നു",
+    "രാസോർജം വൈദ്യുതോർജമാക്കുന്നു",
+    "താപോർജം യാന്ത്രികോർജമാക്കുന്നു"
+   ],
+   "a": 0,
+   "e": "ഇലക്ട്രിക് മോട്ടോർ വൈദ്യുതോർജം യാന്ത്രികോർജമാക്കുന്നു.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "sslc",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x065",
+   "k": "sci-1303",
+   "cat": "sci",
+   "s": "sci",
+   "t": "Electromagnetic induction",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "വൈദ്യുതകാന്തിക പ്രേരണം (Electromagnetic induction) കണ്ടെത്തിയ ശാസ്ത്രജ്ഞൻ ആര്?",
+   "o": [
+    "ഹാൻസ് ക്രിസ്റ്റ്യൻ ഓർസ്റ്റെഡ്",
+    "മൈക്കൽ ഫാരഡെ",
+    "ആന്ദ്രേ മാരി ആമ്പിയർ",
+    "ജോർജ് സൈമൺ ഓം"
+   ],
+   "a": 1,
+   "e": "1831-ൽ വൈദ്യുതകാന്തിക പ്രേരണം കണ്ടെത്തിയത് മൈക്കൽ ഫാരഡെ ആണ്.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "plus2",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x066",
+   "k": "sci-1304",
+   "cat": "sci",
+   "s": "sci",
+   "t": "Bleaching powder",
+   "lvl": "recruit",
+   "d": "hard",
+   "q": "ബ്ലീച്ചിംഗ് പൗഡറിന്റെ രാസസൂത്രം ഏത്?",
+   "o": [
+    "CaCO₃",
+    "Ca(OH)₂",
+    "CaOCl₂",
+    "CaSO₄"
+   ],
+   "a": 2,
+   "e": "ബ്ലീച്ചിംഗ് പൗഡറിന്റെ (കാൽസ്യം ഓക്സിക്ലോറൈഡ്) രാസസൂത്രം CaOCl₂ ആണ്.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "degree",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x067",
+   "k": "sci-1305",
+   "cat": "sci",
+   "s": "sci",
+   "t": "Plant tissues",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "ഇലകളിൽ നിർമ്മിക്കുന്ന ആഹാരം സസ്യത്തിന്റെ മറ്റു ഭാഗങ്ങളിലേക്ക് എത്തിക്കുന്ന സംവഹനകല ഏത്?",
+   "o": [
+    "സൈലം",
+    "പാരൻകൈമ",
+    "എപ്പിഡെർമിസ്",
+    "ഫ്ലോയം"
+   ],
+   "a": 3,
+   "e": "ആഹാരം സംവഹനം ചെയ്യുന്ന കല ഫ്ലോയം ആണ്; ജലവും ലവണങ്ങളും വഹിക്കുന്നത് മറ്റൊരു കലയാണ്.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "sslc",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x068",
+   "k": "sci-1306",
+   "cat": "sci",
+   "s": "ph",
+   "t": "Polio vaccine",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "കുത്തിവയ്പ്പായി നൽകുന്ന ആദ്യത്തെ പോളിയോ വാക്സിൻ (IPV) വികസിപ്പിച്ച ശാസ്ത്രജ്ഞൻ ആര്?",
+   "o": [
+    "ജോനാസ് സാൽക്ക്",
+    "എഡ്വേർഡ് ജെന്നർ",
+    "ലൂയി പാസ്ചർ",
+    "അലക്സാണ്ടർ ഫ്ലെമിങ്"
+   ],
+   "a": 0,
+   "e": "കുത്തിവയ്പ്പ് പോളിയോ വാക്സിൻ വികസിപ്പിച്ചത് ജോനാസ് സാൽക്ക് ആണ് (1955).",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "plus2",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x069",
+   "k": "sci-1307",
+   "cat": "sci",
+   "s": "ph",
+   "t": "Body temperature",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "ആരോഗ്യമുള്ള മനുഷ്യന്റെ സാധാരണ ശരീര താപനില ഫാരൻഹീറ്റ് സ്കെയിലിൽ എത്ര?",
+   "o": [
+    "96.4 °F",
+    "98.6 °F",
+    "99.8 °F",
+    "100.4 °F"
+   ],
+   "a": 1,
+   "e": "സാധാരണ ശരീര താപനില 37 °C ആണ്, അതായത് 98.6 °F.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "sslc",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x070",
+   "k": "sci-1308",
+   "cat": "sci",
+   "s": "ph",
+   "t": "Anthrax",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "ആന്ത്രാക്സ് രോഗത്തിന് കാരണമായ രോഗകാരി ഏത് വിഭാഗത്തിൽ പെടുന്നു?",
+   "o": [
+    "വൈറസ്",
+    "ഫംഗസ്",
+    "ബാക്ടീരിയ",
+    "പ്രോട്ടോസോവ"
+   ],
+   "a": 2,
+   "e": "ആന്ത്രാക്സ് ഉണ്ടാക്കുന്നത് ബാസിലസ് ആന്ത്രാസിസ് എന്ന ബാക്ടീരിയ ആണ്.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "degree",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x071",
+   "k": "sci-1309",
+   "cat": "sci",
+   "s": "sci",
+   "t": "Electrical conductivity",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "ലോഹങ്ങളിൽ ഏറ്റവും കൂടുതൽ വൈദ്യുതചാലകതയുള്ളത് ഏത്?",
+   "o": [
+    "ചെമ്പ്",
+    "അലുമിനിയം",
+    "സ്വർണം",
+    "വെള്ളി"
+   ],
+   "a": 3,
+   "e": "ലോഹങ്ങളിൽ ഏറ്റവും മികച്ച വൈദ്യുതചാലകം വെള്ളി ആണ്.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "sslc",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x072",
+   "k": "sci-1310",
+   "cat": "sci",
+   "s": "sci",
+   "t": "Human brain",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "ശരീരത്തിന്റെ തുലനനില (balance) നിലനിർത്തുകയും പേശീചലനങ്ങളെ ഏകോപിപ്പിക്കുകയും ചെയ്യുന്ന മസ്തിഷ്കഭാഗം ഏത്?",
+   "o": [
+    "സെറിബെല്ലം",
+    "സെറിബ്രം",
+    "മെഡുല്ല ഒബ്ലോംഗേറ്റ",
+    "ഹൈപ്പോതലാമസ്"
+   ],
+   "a": 0,
+   "e": "ശരീരതുലനനിലയും പേശീചലന ഏകോപനവും നിയന്ത്രിക്കുന്നത് സെറിബെല്ലം (ചെറുമസ്തിഷ്കം) ആണ്.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "plus2",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x073",
+   "k": "sci-1311",
+   "cat": "sci",
+   "s": "sci",
+   "t": "Welding gases",
+   "lvl": "recruit",
+   "d": "hard",
+   "q": "ലോഹങ്ങൾ മുറിക്കാനും വെൽഡ് ചെയ്യാനും ഓക്സിജനോടൊപ്പം കത്തിക്കുന്ന ഇന്ധനവാതകം ഏത്?",
+   "o": [
+    "മീഥേൻ",
+    "അസറ്റിലീൻ",
+    "ഈഥേൻ",
+    "ബ്യൂട്ടേൻ"
+   ],
+   "a": 1,
+   "e": "ഓക്സി-അസറ്റിലീൻ ജ്വാലയിൽ ഉപയോഗിക്കുന്നത് അസറ്റിലീൻ (C₂H₂) ആണ്.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "degree",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x074",
+   "k": "sci-1312",
+   "cat": "sci",
+   "s": "ph",
+   "t": "Plague",
+   "lvl": "recruit",
+   "d": "advanced",
+   "q": "പ്ലേഗ് രോഗത്തിന് കാരണമായ ബാക്ടീരിയ ഏത്?",
+   "o": [
+    "വിബ്രിയോ കോളറ",
+    "മൈക്കോബാക്ടീരിയം ട്യൂബർക്കുലോസിസ്",
+    "യെർസീനിയ പെസ്റ്റിസ്",
+    "സാൽമൊണെല്ല ടൈഫി"
+   ],
+   "a": 2,
+   "e": "പ്ലേഗിന് കാരണം യെർസീനിയ പെസ്റ്റിസ് ബാക്ടീരിയ ആണ്; എലിച്ചെള്ളുകളാണ് ഇത് പരത്തുന്നത്.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "degree",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x075",
+   "k": "comp-1301",
+   "cat": "comp",
+   "s": "comp",
+   "t": "Abbreviations",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "കമ്പ്യൂട്ടറുമായി ബന്ധപ്പെട്ട 'USB' എന്നതിന്റെ പൂർണ്ണരൂപം എന്ത്?",
+   "o": [
+    "Universal Serial Bus",
+    "Unified System Bus",
+    "Universal Storage Board",
+    "United Serial Board"
+   ],
+   "a": 0,
+   "e": "USB എന്നതിന്റെ പൂർണ്ണരൂപം Universal Serial Bus എന്നാണ്.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "sslc",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x076",
+   "k": "comp-1302",
+   "cat": "comp",
+   "s": "comp",
+   "t": "Number systems",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "ദശാംശ (Decimal) സംഖ്യ 100-ന്റെ ബൈനറി രൂപം ഏത്?",
+   "o": [
+    "1010100",
+    "1100100",
+    "1100010",
+    "1110100"
+   ],
+   "a": 1,
+   "e": "100 = 64 + 32 + 4 ആയതിനാൽ ബൈനറി രൂപം 1100100 ആണ്.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "plus2",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x077",
+   "k": "comp-1303",
+   "cat": "comp",
+   "s": "comp",
+   "t": "Computer pioneers",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "കമ്പ്യൂട്ടർ മൗസ് (Mouse) കണ്ടുപിടിച്ചത് ആര്?",
+   "o": [
+    "Charles Babbage",
+    "Tim Berners-Lee",
+    "Douglas Engelbart",
+    "Alan Turing"
+   ],
+   "a": 2,
+   "e": "1960-കളിൽ കമ്പ്യൂട്ടർ മൗസ് കണ്ടുപിടിച്ചത് Douglas Engelbart ആണ്.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "plus2",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x078",
+   "k": "comp-1304",
+   "cat": "comp",
+   "s": "comp",
+   "t": "LibreOffice",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "LibreOffice-ൽ പ്രസന്റേഷൻ (Presentation) തയ്യാറാക്കാൻ ഉപയോഗിക്കുന്ന ആപ്ലിക്കേഷൻ ഏത്?",
+   "o": [
+    "Writer",
+    "Calc",
+    "Base",
+    "Impress"
+   ],
+   "a": 3,
+   "e": "LibreOffice-ലെ പ്രസന്റേഷൻ സോഫ്റ്റ്‌വെയർ Impress ആണ് (MS PowerPoint-ന് തുല്യം).",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "sslc",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x079",
+   "k": "comp-1305",
+   "cat": "comp",
+   "s": "comp",
+   "t": "Transmission media",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "പ്രകാശ സ്പന്ദനങ്ങളുടെ (light pulses) രൂപത്തിൽ ഡാറ്റ കൈമാറുന്ന നെറ്റ്‌വർക്ക് കേബിൾ ഏത്?",
+   "o": [
+    "Optical fibre cable",
+    "Coaxial cable",
+    "Twisted pair cable",
+    "Telephone wire"
+   ],
+   "a": 0,
+   "e": "ഡാറ്റ പ്രകാശ രൂപത്തിൽ കൈമാറുന്നത് Optical fibre cable ആണ്; മറ്റുള്ളവ വൈദ്യുത സിഗ്നലുകൾ ഉപയോഗിക്കുന്നു.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "sslc",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x080",
+   "k": "comp-1306",
+   "cat": "comp",
+   "s": "comp",
+   "t": "Internet basics",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "ഒരു വെബ് പേജിൽ ക്ലിക്ക് ചെയ്യുമ്പോൾ മറ്റൊരു പേജിലേക്കോ ഫയലിലേക്കോ നേരിട്ട് എത്തിക്കുന്ന ലിങ്കിനെ എന്ത് വിളിക്കുന്നു?",
+   "o": [
+    "Bookmark",
+    "Hyperlink",
+    "Domain",
+    "Firmware"
+   ],
+   "a": 1,
+   "e": "ക്ലിക്ക് ചെയ്താൽ മറ്റൊരു പേജിലേക്ക് കൊണ്ടുപോകുന്ന ലിങ്കാണ് Hyperlink.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "sslc",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x081",
+   "k": "comp-1307",
+   "cat": "comp",
+   "s": "comp",
+   "t": "Cyber security",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "അനധികൃതർക്ക് വായിക്കാൻ കഴിയാത്ത വിധം ഡാറ്റയെ രഹസ്യ കോഡ് രൂപത്തിലേക്ക് മാറ്റുന്ന പ്രക്രിയയെ എന്ത് വിളിക്കുന്നു?",
+   "o": [
+    "Compression",
+    "Formatting",
+    "Encryption",
+    "Defragmentation"
+   ],
+   "a": 2,
+   "e": "ഡാറ്റയെ രഹസ്യ കോഡ് (ciphertext) രൂപത്തിലാക്കുന്ന പ്രക്രിയയാണ് Encryption.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "plus2",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x082",
+   "k": "comp-1308",
+   "cat": "comp",
+   "s": "comp",
+   "t": "IT Act 2000",
+   "lvl": "recruit",
+   "d": "hard",
+   "q": "ഇലക്ട്രോണിക് രൂപത്തിൽ അശ്ലീല (obscene) ഉള്ളടക്കം പ്രസിദ്ധീകരിക്കുന്നതിനോ കൈമാറുന്നതിനോ ശിക്ഷ വ്യവസ്ഥ ചെയ്യുന്ന ഐ.ടി. നിയമം 2000-ലെ വകുപ്പ് ഏത്?",
+   "o": [
+    "വകുപ്പ് 43",
+    "വകുപ്പ് 65",
+    "വകുപ്പ് 72",
+    "വകുപ്പ് 67"
+   ],
+   "a": 3,
+   "e": "ഇലക്ട്രോണിക് രൂപത്തിലുള്ള അശ്ലീല ഉള്ളടക്കത്തിന്റെ പ്രസിദ്ധീകരണം/കൈമാറ്റം വകുപ്പ് 67 പ്രകാരം ശിക്ഷാർഹമാണ്.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "degree",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x083",
+   "k": "comp-1309",
+   "cat": "comp",
+   "s": "comp",
+   "t": "Spreadsheet basics",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "MS Excel വർക്ക്ഷീറ്റിൽ (സാധാരണ A1 റഫറൻസ് രീതിയിൽ) കോളങ്ങളെ (Columns) തിരിച്ചറിയുന്നത് എങ്ങനെ?",
+   "o": [
+    "അക്കങ്ങൾ (1, 2, 3...) ഉപയോഗിച്ച്",
+    "റോമൻ അക്കങ്ങൾ (I, II, III) ഉപയോഗിച്ച്",
+    "അക്ഷരങ്ങൾ (A, B, C...) ഉപയോഗിച്ച്",
+    "ചിഹ്നങ്ങൾ (#, @, $) ഉപയോഗിച്ച്"
+   ],
+   "a": 2,
+   "e": "A1 രീതിയിൽ കോളങ്ങളെ അക്ഷരങ്ങൾ (A, B, C...) ഉപയോഗിച്ച് സൂചിപ്പിക്കുന്നു; റോകൾ നമ്പറുകൾ കൊണ്ടാണ്.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "plus2",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x084",
+   "k": "comp-1310",
+   "cat": "comp",
+   "s": "comp",
+   "t": "Input and output devices",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "താഴെ പറയുന്നവയിൽ ഔട്ട്പുട്ട് (Output) ഉപകരണം ഏത്?",
+   "o": [
+    "Keyboard",
+    "Scanner",
+    "Joystick",
+    "Speaker"
+   ],
+   "a": 3,
+   "e": "ശബ്ദം പുറത്തേക്ക് നൽകുന്ന Speaker ഒരു ഔട്ട്പുട്ട് ഉപകരണമാണ്; മറ്റുള്ളവ ഇൻപുട്ട് ഉപകരണങ്ങളാണ്.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "sslc",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x085",
+   "k": "comp-1311",
+   "cat": "comp",
+   "s": "comp",
+   "t": "Memory",
+   "lvl": "recruit",
+   "d": "advanced",
+   "q": "നിർമ്മാണശേഷം ഉപയോക്താവിന് ഒരിക്കൽ മാത്രം പ്രോഗ്രാം ചെയ്യാവുന്നതും പിന്നീട് മായ്ച്ചുകളയാൻ (erase) കഴിയാത്തതുമായ ROM ഏത്?",
+   "o": [
+    "PROM",
+    "EPROM",
+    "EEPROM",
+    "Flash ROM"
+   ],
+   "a": 0,
+   "e": "ഒരിക്കൽ മാത്രം എഴുതാവുന്ന (One-time programmable) ROM ആണ് PROM (Programmable ROM); ഒരിക്കൽ എഴുതിയ ഡാറ്റ പിന്നീട് മായ്ക്കാനോ മാറ്റാനോ കഴിയില്ല.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "degree",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x086",
+   "k": "comp-1312",
+   "cat": "comp",
+   "s": "comp",
+   "t": "Number systems",
+   "lvl": "recruit",
+   "d": "hard",
+   "q": "ബൈനറി സംഖ്യ 1010-ന്റെ 1's complement (വൺസ് കോംപ്ലിമെന്റ്) ഏത്?",
+   "o": [
+    "0110",
+    "0101",
+    "1011",
+    "0100"
+   ],
+   "a": 1,
+   "e": "1's complement കാണാൻ ഓരോ ബിറ്റും തിരിച്ചിടുന്നു (0→1, 1→0); അതിനാൽ 1010-ന്റേത് 0101 ആണ്.",
+   "lang": "ml",
+   "marks": 1,
+   "neg": 0.3333333333,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "psc": "degree",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x087",
+   "k": "deg-1301",
+   "cat": "deg",
+   "s": "acc",
+   "t": "Interest on drawings",
+   "lvl": "degree",
+   "d": "hard",
+   "q": "A partner withdrew ₹2,000 at the beginning of every month for 12 months. If interest on drawings is charged at 6% per annum, what is the interest on drawings for the year?",
+   "o": [
+    "₹780",
+    "₹720",
+    "₹660",
+    "₹1,440"
+   ],
+   "a": 0,
+   "e": "Drawings made at the beginning of each month carry an average period of 6.5 months: ₹24,000 × 6% × 6.5/12 = ₹780.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261023x088",
+   "k": "deg-1302",
+   "cat": "deg",
+   "s": "acc",
+   "t": "Revaluation account",
+   "lvl": "degree",
+   "d": "easy",
+   "q": "On the reconstitution of a partnership firm, a decrease in the value of an asset is:",
+   "o": [
+    "Credited to Revaluation Account",
+    "Debited to Revaluation Account",
+    "Debited to Realisation Account",
+    "Credited to the Cash Account"
+   ],
+   "a": 1,
+   "e": "A fall in asset value is a loss on revaluation, so it is Debited to Revaluation Account.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261023x089",
+   "k": "deg-1303",
+   "cat": "deg",
+   "s": "dcs",
+   "t": "CPU scheduling",
+   "lvl": "degree",
+   "d": "medium",
+   "q": "Which CPU scheduling algorithm gives the minimum average waiting time for a given set of processes that are all available at the same time?",
+   "o": [
+    "First Come First Served (FCFS)",
+    "Round Robin",
+    "Priority scheduling with aging",
+    "Shortest Job First (SJF)"
+   ],
+   "a": 3,
+   "e": "Running the shortest burst first provably minimises average waiting time, so the answer is Shortest Job First (SJF).",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261023x090",
+   "k": "deg-1304",
+   "cat": "deg",
+   "s": "dcs",
+   "t": "Transactions (ACID)",
+   "lvl": "degree",
+   "d": "easy",
+   "q": "In database transactions, which ACID property ensures that a transaction is either executed completely or not executed at all?",
+   "o": [
+    "Consistency",
+    "Isolation",
+    "Atomicity",
+    "Durability"
+   ],
+   "a": 2,
+   "e": "Atomicity is the 'all or nothing' property: a transaction's operations are all applied or all rolled back.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261023x091",
+   "k": "deg-1306",
+   "cat": "deg",
+   "s": "dmath",
+   "t": "Standard deviation",
+   "lvl": "degree",
+   "d": "hard",
+   "q": "What is the (population) standard deviation of the data set 2, 4, 4, 4, 5, 5, 7, 9?",
+   "o": [
+    "4",
+    "1.5",
+    "3",
+    "2"
+   ],
+   "a": 3,
+   "e": "Mean = 5; the squared deviations sum to 32, so variance = 32/8 = 4 and standard deviation = √4 = 2.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261023x092",
+   "k": "deg-1307",
+   "cat": "deg",
+   "s": "dmath",
+   "t": "Sum of squares",
+   "lvl": "entrance",
+   "d": "medium",
+   "q": "What is the value of 1² + 2² + 3² + … + 10²?",
+   "o": [
+    "385",
+    "330",
+    "405",
+    "355"
+   ],
+   "a": 0,
+   "e": "Using n(n + 1)(2n + 1)/6 with n = 10: 10 × 11 × 21/6 = 385.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261023x093",
+   "k": "deg-1308",
+   "cat": "deg",
+   "s": "dmath",
+   "t": "Relations",
+   "lvl": "degree",
+   "d": "easy",
+   "q": "A relation on a set that is reflexive, symmetric and transitive is called:",
+   "o": [
+    "A partial order relation",
+    "An equivalence relation",
+    "A total order relation",
+    "An antisymmetric relation"
+   ],
+   "a": 1,
+   "e": "A relation having all three properties (reflexive, symmetric, transitive) is an equivalence relation.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261023x094",
+   "k": "deg-1309",
+   "cat": "deg",
+   "s": "dphy",
+   "t": "Total internal reflection",
+   "lvl": "entrance",
+   "d": "medium",
+   "q": "What is the critical angle for light travelling from glass of refractive index √2 into air?",
+   "o": [
+    "30°",
+    "60°",
+    "45°",
+    "90°"
+   ],
+   "a": 2,
+   "e": "sin C = 1/μ = 1/√2, so the critical angle C = 45°.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261023x095",
+   "k": "deg-1310",
+   "cat": "deg",
+   "s": "dphy",
+   "t": "Superconductivity",
+   "lvl": "degree",
+   "d": "hard",
+   "q": "The expulsion of magnetic flux from the interior of a material when it is cooled below its critical temperature and becomes superconducting is called the:",
+   "o": [
+    "Josephson effect",
+    "Zeeman effect",
+    "Seebeck effect",
+    "Meissner effect"
+   ],
+   "a": 3,
+   "e": "A superconductor behaves as a perfect diamagnet and expels magnetic field lines; this is the Meissner effect.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261023x096",
+   "k": "deg-1311",
+   "cat": "deg",
+   "s": "dchem",
+   "t": "Hydrogen bonding",
+   "lvl": "entrance",
+   "d": "medium",
+   "q": "Which of the following hydrogen halides has the highest boiling point?",
+   "o": [
+    "HF",
+    "HCl",
+    "HBr",
+    "HI"
+   ],
+   "a": 0,
+   "e": "Strong intermolecular hydrogen bonding gives HF the highest boiling point among the hydrogen halides.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261023x097",
+   "k": "deg-1312",
+   "cat": "deg",
+   "s": "dchem",
+   "t": "Alcohols",
+   "lvl": "degree",
+   "d": "advanced",
+   "q": "The Lucas test, used to distinguish primary, secondary and tertiary alcohols, uses which reagent?",
+   "o": [
+    "Ammoniacal silver nitrate solution",
+    "Fehling's solution",
+    "Anhydrous ZnCl₂ in concentrated HCl",
+    "Alkaline KMnO₄ solution"
+   ],
+   "a": 2,
+   "e": "Lucas reagent is Anhydrous ZnCl₂ in concentrated HCl; tertiary alcohols turn it turbid at once, secondary ones in a few minutes.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261023x098",
+   "k": "deg-1313",
+   "cat": "deg",
+   "s": "dbio",
+   "t": "Plasma membrane",
+   "lvl": "degree",
+   "d": "medium",
+   "q": "The fluid mosaic model of the structure of the plasma membrane was proposed by:",
+   "o": [
+    "Watson and Crick",
+    "Singer and Nicolson",
+    "Danielli and Davson",
+    "Schleiden and Schwann"
+   ],
+   "a": 1,
+   "e": "Singer and Nicolson proposed the fluid mosaic model in 1972, with proteins floating in a fluid lipid bilayer.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261023x099",
+   "k": "deg-1314",
+   "cat": "deg",
+   "s": "decon",
+   "t": "Profit maximisation",
+   "lvl": "degree",
+   "d": "medium",
+   "q": "Under any market structure, the necessary (first-order) condition for a firm to maximise profit is:",
+   "o": [
+    "Average revenue = Average cost",
+    "Price = Average variable cost",
+    "Total revenue = Total cost",
+    "Marginal revenue = Marginal cost"
+   ],
+   "a": 3,
+   "e": "Profit is maximised where Marginal revenue = Marginal cost (with MC cutting MR from below).",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261023x100",
+   "k": "deg-1315",
+   "cat": "deg",
+   "s": "mgmt",
+   "t": "Motivation theories",
+   "lvl": "degree",
+   "d": "hard",
+   "q": "The expectancy theory of motivation, which relates motivation to valence, expectancy and instrumentality, was proposed by:",
+   "o": [
+    "Victor Vroom",
+    "Clayton Alderfer",
+    "David McClelland",
+    "J. Stacy Adams"
+   ],
+   "a": 0,
+   "e": "Victor Vroom proposed expectancy theory in 1964: motivation depends on valence, expectancy and instrumentality.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261023x101",
+   "k": "deg-1316",
+   "cat": "deg",
+   "s": "mgmt",
+   "t": "Principles of management",
+   "lvl": "degree",
+   "d": "advanced",
+   "q": "Henri Fayol's 'gang plank', which allows direct communication between employees at the same level, is an exception to which principle?",
+   "o": [
+    "Unity of direction",
+    "Esprit de corps",
+    "Scalar chain",
+    "Centralisation"
+   ],
+   "a": 2,
+   "e": "The gang plank is a short-cut within the Scalar chain principle, letting same-level employees communicate without going up the hierarchy.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261023x102",
+   "k": "deg-1317",
+   "cat": "deg",
+   "s": "hum",
+   "t": "Political thought",
+   "lvl": "degree",
+   "d": "easy",
+   "q": "Who wrote 'Utopia' (1516), describing an imaginary island with an ideal society?",
+   "o": [
+    "Francis Bacon",
+    "Thomas More",
+    "Thomas Hobbes",
+    "John Milton"
+   ],
+   "a": 1,
+   "e": "'Utopia' was written by Sir Thomas More, an English humanist and statesman.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261023x103",
+   "k": "deg-1318",
+   "cat": "deg",
+   "s": "engg",
+   "t": "Heat transfer",
+   "lvl": "entrance",
+   "d": "easy",
+   "q": "Fourier's law, which states that the heat flux is proportional to the negative temperature gradient, governs which mode of heat transfer?",
+   "o": [
+    "Convection",
+    "Radiation",
+    "Evaporation",
+    "Conduction"
+   ],
+   "a": 3,
+   "e": "Fourier's law (q = −k dT/dx) is the basic law of heat Conduction through a material.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published"
+  },
+  {
+   "id": "d20261023x104",
+   "k": "compx-1301",
+   "cat": "compx",
+   "s": "quant",
+   "t": "Mensuration (cylinder)",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "What is the volume of a right circular cylinder of radius 7 cm and height 10 cm? (Take π = 22/7)",
+   "o": [
+    "1,540 cm³",
+    "1,440 cm³",
+    "3,080 cm³",
+    "1,550 cm³"
+   ],
+   "a": 0,
+   "e": "Volume = πr²h = 22/7 × 7 × 7 × 10 = 1,540 cm³.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published",
+   "exam": "SSC"
+  },
+  {
+   "id": "d20261023x105",
+   "k": "compx-1302",
+   "cat": "compx",
+   "s": "quant",
+   "t": "Simple interest",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "A sum of money lent at simple interest amounts to ₹6,000 in 3 years and to ₹7,000 in 5 years. What is the sum?",
+   "o": [
+    "₹5,000",
+    "₹4,500",
+    "₹4,000",
+    "₹4,800"
+   ],
+   "a": 1,
+   "e": "Interest for 2 years = ₹1,000, so ₹500 a year; principal = 6,000 − 3 × 500 = ₹4,500.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published",
+   "exam": "Banking"
+  },
+  {
+   "id": "d20261023x106",
+   "k": "compx-1303",
+   "cat": "compx",
+   "s": "math",
+   "t": "Speed and time",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "A person covers a certain distance in 40 minutes at 45 km/h. At what speed must he travel to cover the same distance in 30 minutes?",
+   "o": [
+    "55 km/h",
+    "65 km/h",
+    "60 km/h",
+    "50 km/h"
+   ],
+   "a": 2,
+   "e": "Distance = 45 × 40/60 = 30 km; covering 30 km in half an hour needs 60 km/h.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published",
+   "exam": "Railway"
+  },
+  {
+   "id": "d20261023x107",
+   "k": "compx-1304",
+   "cat": "compx",
+   "s": "econ",
+   "t": "Indian economy",
+   "lvl": "recruit",
+   "d": "hard",
+   "q": "The term 'Hindu rate of growth', used for the low growth rate of the Indian economy from the 1950s to the 1980s, was coined by:",
+   "o": [
+    "Amartya Sen",
+    "Jagdish Bhagwati",
+    "K. N. Raj",
+    "Raj Krishna"
+   ],
+   "a": 3,
+   "e": "Economist Raj Krishna coined the phrase for India's roughly 3.5% annual growth in that period.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "exam": "UPSC"
+  },
+  {
+   "id": "d20261023x108",
+   "k": "compx-1305",
+   "cat": "compx",
+   "s": "eng",
+   "t": "Parts of speech",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "In the sentence 'She sings beautifully', the word 'beautifully' is a(n):",
+   "o": [
+    "Adverb",
+    "Adjective",
+    "Noun",
+    "Pronoun"
+   ],
+   "a": 0,
+   "e": "'Beautifully' tells us how she sings, so it modifies the verb and is an Adverb.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "exam": "Teaching"
+  },
+  {
+   "id": "d20261023x109",
+   "k": "compx-1306",
+   "cat": "compx",
+   "s": "reas",
+   "t": "Number analogy",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "Find the missing term: 4 : 64 :: 6 : ?",
+   "o": [
+    "36",
+    "216",
+    "196",
+    "256"
+   ],
+   "a": 1,
+   "e": "64 is the cube of 4, so the missing term is the cube of 6, which is 216.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published",
+   "exam": "Police"
+  },
+  {
+   "id": "d20261023x110",
+   "k": "compx-1307",
+   "cat": "compx",
+   "s": "sci",
+   "t": "Electricity",
+   "lvl": "entrance",
+   "d": "hard",
+   "q": "What is the SI unit of electrical resistivity?",
+   "o": [
+    "Ohm",
+    "Ohm per metre",
+    "Ohm-metre",
+    "Siemens"
+   ],
+   "a": 2,
+   "e": "Resistivity ρ = RA/L, giving units of ohm × m²/m, i.e. the Ohm-metre.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "exam": "University entrance"
+  },
+  {
+   "id": "d20261023x111",
+   "k": "compx-1308",
+   "cat": "compx",
+   "s": "con",
+   "t": "Directive Principles",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "Which Part of the Constitution of India contains the Directive Principles of State Policy?",
+   "o": [
+    "Part III",
+    "Part IVA",
+    "Part V",
+    "Part IV"
+   ],
+   "a": 3,
+   "e": "The Directive Principles of State Policy are in Part IV (Articles 36 to 51).",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "exam": "Kerala PSC"
+  },
+  {
+   "id": "d20261023x112",
+   "k": "compx-1309",
+   "cat": "compx",
+   "s": "gk",
+   "t": "Indus Valley Civilisation",
+   "lvl": "recruit",
+   "d": "easy",
+   "q": "The Harappan dockyard site of Lothal is located in which present-day Indian state?",
+   "o": [
+    "Gujarat",
+    "Rajasthan",
+    "Haryana",
+    "Punjab"
+   ],
+   "a": 0,
+   "e": "Lothal, known for its ancient dockyard, lies in the Ahmedabad district of Gujarat.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "exam": "SSC"
+  },
+  {
+   "id": "d20261023x113",
+   "k": "compx-1310",
+   "cat": "compx",
+   "s": "comp",
+   "t": "Computer memory",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "Which type of computer memory loses its contents when the power supply is switched off?",
+   "o": [
+    "ROM",
+    "RAM",
+    "Hard disk",
+    "Solid-state drive"
+   ],
+   "a": 1,
+   "e": "RAM is volatile memory: its data is lost once power is removed.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer"
+   ],
+   "status": "published",
+   "exam": "Banking"
+  },
+  {
+   "id": "d20261023x114",
+   "k": "compx-1311",
+   "cat": "compx",
+   "s": "math",
+   "t": "HCF and LCM",
+   "lvl": "recruit",
+   "d": "medium",
+   "q": "The HCF of two numbers is 12 and their LCM is 360. If one of the numbers is 72, what is the other number?",
+   "o": [
+    "48",
+    "90",
+    "60",
+    "30"
+   ],
+   "a": 2,
+   "e": "Product of the numbers = HCF × LCM, so the other number = 12 × 360 ÷ 72 = 60.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published",
+   "exam": "Railway"
+  },
+  {
+   "id": "d20261023x115",
+   "k": "compx-1312",
+   "cat": "compx",
+   "s": "quant",
+   "t": "Permutations",
+   "lvl": "recruit",
+   "d": "advanced",
+   "q": "In how many different ways can the letters of the word LEADER be arranged?",
+   "o": [
+    "720",
+    "180",
+    "120",
+    "360"
+   ],
+   "a": 3,
+   "e": "LEADER has 6 letters with E repeated twice, so arrangements = 6!/2! = 360.",
+   "lang": "en",
+   "marks": 1,
+   "neg": 0.25,
+   "src": "ai-practice",
+   "created": "2026-10-23",
+   "verified": "2026-10-23",
+   "vby": [
+    "independent-answer",
+    "calculation"
+   ],
+   "status": "published",
+   "exam": "UPSC"
+  }
+ ],
+ "tests": [
+  {
+   "n": 1,
+   "k": "T1",
+   "id": "DMT-20261023-N1",
+   "title": "General Knowledge & Current Affairs",
+   "cats": [
+    "gkca"
+   ],
+   "cat": "General Knowledge & Current Affairs",
+   "ids": [
+    "d20261023x018",
+    "d20261023x016",
+    "d20261023x003",
+    "d20261023x017",
+    "d20261023x015",
+    "d20261023x009",
+    "d20261023x004",
+    "d20261023x006",
+    "d20261023x010",
+    "d20261023x005",
+    "d20261023x001",
+    "d20261023x014",
+    "d20261023x002",
+    "d20261023x011",
+    "d20261023x008",
+    "d20261023x013",
+    "d20261023x007",
+    "d20261023x012",
+    "con1",
+    "kga9",
+    "mal9",
+    "gi4",
+    "kga11",
+    "gi5",
+    "kh11"
+   ],
+   "newQ": 18,
+   "min": 25,
+   "mk": 1,
+   "ng": 0.3333333333,
+   "pass": 40,
+   "published": "2026-10-23T05:59:48.887Z",
+   "diff": "Medium"
+  },
+  {
+   "n": 2,
+   "k": "T2",
+   "id": "DMT-20261023-N2",
+   "title": "Quantitative Aptitude & Logical Reasoning",
+   "cats": [
+    "quant",
+    "reas"
+   ],
+   "cat": "Quantitative Aptitude & Mathematics · Logical Reasoning",
+   "ids": [
+    "d20261023x060",
+    "d20261023x034",
+    "d20261023x042",
+    "d20261023x058",
+    "d20261023x055",
+    "d20261023x036",
+    "d20261023x046",
+    "d20261023x039",
+    "d20261023x037",
+    "d20261023x038",
+    "d20261023x061",
+    "d20261023x035",
+    "d20261023x053",
+    "d20261023x057",
+    "d20261023x049",
+    "d20261023x043",
+    "d20261023x050",
+    "d20261023x040",
+    "d20261023x044",
+    "d20261023x056",
+    "d20261023x051",
+    "d20261023x041",
+    "d20261023x047",
+    "d20261023x059",
+    "d20261023x048",
+    "d20261023x054",
+    "d20261023x045",
+    "d20261023x052",
+    "d20261023x033",
+    "d20261023x062"
+   ],
+   "newQ": 30,
+   "min": 36,
+   "mk": 1,
+   "ng": 0.25,
+   "pass": 40,
+   "published": "2026-10-23T05:59:48.887Z",
+   "diff": "Hard"
+  },
+  {
+   "n": 3,
+   "k": "T3",
+   "id": "DMT-20261023-N3",
+   "title": "English, Science & Computer Knowledge",
+   "cats": [
+    "eng",
+    "sci",
+    "comp"
+   ],
+   "cat": "English Language & Grammar · Science & General Science · Computer Knowledge",
+   "ids": [
+    "d20261023x024",
+    "d20261023x020",
+    "d20261023x077",
+    "d20261023x078",
+    "d20261023x080",
+    "d20261023x073",
+    "d20261023x065",
+    "d20261023x081",
+    "d20261023x022",
+    "d20261023x026",
+    "d20261023x027",
+    "d20261023x084",
+    "d20261023x028",
+    "d20261023x075",
+    "d20261023x076",
+    "d20261023x072",
+    "d20261023x086",
+    "d20261023x083",
+    "d20261023x021",
+    "d20261023x025",
+    "d20261023x019",
+    "d20261023x067",
+    "d20261023x069",
+    "d20261023x082",
+    "d20261023x063",
+    "d20261023x068",
+    "d20261023x066",
+    "d20261023x070",
+    "d20261023x085",
+    "d20261023x074"
+   ],
+   "newQ": 30,
+   "min": 30,
+   "mk": 1,
+   "ng": 0.3333333333,
+   "pass": 40,
+   "published": "2026-10-23T05:59:48.887Z",
+   "diff": "Hard"
+  },
+  {
+   "n": 4,
+   "k": "T4",
+   "id": "DMT-20261023-N4",
+   "title": "Degree-Level & Competitive Exam Practice",
+   "cats": [
+    "deg",
+    "compx"
+   ],
+   "cat": "Degree-Level Subject Questions · Competitive & Recruitment Exams",
+   "ids": [
+    "d20261023x091",
+    "d20261023x103",
+    "d20261023x102",
+    "d20261023x099",
+    "d20261023x101",
+    "d20261023x109",
+    "d20261023x112",
+    "d20261023x115",
+    "d20261023x088",
+    "d20261023x111",
+    "d20261023x092",
+    "d20261023x110",
+    "d20261023x089",
+    "d20261023x094",
+    "d20261023x096",
+    "d20261023x114",
+    "d20261023x113",
+    "d20261023x095",
+    "d20261023x098",
+    "d20261023x104",
+    "d20261023x090",
+    "d20261023x093",
+    "d20261023x097",
+    "d20261023x100",
+    "d20261023x106"
+   ],
+   "newQ": 25,
+   "min": 30,
+   "mk": 1,
+   "ng": 0.25,
+   "pass": 40,
+   "published": "2026-10-23T05:59:48.888Z",
+   "diff": "Medium"
+  }
+ ],
+ "ca": [
+  {
+   "d": "2026-10-06",
+   "pub": "2026-10-07",
+   "cat": "Appointments",
+   "t": "Justices Sunita Agarwal (former Chief Justice of the Gujarat High Court), Devendra Kumar Upadhyaya (former Chief Justice of the Delhi and Bombay High Courts) and Aparesh Kumar Singh (former Chief Justice of the Telangana High Court) were sworn in as Supreme Court judges on 6 October 2026.",
+   "src": "Supreme Court Observer",
+   "url": "https://www.scobserver.in/journal/supreme-court-judge-appointments-october-2026/",
+   "ver": "2026-10-23"
+  },
+  {
+   "d": "2026-10-19",
+   "pub": "2026-10-20",
+   "cat": "India",
+   "t": "The 5th edition of the India-Australia joint military exercise AUSTRAHIND began in Thiruvananthapuram, Kerala, and runs until 1 November 2026; a New Zealand observer delegation is attending for the first time.",
+   "src": "News On AIR",
+   "url": "https://newsonair.gov.in/joint-military-exercise-austrahind-2026-between-india-and-australia-commences-in-thiruvananthapuram/",
+   "ver": "2026-10-23"
+  },
+  {
+   "d": "2026-10-20",
+   "pub": "2026-10-20",
+   "cat": "Sports",
+   "t": "Deepthi Jeevanji won gold in the women's 400m T20 at the 2026 Asian Para Games in Aichi-Nagoya, Japan, in a Games-record 56.36 seconds.",
+   "src": "News On AIR",
+   "url": "https://newsonair.gov.in/deepthi-jeevanji-wins-gold-in-womens-400m-t20-sets-new-games-record-at-asian-para-games-2026/",
+   "ver": "2026-10-23"
+  },
+  {
+   "d": "2026-10-20",
+   "pub": "2026-10-20",
+   "cat": "Sports",
+   "t": "Simran won gold in the women's 200m T12 at the 2026 Asian Para Games in a Games-record 24.80 seconds; Tejalben Damor took bronze in the same event.",
+   "src": "News On AIR",
+   "url": "https://newsonair.gov.in/asian-para-games-2026-india-wins-26-medals-including-six-gold-simran-and-deepthi-set-new-games-records/",
+   "ver": "2026-10-23"
+  },
+  {
+   "d": "2026-10-22",
+   "pub": "2026-10-22",
+   "cat": "Science & Technology",
+   "t": "ISRO plans to launch NVS-03, the third second-generation NavIC navigation satellite, on a GSLV Mk II from Sriharikota; GKToday (22 October 2026) reported a 30 October launch date.",
+   "src": "GKToday",
+   "url": "https://www.gktoday.in/isro-to-launch-nvs-03-navigation-satellite-on-october-30/",
+   "ver": "2026-10-23"
+  }
+ ],
+ "review": [],
+ "navamika": [
+  {
+   "id": "rhyme-bunny-hop",
+   "type": "rhymes",
+   "title": "Rhyme Bunny Hop",
+   "desc": "Hop to the word that sounds the same!",
+   "difficulty": "easy",
+   "instructions": "Listen and tap the word that rhymes.",
+   "questions": [
+    {
+     "q": "What rhymes with cat?",
+     "show": "🐱",
+     "options": [
+      {
+       "e": "🎩",
+       "t": "Hat"
+      },
+      {
+       "e": "🐶",
+       "t": "Dog"
+      },
+      {
+       "e": "🍎",
+       "t": "Apple"
+      }
+     ],
+     "answer": 0,
+     "good": "Yes! Cat and hat!"
+    },
+    {
+     "q": "What rhymes with star?",
+     "show": "⭐",
+     "options": [
+      {
+       "e": "🌙",
+       "t": "Moon"
+      },
+      {
+       "e": "🚗",
+       "t": "Car"
+      },
+      {
+       "e": "🌳",
+       "t": "Tree"
+      }
+     ],
+     "answer": 1,
+     "good": "Twinkle! Star and car!"
+    },
+    {
+     "q": "What rhymes with bee?",
+     "show": "🐝",
+     "options": [
+      {
+       "e": "🐟",
+       "t": "Fish"
+      },
+      {
+       "e": "🍌",
+       "t": "Banana"
+      },
+      {
+       "e": "🌳",
+       "t": "Tree"
+      }
+     ],
+     "answer": 2,
+     "good": "Buzz! Bee and tree!"
+    },
+    {
+     "q": "What rhymes with mouse?",
+     "show": "🐭",
+     "options": [
+      {
+       "e": "🏠",
+       "t": "House"
+      },
+      {
+       "e": "🐄",
+       "t": "Cow"
+      },
+      {
+       "e": "🍪",
+       "t": "Cookie"
+      }
+     ],
+     "answer": 0,
+     "good": "Squeak! Mouse and house!"
+    },
+    {
+     "q": "What rhymes with goat?",
+     "show": "🐐",
+     "options": [
+      {
+       "e": "🦆",
+       "t": "Duck"
+      },
+      {
+       "e": "⛵",
+       "t": "Boat"
+      },
+      {
+       "e": "🍓",
+       "t": "Berry"
+      }
+     ],
+     "answer": 1,
+     "good": "Yay! Goat and boat!"
+    },
+    {
+     "q": "What rhymes with frog?",
+     "show": "🐸",
+     "options": [
+      {
+       "e": "🐱",
+       "t": "Cat"
+      },
+      {
+       "e": "🌞",
+       "t": "Sun"
+      },
+      {
+       "e": "🐶",
+       "t": "Dog"
+      }
+     ],
+     "answer": 2,
+     "good": "Ribbit! Frog and dog!"
+    },
+    {
+     "q": "What rhymes with bear?",
+     "show": "🐻",
+     "options": [
+      {
+       "e": "🍐",
+       "t": "Pear"
+      },
+      {
+       "e": "🐘",
+       "t": "Elephant"
+      },
+      {
+       "e": "🚌",
+       "t": "Bus"
+      }
+     ],
+     "answer": 0,
+     "good": "Super! Bear and pear!"
+    }
+   ]
+  },
+  {
+   "id": "what-comes-next-pattern",
+   "type": "puzzles",
+   "title": "What Comes Next?",
+   "desc": "Finish the fun pattern!",
+   "difficulty": "easy",
+   "instructions": "Look at the pattern and tap what comes next.",
+   "questions": [
+    {
+     "q": "What comes next?",
+     "show": "🌙⭐🌙⭐🌙 ?",
+     "options": [
+      {
+       "e": "⭐",
+       "t": "Star"
+      },
+      {
+       "e": "🌙",
+       "t": "Moon"
+      }
+     ],
+     "answer": 0,
+     "good": "Yes! Moon, star, moon, star!"
+    },
+    {
+     "q": "What comes next?",
+     "show": "🍎🍌🍎🍌🍎 ?",
+     "options": [
+      {
+       "e": "🍎",
+       "t": "Apple"
+      },
+      {
+       "e": "🍌",
+       "t": "Banana"
+      },
+      {
+       "e": "🍇",
+       "t": "Grapes"
+      }
+     ],
+     "answer": 1,
+     "good": "Yummy! Apple, banana!"
+    },
+    {
+     "q": "What comes next?",
+     "show": "🐶🐱🐭🐶🐱 ?",
+     "options": [
+      {
+       "e": "🐶",
+       "t": "Dog"
+      },
+      {
+       "e": "🐱",
+       "t": "Cat"
+      },
+      {
+       "e": "🐭",
+       "t": "Mouse"
+      }
+     ],
+     "answer": 2,
+     "good": "Great! Dog, cat, mouse!"
+    },
+    {
+     "q": "What comes next?",
+     "show": "🔴🔵🔴🔵 ?",
+     "options": [
+      {
+       "e": "🔴",
+       "t": "Red"
+      },
+      {
+       "e": "🔵",
+       "t": "Blue"
+      },
+      {
+       "e": "🟢",
+       "t": "Green"
+      }
+     ],
+     "answer": 0,
+     "good": "Well done! Red, blue, red, blue!"
+    },
+    {
+     "q": "What comes next?",
+     "show": "🌞🌞☁️🌞🌞 ?",
+     "options": [
+      {
+       "e": "🌞",
+       "t": "Sun"
+      },
+      {
+       "e": "☁️",
+       "t": "Cloud"
+      },
+      {
+       "e": "🌈",
+       "t": "Rainbow"
+      }
+     ],
+     "answer": 1,
+     "good": "Super! Sun, sun, cloud!"
+    },
+    {
+     "q": "What comes next?",
+     "show": "🚗🚲🚗🚲🚗 ?",
+     "options": [
+      {
+       "e": "🚌",
+       "t": "Bus"
+      },
+      {
+       "e": "🚗",
+       "t": "Car"
+      },
+      {
+       "e": "🚲",
+       "t": "Bike"
+      }
+     ],
+     "answer": 2,
+     "good": "Vroom! Car, bike, car, bike!"
+    },
+    {
+     "q": "What comes next?",
+     "show": "🟡🟡🟣🟡🟡 ?",
+     "options": [
+      {
+       "e": "🟡",
+       "t": "Yellow"
+      },
+      {
+       "e": "🟣",
+       "t": "Purple"
+      }
+     ],
+     "answer": 1,
+     "good": "Yay! Yellow, yellow, purple!"
+    }
+   ]
+  },
+  {
+   "id": "spot-the-odd-one",
+   "type": "observation",
+   "title": "Spot the Odd One",
+   "desc": "Find the one that is different!",
+   "difficulty": "medium",
+   "instructions": "Look closely and tap the one that does not belong.",
+   "questions": [
+    {
+     "q": "Which one is not a fruit?",
+     "options": [
+      {
+       "e": "🍎",
+       "t": "Apple"
+      },
+      {
+       "e": "🍌",
+       "t": "Banana"
+      },
+      {
+       "e": "🚗",
+       "t": "Car"
+      },
+      {
+       "e": "🍇",
+       "t": "Grapes"
+      }
+     ],
+     "answer": 2,
+     "good": "Yes! A car is not a fruit!"
+    },
+    {
+     "q": "Which one is not an animal?",
+     "options": [
+      {
+       "e": "👟",
+       "t": "Shoe"
+      },
+      {
+       "e": "🐶",
+       "t": "Dog"
+      },
+      {
+       "e": "🐱",
+       "t": "Cat"
+      },
+      {
+       "e": "🐰",
+       "t": "Rabbit"
+      }
+     ],
+     "answer": 0,
+     "good": "Great! A shoe is not an animal!"
+    },
+    {
+     "q": "Which one cannot fly?",
+     "options": [
+      {
+       "e": "🐦",
+       "t": "Bird"
+      },
+      {
+       "e": "🦋",
+       "t": "Butterfly"
+      },
+      {
+       "e": "✈️",
+       "t": "Plane"
+      },
+      {
+       "e": "🐢",
+       "t": "Turtle"
+      }
+     ],
+     "answer": 3,
+     "good": "Right! A turtle walks slowly!"
+    },
+    {
+     "q": "Which one is not round?",
+     "options": [
+      {
+       "e": "⚽",
+       "t": "Ball"
+      },
+      {
+       "e": "📘",
+       "t": "Book"
+      },
+      {
+       "e": "🍊",
+       "t": "Orange"
+      },
+      {
+       "e": "🌕",
+       "t": "Moon"
+      }
+     ],
+     "answer": 1,
+     "good": "Well done! A book is not round!"
+    },
+    {
+     "q": "What is missing?",
+     "show": "🍎🍓🍌 🍎 ? 🍌",
+     "options": [
+      {
+       "e": "🍐",
+       "t": "Pear"
+      },
+      {
+       "e": "🍓",
+       "t": "Berry"
+      },
+      {
+       "e": "🍌",
+       "t": "Banana"
+      }
+     ],
+     "answer": 1,
+     "good": "Super! The strawberry was missing!"
+    },
+    {
+     "q": "What is missing?",
+     "show": "🐷🐮🐑 🐷 ? 🐑",
+     "options": [
+      {
+       "e": "🐶",
+       "t": "Dog"
+      },
+      {
+       "e": "🐔",
+       "t": "Hen"
+      },
+      {
+       "e": "🐮",
+       "t": "Cow"
+      }
+     ],
+     "answer": 2,
+     "good": "Moo! The cow was missing!"
+    },
+    {
+     "q": "Which one do we wear?",
+     "options": [
+      {
+       "e": "🧢",
+       "t": "Cap"
+      },
+      {
+       "e": "🍕",
+       "t": "Pizza"
+      },
+      {
+       "e": "🌳",
+       "t": "Tree"
+      },
+      {
+       "e": "🚌",
+       "t": "Bus"
+      }
+     ],
+     "answer": 0,
+     "good": "Yes! We wear a cap!"
+    },
+    {
+     "q": "Which one is not a toy?",
+     "options": [
+      {
+       "e": "🧸",
+       "t": "Teddy"
+      },
+      {
+       "e": "🪁",
+       "t": "Kite"
+      },
+      {
+       "e": "🥕",
+       "t": "Carrot"
+      },
+      {
+       "e": "⚽",
+       "t": "Ball"
+      }
+     ],
+     "answer": 2,
+     "good": "Crunch! A carrot is food, not a toy!"
+    }
+   ]
+  },
+  {
+   "id": "big-small-opposites",
+   "type": "vocabulary",
+   "title": "Opposite Friends",
+   "desc": "Big and small, hot and cold!",
+   "difficulty": "easy",
+   "instructions": "Listen and tap the right picture.",
+   "questions": [
+    {
+     "q": "Which one is big?",
+     "options": [
+      {
+       "e": "🐭",
+       "t": "Mouse"
+      },
+      {
+       "e": "🐘",
+       "t": "Elephant"
+      }
+     ],
+     "answer": 1,
+     "good": "Yes! The elephant is so big!"
+    },
+    {
+     "q": "Which one is small?",
+     "options": [
+      {
+       "e": "🐜",
+       "t": "Ant"
+      },
+      {
+       "e": "🦒",
+       "t": "Giraffe"
+      }
+     ],
+     "answer": 0,
+     "good": "Great! The ant is tiny!"
+    },
+    {
+     "q": "Which one is hot?",
+     "options": [
+      {
+       "e": "🍦",
+       "t": "Ice cream"
+      },
+      {
+       "e": "⛄",
+       "t": "Snowman"
+      },
+      {
+       "e": "🔥",
+       "t": "Fire"
+      }
+     ],
+     "answer": 2,
+     "good": "Right! Fire is hot. Do not touch!"
+    },
+    {
+     "q": "Which one is cold?",
+     "options": [
+      {
+       "e": "☀️",
+       "t": "Sun"
+      },
+      {
+       "e": "🧊",
+       "t": "Ice"
+      },
+      {
+       "e": "☕",
+       "t": "Tea"
+      }
+     ],
+     "answer": 1,
+     "good": "Brrr! Ice is cold!"
+    },
+    {
+     "q": "Which one is fast?",
+     "options": [
+      {
+       "e": "🚀",
+       "t": "Rocket"
+      },
+      {
+       "e": "🐌",
+       "t": "Snail"
+      }
+     ],
+     "answer": 0,
+     "good": "Whoosh! The rocket is fast!"
+    },
+    {
+     "q": "Which one is slow?",
+     "options": [
+      {
+       "e": "🐎",
+       "t": "Horse"
+      },
+      {
+       "e": "🐢",
+       "t": "Turtle"
+      }
+     ],
+     "answer": 1,
+     "good": "Yes! The turtle is slow and steady!"
+    },
+    {
+     "q": "Which one is happy?",
+     "options": [
+      {
+       "e": "😢",
+       "t": "Sad"
+      },
+      {
+       "e": "😠",
+       "t": "Angry"
+      },
+      {
+       "e": "😀",
+       "t": "Happy"
+      }
+     ],
+     "answer": 2,
+     "good": "Big smile! Happy face!"
+    },
+    {
+     "q": "Which one is day?",
+     "options": [
+      {
+       "e": "🌞",
+       "t": "Day"
+      },
+      {
+       "e": "🌙",
+       "t": "Night"
+      }
+     ],
+     "answer": 0,
+     "good": "Good morning! The sun is out!"
+    }
+   ]
+  },
+  {
+   "id": "garden-pairs-memory",
+   "type": "memory",
+   "title": "Garden Pairs",
+   "desc": "Find the matching garden friends!",
+   "difficulty": "easy",
+   "instructions": "Tap two cards to find a pair.",
+   "pairs": [
+    "🐞",
+    "🌻",
+    "🐝",
+    "🍄",
+    "🐛"
+   ]
+  },
+  {
+   "id": "count-the-stars-and-more",
+   "type": "counting",
+   "title": "Count With Me",
+   "desc": "Count up to 10!",
+   "difficulty": "medium",
+   "instructions": "Count and tap the right number.",
+   "questions": [
+    {
+     "q": "How many stars?",
+     "show": "⭐⭐⭐",
+     "options": [
+      {
+       "t": "3"
+      },
+      {
+       "t": "2"
+      },
+      {
+       "t": "4"
+      }
+     ],
+     "answer": 0,
+     "good": "Twinkle! 3 stars!"
+    },
+    {
+     "q": "How many apples?",
+     "show": "🍎🍎🍎🍎🍎",
+     "options": [
+      {
+       "t": "4"
+      },
+      {
+       "t": "5"
+      },
+      {
+       "t": "6"
+      }
+     ],
+     "answer": 1,
+     "good": "Crunchy! 5 apples!"
+    },
+    {
+     "q": "How many ducks?",
+     "show": "🦆🦆",
+     "options": [
+      {
+       "t": "1"
+      },
+      {
+       "t": "3"
+      },
+      {
+       "t": "2"
+      }
+     ],
+     "answer": 2,
+     "good": "Quack! 2 ducks!"
+    },
+    {
+     "q": "How many cars?",
+     "show": "🚗🚗🚗🚗🚗🚗🚗",
+     "options": [
+      {
+       "t": "7"
+      },
+      {
+       "t": "6"
+      },
+      {
+       "t": "8"
+      }
+     ],
+     "answer": 0,
+     "good": "Vroom! 7 cars!"
+    },
+    {
+     "q": "How many cookies?",
+     "show": "🍪🍪🍪🍪🍪🍪🍪🍪🍪",
+     "options": [
+      {
+       "t": "8"
+      },
+      {
+       "t": "9"
+      },
+      {
+       "t": "10"
+      }
+     ],
+     "answer": 1,
+     "good": "Yummy! 9 cookies!"
+    },
+    {
+     "q": "How many teddy bears?",
+     "show": "🧸🧸🧸🧸",
+     "options": [
+      {
+       "t": "5"
+      },
+      {
+       "t": "3"
+      },
+      {
+       "t": "4"
+      }
+     ],
+     "answer": 2,
+     "good": "Cuddly! 4 teddy bears!"
+    },
+    {
+     "q": "How many chicks?",
+     "show": "🐥🐥🐥🐥🐥🐥🐥🐥🐥🐥",
+     "options": [
+      {
+       "t": "10"
+      },
+      {
+       "t": "9"
+      },
+      {
+       "t": "8"
+      }
+     ],
+     "answer": 0,
+     "good": "Cheep cheep! 10 chicks!"
+    },
+    {
+     "q": "How many turtles?",
+     "show": "🐢🐢🐢🐢🐢🐢",
+     "options": [
+      {
+       "t": "5"
+      },
+      {
+       "t": "6"
+      },
+      {
+       "t": "7"
+      }
+     ],
+     "answer": 1,
+     "good": "Slow and steady! 6 turtles!"
+    }
+   ]
+  }
+ ],
+ "report": {
+  "batch": "B-20261023-01",
+  "date": "2026-10-23",
+  "scheduled": "08:48 Asia/Kuwait",
+  "runs": [
+   {
+    "at": "2026-10-23T05:50:26+00:00",
+    "kind": "scheduled"
+   }
+  ],
+  "started": "2026-10-23T05:50:26+00:00",
+  "finished": "2026-10-23T06:00:16.750Z",
+  "generated": 120,
+  "duplicates": 5,
+  "exactDuplicates": 3,
+  "nearDuplicates": 2,
+  "rejected": 0,
+  "awaitingReview": 0,
+  "unique": 115,
+  "validated": 115,
+  "published": 115,
+  "addedThisRun": 0,
+  "target": 100,
+  "achieved": true,
+  "perCat": {
+   "gkca": {
+    "target": 15,
+    "published": 18
+   },
+   "eng": {
+    "target": 10,
+    "published": 11
+   },
+   "quant": {
+    "target": 15,
+    "published": 16
+   },
+   "reas": {
+    "target": 15,
+    "published": 17
+   },
+   "sci": {
+    "target": 10,
+    "published": 12
+   },
+   "comp": {
+    "target": 10,
+    "published": 12
+   },
+   "deg": {
+    "target": 15,
+    "published": 17
+   },
+   "compx": {
+    "target": 10,
+    "published": 12
+   }
+  },
+  "difficulty": {
+   "easy": 30,
+   "medium": 40,
+   "hard": 20,
+   "advanced": 10
+  },
+  "tests": 4,
+  "newTests": [
+   "DMT-20261023-N1",
+   "DMT-20261023-N2",
+   "DMT-20261023-N3",
+   "DMT-20261023-N4"
+  ],
+  "modelPapers": 4,
+  "officialChecked": 0,
+  "officialNew": 0,
+  "psc": {
+   "sslc": 35,
+   "plus2": 27,
+   "degree": 24
+  },
+  "currentAffairs": 5,
+  "pdf": "Generated in the app for every test (question paper, answer key, solutions)",
+  "errors": [],
+  "retries": 0,
+  "newSubjects": [],
+  "newTopics": [],
+  "status": "Completed",
+  "bytes": 99569
+ },
+ "generatedAt": "2026-10-23T06:00:16.751Z",
+ "source": "scheduled"
+}

@@ -1,0 +1,330 @@
+[
+ {
+  "k": "deg-1301",
+  "cat": "deg",
+  "s": "acc",
+  "t": "Interest on drawings",
+  "lvl": "degree",
+  "d": "hard",
+  "q": "A partner withdrew ₹2,000 at the beginning of every month for 12 months. If interest on drawings is charged at 6% per annum, what is the interest on drawings for the year?",
+  "o": [
+   "₹780",
+   "₹720",
+   "₹660",
+   "₹1,440"
+  ],
+  "a": 0,
+  "e": "Drawings made at the beginning of each month carry an average period of 6.5 months: ₹24,000 × 6% × 6.5/12 = ₹780.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-1302",
+  "cat": "deg",
+  "s": "acc",
+  "t": "Revaluation account",
+  "lvl": "degree",
+  "d": "easy",
+  "q": "On the reconstitution of a partnership firm, a decrease in the value of an asset is:",
+  "o": [
+   "Credited to Revaluation Account",
+   "Debited to Revaluation Account",
+   "Debited to Realisation Account",
+   "Credited to the Cash Account"
+  ],
+  "a": 1,
+  "e": "A fall in asset value is a loss on revaluation, so it is Debited to Revaluation Account.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-1303",
+  "cat": "deg",
+  "s": "dcs",
+  "t": "CPU scheduling",
+  "lvl": "degree",
+  "d": "medium",
+  "q": "Which CPU scheduling algorithm gives the minimum average waiting time for a given set of processes that are all available at the same time?",
+  "o": [
+   "First Come First Served (FCFS)",
+   "Round Robin",
+   "Priority scheduling with aging",
+   "Shortest Job First (SJF)"
+  ],
+  "a": 3,
+  "e": "Running the shortest burst first provably minimises average waiting time, so the answer is Shortest Job First (SJF).",
+  "lang": "en"
+ },
+ {
+  "k": "deg-1304",
+  "cat": "deg",
+  "s": "dcs",
+  "t": "Transactions (ACID)",
+  "lvl": "degree",
+  "d": "easy",
+  "q": "In database transactions, which ACID property ensures that a transaction is either executed completely or not executed at all?",
+  "o": [
+   "Consistency",
+   "Isolation",
+   "Atomicity",
+   "Durability"
+  ],
+  "a": 2,
+  "e": "Atomicity is the 'all or nothing' property: a transaction's operations are all applied or all rolled back.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-1305",
+  "cat": "deg",
+  "s": "dmath",
+  "t": "Definite integrals",
+  "lvl": "entrance",
+  "d": "medium",
+  "q": "Evaluate the definite integral of sin x dx from x = 0 to x = π.",
+  "o": [
+   "3",
+   "2",
+   "1",
+   "4"
+  ],
+  "a": 1,
+  "e": "The antiderivative is −cos x; evaluating gives −cos π + cos 0 = 2.",
+  "lang": "en",
+  "calc": "2"
+ },
+ {
+  "k": "deg-1306",
+  "cat": "deg",
+  "s": "dmath",
+  "t": "Standard deviation",
+  "lvl": "degree",
+  "d": "hard",
+  "q": "What is the (population) standard deviation of the data set 2, 4, 4, 4, 5, 5, 7, 9?",
+  "o": [
+   "4",
+   "1.5",
+   "3",
+   "2"
+  ],
+  "a": 3,
+  "e": "Mean = 5; the squared deviations sum to 32, so variance = 32/8 = 4 and standard deviation = √4 = 2.",
+  "lang": "en",
+  "calc": "sqrt(((2-5)^2+3*(4-5)^2+2*(5-5)^2+(7-5)^2+(9-5)^2)/8)"
+ },
+ {
+  "k": "deg-1307",
+  "cat": "deg",
+  "s": "dmath",
+  "t": "Sum of squares",
+  "lvl": "entrance",
+  "d": "medium",
+  "q": "What is the value of 1² + 2² + 3² + … + 10²?",
+  "o": [
+   "385",
+   "330",
+   "405",
+   "355"
+  ],
+  "a": 0,
+  "e": "Using n(n + 1)(2n + 1)/6 with n = 10: 10 × 11 × 21/6 = 385.",
+  "lang": "en",
+  "calc": "10*11*21/6"
+ },
+ {
+  "k": "deg-1308",
+  "cat": "deg",
+  "s": "dmath",
+  "t": "Relations",
+  "lvl": "degree",
+  "d": "easy",
+  "q": "A relation on a set that is reflexive, symmetric and transitive is called:",
+  "o": [
+   "A partial order relation",
+   "An equivalence relation",
+   "A total order relation",
+   "An antisymmetric relation"
+  ],
+  "a": 1,
+  "e": "A relation having all three properties (reflexive, symmetric, transitive) is an equivalence relation.",
+  "lang": "en",
+  "nocalc": true
+ },
+ {
+  "k": "deg-1309",
+  "cat": "deg",
+  "s": "dphy",
+  "t": "Total internal reflection",
+  "lvl": "entrance",
+  "d": "medium",
+  "q": "What is the critical angle for light travelling from glass of refractive index √2 into air?",
+  "o": [
+   "30°",
+   "60°",
+   "45°",
+   "90°"
+  ],
+  "a": 2,
+  "e": "sin C = 1/μ = 1/√2, so the critical angle C = 45°.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-1310",
+  "cat": "deg",
+  "s": "dphy",
+  "t": "Superconductivity",
+  "lvl": "degree",
+  "d": "hard",
+  "q": "The expulsion of magnetic flux from the interior of a material when it is cooled below its critical temperature and becomes superconducting is called the:",
+  "o": [
+   "Josephson effect",
+   "Zeeman effect",
+   "Seebeck effect",
+   "Meissner effect"
+  ],
+  "a": 3,
+  "e": "A superconductor behaves as a perfect diamagnet and expels magnetic field lines; this is the Meissner effect.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-1311",
+  "cat": "deg",
+  "s": "dchem",
+  "t": "Hydrogen bonding",
+  "lvl": "entrance",
+  "d": "medium",
+  "q": "Which of the following hydrogen halides has the highest boiling point?",
+  "o": [
+   "HF",
+   "HCl",
+   "HBr",
+   "HI"
+  ],
+  "a": 0,
+  "e": "Strong intermolecular hydrogen bonding gives HF the highest boiling point among the hydrogen halides.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-1312",
+  "cat": "deg",
+  "s": "dchem",
+  "t": "Alcohols",
+  "lvl": "degree",
+  "d": "advanced",
+  "q": "The Lucas test, used to distinguish primary, secondary and tertiary alcohols, uses which reagent?",
+  "o": [
+   "Ammoniacal silver nitrate solution",
+   "Fehling's solution",
+   "Anhydrous ZnCl₂ in concentrated HCl",
+   "Alkaline KMnO₄ solution"
+  ],
+  "a": 2,
+  "e": "Lucas reagent is Anhydrous ZnCl₂ in concentrated HCl; tertiary alcohols turn it turbid at once, secondary ones in a few minutes.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-1313",
+  "cat": "deg",
+  "s": "dbio",
+  "t": "Plasma membrane",
+  "lvl": "degree",
+  "d": "medium",
+  "q": "The fluid mosaic model of the structure of the plasma membrane was proposed by:",
+  "o": [
+   "Watson and Crick",
+   "Singer and Nicolson",
+   "Danielli and Davson",
+   "Schleiden and Schwann"
+  ],
+  "a": 1,
+  "e": "Singer and Nicolson proposed the fluid mosaic model in 1972, with proteins floating in a fluid lipid bilayer.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-1314",
+  "cat": "deg",
+  "s": "decon",
+  "t": "Profit maximisation",
+  "lvl": "degree",
+  "d": "medium",
+  "q": "Under any market structure, the necessary (first-order) condition for a firm to maximise profit is:",
+  "o": [
+   "Average revenue = Average cost",
+   "Price = Average variable cost",
+   "Total revenue = Total cost",
+   "Marginal revenue = Marginal cost"
+  ],
+  "a": 3,
+  "e": "Profit is maximised where Marginal revenue = Marginal cost (with MC cutting MR from below).",
+  "lang": "en"
+ },
+ {
+  "k": "deg-1315",
+  "cat": "deg",
+  "s": "mgmt",
+  "t": "Motivation theories",
+  "lvl": "degree",
+  "d": "hard",
+  "q": "The expectancy theory of motivation, which relates motivation to valence, expectancy and instrumentality, was proposed by:",
+  "o": [
+   "Victor Vroom",
+   "Clayton Alderfer",
+   "David McClelland",
+   "J. Stacy Adams"
+  ],
+  "a": 0,
+  "e": "Victor Vroom proposed expectancy theory in 1964: motivation depends on valence, expectancy and instrumentality.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-1316",
+  "cat": "deg",
+  "s": "mgmt",
+  "t": "Principles of management",
+  "lvl": "degree",
+  "d": "advanced",
+  "q": "Henri Fayol's 'gang plank', which allows direct communication between employees at the same level, is an exception to which principle?",
+  "o": [
+   "Unity of direction",
+   "Esprit de corps",
+   "Scalar chain",
+   "Centralisation"
+  ],
+  "a": 2,
+  "e": "The gang plank is a short-cut within the Scalar chain principle, letting same-level employees communicate without going up the hierarchy.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-1317",
+  "cat": "deg",
+  "s": "hum",
+  "t": "Political thought",
+  "lvl": "degree",
+  "d": "easy",
+  "q": "Who wrote 'Utopia' (1516), describing an imaginary island with an ideal society?",
+  "o": [
+   "Francis Bacon",
+   "Thomas More",
+   "Thomas Hobbes",
+   "John Milton"
+  ],
+  "a": 1,
+  "e": "'Utopia' was written by Sir Thomas More, an English humanist and statesman.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-1318",
+  "cat": "deg",
+  "s": "engg",
+  "t": "Heat transfer",
+  "lvl": "entrance",
+  "d": "easy",
+  "q": "Fourier's law, which states that the heat flux is proportional to the negative temperature gradient, governs which mode of heat transfer?",
+  "o": [
+   "Convection",
+   "Radiation",
+   "Evaporation",
+   "Conduction"
+  ],
+  "a": 3,
+  "e": "Fourier's law (q = −k dT/dx) is the basic law of heat Conduction through a material.",
+  "lang": "en"
+ }
+]
