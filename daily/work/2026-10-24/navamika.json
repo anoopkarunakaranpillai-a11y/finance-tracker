@@ -1,0 +1,39 @@
+[
+ {"id":"trace-y-z-small","type":"tracing","title":"Trace y and z","desc":"Finish the little letters!","difficulty":"easy","instructions":"Follow the dots with your finger.","chars":["y","z","Y","Z"]},
+ {"id":"starts-with-letter","type":"alphabet","title":"Starts With…","desc":"Find the picture that starts with the letter!","difficulty":"easy","instructions":"Listen to the letter and tap the picture.","questions":[
+  {"q":"Which one starts with B?","show":"B","options":[{"e":"⚽","t":"Ball"},{"e":"🐱","t":"Cat"},{"e":"🍎","t":"Apple"}],"answer":0,"good":"Yes! B for Ball!"},
+  {"q":"Which one starts with D?","show":"D","options":[{"e":"🐟","t":"Fish"},{"e":"🐶","t":"Dog"},{"e":"☀️","t":"Sun"}],"answer":1,"good":"Woof! D for Dog!"},
+  {"q":"Which one starts with M?","show":"M","options":[{"e":"🚗","t":"Car"},{"e":"🌳","t":"Tree"},{"e":"🐵","t":"Monkey"}],"answer":2,"good":"Ooh ooh! M for Monkey!"},
+  {"q":"Which one starts with S?","show":"S","options":[{"e":"🐍","t":"Snake"},{"e":"🐘","t":"Elephant"},{"e":"🍌","t":"Banana"}],"answer":0,"good":"Sss! S for Snake!"},
+  {"q":"Which one starts with H?","show":"H","options":[{"e":"🐄","t":"Cow"},{"e":"🎩","t":"Hat"},{"e":"🦆","t":"Duck"}],"answer":1,"good":"Great! H for Hat!"},
+  {"q":"Which one starts with E?","show":"E","options":[{"e":"🐸","t":"Frog"},{"e":"🍇","t":"Grapes"},{"e":"🥚","t":"Egg"}],"answer":2,"good":"Yay! E for Egg!"}
+ ]},
+ {"id":"shape-friends","type":"shapes","title":"Shape Friends","desc":"Can you spot the shape?","difficulty":"easy","instructions":"Tap the shape I ask for.","questions":[
+  {"q":"Find the heart.","options":[{"s":"circle","c":"#FF8A80"},{"s":"heart","c":"#FF8A80"},{"s":"square","c":"#FF8A80"}],"answer":1,"good":"Love it! That's a heart!"},
+  {"q":"Find the triangle.","options":[{"s":"triangle","c":"#81C784"},{"s":"star","c":"#81C784"},{"s":"oval","c":"#81C784"}],"answer":0,"good":"Three sides! Triangle!"},
+  {"q":"Find the star.","options":[{"s":"square","c":"#FFD54F"},{"s":"circle","c":"#FFD54F"},{"s":"star","c":"#FFD54F"}],"answer":2,"good":"Twinkle twinkle! A star!"},
+  {"q":"Find the circle.","options":[{"s":"rectangle","c":"#64B5F6"},{"s":"diamond","c":"#64B5F6"},{"s":"triangle","c":"#64B5F6"},{"s":"circle","c":"#64B5F6"}],"answer":3,"good":"Round and round! Circle!"},
+  {"q":"Find the square.","options":[{"s":"square","c":"#BA68C8"},{"s":"heart","c":"#BA68C8"},{"s":"oval","c":"#BA68C8"}],"answer":0,"good":"Four equal sides! Square!"}
+ ]},
+ {"id":"fruit-guess","type":"fruits","title":"Fruit Guess","desc":"Yummy fruit riddles!","difficulty":"medium","instructions":"Listen to the clue and tap the fruit.","questions":[
+  {"q":"I am yellow and long. Monkeys love me!","options":[{"e":"🍎","t":"Apple"},{"e":"🍌","t":"Banana"},{"e":"🍇","t":"Grapes"}],"answer":1,"good":"Yes! A yummy banana!"},
+  {"q":"I am green outside and red inside, with black seeds.","options":[{"e":"🍉","t":"Watermelon"},{"e":"🍓","t":"Strawberry"},{"e":"🍊","t":"Orange"}],"answer":0,"good":"Juicy watermelon!"},
+  {"q":"I am small and purple. I grow in a bunch.","options":[{"e":"🍍","t":"Pineapple"},{"e":"🍐","t":"Pear"},{"e":"🍇","t":"Grapes"}],"answer":2,"good":"Bunch of grapes!"},
+  {"q":"I am orange and round. My name is my colour!","options":[{"e":"🍋","t":"Lemon"},{"e":"🍒","t":"Cherry"},{"e":"🍑","t":"Peach"},{"e":"🍊","t":"Orange"}],"answer":3,"good":"Orange is orange!"},
+  {"q":"I am red with tiny seeds on the outside.","options":[{"e":"🍓","t":"Strawberry"},{"e":"🍌","t":"Banana"},{"e":"🥥","t":"Coconut"}],"answer":0,"good":"Sweet strawberry!"}
+ ]},
+ {"id":"what-goes-with","type":"matching","title":"What Goes With?","desc":"Find the best friend for each thing!","difficulty":"easy","instructions":"Tap the thing that goes with the picture.","questions":[
+  {"q":"What goes with a toothbrush?","show":"🪥","options":[{"e":"🧦","t":"Sock"},{"e":"🦷","t":"Tooth"},{"e":"🍕","t":"Pizza"}],"answer":1,"good":"Brush brush! Clean teeth!"},
+  {"q":"What goes with rain?","show":"🌧️","options":[{"e":"☂️","t":"Umbrella"},{"e":"🕶️","t":"Sunglasses"},{"e":"🏖️","t":"Beach"}],"answer":0,"good":"Stay dry with an umbrella!"},
+  {"q":"What goes with a sock?","show":"🧦","options":[{"e":"🎩","t":"Hat"},{"e":"🧤","t":"Gloves"},{"e":"👟","t":"Shoe"}],"answer":2,"good":"Sock and shoe!"},
+  {"q":"What goes with a cup?","show":"☕","options":[{"e":"🚲","t":"Bicycle"},{"e":"🍽️","t":"Plate"},{"e":"🐢","t":"Turtle"}],"answer":1,"good":"Time for tea!"},
+  {"q":"What goes with a bee?","show":"🐝","options":[{"e":"🚌","t":"Bus"},{"e":"🧊","t":"Ice"},{"e":"🌻","t":"Flower"}],"answer":2,"good":"Buzz buzz! Bees love flowers!"}
+ ]},
+ {"id":"how-many-fingers","type":"numbers","title":"Number Hop","desc":"Which number is it?","difficulty":"medium","instructions":"Look at the numbers and tap the answer.","questions":[
+  {"q":"Which number is the biggest?","options":[{"t":"3"},{"t":"8"},{"t":"5"}],"answer":1,"good":"8 is the biggest!"},
+  {"q":"Which number is the smallest?","options":[{"t":"6"},{"t":"9"},{"t":"2"}],"answer":2,"good":"2 is the smallest!"},
+  {"q":"What comes between 4 and 6?","show":"4, ?, 6","options":[{"t":"5"},{"t":"7"},{"t":"3"}],"answer":0,"good":"4, 5, 6!"},
+  {"q":"What comes between 10 and 12?","show":"10, ?, 12","options":[{"t":"13"},{"t":"9"},{"t":"14"},{"t":"11"}],"answer":3,"good":"10, 11, 12! Super!"},
+  {"q":"Count on: 1, 2, 3, ?","show":"1, 2, 3, ?","options":[{"t":"5"},{"t":"4"},{"t":"2"}],"answer":1,"good":"Four! Well done!"}
+ ]}
+]

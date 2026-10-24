@@ -1,5 +1,6 @@
 {
  "dates": [
+  "2026-10-24",
   "2026-10-23",
   "2026-10-22",
   "2026-10-21",
@@ -19,8 +20,8 @@
   "2026-10-06",
   "2026-10-05"
  ],
- "latest": "2026-10-23",
- "updated": "2026-10-23T06:00:16.850Z",
+ "latest": "2026-10-24",
+ "updated": "2026-10-24T05:57:05.370Z",
  "reports": {
   "2026-10-10": {
    "batch": "B-20261010-01",
@@ -190,15 +191,28 @@
    "officialNew": 0,
    "ca": 5,
    "finished": "2026-10-23T06:00:16.750Z"
+  },
+  "2026-10-24": {
+   "batch": "B-20261024-01",
+   "status": "Completed",
+   "published": 112,
+   "target": 100,
+   "tests": 4,
+   "review": 0,
+   "rejected": 3,
+   "duplicates": 5,
+   "officialNew": 0,
+   "ca": 5,
+   "finished": "2026-10-24T05:56:58.579Z"
   }
  },
  "totals": {
   "builtin": 388,
-  "daily": 1873,
-  "questions": 2261,
-  "days": 18
+  "daily": 1985,
+  "questions": 2373,
+  "days": 19
  },
- "next": "2026-10-24T05:48:00.000Z",
+ "next": "2026-10-25T05:48:00.000Z",
  "config": {
   "enabled": true,
   "time": "08:48",

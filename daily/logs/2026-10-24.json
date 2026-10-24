@@ -1,0 +1,607 @@
+{
+ "date": "2026-10-24",
+ "batch": "B-20261024-01",
+ "at": "2026-10-24T05:56:58.579Z",
+ "candidates": [
+  {
+   "k": "gkca-1401",
+   "result": "published",
+   "id": "d20261024x001"
+  },
+  {
+   "k": "gkca-1402",
+   "result": "published",
+   "id": "d20261024x002"
+  },
+  {
+   "k": "gkca-1403",
+   "result": "published",
+   "id": "d20261024x003"
+  },
+  {
+   "k": "gkca-1404",
+   "result": "published",
+   "id": "d20261024x004"
+  },
+  {
+   "k": "gkca-1405",
+   "result": "published",
+   "id": "d20261024x005"
+  },
+  {
+   "k": "gkca-1406",
+   "result": "published",
+   "id": "d20261024x006"
+  },
+  {
+   "k": "gkca-1407",
+   "result": "published",
+   "id": "d20261024x007"
+  },
+  {
+   "k": "gkca-1408",
+   "result": "published",
+   "id": "d20261024x008"
+  },
+  {
+   "k": "gkca-1409",
+   "result": "published",
+   "id": "d20261024x009"
+  },
+  {
+   "k": "gkca-1410",
+   "result": "published",
+   "id": "d20261024x010"
+  },
+  {
+   "k": "gkca-1411",
+   "result": "published",
+   "id": "d20261024x011"
+  },
+  {
+   "k": "gkca-1412",
+   "result": "published",
+   "id": "d20261024x012"
+  },
+  {
+   "k": "gkca-1413",
+   "result": "published",
+   "id": "d20261024x013"
+  },
+  {
+   "k": "gkca-ca-1401",
+   "result": "published",
+   "id": "d20261024x014"
+  },
+  {
+   "k": "gkca-ca-1402",
+   "result": "published",
+   "id": "d20261024x015"
+  },
+  {
+   "k": "gkca-ca-1403",
+   "result": "published",
+   "id": "d20261024x016"
+  },
+  {
+   "k": "gkca-ca-1404",
+   "result": "published",
+   "id": "d20261024x017"
+  },
+  {
+   "k": "gkca-ca-1405",
+   "result": "published",
+   "id": "d20261024x018"
+  },
+  {
+   "k": "eng-1401",
+   "result": "published",
+   "id": "d20261024x019"
+  },
+  {
+   "k": "eng-1402",
+   "result": "published",
+   "id": "d20261024x020"
+  },
+  {
+   "k": "eng-1403",
+   "result": "published",
+   "id": "d20261024x021"
+  },
+  {
+   "k": "eng-1404",
+   "result": "published",
+   "id": "d20261024x022"
+  },
+  {
+   "k": "eng-1405",
+   "result": "published",
+   "id": "d20261024x023"
+  },
+  {
+   "k": "eng-1406",
+   "result": "published",
+   "id": "d20261024x024"
+  },
+  {
+   "k": "eng-1407",
+   "result": "published",
+   "id": "d20261024x025"
+  },
+  {
+   "k": "eng-1408",
+   "result": "published",
+   "id": "d20261024x026"
+  },
+  {
+   "k": "eng-1409",
+   "result": "published",
+   "id": "d20261024x027"
+  },
+  {
+   "k": "eng-1410",
+   "result": "duplicate",
+   "reason": "same question as 2026-10-21"
+  },
+  {
+   "k": "eng-1411",
+   "result": "published",
+   "id": "d20261024x028"
+  },
+  {
+   "k": "eng-1412",
+   "result": "published",
+   "id": "d20261024x029"
+  },
+  {
+   "k": "quant-1401",
+   "result": "published",
+   "id": "d20261024x030"
+  },
+  {
+   "k": "quant-1402",
+   "result": "published",
+   "id": "d20261024x031"
+  },
+  {
+   "k": "quant-1403",
+   "result": "published",
+   "id": "d20261024x032"
+  },
+  {
+   "k": "quant-1404",
+   "result": "published",
+   "id": "d20261024x033"
+  },
+  {
+   "k": "quant-1405",
+   "result": "published",
+   "id": "d20261024x034"
+  },
+  {
+   "k": "quant-1406",
+   "result": "published",
+   "id": "d20261024x035"
+  },
+  {
+   "k": "quant-1407",
+   "result": "published",
+   "id": "d20261024x036"
+  },
+  {
+   "k": "quant-1408",
+   "result": "published",
+   "id": "d20261024x037"
+  },
+  {
+   "k": "quant-1409",
+   "result": "published",
+   "id": "d20261024x038"
+  },
+  {
+   "k": "quant-1410",
+   "result": "published",
+   "id": "d20261024x039"
+  },
+  {
+   "k": "quant-1411",
+   "result": "rejected",
+   "reason": "more than one option matches the calculated answer"
+  },
+  {
+   "k": "quant-1412",
+   "result": "published",
+   "id": "d20261024x040"
+  },
+  {
+   "k": "quant-1413",
+   "result": "published",
+   "id": "d20261024x041"
+  },
+  {
+   "k": "quant-1414",
+   "result": "published",
+   "id": "d20261024x042"
+  },
+  {
+   "k": "quant-1415",
+   "result": "published",
+   "id": "d20261024x043"
+  },
+  {
+   "k": "quant-1416",
+   "result": "published",
+   "id": "d20261024x044"
+  },
+  {
+   "k": "quant-1417",
+   "result": "published",
+   "id": "d20261024x045"
+  },
+  {
+   "k": "quant-1418",
+   "result": "published",
+   "id": "d20261024x046"
+  },
+  {
+   "k": "reas-1401",
+   "result": "published",
+   "id": "d20261024x047"
+  },
+  {
+   "k": "reas-1402",
+   "result": "published",
+   "id": "d20261024x048"
+  },
+  {
+   "k": "reas-1403",
+   "result": "published",
+   "id": "d20261024x049"
+  },
+  {
+   "k": "reas-1404",
+   "result": "rejected",
+   "reason": "two options are the same"
+  },
+  {
+   "k": "reas-1405",
+   "result": "published",
+   "id": "d20261024x050"
+  },
+  {
+   "k": "reas-1406",
+   "result": "published",
+   "id": "d20261024x051"
+  },
+  {
+   "k": "reas-1407",
+   "result": "published",
+   "id": "d20261024x052"
+  },
+  {
+   "k": "reas-1408",
+   "result": "published",
+   "id": "d20261024x053"
+  },
+  {
+   "k": "reas-1409",
+   "result": "published",
+   "id": "d20261024x054"
+  },
+  {
+   "k": "reas-1410",
+   "result": "published",
+   "id": "d20261024x055"
+  },
+  {
+   "k": "reas-1411",
+   "result": "published",
+   "id": "d20261024x056"
+  },
+  {
+   "k": "reas-1412",
+   "result": "published",
+   "id": "d20261024x057"
+  },
+  {
+   "k": "reas-1413",
+   "result": "published",
+   "id": "d20261024x058"
+  },
+  {
+   "k": "reas-1414",
+   "result": "published",
+   "id": "d20261024x059"
+  },
+  {
+   "k": "reas-1415",
+   "result": "published",
+   "id": "d20261024x060"
+  },
+  {
+   "k": "reas-1416",
+   "result": "published",
+   "id": "d20261024x061"
+  },
+  {
+   "k": "reas-1417",
+   "result": "published",
+   "id": "d20261024x062"
+  },
+  {
+   "k": "reas-1418",
+   "result": "published",
+   "id": "d20261024x063"
+  },
+  {
+   "k": "sci-1401",
+   "result": "published",
+   "id": "d20261024x064"
+  },
+  {
+   "k": "sci-1402",
+   "result": "published",
+   "id": "d20261024x065"
+  },
+  {
+   "k": "sci-1403",
+   "result": "published",
+   "id": "d20261024x066"
+  },
+  {
+   "k": "sci-1404",
+   "result": "published",
+   "id": "d20261024x067"
+  },
+  {
+   "k": "sci-1405",
+   "result": "near-duplicate",
+   "reason": "too close to built-in bank (sci2)"
+  },
+  {
+   "k": "sci-1406",
+   "result": "published",
+   "id": "d20261024x068"
+  },
+  {
+   "k": "sci-1407",
+   "result": "published",
+   "id": "d20261024x069"
+  },
+  {
+   "k": "sci-1408",
+   "result": "published",
+   "id": "d20261024x070"
+  },
+  {
+   "k": "sci-1409",
+   "result": "published",
+   "id": "d20261024x071"
+  },
+  {
+   "k": "sci-1410",
+   "result": "published",
+   "id": "d20261024x072"
+  },
+  {
+   "k": "sci-1411",
+   "result": "rejected",
+   "reason": "two options are the same"
+  },
+  {
+   "k": "sci-1412",
+   "result": "published",
+   "id": "d20261024x073"
+  },
+  {
+   "k": "comp-1401",
+   "result": "published",
+   "id": "d20261024x074"
+  },
+  {
+   "k": "comp-1402",
+   "result": "published",
+   "id": "d20261024x075"
+  },
+  {
+   "k": "comp-1403",
+   "result": "published",
+   "id": "d20261024x076"
+  },
+  {
+   "k": "comp-1404",
+   "result": "published",
+   "id": "d20261024x077"
+  },
+  {
+   "k": "comp-1405",
+   "result": "published",
+   "id": "d20261024x078"
+  },
+  {
+   "k": "comp-1406",
+   "result": "published",
+   "id": "d20261024x079"
+  },
+  {
+   "k": "comp-1407",
+   "result": "published",
+   "id": "d20261024x080"
+  },
+  {
+   "k": "comp-1408",
+   "result": "published",
+   "id": "d20261024x081"
+  },
+  {
+   "k": "comp-1409",
+   "result": "published",
+   "id": "d20261024x082"
+  },
+  {
+   "k": "comp-1410",
+   "result": "published",
+   "id": "d20261024x083"
+  },
+  {
+   "k": "comp-1411",
+   "result": "published",
+   "id": "d20261024x084"
+  },
+  {
+   "k": "comp-1412",
+   "result": "published",
+   "id": "d20261024x085"
+  },
+  {
+   "k": "deg-1401",
+   "result": "published",
+   "id": "d20261024x086"
+  },
+  {
+   "k": "deg-1402",
+   "result": "published",
+   "id": "d20261024x087"
+  },
+  {
+   "k": "deg-1403",
+   "result": "published",
+   "id": "d20261024x088"
+  },
+  {
+   "k": "deg-1404",
+   "result": "near-duplicate",
+   "reason": "too close to built-in bank (xdcs1)"
+  },
+  {
+   "k": "deg-1405",
+   "result": "published",
+   "id": "d20261024x089"
+  },
+  {
+   "k": "deg-1406",
+   "result": "published",
+   "id": "d20261024x090"
+  },
+  {
+   "k": "deg-1407",
+   "result": "published",
+   "id": "d20261024x091"
+  },
+  {
+   "k": "deg-1408",
+   "result": "published",
+   "id": "d20261024x092"
+  },
+  {
+   "k": "deg-1409",
+   "result": "published",
+   "id": "d20261024x093"
+  },
+  {
+   "k": "deg-1410",
+   "result": "published",
+   "id": "d20261024x094"
+  },
+  {
+   "k": "deg-1411",
+   "result": "published",
+   "id": "d20261024x095"
+  },
+  {
+   "k": "deg-1412",
+   "result": "published",
+   "id": "d20261024x096"
+  },
+  {
+   "k": "deg-1413",
+   "result": "published",
+   "id": "d20261024x097"
+  },
+  {
+   "k": "deg-1414",
+   "result": "published",
+   "id": "d20261024x098"
+  },
+  {
+   "k": "deg-1415",
+   "result": "published",
+   "id": "d20261024x099"
+  },
+  {
+   "k": "deg-1416",
+   "result": "published",
+   "id": "d20261024x100"
+  },
+  {
+   "k": "deg-1417",
+   "result": "published",
+   "id": "d20261024x101"
+  },
+  {
+   "k": "deg-1418",
+   "result": "published",
+   "id": "d20261024x102"
+  },
+  {
+   "k": "compx-1401",
+   "result": "published",
+   "id": "d20261024x103"
+  },
+  {
+   "k": "compx-1402",
+   "result": "published",
+   "id": "d20261024x104"
+  },
+  {
+   "k": "compx-1403",
+   "result": "duplicate",
+   "reason": "same question as 2026-10-18"
+  },
+  {
+   "k": "compx-1404",
+   "result": "published",
+   "id": "d20261024x105"
+  },
+  {
+   "k": "compx-1405",
+   "result": "published",
+   "id": "d20261024x106"
+  },
+  {
+   "k": "compx-1406",
+   "result": "published",
+   "id": "d20261024x107"
+  },
+  {
+   "k": "compx-1407",
+   "result": "published",
+   "id": "d20261024x108"
+  },
+  {
+   "k": "compx-1408",
+   "result": "duplicate",
+   "reason": "same question as built-in bank"
+  },
+  {
+   "k": "compx-1409",
+   "result": "published",
+   "id": "d20261024x109"
+  },
+  {
+   "k": "compx-1410",
+   "result": "published",
+   "id": "d20261024x110"
+  },
+  {
+   "k": "compx-1411",
+   "result": "published",
+   "id": "d20261024x111"
+  },
+  {
+   "k": "compx-1412",
+   "result": "published",
+   "id": "d20261024x112"
+  }
+ ]
+}
