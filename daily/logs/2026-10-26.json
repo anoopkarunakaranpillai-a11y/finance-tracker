@@ -1,0 +1,607 @@
+{
+ "date": "2026-10-26",
+ "batch": "B-20261026-01",
+ "at": "2026-10-26T05:58:35.275Z",
+ "candidates": [
+  {
+   "k": "gkca-1601",
+   "result": "published",
+   "id": "d20261026x001"
+  },
+  {
+   "k": "gkca-1602",
+   "result": "published",
+   "id": "d20261026x002"
+  },
+  {
+   "k": "gkca-1603",
+   "result": "published",
+   "id": "d20261026x003"
+  },
+  {
+   "k": "gkca-1604",
+   "result": "published",
+   "id": "d20261026x004"
+  },
+  {
+   "k": "gkca-1605",
+   "result": "published",
+   "id": "d20261026x005"
+  },
+  {
+   "k": "gkca-1606",
+   "result": "published",
+   "id": "d20261026x006"
+  },
+  {
+   "k": "gkca-1607",
+   "result": "published",
+   "id": "d20261026x007"
+  },
+  {
+   "k": "gkca-1608",
+   "result": "published",
+   "id": "d20261026x008"
+  },
+  {
+   "k": "gkca-1609",
+   "result": "published",
+   "id": "d20261026x009"
+  },
+  {
+   "k": "gkca-1610",
+   "result": "published",
+   "id": "d20261026x010"
+  },
+  {
+   "k": "gkca-1611",
+   "result": "published",
+   "id": "d20261026x011"
+  },
+  {
+   "k": "gkca-1612",
+   "result": "published",
+   "id": "d20261026x012"
+  },
+  {
+   "k": "gkca-1613",
+   "result": "published",
+   "id": "d20261026x013"
+  },
+  {
+   "k": "gkca-1651",
+   "result": "published",
+   "id": "d20261026x014"
+  },
+  {
+   "k": "gkca-1652",
+   "result": "published",
+   "id": "d20261026x015"
+  },
+  {
+   "k": "gkca-1653",
+   "result": "published",
+   "id": "d20261026x016"
+  },
+  {
+   "k": "gkca-1654",
+   "result": "published",
+   "id": "d20261026x017"
+  },
+  {
+   "k": "gkca-1655",
+   "result": "published",
+   "id": "d20261026x018"
+  },
+  {
+   "k": "eng-1601",
+   "result": "published",
+   "id": "d20261026x019"
+  },
+  {
+   "k": "eng-1602",
+   "result": "published",
+   "id": "d20261026x020"
+  },
+  {
+   "k": "eng-1603",
+   "result": "published",
+   "id": "d20261026x021"
+  },
+  {
+   "k": "eng-1604",
+   "result": "published",
+   "id": "d20261026x022"
+  },
+  {
+   "k": "eng-1605",
+   "result": "published",
+   "id": "d20261026x023"
+  },
+  {
+   "k": "eng-1606",
+   "result": "published",
+   "id": "d20261026x024"
+  },
+  {
+   "k": "eng-1607",
+   "result": "published",
+   "id": "d20261026x025"
+  },
+  {
+   "k": "eng-1608",
+   "result": "published",
+   "id": "d20261026x026"
+  },
+  {
+   "k": "eng-1609",
+   "result": "published",
+   "id": "d20261026x027"
+  },
+  {
+   "k": "eng-1610",
+   "result": "published",
+   "id": "d20261026x028"
+  },
+  {
+   "k": "eng-1611",
+   "result": "published",
+   "id": "d20261026x029"
+  },
+  {
+   "k": "eng-1612",
+   "result": "published",
+   "id": "d20261026x030"
+  },
+  {
+   "k": "quant-1601",
+   "result": "published",
+   "id": "d20261026x031"
+  },
+  {
+   "k": "quant-1602",
+   "result": "published",
+   "id": "d20261026x032"
+  },
+  {
+   "k": "quant-1603",
+   "result": "rejected",
+   "reason": "lang \"ml\" but the question is not in Malayalam"
+  },
+  {
+   "k": "quant-1604",
+   "result": "published",
+   "id": "d20261026x033"
+  },
+  {
+   "k": "quant-1605",
+   "result": "published",
+   "id": "d20261026x034"
+  },
+  {
+   "k": "quant-1606",
+   "result": "published",
+   "id": "d20261026x035"
+  },
+  {
+   "k": "quant-1607",
+   "result": "published",
+   "id": "d20261026x036"
+  },
+  {
+   "k": "quant-1608",
+   "result": "published",
+   "id": "d20261026x037"
+  },
+  {
+   "k": "quant-1609",
+   "result": "published",
+   "id": "d20261026x038"
+  },
+  {
+   "k": "quant-1610",
+   "result": "published",
+   "id": "d20261026x039"
+  },
+  {
+   "k": "quant-1611",
+   "result": "published",
+   "id": "d20261026x040"
+  },
+  {
+   "k": "quant-1612",
+   "result": "published",
+   "id": "d20261026x041"
+  },
+  {
+   "k": "quant-1613",
+   "result": "published",
+   "id": "d20261026x042"
+  },
+  {
+   "k": "quant-1614",
+   "result": "published",
+   "id": "d20261026x043"
+  },
+  {
+   "k": "quant-1615",
+   "result": "published",
+   "id": "d20261026x044"
+  },
+  {
+   "k": "quant-1616",
+   "result": "published",
+   "id": "d20261026x045"
+  },
+  {
+   "k": "quant-1617",
+   "result": "published",
+   "id": "d20261026x046"
+  },
+  {
+   "k": "quant-1618",
+   "result": "published",
+   "id": "d20261026x047"
+  },
+  {
+   "k": "reas-1601",
+   "result": "published",
+   "id": "d20261026x048"
+  },
+  {
+   "k": "reas-1602",
+   "result": "published",
+   "id": "d20261026x049"
+  },
+  {
+   "k": "reas-1603",
+   "result": "published",
+   "id": "d20261026x050"
+  },
+  {
+   "k": "reas-1604",
+   "result": "published",
+   "id": "d20261026x051"
+  },
+  {
+   "k": "reas-1605",
+   "result": "rejected",
+   "reason": "more than one option matches the calculated answer"
+  },
+  {
+   "k": "reas-1606",
+   "result": "rejected",
+   "reason": "lang \"ml\" but the question is not in Malayalam"
+  },
+  {
+   "k": "reas-1607",
+   "result": "published",
+   "id": "d20261026x052"
+  },
+  {
+   "k": "reas-1608",
+   "result": "published",
+   "id": "d20261026x053"
+  },
+  {
+   "k": "reas-1609",
+   "result": "published",
+   "id": "d20261026x054"
+  },
+  {
+   "k": "reas-1610",
+   "result": "published",
+   "id": "d20261026x055"
+  },
+  {
+   "k": "reas-1611",
+   "result": "published",
+   "id": "d20261026x056"
+  },
+  {
+   "k": "reas-1612",
+   "result": "published",
+   "id": "d20261026x057"
+  },
+  {
+   "k": "reas-1613",
+   "result": "published",
+   "id": "d20261026x058"
+  },
+  {
+   "k": "reas-1614",
+   "result": "published",
+   "id": "d20261026x059"
+  },
+  {
+   "k": "reas-1615",
+   "result": "rejected",
+   "reason": "lang \"ml\" but the question is not in Malayalam"
+  },
+  {
+   "k": "reas-1616",
+   "result": "published",
+   "id": "d20261026x060"
+  },
+  {
+   "k": "reas-1617",
+   "result": "published",
+   "id": "d20261026x061"
+  },
+  {
+   "k": "reas-1618",
+   "result": "published",
+   "id": "d20261026x062"
+  },
+  {
+   "k": "sci-1601",
+   "result": "published",
+   "id": "d20261026x063"
+  },
+  {
+   "k": "sci-1602",
+   "result": "published",
+   "id": "d20261026x064"
+  },
+  {
+   "k": "sci-1603",
+   "result": "rejected",
+   "reason": "the explanation points to a different option"
+  },
+  {
+   "k": "sci-1604",
+   "result": "published",
+   "id": "d20261026x065"
+  },
+  {
+   "k": "sci-1605",
+   "result": "published",
+   "id": "d20261026x066"
+  },
+  {
+   "k": "sci-1606",
+   "result": "published",
+   "id": "d20261026x067"
+  },
+  {
+   "k": "sci-1607",
+   "result": "published",
+   "id": "d20261026x068"
+  },
+  {
+   "k": "sci-1608",
+   "result": "published",
+   "id": "d20261026x069"
+  },
+  {
+   "k": "sci-1609",
+   "result": "published",
+   "id": "d20261026x070"
+  },
+  {
+   "k": "sci-1610",
+   "result": "published",
+   "id": "d20261026x071"
+  },
+  {
+   "k": "sci-1611",
+   "result": "published",
+   "id": "d20261026x072"
+  },
+  {
+   "k": "sci-1612",
+   "result": "published",
+   "id": "d20261026x073"
+  },
+  {
+   "k": "comp-1601",
+   "result": "published",
+   "id": "d20261026x074"
+  },
+  {
+   "k": "comp-1602",
+   "result": "published",
+   "id": "d20261026x075"
+  },
+  {
+   "k": "comp-1603",
+   "result": "published",
+   "id": "d20261026x076"
+  },
+  {
+   "k": "comp-1604",
+   "result": "published",
+   "id": "d20261026x077"
+  },
+  {
+   "k": "comp-1605",
+   "result": "published",
+   "id": "d20261026x078"
+  },
+  {
+   "k": "comp-1606",
+   "result": "published",
+   "id": "d20261026x079"
+  },
+  {
+   "k": "comp-1607",
+   "result": "published",
+   "id": "d20261026x080"
+  },
+  {
+   "k": "comp-1608",
+   "result": "published",
+   "id": "d20261026x081"
+  },
+  {
+   "k": "comp-1609",
+   "result": "published",
+   "id": "d20261026x082"
+  },
+  {
+   "k": "comp-1610",
+   "result": "published",
+   "id": "d20261026x083"
+  },
+  {
+   "k": "comp-1611",
+   "result": "published",
+   "id": "d20261026x084"
+  },
+  {
+   "k": "comp-1612",
+   "result": "published",
+   "id": "d20261026x085"
+  },
+  {
+   "k": "deg-1601",
+   "result": "published",
+   "id": "d20261026x086"
+  },
+  {
+   "k": "deg-1602",
+   "result": "published",
+   "id": "d20261026x087"
+  },
+  {
+   "k": "deg-1603",
+   "result": "published",
+   "id": "d20261026x088"
+  },
+  {
+   "k": "deg-1604",
+   "result": "published",
+   "id": "d20261026x089"
+  },
+  {
+   "k": "deg-1605",
+   "result": "published",
+   "id": "d20261026x090"
+  },
+  {
+   "k": "deg-1606",
+   "result": "published",
+   "id": "d20261026x091"
+  },
+  {
+   "k": "deg-1607",
+   "result": "published",
+   "id": "d20261026x092"
+  },
+  {
+   "k": "deg-1608",
+   "result": "published",
+   "id": "d20261026x093"
+  },
+  {
+   "k": "deg-1609",
+   "result": "published",
+   "id": "d20261026x094"
+  },
+  {
+   "k": "deg-1610",
+   "result": "published",
+   "id": "d20261026x095"
+  },
+  {
+   "k": "deg-1611",
+   "result": "published",
+   "id": "d20261026x096"
+  },
+  {
+   "k": "deg-1612",
+   "result": "published",
+   "id": "d20261026x097"
+  },
+  {
+   "k": "deg-1613",
+   "result": "rejected",
+   "reason": "the explanation points to a different option"
+  },
+  {
+   "k": "deg-1614",
+   "result": "published",
+   "id": "d20261026x098"
+  },
+  {
+   "k": "deg-1615",
+   "result": "rejected",
+   "reason": "the explanation points to a different option"
+  },
+  {
+   "k": "deg-1616",
+   "result": "published",
+   "id": "d20261026x099"
+  },
+  {
+   "k": "deg-1617",
+   "result": "published",
+   "id": "d20261026x100"
+  },
+  {
+   "k": "deg-1618",
+   "result": "published",
+   "id": "d20261026x101"
+  },
+  {
+   "k": "compx-1601",
+   "result": "published",
+   "id": "d20261026x102"
+  },
+  {
+   "k": "compx-1602",
+   "result": "published",
+   "id": "d20261026x103"
+  },
+  {
+   "k": "compx-1603",
+   "result": "published",
+   "id": "d20261026x104"
+  },
+  {
+   "k": "compx-1604",
+   "result": "published",
+   "id": "d20261026x105"
+  },
+  {
+   "k": "compx-1605",
+   "result": "published",
+   "id": "d20261026x106"
+  },
+  {
+   "k": "compx-1606",
+   "result": "published",
+   "id": "d20261026x107"
+  },
+  {
+   "k": "compx-1607",
+   "result": "published",
+   "id": "d20261026x108"
+  },
+  {
+   "k": "compx-1608",
+   "result": "published",
+   "id": "d20261026x109"
+  },
+  {
+   "k": "compx-1609",
+   "result": "published",
+   "id": "d20261026x110"
+  },
+  {
+   "k": "compx-1610",
+   "result": "published",
+   "id": "d20261026x111"
+  },
+  {
+   "k": "compx-1611",
+   "result": "published",
+   "id": "d20261026x112"
+  },
+  {
+   "k": "compx-1612",
+   "result": "published",
+   "id": "d20261026x113"
+  }
+ ]
+}

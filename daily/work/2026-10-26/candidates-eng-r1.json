@@ -1,0 +1,242 @@
+[
+ {
+  "k": "eng-1601",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Tenses",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "psc": "sslc",
+  "q": "Choose the correct option: By the time we reached the station, the train ____.",
+  "o": [
+   "had left",
+   "has left",
+   "leaves",
+   "will leave"
+  ],
+  "a": 0,
+  "e": "Past perfect 'had left' shows an action completed before another past action (reached).",
+  "lang": "en"
+ },
+ {
+  "k": "eng-1602",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Articles",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "easy",
+  "psc": "sslc",
+  "q": "Choose the correct article: ____ Ganga is a sacred river.",
+  "o": [
+   "A",
+   "The",
+   "An",
+   "No article"
+  ],
+  "a": 1,
+  "e": "Names of rivers take the definite article 'The'.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-1603",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Prepositions",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "easy",
+  "psc": "sslc",
+  "q": "Fill in the blank: He has been ill ____ Monday.",
+  "o": [
+   "for",
+   "from",
+   "since",
+   "by"
+  ],
+  "a": 2,
+  "e": "'Since' is used with a point of time in the present perfect: since Monday.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-1604",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Voice",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "psc": "plus2",
+  "q": "Change into passive voice: Who wrote this letter?",
+  "o": [
+   "By whom this letter was written?",
+   "By whom was this letter wrote?",
+   "By whom has this letter been written?",
+   "By whom was this letter written?"
+  ],
+  "a": 3,
+  "e": "Simple past interrogative passive: By whom was this letter written?",
+  "lang": "en"
+ },
+ {
+  "k": "eng-1605",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Antonyms",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "hard",
+  "psc": "degree",
+  "q": "Choose the word opposite in meaning to ADROIT.",
+  "o": [
+   "Clumsy",
+   "Skilful",
+   "Deft",
+   "Dexterous"
+  ],
+  "a": 0,
+  "e": "Adroit means skilful with the hands or mind; its antonym is 'Clumsy'.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-1606",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Reported speech",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "hard",
+  "psc": "plus2",
+  "q": "Choose the correct indirect form: He said, \"I am busy today.\"",
+  "o": [
+   "He said that I am busy today.",
+   "He said that he was busy that day.",
+   "He said that he is busy that day.",
+   "He said that he was busy today."
+  ],
+  "a": 1,
+  "e": "Reporting verb in past: am → was, today → that day. Answer: He said that he was busy that day.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-1607",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Question tags",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "easy",
+  "psc": "sslc",
+  "q": "Supply the correct question tag: Nobody called me, ____?",
+  "o": [
+   "didn't they",
+   "do they",
+   "did they",
+   "don't they"
+  ],
+  "a": 2,
+  "e": "'Nobody' makes the sentence negative, so the tag is positive; with past tense and 'nobody' we use 'did they'.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-1608",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Error spotting",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "psc": "plus2",
+  "q": "Find the part with an error: Each of the students (A) / have submitted (B) / the assignment (C) / No error (D)",
+  "o": [
+   "A",
+   "C",
+   "D",
+   "B"
+  ],
+  "a": 3,
+  "e": "'Each' takes a singular verb: 'has submitted'. The error is in part B.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-1609",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Synonyms",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "psc": "sslc",
+  "q": "Choose the word nearest in meaning to CANDID.",
+  "o": [
+   "Frank",
+   "Secretive",
+   "Timid",
+   "Rude"
+  ],
+  "a": 0,
+  "e": "Candid means open and honest, i.e. 'Frank'.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-1610",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Idioms",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "psc": "plus2",
+  "q": "The idiom 'a white elephant' means:",
+  "o": [
+   "A rare and sacred animal",
+   "A possession that is costly to maintain but of little use",
+   "A very peaceful person",
+   "A great achievement"
+  ],
+  "a": 1,
+  "e": "'A white elephant' is a possession that costs much to keep but gives little benefit.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-1611",
+  "cat": "eng",
+  "s": "veng",
+  "t": "One-word substitution",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "advanced",
+  "psc": "degree",
+  "q": "One word for 'a person who walks in sleep':",
+  "o": [
+   "Insomniac",
+   "Pedestrian",
+   "Somnambulist",
+   "Ventriloquist"
+  ],
+  "a": 2,
+  "e": "A sleepwalker is a 'Somnambulist'.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-1612",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Spelling",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "easy",
+  "psc": "degree",
+  "q": "Identify the misspelt word from the list.",
+  "o": [
+   "Necessary",
+   "Embarrass",
+   "Occurrence",
+   "Priviledge"
+  ],
+  "a": 3,
+  "e": "'Priviledge' is wrong; the correct spelling is 'Privilege' (no d).",
+  "lang": "en"
+ }
+]

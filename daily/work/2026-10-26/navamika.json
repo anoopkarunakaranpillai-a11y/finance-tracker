@@ -1,0 +1,46 @@
+[
+ {"id":"trace-numbers-6-to-10","type":"tracing","title":"Trace 6 to 10","desc":"Draw the numbers six to ten!","difficulty":"easy","instructions":"Follow the dotted line with your finger.","chars":["6","7","8","9","10"]},
+ {"id":"count-the-ducks","type":"counting","title":"Count the Ducks","desc":"How many can you see?","difficulty":"easy","instructions":"Count with your finger and tap the number.",
+  "questions":[
+   {"q":"How many ducks?","show":"🦆🦆","options":[{"t":"1"},{"t":"2"},{"t":"3"}],"answer":1,"good":"Yes! Two little ducks, quack quack!"},
+   {"q":"How many apples?","show":"🍎🍎🍎🍎","options":[{"t":"4"},{"t":"3"},{"t":"5"}],"answer":0,"good":"Four yummy apples!"},
+   {"q":"How many balloons?","show":"🎈🎈🎈","options":[{"t":"2"},{"t":"4"},{"t":"3"}],"answer":2,"good":"Three bright balloons!"},
+   {"q":"How many cars?","show":"🚗🚗🚗🚗🚗","options":[{"t":"6"},{"t":"5"},{"t":"4"}],"answer":1,"good":"Five cars, vroom vroom!"},
+   {"q":"How many fish?","show":"🐟","options":[{"t":"1"},{"t":"2"},{"t":"3"}],"answer":0,"good":"Just one little fish!"},
+   {"q":"How many stars?","show":"⭐⭐⭐⭐⭐⭐","options":[{"t":"5"},{"t":"7"},{"t":"6"}],"answer":2,"good":"Six shiny stars!"}
+  ]},
+ {"id":"find-the-colour","type":"colors","title":"Find the Colour","desc":"Tap the colour I say!","difficulty":"easy","instructions":"Listen and tap the right colour.",
+  "questions":[
+   {"q":"Which one is red?","options":[{"c":"#E53935","t":"Red"},{"c":"#1E88E5","t":"Blue"},{"c":"#FDD835","t":"Yellow"}],"answer":0,"good":"Red like a strawberry!"},
+   {"q":"Which one is green?","options":[{"c":"#FB8C00","t":"Orange"},{"c":"#43A047","t":"Green"},{"c":"#8E24AA","t":"Purple"}],"answer":1,"good":"Green like the grass!"},
+   {"q":"Which one is yellow?","options":[{"c":"#1E88E5","t":"Blue"},{"c":"#E53935","t":"Red"},{"c":"#FDD835","t":"Yellow"}],"answer":2,"good":"Yellow like the sun!"},
+   {"q":"Which one is blue?","options":[{"c":"#1E88E5","t":"Blue"},{"c":"#43A047","t":"Green"},{"c":"#F06292","t":"Pink"}],"answer":0,"good":"Blue like the sky!"},
+   {"q":"Which one is orange?","options":[{"c":"#8E24AA","t":"Purple"},{"c":"#FB8C00","t":"Orange"},{"c":"#E53935","t":"Red"}],"answer":1,"good":"Orange like an orange!"},
+   {"q":"Which one is pink?","options":[{"c":"#43A047","t":"Green"},{"c":"#FDD835","t":"Yellow"},{"c":"#F06292","t":"Pink"}],"answer":2,"good":"Pretty pink!"}
+  ]},
+ {"id":"rhyme-time-cat-hat","type":"rhymes","title":"Rhyme Time","desc":"Words that sound the same at the end!","difficulty":"medium","instructions":"Which word sounds like the big picture?",
+  "questions":[
+   {"q":"What rhymes with cat?","show":"🐱","options":[{"e":"🎩","t":"Hat"},{"e":"🐶","t":"Dog"},{"e":"🍎","t":"Apple"}],"answer":0,"good":"Cat and hat! They rhyme!"},
+   {"q":"What rhymes with sun?","show":"☀️","options":[{"e":"🌙","t":"Moon"},{"e":"🍔","t":"Bun"},{"e":"⭐","t":"Star"}],"answer":1,"good":"Sun and bun! Great listening!"},
+   {"q":"What rhymes with bee?","show":"🐝","options":[{"e":"🌸","t":"Flower"},{"e":"🍯","t":"Honey"},{"e":"🌳","t":"Tree"}],"answer":2,"good":"Bee and tree! Well done!"},
+   {"q":"What rhymes with frog?","show":"🐸","options":[{"e":"🐶","t":"Dog"},{"e":"🐟","t":"Fish"},{"e":"🦆","t":"Duck"}],"answer":0,"good":"Frog and dog! Super!"},
+   {"q":"What rhymes with mouse?","show":"🐭","options":[{"e":"🧀","t":"Cheese"},{"e":"🏠","t":"House"},{"e":"🐱","t":"Cat"}],"answer":1,"good":"Mouse and house! Yay!"}
+  ]},
+ {"id":"what-do-animals-eat","type":"animals","title":"Animal Snacks","desc":"What does each animal like to eat?","difficulty":"easy","instructions":"Tap the food the animal likes.",
+  "questions":[
+   {"q":"What does the monkey like?","show":"🐵","options":[{"e":"🍌","t":"Banana"},{"e":"🦴","t":"Bone"},{"e":"🧀","t":"Cheese"}],"answer":0,"good":"Monkeys love bananas!"},
+   {"q":"What does the rabbit like?","show":"🐰","options":[{"e":"🍕","t":"Pizza"},{"e":"🥕","t":"Carrot"},{"e":"🐟","t":"Fish"}],"answer":1,"good":"Crunchy carrots for the rabbit!"},
+   {"q":"What does the dog like?","show":"🐶","options":[{"e":"🍌","t":"Banana"},{"e":"🌽","t":"Corn"},{"e":"🦴","t":"Bone"}],"answer":2,"good":"A bone for the doggy!"},
+   {"q":"What does the cow eat?","show":"🐄","options":[{"e":"🌿","t":"Grass"},{"e":"🍰","t":"Cake"},{"e":"🦴","t":"Bone"}],"answer":0,"good":"Cows munch green grass!"},
+   {"q":"What does the mouse like?","show":"🐭","options":[{"e":"🥕","t":"Carrot"},{"e":"🧀","t":"Cheese"},{"e":"🍌","t":"Banana"}],"answer":1,"good":"Cheese for the little mouse!"},
+   {"q":"What does the bee like?","show":"🐝","options":[{"e":"🦴","t":"Bone"},{"e":"🐟","t":"Fish"},{"e":"🌸","t":"Flower"}],"answer":2,"good":"Bees visit flowers!"}
+  ]},
+ {"id":"what-number-comes-next","type":"puzzles","title":"What Comes Next?","desc":"Find the missing number!","difficulty":"medium","instructions":"Count along and tap the next number.",
+  "questions":[
+   {"q":"1, 2, 3, what comes next?","show":"1, 2, 3, ?","options":[{"t":"4"},{"t":"5"},{"t":"2"}],"answer":0,"good":"Four! You can count!"},
+   {"q":"5, 6, 7, what comes next?","show":"5, 6, 7, ?","options":[{"t":"9"},{"t":"8"},{"t":"6"}],"answer":1,"good":"Eight! Great job!"},
+   {"q":"2, 3, 4, what comes next?","show":"2, 3, 4, ?","options":[{"t":"3"},{"t":"6"},{"t":"5"}],"answer":2,"good":"Five! Hooray!"},
+   {"q":"7, 8, 9, what comes next?","show":"7, 8, 9, ?","options":[{"t":"10"},{"t":"11"},{"t":"8"}],"answer":0,"good":"Ten! Like your ten fingers!"},
+   {"q":"10, 11, 12, what comes next?","show":"10, 11, 12, ?","options":[{"t":"14"},{"t":"13"},{"t":"11"}],"answer":1,"good":"Thirteen! Wow, big numbers!"}
+  ]}
+]

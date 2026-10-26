@@ -1,0 +1,242 @@
+[
+ {
+  "k": "comp-1601",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Number systems",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "psc": "sslc",
+  "q": "ദശാംശ സംഖ്യ 25-നെ ബൈനറിയിലേക്ക് മാറ്റിയാൽ ലഭിക്കുന്നത് ഏത്?",
+  "o": [
+   "11001",
+   "10101",
+   "11011",
+   "10011"
+  ],
+  "a": 0,
+  "e": "25 = 16 + 8 + 1, അതിനാൽ ബൈനറി രൂപം 11001.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-1602",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Hardware",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "easy",
+  "psc": "sslc",
+  "q": "കണക്കുകൂട്ടലുകളും ലോജിക്കൽ താരതമ്യങ്ങളും നടത്തുന്ന CPU-ന്റെ ഭാഗം ഏത്?",
+  "o": [
+   "Control Unit",
+   "ALU (Arithmetic Logic Unit)",
+   "Cache Memory",
+   "Hard Disk"
+  ],
+  "a": 1,
+  "e": "ഗണിത, ലോജിക്കൽ പ്രവർത്തനങ്ങൾ നടത്തുന്നത് ALU ആണ്.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-1603",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Number systems",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "psc": "plus2",
+  "q": "ഹെക്സാഡെസിമൽ സംഖ്യാ സമ്പ്രദായത്തിലെ 'F' എന്ന അക്കത്തിന്റെ ദശാംശ മൂല്യം എത്ര?",
+  "o": [
+   "14",
+   "16",
+   "15",
+   "12"
+  ],
+  "a": 2,
+  "e": "ഹെക്സാഡെസിമലിൽ A=10 മുതൽ F=15 വരെ; അതിനാൽ F = 15.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-1604",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Operating system",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "psc": "plus2",
+  "q": "1991-ൽ Linux kernel വികസിപ്പിച്ചത് ആര്?",
+  "o": [
+   "ബിൽ ഗേറ്റ്സ്",
+   "ഡെന്നിസ് റിച്ചി",
+   "റിച്ചാർഡ് സ്റ്റാൾമാൻ",
+   "ലിനസ് ടോർവാൾഡ്സ്"
+  ],
+  "a": 3,
+  "e": "Linux kernel 1991-ൽ ലിനസ് ടോർവാൾഡ്സ് ആണ് വികസിപ്പിച്ചത്.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-1605",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Networking",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "hard",
+  "psc": "plus2",
+  "q": "Router എന്ന നെറ്റ്‌വർക്ക് ഉപകരണം OSI മോഡലിലെ ഏത് ലെയറിലാണ് പ്രധാനമായും പ്രവർത്തിക്കുന്നത്?",
+  "o": [
+   "Network layer",
+   "Physical layer",
+   "Session layer",
+   "Application layer"
+  ],
+  "a": 0,
+  "e": "IP വിലാസം അടിസ്ഥാനമാക്കി പാക്കറ്റുകൾ റൂട്ട് ചെയ്യുന്ന Router, Network layer (ലെയർ 3) ഉപകരണമാണ്.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-1606",
+  "cat": "comp",
+  "s": "comp",
+  "t": "MS Office",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "easy",
+  "psc": "sslc",
+  "q": "MS Word-ൽ Ctrl + P എന്ന കീബോർഡ് ഷോർട്ട്കട്ട് എന്തിനാണ് ഉപയോഗിക്കുന്നത്?",
+  "o": [
+   "പേസ്റ്റ് ചെയ്യാൻ",
+   "പ്രിന്റ് ചെയ്യാൻ",
+   "സേവ് ചെയ്യാൻ",
+   "പുതിയ ഡോക്യുമെന്റ് തുറക്കാൻ"
+  ],
+  "a": 1,
+  "e": "Ctrl + P = Print. (Paste: Ctrl + V, Save: Ctrl + S, New: Ctrl + N).",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-1607",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Security",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "easy",
+  "psc": "sslc",
+  "q": "വ്യാജ ഇമെയിലുകളോ വെബ്സൈറ്റുകളോ ഉപയോഗിച്ച് പാസ്‌വേഡ്, ബാങ്ക് വിവരങ്ങൾ തുടങ്ങിയവ ചോർത്തുന്ന സൈബർ തട്ടിപ്പ് ഏത് പേരിൽ അറിയപ്പെടുന്നു?",
+  "o": [
+   "Defragmentation",
+   "Compiling",
+   "Phishing",
+   "Formatting"
+  ],
+  "a": 2,
+  "e": "വ്യാജ സന്ദേശങ്ങളിലൂടെ രഹസ്യവിവരങ്ങൾ ചോർത്തുന്നതാണ് Phishing.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-1608",
+  "cat": "comp",
+  "s": "comp",
+  "t": "History of computing",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "psc": "plus2",
+  "q": "ലോകത്തിലെ ആദ്യത്തെ പൊതു ആവശ്യ (general-purpose) ഇലക്ട്രോണിക് ഡിജിറ്റൽ കമ്പ്യൂട്ടർ ആയി കണക്കാക്കപ്പെടുന്നത് ഏത്?",
+  "o": [
+   "UNIVAC",
+   "EDSAC",
+   "PARAM",
+   "ENIAC"
+  ],
+  "a": 3,
+  "e": "1946-ൽ പ്രവർത്തനക്ഷമമായ ENIAC ആണ് ആദ്യ general-purpose ഇലക്ട്രോണിക് ഡിജിറ്റൽ കമ്പ്യൂട്ടർ.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-1609",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Software",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "psc": "degree",
+  "q": "ഹൈ-ലെവൽ ഭാഷയിലെ പ്രോഗ്രാമിനെ വരിവരിയായി (line by line) മെഷീൻ ഭാഷയിലേക്ക് മാറ്റി പ്രവർത്തിപ്പിക്കുന്ന സോഫ്റ്റ്‌വെയർ ഏത്?",
+  "o": [
+   "Interpreter",
+   "Compiler",
+   "Assembler",
+   "Loader"
+  ],
+  "a": 0,
+  "e": "Interpreter വരിവരിയായി വിവർത്തനം ചെയ്യുന്നു; Compiler മുഴുവൻ പ്രോഗ്രാമും ഒറ്റയടിക്ക് വിവർത്തനം ചെയ്യുന്നു.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-1610",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Internet",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "easy",
+  "psc": "sslc",
+  "q": "World Wide Web (WWW) വികസിപ്പിച്ചത് ആര്?",
+  "o": [
+   "വിന്റ് സെർഫ്",
+   "ടിം ബെർണേഴ്സ്-ലീ",
+   "ചാൾസ് ബാബേജ്",
+   "സ്റ്റീവ് ജോബ്സ്"
+  ],
+  "a": 1,
+  "e": "1989-ൽ CERN-ൽ ടിം ബെർണേഴ്സ്-ലീ ആണ് WWW വികസിപ്പിച്ചത്.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-1611",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Internet",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "hard",
+  "psc": "degree",
+  "q": "ഇന്റർനെറ്റിൽ DNS (Domain Name System) നിർവഹിക്കുന്ന പ്രധാന ധർമ്മം എന്ത്?",
+  "o": [
+   "ഇമെയിൽ എൻക്രിപ്റ്റ് ചെയ്യുക",
+   "വെബ് പേജുകൾ ഡിസൈൻ ചെയ്യുക",
+   "ഡൊമെയ്ൻ നാമങ്ങളെ IP വിലാസങ്ങളാക്കി മാറ്റുക",
+   "ഫയലുകൾ കംപ്രസ് ചെയ്യുക"
+  ],
+  "a": 2,
+  "e": "DNS ഡൊമെയ്ൻ നാമങ്ങളെ (ഉദാ: www.example.com) IP വിലാസങ്ങളാക്കി മാറ്റുന്നു.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-1612",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Networking",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "advanced",
+  "psc": "degree",
+  "q": "ഒരു IPv6 വിലാസത്തിന്റെ (address) നീളം എത്ര ബിറ്റുകൾ?",
+  "o": [
+   "32",
+   "64",
+   "256",
+   "128"
+  ],
+  "a": 3,
+  "e": "IPv6 വിലാസം 128 ബിറ്റ്; IPv4 വിലാസം 32 ബിറ്റ്.",
+  "lang": "ml"
+ }
+]
