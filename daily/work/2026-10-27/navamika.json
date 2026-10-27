@@ -1,0 +1,39 @@
+[
+ {"id":"trace-numbers-11-to-15","type":"tracing","title":"Trace 11 to 15","desc":"Let's write big numbers!","difficulty":"medium","instructions":"Follow the dots with your finger.","chars":["11","12","13","14","15"]},
+ {"id":"big-letter-little-letter","type":"alphabet","title":"Big and Little Letters","desc":"Find the little letter friend!","difficulty":"easy","instructions":"Look at the big letter and tap its little letter.",
+  "questions":[
+   {"q":"Which is little a?","show":"A","options":[{"t":"a"},{"t":"e"},{"t":"o"}],"answer":0,"good":"Yes! Big A and little a!"},
+   {"q":"Which is little b?","show":"B","options":[{"t":"d"},{"t":"b"},{"t":"p"}],"answer":1,"good":"Super! That is little b!"},
+   {"q":"Which is little m?","show":"M","options":[{"t":"n"},{"t":"w"},{"t":"m"}],"answer":2,"good":"Great job! Little m!"},
+   {"q":"Which is little g?","show":"G","options":[{"t":"g"},{"t":"q"},{"t":"j"}],"answer":0,"good":"Wonderful! Little g!"},
+   {"q":"Which is little r?","show":"R","options":[{"t":"k"},{"t":"r"},{"t":"h"}],"answer":1,"good":"Hooray! Little r!"},
+   {"q":"Which is little t?","show":"T","options":[{"t":"f"},{"t":"l"},{"t":"t"}],"answer":2,"good":"You found little t!"}
+  ]},
+ {"id":"things-that-go-memory","type":"memory","title":"Things That Go","desc":"Find the matching vehicles!","difficulty":"easy","instructions":"Turn two cards. Can you find the same ones?","pairs":["🚗","🚌","🚂","✈️"]},
+ {"id":"what-goes-together","type":"matching","title":"What Goes Together?","desc":"Find the best friend for each thing!","difficulty":"easy","instructions":"Look at the picture and tap what goes with it.",
+  "questions":[
+   {"q":"What goes with the sock?","show":"🧦","options":[{"e":"🍌","t":"Banana"},{"e":"👟","t":"Shoe"},{"e":"🐟","t":"Fish"}],"answer":1,"good":"Yes! Socks go with shoes!"},
+   {"q":"What goes with the toothbrush?","show":"🪥","options":[{"e":"🦷","t":"Teeth"},{"e":"🚗","t":"Car"},{"e":"🌙","t":"Moon"}],"answer":0,"good":"Brush, brush, brush your teeth!"},
+   {"q":"What goes with the key?","show":"🔑","options":[{"e":"🍎","t":"Apple"},{"e":"🐶","t":"Dog"},{"e":"🔒","t":"Lock"}],"answer":2,"good":"Click! The key opens the lock!"},
+   {"q":"What goes with the pencil?","show":"✏️","options":[{"e":"📄","t":"Paper"},{"e":"🍕","t":"Pizza"},{"e":"🐸","t":"Frog"}],"answer":0,"good":"Let's draw on the paper!"},
+   {"q":"What goes with rain?","show":"🌧️","options":[{"e":"🕶️","t":"Sunglasses"},{"e":"☂️","t":"Umbrella"},{"e":"🏖️","t":"Beach"}],"answer":1,"good":"An umbrella keeps us dry!"},
+   {"q":"What goes with the bee?","show":"🐝","options":[{"e":"🧊","t":"Ice"},{"e":"📚","t":"Books"},{"e":"🌻","t":"Flower"}],"answer":2,"good":"Buzz buzz! Bees love flowers!"}
+  ]},
+ {"id":"fruit-colours","type":"fruits","title":"Fruit Colours","desc":"What colour is the fruit?","difficulty":"easy","instructions":"Look at the fruit and tap its colour.",
+  "questions":[
+   {"q":"What colour is the banana?","show":"🍌","options":[{"c":"#2E7D32","t":"Green"},{"c":"#1E88E5","t":"Blue"},{"c":"#FDD835","t":"Yellow"}],"answer":2,"good":"Yes! The banana is yellow!"},
+   {"q":"What colour is the strawberry?","show":"🍓","options":[{"c":"#E53935","t":"Red"},{"c":"#8E24AA","t":"Purple"},{"c":"#FFFFFF","t":"White"}],"answer":0,"good":"Yummy red strawberry!"},
+   {"q":"What colour is the orange?","show":"🍊","options":[{"c":"#1E88E5","t":"Blue"},{"c":"#FB8C00","t":"Orange"},{"c":"#000000","t":"Black"}],"answer":1,"good":"The orange is orange!"},
+   {"q":"What colour are the grapes?","show":"🍇","options":[{"c":"#FDD835","t":"Yellow"},{"c":"#E53935","t":"Red"},{"c":"#8E24AA","t":"Purple"}],"answer":2,"good":"Purple grapes! Well done!"},
+   {"q":"What colour is the watermelon inside?","show":"🍉","options":[{"c":"#E53935","t":"Red"},{"c":"#1E88E5","t":"Blue"},{"c":"#FB8C00","t":"Orange"}],"answer":0,"good":"Red inside, green outside!"}
+  ]},
+ {"id":"shapes-all-around","type":"shapes","title":"Shapes All Around","desc":"Find shapes in things we see!","difficulty":"medium","instructions":"Look at the picture. Tap the shape that looks like it.",
+  "questions":[
+   {"q":"The ball is round. Which shape is it like?","show":"⚽","options":[{"s":"square","t":"Square"},{"s":"circle","t":"Circle"},{"s":"triangle","t":"Triangle"}],"answer":1,"good":"Round like a circle!"},
+   {"q":"A slice of pizza looks like which shape?","show":"🍕","options":[{"s":"star","t":"Star"},{"s":"heart","t":"Heart"},{"s":"triangle","t":"Triangle"}],"answer":2,"good":"A pizza slice is a triangle!"},
+   {"q":"Which shape twinkles in the night sky?","show":"🌃","options":[{"s":"star","t":"Star"},{"s":"oval","t":"Oval"},{"s":"rectangle","t":"Rectangle"}],"answer":0,"good":"Twinkle, twinkle, little star!"},
+   {"q":"An egg looks like which shape?","show":"🥚","options":[{"s":"square","t":"Square"},{"s":"oval","t":"Oval"},{"s":"diamond","t":"Diamond"}],"answer":1,"good":"An egg is an oval!"},
+   {"q":"A door looks like which shape?","show":"🚪","options":[{"s":"circle","t":"Circle"},{"s":"heart","t":"Heart"},{"s":"rectangle","t":"Rectangle"}],"answer":2,"good":"A door is a rectangle!"},
+   {"q":"Which shape means love?","show":"💌","options":[{"s":"heart","t":"Heart"},{"s":"triangle","t":"Triangle"},{"s":"hexagon","t":"Hexagon"}],"answer":0,"good":"A heart means love!"}
+  ]}
+]

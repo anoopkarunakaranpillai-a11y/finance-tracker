@@ -1,0 +1,233 @@
+[
+ {
+  "k": "compx-1701",
+  "cat": "compx",
+  "s": "quant",
+  "t": "Simple interest",
+  "lvl": "recruit",
+  "exam": "SSC",
+  "d": "easy",
+  "q": "What is the simple interest (in ₹) on ₹5,000 at 8% per annum for 3 years?",
+  "o": [
+   "1000",
+   "1200",
+   "1500",
+   "1250"
+  ],
+  "a": 1,
+  "e": "SI = 5000 × 8 × 3 ÷ 100 = ₹1200.",
+  "lang": "en",
+  "calc": "5000*8*3/100"
+ },
+ {
+  "k": "compx-1702",
+  "cat": "compx",
+  "s": "math",
+  "t": "Speed – train passing a pole",
+  "lvl": "recruit",
+  "exam": "Railway",
+  "d": "medium",
+  "q": "A train 240 m long passes a pole in 12 seconds. What is its speed in km/h?",
+  "o": [
+   "60",
+   "64",
+   "80",
+   "72"
+  ],
+  "a": 3,
+  "e": "Speed = 240 ÷ 12 = 20 m/s = 20 × 18/5 = 72 km/h.",
+  "lang": "en",
+  "calc": "240/12*18/5"
+ },
+ {
+  "k": "compx-1703",
+  "cat": "compx",
+  "s": "reas",
+  "t": "Ranking and order",
+  "lvl": "recruit",
+  "exam": "Banking",
+  "d": "medium",
+  "q": "In a row of 40 students, Anu is 13th from the left end. What is her position from the right end?",
+  "o": [
+   "28",
+   "27",
+   "29",
+   "26"
+  ],
+  "a": 0,
+  "e": "Position from right = 40 − 13 + 1 = 28.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-1704",
+  "cat": "compx",
+  "s": "gk",
+  "t": "Lakes of India",
+  "lvl": "recruit",
+  "exam": "UPSC",
+  "d": "hard",
+  "q": "Loktak Lake, known for its floating phumdis, is located in which state?",
+  "o": [
+   "Assam",
+   "Mizoram",
+   "Manipur",
+   "Nagaland"
+  ],
+  "a": 2,
+  "e": "Loktak Lake, with Keibul Lamjao National Park on its phumdis, is in Manipur.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-1705",
+  "cat": "compx",
+  "s": "comp",
+  "t": "File extensions",
+  "lvl": "recruit",
+  "exam": "Banking",
+  "d": "easy",
+  "q": "Which file extension is used by default for a Microsoft Excel workbook in Excel 2007 and later versions?",
+  "o": [
+   ".docx",
+   ".xlsx",
+   ".pptx",
+   ".accdb"
+  ],
+  "a": 1,
+  "e": "Excel 2007 and later save workbooks as .xlsx by default.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-1706",
+  "cat": "compx",
+  "s": "con",
+  "t": "Landmark judgments",
+  "lvl": "recruit",
+  "exam": "Police",
+  "d": "medium",
+  "q": "The Kesavananda Bharati case (1973) is best known for establishing which principle?",
+  "o": [
+   "Doctrine of lapse",
+   "Doctrine of eclipse",
+   "Doctrine of pith and substance",
+   "Basic structure doctrine"
+  ],
+  "a": 3,
+  "e": "In Kesavananda Bharati (1973) the Supreme Court laid down the Basic structure doctrine, limiting Parliament's amending power.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-1707",
+  "cat": "compx",
+  "s": "sci",
+  "t": "Alloys",
+  "lvl": "recruit",
+  "exam": "SSC",
+  "d": "easy",
+  "q": "Bronze is an alloy made mainly of copper and which other metal?",
+  "o": [
+   "tin",
+   "zinc",
+   "nickel",
+   "aluminium"
+  ],
+  "a": 0,
+  "e": "Bronze is chiefly copper alloyed with tin.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-1708",
+  "cat": "compx",
+  "s": "econ",
+  "t": "Economic curves",
+  "lvl": "recruit",
+  "exam": "UPSC",
+  "d": "advanced",
+  "q": "Which curve shows the relationship between tax rates and total tax revenue?",
+  "o": [
+   "Phillips curve",
+   "Laffer curve",
+   "Lorenz curve",
+   "Kuznets curve"
+  ],
+  "a": 1,
+  "e": "The Laffer curve shows that beyond a point, higher tax rates can reduce total tax revenue.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-1709",
+  "cat": "compx",
+  "s": "eng",
+  "t": "Reported speech",
+  "lvl": "recruit",
+  "exam": "Teaching",
+  "d": "medium",
+  "q": "Change into indirect speech: She said to me, \"Where do you live?\"",
+  "o": [
+   "She asked me where did I live.",
+   "She told me where I lived.",
+   "She asked me where I lived.",
+   "She asked me where do I live."
+  ],
+  "a": 2,
+  "e": "Questions in reported speech use statement word order and a backshifted tense: She asked me where I lived.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-1710",
+  "cat": "compx",
+  "s": "veng",
+  "t": "One-word meaning",
+  "lvl": "entrance",
+  "exam": "University entrance",
+  "d": "hard",
+  "q": "Choose the word for a person who endures pain or hardship without showing feelings or complaining.",
+  "o": [
+   "hedonist",
+   "cynic",
+   "sceptic",
+   "stoic"
+  ],
+  "a": 3,
+  "e": "A 'stoic' bears pain or hardship calmly without complaint.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-1711",
+  "cat": "compx",
+  "s": "ment",
+  "t": "Coding-decoding",
+  "lvl": "recruit",
+  "exam": "Police",
+  "d": "easy",
+  "q": "If CAT is coded as DBU, how is DOG coded in the same way?",
+  "o": [
+   "EPH",
+   "EOH",
+   "FPH",
+   "DPH"
+  ],
+  "a": 0,
+  "e": "Each letter is moved one step forward: D→E, O→P, G→H gives EPH.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-1712",
+  "cat": "compx",
+  "s": "quant",
+  "t": "Ratio, HCF and LCM",
+  "lvl": "entrance",
+  "exam": "University entrance",
+  "d": "medium",
+  "q": "Two numbers are in the ratio 3 : 5 and their LCM is 225. What is the smaller number?",
+  "o": [
+   "75",
+   "60",
+   "45",
+   "35"
+  ],
+  "a": 2,
+  "e": "Numbers are 3x and 5x with LCM 15x = 225, so x = 15 and the smaller number is 45.",
+  "lang": "en",
+  "calc": "225/15*3"
+ }
+]

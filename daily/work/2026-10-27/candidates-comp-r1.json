@@ -1,0 +1,242 @@
+[
+ {
+  "k": "comp-1701",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Operating system",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "easy",
+  "psc": "sslc",
+  "q": "ലിനക്സ് (Linux) കെർണൽ ആദ്യമായി വികസിപ്പിച്ചത് ആര്?",
+  "o": [
+   "Richard Stallman",
+   "Linus Torvalds",
+   "Dennis Ritchie",
+   "Bill Gates"
+  ],
+  "a": 1,
+  "e": "1991-ൽ Linus Torvalds ആണ് ലിനക്സ് കെർണൽ വികസിപ്പിച്ചത്.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-1702",
+  "cat": "comp",
+  "s": "comp",
+  "t": "DBMS",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "psc": "plus2",
+  "q": "റിലേഷണൽ ഡാറ്റാബേസിലെ ഒരു ടേബിളിൽ ഓരോ റെക്കോർഡിനെയും അദ്വിതീയമായി തിരിച്ചറിയാൻ തിരഞ്ഞെടുക്കുന്ന ഫീൽഡ് ഏത്?",
+  "o": [
+   "Foreign Key",
+   "Composite Attribute",
+   "Primary Key",
+   "Index Page"
+  ],
+  "a": 2,
+  "e": "ഓരോ റെക്കോർഡിനെയും അദ്വിതീയമായി തിരിച്ചറിയുന്നത് Primary Key ആണ്; അതിൽ ആവർത്തനമോ ശൂന്യ മൂല്യമോ പാടില്ല.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-1703",
+  "cat": "comp",
+  "s": "comp",
+  "t": "MS Office",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "easy",
+  "psc": "sslc",
+  "q": "MS Word-ൽ ഡോക്യുമെന്റ് സേവ് ചെയ്യാനുള്ള കീബോർഡ് ഷോർട്ട്കട്ട് ഏത്?",
+  "o": [
+   "Ctrl+S",
+   "Ctrl+P",
+   "Ctrl+V",
+   "Ctrl+A"
+  ],
+  "a": 0,
+  "e": "സേവ് ചെയ്യാനുള്ള ഷോർട്ട്കട്ട് Ctrl+S ആണ്.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-1704",
+  "cat": "comp",
+  "s": "comp",
+  "t": "LibreOffice",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "easy",
+  "psc": "sslc",
+  "q": "LibreOffice സ്യൂട്ടിലെ സ്പ്രെഡ്ഷീറ്റ് സോഫ്റ്റ്‌വെയർ ഏത്?",
+  "o": [
+   "Writer",
+   "Impress",
+   "Base",
+   "Calc"
+  ],
+  "a": 3,
+  "e": "LibreOffice-ലെ സ്പ്രെഡ്ഷീറ്റ് പ്രോഗ്രാം Calc ആണ്.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-1705",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Indian IT initiatives",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "psc": "plus2",
+  "q": "C-DAC തദ്ദേശീയമായി വികസിപ്പിച്ച ഇന്ത്യയുടെ ആദ്യ സൂപ്പർ കമ്പ്യൂട്ടർ ഏത്?",
+  "o": [
+   "Pratyush",
+   "Aaditya",
+   "Mihir",
+   "PARAM 8000"
+  ],
+  "a": 3,
+  "e": "1991-ൽ C-DAC പുറത്തിറക്കിയ PARAM 8000 ആണ് ഇന്ത്യയുടെ ആദ്യ സൂപ്പർ കമ്പ്യൂട്ടർ.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-1706",
+  "cat": "comp",
+  "s": "comp",
+  "t": "AI basics",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "psc": "plus2",
+  "q": "യന്ത്രങ്ങൾക്ക് മനുഷ്യനെപ്പോലെ ബുദ്ധിപരമായി പെരുമാറാൻ കഴിയുമോ എന്ന് പരിശോധിക്കാനുള്ള 'ട്യൂറിങ് ടെസ്റ്റ്' (Turing Test) നിർദേശിച്ചത് ആര്?",
+  "o": [
+   "Alan Turing",
+   "John McCarthy",
+   "Charles Babbage",
+   "Marvin Minsky"
+  ],
+  "a": 0,
+  "e": "1950-ൽ Alan Turing ആണ് ഈ പരീക്ഷ നിർദേശിച്ചത്.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-1707",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Networking devices",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "psc": "plus2",
+  "q": "IP വിലാസം അടിസ്ഥാനമാക്കി വ്യത്യസ്ത നെറ്റ്‌വർക്കുകൾക്കിടയിൽ ഡാറ്റാ പാക്കറ്റുകൾ ഫോർവേഡ് ചെയ്യുന്ന ഉപകരണം ഏത്?",
+  "o": [
+   "Hub",
+   "Repeater",
+   "Router",
+   "Modem"
+  ],
+  "a": 2,
+  "e": "നെറ്റ്‌വർക്കുകൾക്കിടയിൽ പാക്കറ്റുകൾക്ക് വഴി കണ്ടെത്തി അയയ്ക്കുന്നത് Router ആണ്.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-1708",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Cyber security",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "easy",
+  "psc": "sslc",
+  "q": "വ്യാജ ഇമെയിലുകളോ വെബ്സൈറ്റുകളോ ഉപയോഗിച്ച് പാസ്‌വേഡ്, ബാങ്ക് വിവരങ്ങൾ എന്നിവ കൈക്കലാക്കുന്ന സൈബർ തട്ടിപ്പ് ഏത്?",
+  "o": [
+   "Spamming",
+   "Phishing",
+   "Cyber Stalking",
+   "Defragmentation"
+  ],
+  "a": 1,
+  "e": "വിശ്വസനീയമെന്ന് തോന്നിക്കുന്ന വ്യാജ സന്ദേശങ്ങളിലൂടെ വിവരങ്ങൾ ചോർത്തുന്നതാണ് Phishing.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-1709",
+  "cat": "comp",
+  "s": "comp",
+  "t": "File extensions",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "psc": "sslc",
+  "q": "Windows-ൽ കമാൻഡുകൾ ക്രമമായി പ്രവർത്തിപ്പിക്കുന്ന ബാച്ച് ഫയലുകൾക്ക് സാധാരണ ഉപയോഗിക്കുന്ന എക്സ്റ്റൻഷൻ ഏത്?",
+  "o": [
+   ".exe",
+   ".dll",
+   ".sys",
+   ".bat"
+  ],
+  "a": 3,
+  "e": "Windows ബാച്ച് ഫയലുകളുടെ എക്സ്റ്റൻഷൻ .bat ആണ്.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-1710",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Memory",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "hard",
+  "psc": "degree",
+  "q": "ഡൈനാമിക് RAM (DRAM)-ൽ സംഭരിച്ച ഡാറ്റ നഷ്ടപ്പെടാതിരിക്കാൻ ഇടയ്ക്കിടെ നടത്തേണ്ട പ്രക്രിയ ഏത്?",
+  "o": [
+   "Refreshing",
+   "Booting",
+   "Formatting",
+   "Compiling"
+  ],
+  "a": 0,
+  "e": "DRAM കപ്പാസിറ്ററുകളിലെ ചാർജ് ചോരുന്നതിനാൽ തുടർച്ചയായ Refreshing ആവശ്യമാണ്.",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-1711",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Programming basics",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "hard",
+  "psc": "degree",
+  "q": "സ്റ്റാക്ക് (Stack) ഡാറ്റാ സ്ട്രക്ചർ പിന്തുടരുന്ന തത്വം ഏത്?",
+  "o": [
+   "FIFO",
+   "LIFO",
+   "Round Robin",
+   "Random Access"
+  ],
+  "a": 1,
+  "e": "സ്റ്റാക്കിൽ അവസാനം ചേർത്തത് ആദ്യം പുറത്തെടുക്കുന്നു: LIFO (Last In First Out).",
+  "lang": "ml"
+ },
+ {
+  "k": "comp-1712",
+  "cat": "comp",
+  "s": "comp",
+  "t": "Cloud computing",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "advanced",
+  "psc": "degree",
+  "q": "വെർച്വൽ മെഷീനുകൾ, സ്റ്റോറേജ്, നെറ്റ്‌വർക്ക് തുടങ്ങിയ അടിസ്ഥാന കമ്പ്യൂട്ടിങ് വിഭവങ്ങൾ സേവനമായി നൽകുന്ന ക്ലൗഡ് മാതൃക ഏത്?",
+  "o": [
+   "SaaS",
+   "PaaS",
+   "IaaS",
+   "BPaaS"
+  ],
+  "a": 2,
+  "e": "അടിസ്ഥാന സൗകര്യങ്ങൾ (infrastructure) സേവനമായി നൽകുന്നത് IaaS (Infrastructure as a Service) ആണ്.",
+  "lang": "ml"
+ }
+]

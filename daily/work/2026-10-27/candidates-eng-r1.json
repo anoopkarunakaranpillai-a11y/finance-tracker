@@ -1,0 +1,242 @@
+[
+ {
+  "k": "eng-1701",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Question tags",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "easy",
+  "psc": "sslc",
+  "q": "Add the correct question tag: Everyone has arrived for the function, ____?",
+  "o": [
+   "hasn't he",
+   "have they",
+   "haven't they",
+   "hasn't it"
+  ],
+  "a": 2,
+  "e": "'Everyone' takes 'they' in the tag; the statement is positive, so the tag is 'haven't they'.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-1702",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Degrees of comparison",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "easy",
+  "psc": "sslc",
+  "q": "Choose the correct word: My uncle is two years ____ than my father.",
+  "o": [
+   "older",
+   "elder",
+   "eldest",
+   "oldest"
+  ],
+  "a": 0,
+  "e": "Only 'older' can be followed by 'than' in the comparative degree.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-1703",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Gerund and infinitive",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "psc": "plus2",
+  "q": "Fill in the blank: The doctor advised my grandfather ____ smoking at once.",
+  "o": [
+   "give up",
+   "giving up",
+   "to giving up",
+   "to give up"
+  ],
+  "a": 3,
+  "e": "'Advise' + object is followed by the to-infinitive: advised him to give up.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-1704",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Collective nouns",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "psc": "sslc",
+  "q": "Choose the correct collective noun: a ____ of geese (on the ground)",
+  "o": [
+   "herd",
+   "gaggle",
+   "swarm",
+   "pride"
+  ],
+  "a": 1,
+  "e": "A group of geese on the ground is called a 'gaggle'.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-1705",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Homophones",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "easy",
+  "psc": "sslc",
+  "q": "Fill in the blank: The ____ of the school addressed the students at the assembly.",
+  "o": [
+   "principle",
+   "principality",
+   "principal",
+   "principled"
+  ],
+  "a": 2,
+  "e": "The head of a school is the 'principal'.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-1706",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Phrasal verbs",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "psc": "plus2",
+  "q": "Fill in the blank: The firefighters took two hours to ____ the blaze in the warehouse.",
+  "o": [
+   "put off",
+   "put out",
+   "put up",
+   "put on"
+  ],
+  "a": 1,
+  "e": "'put out' means to extinguish a fire.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-1707",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Spelling",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "psc": "degree",
+  "q": "Identify the word with the correct spelling from the options given.",
+  "o": [
+   "Mischievious",
+   "Mischevous",
+   "Miscievous",
+   "Mischievous"
+  ],
+  "a": 3,
+  "e": "The correct spelling is 'Mischievous'.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-1708",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Foreign phrases",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "advanced",
+  "psc": "degree",
+  "q": "The French expression 'fait accompli' refers to:",
+  "o": [
+   "a thing already done that cannot be changed",
+   "a polite refusal",
+   "a skilful performance",
+   "a secret agreement"
+  ],
+  "a": 0,
+  "e": "A 'fait accompli' is a thing already done that cannot be changed, presented to others as settled.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-1709",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Modals",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "hard",
+  "psc": "degree",
+  "q": "Fill in the blank: You ____ not have bought milk; there was plenty in the fridge.",
+  "o": [
+   "must",
+   "ought",
+   "dare",
+   "need"
+  ],
+  "a": 3,
+  "e": "'need not have' + past participle shows an action was done although it was unnecessary.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-1710",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Conjunctions",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "easy",
+  "psc": "sslc",
+  "q": "Fill in the blank: ____ he worked hard, he failed the examination.",
+  "o": [
+   "Though",
+   "Because",
+   "Unless",
+   "Since"
+  ],
+  "a": 0,
+  "e": "'Though' introduces a contrast: hard work, yet failure.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-1711",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Correlative conjunctions",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "hard",
+  "psc": "plus2",
+  "q": "Fill in the blank: Hardly had I reached the station ____ the train left.",
+  "o": [
+   "then",
+   "that",
+   "when",
+   "until"
+  ],
+  "a": 2,
+  "e": "'Hardly' (in inverted order) is followed by 'when'.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-1712",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Articles",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "d": "medium",
+  "psc": "plus2",
+  "q": "Fill in the blank: Ravi is ____ M.Sc. student at the university.",
+  "o": [
+   "a",
+   "an",
+   "one",
+   "some"
+  ],
+  "a": 1,
+  "e": "'M.Sc.' is pronounced with an initial vowel sound (em), so the article is 'an'.",
+  "lang": "en"
+ }
+]
