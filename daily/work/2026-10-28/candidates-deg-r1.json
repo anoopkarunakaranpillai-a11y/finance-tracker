@@ -1,0 +1,351 @@
+[
+ {
+  "k": "deg-2801",
+  "cat": "deg",
+  "s": "acc",
+  "t": "Journal entries",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "easy",
+  "q": "Goods worth ₹5,000 are withdrawn by the owner from the business for personal use. Which account is debited in the journal entry?",
+  "o": [
+   "Purchases Account",
+   "Drawings Account",
+   "Sales Account",
+   "Capital Account"
+  ],
+  "a": 1,
+  "e": "Drawings Account is debited (and Purchases Account credited), because goods taken by the owner reduce the owner's claim on the business.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-2802",
+  "cat": "deg",
+  "s": "acc",
+  "t": "Company accounts",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "medium",
+  "q": "In the balance sheet of a company, 'calls in arrears' are shown as a deduction from:",
+  "o": [
+   "Reserves and surplus",
+   "Current liabilities",
+   "Called-up share capital",
+   "Trade receivables"
+  ],
+  "a": 2,
+  "e": "Calls in arrears (amounts called but not paid by shareholders) are deducted from called-up share capital to arrive at paid-up capital.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-2803",
+  "cat": "deg",
+  "s": "acc",
+  "t": "Bank reconciliation",
+  "lvl": "entrance",
+  "exam": "University entrance",
+  "d": "hard",
+  "q": "The cash book of a firm shows a debit balance of ₹10,000. Cheques of ₹2,000 issued by the firm have not yet been presented for payment, and cheques of ₹1,500 deposited have not yet been credited by the bank. What is the balance as per the pass book?",
+  "o": [
+   "₹9,500",
+   "₹13,500",
+   "₹6,500",
+   "₹10,500"
+  ],
+  "a": 3,
+  "e": "Starting from the cash book balance ₹10,000: add unpresented cheques ₹2,000 and subtract uncredited deposits ₹1,500, giving ₹10,500.",
+  "lang": "en",
+  "calc": "10000+2000-1500"
+ },
+ {
+  "k": "deg-2804",
+  "cat": "deg",
+  "s": "dcs",
+  "t": "Data structures",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "easy",
+  "q": "Which of the following is a non-linear data structure?",
+  "o": [
+   "Tree",
+   "Array",
+   "Stack",
+   "Queue"
+  ],
+  "a": 0,
+  "e": "A tree is non-linear because its elements are arranged hierarchically; arrays, stacks and queues are linear.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-2805",
+  "cat": "deg",
+  "s": "dcs",
+  "t": "Number systems",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "medium",
+  "q": "What is the decimal equivalent of the octal number 157?",
+  "o": [
+   "111",
+   "157",
+   "103",
+   "119"
+  ],
+  "a": 0,
+  "e": "(157)₈ = 1×64 + 5×8 + 7 = 111.",
+  "lang": "en",
+  "calc": "1*64+5*8+7"
+ },
+ {
+  "k": "deg-2806",
+  "cat": "deg",
+  "s": "dcs",
+  "t": "Digital logic",
+  "lvl": "entrance",
+  "exam": "University entrance",
+  "d": "hard",
+  "q": "How many select lines are required for a 16-to-1 multiplexer?",
+  "o": [
+   "2",
+   "4",
+   "8",
+   "16"
+  ],
+  "a": 1,
+  "e": "A multiplexer with 2ⁿ inputs needs n select lines; since 16 = 2⁴, a 16-to-1 multiplexer needs 4 select lines.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-2807",
+  "cat": "deg",
+  "s": "dmath",
+  "t": "Permutations and combinations",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "easy",
+  "q": "In how many ways can a group of 3 students be selected from 7 students?",
+  "o": [
+   "21",
+   "210",
+   "35",
+   "42"
+  ],
+  "a": 2,
+  "e": "⁷C₃ = (7 × 6 × 5) ÷ (3 × 2 × 1) = 35.",
+  "lang": "en",
+  "calc": "7*6*5/(3*2*1)"
+ },
+ {
+  "k": "deg-2808",
+  "cat": "deg",
+  "s": "dmath",
+  "t": "Sequences and series",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "medium",
+  "q": "What is the sum of the first 20 terms of the arithmetic progression 3, 7, 11, 15, …?",
+  "o": [
+   "800",
+   "840",
+   "780",
+   "820"
+  ],
+  "a": 3,
+  "e": "S = n/2 × [2a + (n − 1)d] = 10 × (6 + 76) = 820.",
+  "lang": "en",
+  "calc": "20/2*(2*3+19*4)"
+ },
+ {
+  "k": "deg-2809",
+  "cat": "deg",
+  "s": "dmath",
+  "t": "Combinatorics",
+  "lvl": "entrance",
+  "exam": "University entrance",
+  "d": "advanced",
+  "q": "Four letters are to be placed in four envelopes, each addressed for one of them. In how many ways can all four letters be placed in wrong envelopes?",
+  "o": [
+   "9",
+   "8",
+   "11",
+   "6"
+  ],
+  "a": 0,
+  "e": "This is the number of derangements D₄ = 4!(1 − 1/1! + 1/2! − 1/3! + 1/4!) = 12 − 4 + 1 = 9.",
+  "lang": "en",
+  "calc": "24/2-24/6+24/24"
+ },
+ {
+  "k": "deg-2810",
+  "cat": "deg",
+  "s": "dphy",
+  "t": "Kinematics",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "medium",
+  "q": "A stone is dropped from rest and falls freely for 3 seconds. Taking g = 9.8 m/s², what distance does it fall?",
+  "o": [
+   "29.4 m",
+   "44.1 m",
+   "88.2 m",
+   "14.7 m"
+  ],
+  "a": 1,
+  "e": "s = ½gt² = ½ × 9.8 × 3² = 44.1 m.",
+  "lang": "en",
+  "calc": "0.5*9.8*3*3"
+ },
+ {
+  "k": "deg-2811",
+  "cat": "deg",
+  "s": "dphy",
+  "t": "Modern physics",
+  "lvl": "entrance",
+  "exam": "University entrance",
+  "d": "advanced",
+  "q": "In Compton scattering of X-rays by free electrons, the wavelength shift Δλ is maximum when the photon is scattered through an angle of:",
+  "o": [
+   "90°",
+   "0°",
+   "180°",
+   "45°"
+  ],
+  "a": 2,
+  "e": "Δλ = (h/mₑc)(1 − cos θ) is greatest when cos θ = −1, i.e. at θ = 180°, where Δλ = 2h/mₑc.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-2812",
+  "cat": "deg",
+  "s": "dchem",
+  "t": "Mole concept",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "medium",
+  "q": "How many moles of carbon dioxide are present in 88 g of CO₂ (C = 12, O = 16)?",
+  "o": [
+   "4 mol",
+   "0.5 mol",
+   "1 mol",
+   "2 mol"
+  ],
+  "a": 3,
+  "e": "Molar mass of CO₂ = 12 + 32 = 44 g/mol, so 88 ÷ 44 = 2 mol.",
+  "lang": "en",
+  "calc": "88/44"
+ },
+ {
+  "k": "deg-2813",
+  "cat": "deg",
+  "s": "dchem",
+  "t": "Organic reaction mechanisms",
+  "lvl": "entrance",
+  "exam": "University entrance",
+  "d": "hard",
+  "q": "Which of the following alkyl bromides undergoes an SN1 reaction the fastest?",
+  "o": [
+   "tert-Butyl bromide",
+   "Methyl bromide",
+   "Ethyl bromide",
+   "Isopropyl bromide"
+  ],
+  "a": 0,
+  "e": "tert-Butyl bromide reacts fastest by SN1 because it forms the most stable (tertiary) carbocation.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-2814",
+  "cat": "deg",
+  "lvl": "degree",
+  "exam": "University semester",
+  "lang": "en",
+  "s": "dbio",
+  "t": "Molecular biology",
+  "d": "easy",
+  "q": "The synthesis of an RNA molecule using a DNA strand as the template is called:",
+  "o": [
+   "Replication",
+   "Translation",
+   "Transcription",
+   "Transduction"
+  ],
+  "a": 2,
+  "e": "Transcription is the copying of a DNA template into RNA; translation makes protein from mRNA."
+ },
+ {
+  "k": "deg-2815",
+  "cat": "deg",
+  "s": "decon",
+  "t": "Theory of costs",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "medium",
+  "q": "When a firm's marginal cost (MC) lies below its average cost (AC), the average cost is:",
+  "o": [
+   "Rising",
+   "Falling",
+   "Constant",
+   "Equal to zero"
+  ],
+  "a": 1,
+  "e": "When MC is below AC, each additional unit pulls the average down, so AC is falling; AC is at its minimum where MC = AC.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-2816",
+  "cat": "deg",
+  "s": "mgmt",
+  "t": "Communication",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "easy",
+  "q": "In an organisation, the term 'grapevine' refers to:",
+  "o": [
+   "The informal communication network",
+   "The formal chain of command",
+   "Written circulars from top management",
+   "The organisation chart"
+  ],
+  "a": 0,
+  "e": "The grapevine is the informal communication network that spreads information through personal contacts rather than official channels.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-2817",
+  "cat": "deg",
+  "s": "hum",
+  "t": "Political thought",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "medium",
+  "q": "Who co-authored 'The Communist Manifesto' (1848) with Karl Marx?",
+  "o": [
+   "Vladimir Lenin",
+   "G. W. F. Hegel",
+   "Friedrich Engels",
+   "Leon Trotsky"
+  ],
+  "a": 2,
+  "e": "Friedrich Engels co-authored The Communist Manifesto with Karl Marx in 1848.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-2818",
+  "cat": "deg",
+  "s": "engg",
+  "t": "AC circuits",
+  "lvl": "entrance",
+  "exam": "University entrance",
+  "d": "hard",
+  "q": "At resonance in a series RLC circuit, the impedance of the circuit is:",
+  "o": [
+   "Zero",
+   "Equal to R, its minimum value",
+   "Infinite",
+   "Equal to X_L + X_C"
+  ],
+  "a": 1,
+  "e": "At resonance X_L = X_C, so the reactances cancel and the impedance is equal to R, its minimum value; the current is maximum.",
+  "lang": "en"
+ }
+]

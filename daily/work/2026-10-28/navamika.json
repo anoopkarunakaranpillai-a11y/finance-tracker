@@ -1,0 +1,609 @@
+[
+ {
+  "id": "trace-numbers-16-to-20",
+  "type": "tracing",
+  "title": "Trace 16 to 20",
+  "desc": "Draw the big numbers!",
+  "difficulty": "medium",
+  "instructions": "Follow the dotted lines with your finger.",
+  "chars": [
+   "16",
+   "17",
+   "18",
+   "19",
+   "20"
+  ]
+ },
+ {
+  "id": "count-the-cars",
+  "type": "counting",
+  "title": "Count the Cars",
+  "desc": "Beep beep! How many?",
+  "difficulty": "easy",
+  "instructions": "Count the pictures and tap the number.",
+  "questions": [
+   {
+    "q": "How many cars?",
+    "show": "🚗🚗🚗",
+    "options": [
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     },
+     {
+      "t": "4"
+     }
+    ],
+    "answer": 1,
+    "good": "Yes! 3 cars. Beep beep!"
+   },
+   {
+    "q": "How many buses?",
+    "show": "🚌🚌",
+    "options": [
+     {
+      "t": "2"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "5"
+     }
+    ],
+    "answer": 0,
+    "good": "Great! 2 buses!"
+   },
+   {
+    "q": "How many bikes?",
+    "show": "🚲🚲🚲🚲🚲",
+    "options": [
+     {
+      "t": "4"
+     },
+     {
+      "t": "6"
+     },
+     {
+      "t": "5"
+     }
+    ],
+    "answer": 2,
+    "good": "Super! 5 bikes!"
+   },
+   {
+    "q": "How many boats?",
+    "show": "⛵⛵⛵⛵",
+    "options": [
+     {
+      "t": "4"
+     },
+     {
+      "t": "3"
+     },
+     {
+      "t": "2"
+     }
+    ],
+    "answer": 0,
+    "good": "Well done! 4 boats!"
+   },
+   {
+    "q": "How many trains?",
+    "show": "🚂",
+    "options": [
+     {
+      "t": "3"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "2"
+     }
+    ],
+    "answer": 1,
+    "good": "Yes! Just 1 train. Choo choo!"
+   },
+   {
+    "q": "How many planes?",
+    "show": "✈️✈️✈️✈️✈️✈️",
+    "options": [
+     {
+      "t": "5"
+     },
+     {
+      "t": "7"
+     },
+     {
+      "t": "6"
+     }
+    ],
+    "answer": 2,
+    "good": "Wow! 6 planes in the sky!"
+   }
+  ]
+ },
+ {
+  "id": "kitchen-helpers",
+  "type": "vocabulary",
+  "title": "Kitchen Helpers",
+  "desc": "What do we use?",
+  "difficulty": "easy",
+  "instructions": "Listen and tap the right picture.",
+  "questions": [
+   {
+    "q": "What do we use to eat soup?",
+    "show": "🍲",
+    "options": [
+     {
+      "e": "🥄",
+      "t": "Spoon"
+     },
+     {
+      "e": "🔑",
+      "t": "Key"
+     },
+     {
+      "e": "✏️",
+      "t": "Pencil"
+     }
+    ],
+    "answer": 0,
+    "good": "Yes! A spoon for yummy soup!"
+   },
+   {
+    "q": "What do we drink milk from?",
+    "show": "🥛",
+    "options": [
+     {
+      "e": "👟",
+      "t": "Shoe"
+     },
+     {
+      "e": "🧢",
+      "t": "Cap"
+     },
+     {
+      "e": "🥤",
+      "t": "Cup"
+     }
+    ],
+    "answer": 2,
+    "good": "Right! We drink from a cup!"
+   },
+   {
+    "q": "Where do we put food to eat?",
+    "show": "🍚",
+    "options": [
+     {
+      "e": "🍽️",
+      "t": "Plate"
+     },
+     {
+      "e": "🧸",
+      "t": "Teddy"
+     },
+     {
+      "e": "📚",
+      "t": "Books"
+     }
+    ],
+    "answer": 0,
+    "good": "Great! Food goes on a plate!"
+   },
+   {
+    "q": "What do we cook food in?",
+    "show": "🥚",
+    "options": [
+     {
+      "e": "🛏️",
+      "t": "Bed"
+     },
+     {
+      "e": "🍳",
+      "t": "Pan"
+     },
+     {
+      "e": "🪑",
+      "t": "Chair"
+     }
+    ],
+    "answer": 1,
+    "good": "Yes! We cook eggs in a pan!"
+   },
+   {
+    "q": "What can we eat noodles with?",
+    "show": "🍜",
+    "options": [
+     {
+      "e": "🧦",
+      "t": "Sock"
+     },
+     {
+      "e": "🎈",
+      "t": "Balloon"
+     },
+     {
+      "e": "🥢",
+      "t": "Chopsticks"
+     }
+    ],
+    "answer": 2,
+    "good": "Yes! Slurp slurp with chopsticks!"
+   }
+  ]
+ },
+ {
+  "id": "how-animals-move",
+  "type": "animals",
+  "title": "How Do Animals Move?",
+  "desc": "Fly, swim or hop!",
+  "difficulty": "medium",
+  "instructions": "Listen and tap the animal.",
+  "questions": [
+   {
+    "q": "Who can fly in the sky?",
+    "show": "☁️",
+    "options": [
+     {
+      "e": "🐄",
+      "t": "Cow"
+     },
+     {
+      "e": "🐦",
+      "t": "Bird"
+     },
+     {
+      "e": "🐢",
+      "t": "Turtle"
+     }
+    ],
+    "answer": 1,
+    "good": "Yes! Birds fly high!"
+   },
+   {
+    "q": "Who can hop, hop, hop?",
+    "show": "🌿",
+    "options": [
+     {
+      "e": "🐸",
+      "t": "Frog"
+     },
+     {
+      "e": "🐟",
+      "t": "Fish"
+     },
+     {
+      "e": "🐌",
+      "t": "Snail"
+     }
+    ],
+    "answer": 0,
+    "good": "Hop hop! The frog jumps!"
+   },
+   {
+    "q": "Who swims in the water?",
+    "show": "🌊",
+    "options": [
+     {
+      "e": "🐒",
+      "t": "Monkey"
+     },
+     {
+      "e": "🐈",
+      "t": "Cat"
+     },
+     {
+      "e": "🐬",
+      "t": "Dolphin"
+     }
+    ],
+    "answer": 2,
+    "good": "Splash! Dolphins swim!"
+   },
+   {
+    "q": "Who climbs up trees?",
+    "show": "🌳",
+    "options": [
+     {
+      "e": "🐒",
+      "t": "Monkey"
+     },
+     {
+      "e": "🐟",
+      "t": "Fish"
+     },
+     {
+      "e": "🐄",
+      "t": "Cow"
+     }
+    ],
+    "answer": 0,
+    "good": "Yes! Monkeys love to climb!"
+   },
+   {
+    "q": "Who moves very, very slowly?",
+    "show": "🍃",
+    "options": [
+     {
+      "e": "🐇",
+      "t": "Rabbit"
+     },
+     {
+      "e": "🐎",
+      "t": "Horse"
+     },
+     {
+      "e": "🐌",
+      "t": "Snail"
+     }
+    ],
+    "answer": 2,
+    "good": "Slow and steady snail!"
+   },
+   {
+    "q": "Who can fly and make honey?",
+    "show": "🌸",
+    "options": [
+     {
+      "e": "🐶",
+      "t": "Dog"
+     },
+     {
+      "e": "🐝",
+      "t": "Bee"
+     },
+     {
+      "e": "🐑",
+      "t": "Sheep"
+     }
+    ],
+    "answer": 1,
+    "good": "Buzz buzz! Busy bee!"
+   }
+  ]
+ },
+ {
+  "id": "hot-or-cold",
+  "type": "logic",
+  "title": "Hot or Cold?",
+  "desc": "Brrr or warm?",
+  "difficulty": "easy",
+  "instructions": "Tap the right picture.",
+  "questions": [
+   {
+    "q": "Which one is cold?",
+    "show": "❄️",
+    "options": [
+     {
+      "e": "🍦",
+      "t": "Ice cream"
+     },
+     {
+      "e": "☕",
+      "t": "Hot tea"
+     },
+     {
+      "e": "🔥",
+      "t": "Fire"
+     }
+    ],
+    "answer": 0,
+    "good": "Brrr! Ice cream is cold!"
+   },
+   {
+    "q": "Which one is hot?",
+    "show": "☀️",
+    "options": [
+     {
+      "e": "⛄",
+      "t": "Snowman"
+     },
+     {
+      "e": "🧊",
+      "t": "Ice"
+     },
+     {
+      "e": "☀️",
+      "t": "Sun"
+     }
+    ],
+    "answer": 2,
+    "good": "Yes! The sun is hot!"
+   },
+   {
+    "q": "What do we wear when it is cold?",
+    "show": "🥶",
+    "options": [
+     {
+      "e": "🩳",
+      "t": "Shorts"
+     },
+     {
+      "e": "🧣",
+      "t": "Scarf"
+     },
+     {
+      "e": "🕶️",
+      "t": "Sunglasses"
+     }
+    ],
+    "answer": 1,
+    "good": "Cosy scarf keeps us warm!"
+   },
+   {
+    "q": "Which one is cold?",
+    "show": "🥶",
+    "options": [
+     {
+      "e": "🧊",
+      "t": "Ice"
+     },
+     {
+      "e": "🍲",
+      "t": "Hot soup"
+     },
+     {
+      "e": "🔥",
+      "t": "Fire"
+     }
+    ],
+    "answer": 0,
+    "good": "Right! Ice is cold!"
+   },
+   {
+    "q": "Which one is hot? Don't touch!",
+    "show": "⚠️",
+    "options": [
+     {
+      "e": "🎈",
+      "t": "Balloon"
+     },
+     {
+      "e": "🧸",
+      "t": "Teddy"
+     },
+     {
+      "e": "🔥",
+      "t": "Fire"
+     }
+    ],
+    "answer": 2,
+    "good": "Yes! Fire is hot. Stay safe!"
+   }
+  ]
+ },
+ {
+  "id": "colour-twins",
+  "type": "colors",
+  "title": "Colour Twins",
+  "desc": "Find the same colour!",
+  "difficulty": "medium",
+  "instructions": "Look at the picture and tap the same colour.",
+  "questions": [
+   {
+    "q": "Find the colour of the apple.",
+    "show": "🍎",
+    "options": [
+     {
+      "c": "#2E7D32",
+      "t": "Green"
+     },
+     {
+      "c": "#E53935",
+      "t": "Red"
+     },
+     {
+      "c": "#1E88E5",
+      "t": "Blue"
+     }
+    ],
+    "answer": 1,
+    "good": "Yes! The apple is red!"
+   },
+   {
+    "q": "Find the colour of the banana.",
+    "show": "🍌",
+    "options": [
+     {
+      "c": "#FDD835",
+      "t": "Yellow"
+     },
+     {
+      "c": "#8E24AA",
+      "t": "Purple"
+     },
+     {
+      "c": "#E53935",
+      "t": "Red"
+     }
+    ],
+    "answer": 0,
+    "good": "Yummy yellow banana!"
+   },
+   {
+    "q": "Find the colour of the leaf.",
+    "show": "🍃",
+    "options": [
+     {
+      "c": "#FB8C00",
+      "t": "Orange"
+     },
+     {
+      "c": "#1E88E5",
+      "t": "Blue"
+     },
+     {
+      "c": "#43A047",
+      "t": "Green"
+     }
+    ],
+    "answer": 2,
+    "good": "Great! Leaves are green!"
+   },
+   {
+    "q": "Find the colour of the orange.",
+    "show": "🍊",
+    "options": [
+     {
+      "c": "#FB8C00",
+      "t": "Orange"
+     },
+     {
+      "c": "#43A047",
+      "t": "Green"
+     },
+     {
+      "c": "#FFFFFF",
+      "t": "White"
+     }
+    ],
+    "answer": 0,
+    "good": "Orange is orange!"
+   },
+   {
+    "q": "Find the colour of the grapes.",
+    "show": "🍇",
+    "options": [
+     {
+      "c": "#FDD835",
+      "t": "Yellow"
+     },
+     {
+      "c": "#8E24AA",
+      "t": "Purple"
+     },
+     {
+      "c": "#E53935",
+      "t": "Red"
+     }
+    ],
+    "answer": 1,
+    "good": "Purple grapes! Well done!"
+   },
+   {
+    "q": "Find the colour of the whale.",
+    "show": "🐳",
+    "options": [
+     {
+      "c": "#E53935",
+      "t": "Red"
+     },
+     {
+      "c": "#FDD835",
+      "t": "Yellow"
+     },
+     {
+      "c": "#1E88E5",
+      "t": "Blue"
+     }
+    ],
+    "answer": 2,
+    "good": "Splash! The whale is blue!"
+   }
+  ]
+ }
+]

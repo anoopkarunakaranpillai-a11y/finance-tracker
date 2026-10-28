@@ -1,0 +1,242 @@
+[
+ {
+  "k": "eng-2801",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Articles",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "sslc",
+  "d": "easy",
+  "lang": "en",
+  "q": "Fill in the blank with the correct article: There is ___ university in our town.",
+  "o": [
+   "a",
+   "an",
+   "the",
+   "no article"
+  ],
+  "a": 0,
+  "e": "'University' begins with a 'yu' (consonant) sound, so the article is 'a'."
+ },
+ {
+  "k": "eng-2802",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Prepositions",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "sslc",
+  "d": "easy",
+  "lang": "en",
+  "q": "Fill in the blank: Kerala is famous ___ its backwaters.",
+  "o": [
+   "of",
+   "for",
+   "with",
+   "by"
+  ],
+  "a": 1,
+  "e": "The correct phrase is 'famous for', so the answer is 'for'."
+ },
+ {
+  "k": "eng-2803",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Tenses",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "plus2",
+  "d": "medium",
+  "lang": "en",
+  "q": "Fill in the blank: This time tomorrow, I ___ to Delhi.",
+  "o": [
+   "travel",
+   "travelled",
+   "will be travelling",
+   "had travelled"
+  ],
+  "a": 2,
+  "e": "An action in progress at a definite time in the future takes the future continuous: 'will be travelling'."
+ },
+ {
+  "k": "eng-2804",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Active and passive voice",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "plus2",
+  "d": "medium",
+  "lang": "en",
+  "q": "Choose the correct passive form of: The boy is flying a kite.",
+  "o": [
+   "A kite is flown by the boy.",
+   "A kite was being flown by the boy.",
+   "A kite has been flown by the boy.",
+   "A kite is being flown by the boy."
+  ],
+  "a": 3,
+  "e": "Present continuous active becomes 'is/are being + past participle': 'A kite is being flown by the boy.'"
+ },
+ {
+  "k": "eng-2805",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Reported speech",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "sslc",
+  "d": "medium",
+  "lang": "en",
+  "q": "Choose the correct indirect form: He said, \"I have finished my work.\"",
+  "o": [
+   "He said that he had finished his work.",
+   "He said that he has finished his work.",
+   "He said that I had finished my work.",
+   "He said that he have finished his work."
+  ],
+  "a": 0,
+  "e": "With a past reporting verb, present perfect changes to past perfect and pronouns change: 'He said that he had finished his work.'"
+ },
+ {
+  "k": "eng-2806",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Synonyms",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "degree",
+  "d": "advanced",
+  "lang": "en",
+  "q": "Choose the word closest in meaning to 'Obdurate'.",
+  "o": [
+   "Obedient",
+   "Stubborn",
+   "Gentle",
+   "Obscure"
+  ],
+  "a": 1,
+  "e": "'Obdurate' means refusing to change one's opinion, so its synonym is 'Stubborn'."
+ },
+ {
+  "k": "eng-2807",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Antonyms",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "degree",
+  "d": "hard",
+  "lang": "en",
+  "q": "Choose the word opposite in meaning to 'Affluent'.",
+  "o": [
+   "Wealthy",
+   "Prosperous",
+   "Indigent",
+   "Fluent"
+  ],
+  "a": 2,
+  "e": "'Affluent' means rich; its opposite is 'Indigent' (very poor)."
+ },
+ {
+  "k": "eng-2808",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Idioms",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "plus2",
+  "d": "medium",
+  "lang": "en",
+  "q": "The idiom 'to add fuel to the fire' means:",
+  "o": [
+   "to put out a fire",
+   "to cook food quickly",
+   "to waste fuel",
+   "to make a bad situation worse"
+  ],
+  "a": 3,
+  "e": "'To add fuel to the fire' means 'to make a bad situation worse'."
+ },
+ {
+  "k": "eng-2809",
+  "cat": "eng",
+  "s": "veng",
+  "t": "One-word substitution",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "plus2",
+  "d": "medium",
+  "lang": "en",
+  "q": "One word for 'handwriting that cannot be read':",
+  "o": [
+   "Illegible",
+   "Ineligible",
+   "Illiterate",
+   "Invisible"
+  ],
+  "a": 0,
+  "e": "Writing that cannot be read is 'Illegible'; 'ineligible' means not qualified."
+ },
+ {
+  "k": "eng-2810",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Spotting errors",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "degree",
+  "d": "hard",
+  "lang": "en",
+  "q": "Find the part with an error: The police / has arrested / the thief. / No error",
+  "o": [
+   "The police",
+   "has arrested",
+   "the thief.",
+   "No error"
+  ],
+  "a": 1,
+  "e": "'Police' always takes a plural verb, so 'has arrested' should be 'have arrested'."
+ },
+ {
+  "k": "eng-2811",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Question tags",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "sslc",
+  "d": "easy",
+  "lang": "en",
+  "q": "Add the correct question tag: She can swim, ___?",
+  "o": [
+   "can she",
+   "doesn't she",
+   "can't she",
+   "isn't she"
+  ],
+  "a": 2,
+  "e": "A positive statement with 'can' takes a negative tag with the same auxiliary: 'can't she'."
+ },
+ {
+  "k": "eng-2812",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Spelling",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "sslc",
+  "d": "easy",
+  "lang": "en",
+  "q": "Pick the word with the correct spelling, meaning 'the inner sense of right and wrong':",
+  "o": [
+   "Concience",
+   "Consciense",
+   "Conscence",
+   "Conscience"
+  ],
+  "a": 3,
+  "e": "The correct spelling is 'Conscience'."
+ }
+]

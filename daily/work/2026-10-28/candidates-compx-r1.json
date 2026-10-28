@@ -1,0 +1,233 @@
+[
+ {
+  "k": "compx-2801",
+  "cat": "compx",
+  "s": "quant",
+  "t": "Percentage",
+  "lvl": "recruit",
+  "exam": "SSC",
+  "d": "easy",
+  "q": "What is 35% of 480?",
+  "o": [
+   "148",
+   "168",
+   "172",
+   "158"
+  ],
+  "a": 1,
+  "e": "35% of 480 = 0.35 × 480 = 168.",
+  "lang": "en",
+  "calc": "0.35*480"
+ },
+ {
+  "k": "compx-2802",
+  "cat": "compx",
+  "s": "quant",
+  "t": "Profit and loss",
+  "lvl": "recruit",
+  "exam": "Banking",
+  "d": "medium",
+  "q": "By selling an article for ₹1,140, a shopkeeper suffers a loss of 5%. What is the cost price of the article?",
+  "o": [
+   "₹1,197",
+   "₹1,250",
+   "₹1,200",
+   "₹1,100"
+  ],
+  "a": 2,
+  "e": "SP = 95% of CP, so CP = 1140 ÷ 0.95 = ₹1,200.",
+  "lang": "en",
+  "calc": "1140/0.95"
+ },
+ {
+  "k": "compx-2803",
+  "cat": "compx",
+  "lvl": "recruit",
+  "exam": "Railway",
+  "lang": "en",
+  "s": "math",
+  "t": "Number system",
+  "d": "hard",
+  "q": "The sum of three consecutive even numbers is 138. What is the largest of the three numbers?",
+  "o": [
+   "46",
+   "48",
+   "44",
+   "50"
+  ],
+  "a": 1,
+  "e": "Let the numbers be n−2, n, n+2; 3n = 138, so n = 46 and the largest is 48.",
+  "calc": "138/3+2"
+ },
+ {
+  "k": "compx-2804",
+  "cat": "compx",
+  "s": "reas",
+  "t": "Classification",
+  "lvl": "recruit",
+  "exam": "Police",
+  "d": "easy",
+  "q": "Find the odd one out: Cube, Triangle, Square, Pentagon",
+  "o": [
+   "Cube",
+   "Triangle",
+   "Square",
+   "Pentagon"
+  ],
+  "a": 0,
+  "e": "Cube is the odd one out: it is a three-dimensional solid, while the others are plane (two-dimensional) figures.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-2805",
+  "cat": "compx",
+  "s": "reas",
+  "t": "Coding-decoding",
+  "lvl": "recruit",
+  "exam": "SSC",
+  "d": "medium",
+  "q": "In a certain code, ROAD is written as URDG. How is SWAN written in that code?",
+  "o": [
+   "VYDQ",
+   "VZDQ",
+   "UZDQ",
+   "VZEQ"
+  ],
+  "a": 1,
+  "e": "Each letter is shifted three places forward (R→U, O→R, A→D, D→G), so SWAN becomes VZDQ.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-2806",
+  "cat": "compx",
+  "s": "veng",
+  "t": "Antonyms",
+  "lvl": "recruit",
+  "exam": "Banking",
+  "d": "easy",
+  "q": "Choose the word most nearly opposite in meaning to 'Scarce'.",
+  "o": [
+   "Rare",
+   "Meagre",
+   "Abundant",
+   "Sparse"
+  ],
+  "a": 2,
+  "e": "Scarce means in short supply; its opposite is Abundant.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-2807",
+  "cat": "compx",
+  "s": "eng",
+  "t": "Idioms and phrases",
+  "lvl": "recruit",
+  "exam": "Teaching",
+  "d": "medium",
+  "q": "Choose the correct meaning of the idiom 'a red-letter day'.",
+  "o": [
+   "A day of danger",
+   "A day of mourning",
+   "A day of hard work",
+   "A memorable or important day"
+  ],
+  "a": 3,
+  "e": "A red-letter day is a memorable or important day, from the custom of marking feast days in red on calendars.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-2808",
+  "cat": "compx",
+  "s": "gk",
+  "t": "Modern Indian history",
+  "lvl": "recruit",
+  "exam": "Police",
+  "d": "medium",
+  "q": "Who was the first Governor-General of independent India?",
+  "o": [
+   "Lord Mountbatten",
+   "C. Rajagopalachari",
+   "Lord Wavell",
+   "Lord Linlithgow"
+  ],
+  "a": 0,
+  "e": "Lord Mountbatten was the first Governor-General of independent India (1947–48); C. Rajagopalachari was the first and only Indian Governor-General.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-2809",
+  "cat": "compx",
+  "s": "con",
+  "t": "Judiciary",
+  "lvl": "recruit",
+  "exam": "UPSC",
+  "d": "hard",
+  "q": "Which Article of the Constitution of India empowers the President to seek the advisory opinion of the Supreme Court on a question of law or fact?",
+  "o": [
+   "Article 32",
+   "Article 136",
+   "Article 143",
+   "Article 226"
+  ],
+  "a": 2,
+  "e": "Article 143 gives the Supreme Court advisory jurisdiction on references made by the President.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-2810",
+  "cat": "compx",
+  "s": "sci",
+  "t": "Chemistry in daily life",
+  "lvl": "recruit",
+  "exam": "Railway",
+  "d": "easy",
+  "q": "What is the chemical formula of baking soda?",
+  "o": [
+   "Na₂CO₃",
+   "NaCl",
+   "NaOH",
+   "NaHCO₃"
+  ],
+  "a": 3,
+  "e": "Baking soda is sodium hydrogen carbonate (sodium bicarbonate), NaHCO₃.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-2811",
+  "cat": "compx",
+  "s": "comp",
+  "t": "Computer generations",
+  "lvl": "recruit",
+  "exam": "Teaching",
+  "d": "medium",
+  "q": "First-generation computers used which of the following as their main electronic component?",
+  "o": [
+   "Vacuum tubes",
+   "Transistors",
+   "Integrated circuits",
+   "Microprocessors"
+  ],
+  "a": 0,
+  "e": "First-generation computers (about 1940s–1950s), such as ENIAC, were built with vacuum tubes.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-2812",
+  "cat": "compx",
+  "s": "econ",
+  "t": "Growth models",
+  "lvl": "recruit",
+  "exam": "UPSC",
+  "d": "advanced",
+  "q": "In the Harrod–Domar growth model, the rate of growth of output equals the saving ratio divided by the:",
+  "o": [
+   "Marginal propensity to consume",
+   "Capital–output ratio",
+   "Rate of interest",
+   "Growth rate of the labour force"
+  ],
+  "a": 1,
+  "e": "In the Harrod–Domar model g = s / v, where v is the capital–output ratio.",
+  "lang": "en"
+ }
+]
