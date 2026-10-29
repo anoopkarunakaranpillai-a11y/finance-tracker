@@ -1,0 +1,352 @@
+[
+ {
+  "k": "deg-2901",
+  "cat": "deg",
+  "s": "acc",
+  "t": "Depreciation",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "hard",
+  "q": "A machine is bought for Rs 2,40,000. Its estimated scrap value is Rs 30,000 and its useful life is 6 years. What is the annual depreciation under the straight line method?",
+  "o": [
+   "Rs 35,000",
+   "Rs 40,000",
+   "Rs 30,000",
+   "Rs 37,500"
+  ],
+  "a": 0,
+  "e": "Annual depreciation = (Cost - Scrap value) / Life = (2,40,000 - 30,000) / 6 = Rs 35,000.",
+  "lang": "en",
+  "calc": "(240000-30000)/6"
+ },
+ {
+  "k": "deg-2902",
+  "cat": "deg",
+  "s": "acc",
+  "t": "Classification of assets",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "easy",
+  "q": "In a balance sheet, goodwill is classified as which type of asset?",
+  "o": [
+   "Current asset",
+   "Intangible asset",
+   "Fictitious asset",
+   "Liquid asset"
+  ],
+  "a": 1,
+  "e": "Goodwill has no physical existence but has value to the business, so it is an Intangible asset.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-2903",
+  "cat": "deg",
+  "s": "dcs",
+  "t": "C programming",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "medium",
+  "q": "In the C programming language, which unary operator returns the memory address of a variable?",
+  "o": [
+   "Asterisk (*)",
+   "Ampersand (&)",
+   "Arrow (->)",
+   "Percent (%)"
+  ],
+  "a": 1,
+  "e": "The ampersand (&) is the address-of operator: &x gives the memory address of x.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-2904",
+  "cat": "deg",
+  "s": "dcs",
+  "t": "DBMS",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "medium",
+  "q": "In the ACID properties of database transactions, what does the letter 'I' stand for?",
+  "o": [
+   "Integrity",
+   "Indexing",
+   "Isolation",
+   "Immutability"
+  ],
+  "a": 2,
+  "e": "ACID stands for Atomicity, Consistency, Isolation and Durability; Isolation ensures concurrent transactions do not interfere with each other.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-2905",
+  "cat": "deg",
+  "s": "dmath",
+  "t": "Definite integrals",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "medium",
+  "q": "Evaluate the definite integral of (3x^2 + 2x) with respect to x from x = 0 to x = 2.",
+  "o": [
+   "10",
+   "14",
+   "16",
+   "12"
+  ],
+  "a": 3,
+  "e": "The antiderivative is x^3 + x^2. At x = 2 it equals 8 + 4 = 12, and at x = 0 it is 0, so the value is 12.",
+  "lang": "en",
+  "calc": "2^3+2^2"
+ },
+ {
+  "k": "deg-2906",
+  "cat": "deg",
+  "s": "dmath",
+  "t": "Determinants",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "hard",
+  "q": "Find the determinant of the 3 x 3 matrix whose rows are (2, 1, 3), (0, 4, 1) and (1, 0, 2).",
+  "o": [
+   "5",
+   "-3",
+   "7",
+   "11"
+  ],
+  "a": 0,
+  "e": "Expanding along the first row: 2(8 - 0) - 1(0 - 1) + 3(0 - 4) = 16 + 1 - 12 = 5.",
+  "lang": "en",
+  "calc": "2*(4*2-1*0)-1*(0*2-1*1)+3*(0*0-4*1)"
+ },
+ {
+  "k": "deg-2907",
+  "cat": "deg",
+  "s": "dphy",
+  "t": "Collisions",
+  "lvl": "entrance",
+  "exam": "University entrance",
+  "d": "easy",
+  "q": "Which quantity is conserved in a perfectly elastic collision but NOT in a perfectly inelastic collision?",
+  "o": [
+   "Linear momentum",
+   "Kinetic energy",
+   "Total energy",
+   "Total mass"
+  ],
+  "a": 1,
+  "e": "In a perfectly elastic collision Kinetic energy is conserved, whereas in a perfectly inelastic collision part of it is converted to other forms.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-2908",
+  "cat": "deg",
+  "s": "dphy",
+  "t": "Capacitors",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "hard",
+  "q": "A 4 microfarad capacitor is charged to a potential difference of 50 V. How much energy is stored in it?",
+  "o": [
+   "10 mJ",
+   "2.5 mJ",
+   "5 mJ",
+   "100 mJ"
+  ],
+  "a": 2,
+  "e": "Energy = (1/2)CV^2 = 0.5 x 4 x 10^-6 x 2500 = 5 x 10^-3 J = 5 mJ.",
+  "lang": "en",
+  "calc": "4*50^2/2/1000"
+ },
+ {
+  "k": "deg-2909",
+  "cat": "deg",
+  "s": "dchem",
+  "t": "Hybridisation",
+  "lvl": "entrance",
+  "exam": "University entrance",
+  "d": "easy",
+  "q": "What is the hybridisation of each carbon atom in ethyne (acetylene, C2H2)?",
+  "o": [
+   "sp3",
+   "sp2",
+   "dsp2",
+   "sp"
+  ],
+  "a": 3,
+  "e": "Each carbon in ethyne forms one triple bond and one single bond, giving linear geometry with sp hybridisation.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-2910",
+  "cat": "deg",
+  "s": "dchem",
+  "t": "Chemical kinetics",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "medium",
+  "q": "A first-order reaction has a half-life of 15 minutes. What percentage of the reactant remains after 45 minutes?",
+  "o": [
+   "12.5%",
+   "25%",
+   "33.3%",
+   "6.25%"
+  ],
+  "a": 0,
+  "e": "45 minutes is 3 half-lives, so the remaining fraction is (1/2)^3 = 1/8, i.e. 12.5%.",
+  "lang": "en",
+  "calc": "100/2^3"
+ },
+ {
+  "k": "deg-2911",
+  "cat": "deg",
+  "s": "dbio",
+  "t": "DNA replication",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "easy",
+  "q": "Which enzyme unwinds the DNA double helix by breaking hydrogen bonds at the replication fork?",
+  "o": [
+   "DNA ligase",
+   "Helicase",
+   "Primase",
+   "Topoisomerase"
+  ],
+  "a": 1,
+  "e": "Helicase separates the two DNA strands at the replication fork by breaking the hydrogen bonds between base pairs.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-2912",
+  "cat": "deg",
+  "s": "dbio",
+  "t": "Genetics",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "advanced",
+  "q": "A plant heterozygous for three independently assorting genes (AaBbCc) is self-pollinated. How many different genotypes are possible among the offspring?",
+  "o": [
+   "8",
+   "9",
+   "27",
+   "64"
+  ],
+  "a": 2,
+  "e": "Each gene gives 3 genotypes (AA, Aa, aa), so with three independent genes the number of genotypes is 3 x 3 x 3 = 27.",
+  "lang": "en",
+  "calc": "3^3"
+ },
+ {
+  "k": "deg-2913",
+  "cat": "deg",
+  "s": "decon",
+  "t": "Utility analysis",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "medium",
+  "q": "According to cardinal utility analysis, when marginal utility of a commodity becomes zero, total utility is at its:",
+  "o": [
+   "Minimum",
+   "Lowest positive level",
+   "Negative level",
+   "Maximum"
+  ],
+  "a": 3,
+  "e": "Total utility rises while marginal utility is positive and stops rising when marginal utility is zero, so total utility is at its Maximum.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-2914",
+  "cat": "deg",
+  "s": "decon",
+  "t": "Elasticity of demand",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "hard",
+  "q": "When the price of a good falls by 8%, its quantity demanded rises by 20%. What is the (absolute) price elasticity of demand?",
+  "o": [
+   "2.5",
+   "0.4",
+   "1.6",
+   "12"
+  ],
+  "a": 0,
+  "e": "Price elasticity = % change in quantity demanded / % change in price = 20 / 8 = 2.5, so demand is elastic.",
+  "lang": "en",
+  "calc": "20/8"
+ },
+ {
+  "k": "deg-2915",
+  "cat": "deg",
+  "s": "mgmt",
+  "t": "Management thinkers",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "easy",
+  "q": "Who propounded the 14 general principles of management?",
+  "o": [
+   "F. W. Taylor",
+   "Henri Fayol",
+   "Peter Drucker",
+   "Elton Mayo"
+  ],
+  "a": 1,
+  "e": "The 14 principles of management were given by the French industrialist Henri Fayol in his administrative management theory.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-2916",
+  "cat": "deg",
+  "s": "mgmt",
+  "t": "Strategic analysis",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "medium",
+  "q": "In SWOT analysis used for business planning, what does the letter 'T' represent?",
+  "o": [
+   "Targets",
+   "Trends",
+   "Threats",
+   "Tactics"
+  ],
+  "a": 2,
+  "e": "SWOT stands for Strengths, Weaknesses, Opportunities and Threats; Threats are external factors that could harm the organisation.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-2917",
+  "cat": "deg",
+  "s": "hum",
+  "t": "Political philosophy",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "medium",
+  "q": "The classical work 'The Republic', which describes an ideal state ruled by philosopher-kings, was written by:",
+  "o": [
+   "Aristotle",
+   "Cicero",
+   "Machiavelli",
+   "Plato"
+  ],
+  "a": 3,
+  "e": "'The Republic' is a dialogue written by Plato, in which he presents the idea of philosopher-kings.",
+  "lang": "en"
+ },
+ {
+  "k": "deg-2918",
+  "cat": "deg",
+  "s": "engg",
+  "t": "Thermodynamics",
+  "lvl": "degree",
+  "exam": "University semester",
+  "d": "advanced",
+  "q": "A Carnot engine operates between a source at 800 K and a sink at 300 K. What is its thermal efficiency?",
+  "o": [
+   "62.5%",
+   "37.5%",
+   "50%",
+   "72.5%"
+  ],
+  "a": 0,
+  "e": "Carnot efficiency = 1 - T2/T1 = 1 - 300/800 = 0.625, i.e. 62.5%.",
+  "lang": "en",
+  "calc": "(800-300)/800*100"
+ }
+]

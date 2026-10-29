@@ -1,0 +1,54 @@
+[
+ {"id": "bugs-and-blooms-memory", "type": "memory", "title": "Bugs and Blooms", "desc": "Find the matching garden pairs!",
+  "difficulty": "easy", "instructions": "Tap two cards. Can you find the same pictures?",
+  "pairs": ["🐝", "🦋", "🐞", "🌻"]},
+ {"id": "who-is-making-that-sound", "type": "sounds", "title": "Who Is Making That Sound?", "desc": "Listen to the sound words and find who says it.",
+  "difficulty": "easy", "instructions": "Listen and tap the right friend.",
+  "questions": [
+   {"q": "Who says moo?", "show": "🔊", "options": [{"e": "🐄", "t": "Cow"}, {"e": "🐱", "t": "Cat"}, {"e": "🐔", "t": "Hen"}], "answer": 0, "good": "Yes! The cow says moo!"},
+   {"q": "Who says quack quack?", "show": "🔊", "options": [{"e": "🐶", "t": "Dog"}, {"e": "🦆", "t": "Duck"}, {"e": "🐑", "t": "Sheep"}], "answer": 1, "good": "Quack quack! The duck!"},
+   {"q": "What goes ding dong?", "show": "🔊", "options": [{"e": "🚗", "t": "Car"}, {"e": "🥁", "t": "Drum"}, {"e": "🔔", "t": "Bell"}], "answer": 2, "good": "Ding dong goes the bell!"},
+   {"q": "Who says baa?", "show": "🔊", "options": [{"e": "🐸", "t": "Frog"}, {"e": "🐴", "t": "Horse"}, {"e": "🐑", "t": "Sheep"}], "answer": 2, "good": "Baa baa! The sheep!"},
+   {"q": "What goes choo choo?", "show": "🔊", "options": [{"e": "🚂", "t": "Train"}, {"e": "🚲", "t": "Bicycle"}, {"e": "⛵", "t": "Boat"}], "answer": 0, "good": "Choo choo! Here comes the train!"},
+   {"q": "Who says ribbit?", "show": "🔊", "options": [{"e": "🐭", "t": "Mouse"}, {"e": "🐸", "t": "Frog"}, {"e": "🐦", "t": "Bird"}], "answer": 1, "good": "Ribbit! The happy frog!"}
+  ]},
+ {"id": "how-many-in-the-basket", "type": "numbers", "title": "How Many in the Basket?", "desc": "Count small numbers and find the right one.",
+  "difficulty": "easy", "instructions": "Count the pictures and tap the number.",
+  "questions": [
+   {"q": "How many apples?", "show": "🍎🍎🍎", "options": [{"t": "2"}, {"t": "3"}, {"t": "4"}], "answer": 1, "good": "Three apples! Yummy!"},
+   {"q": "How many eggs?", "show": "🥚🥚🥚🥚🥚", "options": [{"t": "5"}, {"t": "4"}, {"t": "6"}], "answer": 0, "good": "Five eggs! Great counting!"},
+   {"q": "How many balls?", "show": "⚽⚽", "options": [{"t": "1"}, {"t": "3"}, {"t": "2"}], "answer": 2, "good": "Two balls! Let's play!"},
+   {"q": "How many fish?", "show": "🐟🐟🐟🐟", "options": [{"t": "4"}, {"t": "2"}, {"t": "5"}], "answer": 0, "good": "Four little fish!"},
+   {"q": "Which number is bigger?", "options": [{"t": "6"}, {"t": "9"}], "answer": 1, "good": "Yes! 9 is bigger than 6!"},
+   {"q": "Which number is smaller?", "options": [{"t": "8"}, {"t": "10"}, {"t": "3"}], "answer": 2, "good": "Super! 3 is the smallest!"}
+  ]},
+ {"id": "what-is-missing-here", "type": "observation", "title": "Look Closely!", "desc": "Look carefully and find the right picture.",
+  "difficulty": "medium", "instructions": "Look at the big picture and tap the answer.",
+  "questions": [
+   {"q": "Which one can fly?", "show": "☁️", "options": [{"e": "🐘", "t": "Elephant"}, {"e": "🐢", "t": "Turtle"}, {"e": "🐦", "t": "Bird"}], "answer": 2, "good": "Birds fly high in the sky!"},
+   {"q": "Which one do we use in the rain?", "show": "🌧️", "options": [{"e": "☂️", "t": "Umbrella"}, {"e": "🕶️", "t": "Sunglasses"}, {"e": "🧸", "t": "Teddy"}], "answer": 0, "good": "An umbrella keeps us dry!"},
+   {"q": "Which one shines at night?", "show": "🌙", "options": [{"e": "🌈", "t": "Rainbow"}, {"e": "⭐", "t": "Star"}, {"e": "🌷", "t": "Tulip"}], "answer": 1, "good": "Twinkle twinkle little star!"},
+   {"q": "Which one has wheels?", "options": [{"e": "🐟", "t": "Fish"}, {"e": "🍌", "t": "Banana"}, {"e": "🚌", "t": "Bus"}], "answer": 2, "good": "The bus has round wheels!"},
+   {"q": "Which one grows on a tree?", "show": "🌳", "options": [{"e": "🥭", "t": "Mango"}, {"e": "🧦", "t": "Sock"}, {"e": "🥄", "t": "Spoon"}], "answer": 0, "good": "Mangoes grow on trees! Sweet!"},
+   {"q": "Which one do we use to brush teeth?", "show": "😁", "options": [{"e": "🖍️", "t": "Crayon"}, {"e": "🪥", "t": "Toothbrush"}, {"e": "🎈", "t": "Balloon"}], "answer": 1, "good": "Brush brush! Shiny teeth!"}
+  ]},
+ {"id": "rhyme-time-sun-fun", "type": "rhymes", "title": "Rhyme Time: Sun and Fun", "desc": "Find the words that sound alike.",
+  "difficulty": "medium", "instructions": "Which word sounds like the big word?",
+  "questions": [
+   {"q": "What rhymes with SUN?", "show": "☀️", "options": [{"t": "Bun", "e": "🍞"}, {"t": "Cat", "e": "🐱"}, {"t": "Tree", "e": "🌳"}], "answer": 0, "good": "Sun, bun! They rhyme!"},
+   {"q": "What rhymes with BEE?", "show": "🐝", "options": [{"t": "Car", "e": "🚗"}, {"t": "Tree", "e": "🌳"}, {"t": "Fish", "e": "🐟"}], "answer": 1, "good": "Bee, tree! Buzz buzz!"},
+   {"q": "What rhymes with GOAT?", "show": "🐐", "options": [{"t": "Ball", "e": "⚽"}, {"t": "Cake", "e": "🎂"}, {"t": "Boat", "e": "⛵"}], "answer": 2, "good": "Goat, boat! Well done!"},
+   {"q": "What rhymes with MOUSE?", "show": "🐭", "options": [{"t": "House", "e": "🏠"}, {"t": "Duck", "e": "🦆"}, {"t": "Moon", "e": "🌙"}], "answer": 0, "good": "Mouse, house! Lovely!"},
+   {"q": "What rhymes with SNAKE?", "show": "🐍", "options": [{"t": "Cup", "e": "☕"}, {"t": "Cake", "e": "🎂"}, {"t": "Shoe", "e": "👟"}], "answer": 1, "good": "Snake, cake! Hooray!"}
+  ]},
+ {"id": "shape-match-up", "type": "shapes", "title": "Shape Match-Up", "desc": "Find the shape that looks the same.",
+  "difficulty": "easy", "instructions": "Tap the shape that matches.",
+  "questions": [
+   {"q": "Find the star.", "show": "⭐", "options": [{"s": "circle"}, {"s": "square"}, {"s": "star"}], "answer": 2, "good": "You found the star!"},
+   {"q": "Find the heart.", "show": "❤️", "options": [{"s": "heart"}, {"s": "triangle"}, {"s": "oval"}], "answer": 0, "good": "A lovely heart!"},
+   {"q": "Which shape is like a pizza slice?", "show": "🍕", "options": [{"s": "square"}, {"s": "triangle"}, {"s": "circle"}], "answer": 1, "good": "Yes! A triangle!"},
+   {"q": "Which shape is like a ball?", "show": "⚽", "options": [{"s": "rectangle"}, {"s": "diamond"}, {"s": "circle"}], "answer": 2, "good": "Round like a circle!"},
+   {"q": "Which shape is like a door?", "show": "🚪", "options": [{"s": "rectangle"}, {"s": "star"}, {"s": "heart"}], "answer": 0, "good": "A door is a rectangle!"},
+   {"q": "Find the diamond.", "show": "💎", "options": [{"s": "hexagon"}, {"s": "diamond"}, {"s": "circle"}], "answer": 1, "good": "Sparkly diamond!"}
+  ]}
+]

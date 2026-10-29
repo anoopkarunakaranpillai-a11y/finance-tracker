@@ -1,0 +1,236 @@
+[
+ {
+  "k": "compx-2901",
+  "cat": "compx",
+  "s": "quant",
+  "t": "Boats and streams",
+  "lvl": "recruit",
+  "exam": "SSC",
+  "d": "medium",
+  "q": "A boat covers 36 km downstream in 3 hours and 24 km upstream in 4 hours. What is the speed of the boat in still water?",
+  "o": [
+   "9 km/h",
+   "10 km/h",
+   "8 km/h",
+   "6 km/h"
+  ],
+  "a": 0,
+  "e": "Downstream speed = 12 km/h, upstream speed = 6 km/h; speed in still water = (12 + 6)/2 = 9 km/h.",
+  "lang": "en",
+  "calc": "(36/3+24/4)/2"
+ },
+ {
+  "k": "compx-2902",
+  "cat": "compx",
+  "s": "reas",
+  "t": "Direction sense",
+  "lvl": "recruit",
+  "exam": "Banking",
+  "d": "easy",
+  "q": "A man walks 7 km towards the north, then turns right and walks 24 km. How far is he from his starting point?",
+  "o": [
+   "31 km",
+   "17 km",
+   "25 km",
+   "24 km"
+  ],
+  "a": 2,
+  "e": "The paths are at right angles, so distance = sqrt(7^2 + 24^2) = sqrt(625) = 25 km.",
+  "lang": "en",
+  "calc": "sqrt(7^2+24^2)"
+ },
+ {
+  "k": "compx-2903",
+  "cat": "compx",
+  "s": "con",
+  "t": "Parliament",
+  "lvl": "recruit",
+  "exam": "UPSC",
+  "d": "medium",
+  "q": "What is the minimum age required to become a member of the Rajya Sabha?",
+  "o": [
+   "25 years",
+   "30 years",
+   "35 years",
+   "21 years"
+  ],
+  "a": 1,
+  "e": "Article 84 sets the minimum age for Rajya Sabha membership at 30 years.",
+  "lang": "en",
+  "calc": "30"
+ },
+ {
+  "k": "compx-2904",
+  "cat": "compx",
+  "s": "sci",
+  "t": "Human eye",
+  "lvl": "recruit",
+  "exam": "Railway",
+  "d": "easy",
+  "q": "Which part of the human eye controls the amount of light entering it?",
+  "o": [
+   "Cornea",
+   "Retina",
+   "Iris",
+   "Lens"
+  ],
+  "a": 2,
+  "e": "The Iris adjusts the size of the pupil and so controls how much light enters the eye.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-2905",
+  "cat": "compx",
+  "s": "econ",
+  "t": "Banking in India",
+  "lvl": "recruit",
+  "exam": "Banking",
+  "d": "medium",
+  "q": "In which year was the Reserve Bank of India established?",
+  "o": [
+   "1935",
+   "1947",
+   "1949",
+   "1969"
+  ],
+  "a": 0,
+  "e": "The Reserve Bank of India began operations on 1 April 1935.",
+  "lang": "en",
+  "calc": "1935"
+ },
+ {
+  "k": "compx-2906",
+  "cat": "compx",
+  "s": "comp",
+  "t": "Spreadsheets",
+  "lvl": "recruit",
+  "exam": "Banking",
+  "d": "easy",
+  "q": "In MS Excel, every formula must begin with which symbol?",
+  "o": [
+   "Hash (#)",
+   "At sign (@)",
+   "Dollar sign ($)",
+   "Equals sign (=)"
+  ],
+  "a": 3,
+  "e": "Every Excel formula begins with the equals sign (=).",
+  "lang": "en"
+ },
+ {
+  "k": "compx-2907",
+  "cat": "compx",
+  "s": "math",
+  "t": "HCF and LCM",
+  "lvl": "recruit",
+  "exam": "Teaching",
+  "d": "hard",
+  "q": "The HCF of two numbers is 14 and their LCM is 420. If one of the numbers is 70, what is the other?",
+  "o": [
+   "98",
+   "56",
+   "112",
+   "84"
+  ],
+  "a": 3,
+  "e": "Product of the numbers = HCF x LCM, so the other number = 14 x 420 / 70 = 84.",
+  "lang": "en",
+  "calc": "14*420/70"
+ },
+ {
+  "k": "compx-2908",
+  "cat": "compx",
+  "s": "ment",
+  "t": "Odd one out",
+  "lvl": "recruit",
+  "exam": "Police",
+  "d": "easy",
+  "q": "Find the odd one out.",
+  "o": [
+   "Violin",
+   "Sitar",
+   "Flute",
+   "Guitar"
+  ],
+  "a": 2,
+  "e": "Flute is a wind instrument; the rest are string instruments.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-2909",
+  "cat": "compx",
+  "s": "quant",
+  "t": "Mixtures",
+  "lvl": "recruit",
+  "exam": "SSC",
+  "d": "advanced",
+  "q": "A 60-litre mixture contains milk and water in the ratio 7 : 3. How much water must be added to make the ratio 7 : 5?",
+  "o": [
+   "10 litres",
+   "12 litres",
+   "15 litres",
+   "18 litres"
+  ],
+  "a": 1,
+  "e": "Milk = 42 L and water = 18 L. For a 7 : 5 ratio, water must be 42 x 5/7 = 30 L, so 12 litres must be added.",
+  "lang": "en",
+  "calc": "42*5/7-18"
+ },
+ {
+  "k": "compx-2910",
+  "cat": "compx",
+  "s": "veng",
+  "t": "Antonyms",
+  "lvl": "recruit",
+  "exam": "Railway",
+  "d": "medium",
+  "q": "Choose the word opposite in meaning to 'Obstinate'.",
+  "o": [
+   "Stubborn",
+   "Flexible",
+   "Adamant",
+   "Headstrong"
+  ],
+  "a": 1,
+  "e": "'Obstinate' means refusing to change one's mind; its opposite is 'Flexible'.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-2911",
+  "cat": "compx",
+  "s": "reas",
+  "t": "Syllogism",
+  "lvl": "recruit",
+  "exam": "Banking",
+  "d": "hard",
+  "q": "Statements: All pens are books. Some books are bags. Which conclusion definitely follows?",
+  "o": [
+   "Some bags are books",
+   "Some pens are bags",
+   "All books are pens",
+   "No bag is a pen"
+  ],
+  "a": 0,
+  "e": "'Some books are bags' converts directly to 'Some bags are books'; nothing definite links pens with bags.",
+  "lang": "en"
+ },
+ {
+  "k": "compx-2912",
+  "cat": "compx",
+  "s": "gk",
+  "t": "Science institutions",
+  "lvl": "recruit",
+  "exam": "Police",
+  "d": "medium",
+  "q": "Where is the headquarters of the Indian Space Research Organisation (ISRO)?",
+  "o": [
+   "Hyderabad",
+   "Thiruvananthapuram",
+   "Chennai",
+   "Bengaluru"
+  ],
+  "a": 3,
+  "e": "ISRO is headquartered in Bengaluru, Karnataka.",
+  "lang": "en"
+ }
+]
