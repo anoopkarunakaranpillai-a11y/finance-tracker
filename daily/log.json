@@ -410,5 +410,21 @@
   "navamika_games_count": 6,
   "errors": 0,
   "source": "scheduled"
+ },
+ {
+  "date": "2026-10-30",
+  "batch": "B-20261030-01",
+  "status": "Completed",
+  "completed_at": "2026-10-30T06:04:09.780Z",
+  "published": 121,
+  "target": 100,
+  "added_this_run": 121,
+  "review": 0,
+  "rejected": 0,
+  "duplicates": 0,
+  "tests": 4,
+  "navamika_games_count": 6,
+  "errors": 0,
+  "source": "scheduled"
  }
 ]

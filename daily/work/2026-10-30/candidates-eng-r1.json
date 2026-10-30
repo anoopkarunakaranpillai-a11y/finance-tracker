@@ -1,0 +1,242 @@
+[
+ {
+  "k": "eng-3001",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Synonyms",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "sslc",
+  "d": "easy",
+  "q": "Choose the word closest in meaning to 'Feasible'.",
+  "o": [
+   "Practicable",
+   "Impossible",
+   "Expensive",
+   "Doubtful"
+  ],
+  "a": 0,
+  "e": "'Feasible' means possible to carry out, that is, practicable.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-3002",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Antonyms",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "sslc",
+  "d": "easy",
+  "q": "Choose the word opposite in meaning to 'Artificial'.",
+  "o": [
+   "Synthetic",
+   "Fake",
+   "Natural",
+   "Imitation"
+  ],
+  "a": 2,
+  "e": "'Artificial' means made by humans; its opposite is 'Natural'.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-3003",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Idioms",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "sslc",
+  "d": "easy",
+  "q": "The idiom 'to be in hot water' means:",
+  "o": [
+   "to take a warm bath",
+   "to be in trouble",
+   "to be very angry",
+   "to be extremely busy"
+  ],
+  "a": 1,
+  "e": "'To be in hot water' means to be in trouble.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-3004",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Idioms",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "plus2",
+  "d": "medium",
+  "q": "The idiom 'to keep one's fingers crossed' means:",
+  "o": [
+   "to tell a lie",
+   "to refuse to help",
+   "to wait patiently in a queue",
+   "to hope for a good result"
+  ],
+  "a": 3,
+  "e": "'To keep one's fingers crossed' means to hope for a good result or good luck.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-3005",
+  "cat": "eng",
+  "s": "veng",
+  "t": "One-word substitution",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "sslc",
+  "d": "medium",
+  "q": "One word for 'a person who eats too much':",
+  "o": [
+   "Glutton",
+   "Gourmet",
+   "Cannibal",
+   "Herbivore"
+  ],
+  "a": 0,
+  "e": "A person who eats too much is a 'Glutton'.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-3006",
+  "cat": "eng",
+  "s": "veng",
+  "t": "One-word substitution",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "plus2",
+  "d": "medium",
+  "q": "One word for 'a medicine that counteracts the effect of a poison':",
+  "o": [
+   "Antibiotic",
+   "Antidote",
+   "Antiseptic",
+   "Anaesthetic"
+  ],
+  "a": 1,
+  "e": "A medicine that counteracts a poison is an 'Antidote'.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-3007",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Error spotting",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "plus2",
+  "d": "medium",
+  "q": "Find the part with an error: Each boy and each girl / were given / a prize / at the function.",
+  "o": [
+   "Each boy and each girl",
+   "were given",
+   "a prize",
+   "at the function"
+  ],
+  "a": 1,
+  "e": "When subjects joined by 'and' are preceded by 'each', the verb is singular, so 'were given' should be 'was given'.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-3008",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Active and passive voice",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "sslc",
+  "d": "easy",
+  "q": "Choose the correct active form of: The match was won by our team.",
+  "o": [
+   "Our team has won the match.",
+   "Our team wins the match.",
+   "Our team had won the match.",
+   "Our team won the match."
+  ],
+  "a": 3,
+  "e": "'Was won' is simple past passive, so the active form is 'Our team won the match.'",
+  "lang": "en"
+ },
+ {
+  "k": "eng-3009",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Reported speech",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "plus2",
+  "d": "medium",
+  "q": "Choose the correct indirect form: He said, \"I can solve this problem.\"",
+  "o": [
+   "He said that he can solve this problem.",
+   "He said that I could solve that problem.",
+   "He said that he could solve that problem.",
+   "He said that he could have solved the problem."
+  ],
+  "a": 2,
+  "e": "In indirect speech 'can' becomes 'could' and 'this' becomes 'that': He said that he could solve that problem.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-3010",
+  "cat": "eng",
+  "s": "eng",
+  "t": "Use of 'lest'",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "degree",
+  "d": "hard",
+  "q": "Fill in the blank: Walk carefully lest you ___ fall.",
+  "o": [
+   "should",
+   "would",
+   "will",
+   "might"
+  ],
+  "a": 0,
+  "e": "'Lest' is followed by 'should' (or the bare verb), so the answer is 'should': lest you should fall.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-3011",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Synonyms",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "degree",
+  "d": "hard",
+  "q": "Choose the word closest in meaning to 'Sycophant'.",
+  "o": [
+   "Critic",
+   "Rebel",
+   "Hermit",
+   "Flatterer"
+  ],
+  "a": 3,
+  "e": "A 'Sycophant' is a person who praises powerful people to gain favour, that is, a flatterer.",
+  "lang": "en"
+ },
+ {
+  "k": "eng-3012",
+  "cat": "eng",
+  "s": "veng",
+  "t": "Foreign phrases",
+  "lvl": "recruit",
+  "exam": "Kerala PSC",
+  "psc": "degree",
+  "d": "advanced",
+  "q": "The Latin phrase 'persona non grata' means:",
+  "o": [
+   "a person of great importance",
+   "a person acting on behalf of another",
+   "an unwelcome or unacceptable person",
+   "a person without any nationality"
+  ],
+  "a": 2,
+  "e": "'Persona non grata' means an unwelcome or unacceptable person, often a diplomat who is no longer accepted by the host country.",
+  "lang": "en"
+ }
+]

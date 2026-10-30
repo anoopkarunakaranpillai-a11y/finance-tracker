@@ -1,0 +1,40 @@
+[
+ {"id":"trace-little-letters-a-to-e","type":"tracing","title":"Little Letters a to e","desc":"Trace the small letters!","difficulty":"easy","instructions":"Follow the dots with your finger.","chars":["a","b","c","d","e"]},
+ {"id":"first-letter-fun","type":"alphabet","title":"First Letter Fun","desc":"Which picture starts with this letter?","difficulty":"easy","instructions":"Look at the letter and tap the picture that starts with it.","questions":[
+  {"q":"Which one starts with B?","show":"B","options":[{"e":"🍌","t":"Banana"},{"e":"🐱","t":"Cat"},{"e":"🍎","t":"Apple"}],"answer":0,"good":"Yes! B is for Banana!"},
+  {"q":"Which one starts with D?","show":"D","options":[{"e":"🐟","t":"Fish"},{"e":"🐶","t":"Dog"},{"e":"🌙","t":"Moon"}],"answer":1,"good":"Woof! D is for Dog!"},
+  {"q":"Which one starts with S?","show":"S","options":[{"e":"🚗","t":"Car"},{"e":"🐄","t":"Cow"},{"e":"☀️","t":"Sun"}],"answer":2,"good":"Bright and sunny! S is for Sun!"},
+  {"q":"Which one starts with F?","show":"F","options":[{"e":"🐸","t":"Frog"},{"e":"🐝","t":"Bee"},{"e":"🍇","t":"Grapes"}],"answer":0,"good":"Ribbit! F is for Frog!"},
+  {"q":"Which one starts with T?","show":"T","options":[{"e":"🦆","t":"Duck"},{"e":"🌳","t":"Tree"},{"e":"⭐","t":"Star"}],"answer":1,"good":"Great! T is for Tree!"},
+  {"q":"Which one starts with M?","show":"M","options":[{"e":"🐭","t":"Mouse"},{"e":"🐘","t":"Elephant"},{"e":"🎈","t":"Balloon"}],"answer":0,"good":"Squeak! M is for Mouse!"}
+ ]},
+ {"id":"count-the-stars","type":"counting","title":"Count the Stars","desc":"How many can you count?","difficulty":"easy","instructions":"Count the pictures and tap the right number.","questions":[
+  {"q":"How many stars?","show":"⭐⭐⭐","options":[{"t":"2"},{"t":"3"},{"t":"4"}],"answer":1,"good":"Yes, 3 twinkly stars!"},
+  {"q":"How many balloons?","show":"🎈🎈🎈🎈🎈","options":[{"t":"5"},{"t":"4"},{"t":"6"}],"answer":0,"good":"5 balloons! Hooray!"},
+  {"q":"How many apples?","show":"🍎🍎","options":[{"t":"1"},{"t":"3"},{"t":"2"}],"answer":2,"good":"Yummy, 2 apples!"},
+  {"q":"How many fish?","show":"🐟🐟🐟🐟","options":[{"t":"4"},{"t":"3"},{"t":"5"}],"answer":0,"good":"4 fish swimming!"},
+  {"q":"How many flowers?","show":"🌼🌼🌼🌼🌼🌼","options":[{"t":"5"},{"t":"7"},{"t":"6"}],"answer":2,"good":"6 pretty flowers!"},
+  {"q":"How many suns?","show":"☀️","options":[{"t":"2"},{"t":"1"},{"t":"3"}],"answer":1,"good":"Just 1 sun in the sky!"}
+ ]},
+ {"id":"baby-animals","type":"animals","title":"Baby Animals","desc":"Find the mummy animal!","difficulty":"medium","instructions":"Listen and tap the right animal.","questions":[
+  {"q":"A puppy grows up to be a…","show":"🐶","options":[{"e":"🐕","t":"Dog"},{"e":"🐈","t":"Cat"},{"e":"🐄","t":"Cow"}],"answer":0,"good":"Yes! A puppy becomes a dog!"},
+  {"q":"A kitten grows up to be a…","show":"🐱","options":[{"e":"🐑","t":"Sheep"},{"e":"🐈","t":"Cat"},{"e":"🐖","t":"Pig"}],"answer":1,"good":"Meow! A kitten becomes a cat!"},
+  {"q":"A chick grows up to be a…","show":"🐣","options":[{"e":"🐟","t":"Fish"},{"e":"🐒","t":"Monkey"},{"e":"🐔","t":"Hen"}],"answer":2,"good":"Cluck cluck! A chick becomes a hen!"},
+  {"q":"A calf grows up to be a…","show":"🐮","options":[{"e":"🐄","t":"Cow"},{"e":"🐇","t":"Rabbit"},{"e":"🦆","t":"Duck"}],"answer":0,"good":"Moo! A calf becomes a cow!"},
+  {"q":"A tadpole grows up to be a…","show":"💧","options":[{"e":"🐘","t":"Elephant"},{"e":"🐸","t":"Frog"},{"e":"🐻","t":"Bear"}],"answer":1,"good":"Ribbit! A tadpole becomes a frog!"}
+ ]},
+ {"id":"what-comes-next-pattern","type":"puzzles","title":"What Comes Next?","desc":"Finish the pattern!","difficulty":"medium","instructions":"Look at the pattern and tap what comes next.","questions":[
+  {"q":"What comes next?","show":"🍎🍌🍎🍌🍎","options":[{"e":"🍇"},{"e":"🍎"},{"e":"🍌"}],"answer":2,"good":"Yes! Apple, banana, apple, banana!"},
+  {"q":"What comes next?","show":"🐶🐱🐶🐱","options":[{"e":"🐶"},{"e":"🐱"},{"e":"🐭"}],"answer":0,"good":"Super! Dog comes next!"},
+  {"q":"What comes next?","show":"⭐🌙⭐🌙⭐","options":[{"e":"⭐"},{"e":"☀️"},{"e":"🌙"}],"answer":2,"good":"Star, moon, star, moon! Well done!"},
+  {"q":"What comes next?","show":"🔴🔴🔵🔴🔴🔵🔴🔴","options":[{"e":"🔵"},{"e":"🔴"},{"e":"🟢"}],"answer":0,"good":"Wow! Red, red, blue!"},
+  {"q":"What number comes next?","show":"1, 2, 3, 4, ?","options":[{"t":"6"},{"t":"5"},{"t":"3"}],"answer":1,"good":"Yes! 5 comes after 4!"}
+ ]},
+ {"id":"big-and-small","type":"logic","title":"Big and Small","desc":"Which one is bigger?","difficulty":"easy","instructions":"Listen and tap the right picture.","questions":[
+  {"q":"Which animal is the biggest?","options":[{"e":"🐭","t":"Mouse"},{"e":"🐘","t":"Elephant"},{"e":"🐱","t":"Cat"}],"answer":1,"good":"Yes! The elephant is very big!"},
+  {"q":"Which animal is the smallest?","options":[{"e":"🐄","t":"Cow"},{"e":"🐎","t":"Horse"},{"e":"🐜","t":"Ant"}],"answer":2,"good":"Yes! The ant is tiny!"},
+  {"q":"Which is bigger?","options":[{"e":"🌳","t":"Tree"},{"e":"🌸","t":"Flower"}],"answer":0,"good":"Right! A tree is big and tall!"},
+  {"q":"Which is smaller?","options":[{"e":"🚌","t":"Bus"},{"e":"🚲","t":"Bicycle"}],"answer":1,"good":"Yes! A bicycle is smaller than a bus!"},
+  {"q":"Which is the biggest fruit?","options":[{"e":"🍇","t":"Grape"},{"e":"🍒","t":"Cherry"},{"e":"🍉","t":"Watermelon"}],"answer":2,"good":"Yes! A watermelon is so big!"}
+ ]}
+]
