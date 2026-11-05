@@ -1,0 +1,532 @@
+[
+{
+"k": "sci-5201",
+"cat": "sci",
+"s": "sci",
+"t": "Solar system",
+"lvl": "recruit",
+"exam": "Kerala PSC",
+"d": "medium",
+"q": "സൗരയൂഥത്തിൽ ഏറ്റവും കൂടുതൽ ശരാശരി സാന്ദ്രതയുള്ള ഗ്രഹം ഏത്?",
+"o": [
+"ചൊവ്വ",
+"ഭൂമി",
+"ശനി",
+"വ്യാഴം"
+],
+"a": 1,
+"e": "ഗ്രഹങ്ങളിൽ ഏറ്റവും കൂടുതൽ ശരാശരി സാന്ദ്രത ഭൂമിക്കാണ്.",
+"lang": "ml",
+"psc": "plus2"
+},
+{
+"k": "sci-5202",
+"cat": "sci",
+"s": "sci",
+"t": "Dry ice",
+"lvl": "recruit",
+"exam": "Kerala PSC",
+"d": "easy",
+"q": "'ഡ്രൈ ഐസ്' എന്നറിയപ്പെടുന്നത് എന്താണ്?",
+"o": [
+"ഖര നൈട്രജൻ",
+"ഖര കാർബൺ ഡയോക്സൈഡ്",
+"ഖര അമോണിയ",
+"ഉണങ്ങിയ മഞ്ഞുകട്ട"
+],
+"a": 1,
+"e": "ഖരരൂപത്തിലുള്ള കാർബൺ ഡയോക്സൈഡാണ് ഡ്രൈ ഐസ്.",
+"lang": "ml",
+"psc": "sslc"
+},
+{
+"k": "comp-5201",
+"cat": "comp",
+"s": "comp",
+"t": "Cyber security",
+"lvl": "recruit",
+"exam": "Kerala PSC",
+"d": "medium",
+"q": "വെബ്സൈറ്റുകളിൽ CAPTCHA ഉപയോഗിക്കുന്നതിന്റെ പ്രധാന ലക്ഷ്യം എന്ത്?",
+"o": [
+"ഫയലുകൾ കംപ്രസ് ചെയ്യുക",
+"ഇന്റർനെറ്റ് വേഗം കൂട്ടുക",
+"ചിത്രങ്ങൾ എഡിറ്റ് ചെയ്യുക",
+"ഉപയോക്താവ് മനുഷ്യനാണോ ബോട്ടാണോ എന്ന് തിരിച്ചറിയുക"
+],
+"a": 3,
+"e": "മനുഷ്യനെയും ബോട്ടിനെയും വേർതിരിച്ചറിയാനാണ് CAPTCHA.",
+"lang": "ml",
+"psc": "plus2"
+},
+{
+"k": "reas-5203",
+"cat": "reas",
+"s": "ment",
+"t": "Direction sense",
+"lvl": "recruit",
+"exam": "Kerala PSC",
+"d": "easy",
+"q": "തെക്കോട്ട് നോക്കി നിൽക്കുന്ന ഒരാൾ ഇടത്തേക്ക് 90° തിരിഞ്ഞ ശേഷം വീണ്ടും ഇടത്തേക്ക് 90° തിരിഞ്ഞാൽ ഏത് ദിശയിലേക്കാണ് നോക്കുന്നത്?",
+"o": [
+"വടക്ക്",
+"തെക്ക്",
+"പടിഞ്ഞാറ്",
+"കിഴക്ക്"
+],
+"a": 0,
+"e": "തെക്ക് → കിഴക്ക് → വടക്ക്.",
+"lang": "ml",
+"psc": "sslc"
+},
+{
+"k": "reas-5204",
+"cat": "reas",
+"s": "ment",
+"t": "Ranking",
+"lvl": "recruit",
+"exam": "Kerala PSC",
+"d": "easy",
+"q": "34 കുട്ടികളുള്ള ക്ലാസിൽ മീരയുടെ റാങ്ക് മുകളിൽ നിന്ന് 9 ആണ്. താഴെ നിന്ന് മീരയുടെ റാങ്ക് എത്ര?",
+"o": [
+"25",
+"24",
+"27",
+"26"
+],
+"a": 3,
+"e": "താഴെ നിന്നുള്ള റാങ്ക് = 34 − 9 + 1 = 26.",
+"lang": "ml",
+"psc": "sslc"
+},
+{
+"k": "eng-5201",
+"cat": "eng",
+"s": "veng",
+"t": "Synonyms",
+"lvl": "recruit",
+"exam": "Kerala PSC",
+"d": "easy",
+"q": "Pick the word nearest in meaning to TACITURN.",
+"o": [
+"talkative",
+"reserved",
+"cheerful",
+"honest"
+],
+"a": 1,
+"e": "Taciturn means reserved in speech.",
+"lang": "en",
+"psc": "sslc"
+},
+{
+"k": "eng-5202",
+"cat": "eng",
+"s": "veng",
+"t": "Antonyms",
+"lvl": "recruit",
+"exam": "Kerala PSC",
+"d": "medium",
+"q": "Pick the opposite of PARSIMONIOUS.",
+"o": [
+"careful",
+"stingy",
+"poor",
+"lavish"
+],
+"a": 3,
+"e": "Parsimonious means stingy; its opposite is lavish.",
+"lang": "en",
+"psc": "plus2"
+},
+{
+"k": "eng-5203",
+"cat": "eng",
+"s": "veng",
+"t": "One-word substitution",
+"lvl": "recruit",
+"exam": "Kerala PSC",
+"d": "medium",
+"q": "A speech made without any preparation is called ___.",
+"o": [
+"a soliloquy",
+"a eulogy",
+"impromptu",
+"verbatim"
+],
+"a": 2,
+"e": "A speech made without preparation is impromptu.",
+"lang": "en",
+"psc": "plus2"
+},
+{
+"k": "eng-5205",
+"cat": "eng",
+"s": "eng",
+"t": "Collective nouns",
+"lvl": "recruit",
+"exam": "Kerala PSC",
+"d": "easy",
+"q": "Fill in the blank: We heard a ___ of wolves howling in the hills.",
+"o": [
+"school",
+"pack",
+"bunch",
+"flock"
+],
+"a": 1,
+"e": "A group of wolves is called a pack.",
+"lang": "en",
+"psc": "sslc"
+},
+{
+"k": "eng-5206",
+"cat": "eng",
+"s": "eng",
+"t": "Reported speech",
+"lvl": "recruit",
+"exam": "Kerala PSC",
+"d": "medium",
+"q": "Choose the indirect form of: She said, \"I have finished my work.\"",
+"o": [
+"She said that she had finished her work.",
+"She said that I have finished my work.",
+"She told that she finished my work.",
+"She said that she has finish her work."
+],
+"a": 0,
+"e": "The present perfect changes to past perfect: She said that she had finished her work.",
+"lang": "en",
+"psc": "plus2"
+},
+{
+"k": "eng-5209",
+"cat": "eng",
+"s": "eng",
+"t": "Spelling",
+"lvl": "recruit",
+"exam": "Kerala PSC",
+"d": "medium",
+"q": "Which spelling is right for a system of administration by government officials?",
+"o": [
+"burocracy",
+"bureacracy",
+"beaurocracy",
+"bureaucracy"
+],
+"a": 3,
+"e": "The right spelling is bureaucracy.",
+"lang": "en",
+"psc": "degree"
+},
+{
+"k": "deg-5201",
+"cat": "deg",
+"s": "dmath",
+"t": "Group theory",
+"lvl": "degree",
+"exam": "University semester",
+"d": "medium",
+"q": "What is the order of the symmetric group S₄?",
+"o": [
+"16",
+"12",
+"4",
+"24"
+],
+"a": 3,
+"e": "The order of S₄ is 4! = 24.",
+"lang": "en",
+"calc": "4*3*2*1"
+},
+{
+"k": "deg-5205",
+"cat": "deg",
+"s": "dphy",
+"t": "Polarisation",
+"lvl": "degree",
+"exam": "University semester",
+"d": "hard",
+"q": "Brewster's law states that for a medium of refractive index n, tan θ_B equals:",
+"o": [
+"n²",
+"1/n",
+"√n",
+"n"
+],
+"a": 3,
+"e": "Brewster's law gives tan θ_B = n.",
+"lang": "en"
+},
+{
+"k": "deg-5206",
+"cat": "deg",
+"s": "dchem",
+"t": "Named reactions",
+"lvl": "degree",
+"exam": "University semester",
+"d": "hard",
+"q": "Clemmensen reduction converts a carbonyl group to CH₂ using:",
+"o": [
+"acidified potassium dichromate",
+"lithium aluminium hydride",
+"zinc amalgam and concentrated HCl",
+"hydrazine and alkali"
+],
+"a": 2,
+"e": "Clemmensen reduction uses zinc amalgam and concentrated HCl.",
+"lang": "en"
+},
+{
+"k": "deg-5207",
+"cat": "deg",
+"s": "dchem",
+"t": "Aromaticity",
+"lvl": "degree",
+"exam": "University semester",
+"d": "medium",
+"q": "According to Hückel's rule, a planar cyclic conjugated ring is aromatic if it has how many π electrons?",
+"o": [
+"2n + 1",
+"4n",
+"4n + 2",
+"6n"
+],
+"a": 2,
+"e": "Hückel's rule requires 4n + 2 π electrons.",
+"lang": "en"
+},
+{
+"k": "deg-5208",
+"cat": "deg",
+"s": "dbio",
+"t": "Molecular biology",
+"lvl": "degree",
+"exam": "University semester",
+"d": "medium",
+"q": "Okazaki fragments are formed on the:",
+"o": [
+"lagging strand",
+"mRNA strand",
+"leading strand",
+"promoter region"
+],
+"a": 0,
+"e": "Okazaki fragments are made on the lagging strand during DNA replication.",
+"lang": "en"
+},
+{
+"k": "deg-5209",
+"cat": "deg",
+"s": "dbio",
+"t": "Population genetics",
+"lvl": "degree",
+"exam": "University semester",
+"d": "hard",
+"q": "In the Hardy-Weinberg equation, the term 2pq stands for the frequency of:",
+"o": [
+"dominant homozygotes",
+"recessive homozygotes",
+"heterozygotes",
+"mutations"
+],
+"a": 2,
+"e": "p² and q² are the homozygotes; 2pq is the heterozygote frequency.",
+"lang": "en"
+},
+{
+"k": "deg-5211",
+"cat": "deg",
+"s": "acc",
+"t": "Depreciation",
+"lvl": "degree",
+"exam": "University semester",
+"d": "easy",
+"q": "A machine costing ₹50,000 has a scrap value of ₹5,000 and a life of 9 years. What is the annual straight-line depreciation?",
+"o": [
+"₹5,500",
+"₹6,000",
+"₹5,000",
+"₹4,500"
+],
+"a": 2,
+"e": "Depreciation = (50,000 − 5,000) ÷ 9 = ₹5,000.",
+"lang": "en",
+"calc": "(50000-5000)/9"
+},
+{
+"k": "deg-5212",
+"cat": "deg",
+"s": "acc",
+"t": "Ratio analysis",
+"lvl": "degree",
+"exam": "University semester",
+"d": "medium",
+"q": "Which item is excluded from current assets when calculating the liquid (quick) ratio?",
+"o": [
+"Bills receivable",
+"Inventory",
+"Debtors",
+"Cash"
+],
+"a": 1,
+"e": "Inventory is excluded when calculating the liquid ratio.",
+"lang": "en"
+},
+{
+"k": "deg-5213",
+"cat": "deg",
+"s": "dcs",
+"t": "Graph algorithms",
+"lvl": "degree",
+"exam": "University semester",
+"d": "hard",
+"q": "Dijkstra's shortest-path algorithm is not guaranteed to work on graphs with:",
+"o": [
+"cycles",
+"undirected edges",
+"more than 100 vertices",
+"negative edge weights"
+],
+"a": 3,
+"e": "Dijkstra's algorithm assumes there are no negative edge weights.",
+"lang": "en"
+},
+{
+"k": "deg-5214",
+"cat": "deg",
+"s": "dcs",
+"t": "Normalisation",
+"lvl": "degree",
+"exam": "University semester",
+"d": "medium",
+"q": "Removing transitive dependencies from a relation already in 2NF brings it to:",
+"o": [
+"1NF",
+"3NF",
+"BCNF only",
+"4NF"
+],
+"a": 1,
+"e": "A 2NF relation without transitive dependencies is in 3NF.",
+"lang": "en"
+},
+{
+"k": "deg-5216",
+"cat": "deg",
+"s": "hum",
+"t": "Political philosophy",
+"lvl": "degree",
+"exam": "University semester",
+"d": "easy",
+"q": "Who wrote 'Two Treatises of Government'?",
+"o": [
+"Karl Marx",
+"Thomas Hobbes",
+"Niccolo Machiavelli",
+"John Locke"
+],
+"a": 3,
+"e": "Two Treatises of Government was written by John Locke.",
+"lang": "en"
+},
+{
+"k": "deg-5217",
+"cat": "deg",
+"s": "engg",
+"t": "Fluid mechanics",
+"lvl": "degree",
+"exam": "University semester",
+"d": "medium",
+"q": "Bernoulli's equation for fluid flow is a statement of the conservation of:",
+"o": [
+"mass",
+"energy",
+"temperature",
+"charge"
+],
+"a": 1,
+"e": "Bernoulli's equation expresses the conservation of energy along a streamline.",
+"lang": "en"
+},
+{
+"k": "compx-5201",
+"cat": "compx",
+"s": "con",
+"t": "Centre-State relations",
+"lvl": "recruit",
+"exam": "UPSC",
+"d": "hard",
+"q": "The Sarkaria Commission was set up to examine:",
+"o": [
+"banking reforms",
+"electoral reforms",
+"police reforms",
+"Centre-State relations"
+],
+"a": 3,
+"e": "The Sarkaria Commission examined Centre-State relations.",
+"lang": "en",
+"psc": "degree"
+},
+{
+"k": "compx-5202",
+"cat": "compx",
+"s": "con",
+"t": "Parliament",
+"lvl": "recruit",
+"exam": "Police",
+"d": "medium",
+"q": "Who presides over a joint sitting of the two Houses of Parliament?",
+"o": [
+"Speaker of the Lok Sabha",
+"Chief Justice of India",
+"Prime Minister",
+"President of India"
+],
+"a": 0,
+"e": "The Speaker of the Lok Sabha presides over a joint sitting.",
+"lang": "en",
+"psc": "plus2"
+},
+{
+"k": "compx-5204",
+"cat": "compx",
+"s": "reas",
+"t": "Number series",
+"lvl": "recruit",
+"exam": "Railway",
+"d": "medium",
+"q": "Find the next number: 3, 9, 21, 45, ?",
+"o": [
+"99",
+"93",
+"81",
+"90"
+],
+"a": 1,
+"e": "Each term is the previous × 2 + 3; 45 × 2 + 3 = 93.",
+"lang": "en",
+"psc": "degree"
+},
+{
+"k": "compx-5205",
+"cat": "compx",
+"s": "veng",
+"t": "Synonyms",
+"lvl": "recruit",
+"exam": "Teaching",
+"d": "easy",
+"q": "Pick the word nearest in meaning to GREGARIOUS.",
+"o": [
+"angry",
+"sociable",
+"wise",
+"shy"
+],
+"a": 1,
+"e": "Gregarious means sociable.",
+"lang": "en",
+"psc": "sslc"
+}
+]

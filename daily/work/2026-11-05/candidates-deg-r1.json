@@ -1,0 +1,98 @@
+[
+{
+"k": "deg-5001",
+"cat": "deg",
+"s": "acc",
+"t": "Intangible assets",
+"lvl": "degree",
+"exam": "University semester",
+"d": "easy",
+"q": "Goodwill is classified in the balance sheet as a/an:",
+"o": [
+"intangible asset",
+"contingent liability",
+"current asset",
+"fictitious liability"
+],
+"a": 0,
+"e": "Goodwill has no physical form, so it is an intangible asset.",
+"lang": "en"
+},
+{
+"k": "deg-5002",
+"cat": "deg",
+"s": "acc",
+"t": "Bank reconciliation",
+"lvl": "degree",
+"exam": "University semester",
+"d": "medium",
+"q": "A debit balance in the pass book indicates:",
+"o": [
+"an overdraft",
+"a cash surplus",
+"a fixed deposit",
+"a favourable balance"
+],
+"a": 0,
+"e": "A debit balance in the pass book shows that the customer owes the bank, an overdraft.",
+"lang": "en"
+},
+{
+"k": "deg-5006",
+"cat": "deg",
+"s": "dmath",
+"t": "Definite integrals",
+"lvl": "degree",
+"exam": "University semester",
+"d": "medium",
+"q": "What is the value of ∫₀¹ x² dx?",
+"o": [
+"1/3",
+"2/3",
+"1",
+"1/2"
+],
+"a": 0,
+"e": "The antiderivative is x³/3, which gives 1/3 from 0 to 1.",
+"lang": "en",
+"calc": "1/3"
+},
+{
+"k": "deg-5016",
+"cat": "deg",
+"s": "mgmt",
+"t": "Management thinkers",
+"lvl": "degree",
+"exam": "University semester",
+"d": "medium",
+"q": "Who coined the acronym POSDCORB?",
+"o": [
+"Henri Fayol",
+"Elton Mayo",
+"Peter Drucker",
+"Luther Gulick"
+],
+"a": 3,
+"e": "POSDCORB was coined by Luther Gulick.",
+"lang": "en"
+},
+{
+"k": "deg-5019",
+"cat": "deg",
+"s": "engg",
+"t": "Fluid mechanics",
+"lvl": "degree",
+"exam": "University semester",
+"d": "advanced",
+"q": "The Reynolds number of a flow is:",
+"o": [
+"dimensionless",
+"measured in newton",
+"measured in m/s",
+"measured in pascal"
+],
+"a": 0,
+"e": "It is a ratio of inertial to viscous forces, so it is dimensionless.",
+"lang": "en"
+}
+]

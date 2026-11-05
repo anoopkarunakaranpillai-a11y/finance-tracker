@@ -1,0 +1,102 @@
+[
+{
+"k": "eng-5003",
+"cat": "eng",
+"s": "veng",
+"t": "Idioms",
+"lvl": "recruit",
+"exam": "Kerala PSC",
+"d": "medium",
+"q": "What does the idiom 'to cut the Gordian knot' mean?",
+"o": [
+"to avoid making a decision",
+"to solve a hard problem by a bold action",
+"to end a friendship suddenly",
+"to tie up loose ends slowly"
+],
+"a": 1,
+"e": "To cut the Gordian knot means to solve a hard problem by a bold action.",
+"lang": "en",
+"psc": "plus2"
+},
+{
+"k": "eng-5005",
+"cat": "eng",
+"s": "eng",
+"t": "Prepositions",
+"lvl": "recruit",
+"exam": "Kerala PSC",
+"d": "easy",
+"q": "Fill in the blank: She is proficient ___ French.",
+"o": [
+"with",
+"on",
+"at",
+"in"
+],
+"a": 3,
+"e": "The adjective proficient takes the preposition in.",
+"lang": "en",
+"psc": "sslc"
+},
+{
+"k": "eng-5006",
+"cat": "eng",
+"s": "eng",
+"t": "Tenses",
+"lvl": "recruit",
+"exam": "Kerala PSC",
+"d": "medium",
+"q": "Choose the correct form: By next June, she ___ here for ten years.",
+"o": [
+"will have worked",
+"worked",
+"has worked",
+"works"
+],
+"a": 0,
+"e": "A duration ending at a future point uses the future perfect: will have worked.",
+"lang": "en",
+"psc": "plus2"
+},
+{
+"k": "eng-5010",
+"cat": "eng",
+"s": "eng",
+"t": "Phrasal verbs",
+"lvl": "recruit",
+"exam": "Kerala PSC",
+"d": "medium",
+"q": "The meeting has been ___ until Monday. Choose the phrasal verb meaning 'postponed'.",
+"o": [
+"put off",
+"put up",
+"put on",
+"put across"
+],
+"a": 0,
+"e": "Put off means postponed.",
+"lang": "en",
+"psc": "plus2"
+},
+{
+"k": "eng-5013",
+"cat": "eng",
+"s": "veng",
+"t": "Foreign phrases",
+"lvl": "recruit",
+"exam": "Kerala PSC",
+"d": "advanced",
+"q": "What does the Latin phrase 'sine die' mean when used of an adjournment?",
+"o": [
+"for exactly one week",
+"by a majority vote",
+"without fixing a date to resume",
+"until the next morning"
+],
+"a": 2,
+"e": "Sine die means without fixing a date to resume.",
+"lang": "en",
+"psc": "degree"
+}
+]
