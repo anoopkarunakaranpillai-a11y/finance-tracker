@@ -4080,6 +4080,17 @@ table tbody tr:hover{background:color-mix(in srgb,var(--accent) 6%,transparent)}
 :root[data-theme="green"] .hero{box-shadow:0 6px 24px rgba(21,128,61,.10)}
 
 
+/* Market sessions: compact */
+.mkt{padding:10px 12px!important}
+.mkt-head h2{font-size:14px}
+.mkt .dock-row{gap:8px!important;margin-top:8px}
+.mkt .sess{padding:7px 6px!important;gap:3px!important;border-radius:12px}
+.mkt .ck{width:44px!important;height:44px!important;filter:drop-shadow(0 2px 3px rgba(20,24,60,.22))!important}
+.mkt .sess .t{font-size:13px!important}
+.mkt .sess .s,.mkt .sess.on .s{font-size:10px!important}
+.mkt .cdv,.mkt .sess.zone .cdv{font-size:13px!important}
+.mkt .cdl,.mkt .stp{font-size:9.5px!important}
+@media (max-width:640px){.mkt .ck,.mkt .sess .s{display:none!important}.mkt .dock-row{grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:6px!important}.mkt .sess{padding:6px 3px!important}.mkt .sess .t{font-size:12px!important}.mkt .cdv,.mkt .sess.zone .cdv{font-size:11.5px!important}}
 </style>
 
 <header class="hero">
@@ -4144,7 +4155,6 @@ table tbody tr:hover{background:color-mix(in srgb,var(--accent) 6%,transparent)}
       <button class="btn small" id="dockToggle" type="button" aria-expanded="false">Session timeline ▾</button>
     </div>
     <div class="dock-row" id="dockRow"></div>
-    <div class="ptl" id="pairTL"></div>
     <div class="dock-panel" id="dockPanel" hidden>
       <div class="meta"><span id="dockMeta"></span><span id="dockOverlap"></span></div>
       <div class="nx" id="nextList"></div>
@@ -5278,23 +5288,6 @@ function sessWinKW(now){const kw=offMin("Asia/Kuwait",now),o={};
 const inWin=(w,m)=>(m>=w.a&&m<w.b)||(m+1440>=w.a&&m+1440<w.b);
 function ptlLevel(pair,m,W){const on=k=>inWin(W[k],m);const act=pair[2].some(on);const peak=pair[3].some(p=>p.split("+").every(on));return peak?3:act?2:(on("S")||on("T"))?1:0}
 const hm=m=>String(Math.floor(((m%1440)+1440)%1440/60)).padStart(2,"0")+":"+String(((m%60)+60)%60).padStart(2,"0");
-function renderPairTL(now,we){
-  const box=$("#pairTL");if(!box)return;
-  const kwNow=parts("Asia/Kuwait",now),nowM=(+kwNow.hour%24)*60+(+kwNow.minute);
-  const key=kwNow.year+kwNow.month+kwNow.day+"|"+Math.floor(nowM/30)+"|"+!!we;
-  if(key===ptlKey){const n=box.querySelectorAll(".ptl-now");n.forEach(x=>x.style.left=`calc(${nowM/14.4}% - 1px)`);return}
-  ptlKey=key;const W=sessWinKW(now),pal=livePal();
-  const rows=PTL_PAIRS.map(pr=>{
-    const lv=Array.from({length:48},(_,i)=>ptlLevel(pr,i*30+15,W)),cur=we?0:ptlLevel(pr,nowM,W);
-    const peaks=[];let st=null;lv.forEach((l,i)=>{if(l===3&&st==null)st=i;if(l!==3&&st!=null){peaks.push([st,i]);st=null}});if(st!=null)peaks.push([st,48]);
-    const col=hue(pal,pairHueIdx(pr[0]));
-    const state=we?["Weekend","closed"]:cur===3?["Peak now","peak"]:cur===2?["Active now","act"]:cur===1?["Quiet now","quiet"]:["Very quiet","off"];
-    return `<div class="ptl-row" style="--p:${col}"><span class="ptl-n"><b>${pr[0]}</b><small class="ptl-st ${state[1]}">${state[0]}</small></span>
-      <div class="ptl-track" title="${pr[0]} activity by Kuwait time">${lv.map((l,i)=>`<i class="l${we?0:l}" title="${hm(i*30)}–${hm(i*30+30)} Kuwait"></i>`).join("")}<span class="ptl-now" style="left:calc(${nowM/14.4}% - 1px)"></span></div>
-      <span class="ptl-b">${peaks.length?"Best "+peaks.map(p=>hm(p[0]*30)+"–"+hm(p[1]*30)).join(", "):"—"}</span></div>`});
-  box.innerHTML=`<div class="ptl-head"><b>Best hours for the major pairs</b><span>Kuwait time (UTC+3) · now ${hm(nowM)}</span><span class="ptl-leg"><i class="l1"></i>Quiet <i class="l2"></i>Active <i class="l3"></i>Peak (London–New York overlap)</span></div>${rows.join("")}
-    <div class="ptl-ticks"><span></span><div>${[0,3,6,9,12,15,18,21,24].map(h=>`<span style="left:${h/24*100}%">${String(h%24).padStart(2,"0")}</span>`).join("")}</div><span></span></div>`;
-}
 /* ---------- currency helpers (USD, KWD, INR + your personal currency) ---------- */
 function fxRate(cur){if(cur==="USD")return 1;const c=state.nwc||{};if(c.rates&&+c.rates[cur]>0)return +c.rates[cur];return FXD[cur]||1}
 const dispList=()=>[...new Set(["KWD","USD","INR",state.money.cur])];
@@ -5439,7 +5432,6 @@ function renderDock(){
     setHands("ckz"+z.key,+p.hour%24,+p.minute,+p.second,+p.day);
     if(z.you){card.querySelector(".stp").textContent="YOU";card.querySelector(".cdl").textContent="Forex";card.querySelector(".cdv").textContent=we?"weekend":nOpen+" of 4 open";card.querySelector(".s").textContent=ds+" · UTC+3"}
     else{const ms=sessState(z.mkt,now);card.classList.toggle("on",ms.open);card.querySelector(".stp").textContent=ms.open?"NSE OPEN":"NSE CLOSED";card.querySelector(".cdl").textContent=ms.open?"Closes in":"Opens in";card.querySelector(".cdv").textContent=ms.open?cd(ms.until-now):(ms.nextOpen?cd(ms.nextOpen-now):"–");card.querySelector(".s").textContent="NSE 09:15–15:30 IST"}}
-  renderPairTL(now,we);
   $("#mktStatus").innerHTML=we?`Forex market closed for the weekend · reopens in <b>${dur(we-now)}</b>`:`<b>${nOpen} of 4</b> sessions open now`;
   if($("#dockPanel").hidden)return;
   $("#nextList").innerHTML=st.map(x=>{const open=x.open&&!we;const at=x.nextOpen?new Date(x.nextOpen).toLocaleString("en-GB",{weekday:"short",hour:"2-digit",minute:"2-digit"}):"–";
