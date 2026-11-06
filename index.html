@@ -4099,7 +4099,7 @@ table tbody tr:hover{background:color-mix(in srgb,var(--accent) 6%,transparent)}
 .pfd-top{display:flex;gap:12px;align-items:center;margin-bottom:12px}
 .pfd-brand{display:flex;align-items:center;gap:8px;font-size:11px;font-weight:700;letter-spacing:.06em;line-height:1.15;color:var(--pf-fg);padding-right:12px;border-right:1px solid var(--pf-ln);flex:none}
 .pfd-brand svg{width:26px;height:26px}
-.pfd-months{display:flex;gap:4px;align-items:center;flex:1;min-width:0;overflow-x:auto;padding:5px;border:1px solid var(--pf-ln);border-radius:12px;background:rgba(255,255,255,.04);scrollbar-width:none}
+.pfd-months{position:relative;display:flex;gap:4px;align-items:center;flex:1;min-width:0;overflow-x:auto;padding:5px;border:1px solid var(--pf-ln);border-radius:12px;background:rgba(255,255,255,.04);scrollbar-width:none}
 .pfd-months::-webkit-scrollbar{display:none}
 .pfd-months button{flex:1 0 auto;min-width:54px;border:1px solid rgba(140,150,255,.18);background:rgba(10,12,40,.45);color:var(--pf-mu);font-size:10.5px;letter-spacing:.04em;text-transform:uppercase;padding:6px 6px;border-radius:7px}
 .pfd-months button.has{color:var(--pf-fg);background:rgba(108,123,255,.18)}
@@ -4168,6 +4168,36 @@ table tbody tr:hover{background:color-mix(in srgb,var(--accent) 6%,transparent)}
 @media (max-width:1180px){.pfd-grid{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-areas:"trend trend" "ratio bal" "bud goal" "inv debt" "sum sum"}}
 @media (max-width:900px){.pfd-body{grid-template-columns:minmax(0,1fr)}.pfd-nav{flex-direction:row;overflow-x:auto;padding:5px;border-radius:14px;scrollbar-width:none}.pfd-nav::-webkit-scrollbar{display:none}.pfd-nav button{flex:1 0 auto;flex-direction:row;font-size:12px;padding:7px 10px}.pfd-nav button span{font-size:15px}.pfd-brand{display:none}}
 @media (max-width:640px){.pfd{padding:10px;border-radius:18px}.pfd-grid{grid-template-columns:minmax(0,1fr);grid-template-areas:"trend" "ratio" "bal" "bud" "goal" "inv" "debt" "sum"}.pfd-cbox{height:170px}.pfd-card{padding:10px 12px}.pfd-ring svg{max-width:150px}}
+/* Personal dashboard themes: white & red (default), white & green, white & blue, dark */
+.pfd-th{display:flex;gap:5px;flex:none;padding:5px;border:1px solid var(--pf-ln);border-radius:12px;background:rgba(255,255,255,.04)}
+.pfd-th button{width:26px;height:26px;border-radius:50%;border:2px solid rgba(255,255,255,.7);padding:0;box-shadow:0 1px 3px rgba(0,0,0,.25)}
+.pfd-th button[aria-pressed="true"]{outline:2px solid var(--pf-a1,#8A5CFF);outline-offset:2px}
+.pfd[data-pt="red"]{--pf-a1:#C8102E;--pf-a2:#FF5A6E;--pf-a3:#8E0D18;--pf-soft:#FDECEE}
+.pfd[data-pt="green"]{--pf-a1:#16833A;--pf-a2:#3CC46A;--pf-a3:#0B5D2A;--pf-soft:#E9F7EE}
+.pfd[data-pt="blue"]{--pf-a1:#1D5FD1;--pf-a2:#4C9BFF;--pf-a3:#0B3A8C;--pf-soft:#EAF2FE}
+.pfd:is([data-pt="red"],[data-pt="green"],[data-pt="blue"]){--pf-fg:#1C1F2E;--pf-mu:#646A82;--pf-ln:color-mix(in srgb,var(--pf-a1) 22%,#E4E6EE);color-scheme:light;
+  background:radial-gradient(90% 60% at 0% 0%,color-mix(in srgb,var(--pf-a1) 10%,#fff) 0%,transparent 60%),linear-gradient(160deg,#FFFFFF,var(--pf-soft));
+  border-color:color-mix(in srgb,var(--pf-a1) 28%,#E4E6EE);box-shadow:0 14px 34px color-mix(in srgb,var(--pf-a1) 14%,transparent),inset 0 1px 0 #fff}
+.pfd:is([data-pt="red"],[data-pt="green"],[data-pt="blue"]) :is(.pfd-card,.pfd-nav,.pfd-months,.pfd-th){background:rgba(255,255,255,.78);box-shadow:0 6px 16px color-mix(in srgb,var(--pf-a1) 9%,transparent),inset 0 1px 0 #fff}
+.pfd:is([data-pt="red"],[data-pt="green"],[data-pt="blue"]) .pfd-months button{background:#fff;color:var(--pf-mu);border-color:var(--pf-ln)}
+.pfd:is([data-pt="red"],[data-pt="green"],[data-pt="blue"]) .pfd-months button.has{background:color-mix(in srgb,var(--pf-a1) 10%,#fff);color:var(--pf-a3)}
+.pfd:is([data-pt="red"],[data-pt="green"],[data-pt="blue"]) .pfd-months button.on{background:linear-gradient(135deg,var(--pf-a1),var(--pf-a2));color:#fff;box-shadow:0 4px 12px color-mix(in srgb,var(--pf-a1) 40%,transparent)}
+.pfd:is([data-pt="red"],[data-pt="green"],[data-pt="blue"]) .pfd-months button.yr{color:var(--pf-a3)}
+.pfd:is([data-pt="red"],[data-pt="green"],[data-pt="blue"]) .pfd-nav button.on,.pfd:is([data-pt="red"],[data-pt="green"],[data-pt="blue"]) .pfd-nav button:hover{color:var(--pf-a3);background:color-mix(in srgb,var(--pf-a1) 11%,#fff)}
+.pfd:is([data-pt="red"],[data-pt="green"],[data-pt="blue"]) .pfd-act button{background:#fff;color:var(--pf-fg)}
+.pfd:is([data-pt="red"],[data-pt="green"],[data-pt="blue"]) .pfd-act button:hover{border-color:var(--pf-a1);background:color-mix(in srgb,var(--pf-a1) 8%,#fff)}
+.pfd:is([data-pt="red"],[data-pt="green"],[data-pt="blue"]) .pfd-act button.hot{background:linear-gradient(135deg,var(--pf-a1),var(--pf-a2));color:#fff}
+.pfd:is([data-pt="red"],[data-pt="green"],[data-pt="blue"]) .pfd-ed{background:#fff;color:var(--pf-a3)}
+.pfd:is([data-pt="red"],[data-pt="green"],[data-pt="blue"]) .pfd-h b{color:var(--pf-a1)}
+.pfd:is([data-pt="red"],[data-pt="green"],[data-pt="blue"]) .pfd-h b.mg{color:var(--pf-a3)}
+.pfd:is([data-pt="red"],[data-pt="green"],[data-pt="blue"]) .pfd-bank{background:linear-gradient(135deg,var(--pf-a2),var(--pf-a1) 55%,var(--pf-a3));border-color:rgba(255,255,255,.5);box-shadow:0 10px 22px color-mix(in srgb,var(--pf-a1) 35%,transparent),inset 0 1px 0 rgba(255,255,255,.35)}
+.pfd:is([data-pt="red"],[data-pt="green"],[data-pt="blue"]) .pfd-bank :is(.ico,.no,.no b){color:#fff}
+.pfd:is([data-pt="red"],[data-pt="green"],[data-pt="blue"]) .pfd-list button:hover{background:color-mix(in srgb,var(--pf-a1) 8%,#fff)}
+.pfd:is([data-pt="red"],[data-pt="green"],[data-pt="blue"]) .pfd-list .ic{box-shadow:none}
+.pfd:is([data-pt="red"],[data-pt="green"],[data-pt="blue"]) .pfd-lg button:hover span{color:var(--pf-a3)}
+.pfd:is([data-pt="red"],[data-pt="green"],[data-pt="blue"]) .pfd-empty button{color:var(--pf-a3)}
+.pfd:is([data-pt="red"],[data-pt="green"],[data-pt="blue"]) .pfd-brand{color:var(--pf-a3)}
+@media (max-width:640px){.pfd-th button{width:22px;height:22px}}
 </style>
 
 <header class="hero">
@@ -4309,10 +4339,11 @@ table tbody tr:hover{background:color-mix(in srgb,var(--accent) 6%,transparent)}
   </section>
 
   <section class="view" id="v-pover" hidden>
-    <div class="pfd" id="pfd">
+    <div class="pfd" id="pfd" data-pt="red">
       <div class="pfd-top">
         <div class="pfd-brand"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 3v9h9" fill="none" stroke="currentColor" stroke-width="1.6"/></svg><span>PERSONAL<br>FINANCE</span></div>
         <div class="pfd-months" id="pfdMonths" role="group" aria-label="Choose month"></div>
+        <div class="pfd-th" id="pfdTh" role="group" aria-label="Dashboard colours"></div>
       </div>
       <div class="pfd-body">
         <nav class="pfd-nav" aria-label="Personal finance sections">
@@ -4330,7 +4361,7 @@ table tbody tr:hover{background:color-mix(in srgb,var(--accent) 6%,transparent)}
           </div>
           <div class="pfd-grid">
             <div class="pfd-card c-trend"><div class="pfd-h"><span>Income <b id="pfdInc"></b></span><span>Expenses <b class="mg" id="pfdExp"></b></span><small id="pfdYear"></small></div><div class="pfd-cbox"><canvas id="chPFD"></canvas></div></div>
-            <div class="pfd-card c-ratio"><div class="pfd-t">Ratio Income <small id="pfdRatioM"></small></div><div class="pfd-ring" id="pfdRatio"></div><div class="pfd-leg"><span><i style="background:#6c7bff"></i>Income</span><span><i style="background:#d63af9"></i>Expenses</span></div></div>
+            <div class="pfd-card c-ratio"><div class="pfd-t">Ratio Income <small id="pfdRatioM"></small></div><div class="pfd-ring" id="pfdRatio"></div><div class="pfd-leg" id="pfdRatioL"></div></div>
             <div class="pfd-card c-bal" data-goto="pacct" role="button" tabindex="0" title="Open personal accounts"><div class="pfd-bank"><span class="chipc"></span><span class="ico">☾ ☼ )))</span><span class="no">**** **** **** <b id="pfdL4">0000</b></span></div><div class="pfd-balv"><span>Balance:</span><b id="pfdBal"></b></div><small class="pfd-sub" id="pfdNet"></small></div>
             <div class="pfd-card c-bud"><div class="pfd-t">Budget <b id="pfdBudT"></b><button type="button" class="pfd-ed" data-pfd="budget" aria-label="Edit budget">✎</button></div><div class="pfd-ring" id="pfdBud"></div><div class="pfd-mini" id="pfdBudL"></div></div>
             <div class="pfd-card c-inv"><div class="pfd-t">Invest <b id="pfdInvT"></b><button type="button" class="pfd-ed" data-pfd="invest" aria-label="Add investment">+</button></div><div id="pfdInv"></div></div>
@@ -6337,20 +6368,29 @@ function renderPersonal(){
 function renderPersonal2(){renderBillsPage();renderAcctsPage();renderOverviewExtras();try{renderPFD()}catch(e){console.error(e)}}
 /* ===================== Personal dashboard (dark glass) ===================== */
 const PFD_MON=["JANUARY","FEBRUARY","MARCH","APRIL","MAY","JUNE","JULY","AUGUST","SEPTEMBER","OCTOBER","NOVEMBER","DECEMBER"];
-const PFD_COL=["#6C7BFF","#D63AF9","#3FD0FF","#8A5CFF","#22D3C5","#FF7AC6","#FFC861","#9BE15D"];
+const PFD_THEMES={red:{n:"White & Red",sw:"linear-gradient(135deg,#fff 50%,#C8102E 50%)",cols:["#C8102E","#FF5A6E","#8E0D18","#F49AA6","#E8475B","#B8A2A6","#FFB3BD","#6E0A13"],inc:"#C8102E",exp:"#8E0D18",bar:["#E8475B","#C8102E"],track:"rgba(200,16,46,.10)",knob:"#fff",tick:"#646A82",grid:"rgba(28,31,46,.08)",glow:false},
+ green:{n:"White & Green",sw:"linear-gradient(135deg,#fff 50%,#16833A 50%)",cols:["#16833A","#3CC46A","#0B5D2A","#9ADBB0","#2BA35A","#A3B8AA","#C9EFD5","#074020"],inc:"#16833A",exp:"#E0922B",bar:["#3CC46A","#16833A"],track:"rgba(22,131,58,.11)",knob:"#fff",tick:"#646A82",grid:"rgba(28,31,46,.08)",glow:false},
+ blue:{n:"White & Blue",sw:"linear-gradient(135deg,#fff 50%,#1D5FD1 50%)",cols:["#1D5FD1","#4C9BFF","#0B3A8C","#A6CBFF","#2E86F5","#9FB0C8","#CFE2FF","#06265E"],inc:"#1D5FD1",exp:"#E04A6A",bar:["#4C9BFF","#1D5FD1"],track:"rgba(29,95,209,.10)",knob:"#fff",tick:"#646A82",grid:"rgba(28,31,46,.08)",glow:false},
+ dark:{n:"Dark",sw:"linear-gradient(135deg,#2A2F72,#0E1130)",cols:["#6C7BFF","#D63AF9","#3FD0FF","#8A5CFF","#22D3C5","#FF7AC6","#FFC861","#9BE15D"],inc:"#6C7BFF",exp:"#D63AF9",bar:["#3B3FD8","#8FA0FF"],track:"rgba(140,150,255,.14)",knob:"#12153A",tick:"#9CA3D6",grid:"rgba(140,150,255,.12)",glow:true}};
+let pfdTheme="red";try{const t=localStorage.getItem(LS+".pfdTheme");if(PFD_THEMES[t])pfdTheme=t}catch(e){}
+const PFT=()=>PFD_THEMES[pfdTheme]||PFD_THEMES.red;
+const pfdGlow=c=>PFT().glow?`filter:drop-shadow(0 0 4px ${c})`:"";
 function pfdArc(cx,cy,r,a0,a1){const p=a=>[cx+r*Math.cos(a),cy+r*Math.sin(a)],[x0,y0]=p(a0),[x1,y1]=p(a1);return `M${x0.toFixed(2)} ${y0.toFixed(2)}A${r} ${r} 0 ${a1-a0>Math.PI?1:0} 1 ${x1.toFixed(2)} ${y1.toFixed(2)}`}
 function pfdRing(segs,center,sub,opt){opt=opt||{};const R=opt.r||46,W=opt.w||12,T=Math.PI*2,st=-Math.PI/2;let a=st,out="";
   const tot=segs.reduce((s,x)=>s+x.v,0),cap=opt.full||tot;
-  out+=`<circle cx="60" cy="60" r="${R}" fill="none" stroke="rgba(140,150,255,.14)" stroke-width="${W}"/>`;
-  if(cap>0)segs.forEach(sg=>{if(sg.v<=0)return;const sw=Math.min(T-.0001,sg.v/cap*T);if(sw<=0)return;const b=Math.min(a+sw,st+T-.0001);out+=`<path d="${pfdArc(60,60,R,a,b)}" fill="none" stroke="${sg.c}" stroke-width="${W}" stroke-linecap="${opt.round?"round":"butt"}" style="filter:drop-shadow(0 0 4px ${sg.c})"/>`;a=b});
-  if(opt.knob&&cap>0&&tot>0){const k=st+(segs[0].v/cap)*T;out+=`<circle cx="${(60+R*Math.cos(k)).toFixed(2)}" cy="${(60+R*Math.sin(k)).toFixed(2)}" r="6" fill="#12153A" stroke="#fff" stroke-width="2"/>`}
+  out+=`<circle cx="60" cy="60" r="${R}" fill="none" stroke="${PFT().track}" stroke-width="${W}"/>`;
+  if(cap>0)segs.forEach(sg=>{if(sg.v<=0)return;const sw=Math.min(T-.0001,sg.v/cap*T);if(sw<=0)return;const b=Math.min(a+sw,st+T-.0001);out+=`<path d="${pfdArc(60,60,R,a,b)}" fill="none" stroke="${sg.c}" stroke-width="${W}" stroke-linecap="${opt.round?"round":"butt"}" style="${pfdGlow(sg.c)}"/>`;a=b});
+  if(opt.knob&&cap>0&&tot>0){const k=st+(segs[0].v/cap)*T;out+=`<circle cx="${(60+R*Math.cos(k)).toFixed(2)}" cy="${(60+R*Math.sin(k)).toFixed(2)}" r="6" fill="${PFT().knob}" stroke="${PFT().glow?"#fff":PFT().inc}" stroke-width="2"/>`}
   return `<svg viewBox="0 0 120 120" role="img" aria-label="${esc(sub||"")} ${esc(center)}">${out}${sub?`<text x="60" y="54" text-anchor="middle" font-size="9" style="fill:var(--pf-mu)">${esc(sub)}</text>`:""}<text x="60" y="${sub?71:65}" text-anchor="middle" font-size="${String(center).length>5?15:19}" font-weight="700">${esc(center)}</text></svg>`}
 function renderPFD(){
-  const box=$("#pfd");if(!box||!state.money)return;
+  const box=$("#pfd");if(!box||!state.money)return;const TH=PFT();box.dataset.pt=pfdTheme;
+  $("#pfdTh").innerHTML=Object.entries(PFD_THEMES).map(([k,v])=>`<button type="button" data-pft="${k}" title="${v.n}" aria-label="${v.n}" aria-pressed="${k===pfdTheme}" style="background:${v.sw}"></button>`).join("");
+  $("#pfdRatioL").innerHTML=`<span><i style="background:${TH.inc}"></i>Income</span><span><i style="background:${TH.exp}"></i>Expenses</span>`;
   const mo=state.money,y=mui.month.getFullYear(),m=mui.month.getMonth(),P=pMonth();
   // month strip
   const has=new Set(mo.tx.map(t=>String(t.date).slice(0,7)));
   $("#pfdMonths").innerHTML=`<button type="button" class="yr" data-pfdy="-1" aria-label="Previous year">‹ ${y-1}</button>`+PFD_MON.map((n,i)=>{const k=y+"-"+String(i+1).padStart(2,"0");return `<button type="button" data-pfdm="${i}" class="${i===m?"on":has.has(k)?"has":""}" aria-pressed="${i===m}">${n}</button>`}).join("")+`<button type="button" class="yr" data-pfdy="1" aria-label="Next year">${y+1} ›</button>`;
+  {const st=$("#pfdMonths"),on=st.querySelector(".on");if(on)requestAnimationFrame(()=>{st.scrollLeft=on.offsetLeft-st.clientWidth/2+on.offsetWidth/2})}
   // year totals + chart
   const inc=Array(12).fill(0),exp=Array(12).fill(0);
   for(const t of mo.tx){const d=String(t.date);if(d.slice(0,4)!==String(y))continue;const i=+d.slice(5,7)-1;if(i<0||i>11)continue;if(t.type==="income")inc[i]+=+t.amount||0;else if(t.type==="expense")exp[i]+=+t.amount||0}
@@ -6358,14 +6398,14 @@ function renderPFD(){
   $("#pfdInc").textContent=mFmt(yi);$("#pfdExp").textContent=mFmt(ye);$("#pfdYear").textContent=String(y);
   if(ui.tab==="pover"){const cv=$("#chPFD");
     mount("chPFD",{type:"bar",data:{labels:PFD_MON.map(s=>s.slice(0,3)),datasets:[
-      {type:"line",label:"Expenses",data:exp.map(v=>+v.toFixed(3)),borderColor:"#D63AF9",backgroundColor:"#D63AF9",borderWidth:2,tension:.35,pointRadius:3,pointBackgroundColor:"#F3B4FF",order:0},
-      {label:"Income",data:inc.map(v=>+v.toFixed(3)),order:1,borderRadius:5,maxBarThickness:22,backgroundColor:c=>{const ch=c.chart,a=ch.chartArea;if(!a)return"#6C7BFF";const g=ch.ctx.createLinearGradient(0,a.bottom,0,a.top);g.addColorStop(0,"#3B3FD8");g.addColorStop(1,"#8FA0FF");return g}}]},
+      {type:"line",label:"Expenses",data:exp.map(v=>+v.toFixed(3)),borderColor:TH.exp,backgroundColor:TH.exp,borderWidth:2,tension:.35,pointRadius:3,pointBackgroundColor:TH.glow?"#F3B4FF":"#fff",pointBorderColor:TH.exp,order:0},
+      {label:"Income",data:inc.map(v=>+v.toFixed(3)),order:1,borderRadius:5,maxBarThickness:22,backgroundColor:c=>{const ch=c.chart,a=ch.chartArea;if(!a)return TH.inc;const g=ch.ctx.createLinearGradient(0,a.bottom,0,a.top);g.addColorStop(0,TH.glow?TH.bar[0]:TH.bar[1]);g.addColorStop(1,TH.glow?TH.bar[1]:TH.bar[0]);return g}}]},
       options:{responsive:true,maintainAspectRatio:false,animation:{duration:400},plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>" "+c.dataset.label+": "+mFmt(c.parsed.y)}}},onClick:(e,els)=>{if(els&&els.length){mui.month=new Date(y,els[0].index,1);renderPersonal()}},
-        scales:{x:{grid:{display:false},ticks:{color:"#9CA3D6",font:{size:10}}},y:{grid:{color:"rgba(140,150,255,.12)"},border:{display:false},ticks:{color:"#9CA3D6",font:{size:10},callback:v=>compact(v)}}}}})}
+        scales:{x:{grid:{display:false},ticks:{color:TH.tick,font:{size:10}}},y:{grid:{color:TH.grid},border:{display:false},ticks:{color:TH.tick,font:{size:10},callback:v=>compact(v)}}}}})}
   // ratio income (selected month)
   const mi=P.inc,me=P.exp,rt=mi+me;
   $("#pfdRatioM").textContent=PFD_MON[m].slice(0,3)+" "+y;
-  $("#pfdRatio").innerHTML=pfdRing([{v:mi,c:"#6C7BFF"},{v:me,c:"#D63AF9"}],rt?Math.round(mi/rt*100)+"%":"–","",{knob:true,w:13});
+  $("#pfdRatio").innerHTML=pfdRing([{v:mi,c:TH.inc},{v:me,c:TH.exp}],rt?Math.round(mi/rt*100)+"%":"–","",{knob:true,w:13});
   // balance card
   const A=mo.accounts||[],bal=a=>acctBal(a.id),cash=A.filter(a=>accGroup(a)==="cash"),net=A.reduce((s,a)=>s+bal(a),0);
   $("#pfdBal").textContent=mFmt(cash.reduce((s,a)=>s+bal(a),0));$("#pfdNet").textContent="Net worth "+mFmt(net)+" · "+plural(A.length,"account");
@@ -6373,39 +6413,40 @@ function renderPFD(){
   // budget
   const bt=P.budTot,used=bt?Math.round(me/bt*100):0;
   const top=EXP_CATS.map((c,i)=>({k:c[0],n:c[1],v:P.spentBy[c[0]]||0})).filter(x=>x.v>0).sort((a,b)=>b.v-a.v);
-  const segs=top.slice(0,4).map((x,i)=>({v:x.v,c:PFD_COL[i],n:x.n}));const rest=top.slice(4).reduce((s,x)=>s+x.v,0);if(rest)segs.push({v:rest,c:"#5A5F99",n:"Other"});
+  const segs=top.slice(0,4).map((x,i)=>({v:x.v,c:PFT().cols[i],n:x.n}));const rest=top.slice(4).reduce((s,x)=>s+x.v,0);if(rest)segs.push({v:rest,c:TH.cols[5],n:"Other"});
   $("#pfdBudT").textContent=bt?mFmt(bt):"–";
   $("#pfdBud").innerHTML=pfdRing(segs,bt?used+"%":"Set",bt?"Used":"budget",{full:bt?Math.max(bt,me):me||1,w:14});
-  $("#pfdBudL").innerHTML=bt?segs.map(s=>`<div><i style="background:${s.c}"></i><span>${esc(s.n)}</span><b>${mFmt(s.v)}</b></div>`).join("")+`<div><i style="background:rgba(140,150,255,.3)"></i><span>${me>bt?"Over budget":"Left"}</span><b>${mFmt(Math.abs(bt-me))}</b></div>`:`<div class="pfd-empty">No monthly budget yet.<button type="button" data-pfd="budget">Set budget</button></div>`;
+  $("#pfdBudL").innerHTML=bt?segs.map(s=>`<div><i style="background:${s.c}"></i><span>${esc(s.n)}</span><b>${mFmt(s.v)}</b></div>`).join("")+`<div><i style="background:${TH.track}"></i><span>${me>bt?"Over budget":"Left"}</span><b>${mFmt(Math.abs(bt-me))}</b></div>`:`<div class="pfd-empty">No monthly budget yet.<button type="button" data-pfd="budget">Set budget</button></div>`;
   // invest
   const inv=A.filter(a=>accGroup(a)==="invest").map(a=>({a,v:bal(a)})).filter(x=>x.v!==0||true),invT=inv.reduce((s,x)=>s+Math.max(0,x.v),0);
   $("#pfdInvT").textContent=mFmt(invT);
   if(inv.length){const mx=Math.max(1,...inv.map(x=>Math.max(0,x.v))),n=inv.length,sw=Math.PI/n;
-    const w=inv.map((x,i)=>{const r=18+52*Math.sqrt(Math.max(0,x.v)/mx),a0=Math.PI+i*sw,a1=a0+sw-.03,c=PFD_COL[i%PFD_COL.length];
-      const p=a=>[80+r*Math.cos(a),76+r*Math.sin(a)];const[x0,y0]=p(a0),[x1,y1]=p(a1);return `<path d="M80 76L${x0.toFixed(1)} ${y0.toFixed(1)}A${r.toFixed(1)} ${r.toFixed(1)} 0 0 1 ${x1.toFixed(1)} ${y1.toFixed(1)}Z" fill="${c}" fill-opacity=".75" stroke="${c}" style="filter:drop-shadow(0 0 4px ${c})"/>`}).join("");
-    $("#pfdInv").innerHTML=`<div class="pfd-fan"><svg viewBox="0 0 160 82" aria-hidden="true">${[30,50,70].map(r=>`<path d="${pfdArc(80,76,r,Math.PI,2*Math.PI-.001)}" fill="none" stroke="rgba(140,150,255,.15)"/>`).join("")}${w}<circle cx="80" cy="76" r="9" fill="#12153A" stroke="rgba(140,150,255,.4)"/></svg><div class="pfd-lg">${inv.map((x,i)=>`<button type="button" data-pfdacc="${esc(x.a.id)}"><i style="background:${PFD_COL[i%PFD_COL.length]}"></i><span>${esc(x.a.name)}</span><b>${mFmt(x.v)}</b></button>`).join("")}</div></div>`}
+    const w=inv.map((x,i)=>{const r=18+52*Math.sqrt(Math.max(0,x.v)/mx),a0=Math.PI+i*sw,a1=a0+sw-.03,c=PFT().cols[i%PFT().cols.length];
+      const p=a=>[80+r*Math.cos(a),76+r*Math.sin(a)];const[x0,y0]=p(a0),[x1,y1]=p(a1);return `<path d="M80 76L${x0.toFixed(1)} ${y0.toFixed(1)}A${r.toFixed(1)} ${r.toFixed(1)} 0 0 1 ${x1.toFixed(1)} ${y1.toFixed(1)}Z" fill="${c}" fill-opacity=".75" stroke="${c}" style="${pfdGlow(c)}"/>`}).join("");
+    $("#pfdInv").innerHTML=`<div class="pfd-fan"><svg viewBox="0 0 160 82" aria-hidden="true">${[30,50,70].map(r=>`<path d="${pfdArc(80,76,r,Math.PI,2*Math.PI-.001)}" fill="none" stroke="${TH.track}"/>`).join("")}${w}<circle cx="80" cy="76" r="9" fill="${TH.knob}" stroke="${TH.track}"/></svg><div class="pfd-lg">${inv.map((x,i)=>`<button type="button" data-pfdacc="${esc(x.a.id)}"><i style="background:${PFT().cols[i%PFT().cols.length]}"></i><span>${esc(x.a.name)}</span><b>${mFmt(x.v)}</b></button>`).join("")}</div></div>`}
   else $("#pfdInv").innerHTML=`<div class="pfd-empty">No investment accounts yet.<button type="button" data-pfd="invest">Add one</button></div>`;
   // debts
   const debt=A.filter(a=>isLiab(a)).map(a=>({a,v:Math.max(0,-bal(a))})),dT=debt.reduce((s,x)=>s+x.v,0);
   $("#pfdDebtT").textContent=mFmt(dT);
   if(debt.length){const mx=Math.max(1,...debt.map(x=>x.v)),n=debt.length;
-    const b=debt.map((x,i)=>{const r=5+13*Math.sqrt(x.v/mx),cx=14+i*(132/Math.max(1,n-1||1)),cy=i%2?26:16,c=PFD_COL[(i+1)%PFD_COL.length];return `<circle cx="${(n===1?80:cx).toFixed(1)}" cy="${cy+8}" r="${r.toFixed(1)}" fill="${c}" fill-opacity=".35" stroke="${c}" stroke-width="2" style="filter:drop-shadow(0 0 5px ${c})"/>`}).join("");
-    $("#pfdDebt").innerHTML=`<div class="pfd-fan"><svg viewBox="0 0 160 52" aria-hidden="true">${b}</svg><div class="pfd-lg">${debt.map((x,i)=>`<button type="button" data-pfdacc="${esc(x.a.id)}"><i style="background:${PFD_COL[(i+1)%PFD_COL.length]}"></i><span>${esc(x.a.name)}</span><b>${mFmt(x.v)}</b></button>`).join("")}</div></div>`}
+    const b=debt.map((x,i)=>{const r=5+13*Math.sqrt(x.v/mx),cx=14+i*(132/Math.max(1,n-1||1)),cy=i%2?26:16,c=PFT().cols[(i+1)%PFT().cols.length];return `<circle cx="${(n===1?80:cx).toFixed(1)}" cy="${cy+8}" r="${r.toFixed(1)}" fill="${c}" fill-opacity=".3" stroke="${c}" stroke-width="2" style="${pfdGlow(c)}"/>`}).join("");
+    $("#pfdDebt").innerHTML=`<div class="pfd-fan"><svg viewBox="0 0 160 52" aria-hidden="true">${b}</svg><div class="pfd-lg">${debt.map((x,i)=>`<button type="button" data-pfdacc="${esc(x.a.id)}"><i style="background:${PFT().cols[(i+1)%PFT().cols.length]}"></i><span>${esc(x.a.name)}</span><b>${mFmt(x.v)}</b></button>`).join("")}</div></div>`}
   else $("#pfdDebt").innerHTML=`<div class="pfd-empty">No cards or loans. 🎉<button type="button" data-pfd="debt">Add debt</button></div>`;
   // goals
   const G=(mo.goals||[]).map(g=>({g,i:goalInfo(g)})),gT=G.reduce((s,x)=>s+x.i.target,0),gS=G.reduce((s,x)=>s+Math.min(x.i.cur,x.i.target||x.i.cur),0);
   $("#pfdGoalT").textContent=mFmt(gT);
-  if(G.length){const show=G.slice(0,4);let rings="";show.forEach((x,i)=>{const r=52-i*10,c=PFD_COL[i%PFD_COL.length];rings+=`<circle cx="60" cy="60" r="${r}" fill="none" stroke="rgba(140,150,255,.13)" stroke-width="6"/>`;if(x.i.pct>0)rings+=`<path d="${pfdArc(60,60,r,-Math.PI/2,-Math.PI/2+Math.min(.9999,x.i.pct)*Math.PI*2)}" fill="none" stroke="${c}" stroke-width="6" stroke-linecap="round" style="filter:drop-shadow(0 0 3px ${c})"/>`});
+  if(G.length){const show=G.slice(0,4);let rings="";show.forEach((x,i)=>{const r=52-i*10,c=PFT().cols[i%PFT().cols.length];rings+=`<circle cx="60" cy="60" r="${r}" fill="none" stroke="${TH.track}" stroke-width="6"/>`;if(x.i.pct>0)rings+=`<path d="${pfdArc(60,60,r,-Math.PI/2,-Math.PI/2+Math.min(.9999,x.i.pct)*Math.PI*2)}" fill="none" stroke="${c}" stroke-width="6" stroke-linecap="round" style="${pfdGlow(c)}"/>`});
     const pc=gT?Math.round(gS/gT*100):0;
-    $("#pfdGoal").innerHTML=`<div class="pfd-ring"><svg viewBox="0 0 120 120" role="img" aria-label="Goals ${pc}% saved">${rings}<text x="60" y="66" text-anchor="middle" font-size="${pc>99?14:17}" font-weight="700">${pc}%</text></svg></div><div class="pfd-lg">${show.map((x,i)=>`<button type="button" data-gedit="${esc(x.g.id)}"><i style="background:${PFD_COL[i%PFD_COL.length]}"></i><span>${esc(x.g.name||"Goal")}</span><b>${Math.round(x.i.pct*100)}%</b></button>`).join("")}${G.length>4?`<button type="button" data-goto="pgoal"><span>+${G.length-4} more…</span></button>`:""}</div>`}
+    $("#pfdGoal").innerHTML=`<div class="pfd-ring"><svg viewBox="0 0 120 120" role="img" aria-label="Goals ${pc}% saved">${rings}<text x="60" y="66" text-anchor="middle" font-size="${pc>99?14:17}" font-weight="700">${pc}%</text></svg></div><div class="pfd-lg">${show.map((x,i)=>`<button type="button" data-gedit="${esc(x.g.id)}"><i style="background:${PFT().cols[i%PFT().cols.length]}"></i><span>${esc(x.g.name||"Goal")}</span><b>${Math.round(x.i.pct*100)}%</b></button>`).join("")}${G.length>4?`<button type="button" data-goto="pgoal"><span>+${G.length-4} more…</span></button>`:""}</div>`}
   else $("#pfdGoal").innerHTML=`<div class="pfd-empty">No goals yet.<button type="button" data-pfd="goal">Add a goal</button></div>`;
   // summary list
-  const S=[["💰","Budgeting",bt?mFmt(bt):"–","pbud","#D63AF9"],["📈","Income",mFmt(yi),"pinc","#3FD0FF"],["📉","Expenses",mFmt(ye),"pexp","#8A5CFF"],["🌱","Investment",mFmt(invT),"pacct","#6C7BFF"],["🔒","Debts",mFmt(dT),"pbill","#9CA3D6"],["🎯","Fin Goals",mFmt(gS),"pgoal","#22D3C5"]];
+  const C=TH.cols,S=[["💰","Budgeting",bt?mFmt(bt):"–","pbud",C[1]],["📈","Income",mFmt(yi),"pinc",C[0]],["📉","Expenses",mFmt(ye),"pexp",C[2]],["🌱","Investment",mFmt(invT),"pacct",C[4]],["🔒","Debts",mFmt(dT),"pbill",C[5]],["🎯","Fin Goals",mFmt(gS),"pgoal",C[3]]];
   $("#pfdSum").innerHTML=S.map(r=>`<button type="button" data-goto="${r[3]}"><span class="ic" style="--g:${r[4]};background:${r[4]}33;border:1px solid ${r[4]}">${r[0]}</span><span class="nm">${r[1]}</span><b>${r[2]}</b></button>`).join("");
 }
 document.addEventListener("click",e=>{
   const mb=e.target.closest("[data-pfdm]");if(mb){mui.month=new Date(mui.month.getFullYear(),+mb.dataset.pfdm,1);renderPersonal();return}
   const yb=e.target.closest("[data-pfdy]");if(yb){mui.month=new Date(mui.month.getFullYear()+ +yb.dataset.pfdy,mui.month.getMonth(),1);renderPersonal();return}
+  const th=e.target.closest("[data-pft]");if(th){pfdTheme=th.dataset.pft;try{localStorage.setItem(LS+".pfdTheme",pfdTheme)}catch(e){}renderPFD();return}
   const ac=e.target.closest("[data-pfdacc]");if(ac){acctForm(ac.dataset.pfdacc);return}
   const b=e.target.closest("[data-pfd]");if(!b)return;const k=b.dataset.pfd;
   if(k==="budget")budgetForm();else if(k==="goal")goalForm();else if(k==="acct")acctForm();else if(k==="invest")acctForm(null,"invest");else if(k==="debt")acctForm(null,"loan");
