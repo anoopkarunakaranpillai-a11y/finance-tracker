@@ -4584,6 +4584,12 @@ html.studyonly .modesw,html.studyonly #acctBtn,html.studyonly #banner,html.study
 @media (min-width:1100px){:root[data-theme="green"] .hero>.strip{background:linear-gradient(180deg,#22A447,#15803D 50%,#22A447)}}
 :root[data-theme="green"] .hero{box-shadow:0 6px 24px rgba(21,128,61,.10)}
 
+
+/* Wealth workspace */
+.modesw button[data-mode="wealth"][aria-pressed="true"]{color:#C8102E}
+body.wmode .hbtn.primary,body.wmode .hbtn.primary:hover{background:linear-gradient(135deg,#8E0D18,#C8102E 60%,#E63946)!important;border-color:transparent;color:#fff;box-shadow:0 6px 18px rgba(200,16,46,.3)}
+body.wmode .tab[data-tab="wealth"][aria-selected="true"]{background:linear-gradient(135deg,#C8102E,#E63946);color:#fff}
+@media (min-width:1100px){body.wmode .tab[data-tab="wealth"][aria-selected="true"]{background:#FFE9EB;color:#A50F1C;box-shadow:inset 3px 0 0 #C8102E}}
 /* ================= Anoop's Wealth (always red & white) ================= */
 .wealth{--wr:#C8102E;--wr2:#E63946;--wr3:#FF8A95;--wdk:#8E0D18;--wink:#2A1215;--wmut:#7B5B5F;--wsoft:#FFF4F5;--wline:#F2D4D8;--wok:#0E7A4F;
   color-scheme:light;color:var(--wink);background:#FFFFFF;border:1px solid var(--wline);border-radius:22px;padding:18px;box-shadow:0 10px 30px rgba(200,16,46,.08);gap:16px}
@@ -4666,7 +4672,7 @@ html.studyonly .modesw,html.studyonly #acctBtn,html.studyonly #banner,html.study
   <div class="wrap">
     <div class="bar">
       <div class="brand"><span class="logo" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M2 14 L7 9 L11 12 L18 4" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div><h1><small class="own">Anoop's</small>Finance Tracker</h1><span class="save" id="saveLabel">Saved on this device</span></div></div>
-      <div class="modesw" role="group" aria-label="Workspace"><button type="button" data-mode="trading" aria-pressed="true"><span class="mi">📈</span> Trading</button><button type="button" data-mode="personal" aria-pressed="false"><span class="mi">👛</span> Personal</button><button type="button" data-mode="learn" aria-pressed="false"><span class="mi">📚</span> Learn</button><button type="button" data-mode="navw" aria-pressed="false"><span class="mi">🎒</span> Navamika</button><button type="button" data-mode="arya" aria-pressed="false"><span class="mi">📝</span> Arya PSC</button></div>
+      <div class="modesw" role="group" aria-label="Workspace"><button type="button" data-mode="trading" aria-pressed="true"><span class="mi">📈</span> Trading</button><button type="button" data-mode="personal" aria-pressed="false"><span class="mi">👛</span> Personal</button><button type="button" data-mode="learn" aria-pressed="false"><span class="mi">📚</span> Learn</button><button type="button" data-mode="navw" aria-pressed="false"><span class="mi">🎒</span> Navamika</button><button type="button" data-mode="arya" aria-pressed="false"><span class="mi">📝</span> Arya PSC</button><button type="button" data-mode="wealth" aria-pressed="false" title="Anoop's Wealth"><span class="mi">💎</span> Wealth</button></div>
       <button class="hbtn" id="acctBtn" type="button"><span class="aav">👤</span></button>
       <button class="hbtn" id="themeBtn" type="button" aria-label="Theme"><span id="themeIco">◐</span><span class="hide-sm" id="themeTxt"> Auto</span></button>
       <button class="hbtn" id="hdrPdf" type="button" title="Download or share this page as a PDF">⤴ PDF / Share</button>
@@ -5444,16 +5450,16 @@ function renderReports(){
 
 function renderAll(){try{renderNW()}catch(e){}renderBanner();renderScope();renderDash();renderPerf();renderTrades();renderAccounts();renderReports();renderCalendar();renderJournal();renderPersonal();showTab(ui.tab)}
 const ATABS=["arya"],NTABS=["nhome","ngame","nstory","ntoday","nall","ncal","nup","nprog","nset"],PTABS=["pover","pexp","pinc","pbill","pbud","pgoal","pacct"],TTABS=["dash","perf","trades","journal","live","signals","fx","accounts"];
-let mode="trading";try{const m=localStorage.getItem(LS+".mode");if(m==="personal"||m==="learn"||m==="navw"||m==="arya")mode=m}catch(e){}
+let mode="trading";try{const m=localStorage.getItem(LS+".mode");if(m==="personal"||m==="learn"||m==="navw"||m==="arya"||m==="wealth")mode=m}catch(e){}
 const STUDY_ONLY=(()=>{try{const q=new URLSearchParams(location.search).get("study");return q==="navw"||q==="arya"?q:""}catch(e){return""}})();
 if(STUDY_ONLY){mode=STUDY_ONLY;document.documentElement.classList.add("studyonly","study-"+STUDY_ONLY)}
 function setMode(m,go){if(STUDY_ONLY)m=STUDY_ONLY;mode=m;if(!STUDY_ONLY)try{localStorage.setItem(LS+".mode",m)}catch(e){}
-  document.body.classList.toggle("personal",m==="personal");document.body.classList.toggle("learn",m==="learn");document.body.classList.toggle("navw",m==="navw");document.body.classList.toggle("arya",m==="arya");
+  document.body.classList.toggle("personal",m==="personal");document.body.classList.toggle("learn",m==="learn");document.body.classList.toggle("navw",m==="navw");document.body.classList.toggle("arya",m==="arya");document.body.classList.toggle("wmode",m==="wealth");
   $$(".modesw button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.mode===m));
   $$(".tab[data-m]").forEach(b=>b.hidden=b.dataset.m!==m);
-  $("#hdrTrade").textContent=m==="personal"?"+ Expense":m==="learn"?"+ Add":m==="navw"?"+ Worksheet":m==="arya"?"▶ Daily 20":"+ Trade";
+  $("#hdrTrade").textContent=m==="personal"?"+ Expense":m==="learn"?"+ Add":m==="navw"?"+ Worksheet":m==="arya"?"▶ Daily 20":m==="wealth"?"🏦 Accounts":"+ Trade";
   $(".mkt").hidden=ui.tab!=="dash"||clocksOff();$("#banner").hidden=m==="learn"||m==="navw"||m==="arya";
-  if(go!==false)showTab(m==="arya"?"arya":m==="navw"?(NTABS.includes(ui.lastN)?ui.lastN:"nhome"):m==="learn"?"learn":m==="personal"?(PTABS.includes(ui.lastP)?ui.lastP:"pover"):(TTABS.includes(ui.lastT)?ui.lastT:"dash"));
+  if(go!==false)showTab(m==="wealth"?"wealth":m==="arya"?"arya":m==="navw"?(NTABS.includes(ui.lastN)?ui.lastN:"nhome"):m==="learn"?"learn":m==="personal"?(PTABS.includes(ui.lastP)?ui.lastP:"pover"):(TTABS.includes(ui.lastT)?ui.lastT:"dash"));
 }
 function showTab(t){
   if(STUDY_ONLY&&!(STUDY_ONLY==="arya"?ATABS:NTABS).includes(t))t=STUDY_ONLY==="arya"?"arya":"nhome";
@@ -5966,7 +5972,7 @@ document.addEventListener("click",e=>{
   const cl=e.target.closest("[data-cashlist]");if(cl){cashList(cl.dataset.cashlist);return}
   const ea=e.target.closest("[data-editacc]");if(ea){accountForm(ea.dataset.editacc);return}
 });
-$("#hdrTrade").onclick=()=>mode==="arya"?(window.__aswGo&&window.__aswGo("daily")):mode==="navw"?nwGo("nup"):mode==="learn"?openLearnAdd("upload"):mode==="personal"?openEntry("expense"):tradeForm();
+$("#hdrTrade").onclick=()=>mode==="wealth"?showTab("pacct"):mode==="arya"?(window.__aswGo&&window.__aswGo("daily")):mode==="navw"?nwGo("nup"):mode==="learn"?openLearnAdd("upload"):mode==="personal"?openEntry("expense"):tradeForm();
 $$(".modesw button").forEach(b=>b.onclick=()=>setMode(b.dataset.mode));
 $("#addAcc").onclick=()=>accountForm();
 $("#dAcc").onchange=e=>{ui.dAcc=e.target.value;renderDash();renderPerf()};
