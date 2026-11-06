@@ -4583,6 +4583,82 @@ html.studyonly .modesw,html.studyonly #acctBtn,html.studyonly #banner,html.study
 :root[data-theme="green"] .strip,:root[data-theme="green"] .hero>.strip{background:linear-gradient(90deg,#22A447,#15803D 50%,#22A447)}
 @media (min-width:1100px){:root[data-theme="green"] .hero>.strip{background:linear-gradient(180deg,#22A447,#15803D 50%,#22A447)}}
 :root[data-theme="green"] .hero{box-shadow:0 6px 24px rgba(21,128,61,.10)}
+
+/* ================= Anoop's Wealth (always red & white) ================= */
+.wealth{--wr:#C8102E;--wr2:#E63946;--wr3:#FF8A95;--wdk:#8E0D18;--wink:#2A1215;--wmut:#7B5B5F;--wsoft:#FFF4F5;--wline:#F2D4D8;--wok:#0E7A4F;
+  color-scheme:light;color:var(--wink);background:#FFFFFF;border:1px solid var(--wline);border-radius:22px;padding:18px;box-shadow:0 10px 30px rgba(200,16,46,.08);gap:16px}
+.wealth *{border-color:var(--wline)}
+.wh-hero{position:relative;overflow:hidden;border-radius:18px;padding:22px 22px 18px;color:#fff;background:radial-gradient(600px 260px at 100% 0%,rgba(255,255,255,.18),transparent 60%),linear-gradient(135deg,var(--wdk),var(--wr) 55%,var(--wr2));display:grid;gap:14px}
+.wh-hero::after{content:"";position:absolute;right:-60px;bottom:-80px;width:240px;height:240px;border-radius:50%;border:28px solid rgba(255,255,255,.08)}
+.wh-top{display:flex;align-items:flex-start;gap:12px;flex-wrap:wrap}
+.wh-brand{margin-right:auto}
+.wh-brand small{display:block;font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;opacity:.85}
+.wh-brand h2{margin:2px 0 0;font-size:28px;font-weight:800;letter-spacing:-.02em;line-height:1.05}
+.wh-cur{display:inline-flex;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.3);border-radius:99px;padding:3px;gap:2px;position:relative;z-index:1}
+.wh-cur button{border:0;background:none;color:#fff;font-weight:700;font-size:12.5px;padding:5px 11px;border-radius:99px;cursor:pointer}
+.wh-cur button[aria-pressed="true"]{background:#fff;color:var(--wr)}
+.wh-lab{font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;opacity:.85}
+.wh-big{font-family:var(--f-mono);font-size:40px;font-weight:700;letter-spacing:-.02em;line-height:1.1;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.wh-chg{display:flex;gap:8px 16px;flex-wrap:wrap;font-size:13px}
+.wh-chg span{background:rgba(255,255,255,.14);border-radius:99px;padding:3px 10px}
+.wh-chg b{font-family:var(--f-mono)}
+.wh-split{display:flex;height:12px;border-radius:99px;overflow:hidden;background:rgba(255,255,255,.2);position:relative;z-index:1}
+.wh-split i{display:block;height:100%}
+.wh-kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.wh-kpi{background:var(--wsoft);border:1px solid var(--wline);border-radius:14px;padding:12px 14px;min-width:0}
+.wh-kpi span{display:block;font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--wmut)}
+.wh-kpi b{display:block;font-family:var(--f-mono);font-size:clamp(13px,3.6vw,19px);margin-top:4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--wink)}
+.wh-kpi small{display:block;font-size:12px;color:var(--wmut);margin-top:2px}
+.wh-kpi.neg b{color:var(--wr)}
+.wh-grid{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:16px}
+.wh-card{background:#fff;border:1px solid var(--wline);border-radius:16px;padding:16px;min-width:0}
+.wh-card h3{margin:0 0 12px;font-size:15.5px;font-weight:800;display:flex;align-items:center;gap:8px;color:var(--wink)}
+.wh-card h3::before{content:"";width:10px;height:10px;border-radius:3px;background:var(--wr)}
+.wh-card h3 small{margin-left:auto;font-size:12px;font-weight:600;color:var(--wmut)}
+.wh-rng{display:inline-flex;gap:2px;margin-left:auto;background:var(--wsoft);border:1px solid var(--wline);border-radius:99px;padding:2px}
+.wh-rng button{border:0;background:none;font-size:12px;font-weight:700;color:var(--wmut);padding:4px 10px;border-radius:99px;cursor:pointer}
+.wh-rng button[aria-pressed="true"]{background:var(--wr);color:#fff}
+.wh-chart{position:relative;height:260px}
+.wh-donut{position:relative;height:210px}
+.wh-dc{position:absolute;inset:0;display:grid;place-content:center;text-align:center;pointer-events:none}
+.wh-dc b{font-family:var(--f-mono);font-size:14px;color:var(--wink);white-space:nowrap}
+.wh-dc span{font-size:11px;color:var(--wmut);text-transform:uppercase;letter-spacing:.08em}
+.wh-leg{display:grid;gap:7px;margin-top:12px}
+.wh-leg div{display:grid;grid-template-columns:auto minmax(0,1fr) auto auto;gap:8px;align-items:center;font-size:13px}
+.wh-leg i{width:10px;height:10px;border-radius:3px}
+.wh-leg b{font-family:var(--f-mono);font-weight:600}
+.wh-leg em{font-style:normal;color:var(--wmut);font-size:12px;min-width:42px;text-align:right}
+.wh-ins{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.wh-in{display:grid;grid-template-columns:auto minmax(0,1fr);gap:10px;align-items:start;padding:12px;border-radius:14px;background:var(--wsoft);border:1px solid var(--wline)}
+.wh-in .ic{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;background:#fff;border:1px solid var(--wline);font-size:17px}
+.wh-in b{display:block;font-size:14px;color:var(--wink)}
+.wh-in span{display:block;font-size:12.5px;color:var(--wmut);margin-top:2px}
+.wh-ms{display:grid;gap:8px}
+.wh-ms .row2{display:flex;justify-content:space-between;gap:10px;font-size:13px;color:var(--wmut)}
+.wh-ms .row2 b{font-family:var(--f-mono);color:var(--wink)}
+.wh-bar{height:12px;border-radius:99px;background:var(--wsoft);border:1px solid var(--wline);overflow:hidden}
+.wh-bar i{display:block;height:100%;border-radius:99px;background:linear-gradient(90deg,var(--wr),var(--wr2))}
+.wh-tbl{width:100%;border-collapse:collapse;font-size:13.5px}
+.wh-tbl th{text-align:left;font-size:11px;font-weight:800;letter-spacing:.07em;text-transform:uppercase;color:var(--wmut);padding:8px 10px;border-bottom:2px solid var(--wline);background:#fff}
+.wh-tbl td{padding:9px 10px;border-bottom:1px solid var(--wline);color:var(--wink);white-space:nowrap}
+.wh-tbl td.r,.wh-tbl th.r{text-align:right}
+.wh-tbl td:first-child{white-space:normal;overflow-wrap:anywhere}
+@media (max-width:560px){.wh-tbl td,.wh-tbl th{padding:8px 6px;font-size:12.5px}}
+.wh-tbl td.num{font-family:var(--f-mono)}
+.wh-tbl tr.grp td{background:var(--wsoft);font-weight:800;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--wr)}
+.wh-tbl tbody tr:hover td{background:#FFF8F9}
+.wh-tbl .neg{color:var(--wr)}
+.wh-sh{display:inline-block;width:64px;height:6px;border-radius:3px;background:var(--wsoft);overflow:hidden;vertical-align:middle;margin-left:8px}
+.wh-sh i{display:block;height:100%;background:var(--wr)}
+.wh-twrap{overflow-x:auto}
+.wh-act{display:flex;gap:8px;flex-wrap:wrap}
+.wh-btn{border:1px solid var(--wline);background:#fff;color:var(--wr);font-weight:700;border-radius:10px;padding:8px 14px;cursor:pointer}
+.wh-btn:hover{border-color:var(--wr);background:var(--wsoft)}
+.wh-btn.pri{background:var(--wr);border-color:var(--wr);color:#fff}
+.wh-btn.pri:hover{background:var(--wdk)}
+.wh-empty{padding:22px;text-align:center;color:var(--wmut)}
+@media (max-width:980px){.wh-grid{grid-template-columns:minmax(0,1fr)}.wh-kpis{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.wealth{padding:12px;border-radius:18px}.wh-hero{padding:18px 16px}.wh-big{font-size:30px}.wh-brand h2{font-size:23px}.wh-ins{grid-template-columns:minmax(0,1fr)}.wh-kpi{padding:10px 11px}.wh-chart{height:220px}.wh-hide-sm{display:none}}
 </style>
 
 <header class="hero">
@@ -4623,6 +4699,7 @@ html.studyonly .modesw,html.studyonly #acctBtn,html.studyonly #banner,html.study
       <button class="tab" role="tab" data-m="navw" data-tab="nprog" aria-selected="false" hidden><span aria-hidden="true" style="font-size:16px;width:20px;flex:none;display:inline-block;text-align:center;margin-right:2px">📊</span>Progress</button>
       <button class="tab" role="tab" data-m="navw" data-tab="nset" aria-selected="false" hidden><span aria-hidden="true" style="font-size:16px;width:20px;flex:none;display:inline-block;text-align:center;margin-right:2px">⚙️</span>Settings</button>
       <button class="tab" role="tab" data-m="arya" data-tab="arya" aria-selected="false" hidden><span aria-hidden="true" style="font-size:16px;width:20px;flex:none;display:inline-block;text-align:center;margin-right:2px">📝</span>Aryas Study Window</button>
+      <button class="tab" role="tab" data-tab="wealth" aria-selected="false"><svg class="ti" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 20h18M5 20V10l7-6 7 6v10M9 20v-6h6v6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Anoop's Wealth</button>
       <button class="tab" role="tab" data-tab="nw" aria-selected="false"><svg class="ti" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v9l7.5 4.5M21 12a9 9 0 1 1-9-9" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Full portfolio</button>
       <button class="tab" role="tab" data-tab="calendar" aria-selected="false"><svg class="ti" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v14H4zM4 10h16M8 3v4M16 3v4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Calendar <span id="calBadge"></span></button>
       <button class="tab" role="tab" data-tab="reports" aria-selected="false"><svg class="ti" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h7l5 5v13H7zM14 3v5h5M10 13h6M10 17h6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Reports</button>
@@ -4812,6 +4889,8 @@ html.studyonly .modesw,html.studyonly #acctBtn,html.studyonly #banner,html.study
   </section>
 
   <section class="view" id="v-settings" hidden></section>
+
+  <section class="view wealth" id="v-wealth" hidden></section>
 
   <section class="view" id="v-nw" hidden>
     <div class="nwhero">
@@ -5383,11 +5462,112 @@ function showTab(t){
   ui.tab=t;if(!STUDY_ONLY)try{localStorage.setItem(LS+".tab",t)}catch(e){}
   $(".mkt").hidden=t!=="dash"||clocksOff();try{homeSync()}catch(e){}
   $$(".tab").forEach(b=>b.setAttribute("aria-selected",b.dataset.tab===t));
-  ["dash","perf","trades","journal","live","signals","fx","accounts","learn","arya","nhome","ngame","nstory","ntoday","nall","ncal","nup","nprog","nset","nw","settings","pover","pexp","pinc","pbill","pbud","pgoal","pacct","calendar","reports"].forEach(v=>$("#v-"+v).hidden=v!==t);
+  ["dash","perf","trades","journal","live","signals","fx","accounts","learn","arya","nhome","ngame","nstory","ntoday","nall","ncal","nup","nprog","nset","nw","wealth","settings","pover","pexp","pinc","pbill","pbud","pgoal","pacct","calendar","reports"].forEach(v=>$("#v-"+v).hidden=v!==t);
   const sc=t==="dash"||t==="perf",pm=["pover","pexp","pinc","pbud","pacct"].includes(t);$("#scopeBar").hidden=!sc;$("#pMonthBar").hidden=!pm;$("#toprow").classList.toggle("noscope",!sc&&!pm);
-  $("#pageTitle").textContent="Anoop's Finance Tracker";const PGN={dash:"Dashboard",perf:"Performance",trades:"Trades",journal:"Trading journal",fx:"Forex economic calendar",live:"Live forex charts",signals:"Signal robot",learn:"Learning library",nw:"Full portfolio",settings:"Settings",pover:"Personal overview",pbill:"Bills",pacct:"Personal accounts",pexp:"Expenses",pinc:"Income",pbud:"Budget",pgoal:"Personal goals",accounts:"Accounts",calendar:"Calendar",reports:"Reports",arya:"📝 Aryas Study Window · Kerala PSC LDC",nhome:"📚 Navamika's Workbook",ngame:"🎮 Navamika's Learning Games",nstory:"📖 Navamika's Story Time",ntoday:"📚 Navamika's Workbook · Today's Worksheet",nall:"📚 Navamika's Workbook · All Worksheets",ncal:"📚 Navamika's Workbook · Calendar",nup:"📚 Navamika's Workbook · Upload",nprog:"📚 Navamika's Workbook · Progress",nset:"📚 Navamika's Workbook · Settings"};
+  $("#pageTitle").textContent="Anoop's Finance Tracker";const PGN={dash:"Dashboard",perf:"Performance",trades:"Trades",journal:"Trading journal",fx:"Forex economic calendar",live:"Live forex charts",signals:"Signal robot",learn:"Learning library",nw:"Full portfolio",wealth:"Anoop's Wealth",settings:"Settings",pover:"Personal overview",pbill:"Bills",pacct:"Personal accounts",pexp:"Expenses",pinc:"Income",pbud:"Budget",pgoal:"Personal goals",accounts:"Accounts",calendar:"Calendar",reports:"Reports",arya:"📝 Aryas Study Window · Kerala PSC LDC",nhome:"📚 Navamika's Workbook",ngame:"🎮 Navamika's Learning Games",nstory:"📖 Navamika's Story Time",ntoday:"📚 Navamika's Workbook · Today's Worksheet",nall:"📚 Navamika's Workbook · All Worksheets",ncal:"📚 Navamika's Workbook · Calendar",nup:"📚 Navamika's Workbook · Upload",nprog:"📚 Navamika's Workbook · Progress",nset:"📚 Navamika's Workbook · Settings"};
   $("#pageSub").innerHTML=`<b class="pgn">${PGN[t]||""}</b> · `+new Date().toLocaleDateString("en-GB",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
-  const __rd=()=>{if(ui.tab!==t)return;if(t==="dash")renderDash();if(t==="perf")renderPerf()};if(t==="dash"||t==="perf")requestAnimationFrame(()=>setTimeout(__rd,0));if(t==="journal")renderJournal();if(t==="fx")renderFx();if(t==="signals")renderSignals();if(t==="live")renderLive();if(t==="learn")renderLearn();if(t==="nw")renderNW(true);if(t==="settings")renderSettings();if(PTABS.includes(t))renderPersonal();if(NTABS.includes(t))try{nwRender()}catch(e){console.error(e)}if(t==="arya")try{window.__aswShow&&window.__aswShow()}catch(e){console.error(e)}
+  const __rd=()=>{if(ui.tab!==t)return;if(t==="dash")renderDash();if(t==="perf")renderPerf()};if(t==="dash"||t==="perf")requestAnimationFrame(()=>setTimeout(__rd,0));if(t==="journal")renderJournal();if(t==="fx")renderFx();if(t==="signals")renderSignals();if(t==="live")renderLive();if(t==="learn")renderLearn();if(t==="nw")renderNW(true);if(t==="wealth")try{renderWealth()}catch(e){console.error(e)}if(t==="settings")renderSettings();if(PTABS.includes(t))renderPersonal();if(NTABS.includes(t))try{nwRender()}catch(e){console.error(e)}if(t==="arya")try{window.__aswShow&&window.__aswShow()}catch(e){console.error(e)}
+}
+
+/* ===================== Anoop's Wealth ===================== */
+let whRange="1y";const whCh={};
+function whClasses(N){
+  const mo=state.money,byId=Object.fromEntries(mo.accounts.map(a=>[a.id,a]));
+  const C={cash:{n:"Cash & bank",c:"#C8102E",v:0,items:[]},trade:{n:"Trading accounts",c:"#E63946",v:0,items:[]},invest:{n:"Investments",c:"#8E0D18",v:0,items:[]},
+    asset:{n:"Property & assets",c:"#FF8A95",v:0,items:[]},goal:{n:"Goal savings",c:"#F4B6BD",v:0,items:[]},other:{n:"Other",c:"#B8A2A6",v:0,items:[]},
+    debt:{n:"Debts (cards & loans)",c:"#5A1A22",v:0,items:[]}};
+  for(const a of N.tAcc){C.trade.v+=a.val;C.trade.items.push({name:a.name,type:a.type,val:a.val})}
+  for(const a of N.pAcc){const src=byId[a.id];const g=src?accGroup(src):"other";const it={name:a.name,type:a.type,val:a.val,icon:a.icon};
+    if(a.val<0){C.debt.v+=a.val;C.debt.items.push(it)}
+    else if(g==="cash")C.cash.v+=a.val,C.cash.items.push(it);
+    else if(g==="invest")C.invest.v+=a.val,C.invest.items.push(it);
+    else if(g==="asset")C.asset.v+=a.val,C.asset.items.push(it);
+    else if(g==="credit"||g==="loan")C.debt.v+=a.val,C.debt.items.push(it);
+    else C.other.v+=a.val,C.other.items.push(it)}
+  if(N.withG)for(const g of N.goals){C.goal.v+=g.val;C.goal.items.push({name:g.name,type:"Goal savings",val:g.val})}
+  return C;
+}
+function whMonthExp(){ // average monthly spending over the last 3 full months (personal currency)
+  const mo=state.money,now=new Date(),sums=[0,0,0];
+  for(const t of mo.tx){if(t.type!=="expense")continue;const d=parseYmd(String(t.date).slice(0,10));if(!d||isNaN(d))continue;
+    const back=(now.getFullYear()-d.getFullYear())*12+(now.getMonth()-d.getMonth());if(back>=1&&back<=3)sums[back-1]+=+t.amount||0}
+  const used=sums.filter(x=>x>0);return used.length?used.reduce((a,b)=>a+b,0)/used.length:0;
+}
+function whMonthFlow(){const mo=state.money,now=new Date(),m=now.getFullYear()+"-"+String(now.getMonth()+1).padStart(2,"0");let i=0,x=0;
+  for(const t of mo.tx){if(!String(t.date).startsWith(m))continue;if(t.type==="income")i+=+t.amount||0;else if(t.type==="expense")x+=+t.amount||0}return{i,x}}
+function whStep(v){const a=Math.abs(v);if(a<1000)return 1000;const p=Math.pow(10,Math.floor(Math.log10(a)));const m=a/p;return (m<2?1:m<5?2:5)*p}
+function renderWealth(){
+  const v=$("#v-wealth");if(!v)return;
+  const c=nwc(),N=nwNow(),C=whClasses(N),cur=c.disp,F=(x,s)=>fmtMoney(x,cur,s);
+  const pos=Object.entries(C).filter(([k,o])=>k!=="debt"&&o.v>0),assets=pos.reduce((s,[,o])=>s+o.v,0),debt=C.debt.v,total=N.total;
+  const H=nwHistory(),fltNow=N.tFlt,totAt=x=>nwU(x.t)+nwP(x.p)+(N.withG?N.gSum:0)+fltNow;
+  const days=H.days,last=days[days.length-1],at=n=>days[Math.max(0,days.length-1-n)];
+  const y0=nwYmd(new Date(new Date().getFullYear(),0,1));let ys=days[0];for(const x of days){if(x.d<y0)ys=x;else break}
+  const ch=(a,b)=>{const d=a-b,pc=b?d/Math.abs(b)*100:0;return`<b>${(d>=0?"+":"−")+F(Math.abs(d))}</b>${b?` (${(pc>=0?"+":"")+pc.toFixed(1)}%)`:""}`};
+  const tNow=total,t30=last?totAt(at(30)):tNow,tYs=ys?totAt(ys):tNow;
+  const exp=nwP(whMonthExp()),liquid=C.cash.v,run=exp>0?liquid/exp:null,mf=whMonthFlow(),sr=mf.i>0?(mf.i-mf.x)/mf.i:null;
+  const dRatio=assets>0?Math.abs(debt)/assets:0;
+  const big=[...N.tAcc,...N.pAcc].filter(a=>a.val>0).sort((a,b)=>b.val-a.val)[0];
+  const step=whStep(total),next=total>0?Math.ceil((total+0.01)/step)*step:step,prev=next-step,prog=total>0?Math.max(0,Math.min(1,(total-prev)/step)):0;
+  const share=x=>assets>0?x/assets*100:0;
+  const row=(it,neg)=>`<tr><td>${esc(it.icon||"")} ${esc(it.name)}</td><td class="wh-hide-sm">${esc(it.type||"")}</td><td class="r num ${it.val<0?"neg":""}">${F(it.val)}</td><td class="r wh-hide-sm">${neg?"—":share(it.val).toFixed(1)+"%"}<span class="wh-sh"><i style="width:${neg?0:Math.min(100,share(it.val))}%"></i></span></td></tr>`;
+  const groups=Object.entries(C).filter(([,o])=>o.items.length);
+  const insight=(ic,t,s)=>`<div class="wh-in"><div class="ic">${ic}</div><div><b>${t}</b><span>${s}</span></div></div>`;
+  v.innerHTML=`
+  <div class="wh-hero">
+    <div class="wh-top"><div class="wh-brand"><small>Private wealth overview</small><h2>Anoop's Wealth</h2></div>
+      <div class="wh-cur" role="group" aria-label="Show values in">${dispList().map(k=>`<button type="button" data-whcur="${k}" aria-pressed="${k===cur}">${k}</button>`).join("")}</div></div>
+    <div><div class="wh-lab">Total wealth (net worth)</div><div class="wh-big" id="whBig">${F(total)}</div></div>
+    <div class="wh-chg"><span>30 days ${ch(tNow,t30)}</span><span>This year ${ch(tNow,tYs)}</span></div>
+    <div class="wh-split" role="img" aria-label="Wealth split">${pos.map(([,o])=>`<i style="width:${share(o.v)}%;background:${o.c==="#C8102E"?"#FFFFFF":o.c}" title="${esc(o.n)} ${F(o.v)}"></i>`).join("")}</div>
+  </div>
+  <div class="wh-kpis">
+    <div class="wh-kpi"><span>Assets</span><b>${F(assets)}</b><small>${pos.length} asset classes</small></div>
+    <div class="wh-kpi neg"><span>Debts</span><b>${F(debt)}</b><small>${C.debt.items.length} card${C.debt.items.length===1?"":"s"} &amp; loans</small></div>
+    <div class="wh-kpi"><span>Liquid cash</span><b>${F(liquid)}</b><small>${run!=null?run.toFixed(1)+" months of spending":"bank, cash & wallets"}</small></div>
+    <div class="wh-kpi"><span>Invested</span><b>${F(C.trade.v+C.invest.v)}</b><small>trading + investments</small></div>
+  </div>
+  <div class="wh-grid">
+    <div class="wh-card"><h3>Wealth growth <span class="wh-rng" role="group" aria-label="Range">${[["3m","3M"],["6m","6M"],["1y","1Y"],["all","All"]].map(([k,l])=>`<button type="button" data-whr="${k}" aria-pressed="${k===whRange}">${l}</button>`).join("")}</span></h3>
+      <div class="wh-chart"><canvas id="whLine" aria-label="Wealth over time"></canvas></div></div>
+    <div class="wh-card"><h3>Where your wealth is</h3>
+      <div class="wh-donut"><canvas id="whDonut" aria-label="Wealth by asset class"></canvas><div class="wh-dc"><b>${F(assets)}</b><span>assets</span></div></div>
+      <div class="wh-leg">${pos.sort((a,b)=>b[1].v-a[1].v).map(([,o])=>`<div><i style="background:${o.c}"></i><span>${esc(o.n)}</span><b>${F(o.v)}</b><em>${share(o.v).toFixed(1)}%</em></div>`).join("")||'<div class="wh-empty">No assets yet</div>'}</div></div>
+  </div>
+  <div class="wh-grid">
+    <div class="wh-card"><h3>Holdings <small>${N.tAcc.length+N.pAcc.length} accounts</small></h3>
+      <div class="wh-twrap"><table class="wh-tbl"><thead><tr><th>Account</th><th class="wh-hide-sm">Type</th><th class="r">Value</th><th class="r wh-hide-sm">Share of assets</th></tr></thead>
+      <tbody>${groups.map(([k,o])=>`<tr class="grp"><td>${esc(o.n)}</td><td class="wh-hide-sm"></td><td class="r num">${F(o.v)}</td><td class="wh-hide-sm"></td></tr>`+o.items.sort((a,b)=>Math.abs(b.val)-Math.abs(a.val)).map(it=>row(it,k==="debt")).join("")).join("")||'<tr><td colspan="4" class="wh-empty">Add accounts to see your holdings.</td></tr>'}</tbody>
+      <tfoot><tr><td><b>Net worth</b></td><td class="wh-hide-sm"></td><td class="r num"><b>${F(total)}</b></td><td class="wh-hide-sm"></td></tr></tfoot></table></div></div>
+    <div style="display:grid;gap:16px;align-content:start;min-width:0">
+      <div class="wh-card"><h3>Next milestone</h3><div class="wh-ms">
+        <div class="row2"><span>Now</span><b>${F(total)}</b></div><div class="wh-bar"><i style="width:${(prog*100).toFixed(1)}%"></i></div>
+        <div class="row2"><span>${total>0?(prog*100).toFixed(0)+"% of the way to":"First goal"}</span><b>${F(next)}</b></div>
+        <div class="row2"><span>Still to grow</span><b>${F(Math.max(0,next-total))}</b></div></div></div>
+      <div class="wh-card"><h3>Insights</h3><div class="wh-ins">
+        ${insight("🛟","Emergency cushion",run!=null?`Liquid cash covers about <b>${run.toFixed(1)} months</b> of your average spending.`:"Record a few months of expenses to see how long your cash would last.")}
+        ${insight("💰","Saving this month",sr!=null?`You kept <b>${(sr*100).toFixed(0)}%</b> of this month's income.`:"No income recorded this month yet.")}
+        ${insight("⚖️","Debt to assets",assets>0?`Debts are <b>${(dRatio*100).toFixed(1)}%</b> of what you own${dRatio<.2?" — a healthy level.":dRatio<.5?".":" — worth bringing down."}`:"Add your accounts to see this.")}
+        ${insight("🏆","Largest holding",big?`<b>${esc(big.name)}</b> holds ${share(big.val).toFixed(1)}% of your assets.`:"Nothing yet.")}
+      </div></div>
+      <div class="wh-act"><button type="button" class="wh-btn pri" data-goto="pacct">Manage accounts</button><button type="button" class="wh-btn" data-goto="nw">Full portfolio</button><button type="button" class="wh-btn" data-goto="pgoal">Goals</button></div>
+    </div>
+  </div>
+  <p style="margin:0;font-size:12px;color:var(--wmut)">Values in ${esc(cur)}. Trading accounts include open (floating) profit and loss${N.withG?"; goal savings are included":""}. Updated ${new Date().toLocaleTimeString("en-GB",{hour:"2-digit",minute:"2-digit"})}.</p>`;
+  $$("[data-whcur]",v).forEach(b=>b.onclick=()=>{nwc().disp=b.dataset.whcur;persist();renderWealth()});
+  $$("[data-whr]",v).forEach(b=>b.onclick=()=>{whRange=b.dataset.whr;renderWealth()});
+  if(typeof Chart==="undefined")return;
+  const now=new Date(),from=whRange==="3m"?new Date(now.getFullYear(),now.getMonth()-3,now.getDate()):whRange==="6m"?new Date(now.getFullYear(),now.getMonth()-6,now.getDate()):whRange==="1y"?new Date(now.getFullYear()-1,now.getMonth(),now.getDate()):null;
+  const fk=from?nwYmd(from):"";let sl=days.filter(x=>x.d>=fk);if(sl.length<2)sl=days.slice(-2);
+  const stepN=Math.max(1,Math.ceil(sl.length/120)),pts=sl.filter((x,i)=>i%stepN===0||i===sl.length-1);
+  for(const k of Object.keys(whCh)){try{whCh[k].destroy()}catch(e){}delete whCh[k]}
+  const lc=$("#whLine");if(lc){const g=lc.getContext("2d"),grad=g.createLinearGradient(0,0,0,260);grad.addColorStop(0,"rgba(200,16,46,.28)");grad.addColorStop(1,"rgba(200,16,46,0)");
+    whCh.line=new Chart(lc,{type:"line",data:{labels:pts.map(x=>x.d),datasets:[{data:pts.map(totAt),borderColor:"#C8102E",backgroundColor:grad,fill:true,borderWidth:2.5,pointRadius:0,pointHoverRadius:4,tension:.25}]},
+      options:{responsive:true,maintainAspectRatio:false,animation:{duration:500},interaction:{mode:"index",intersect:false},plugins:{legend:{display:false},tooltip:{callbacks:{label:x=>F(x.parsed.y)}}},
+        scales:{x:{ticks:{color:"#7B5B5F",maxTicksLimit:6,callback:function(val){const d=this.getLabelForValue(val);return parseYmd(d).toLocaleDateString("en-GB",{month:"short",year:"2-digit"})}},grid:{display:false}},
+          y:{ticks:{color:"#7B5B5F",maxTicksLimit:5,callback:val=>fmtMoney(val,cur).replace(/\.\d+$/,"")},grid:{color:"#F6E1E4"}}}}})}
+  const dc=$("#whDonut");if(dc&&pos.length)whCh.donut=new Chart(dc,{type:"doughnut",data:{labels:pos.map(([,o])=>o.n),datasets:[{data:pos.map(([,o])=>o.v),backgroundColor:pos.map(([,o])=>o.c),borderColor:"#FFFFFF",borderWidth:2}]},
+    options:{responsive:true,maintainAspectRatio:false,cutout:"72%",plugins:{legend:{display:false},tooltip:{callbacks:{label:x=>x.label+": "+F(x.parsed)}}}}});
 }
 function refreshCharts(){dockBuilt=false;renderDock();if(ui.tab==="dash")renderDash();else if(ui.tab==="perf")renderPerf();else if(ui.tab==="journal")renderJournal();else if(PTABS.includes(ui.tab))renderPersonal()}
 
