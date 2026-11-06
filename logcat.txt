@@ -1,0 +1,1037 @@
+W/ActivityTaskManager(  525): Current config: {1.0 310mcc260mnc [en_US] ldltr sw411dp w411dp h842dp 420dpi nrml long port finger qwerty/v/v -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 1080, 2274) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.2 s.49 fontWeightAdjustment=0} unchanged for IME proc com.google.android.inputmethod.latin
+W/ActivityTaskManager(  525): Current config: {1.0 310mcc260mnc [en_US] ldltr sw411dp w411dp h842dp 420dpi nrml long port finger qwerty/v/v -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 1080, 2274) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.2 s.49 fontWeightAdjustment=0} unchanged for IME proc com.google.android.inputmethod.latin
+I/ActivityTaskManager(  525): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity (has extras)} with LAUNCH_SINGLE_TASK from uid 0 (BAL_ALLOW_ALLOWLISTED_UID) result code=0
+W/system_server(  525): Long monitor contention with owner binder:525_11 (2073) at android.window.TaskSnapshot com.android.server.wm.SnapshotCache.getSnapshot(java.lang.Integer)(SnapshotCache.java:53) waiters=2 in int com.android.server.wm.ActivityTaskManagerService$LocalService.getTaskToShowPermissionDialogOn(java.lang.String, int) for 119ms
+I/ActivityTaskManager(  525): Config changes=20000400 {1.0 310mcc260mnc [en_US] ldltr sw411dp w411dp h866dp 420dpi nrml long port finger qwerty/v/v -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 1080, 2337) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.2 s.63 fontWeightAdjustment=0}
+W/ActivityTaskManager(  525): Current config: {1.0 310mcc260mnc [en_US] ldltr sw411dp w411dp h842dp 420dpi nrml long port finger qwerty/v/v -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 1080, 2274) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.2 s.63 fontWeightAdjustment=0} unchanged for IME proc com.google.android.inputmethod.latin
+W/system_server(  525): Long monitor contention with owner binder:525_2 (541) at android.content.res.Configuration com.android.server.wm.ActivityTaskManagerService.getGlobalConfigurationForPid(int)(ActivityTaskManagerService.java:1133) waiters=0 in void com.android.server.wm.InputMonitor$UpdateInputWindows.run() for 1.255s
+W/system_server(  525): Long monitor contention with owner binder:525_2 (541) at android.content.res.Configuration com.android.server.wm.ActivityTaskManagerService.getGlobalConfigurationForPid(int)(ActivityTaskManagerService.java:1133) waiters=1 in void com.android.server.wm.WindowManagerService$LocalService.requestTraversalFromDisplayManager() for 1.255s
+W/system_server(  525): Long monitor contention with owner binder:525_2 (541) at android.content.res.Configuration com.android.server.wm.ActivityTaskManagerService.getGlobalConfigurationForPid(int)(ActivityTaskManagerService.java:1133) waiters=2 in void com.android.server.wm.RootWindowContainer.onDisplayChanged(int) for 1.255s
+W/system_server(  525): Long monitor contention with owner binder:525_2 (541) at android.content.res.Configuration com.android.server.wm.ActivityTaskManagerService.getGlobalConfigurationForPid(int)(ActivityTaskManagerService.java:1133) waiters=3 in android.content.res.CompatibilityInfo com.android.server.wm.ActivityTaskManagerService$LocalService.compatibilityInfoForPackage(android.content.pm.ApplicationInfo) for 1.204s
+W/system_server(  525): Long monitor contention with owner binder:525_2 (541) at android.content.res.Configuration com.android.server.wm.ActivityTaskManagerService.getGlobalConfigurationForPid(int)(ActivityTaskManagerService.java:1133) waiters=6 in boolean com.android.server.wm.WindowManagerService.getWindowInsets(int, android.os.IBinder, android.view.InsetsState) for 696ms
+W/system_server(  525): Long monitor contention with owner binder:525_2 (541) at android.content.res.Configuration com.android.server.wm.ActivityTaskManagerService.getGlobalConfigurationForPid(int)(ActivityTaskManagerService.java:1133) waiters=7 in int com.android.server.wm.ActivityTaskManagerService$LocalService.getTaskToShowPermissionDialogOn(java.lang.String, int) for 257ms
+I/ActivityTaskManager(  525): Config changes=80000000 {1.0 310mcc260mnc [en_US] ldltr sw411dp w411dp h866dp 420dpi nrml long port finger qwerty/v/v -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 1080, 2337) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.3 s.100 fontWeightAdjustment=0}
+W/ActivityTaskManager(  525): Current config: {1.0 310mcc260mnc [en_US] ldltr sw411dp w411dp h866dp 420dpi nrml long port finger qwerty/v/v -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 1080, 2337) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.3 s.100 fontWeightAdjustment=0} unchanged for IME proc com.google.android.inputmethod.latin
+W/ActivityTaskManager(  525): Current config: {1.0 310mcc260mnc [en_US] ldltr sw411dp w411dp h866dp 420dpi nrml long port finger qwerty/v/v -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 1080, 2337) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.3 s.100 fontWeightAdjustment=0} unchanged for IME proc com.google.android.inputmethod.latin
+I/ActivityTaskManager(  525): Config changes=20000400 {1.0 310mcc260mnc [en_US] ldltr sw411dp w411dp h842dp 420dpi nrml long port finger qwerty/v/v -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 128 - 1080, 2337) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.3 s.137 fontWeightAdjustment=0}
+W/ActivityTaskManager(  525): Current config: {1.0 310mcc260mnc [en_US] ldltr sw411dp w411dp h866dp 420dpi nrml long port finger qwerty/v/v -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 1080, 2337) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.3 s.137 fontWeightAdjustment=0} unchanged for IME proc com.google.android.inputmethod.latin
+W/ActivityTaskManager(  525): Duplicate finish request for r=ActivityRecord{81a41c9 u0 com.google.android.googlesdksetup/.DefaultActivity t6 f}}
+W/ActivityTaskManager(  525): Launch timeout has expired, giving up wake lock!
+I/ActivityTaskManager(  525): Displayed com.google.android.apps.nexuslauncher/.NexusLauncherActivity for user 0: +9s574ms
+W/system_server(  525): Long monitor contention with owner binder:525_15 (2301) at android.window.TaskSnapshot com.android.server.wm.SnapshotCache.getSnapshot(java.lang.Integer)(SnapshotCache.java:53) waiters=1 in void com.android.server.wm.ActivityTaskManagerService$LocalService.onProcessMapped(int, com.android.server.wm.WindowProcessController) for 336ms
+E/AppOps  (  525): 	at com.android.server.wm.ActivityTaskManagerService.hasSystemAlertWindowPermission(ActivityTaskManagerService.java:1076)
+E/AppOps  (  525): 	at com.android.server.wm.ActivityTaskManagerService$LocalService.hasSystemAlertWindowPermission(ActivityTaskManagerService.java:7006)
+E/AppOps  (  525): 	at com.android.server.wm.ActivityTaskManagerService.hasSystemAlertWindowPermission(ActivityTaskManagerService.java:1076)
+E/AppOps  (  525): 	at com.android.server.wm.ActivityTaskManagerService$LocalService.hasSystemAlertWindowPermission(ActivityTaskManagerService.java:7006)
+E/AppOps  (  525): 	at com.android.server.wm.ActivityTaskManagerService.hasSystemAlertWindowPermission(ActivityTaskManagerService.java:1076)
+E/AppOps  (  525): 	at com.android.server.wm.ActivityTaskManagerService$LocalService.hasSystemAlertWindowPermission(ActivityTaskManagerService.java:7006)
+I/SdkSandboxManager(  525): No SDKs used. Skipping SDK data reconcilation for CallingInfo{mUid=10192, mPackageName='com.anoop.financetracker.debug, mAppProcessToken='null'}
+I/SafetyLabelChangedBroadcastReceiver(  839): received broadcast packageName: com.anoop.financetracker.debug, current user: UserHandle{0}, packageChangeEvent: NEW_INSTALL, intent user: UserHandle{0}
+I/SdkSandboxManager(  525): No SDKs used. Skipping SDK data reconcilation for CallingInfo{mUid=10193, mPackageName='com.anoop.financetracker.debug.test, mAppProcessToken='null'}
+I/SafetyLabelChangedBroadcastReceiver(  839): received broadcast packageName: com.anoop.financetracker.debug.test, current user: UserHandle{0}, packageChangeEvent: NEW_INSTALL, intent user: UserHandle{0}
+I/AiAiEcho( 1667): AppFetcherImplV2 updateApps package:[com.anoop.financetracker.debug], userId:[0], reason:[package is added.].
+I/AiAiEcho( 1667): AppFetcherImpl onPackageChanged com.anoop.financetracker.debug.
+I/AiAiEcho( 1667): AppIndexer Package:[com.anoop.financetracker.debug] UserProfile:[0] Enabled:[true].
+I/AiAiEcho( 1667): AppFetcherImplV2 updateApps package:[com.anoop.financetracker.debug], userId:[0], reason:[package is updated.].
+I/AiAiEcho( 1667): AppFetcherImplV2 updateApps package:[com.anoop.financetracker.debug.test], userId:[0], reason:[package is added.].
+I/AiAiEcho( 1667): AppFetcherImpl onPackageChanged com.anoop.financetracker.debug.test.
+I/AiAiEcho( 1667): AppIndexer Package:[com.anoop.financetracker.debug.test] UserProfile:[0] Enabled:[true].
+I/AiAiEcho( 1667): AppFetcherImplV2 updateApps package:[com.anoop.financetracker.debug.test], userId:[0], reason:[package is updated.].
+I/AppsFilter(  525): interaction: PackageSetting{c83fa6 com.anoop.financetracker.debug/10192} -> PackageSetting{90bdde7 com.google.android.googlequicksearchbox/10132} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{f540d94 com.anoop.financetracker.debug.test/10193} -> PackageSetting{90bdde7 com.google.android.googlequicksearchbox/10132} BLOCKED
+I/AndroidRuntime( 5550): Using default boot image
+I/AndroidRuntime( 5550): Leaving lock profiling enabled
+I/ActivityManager(  525): Force stopping com.anoop.financetracker.debug appid=10192 user=0: start instr
+I/ActivityManager(  525): Start proc 5576:com.anoop.financetracker.debug/u0a192 for added application com.anoop.financetracker.debug
+W/ActivityThread( 5576): Package uses different ABI(s) than its instrumentation: package[com.anoop.financetracker.debug]: x86_64, null instrumentation[com.anoop.financetracker.debug.test]: null, null
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{64e9742 com.android.cts.priv.ctsshim/10189} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{98b353 com.google.android.youtube/10139} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{cd9d490 com.android.internal.display.cutout.emulation.corner/10022} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{ee39189 com.android.internal.display.cutout.emulation.double/10045} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{90bdde7 com.google.android.googlequicksearchbox/10132} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{632e58e com.google.android.onetimeinitializer/10125} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{f7131af com.google.android.ext.shared/10100} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{cafa9bc com.android.internal.systemui.navbar.gestural_wide_back/10005} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{feabd45 com.android.virtualmachine.res/10188} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{4fbcc9a com.google.android.federatedcompute/10185} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{a939cb com.android.managedprovisioning.auto_generated_rro_product__/10021} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{5aba5a8 com.android.carrierconfig.auto_generated_rro_vendor__/10080} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{e7ee8c1 com.android.systemui.emulation.pixel_3_xl/10034} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{d3a1866 com.android.systemui.emulation.pixel_4_xl/10059} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{a0fa7a7 com.android.systemui.emulation.pixel_fold/10006} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{fe97454 com.android.simappdialog.auto_generated_rro_product__/10027} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{4d04ffd com.android.htmlviewer/10114} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{fbf54f2 com.google.android.health.connect.backuprestore/10184} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{5851743 com.android.systemui.auto_generated_rro_product__/10028} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{79381c0 com.google.android.apps.messaging/10131} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{5d6eef9 com.google.android.soundpicker/10137} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{6e9ce3e com.google.android.marvin.talkbackoverlay/10077} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{57e49f com.google.android.configupdater/10130} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{f0ef9ec com.android.internal.emulation.pixel_3a_xl/10042} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{20e81b5 com.android.internal.emulation.pixel_6_pro/10029} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{2b0904a com.android.internal.emulation.pixel_7_pro/10003} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{4602bbb com.android.internal.emulation.pixel_8_pro/10058} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{7e7c8d8 com.android.internal.emulation.pixel_3a/10053} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{bf28431 com.android.internal.emulation.pixel_4a/10008} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{96f6716 com.android.internal.emulation.pixel_6a/10020} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{6dbc897 com.android.internal.emulation.pixel_7a/10033} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{e7c9a84 com.google.android.overlay.googlewebview/10046} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{83a326d com.google.android.hotspot2.osulogin/10176} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{972dea2 com.android.simappdialog/10112} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{90a5733 com.android.internal.display.cutout.emulation.hole/10073} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{46adaf0 com.android.internal.display.cutout.emulation.tall/10065} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{5d48869 com.android.internal.systemui.navbar.threebutton/10068} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{74442ee com.android.camera2/10146} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{689338f com.android.systemui.auto_generated_rro_vendor__/10076} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{5bab61c com.google.android.deskclock/10152} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{9a44225 com.android.internal.systemui.navbar.twobutton/10017} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{4b59ffa com.google.android.as/10126} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{d6f79ab com.google.android.gm/10140} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{4cb1808 com.android.internal.systemui.navbar.gestural_extra_wide_back/10049} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{9fbdba1 com.android.systemui.emulation.pixel_3/10012} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{cadc1c6 com.android.systemui.emulation.pixel_4/10037} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{c2a0587 com.android.systemui.emulation.pixel_5/10071} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{8fdacb4 com.android.systemui.emulation.pixel_6/10074} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{5d990dd com.android.systemui.emulation.pixel_7/10072} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{fb43452 com.android.systemui.emulation.pixel_8/10070} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{1177323 com.android.nfc.auto_generated_rro_product__/10030} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{c22e020 com.android.printspooler/10103} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{3e35dd9 com.android.emergency.auto_generated_rro_product__/10038} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{d3d439e com.google.android.connectivity.resources.goldfish.overlay/10078} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{7e41e7f com.android.dreams.basic/10107} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{2a5de4c com.google.android.networkstack.tethering.emulator/10019} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{522fe95 com.android.providers.settings.auto_generated_rro_product__/10014} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{5b5fbaa com.google.android.as.oss/10121} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{a6239b com.android.traceur.auto_generated_rro_product__/10013} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{a789338 com.google.android.devicelockcontroller/10178} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{781ef11 com.google.android.dialer/10129} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{1502876 com.android.internal.emulation.pixel_3/10050} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{cb95e77 com.android.internal.emulation.pixel_4/10060} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{cbfaae4 com.android.internal.emulation.pixel_5/10009} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{4056b4d com.android.internal.emulation.pixel_6/10048} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{78e5602 com.android.internal.emulation.pixel_7/10067} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{d5b6b13 com.android.internal.emulation.pixel_8/10041} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{e3e9150 com.google.android.captiveportallogin/10115} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{4ca6f49 com.android.musicfx/10088} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{38fd04e com.google.android.apps.docs/10154} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{35d299b com.google.android.apps.maps/10153} BLOCKED
+W/cetracker.debug( 5576): ClassLoaderContext shared library size mismatch. Expected=2, found=3 (PCL[]{PCL[/system/framework/android.test.base.jar*836642756]#PCL[/system/framework/android.test.mock.jar*3186112116]} | PCL[]{PCL[/system/framework/android.test.base.jar*836642756]#PCL[/system/framework/android.test.mock.jar*3186112116]#PCL[/system/framework/android.test.runner.jar*4168958247]{PCL[/system/framework/android.test.base.jar*836642756]#PCL[/system/framework/android.test.mock.jar*3186112116]}};PCL[/system/framework/android.test.runner.jar*4168958247:/system/framework/android.test.mock.jar*3186112116:/system/framework/android.test.base.jar*836642756:/data/app/~~cxFN0Scev3im49UvBoTdqg==/com.anoop.financetracker.debug.test-whwUcBa1YZ985yAueZs_Ew==/base.apk*4149143472:/data/app/~~cxFN0Scev3im49UvBoTdqg==/com.anoop.financetracker.debug.test-whwUcBa1YZ985yAueZs_Ew==/base.apk!classes2.dex*3510772495:/data/app/~~cxFN0Scev3im49UvBoTdqg==/com.anoop.financetracker.debug.test-whwUcBa1YZ985yAueZs_Ew==/base.apk!classes3.dex*2505534414:/data/app/~~fXMPdT4v_kCt16ftSTwr_Q==/com.anoop.financetracker.debug-wbTAPp8BNueTwDqRko0Baw==/base.apk*2446386267:/data/app/~~fXMPdT4v_kCt16ftSTwr_Q==/com.anoop.financetracker.debug-wbTAPp8BNueTwDqRko0Baw==/base.apk!classes2.dex*1440052088:/data/app/~~fXMPdT4v_kCt16ftSTwr_Q==/com.anoop.financetracker.debug-wbTAPp8BNueTwDqRko0Baw==/base.apk!classes3.dex*3835846730:/data/app/~~fXMPdT4v_kCt16ftSTwr_Q==/com.anoop.financetracker.debug-wbTAPp8BNueTwDqRko0Baw==/base.apk!classes4.dex*1084003597:/data/app/~~fXMPdT4v_kCt16ftSTwr_Q==/com.anoop.financetracker.debug-wbTAPp8BNueTwDqRko0Baw==/base.apk!classes5.dex*522080060:/data/app/~~fXMPdT4v_kCt16ftSTwr_Q==/com.anoop.financetracker.debug-wbTAPp8BNueTwDqRko0Baw==/base.apk!classes6.dex*2473285175:/data/app/~~fXMPdT4v_kCt16ftSTwr_Q==/com.anoop.financetracker.debug-wbTAPp8BNueTwDqRko0Baw==/base.apk!classes7.dex*430054395:/data/app/~~fXMPdT4v_kCt16ftSTwr_Q==/com.anoop.financetracker.debug-wbTAPp8BNueTwDqRko0Baw==/base.apk!classes8.dex*2658326722:/data/app/~~fXMPdT4v_kCt16ftSTwr_Q==/com.anoop.financetracker.debug-wbTAPp8BNueTwDqRko0Baw==/base.apk!classes9.dex*681629689])
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{7a56f com.google.android.modulemetadata/10147} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{a83727c com.google.android.markup/10135} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{ec1b705 com.android.providers.settings.auto_generated_rro_vendor__/10081} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{11ca35a com.google.android.webview/10133} BLOCKED
+W/cetracker.debug( 5576): ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[] | PCL[/system/framework/android.test.runner.jar*4168958247]{PCL[/system/framework/android.test.base.jar*836642756]#PCL[/system/framework/android.test.mock.jar*3186112116]#PCL[/system/framework/android.test.runner.jar*4168958247]{PCL[/system/framework/android.test.base.jar*836642756]#PCL[/system/framework/android.test.mock.jar*3186112116]}};PCL[/system/framework/android.test.runner.jar*4168958247:/system/framework/android.test.mock.jar*3186112116:/system/framework/android.test.base.jar*836642756:/data/app/~~cxFN0Scev3im49UvBoTdqg==/com.anoop.financetracker.debug.test-whwUcBa1YZ985yAueZs_Ew==/base.apk*4149143472:/data/app/~~cxFN0Scev3im49UvBoTdqg==/com.anoop.financetracker.debug.test-whwUcBa1YZ985yAueZs_Ew==/base.apk!classes2.dex*3510772495:/data/app/~~cxFN0Scev3im49UvBoTdqg==/com.anoop.financetracker.debug.test-whwUcBa1YZ985yAueZs_Ew==/base.apk!classes3.dex*2505534414:/data/app/~~fXMPdT4v_kCt16ftSTwr_Q==/com.anoop.financetracker.debug-wbTAPp8BNueTwDqRko0Baw==/base.apk*2446386267:/data/app/~~fXMPdT4v_kCt16ftSTwr_Q==/com.anoop.financetracker.debug-wbTAPp8BNueTwDqRko0Baw==/base.apk!classes2.dex*1440052088:/data/app/~~fXMPdT4v_kCt16ftSTwr_Q==/com.anoop.financetracker.debug-wbTAPp8BNueTwDqRko0Baw==/base.apk!classes3.dex*3835846730:/data/app/~~fXMPdT4v_kCt16ftSTwr_Q==/com.anoop.financetracker.debug-wbTAPp8BNueTwDqRko0Baw==/base.apk!classes4.dex*1084003597:/data/app/~~fXMPdT4v_kCt16ftSTwr_Q==/com.anoop.financetracker.debug-wbTAPp8BNueTwDqRko0Baw==/base.apk!classes5.dex*522080060:/data/app/~~fXMPdT4v_kCt16ftSTwr_Q==/com.anoop.financetracker.debug-wbTAPp8BNueTwDqRko0Baw==/base.apk!classes6.dex*2473285175:/data/app/~~fXMPdT4v_kCt16ftSTwr_Q==/com.anoop.financetracker.debug-wbTAPp8BNueTwDqRko0Baw==/base.apk!classes7.dex*430054395:/data/app/~~fXMPdT4v_kCt16ftSTwr_Q==/com.anoop.financetracker.debug-wbTAPp8BNueTwDqRko0Baw==/base.apk!classes8.dex*2658326722:/data/app/~~fXMPdT4v_kCt16ftSTwr_Q==/com.anoop.financetracker.debug-wbTAPp8BNueTwDqRko0Baw==/base.apk!classes9.dex*681629689])
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{493298b com.google.android.rkpdapp/10187} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{5d33a68 com.google.android.contacts/10155} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{b2bbe81 com.android.server.telecom.auto_generated_rro_product__/10031} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{e719b26 com.google.android.overlay.googleconfig/10055} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{908d367 com.android.chrome/10150} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{1d59514 com.android.bips.auto_generated_rro_product__/10035} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{cd4c1bd com.google.android.apps.customization.pixel/10143} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{ecc43b2 com.google.android.tag/10083} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{7453f03 com.google.android.overlay.permissioncontroller/10002} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{100ee80 com.google.android.partnersetup/10124} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{d10bcb9 com.google.android.apps.wallpaper.nexus/10142} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{9b6e8fe com.google.android.apps.nexuslauncher/10169} BLOCKED
+W/cetracker.debug( 5576): ClassLoaderContext classpath size mismatch. expected=0, found=2 (PCL[] | PCL[/system/framework/android.test.runner.jar*4168958247:/system/framework/android.test.mock.jar*3186112116]{PCL[/system/framework/android.test.base.jar*836642756]#PCL[/system/framework/android.test.mock.jar*3186112116]#PCL[/system/framework/android.test.runner.jar*4168958247]{PCL[/system/framework/android.test.base.jar*836642756]#PCL[/system/framework/android.test.mock.jar*3186112116]}};PCL[/system/framework/android.test.runner.jar*4168958247:/system/framework/android.test.mock.jar*3186112116:/system/framework/android.test.base.jar*836642756:/data/app/~~cxFN0Scev3im49UvBoTdqg==/com.anoop.financetracker.debug.test-whwUcBa1YZ985yAueZs_Ew==/base.apk*4149143472:/data/app/~~cxFN0Scev3im49UvBoTdqg==/com.anoop.financetracker.debug.test-whwUcBa1YZ985yAueZs_Ew==/base.apk!classes2.dex*3510772495:/data/app/~~cxFN0Scev3im49UvBoTdqg==/com.anoop.financetracker.debug.test-whwUcBa1YZ985yAueZs_Ew==/base.apk!classes3.dex*2505534414:/data/app/~~fXMPdT4v_kCt16ftSTwr_Q==/com.anoop.financetracker.debug-wbTAPp8BNueTwDqRko0Baw==/base.apk*2446386267:/data/app/~~fXMPdT4v_kCt16ftSTwr_Q==/com.anoop.financetracker.debug-wbTAPp8BNueTwDqRko0Baw==/base.apk!classes2.dex*1440052088:/data/app/~~fXMPdT4v_kCt16ftSTwr_Q==/com.anoop.financetracker.debug-wbTAPp8BNueTwDqRko0Baw==/base.apk!classes3.dex*3835846730:/data/app/~~fXMPdT4v_kCt16ftSTwr_Q==/com.anoop.financetracker.debug-wbTAPp8BNueTwDqRko0Baw==/base.apk!classes4.dex*1084003597:/data/app/~~fXMPdT4v_kCt16ftSTwr_Q==/com.anoop.financetracker.debug-wbTAPp8BNueTwDqRko0Baw==/base.apk!classes5.dex*522080060:/data/app/~~fXMPdT4v_kCt16ftSTwr_Q==/com.anoop.financetracker.debug-wbTAPp8BNueTwDqRko0Baw==/base.apk!classes6.dex*2473285175:/data/app/~~fXMPdT4v_kCt16ftSTwr_Q==/com.anoop.financetracker.debug-wbTAPp8BNueTwDqRko0Baw==/base.apk!classes7.dex*430054395:/data/app/~~fXMPdT4v_kCt16ftSTwr_Q==/com.anoop.financetracker.debug-wbTAPp8BNueTwDqRko0Baw==/base.apk!classes8.dex*2658326722:/data/app/~~fXMPdT4v_kCt16ftSTwr_Q==/com.anoop.financetracker.debug-wbTAPp8BNueTwDqRko0Baw==/base.apk!classes9.dex*681629689])
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{52c85f com.google.android.nearby.halfsheet/10171} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{4c672ac com.android.theme.font.notoserifsource/10066} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{c776b75 com.google.android.safetycenter.resources/10181} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{314970a com.android.internal.display.cutout.emulation.waterfall/10040} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{1858b7b com.android.internal.systemui.navbar.transparent/10026} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{27e0d98 com.google.android.connectivity.resources/10170} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{36049f1 com.android.providers.contacts.auto_generated_rro_product__/10016} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{7ed19d6 com.google.android.feedback/10163} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{f576457 com.google.android.printservice.recommendation/10110} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{b126b44 com.google.android.apps.photos/10145} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{316c47f com.google.android.calendar/10144} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{e1e942d com.google.android.documentsui/10098} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{bf8fd62 com.android.systemui.emulation.pixel_3a_xl/10018} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{203eef3 com.android.systemui.emulation.pixel_6_pro/10063} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{16cf7b0 com.android.systemui.emulation.pixel_7_pro/10054} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{fd4629 com.android.systemui.emulation.pixel_8_pro/10001} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{3ed8dae com.google.mainline.telemetry/10151} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{fe4874f com.android.carrierconfig.auto_generated_rro_product__/10064} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{ba1dedc com.android.providers.partnerbookmarks/10101} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{ffb1be5 com.android.wallpaper.livepicker/10089} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{888d6ba com.android.providers.telephony.auto_generated_rro_product__/10062} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{18c496b com.android.phone.auto_generated_rro_vendor__/10079} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{adc0cc8 com.google.mainline.adservices/10136} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{6469161 com.android.imsserviceentitlement/10117} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{e5da486 com.google.android.healthconnect.controller/10183} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{ba41147 com.android.internal.emulation.pixel_2_xl/10024} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{6092d74 com.android.internal.emulation.pixel_3_xl/10056} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{979e29d com.android.internal.emulation.pixel_4_xl/10044} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{e5f8312 com.android.internal.emulation.pixel_fold/10004} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{a867ae3 com.android.bookmarkprovider/10113} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{345ace0 com.google.android.overlay.pixelconfigcommon/10011} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{4970b99 com.android.systemui.accessibility.accessibilitymenu.auto_generated_rro_product__/10047} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{b2ebe5e com.android.systemui.emulation.pixel_3a/10010} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{b9be23f com.android.systemui.emulation.pixel_4a/10000} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{c08b70c com.android.systemui.emulation.pixel_6a/10039} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{6c3c855 com.android.systemui.emulation.pixel_7a/10015} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{f24626a com.google.android.settings.intelligence/10118} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{9ab66fe com.google.android.projection.gearhead/10123} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{76635b com.google.android.uwb.resources/10179} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{dd06e5f com.android.cts.ctsshim/10190} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{81037f8 com.google.android.wifi.resources/10175} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{1c594d1 com.google.android.wifi.dialog/10177} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{f1e3b36 com.google.android.apps.wallpaper/10161} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{7adda37 com.google.android.odad/10122} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{b0cdba4 com.android.settings.auto_generated_rro_product__/10025} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{43dad0d com.android.internal.systemui.navbar.gestural/10051} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{e0ad4c2 com.google.android.apps.youtube.music/10156} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{77be2d3 com.android.bluetoothmidiservice/10106} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{10e0e10 com.android.storagemanager.auto_generated_rro_product__/10023} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{ba50d09 com.google.android.cellbroadcastreceiver/10172} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{d357b0e com.android.phone.auto_generated_rro_product__/10061} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{617d92f android.auto_generated_rro_product__/10069} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{5adfb3c com.android.internal.systemui.navbar.gestural_narrow_back/10052} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{a0870c5 com.google.android.inputmethod.latin/10141} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{5523a1a android.auto_generated_rro_vendor__/10075} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{bd2d94b com.google.android.apps.restore/10120} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{64e9742 com.android.cts.priv.ctsshim/10189} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{98b353 com.google.android.youtube/10139} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{cd9d490 com.android.internal.display.cutout.emulation.corner/10022} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{ee39189 com.android.internal.display.cutout.emulation.double/10045} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{90bdde7 com.google.android.googlequicksearchbox/10132} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{632e58e com.google.android.onetimeinitializer/10125} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{f7131af com.google.android.ext.shared/10100} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{cafa9bc com.android.internal.systemui.navbar.gestural_wide_back/10005} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{feabd45 com.android.virtualmachine.res/10188} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{4fbcc9a com.google.android.federatedcompute/10185} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{a939cb com.android.managedprovisioning.auto_generated_rro_product__/10021} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{5aba5a8 com.android.carrierconfig.auto_generated_rro_vendor__/10080} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{e7ee8c1 com.android.systemui.emulation.pixel_3_xl/10034} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{d3a1866 com.android.systemui.emulation.pixel_4_xl/10059} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{a0fa7a7 com.android.systemui.emulation.pixel_fold/10006} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{fe97454 com.android.simappdialog.auto_generated_rro_product__/10027} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{4d04ffd com.android.htmlviewer/10114} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{fbf54f2 com.google.android.health.connect.backuprestore/10184} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{5851743 com.android.systemui.auto_generated_rro_product__/10028} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{79381c0 com.google.android.apps.messaging/10131} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{5d6eef9 com.google.android.soundpicker/10137} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{6e9ce3e com.google.android.marvin.talkbackoverlay/10077} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{57e49f com.google.android.configupdater/10130} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{f0ef9ec com.android.internal.emulation.pixel_3a_xl/10042} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{20e81b5 com.android.internal.emulation.pixel_6_pro/10029} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{2b0904a com.android.internal.emulation.pixel_7_pro/10003} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{4602bbb com.android.internal.emulation.pixel_8_pro/10058} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{7e7c8d8 com.android.internal.emulation.pixel_3a/10053} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{bf28431 com.android.internal.emulation.pixel_4a/10008} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{96f6716 com.android.internal.emulation.pixel_6a/10020} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{6dbc897 com.android.internal.emulation.pixel_7a/10033} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{e7c9a84 com.google.android.overlay.googlewebview/10046} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{83a326d com.google.android.hotspot2.osulogin/10176} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{972dea2 com.android.simappdialog/10112} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{90a5733 com.android.internal.display.cutout.emulation.hole/10073} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{46adaf0 com.android.internal.display.cutout.emulation.tall/10065} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{5d48869 com.android.internal.systemui.navbar.threebutton/10068} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{74442ee com.android.camera2/10146} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{689338f com.android.systemui.auto_generated_rro_vendor__/10076} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{5bab61c com.google.android.deskclock/10152} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{9a44225 com.android.internal.systemui.navbar.twobutton/10017} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{4b59ffa com.google.android.as/10126} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{d6f79ab com.google.android.gm/10140} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{4cb1808 com.android.internal.systemui.navbar.gestural_extra_wide_back/10049} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{9fbdba1 com.android.systemui.emulation.pixel_3/10012} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{cadc1c6 com.android.systemui.emulation.pixel_4/10037} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{c2a0587 com.android.systemui.emulation.pixel_5/10071} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{8fdacb4 com.android.systemui.emulation.pixel_6/10074} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{5d990dd com.android.systemui.emulation.pixel_7/10072} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{fb43452 com.android.systemui.emulation.pixel_8/10070} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{1177323 com.android.nfc.auto_generated_rro_product__/10030} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{c22e020 com.android.printspooler/10103} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{3e35dd9 com.android.emergency.auto_generated_rro_product__/10038} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{d3d439e com.google.android.connectivity.resources.goldfish.overlay/10078} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{7e41e7f com.android.dreams.basic/10107} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{2a5de4c com.google.android.networkstack.tethering.emulator/10019} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{522fe95 com.android.providers.settings.auto_generated_rro_product__/10014} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{5b5fbaa com.google.android.as.oss/10121} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{a6239b com.android.traceur.auto_generated_rro_product__/10013} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{a789338 com.google.android.devicelockcontroller/10178} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{781ef11 com.google.android.dialer/10129} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{1502876 com.android.internal.emulation.pixel_3/10050} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{cb95e77 com.android.internal.emulation.pixel_4/10060} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{cbfaae4 com.android.internal.emulation.pixel_5/10009} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{4056b4d com.android.internal.emulation.pixel_6/10048} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{78e5602 com.android.internal.emulation.pixel_7/10067} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{d5b6b13 com.android.internal.emulation.pixel_8/10041} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{e3e9150 com.google.android.captiveportallogin/10115} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{4ca6f49 com.android.musicfx/10088} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{38fd04e com.google.android.apps.docs/10154} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{35d299b com.google.android.apps.maps/10153} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{7a56f com.google.android.modulemetadata/10147} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{a83727c com.google.android.markup/10135} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{ec1b705 com.android.providers.settings.auto_generated_rro_vendor__/10081} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{11ca35a com.google.android.webview/10133} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{493298b com.google.android.rkpdapp/10187} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{5d33a68 com.google.android.contacts/10155} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{b2bbe81 com.android.server.telecom.auto_generated_rro_product__/10031} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{e719b26 com.google.android.overlay.googleconfig/10055} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{908d367 com.android.chrome/10150} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{1d59514 com.android.bips.auto_generated_rro_product__/10035} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{cd4c1bd com.google.android.apps.customization.pixel/10143} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{ecc43b2 com.google.android.tag/10083} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{7453f03 com.google.android.overlay.permissioncontroller/10002} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{100ee80 com.google.android.partnersetup/10124} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{d10bcb9 com.google.android.apps.wallpaper.nexus/10142} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{9b6e8fe com.google.android.apps.nexuslauncher/10169} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{52c85f com.google.android.nearby.halfsheet/10171} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{4c672ac com.android.theme.font.notoserifsource/10066} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{c776b75 com.google.android.safetycenter.resources/10181} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{314970a com.android.internal.display.cutout.emulation.waterfall/10040} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{1858b7b com.android.internal.systemui.navbar.transparent/10026} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{27e0d98 com.google.android.connectivity.resources/10170} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{36049f1 com.android.providers.contacts.auto_generated_rro_product__/10016} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{7ed19d6 com.google.android.feedback/10163} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{f576457 com.google.android.printservice.recommendation/10110} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{b126b44 com.google.android.apps.photos/10145} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{316c47f com.google.android.calendar/10144} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{e1e942d com.google.android.documentsui/10098} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{bf8fd62 com.android.systemui.emulation.pixel_3a_xl/10018} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{203eef3 com.android.systemui.emulation.pixel_6_pro/10063} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{16cf7b0 com.android.systemui.emulation.pixel_7_pro/10054} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{fd4629 com.android.systemui.emulation.pixel_8_pro/10001} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{3ed8dae com.google.mainline.telemetry/10151} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{fe4874f com.android.carrierconfig.auto_generated_rro_product__/10064} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{ba1dedc com.android.providers.partnerbookmarks/10101} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{ffb1be5 com.android.wallpaper.livepicker/10089} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{888d6ba com.android.providers.telephony.auto_generated_rro_product__/10062} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{18c496b com.android.phone.auto_generated_rro_vendor__/10079} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{adc0cc8 com.google.mainline.adservices/10136} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{6469161 com.android.imsserviceentitlement/10117} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{e5da486 com.google.android.healthconnect.controller/10183} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{ba41147 com.android.internal.emulation.pixel_2_xl/10024} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{6092d74 com.android.internal.emulation.pixel_3_xl/10056} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{979e29d com.android.internal.emulation.pixel_4_xl/10044} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{e5f8312 com.android.internal.emulation.pixel_fold/10004} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{a867ae3 com.android.bookmarkprovider/10113} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{345ace0 com.google.android.overlay.pixelconfigcommon/10011} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{4970b99 com.android.systemui.accessibility.accessibilitymenu.auto_generated_rro_product__/10047} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{b2ebe5e com.android.systemui.emulation.pixel_3a/10010} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{b9be23f com.android.systemui.emulation.pixel_4a/10000} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{c08b70c com.android.systemui.emulation.pixel_6a/10039} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{6c3c855 com.android.systemui.emulation.pixel_7a/10015} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{f24626a com.google.android.settings.intelligence/10118} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{9ab66fe com.google.android.projection.gearhead/10123} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{76635b com.google.android.uwb.resources/10179} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{dd06e5f com.android.cts.ctsshim/10190} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{81037f8 com.google.android.wifi.resources/10175} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{1c594d1 com.google.android.wifi.dialog/10177} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{f1e3b36 com.google.android.apps.wallpaper/10161} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{7adda37 com.google.android.odad/10122} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{b0cdba4 com.android.settings.auto_generated_rro_product__/10025} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{43dad0d com.android.internal.systemui.navbar.gestural/10051} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{e0ad4c2 com.google.android.apps.youtube.music/10156} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{77be2d3 com.android.bluetoothmidiservice/10106} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{10e0e10 com.android.storagemanager.auto_generated_rro_product__/10023} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{ba50d09 com.google.android.cellbroadcastreceiver/10172} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{d357b0e com.android.phone.auto_generated_rro_product__/10061} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{617d92f android.auto_generated_rro_product__/10069} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{5adfb3c com.android.internal.systemui.navbar.gestural_narrow_back/10052} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{a0870c5 com.google.android.inputmethod.latin/10141} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{5523a1a android.auto_generated_rro_vendor__/10075} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{bd2d94b com.google.android.apps.restore/10120} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{64e9742 com.android.cts.priv.ctsshim/10189} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{98b353 com.google.android.youtube/10139} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{cd9d490 com.android.internal.display.cutout.emulation.corner/10022} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{ee39189 com.android.internal.display.cutout.emulation.double/10045} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{90bdde7 com.google.android.googlequicksearchbox/10132} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{632e58e com.google.android.onetimeinitializer/10125} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{f7131af com.google.android.ext.shared/10100} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{cafa9bc com.android.internal.systemui.navbar.gestural_wide_back/10005} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{feabd45 com.android.virtualmachine.res/10188} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{4fbcc9a com.google.android.federatedcompute/10185} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{a939cb com.android.managedprovisioning.auto_generated_rro_product__/10021} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{5aba5a8 com.android.carrierconfig.auto_generated_rro_vendor__/10080} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{e7ee8c1 com.android.systemui.emulation.pixel_3_xl/10034} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{d3a1866 com.android.systemui.emulation.pixel_4_xl/10059} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{a0fa7a7 com.android.systemui.emulation.pixel_fold/10006} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{fe97454 com.android.simappdialog.auto_generated_rro_product__/10027} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{4d04ffd com.android.htmlviewer/10114} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{fbf54f2 com.google.android.health.connect.backuprestore/10184} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{5851743 com.android.systemui.auto_generated_rro_product__/10028} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{79381c0 com.google.android.apps.messaging/10131} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{5d6eef9 com.google.android.soundpicker/10137} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{6e9ce3e com.google.android.marvin.talkbackoverlay/10077} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{57e49f com.google.android.configupdater/10130} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{f0ef9ec com.android.internal.emulation.pixel_3a_xl/10042} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{20e81b5 com.android.internal.emulation.pixel_6_pro/10029} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{2b0904a com.android.internal.emulation.pixel_7_pro/10003} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{4602bbb com.android.internal.emulation.pixel_8_pro/10058} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{7e7c8d8 com.android.internal.emulation.pixel_3a/10053} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{bf28431 com.android.internal.emulation.pixel_4a/10008} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{96f6716 com.android.internal.emulation.pixel_6a/10020} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{6dbc897 com.android.internal.emulation.pixel_7a/10033} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{e7c9a84 com.google.android.overlay.googlewebview/10046} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{83a326d com.google.android.hotspot2.osulogin/10176} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{972dea2 com.android.simappdialog/10112} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{90a5733 com.android.internal.display.cutout.emulation.hole/10073} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{46adaf0 com.android.internal.display.cutout.emulation.tall/10065} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{5d48869 com.android.internal.systemui.navbar.threebutton/10068} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{74442ee com.android.camera2/10146} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{689338f com.android.systemui.auto_generated_rro_vendor__/10076} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{5bab61c com.google.android.deskclock/10152} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{9a44225 com.android.internal.systemui.navbar.twobutton/10017} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{4b59ffa com.google.android.as/10126} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{d6f79ab com.google.android.gm/10140} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{4cb1808 com.android.internal.systemui.navbar.gestural_extra_wide_back/10049} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{9fbdba1 com.android.systemui.emulation.pixel_3/10012} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{cadc1c6 com.android.systemui.emulation.pixel_4/10037} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{c2a0587 com.android.systemui.emulation.pixel_5/10071} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{8fdacb4 com.android.systemui.emulation.pixel_6/10074} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{5d990dd com.android.systemui.emulation.pixel_7/10072} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{fb43452 com.android.systemui.emulation.pixel_8/10070} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{1177323 com.android.nfc.auto_generated_rro_product__/10030} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{c22e020 com.android.printspooler/10103} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{3e35dd9 com.android.emergency.auto_generated_rro_product__/10038} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{d3d439e com.google.android.connectivity.resources.goldfish.overlay/10078} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{7e41e7f com.android.dreams.basic/10107} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{2a5de4c com.google.android.networkstack.tethering.emulator/10019} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{522fe95 com.android.providers.settings.auto_generated_rro_product__/10014} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{5b5fbaa com.google.android.as.oss/10121} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{a6239b com.android.traceur.auto_generated_rro_product__/10013} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{a789338 com.google.android.devicelockcontroller/10178} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{781ef11 com.google.android.dialer/10129} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{1502876 com.android.internal.emulation.pixel_3/10050} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{cb95e77 com.android.internal.emulation.pixel_4/10060} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{cbfaae4 com.android.internal.emulation.pixel_5/10009} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{4056b4d com.android.internal.emulation.pixel_6/10048} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{78e5602 com.android.internal.emulation.pixel_7/10067} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{d5b6b13 com.android.internal.emulation.pixel_8/10041} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{e3e9150 com.google.android.captiveportallogin/10115} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{4ca6f49 com.android.musicfx/10088} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{38fd04e com.google.android.apps.docs/10154} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{35d299b com.google.android.apps.maps/10153} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{7a56f com.google.android.modulemetadata/10147} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{a83727c com.google.android.markup/10135} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{ec1b705 com.android.providers.settings.auto_generated_rro_vendor__/10081} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{11ca35a com.google.android.webview/10133} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{493298b com.google.android.rkpdapp/10187} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{5d33a68 com.google.android.contacts/10155} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{b2bbe81 com.android.server.telecom.auto_generated_rro_product__/10031} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{e719b26 com.google.android.overlay.googleconfig/10055} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{908d367 com.android.chrome/10150} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{1d59514 com.android.bips.auto_generated_rro_product__/10035} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{cd4c1bd com.google.android.apps.customization.pixel/10143} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{ecc43b2 com.google.android.tag/10083} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{7453f03 com.google.android.overlay.permissioncontroller/10002} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{100ee80 com.google.android.partnersetup/10124} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{d10bcb9 com.google.android.apps.wallpaper.nexus/10142} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{9b6e8fe com.google.android.apps.nexuslauncher/10169} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{52c85f com.google.android.nearby.halfsheet/10171} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{4c672ac com.android.theme.font.notoserifsource/10066} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{c776b75 com.google.android.safetycenter.resources/10181} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{314970a com.android.internal.display.cutout.emulation.waterfall/10040} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{1858b7b com.android.internal.systemui.navbar.transparent/10026} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{27e0d98 com.google.android.connectivity.resources/10170} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{36049f1 com.android.providers.contacts.auto_generated_rro_product__/10016} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{7ed19d6 com.google.android.feedback/10163} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{f576457 com.google.android.printservice.recommendation/10110} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{b126b44 com.google.android.apps.photos/10145} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{316c47f com.google.android.calendar/10144} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{e1e942d com.google.android.documentsui/10098} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{bf8fd62 com.android.systemui.emulation.pixel_3a_xl/10018} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{203eef3 com.android.systemui.emulation.pixel_6_pro/10063} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{16cf7b0 com.android.systemui.emulation.pixel_7_pro/10054} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{fd4629 com.android.systemui.emulation.pixel_8_pro/10001} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{3ed8dae com.google.mainline.telemetry/10151} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{fe4874f com.android.carrierconfig.auto_generated_rro_product__/10064} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{ba1dedc com.android.providers.partnerbookmarks/10101} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{ffb1be5 com.android.wallpaper.livepicker/10089} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{888d6ba com.android.providers.telephony.auto_generated_rro_product__/10062} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{18c496b com.android.phone.auto_generated_rro_vendor__/10079} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{adc0cc8 com.google.mainline.adservices/10136} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{6469161 com.android.imsserviceentitlement/10117} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{e5da486 com.google.android.healthconnect.controller/10183} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{ba41147 com.android.internal.emulation.pixel_2_xl/10024} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{6092d74 com.android.internal.emulation.pixel_3_xl/10056} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{979e29d com.android.internal.emulation.pixel_4_xl/10044} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{e5f8312 com.android.internal.emulation.pixel_fold/10004} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{a867ae3 com.android.bookmarkprovider/10113} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{345ace0 com.google.android.overlay.pixelconfigcommon/10011} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{4970b99 com.android.systemui.accessibility.accessibilitymenu.auto_generated_rro_product__/10047} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{b2ebe5e com.android.systemui.emulation.pixel_3a/10010} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{b9be23f com.android.systemui.emulation.pixel_4a/10000} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{c08b70c com.android.systemui.emulation.pixel_6a/10039} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{6c3c855 com.android.systemui.emulation.pixel_7a/10015} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{f24626a com.google.android.settings.intelligence/10118} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{9ab66fe com.google.android.projection.gearhead/10123} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{76635b com.google.android.uwb.resources/10179} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{dd06e5f com.android.cts.ctsshim/10190} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{81037f8 com.google.android.wifi.resources/10175} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{1c594d1 com.google.android.wifi.dialog/10177} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{f1e3b36 com.google.android.apps.wallpaper/10161} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{7adda37 com.google.android.odad/10122} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{b0cdba4 com.android.settings.auto_generated_rro_product__/10025} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{43dad0d com.android.internal.systemui.navbar.gestural/10051} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{e0ad4c2 com.google.android.apps.youtube.music/10156} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{77be2d3 com.android.bluetoothmidiservice/10106} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{10e0e10 com.android.storagemanager.auto_generated_rro_product__/10023} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{ba50d09 com.google.android.cellbroadcastreceiver/10172} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{d357b0e com.android.phone.auto_generated_rro_product__/10061} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{617d92f android.auto_generated_rro_product__/10069} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{5adfb3c com.android.internal.systemui.navbar.gestural_narrow_back/10052} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{a0870c5 com.google.android.inputmethod.latin/10141} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{5523a1a android.auto_generated_rro_vendor__/10075} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{bd2d94b com.google.android.apps.restore/10120} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{64e9742 com.android.cts.priv.ctsshim/10189} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{98b353 com.google.android.youtube/10139} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{cd9d490 com.android.internal.display.cutout.emulation.corner/10022} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{ee39189 com.android.internal.display.cutout.emulation.double/10045} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{90bdde7 com.google.android.googlequicksearchbox/10132} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{632e58e com.google.android.onetimeinitializer/10125} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{f7131af com.google.android.ext.shared/10100} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{cafa9bc com.android.internal.systemui.navbar.gestural_wide_back/10005} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{feabd45 com.android.virtualmachine.res/10188} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{4fbcc9a com.google.android.federatedcompute/10185} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{a939cb com.android.managedprovisioning.auto_generated_rro_product__/10021} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{5aba5a8 com.android.carrierconfig.auto_generated_rro_vendor__/10080} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{e7ee8c1 com.android.systemui.emulation.pixel_3_xl/10034} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{d3a1866 com.android.systemui.emulation.pixel_4_xl/10059} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{a0fa7a7 com.android.systemui.emulation.pixel_fold/10006} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{fe97454 com.android.simappdialog.auto_generated_rro_product__/10027} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{4d04ffd com.android.htmlviewer/10114} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{fbf54f2 com.google.android.health.connect.backuprestore/10184} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{5851743 com.android.systemui.auto_generated_rro_product__/10028} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{79381c0 com.google.android.apps.messaging/10131} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{5d6eef9 com.google.android.soundpicker/10137} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{6e9ce3e com.google.android.marvin.talkbackoverlay/10077} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{57e49f com.google.android.configupdater/10130} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{f0ef9ec com.android.internal.emulation.pixel_3a_xl/10042} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{20e81b5 com.android.internal.emulation.pixel_6_pro/10029} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{2b0904a com.android.internal.emulation.pixel_7_pro/10003} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{4602bbb com.android.internal.emulation.pixel_8_pro/10058} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{7e7c8d8 com.android.internal.emulation.pixel_3a/10053} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{bf28431 com.android.internal.emulation.pixel_4a/10008} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{96f6716 com.android.internal.emulation.pixel_6a/10020} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{6dbc897 com.android.internal.emulation.pixel_7a/10033} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{e7c9a84 com.google.android.overlay.googlewebview/10046} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{83a326d com.google.android.hotspot2.osulogin/10176} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{972dea2 com.android.simappdialog/10112} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{90a5733 com.android.internal.display.cutout.emulation.hole/10073} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{46adaf0 com.android.internal.display.cutout.emulation.tall/10065} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{5d48869 com.android.internal.systemui.navbar.threebutton/10068} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{74442ee com.android.camera2/10146} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{689338f com.android.systemui.auto_generated_rro_vendor__/10076} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{5bab61c com.google.android.deskclock/10152} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{9a44225 com.android.internal.systemui.navbar.twobutton/10017} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{4b59ffa com.google.android.as/10126} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{d6f79ab com.google.android.gm/10140} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{4cb1808 com.android.internal.systemui.navbar.gestural_extra_wide_back/10049} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{9fbdba1 com.android.systemui.emulation.pixel_3/10012} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{cadc1c6 com.android.systemui.emulation.pixel_4/10037} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{c2a0587 com.android.systemui.emulation.pixel_5/10071} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{8fdacb4 com.android.systemui.emulation.pixel_6/10074} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{5d990dd com.android.systemui.emulation.pixel_7/10072} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{fb43452 com.android.systemui.emulation.pixel_8/10070} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{1177323 com.android.nfc.auto_generated_rro_product__/10030} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{c22e020 com.android.printspooler/10103} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{3e35dd9 com.android.emergency.auto_generated_rro_product__/10038} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{d3d439e com.google.android.connectivity.resources.goldfish.overlay/10078} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{7e41e7f com.android.dreams.basic/10107} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{2a5de4c com.google.android.networkstack.tethering.emulator/10019} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{522fe95 com.android.providers.settings.auto_generated_rro_product__/10014} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{5b5fbaa com.google.android.as.oss/10121} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{a6239b com.android.traceur.auto_generated_rro_product__/10013} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{a789338 com.google.android.devicelockcontroller/10178} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{781ef11 com.google.android.dialer/10129} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{1502876 com.android.internal.emulation.pixel_3/10050} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{cb95e77 com.android.internal.emulation.pixel_4/10060} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{cbfaae4 com.android.internal.emulation.pixel_5/10009} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{4056b4d com.android.internal.emulation.pixel_6/10048} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{78e5602 com.android.internal.emulation.pixel_7/10067} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{d5b6b13 com.android.internal.emulation.pixel_8/10041} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{e3e9150 com.google.android.captiveportallogin/10115} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{4ca6f49 com.android.musicfx/10088} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{38fd04e com.google.android.apps.docs/10154} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{35d299b com.google.android.apps.maps/10153} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{7a56f com.google.android.modulemetadata/10147} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{a83727c com.google.android.markup/10135} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{ec1b705 com.android.providers.settings.auto_generated_rro_vendor__/10081} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{11ca35a com.google.android.webview/10133} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{493298b com.google.android.rkpdapp/10187} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{5d33a68 com.google.android.contacts/10155} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{b2bbe81 com.android.server.telecom.auto_generated_rro_product__/10031} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{e719b26 com.google.android.overlay.googleconfig/10055} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{908d367 com.android.chrome/10150} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{1d59514 com.android.bips.auto_generated_rro_product__/10035} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{cd4c1bd com.google.android.apps.customization.pixel/10143} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{ecc43b2 com.google.android.tag/10083} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{7453f03 com.google.android.overlay.permissioncontroller/10002} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{100ee80 com.google.android.partnersetup/10124} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{d10bcb9 com.google.android.apps.wallpaper.nexus/10142} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{9b6e8fe com.google.android.apps.nexuslauncher/10169} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{52c85f com.google.android.nearby.halfsheet/10171} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{4c672ac com.android.theme.font.notoserifsource/10066} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{c776b75 com.google.android.safetycenter.resources/10181} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{314970a com.android.internal.display.cutout.emulation.waterfall/10040} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{1858b7b com.android.internal.systemui.navbar.transparent/10026} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{27e0d98 com.google.android.connectivity.resources/10170} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{36049f1 com.android.providers.contacts.auto_generated_rro_product__/10016} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{7ed19d6 com.google.android.feedback/10163} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{f576457 com.google.android.printservice.recommendation/10110} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{b126b44 com.google.android.apps.photos/10145} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{316c47f com.google.android.calendar/10144} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{e1e942d com.google.android.documentsui/10098} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{bf8fd62 com.android.systemui.emulation.pixel_3a_xl/10018} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{203eef3 com.android.systemui.emulation.pixel_6_pro/10063} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{16cf7b0 com.android.systemui.emulation.pixel_7_pro/10054} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{fd4629 com.android.systemui.emulation.pixel_8_pro/10001} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{3ed8dae com.google.mainline.telemetry/10151} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{fe4874f com.android.carrierconfig.auto_generated_rro_product__/10064} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{ba1dedc com.android.providers.partnerbookmarks/10101} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{ffb1be5 com.android.wallpaper.livepicker/10089} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{888d6ba com.android.providers.telephony.auto_generated_rro_product__/10062} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{18c496b com.android.phone.auto_generated_rro_vendor__/10079} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{adc0cc8 com.google.mainline.adservices/10136} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{6469161 com.android.imsserviceentitlement/10117} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{e5da486 com.google.android.healthconnect.controller/10183} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{ba41147 com.android.internal.emulation.pixel_2_xl/10024} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{6092d74 com.android.internal.emulation.pixel_3_xl/10056} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{979e29d com.android.internal.emulation.pixel_4_xl/10044} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{e5f8312 com.android.internal.emulation.pixel_fold/10004} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{a867ae3 com.android.bookmarkprovider/10113} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{345ace0 com.google.android.overlay.pixelconfigcommon/10011} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{4970b99 com.android.systemui.accessibility.accessibilitymenu.auto_generated_rro_product__/10047} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{b2ebe5e com.android.systemui.emulation.pixel_3a/10010} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{b9be23f com.android.systemui.emulation.pixel_4a/10000} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{c08b70c com.android.systemui.emulation.pixel_6a/10039} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{6c3c855 com.android.systemui.emulation.pixel_7a/10015} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{f24626a com.google.android.settings.intelligence/10118} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{9ab66fe com.google.android.projection.gearhead/10123} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{76635b com.google.android.uwb.resources/10179} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{dd06e5f com.android.cts.ctsshim/10190} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{81037f8 com.google.android.wifi.resources/10175} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{1c594d1 com.google.android.wifi.dialog/10177} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{f1e3b36 com.google.android.apps.wallpaper/10161} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{7adda37 com.google.android.odad/10122} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{b0cdba4 com.android.settings.auto_generated_rro_product__/10025} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{43dad0d com.android.internal.systemui.navbar.gestural/10051} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{e0ad4c2 com.google.android.apps.youtube.music/10156} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{77be2d3 com.android.bluetoothmidiservice/10106} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{10e0e10 com.android.storagemanager.auto_generated_rro_product__/10023} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{ba50d09 com.google.android.cellbroadcastreceiver/10172} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{d357b0e com.android.phone.auto_generated_rro_product__/10061} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{617d92f android.auto_generated_rro_product__/10069} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{5adfb3c com.android.internal.systemui.navbar.gestural_narrow_back/10052} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{a0870c5 com.google.android.inputmethod.latin/10141} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{5523a1a android.auto_generated_rro_vendor__/10075} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{904e98d com.anoop.financetracker.debug/10192} -> PackageSetting{bd2d94b com.google.android.apps.restore/10120} BLOCKED
+I/AndroidJUnitRunner( 5576): newApplication com.anoop.financetracker.FinanceApp
+I/TestRequestBuilder( 5576): Scanning classpath to find tests in paths [/data/app/~~cxFN0Scev3im49UvBoTdqg==/com.anoop.financetracker.debug.test-whwUcBa1YZ985yAueZs_Ew==/base.apk]
+I/TestRunner( 5576): run started: 5 tests
+I/TestRunner( 5576): started: TC_INST_01_app_installs_and_launches_to_a_usable_screen(com.anoop.financetracker.DeviceTest)
+I/ActivityTaskManager(  525): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.anoop.financetracker.debug/com.anoop.financetracker.MainActivity} with LAUNCH_MULTIPLE from uid 10192 (BAL_ALLOW_PERMISSION) result code=0
+W/system_server(  525): Long monitor contention with owner binder:525_E (1662) at android.content.res.Configuration com.android.server.wm.ActivityTaskManagerService.getGlobalConfigurationForPid(int)(ActivityTaskManagerService.java:1133) waiters=0 in void com.android.server.wm.RootWindowContainer$RankTaskLayersRunnable.run() for 148ms
+W/ActivityTaskManager(  525): takeTaskSnapshot: taskId=8 not found or not visible
+I/ActivityTaskManager(  525): Displayed com.anoop.financetracker.debug/com.anoop.financetracker.MainActivity for user 0: +1s838ms
+I/ImeTracker(  525): com.anoop.financetracker.debug:c056ae63: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+I/ImeTracker(  525): com.anoop.financetracker.debug:c056ae63: onCancelled at PHASE_SERVER_SHOULD_HIDE
+I/GoogleInputMethodService( 1539): GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.anoop.financetracker.debug fieldId=0 fieldName=null extras=null}, false)
+I/ActivityTaskManager(  525): Activity reported stop, but no longer stopping: ActivityRecord{3ba461e u0 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t7} STOPPED
+I/AiAiEcho( 1667): AppFetcherImpl onPackageChanged com.anoop.financetracker.debug.
+I/AiAiEcho( 1667): AppIndexer Package:[com.anoop.financetracker.debug] UserProfile:[0] Enabled:[true].
+I/AiAiEcho( 1667): AppFetcherImplV2 updateApps package:[com.anoop.financetracker.debug], userId:[0], reason:[package is updated.].
+I/BlockstoreStorage( 5463): Clearing Blockstore Data for package com.anoop.financetracker.debug.test [CONTEXT service_id=258 ]
+I/FontLog ( 5410): Package com.anoop.financetracker.debug.test has no metadata [CONTEXT service_id=132 ]
+I/ProximityAuth( 5410): [RecentAppsMediator] Package added: (user=UserHandle{0}) com.anoop.financetracker.debug.test
+I/ActivityTaskManager(  525): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.anoop.financetracker.debug.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} with LAUNCH_MULTIPLE from uid 10192 (BAL_ALLOW_VISIBLE_WINDOW) result code=0
+I/ActivityManager(  525): Start proc 5853:com.anoop.financetracker.debug.test/u0a193 for next-top-activity {com.anoop.financetracker.debug.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity}
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{64e9742 com.android.cts.priv.ctsshim/10189} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{98b353 com.google.android.youtube/10139} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{cd9d490 com.android.internal.display.cutout.emulation.corner/10022} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{ee39189 com.android.internal.display.cutout.emulation.double/10045} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{90bdde7 com.google.android.googlequicksearchbox/10132} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{632e58e com.google.android.onetimeinitializer/10125} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{f7131af com.google.android.ext.shared/10100} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{cafa9bc com.android.internal.systemui.navbar.gestural_wide_back/10005} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{feabd45 com.android.virtualmachine.res/10188} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{4fbcc9a com.google.android.federatedcompute/10185} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{a939cb com.android.managedprovisioning.auto_generated_rro_product__/10021} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{5aba5a8 com.android.carrierconfig.auto_generated_rro_vendor__/10080} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{e7ee8c1 com.android.systemui.emulation.pixel_3_xl/10034} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{d3a1866 com.android.systemui.emulation.pixel_4_xl/10059} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{a0fa7a7 com.android.systemui.emulation.pixel_fold/10006} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{fe97454 com.android.simappdialog.auto_generated_rro_product__/10027} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{4d04ffd com.android.htmlviewer/10114} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{fbf54f2 com.google.android.health.connect.backuprestore/10184} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{5851743 com.android.systemui.auto_generated_rro_product__/10028} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{79381c0 com.google.android.apps.messaging/10131} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{5d6eef9 com.google.android.soundpicker/10137} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{6e9ce3e com.google.android.marvin.talkbackoverlay/10077} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{57e49f com.google.android.configupdater/10130} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{f0ef9ec com.android.internal.emulation.pixel_3a_xl/10042} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{20e81b5 com.android.internal.emulation.pixel_6_pro/10029} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{2b0904a com.android.internal.emulation.pixel_7_pro/10003} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{4602bbb com.android.internal.emulation.pixel_8_pro/10058} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{7e7c8d8 com.android.internal.emulation.pixel_3a/10053} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{bf28431 com.android.internal.emulation.pixel_4a/10008} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{96f6716 com.android.internal.emulation.pixel_6a/10020} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{6dbc897 com.android.internal.emulation.pixel_7a/10033} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{e7c9a84 com.google.android.overlay.googlewebview/10046} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{83a326d com.google.android.hotspot2.osulogin/10176} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{972dea2 com.android.simappdialog/10112} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{90a5733 com.android.internal.display.cutout.emulation.hole/10073} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{46adaf0 com.android.internal.display.cutout.emulation.tall/10065} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{5d48869 com.android.internal.systemui.navbar.threebutton/10068} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{74442ee com.android.camera2/10146} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{689338f com.android.systemui.auto_generated_rro_vendor__/10076} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{5bab61c com.google.android.deskclock/10152} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{9a44225 com.android.internal.systemui.navbar.twobutton/10017} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{4b59ffa com.google.android.as/10126} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{d6f79ab com.google.android.gm/10140} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{4cb1808 com.android.internal.systemui.navbar.gestural_extra_wide_back/10049} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{9fbdba1 com.android.systemui.emulation.pixel_3/10012} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{cadc1c6 com.android.systemui.emulation.pixel_4/10037} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{c2a0587 com.android.systemui.emulation.pixel_5/10071} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{8fdacb4 com.android.systemui.emulation.pixel_6/10074} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{5d990dd com.android.systemui.emulation.pixel_7/10072} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{fb43452 com.android.systemui.emulation.pixel_8/10070} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{1177323 com.android.nfc.auto_generated_rro_product__/10030} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{c22e020 com.android.printspooler/10103} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{3e35dd9 com.android.emergency.auto_generated_rro_product__/10038} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{d3d439e com.google.android.connectivity.resources.goldfish.overlay/10078} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{7e41e7f com.android.dreams.basic/10107} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{2a5de4c com.google.android.networkstack.tethering.emulator/10019} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{522fe95 com.android.providers.settings.auto_generated_rro_product__/10014} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{5b5fbaa com.google.android.as.oss/10121} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{a6239b com.android.traceur.auto_generated_rro_product__/10013} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{a789338 com.google.android.devicelockcontroller/10178} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{781ef11 com.google.android.dialer/10129} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{1502876 com.android.internal.emulation.pixel_3/10050} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{cb95e77 com.android.internal.emulation.pixel_4/10060} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{cbfaae4 com.android.internal.emulation.pixel_5/10009} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{4056b4d com.android.internal.emulation.pixel_6/10048} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{78e5602 com.android.internal.emulation.pixel_7/10067} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{d5b6b13 com.android.internal.emulation.pixel_8/10041} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{e3e9150 com.google.android.captiveportallogin/10115} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{4ca6f49 com.android.musicfx/10088} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{38fd04e com.google.android.apps.docs/10154} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{35d299b com.google.android.apps.maps/10153} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{7a56f com.google.android.modulemetadata/10147} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{a83727c com.google.android.markup/10135} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{ec1b705 com.android.providers.settings.auto_generated_rro_vendor__/10081} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{11ca35a com.google.android.webview/10133} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{493298b com.google.android.rkpdapp/10187} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{bd9560c com.google.android.contacts/10155} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{b2bbe81 com.android.server.telecom.auto_generated_rro_product__/10031} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{e719b26 com.google.android.overlay.googleconfig/10055} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{908d367 com.android.chrome/10150} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{1d59514 com.android.bips.auto_generated_rro_product__/10035} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{cd4c1bd com.google.android.apps.customization.pixel/10143} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{ecc43b2 com.google.android.tag/10083} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{7453f03 com.google.android.overlay.permissioncontroller/10002} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{100ee80 com.google.android.partnersetup/10124} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{d10bcb9 com.google.android.apps.wallpaper.nexus/10142} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{9b6e8fe com.google.android.apps.nexuslauncher/10169} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{52c85f com.google.android.nearby.halfsheet/10171} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{4c672ac com.android.theme.font.notoserifsource/10066} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{c776b75 com.google.android.safetycenter.resources/10181} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{314970a com.android.internal.display.cutout.emulation.waterfall/10040} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{1858b7b com.android.internal.systemui.navbar.transparent/10026} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{27e0d98 com.google.android.connectivity.resources/10170} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{36049f1 com.android.providers.contacts.auto_generated_rro_product__/10016} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{7ed19d6 com.google.android.feedback/10163} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{f576457 com.google.android.printservice.recommendation/10110} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{b126b44 com.google.android.apps.photos/10145} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{316c47f com.google.android.calendar/10144} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{e1e942d com.google.android.documentsui/10098} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{bf8fd62 com.android.systemui.emulation.pixel_3a_xl/10018} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{203eef3 com.android.systemui.emulation.pixel_6_pro/10063} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{16cf7b0 com.android.systemui.emulation.pixel_7_pro/10054} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{fd4629 com.android.systemui.emulation.pixel_8_pro/10001} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{3ed8dae com.google.mainline.telemetry/10151} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{fe4874f com.android.carrierconfig.auto_generated_rro_product__/10064} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{ba1dedc com.android.providers.partnerbookmarks/10101} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{ffb1be5 com.android.wallpaper.livepicker/10089} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{888d6ba com.android.providers.telephony.auto_generated_rro_product__/10062} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{18c496b com.android.phone.auto_generated_rro_vendor__/10079} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{adc0cc8 com.google.mainline.adservices/10136} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{6469161 com.android.imsserviceentitlement/10117} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{e5da486 com.google.android.healthconnect.controller/10183} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{ba41147 com.android.internal.emulation.pixel_2_xl/10024} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{6092d74 com.android.internal.emulation.pixel_3_xl/10056} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{979e29d com.android.internal.emulation.pixel_4_xl/10044} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{e5f8312 com.android.internal.emulation.pixel_fold/10004} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{a867ae3 com.android.bookmarkprovider/10113} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{345ace0 com.google.android.overlay.pixelconfigcommon/10011} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{4970b99 com.android.systemui.accessibility.accessibilitymenu.auto_generated_rro_product__/10047} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{b2ebe5e com.android.systemui.emulation.pixel_3a/10010} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{b9be23f com.android.systemui.emulation.pixel_4a/10000} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{c08b70c com.android.systemui.emulation.pixel_6a/10039} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{6c3c855 com.android.systemui.emulation.pixel_7a/10015} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{f24626a com.google.android.settings.intelligence/10118} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{9ab66fe com.google.android.projection.gearhead/10123} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{76635b com.google.android.uwb.resources/10179} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{dd06e5f com.android.cts.ctsshim/10190} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{81037f8 com.google.android.wifi.resources/10175} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{1c594d1 com.google.android.wifi.dialog/10177} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{f1e3b36 com.google.android.apps.wallpaper/10161} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{7adda37 com.google.android.odad/10122} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{b0cdba4 com.android.settings.auto_generated_rro_product__/10025} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{43dad0d com.android.internal.systemui.navbar.gestural/10051} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{e0ad4c2 com.google.android.apps.youtube.music/10156} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{77be2d3 com.android.bluetoothmidiservice/10106} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{10e0e10 com.android.storagemanager.auto_generated_rro_product__/10023} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{ba50d09 com.google.android.cellbroadcastreceiver/10172} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{d357b0e com.android.phone.auto_generated_rro_product__/10061} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{617d92f android.auto_generated_rro_product__/10069} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{5adfb3c com.android.internal.systemui.navbar.gestural_narrow_back/10052} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{a0870c5 com.google.android.inputmethod.latin/10141} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{5523a1a android.auto_generated_rro_vendor__/10075} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{bd2d94b com.google.android.apps.restore/10120} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{64e9742 com.android.cts.priv.ctsshim/10189} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{98b353 com.google.android.youtube/10139} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{cd9d490 com.android.internal.display.cutout.emulation.corner/10022} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{ee39189 com.android.internal.display.cutout.emulation.double/10045} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{90bdde7 com.google.android.googlequicksearchbox/10132} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{632e58e com.google.android.onetimeinitializer/10125} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{f7131af com.google.android.ext.shared/10100} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{cafa9bc com.android.internal.systemui.navbar.gestural_wide_back/10005} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{feabd45 com.android.virtualmachine.res/10188} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{4fbcc9a com.google.android.federatedcompute/10185} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{a939cb com.android.managedprovisioning.auto_generated_rro_product__/10021} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{5aba5a8 com.android.carrierconfig.auto_generated_rro_vendor__/10080} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{e7ee8c1 com.android.systemui.emulation.pixel_3_xl/10034} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{d3a1866 com.android.systemui.emulation.pixel_4_xl/10059} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{a0fa7a7 com.android.systemui.emulation.pixel_fold/10006} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{fe97454 com.android.simappdialog.auto_generated_rro_product__/10027} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{4d04ffd com.android.htmlviewer/10114} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{fbf54f2 com.google.android.health.connect.backuprestore/10184} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{5851743 com.android.systemui.auto_generated_rro_product__/10028} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{79381c0 com.google.android.apps.messaging/10131} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{5d6eef9 com.google.android.soundpicker/10137} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{6e9ce3e com.google.android.marvin.talkbackoverlay/10077} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{57e49f com.google.android.configupdater/10130} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{f0ef9ec com.android.internal.emulation.pixel_3a_xl/10042} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{20e81b5 com.android.internal.emulation.pixel_6_pro/10029} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{2b0904a com.android.internal.emulation.pixel_7_pro/10003} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{4602bbb com.android.internal.emulation.pixel_8_pro/10058} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{7e7c8d8 com.android.internal.emulation.pixel_3a/10053} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{bf28431 com.android.internal.emulation.pixel_4a/10008} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{96f6716 com.android.internal.emulation.pixel_6a/10020} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{6dbc897 com.android.internal.emulation.pixel_7a/10033} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{e7c9a84 com.google.android.overlay.googlewebview/10046} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{83a326d com.google.android.hotspot2.osulogin/10176} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{972dea2 com.android.simappdialog/10112} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{90a5733 com.android.internal.display.cutout.emulation.hole/10073} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{46adaf0 com.android.internal.display.cutout.emulation.tall/10065} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{5d48869 com.android.internal.systemui.navbar.threebutton/10068} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{74442ee com.android.camera2/10146} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{689338f com.android.systemui.auto_generated_rro_vendor__/10076} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{5bab61c com.google.android.deskclock/10152} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{9a44225 com.android.internal.systemui.navbar.twobutton/10017} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{4b59ffa com.google.android.as/10126} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{d6f79ab com.google.android.gm/10140} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{4cb1808 com.android.internal.systemui.navbar.gestural_extra_wide_back/10049} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{9fbdba1 com.android.systemui.emulation.pixel_3/10012} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{cadc1c6 com.android.systemui.emulation.pixel_4/10037} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{c2a0587 com.android.systemui.emulation.pixel_5/10071} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{8fdacb4 com.android.systemui.emulation.pixel_6/10074} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{5d990dd com.android.systemui.emulation.pixel_7/10072} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{fb43452 com.android.systemui.emulation.pixel_8/10070} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{1177323 com.android.nfc.auto_generated_rro_product__/10030} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{c22e020 com.android.printspooler/10103} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{3e35dd9 com.android.emergency.auto_generated_rro_product__/10038} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{d3d439e com.google.android.connectivity.resources.goldfish.overlay/10078} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{7e41e7f com.android.dreams.basic/10107} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{2a5de4c com.google.android.networkstack.tethering.emulator/10019} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{522fe95 com.android.providers.settings.auto_generated_rro_product__/10014} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{5b5fbaa com.google.android.as.oss/10121} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{a6239b com.android.traceur.auto_generated_rro_product__/10013} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{a789338 com.google.android.devicelockcontroller/10178} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{781ef11 com.google.android.dialer/10129} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{1502876 com.android.internal.emulation.pixel_3/10050} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{cb95e77 com.android.internal.emulation.pixel_4/10060} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{cbfaae4 com.android.internal.emulation.pixel_5/10009} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{4056b4d com.android.internal.emulation.pixel_6/10048} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{78e5602 com.android.internal.emulation.pixel_7/10067} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{d5b6b13 com.android.internal.emulation.pixel_8/10041} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{e3e9150 com.google.android.captiveportallogin/10115} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{4ca6f49 com.android.musicfx/10088} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{38fd04e com.google.android.apps.docs/10154} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{35d299b com.google.android.apps.maps/10153} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{7a56f com.google.android.modulemetadata/10147} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{a83727c com.google.android.markup/10135} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{ec1b705 com.android.providers.settings.auto_generated_rro_vendor__/10081} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{11ca35a com.google.android.webview/10133} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{493298b com.google.android.rkpdapp/10187} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{bd9560c com.google.android.contacts/10155} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{b2bbe81 com.android.server.telecom.auto_generated_rro_product__/10031} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{e719b26 com.google.android.overlay.googleconfig/10055} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{908d367 com.android.chrome/10150} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{1d59514 com.android.bips.auto_generated_rro_product__/10035} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{cd4c1bd com.google.android.apps.customization.pixel/10143} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{ecc43b2 com.google.android.tag/10083} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{7453f03 com.google.android.overlay.permissioncontroller/10002} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{100ee80 com.google.android.partnersetup/10124} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{d10bcb9 com.google.android.apps.wallpaper.nexus/10142} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{9b6e8fe com.google.android.apps.nexuslauncher/10169} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{52c85f com.google.android.nearby.halfsheet/10171} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{4c672ac com.android.theme.font.notoserifsource/10066} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{c776b75 com.google.android.safetycenter.resources/10181} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{314970a com.android.internal.display.cutout.emulation.waterfall/10040} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{1858b7b com.android.internal.systemui.navbar.transparent/10026} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{27e0d98 com.google.android.connectivity.resources/10170} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{36049f1 com.android.providers.contacts.auto_generated_rro_product__/10016} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{7ed19d6 com.google.android.feedback/10163} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{f576457 com.google.android.printservice.recommendation/10110} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{b126b44 com.google.android.apps.photos/10145} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{316c47f com.google.android.calendar/10144} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{e1e942d com.google.android.documentsui/10098} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{bf8fd62 com.android.systemui.emulation.pixel_3a_xl/10018} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{203eef3 com.android.systemui.emulation.pixel_6_pro/10063} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{16cf7b0 com.android.systemui.emulation.pixel_7_pro/10054} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{fd4629 com.android.systemui.emulation.pixel_8_pro/10001} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{3ed8dae com.google.mainline.telemetry/10151} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{fe4874f com.android.carrierconfig.auto_generated_rro_product__/10064} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{ba1dedc com.android.providers.partnerbookmarks/10101} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{ffb1be5 com.android.wallpaper.livepicker/10089} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{888d6ba com.android.providers.telephony.auto_generated_rro_product__/10062} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{18c496b com.android.phone.auto_generated_rro_vendor__/10079} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{adc0cc8 com.google.mainline.adservices/10136} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{6469161 com.android.imsserviceentitlement/10117} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{e5da486 com.google.android.healthconnect.controller/10183} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{ba41147 com.android.internal.emulation.pixel_2_xl/10024} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{6092d74 com.android.internal.emulation.pixel_3_xl/10056} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{979e29d com.android.internal.emulation.pixel_4_xl/10044} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{e5f8312 com.android.internal.emulation.pixel_fold/10004} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{a867ae3 com.android.bookmarkprovider/10113} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{345ace0 com.google.android.overlay.pixelconfigcommon/10011} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{4970b99 com.android.systemui.accessibility.accessibilitymenu.auto_generated_rro_product__/10047} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{b2ebe5e com.android.systemui.emulation.pixel_3a/10010} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{b9be23f com.android.systemui.emulation.pixel_4a/10000} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{c08b70c com.android.systemui.emulation.pixel_6a/10039} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{6c3c855 com.android.systemui.emulation.pixel_7a/10015} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{f24626a com.google.android.settings.intelligence/10118} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{9ab66fe com.google.android.projection.gearhead/10123} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{76635b com.google.android.uwb.resources/10179} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{dd06e5f com.android.cts.ctsshim/10190} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{81037f8 com.google.android.wifi.resources/10175} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{1c594d1 com.google.android.wifi.dialog/10177} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{f1e3b36 com.google.android.apps.wallpaper/10161} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{7adda37 com.google.android.odad/10122} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{b0cdba4 com.android.settings.auto_generated_rro_product__/10025} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{43dad0d com.android.internal.systemui.navbar.gestural/10051} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{e0ad4c2 com.google.android.apps.youtube.music/10156} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{77be2d3 com.android.bluetoothmidiservice/10106} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{10e0e10 com.android.storagemanager.auto_generated_rro_product__/10023} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{ba50d09 com.google.android.cellbroadcastreceiver/10172} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{d357b0e com.android.phone.auto_generated_rro_product__/10061} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{617d92f android.auto_generated_rro_product__/10069} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{5adfb3c com.android.internal.systemui.navbar.gestural_narrow_back/10052} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{a0870c5 com.google.android.inputmethod.latin/10141} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{5523a1a android.auto_generated_rro_vendor__/10075} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{bd2d94b com.google.android.apps.restore/10120} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{95b996a com.anoop.financetracker.debug/10192} -> PackageSetting{bd9560c com.google.android.contacts/10155} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{bd9560c com.google.android.contacts/10155} BLOCKED
+I/ActivityTaskManager(  525): Displayed com.anoop.financetracker.debug.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity for user 0: +1s351ms
+I/TestRunner( 5576): finished: TC_INST_01_app_installs_and_launches_to_a_usable_screen(com.anoop.financetracker.DeviceTest)
+I/TestRunner( 5576): started: TC_SEC_04_database_file_on_disk_is_encrypted(com.anoop.financetracker.DeviceTest)
+W/ActivityTaskManager(  525): Finishing task with all activities already finished
+W/ActivityTaskManager(  525): Duplicate finish request for r=ActivityRecord{b36b249 u0 com.anoop.financetracker.debug.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity t9 f}}
+I/ActivityTaskManager(  525): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.anoop.financetracker.debug/com.anoop.financetracker.MainActivity} with LAUNCH_MULTIPLE from uid 10192 (BAL_ALLOW_PERMISSION) result code=0
+W/ActivityTaskManager(  525): Activity top resumed state loss timeout for ActivityRecord{3ba461e u0 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t7}
+W/ActivityTaskManager(  525): Activity pause timeout for ActivityRecord{3ba461e u0 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t7}
+I/ActivityTaskManager(  525): Displayed com.anoop.financetracker.debug/com.anoop.financetracker.MainActivity for user 0: +895ms
+I/ImeTracker(  525): com.anoop.financetracker.debug:a7c3fa79: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+I/ImeTracker(  525): com.anoop.financetracker.debug:a7c3fa79: onCancelled at PHASE_SERVER_SHOULD_HIDE
+I/GoogleInputMethodService( 1539): GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.anoop.financetracker.debug fieldId=0 fieldName=null extras=null}, false)
+I/ActivityTaskManager(  525): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.anoop.financetracker.debug.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} with LAUNCH_MULTIPLE from uid 10192 (BAL_ALLOW_VISIBLE_WINDOW) result code=0
+I/ActivityTaskManager(  525): Displayed com.anoop.financetracker.debug.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity for user 0: +695ms
+I/TestRunner( 5576): finished: TC_SEC_04_database_file_on_disk_is_encrypted(com.anoop.financetracker.DeviceTest)
+I/TestRunner( 5576): started: TC_PERSIST_02_data_is_still_there_after_the_activity_is_recreated(com.anoop.financetracker.DeviceTest)
+I/ActivityTaskManager(  525): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.anoop.financetracker.debug/com.anoop.financetracker.MainActivity} with LAUNCH_MULTIPLE from uid 10192 (BAL_ALLOW_PERMISSION) result code=0
+I/ImeTracker(  525): com.anoop.financetracker.debug:6393c3b0: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+I/ImeTracker(  525): com.anoop.financetracker.debug:6393c3b0: onCancelled at PHASE_SERVER_SHOULD_HIDE
+I/GoogleInputMethodService( 1539): GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.anoop.financetracker.debug fieldId=0 fieldName=null extras=null}, false)
+I/ActivityTaskManager(  525): Displayed com.anoop.financetracker.debug/com.anoop.financetracker.MainActivity for user 0: +748ms
+I/ActivityThread( 5576): Schedule relaunch activity: com.anoop.financetracker.MainActivity
+I/WindowManager(  525): finishDrawing of relaunch: Window{c3f5e92 u0 com.anoop.financetracker.debug/com.anoop.financetracker.MainActivity} 78ms
+I/ActivityTaskManager(  525): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.anoop.financetracker.debug.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} with LAUNCH_MULTIPLE from uid 10192 (BAL_ALLOW_VISIBLE_WINDOW) result code=0
+I/TestRunner( 5576): finished: TC_PERSIST_02_data_is_still_there_after_the_activity_is_recreated(com.anoop.financetracker.DeviceTest)
+I/TestRunner( 5576): started: TC_INST_02_add_expense_end_to_end_on_device(com.anoop.financetracker.DeviceTest)
+W/ActivityTaskManager(  525): Finishing task with all activities already finished
+W/ActivityTaskManager(  525): Duplicate finish request for r=ActivityRecord{e44cf26 u0 com.anoop.financetracker.debug.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity t13 f}}
+I/ActivityTaskManager(  525): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.anoop.financetracker.debug/com.anoop.financetracker.MainActivity} with LAUNCH_MULTIPLE from uid 10192 (BAL_ALLOW_PERMISSION) result code=0
+I/ActivityTaskManager(  525): Displayed com.anoop.financetracker.debug/com.anoop.financetracker.MainActivity for user 0: +821ms
+I/ImeTracker(  525): com.anoop.financetracker.debug:ff067ab6: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+I/ImeTracker(  525): com.anoop.financetracker.debug:ff067ab6: onCancelled at PHASE_SERVER_SHOULD_HIDE
+I/GoogleInputMethodService( 1539): GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.anoop.financetracker.debug fieldId=0 fieldName=null extras=null}, false)
+I/GoogleInputMethodService( 1539): GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x2002(Number) imeOptions=0x2000005 privateImeOptions=null actionName=NEXT actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=null label=null packageName=com.anoop.financetracker.debug fieldId=-1 fieldName=null extras=Bundle[mParcelledData.dataSize=404]}, false)
+I/ImeTracker( 5576): com.anoop.financetracker.debug:859c4e75: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT_BY_INSETS_API
+I/GoogleInputMethodService( 1539): GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x2002(Number) imeOptions=0x2000005 privateImeOptions=null actionName=NEXT actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=null label=null packageName=com.anoop.financetracker.debug fieldId=-1 fieldName=null extras=Bundle[mParcelledData.dataSize=404]}, true)
+I/GoogleInputMethodService( 1539): GoogleInputMethodService.onStartInputView():1995 onStartInputView(EditorInfo{inputType=0x2002(Number) imeOptions=0x2000005 privateImeOptions=null actionName=NEXT actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=null label=null packageName=com.anoop.financetracker.debug fieldId=-1 fieldName=null extras=Bundle[{android.support.text.emoji.emojiCompat_metadataVersion=9, androidx.core.view.inputmethod.EditorInfoCompat.STYLUS_HANDWRITING_ENABLED=true, android.support.text.emoji.emojiCompat_replaceAll=false}]}, false)
+I/ImeTracker( 5576): com.anoop.financetracker.debug:2b3c4323: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
+I/ImeTracker(  525): com.anoop.financetracker.debug:859c4e75: onFailed at PHASE_WM_SHOW_IME_RUNNER
+I/ImeTracker(  525): com.anoop.financetracker.debug:aa6bd3c0: onRequestShow at ORIGIN_SERVER_START_INPUT reason ATTACH_NEW_INPUT
+I/GoogleInputMethodService( 1539): GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x28001(Normal) imeOptions=0x42000000 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=null label=null packageName=com.anoop.financetracker.debug fieldId=-1 fieldName=null extras=Bundle[mParcelledData.dataSize=404]}, true)
+I/ImeTracker( 5576): com.anoop.financetracker.debug:889e05c6: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT_BY_INSETS_API
+I/ImeTracker( 5576): com.anoop.financetracker.debug:29bce0e0: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
+I/AndroidIME( 1539): AbstractIme.onActivate():86 LatinIme.onActivate() : EditorInfo = inputType=0x28001(Normal) imeOptions=0x42000000 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=null label=null packageName=com.anoop.financetracker.debug fieldId=-1 fieldName=null extras=Bundle[mParcelledData.dataSize=404], IncognitoMode = false, DeviceLocked = false
+I/ImeTracker( 5576): com.anoop.financetracker.debug:2b3c4323: onShown
+I/GoogleInputMethodService( 1539): GoogleInputMethodService.onStartInputView():1995 onStartInputView(EditorInfo{inputType=0x28001(Normal) imeOptions=0x42000000 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=null label=null packageName=com.anoop.financetracker.debug fieldId=-1 fieldName=null extras=Bundle[{android.support.text.emoji.emojiCompat_metadataVersion=9, androidx.core.view.inputmethod.EditorInfoCompat.STYLUS_HANDWRITING_ENABLED=true, android.support.text.emoji.emojiCompat_replaceAll=false}]}, true)
+I/AndroidIME( 1539): AbstractIme.onActivate():86 LatinIme.onActivate() : EditorInfo = inputType=0x28001(Normal) imeOptions=0x42000000 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=null label=null packageName=com.anoop.financetracker.debug fieldId=-1 fieldName=null extras=Bundle[{android.support.text.emoji.emojiCompat_metadataVersion=9, androidx.core.view.inputmethod.EditorInfoCompat.STYLUS_HANDWRITING_ENABLED=true, android.support.text.emoji.emojiCompat_replaceAll=false}], IncognitoMode = false, DeviceLocked = false
+I/ImeTracker(  525): com.anoop.financetracker.debug:aa6bd3c0: onFailed at PHASE_WM_SHOW_IME_RUNNER
+I/ImeTracker(  525): com.anoop.financetracker.debug:889e05c6: onFailed at PHASE_WM_SHOW_IME_RUNNER
+I/ImeTracker( 5576): com.anoop.financetracker.debug:29bce0e0: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+I/ImeTracker( 5576): com.anoop.financetracker.debug:406f5d4c: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT_BY_INSETS_API
+I/ImeTracker( 5576): com.anoop.financetracker.debug:1f67ef03: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT_BY_INSETS_API
+I/GoogleInputMethodService( 1539): GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.anoop.financetracker.debug fieldId=0 fieldName=null extras=null}, true)
+I/ImeTracker( 5576): com.anoop.financetracker.debug:1f67ef03: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+I/ImeTracker( 5576): com.anoop.financetracker.debug:49b52740: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT_BY_INSETS_API
+I/ImeTracker(  525): com.anoop.financetracker.debug:49b52740: onCancelled at PHASE_SERVER_SHOULD_HIDE
+I/ImeTracker( 5576): com.anoop.financetracker.debug:406f5d4c: onHidden
+I/ActivityTaskManager(  525): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.anoop.financetracker.debug.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} with LAUNCH_MULTIPLE from uid 10192 (BAL_ALLOW_VISIBLE_WINDOW) result code=0
+W/system_server(  525): Long monitor contention with owner android.anim (548) at void com.android.server.wm.WindowAnimator.lambda$new$1(long)(WindowAnimator.java:103) waiters=1 in android.app.ActivityTaskManager$RootTaskInfo com.android.server.wm.ActivityTaskManagerService.getRootTaskInfo(int, int) for 102ms
+I/ActivityTaskManager(  525): Displayed com.anoop.financetracker.debug.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity for user 0: +490ms
+I/ImeTracker(  525): com.anoop.financetracker.debug.test:54e32472: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+I/ImeTracker(  525): com.anoop.financetracker.debug.test:54e32472: onCancelled at PHASE_SERVER_SHOULD_HIDE
+I/GoogleInputMethodService( 1539): GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.anoop.financetracker.debug.test fieldId=0 fieldName=null extras=null}, false)
+I/WindowManager(  525): setOnBackInvokedCallback(): No window state for package:com.anoop.financetracker.debug.test
+I/TestRunner( 5576): finished: TC_INST_02_add_expense_end_to_end_on_device(com.anoop.financetracker.DeviceTest)
+I/TestRunner( 5576): started: tour(com.anoop.financetracker.ScreenshotTour)
+I/ActivityTaskManager(  525): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.anoop.financetracker.debug/com.anoop.financetracker.MainActivity} with LAUNCH_MULTIPLE from uid 10192 (BAL_ALLOW_PERMISSION) result code=0
+I/AppsFilter(  525): interaction: PackageSetting{95b996a com.anoop.financetracker.debug/10192} -> PackageSetting{3088fb2 com.google.android.contacts/10155} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{3088fb2 com.google.android.contacts/10155} BLOCKED
+I/ActivityTaskManager(  525): Displayed com.anoop.financetracker.debug/com.anoop.financetracker.MainActivity for user 0: +768ms
+I/ImeTracker(  525): com.anoop.financetracker.debug:68d0c929: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+I/ImeTracker(  525): com.anoop.financetracker.debug:68d0c929: onCancelled at PHASE_SERVER_SHOULD_HIDE
+I/GoogleInputMethodService( 1539): GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.anoop.financetracker.debug fieldId=0 fieldName=null extras=null}, false)
+E/FrameTracker( 5576): force finish cuj, time out: J<IME_INSETS_ANIMATION::0@1@com.anoop.financetracker.debug>
+E/FrameTracker( 5576): force finish cuj, time out: J<IME_INSETS_ANIMATION::1@1@com.anoop.financetracker.debug>
+I/AppsFilter(  525): interaction: PackageSetting{95b996a com.anoop.financetracker.debug/10192} -> PackageSetting{5bd0d0c com.google.android.contacts/10155} BLOCKED
+I/AppsFilter(  525): interaction: PackageSetting{1df9d3f com.anoop.financetracker.debug.test/10193} -> PackageSetting{5bd0d0c com.google.android.contacts/10155} BLOCKED
+I/ActivityTaskManager(  525): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.anoop.financetracker.debug.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} with LAUNCH_MULTIPLE from uid 10192 (BAL_ALLOW_VISIBLE_WINDOW) result code=0
+I/TestRunner( 5576): finished: tour(com.anoop.financetracker.ScreenshotTour)
+I/TestRunner( 5576): run finished: 5 tests, 0 failed, 0 ignored
+I/ActivityManager(  525): Force stopping com.anoop.financetracker.debug appid=10192 user=0: finished inst
+I/AndroidRuntime( 5550): VM exiting with result code 0.
+I/ActivityManager(  525): Killing 5576:com.anoop.financetracker.debug/u0a192 (adj 0): stop com.anoop.financetracker.debug due to finished inst
+I/WindowManager(  525): setOnBackInvokedCallback(): No window state for package:com.anoop.financetracker.debug.test
+I/ActivityManager(  525): Force stopping com.anoop.financetracker.debug appid=10192 user=-1: deletePackageX
+I/PermissionManager(  525): Removing permission com.anoop.financetracker.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION that used to be declared by com.anoop.financetracker.debug
+I/ActivityManager(  525): Force stopping com.anoop.financetracker.debug appid=10192 user=0: pkg removed
+I/RollbackManager(  525): broadcast=ACTION_PACKAGE_FULLY_REMOVED pkg=com.anoop.financetracker.debug
+I/ActivityManager(  525): Force stopping com.anoop.financetracker.debug.test appid=10193 user=-1: deletePackageX
+I/ActivityManager(  525): Killing 5853:com.anoop.financetracker.debug.test/u0a193 (adj 900): stop com.anoop.financetracker.debug.test due to deletePackageX
+I/PasspointManager(  525): No app ops listener found for com.anoop.financetracker.debug
+I/PasspointManager(  525): No app ops listener found for com.anoop.financetracker.debug
+I/ActivityManager(  525): Force stopping com.anoop.financetracker.debug.test appid=10193 user=0: pkg removed
+I/BlockstoreStorage( 5463): Clearing all the Blockstore Data for package com.anoop.financetracker.debug [CONTEXT service_id=258 ]
+I/Telecom (  525): CarModeTracker: Package com.anoop.financetracker.debug is not tracked.: SSH.oR@ATE🔒
+I/ProximityAuth( 5410): [RecentAppsMediator] Package removed: (user=UserHandle{0}) com.anoop.financetracker.debug
+I/Icing   ( 5463): doRemovePackageData com.anoop.financetracker.debug
+I/RollbackManager(  525): broadcast=ACTION_PACKAGE_FULLY_REMOVED pkg=com.anoop.financetracker.debug.test
+I/ConditionProviders(  525): Disallowing condition provider com.anoop.financetracker.debug (userSet: true)
+I/PasspointManager(  525): No app ops listener found for com.anoop.financetracker.debug.test
+I/AiAiEcho( 1667): AppFetcherImplV2 onPackageRemoved com.anoop.financetracker.debug.
+I/PasspointManager(  525): No app ops listener found for com.anoop.financetracker.debug.test
+I/Telecom (  525): CarModeTracker: Package com.anoop.financetracker.debug.test is not tracked.: SSH.oR@ATQ🔒
+I/ConditionProviders(  525): Disallowing condition provider com.anoop.financetracker.debug.test (userSet: true)
+I/ProximityAuth( 5410): [RecentAppsMediator] Package removed: (user=UserHandle{0}) com.anoop.financetracker.debug.test
+I/BlockstoreStorage( 5463): Clearing all the Blockstore Data for package com.anoop.financetracker.debug.test [CONTEXT service_id=258 ]
+I/Icing   ( 5463): doRemovePackageData com.anoop.financetracker.debug.test
+I/AiAiEcho( 1667): AppFetcherImplV2 onPackageRemoved com.anoop.financetracker.debug.test.

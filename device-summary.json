@@ -1,0 +1,49 @@
+{
+ "kind": "device",
+ "errors": [],
+ "tests": [
+  {
+   "class": "com.anoop.financetracker.DeviceTest",
+   "name": "TC_INST_01_app_installs_and_launches_to_a_usable_screen",
+   "status": "Pass",
+   "time": 11.236,
+   "message": ""
+  },
+  {
+   "class": "com.anoop.financetracker.DeviceTest",
+   "name": "TC_SEC_04_database_file_on_disk_is_encrypted",
+   "status": "Pass",
+   "time": 4.281,
+   "message": ""
+  },
+  {
+   "class": "com.anoop.financetracker.DeviceTest",
+   "name": "TC_PERSIST_02_data_is_still_there_after_the_activity_is_recreated",
+   "status": "Pass",
+   "time": 3.772,
+   "message": ""
+  },
+  {
+   "class": "com.anoop.financetracker.DeviceTest",
+   "name": "TC_INST_02_add_expense_end_to_end_on_device",
+   "status": "Pass",
+   "time": 9.543,
+   "message": ""
+  },
+  {
+   "class": "com.anoop.financetracker.ScreenshotTour",
+   "name": "tour",
+   "status": "Pass",
+   "time": 15.27,
+   "message": ""
+  }
+ ],
+ "launch_ms": [
+  1332,
+  1231,
+  1205
+ ],
+ "device": "model: sdk_gphone64_x86_64\nandroid: 14 (API 34)\nabi: x86_64\n",
+ "passed": 5,
+ "failed": 0
+}
