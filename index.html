@@ -4091,6 +4091,83 @@ table tbody tr:hover{background:color-mix(in srgb,var(--accent) 6%,transparent)}
 .mkt .cdv,.mkt .sess.zone .cdv{font-size:13px!important}
 .mkt .cdl,.mkt .stp{font-size:9.5px!important}
 @media (max-width:640px){.mkt .ck,.mkt .sess .s{display:none!important}.mkt .dock-row{grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:6px!important}.mkt .sess{padding:6px 3px!important}.mkt .sess .t{font-size:12px!important}.mkt .cdv,.mkt .sess.zone .cdv{font-size:11.5px!important}}
+/* ================= Personal dashboard (dark glass) ================= */
+.pfd{--pf-fg:#E9EBFF;--pf-mu:#9CA3D6;--pf-ln:rgba(140,150,255,.22);--pf-in:#6C7BFF;--pf-vi:#8A5CFF;--pf-mg:#D63AF9;--pf-cy:#3FD0FF;
+  color:var(--pf-fg);background:radial-gradient(120% 80% at 10% 0%,#2A2F72 0%,transparent 55%),radial-gradient(90% 70% at 100% 100%,#3A1D6E 0%,transparent 60%),linear-gradient(160deg,#1C2050,#12153A 60%,#0E1130);
+  border:1px solid rgba(120,130,255,.35);border-radius:24px;padding:14px;margin-bottom:16px;box-shadow:0 18px 40px rgba(14,17,48,.35),inset 0 1px 0 rgba(255,255,255,.08);color-scheme:dark}
+.pfd button{font:inherit;cursor:pointer}
+.pfd-top{display:flex;gap:12px;align-items:center;margin-bottom:12px}
+.pfd-brand{display:flex;align-items:center;gap:8px;font-size:11px;font-weight:700;letter-spacing:.06em;line-height:1.15;color:var(--pf-fg);padding-right:12px;border-right:1px solid var(--pf-ln);flex:none}
+.pfd-brand svg{width:26px;height:26px}
+.pfd-months{display:flex;gap:4px;align-items:center;flex:1;min-width:0;overflow-x:auto;padding:5px;border:1px solid var(--pf-ln);border-radius:12px;background:rgba(255,255,255,.04);scrollbar-width:none}
+.pfd-months::-webkit-scrollbar{display:none}
+.pfd-months button{flex:1 0 auto;min-width:54px;border:1px solid rgba(140,150,255,.18);background:rgba(10,12,40,.45);color:var(--pf-mu);font-size:10.5px;letter-spacing:.04em;text-transform:uppercase;padding:6px 6px;border-radius:7px}
+.pfd-months button.has{color:var(--pf-fg);background:rgba(108,123,255,.18)}
+.pfd-months button.on{color:#fff;background:linear-gradient(135deg,#6C7BFF,#8A5CFF);border-color:transparent;box-shadow:0 0 14px rgba(124,108,255,.6)}
+.pfd-months button.yr{min-width:auto;flex:none;color:var(--pf-fg);font-weight:700;letter-spacing:0}
+.pfd-body{display:grid;grid-template-columns:118px minmax(0,1fr);gap:12px}
+.pfd-nav{display:flex;flex-direction:column;gap:4px;padding:10px 6px;border:1px solid var(--pf-ln);border-radius:18px;background:rgba(255,255,255,.04);align-self:start}
+.pfd-nav button{display:flex;flex-direction:column;align-items:center;gap:3px;border:0;background:none;color:var(--pf-mu);font-size:12px;padding:8px 4px;border-radius:12px}
+.pfd-nav button span{font-size:20px;filter:grayscale(.2)}
+.pfd-nav button.on,.pfd-nav button:hover{color:#fff;background:rgba(108,123,255,.18)}
+.pfd-main{min-width:0}
+.pfd-act{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+.pfd-act button{border:1px solid var(--pf-ln);background:rgba(255,255,255,.06);color:var(--pf-fg);font-size:12.5px;font-weight:600;padding:7px 12px;border-radius:999px;min-height:34px}
+.pfd-act button:hover{border-color:var(--pf-in);background:rgba(108,123,255,.2)}
+.pfd-act button.hot{background:linear-gradient(135deg,#6C7BFF,#D63AF9);border-color:transparent}
+.pfd-grid{display:grid;gap:12px;grid-template-columns:repeat(4,minmax(0,1fr));grid-template-areas:"trend trend ratio bal" "bud inv goal sum" "bud debt goal sum"}
+.pfd-card{position:relative;min-width:0;border:1px solid var(--pf-ln);border-radius:18px;padding:12px 14px;background:linear-gradient(160deg,rgba(255,255,255,.07),rgba(255,255,255,.02));box-shadow:inset 0 1px 0 rgba(255,255,255,.07),0 8px 20px rgba(5,6,25,.25);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}
+.c-trend{grid-area:trend}.c-ratio{grid-area:ratio}.c-bal{grid-area:bal;cursor:pointer}.c-bud{grid-area:bud}.c-inv{grid-area:inv}.c-debt{grid-area:debt}.c-goal{grid-area:goal}.c-sum{grid-area:sum}
+.pfd-h{display:flex;gap:16px;align-items:baseline;flex-wrap:wrap;font-size:13px;color:var(--pf-fg);margin-bottom:6px}
+.pfd-h b{color:#8FA0FF;font-family:var(--f-mono);font-size:13.5px}.pfd-h b.mg{color:#E36BFF}
+.pfd-h small{margin-left:auto;color:var(--pf-mu)}
+.pfd-cbox{position:relative;height:190px}
+.pfd-t{display:flex;align-items:center;gap:8px;font-size:13px;font-weight:600;margin-bottom:6px}
+.pfd-t b{margin-left:auto;font-family:var(--f-mono);font-size:13.5px}
+.pfd-t small{color:var(--pf-mu);font-weight:500}
+.pfd-ed{border:1px solid var(--pf-ln);background:rgba(255,255,255,.06);color:var(--pf-fg);width:26px;height:26px;border-radius:8px;display:grid;place-items:center;font-size:13px;padding:0;flex:none}
+.pfd-ed:hover{border-color:var(--pf-in)}
+.pfd-ring{display:grid;place-items:center}
+.pfd-ring svg{width:100%;max-width:170px;height:auto;overflow:visible}
+.pfd-ring text{fill:var(--pf-fg);font-family:var(--f-mono)}
+.pfd-leg{display:flex;justify-content:center;gap:14px;font-size:11.5px;color:var(--pf-mu);margin-top:4px}
+.pfd-leg i{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px;vertical-align:1px}
+.pfd-bank{position:relative;aspect-ratio:1.7;max-width:230px;margin:2px auto 8px;border-radius:14px;padding:12px;background:linear-gradient(135deg,#2A2F72,#171A45 70%);border:1px solid rgba(160,170,255,.35);box-shadow:0 10px 24px rgba(5,6,25,.45),inset 0 1px 0 rgba(255,255,255,.12)}
+.pfd-bank .chipc{position:absolute;left:14px;top:30%;width:34px;height:26px;border-radius:6px;background:linear-gradient(135deg,#F8E08E,#C9A43A);box-shadow:inset 0 0 0 1px rgba(0,0,0,.25)}
+.pfd-bank .ico{position:absolute;right:12px;top:10px;font-size:11px;color:var(--pf-mu);letter-spacing:.1em}
+.pfd-bank .no{position:absolute;left:14px;bottom:12px;font-family:var(--f-mono);font-size:11.5px;color:var(--pf-mu);letter-spacing:.08em}
+.pfd-bank .no b{color:var(--pf-fg)}
+.pfd-balv{display:flex;justify-content:center;align-items:baseline;gap:8px;font-size:15px}
+.pfd-balv b{font-family:var(--f-mono);font-size:19px}
+.pfd-sub{display:block;text-align:center;color:var(--pf-mu);font-size:11.5px;margin-top:2px}
+.pfd-mini{display:flex;flex-direction:column;gap:3px;margin-top:6px;font-size:11.5px;color:var(--pf-mu)}
+.pfd-mini div,.pfd-lg div{display:flex;align-items:center;gap:6px;min-width:0}
+.pfd-mini span,.pfd-lg span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1;min-width:0}
+.pfd-mini b,.pfd-lg b{font-family:var(--f-mono);color:var(--pf-fg);font-weight:600}
+.pfd-mini i,.pfd-lg i{width:8px;height:8px;border-radius:50%;flex:none}
+.pfd-lg{display:flex;flex-direction:column;gap:3px;font-size:11.5px;color:var(--pf-mu)}
+.pfd-lg button{display:flex;align-items:center;gap:6px;border:0;background:none;color:inherit;padding:2px 0;text-align:left;min-width:0}
+.pfd-lg button:hover span{color:#fff}
+.pfd-fan{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:8px;align-items:center}
+.pfd-fan svg{width:100%;height:auto}
+.pfd-empty{font-size:12px;color:var(--pf-mu);padding:8px 0}
+.pfd-empty button{border:1px dashed var(--pf-ln);background:none;color:var(--pf-fg);border-radius:8px;padding:4px 8px;margin-left:4px}
+.pfd-goal{display:grid;gap:8px}
+.pfd-list{display:flex;flex-direction:column;gap:6px;height:100%;justify-content:space-between}
+.pfd-list button{display:flex;align-items:center;gap:10px;border:0;background:none;color:var(--pf-fg);padding:5px 2px;border-radius:10px;text-align:left;font-size:13px}
+.pfd-list button:hover{background:rgba(108,123,255,.14)}
+.pfd-list .ic{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;font-size:14px;flex:none;box-shadow:0 0 10px var(--g)}
+.pfd-list .nm{flex:1;min-width:0}
+.pfd-list b{font-family:var(--f-mono);font-size:12.5px}
+.pfd{min-width:0;max-width:100%}.pfd-top,.pfd-nav,.pfd-main,.pfd-body>*{min-width:0}
+.pfd-fan{grid-template-columns:minmax(0,1fr)}.pfd-fan svg{max-height:84px}
+.pfd-lg span{min-width:48px}
+.pfd-balv{flex-wrap:wrap;font-size:14px}.pfd-balv b{font-size:17px}
+.pfd-list button{display:grid;grid-template-columns:30px minmax(0,1fr);grid-template-rows:auto auto;column-gap:10px;row-gap:0;padding:4px 2px}
+.pfd-list .ic{grid-row:1/3}.pfd-list .nm{font-size:11.5px;color:var(--pf-mu)}.pfd-list b{font-size:13px}
+@media (max-width:1180px){.pfd-grid{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-areas:"trend trend" "ratio bal" "bud goal" "inv debt" "sum sum"}}
+@media (max-width:900px){.pfd-body{grid-template-columns:minmax(0,1fr)}.pfd-nav{flex-direction:row;overflow-x:auto;padding:5px;border-radius:14px;scrollbar-width:none}.pfd-nav::-webkit-scrollbar{display:none}.pfd-nav button{flex:1 0 auto;flex-direction:row;font-size:12px;padding:7px 10px}.pfd-nav button span{font-size:15px}.pfd-brand{display:none}}
+@media (max-width:640px){.pfd{padding:10px;border-radius:18px}.pfd-grid{grid-template-columns:minmax(0,1fr);grid-template-areas:"trend" "ratio" "bal" "bud" "goal" "inv" "debt" "sum"}.pfd-cbox{height:170px}.pfd-card{padding:10px 12px}.pfd-ring svg{max-width:150px}}
 </style>
 
 <header class="hero">
@@ -4232,16 +4309,43 @@ table tbody tr:hover{background:color-mix(in srgb,var(--accent) 6%,transparent)}
   </section>
 
   <section class="view" id="v-pover" hidden>
-    <div class="row pact"><button class="btn" type="button" data-padd="transfer">⇄ Transfer</button><button class="btn" type="button" data-padd="bill">+ Bill</button><button class="btn" type="button" data-padd="income">+ Income</button><button class="btn primary" type="button" data-padd="expense">+ Expense</button></div>
-    <div class="kpis mk" id="poKpis"></div>
-    <div class="pgrid"><div class="panel" style="--k:var(--c-sky)"><h2><span class="chip"></span>Accounts <small id="poNet"></small><button class="btn small" type="button" data-goto="pacct" style="margin-left:8px">Manage</button></h2><div class="acc-list" id="poAccts"></div></div><div class="panel" style="--k:var(--c-coral)"><h2><span class="chip"></span>Bills due <button class="btn small" type="button" data-goto="pbill" style="margin-left:auto">All bills</button></h2><div class="agenda" id="poBills"></div></div></div>
-    <div class="pgrid">
-      <div class="panel" style="--k:var(--c-violet)"><h2><span class="chip"></span>Budget this month <button class="btn small" type="button" data-goto="pbud" style="margin-left:auto">Budget</button></h2><div class="bud" id="poBud"></div></div>
-      <div class="panel" style="--k:var(--c-teal)"><h2><span class="chip"></span>Goals <button class="btn small" type="button" data-goto="pgoal" style="margin-left:auto">All goals</button></h2><div class="goals" id="poGoals"></div></div>
-      <div class="panel" style="--k:var(--c-lime)"><h2><span class="chip"></span>Income vs expenses <small>last 6 months</small></h2><div class="cbox"><canvas id="chPTrend"></canvas></div></div>
-      <div class="panel" style="--k:var(--c-pink)"><h2><span class="chip"></span>Where the money went</h2><div class="cbox donut"><canvas id="chPCat"></canvas><div class="dcenter" id="poCatCenter"></div></div><div class="legend" id="poCatLegend"></div></div>
+    <div class="pfd" id="pfd">
+      <div class="pfd-top">
+        <div class="pfd-brand"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 3v9h9" fill="none" stroke="currentColor" stroke-width="1.6"/></svg><span>PERSONAL<br>FINANCE</span></div>
+        <div class="pfd-months" id="pfdMonths" role="group" aria-label="Choose month"></div>
+      </div>
+      <div class="pfd-body">
+        <nav class="pfd-nav" aria-label="Personal finance sections">
+          <button type="button" class="on" data-goto="pover"><span>🏠</span>Dashboard</button>
+          <button type="button" data-goto="pbud"><span>💰</span>Budgeting</button>
+          <button type="button" data-goto="pinc"><span>📈</span>Income</button>
+          <button type="button" data-goto="pexp"><span>📉</span>Expenses</button>
+          <button type="button" data-goto="pacct"><span>🌱</span>Investment</button>
+          <button type="button" data-goto="pbill"><span>🔒</span>Debts</button>
+          <button type="button" data-goto="pgoal"><span>🎯</span>Fin Goals</button>
+        </nav>
+        <div class="pfd-main">
+          <div class="pfd-act" role="group" aria-label="Update your data">
+            <button type="button" data-padd="income">+ Income</button><button type="button" class="hot" data-padd="expense">+ Expense</button><button type="button" data-padd="transfer">⇄ Transfer</button><button type="button" data-padd="bill">+ Bill</button><button type="button" data-pfd="budget">✎ Budget</button><button type="button" data-pfd="goal">+ Goal</button><button type="button" data-pfd="acct">+ Account</button>
+          </div>
+          <div class="pfd-grid">
+            <div class="pfd-card c-trend"><div class="pfd-h"><span>Income <b id="pfdInc"></b></span><span>Expenses <b class="mg" id="pfdExp"></b></span><small id="pfdYear"></small></div><div class="pfd-cbox"><canvas id="chPFD"></canvas></div></div>
+            <div class="pfd-card c-ratio"><div class="pfd-t">Ratio Income <small id="pfdRatioM"></small></div><div class="pfd-ring" id="pfdRatio"></div><div class="pfd-leg"><span><i style="background:#6c7bff"></i>Income</span><span><i style="background:#d63af9"></i>Expenses</span></div></div>
+            <div class="pfd-card c-bal" data-goto="pacct" role="button" tabindex="0" title="Open personal accounts"><div class="pfd-bank"><span class="chipc"></span><span class="ico">☾ ☼ )))</span><span class="no">**** **** **** <b id="pfdL4">0000</b></span></div><div class="pfd-balv"><span>Balance:</span><b id="pfdBal"></b></div><small class="pfd-sub" id="pfdNet"></small></div>
+            <div class="pfd-card c-bud"><div class="pfd-t">Budget <b id="pfdBudT"></b><button type="button" class="pfd-ed" data-pfd="budget" aria-label="Edit budget">✎</button></div><div class="pfd-ring" id="pfdBud"></div><div class="pfd-mini" id="pfdBudL"></div></div>
+            <div class="pfd-card c-inv"><div class="pfd-t">Invest <b id="pfdInvT"></b><button type="button" class="pfd-ed" data-pfd="invest" aria-label="Add investment">+</button></div><div id="pfdInv"></div></div>
+            <div class="pfd-card c-debt"><div class="pfd-t">Debts <b id="pfdDebtT"></b><button type="button" class="pfd-ed" data-pfd="debt" aria-label="Add debt">+</button></div><div id="pfdDebt"></div></div>
+            <div class="pfd-card c-goal"><div class="pfd-t">Financial Goals <b id="pfdGoalT"></b><button type="button" class="pfd-ed" data-pfd="goal" aria-label="Add goal">+</button></div><div class="pfd-goal" id="pfdGoal"></div></div>
+            <div class="pfd-card c-sum"><div class="pfd-list" id="pfdSum"></div></div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="panel" style="--k:var(--c-sky)"><h2><span class="chip"></span>Recent transactions <button class="btn small" type="button" data-goto="pexp" style="margin-left:auto">Expenses</button><button class="btn small" type="button" data-goto="pinc">Income</button></h2><div class="txl" id="poTx"></div></div>
+    <div hidden aria-hidden="true"><div id="poKpis"></div><small id="poNet"></small><div id="poAccts"></div><div id="poBud"></div><div id="poGoals"></div><div class="cbox"><canvas id="chPTrend"></canvas></div><div class="cbox donut"><canvas id="chPCat"></canvas><div class="dcenter" id="poCatCenter"></div></div><div id="poCatLegend"></div></div>
+    <div class="pgrid">
+      <div class="panel" style="--k:var(--c-sky)"><h2><span class="chip"></span>Recent transactions <button class="btn small" type="button" data-goto="pexp" style="margin-left:auto">Expenses</button><button class="btn small" type="button" data-goto="pinc">Income</button></h2><div class="txl" id="poTx"></div></div>
+      <div class="panel" style="--k:var(--c-coral)"><h2><span class="chip"></span>Bills due <button class="btn small" type="button" data-goto="pbill" style="margin-left:auto">All bills</button></h2><div class="agenda" id="poBills"></div></div>
+    </div>
   </section>
 
   <section class="view" id="v-pexp" hidden>
@@ -6230,7 +6334,84 @@ function renderPersonal(){
     mount("chBVA",rows.length?{type:"bar",data:{labels:rows.map(r=>r[0][1]),datasets:[{label:"Budget",data:rows.map(r=>r[1]),backgroundColor:alpha(pal.muted,.28),borderRadius:4,maxBarThickness:14},{label:"Spent",data:rows.map(r=>+r[2].toFixed(3)),backgroundColor:rows.map(r=>r[1]&&r[2]>r[1]?alpha(pal.loss,.85):alpha(pal["--c-violet"],.85)),borderRadius:4,maxBarThickness:14}]},
       options:opts(pal,{indexAxis:"y",plugins:{legend:{display:true,position:"top",align:"end",labels:{color:pal.muted,boxWidth:10,boxHeight:10,font:{size:11.5}}},tooltip:{...TIP,callbacks:{label:c=>" "+c.dataset.label+" "+mFmt(c.parsed.x)}}},scales:{x:{grid:{color:pal.line},border:{display:false},ticks:{color:pal.muted,font:{family:"JetBrains Mono",size:10.5},callback:v=>compact(v),maxTicksLimit:5}},y:{grid:{display:false},ticks:{color:pal.fg,font:{size:11.5}}}}})}:null,"Set budgets to compare against spending.")}
 }
-function renderPersonal2(){renderBillsPage();renderAcctsPage();renderOverviewExtras()}
+function renderPersonal2(){renderBillsPage();renderAcctsPage();renderOverviewExtras();try{renderPFD()}catch(e){console.error(e)}}
+/* ===================== Personal dashboard (dark glass) ===================== */
+const PFD_MON=["JANUARY","FEBRUARY","MARCH","APRIL","MAY","JUNE","JULY","AUGUST","SEPTEMBER","OCTOBER","NOVEMBER","DECEMBER"];
+const PFD_COL=["#6C7BFF","#D63AF9","#3FD0FF","#8A5CFF","#22D3C5","#FF7AC6","#FFC861","#9BE15D"];
+function pfdArc(cx,cy,r,a0,a1){const p=a=>[cx+r*Math.cos(a),cy+r*Math.sin(a)],[x0,y0]=p(a0),[x1,y1]=p(a1);return `M${x0.toFixed(2)} ${y0.toFixed(2)}A${r} ${r} 0 ${a1-a0>Math.PI?1:0} 1 ${x1.toFixed(2)} ${y1.toFixed(2)}`}
+function pfdRing(segs,center,sub,opt){opt=opt||{};const R=opt.r||46,W=opt.w||12,T=Math.PI*2,st=-Math.PI/2;let a=st,out="";
+  const tot=segs.reduce((s,x)=>s+x.v,0),cap=opt.full||tot;
+  out+=`<circle cx="60" cy="60" r="${R}" fill="none" stroke="rgba(140,150,255,.14)" stroke-width="${W}"/>`;
+  if(cap>0)segs.forEach(sg=>{if(sg.v<=0)return;const sw=Math.min(T-.0001,sg.v/cap*T);if(sw<=0)return;const b=Math.min(a+sw,st+T-.0001);out+=`<path d="${pfdArc(60,60,R,a,b)}" fill="none" stroke="${sg.c}" stroke-width="${W}" stroke-linecap="${opt.round?"round":"butt"}" style="filter:drop-shadow(0 0 4px ${sg.c})"/>`;a=b});
+  if(opt.knob&&cap>0&&tot>0){const k=st+(segs[0].v/cap)*T;out+=`<circle cx="${(60+R*Math.cos(k)).toFixed(2)}" cy="${(60+R*Math.sin(k)).toFixed(2)}" r="6" fill="#12153A" stroke="#fff" stroke-width="2"/>`}
+  return `<svg viewBox="0 0 120 120" role="img" aria-label="${esc(sub||"")} ${esc(center)}">${out}${sub?`<text x="60" y="54" text-anchor="middle" font-size="9" style="fill:var(--pf-mu)">${esc(sub)}</text>`:""}<text x="60" y="${sub?71:65}" text-anchor="middle" font-size="${String(center).length>5?15:19}" font-weight="700">${esc(center)}</text></svg>`}
+function renderPFD(){
+  const box=$("#pfd");if(!box||!state.money)return;
+  const mo=state.money,y=mui.month.getFullYear(),m=mui.month.getMonth(),P=pMonth();
+  // month strip
+  const has=new Set(mo.tx.map(t=>String(t.date).slice(0,7)));
+  $("#pfdMonths").innerHTML=`<button type="button" class="yr" data-pfdy="-1" aria-label="Previous year">‹ ${y-1}</button>`+PFD_MON.map((n,i)=>{const k=y+"-"+String(i+1).padStart(2,"0");return `<button type="button" data-pfdm="${i}" class="${i===m?"on":has.has(k)?"has":""}" aria-pressed="${i===m}">${n}</button>`}).join("")+`<button type="button" class="yr" data-pfdy="1" aria-label="Next year">${y+1} ›</button>`;
+  // year totals + chart
+  const inc=Array(12).fill(0),exp=Array(12).fill(0);
+  for(const t of mo.tx){const d=String(t.date);if(d.slice(0,4)!==String(y))continue;const i=+d.slice(5,7)-1;if(i<0||i>11)continue;if(t.type==="income")inc[i]+=+t.amount||0;else if(t.type==="expense")exp[i]+=+t.amount||0}
+  const yi=inc.reduce((a,b)=>a+b,0),ye=exp.reduce((a,b)=>a+b,0);
+  $("#pfdInc").textContent=mFmt(yi);$("#pfdExp").textContent=mFmt(ye);$("#pfdYear").textContent=String(y);
+  if(ui.tab==="pover"){const cv=$("#chPFD");
+    mount("chPFD",{type:"bar",data:{labels:PFD_MON.map(s=>s.slice(0,3)),datasets:[
+      {type:"line",label:"Expenses",data:exp.map(v=>+v.toFixed(3)),borderColor:"#D63AF9",backgroundColor:"#D63AF9",borderWidth:2,tension:.35,pointRadius:3,pointBackgroundColor:"#F3B4FF",order:0},
+      {label:"Income",data:inc.map(v=>+v.toFixed(3)),order:1,borderRadius:5,maxBarThickness:22,backgroundColor:c=>{const ch=c.chart,a=ch.chartArea;if(!a)return"#6C7BFF";const g=ch.ctx.createLinearGradient(0,a.bottom,0,a.top);g.addColorStop(0,"#3B3FD8");g.addColorStop(1,"#8FA0FF");return g}}]},
+      options:{responsive:true,maintainAspectRatio:false,animation:{duration:400},plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>" "+c.dataset.label+": "+mFmt(c.parsed.y)}}},onClick:(e,els)=>{if(els&&els.length){mui.month=new Date(y,els[0].index,1);renderPersonal()}},
+        scales:{x:{grid:{display:false},ticks:{color:"#9CA3D6",font:{size:10}}},y:{grid:{color:"rgba(140,150,255,.12)"},border:{display:false},ticks:{color:"#9CA3D6",font:{size:10},callback:v=>compact(v)}}}}})}
+  // ratio income (selected month)
+  const mi=P.inc,me=P.exp,rt=mi+me;
+  $("#pfdRatioM").textContent=PFD_MON[m].slice(0,3)+" "+y;
+  $("#pfdRatio").innerHTML=pfdRing([{v:mi,c:"#6C7BFF"},{v:me,c:"#D63AF9"}],rt?Math.round(mi/rt*100)+"%":"–","",{knob:true,w:13});
+  // balance card
+  const A=mo.accounts||[],bal=a=>acctBal(a.id),cash=A.filter(a=>accGroup(a)==="cash"),net=A.reduce((s,a)=>s+bal(a),0);
+  $("#pfdBal").textContent=mFmt(cash.reduce((s,a)=>s+bal(a),0));$("#pfdNet").textContent="Net worth "+mFmt(net)+" · "+plural(A.length,"account");
+  const l4=(A.map(a=>(a.d||{}).last4).find(Boolean))||"4356";$("#pfdL4").textContent=String(l4).slice(-4);
+  // budget
+  const bt=P.budTot,used=bt?Math.round(me/bt*100):0;
+  const top=EXP_CATS.map((c,i)=>({k:c[0],n:c[1],v:P.spentBy[c[0]]||0})).filter(x=>x.v>0).sort((a,b)=>b.v-a.v);
+  const segs=top.slice(0,4).map((x,i)=>({v:x.v,c:PFD_COL[i],n:x.n}));const rest=top.slice(4).reduce((s,x)=>s+x.v,0);if(rest)segs.push({v:rest,c:"#5A5F99",n:"Other"});
+  $("#pfdBudT").textContent=bt?mFmt(bt):"–";
+  $("#pfdBud").innerHTML=pfdRing(segs,bt?used+"%":"Set",bt?"Used":"budget",{full:bt?Math.max(bt,me):me||1,w:14});
+  $("#pfdBudL").innerHTML=bt?segs.map(s=>`<div><i style="background:${s.c}"></i><span>${esc(s.n)}</span><b>${mFmt(s.v)}</b></div>`).join("")+`<div><i style="background:rgba(140,150,255,.3)"></i><span>${me>bt?"Over budget":"Left"}</span><b>${mFmt(Math.abs(bt-me))}</b></div>`:`<div class="pfd-empty">No monthly budget yet.<button type="button" data-pfd="budget">Set budget</button></div>`;
+  // invest
+  const inv=A.filter(a=>accGroup(a)==="invest").map(a=>({a,v:bal(a)})).filter(x=>x.v!==0||true),invT=inv.reduce((s,x)=>s+Math.max(0,x.v),0);
+  $("#pfdInvT").textContent=mFmt(invT);
+  if(inv.length){const mx=Math.max(1,...inv.map(x=>Math.max(0,x.v))),n=inv.length,sw=Math.PI/n;
+    const w=inv.map((x,i)=>{const r=18+52*Math.sqrt(Math.max(0,x.v)/mx),a0=Math.PI+i*sw,a1=a0+sw-.03,c=PFD_COL[i%PFD_COL.length];
+      const p=a=>[80+r*Math.cos(a),76+r*Math.sin(a)];const[x0,y0]=p(a0),[x1,y1]=p(a1);return `<path d="M80 76L${x0.toFixed(1)} ${y0.toFixed(1)}A${r.toFixed(1)} ${r.toFixed(1)} 0 0 1 ${x1.toFixed(1)} ${y1.toFixed(1)}Z" fill="${c}" fill-opacity=".75" stroke="${c}" style="filter:drop-shadow(0 0 4px ${c})"/>`}).join("");
+    $("#pfdInv").innerHTML=`<div class="pfd-fan"><svg viewBox="0 0 160 82" aria-hidden="true">${[30,50,70].map(r=>`<path d="${pfdArc(80,76,r,Math.PI,2*Math.PI-.001)}" fill="none" stroke="rgba(140,150,255,.15)"/>`).join("")}${w}<circle cx="80" cy="76" r="9" fill="#12153A" stroke="rgba(140,150,255,.4)"/></svg><div class="pfd-lg">${inv.map((x,i)=>`<button type="button" data-pfdacc="${esc(x.a.id)}"><i style="background:${PFD_COL[i%PFD_COL.length]}"></i><span>${esc(x.a.name)}</span><b>${mFmt(x.v)}</b></button>`).join("")}</div></div>`}
+  else $("#pfdInv").innerHTML=`<div class="pfd-empty">No investment accounts yet.<button type="button" data-pfd="invest">Add one</button></div>`;
+  // debts
+  const debt=A.filter(a=>isLiab(a)).map(a=>({a,v:Math.max(0,-bal(a))})),dT=debt.reduce((s,x)=>s+x.v,0);
+  $("#pfdDebtT").textContent=mFmt(dT);
+  if(debt.length){const mx=Math.max(1,...debt.map(x=>x.v)),n=debt.length;
+    const b=debt.map((x,i)=>{const r=5+13*Math.sqrt(x.v/mx),cx=14+i*(132/Math.max(1,n-1||1)),cy=i%2?26:16,c=PFD_COL[(i+1)%PFD_COL.length];return `<circle cx="${(n===1?80:cx).toFixed(1)}" cy="${cy+8}" r="${r.toFixed(1)}" fill="${c}" fill-opacity=".35" stroke="${c}" stroke-width="2" style="filter:drop-shadow(0 0 5px ${c})"/>`}).join("");
+    $("#pfdDebt").innerHTML=`<div class="pfd-fan"><svg viewBox="0 0 160 52" aria-hidden="true">${b}</svg><div class="pfd-lg">${debt.map((x,i)=>`<button type="button" data-pfdacc="${esc(x.a.id)}"><i style="background:${PFD_COL[(i+1)%PFD_COL.length]}"></i><span>${esc(x.a.name)}</span><b>${mFmt(x.v)}</b></button>`).join("")}</div></div>`}
+  else $("#pfdDebt").innerHTML=`<div class="pfd-empty">No cards or loans. 🎉<button type="button" data-pfd="debt">Add debt</button></div>`;
+  // goals
+  const G=(mo.goals||[]).map(g=>({g,i:goalInfo(g)})),gT=G.reduce((s,x)=>s+x.i.target,0),gS=G.reduce((s,x)=>s+Math.min(x.i.cur,x.i.target||x.i.cur),0);
+  $("#pfdGoalT").textContent=mFmt(gT);
+  if(G.length){const show=G.slice(0,4);let rings="";show.forEach((x,i)=>{const r=52-i*10,c=PFD_COL[i%PFD_COL.length];rings+=`<circle cx="60" cy="60" r="${r}" fill="none" stroke="rgba(140,150,255,.13)" stroke-width="6"/>`;if(x.i.pct>0)rings+=`<path d="${pfdArc(60,60,r,-Math.PI/2,-Math.PI/2+Math.min(.9999,x.i.pct)*Math.PI*2)}" fill="none" stroke="${c}" stroke-width="6" stroke-linecap="round" style="filter:drop-shadow(0 0 3px ${c})"/>`});
+    const pc=gT?Math.round(gS/gT*100):0;
+    $("#pfdGoal").innerHTML=`<div class="pfd-ring"><svg viewBox="0 0 120 120" role="img" aria-label="Goals ${pc}% saved">${rings}<text x="60" y="66" text-anchor="middle" font-size="${pc>99?14:17}" font-weight="700">${pc}%</text></svg></div><div class="pfd-lg">${show.map((x,i)=>`<button type="button" data-gedit="${esc(x.g.id)}"><i style="background:${PFD_COL[i%PFD_COL.length]}"></i><span>${esc(x.g.name||"Goal")}</span><b>${Math.round(x.i.pct*100)}%</b></button>`).join("")}${G.length>4?`<button type="button" data-goto="pgoal"><span>+${G.length-4} more…</span></button>`:""}</div>`}
+  else $("#pfdGoal").innerHTML=`<div class="pfd-empty">No goals yet.<button type="button" data-pfd="goal">Add a goal</button></div>`;
+  // summary list
+  const S=[["💰","Budgeting",bt?mFmt(bt):"–","pbud","#D63AF9"],["📈","Income",mFmt(yi),"pinc","#3FD0FF"],["📉","Expenses",mFmt(ye),"pexp","#8A5CFF"],["🌱","Investment",mFmt(invT),"pacct","#6C7BFF"],["🔒","Debts",mFmt(dT),"pbill","#9CA3D6"],["🎯","Fin Goals",mFmt(gS),"pgoal","#22D3C5"]];
+  $("#pfdSum").innerHTML=S.map(r=>`<button type="button" data-goto="${r[3]}"><span class="ic" style="--g:${r[4]};background:${r[4]}33;border:1px solid ${r[4]}">${r[0]}</span><span class="nm">${r[1]}</span><b>${r[2]}</b></button>`).join("");
+}
+document.addEventListener("click",e=>{
+  const mb=e.target.closest("[data-pfdm]");if(mb){mui.month=new Date(mui.month.getFullYear(),+mb.dataset.pfdm,1);renderPersonal();return}
+  const yb=e.target.closest("[data-pfdy]");if(yb){mui.month=new Date(mui.month.getFullYear()+ +yb.dataset.pfdy,mui.month.getMonth(),1);renderPersonal();return}
+  const ac=e.target.closest("[data-pfdacc]");if(ac){acctForm(ac.dataset.pfdacc);return}
+  const b=e.target.closest("[data-pfd]");if(!b)return;const k=b.dataset.pfd;
+  if(k==="budget")budgetForm();else if(k==="goal")goalForm();else if(k==="acct")acctForm();else if(k==="invest")acctForm(null,"invest");else if(k==="debt")acctForm(null,"loan");
+});
+$("#pfd").addEventListener("keydown",e=>{if((e.key==="Enter"||e.key===" ")&&e.target.matches(".c-bal")){e.preventDefault();showTab("pacct")}});
+
 const pm=d=>{mui.month=new Date(mui.month.getFullYear(),mui.month.getMonth()+d,1);renderPersonal()};
 $("#pmPrev").onclick=()=>pm(-1);$("#pmNext").onclick=()=>pm(1);
 $("#pmThis").onclick=()=>{const n=new Date();mui.month=new Date(n.getFullYear(),n.getMonth(),1);renderPersonal()};
