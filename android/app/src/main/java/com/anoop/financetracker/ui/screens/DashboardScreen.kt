@@ -69,9 +69,7 @@ fun DashboardScreen(st: FinanceState, nav: NavHostController) {
     val m = { v: Long -> Money.format(v, cur) }
     val chart = Ft.c.chart
 
-    Page("Dashboard", "${ym.month.getDisplayName(TextStyle.FULL, Locale.ENGLISH)} ${ym.year} · saved on this device", actions = {
-        TextButton(onClick = { nav.navigate("study") }, modifier = Modifier.testTag("open-study")) { Text("🎓 Study") }
-    }) {
+    Page("Dashboard", "${ym.month.getDisplayName(TextStyle.FULL, Locale.ENGLISH)} ${ym.year} · saved on this device") {
         item {
             // Hero: total balance across all active accounts.
             Surface(shape = RoundedCornerShape(22.dp), color = MaterialTheme.colorScheme.primary, modifier = Modifier.fillMaxWidth()) {
@@ -174,17 +172,6 @@ fun DashboardScreen(st: FinanceState, nav: NavHostController) {
                 st.txs.take(6).forEachIndexed { i, t ->
                     if (i > 0) HorizontalDivider(color = Ft.c.line)
                     TxRow(t, st::accountName, cur, st.custom) { nav.navigate(Routes.editTx(id = t.id)) }
-                }
-            }
-        }
-        item {
-            SectionCard {
-                Row(Modifier.fillMaxWidth().clickable { nav.navigate("study") }.padding(4.dp), verticalAlignment = Alignment.CenterVertically) {
-                    Text("🎓", style = MaterialTheme.typography.headlineSmall); Spacer(Modifier.width(12.dp))
-                    Column(Modifier.weight(1f)) {
-                        Text("Study corner", style = MaterialTheme.typography.titleMedium)
-                        Text("Navamika's workbook & games · Arya's mock tests. Kept separate from your money.", style = MaterialTheme.typography.bodySmall, color = Ft.c.muted)
-                    }
                 }
             }
         }

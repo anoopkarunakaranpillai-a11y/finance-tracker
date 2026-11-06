@@ -28,7 +28,7 @@ REQ = {
     "REQ-06": "Goals, bills and recurring transactions",
     "REQ-07": "Reports, filters, PDF/CSV export",
     "REQ-08": "Reminders and notifications",
-    "REQ-09": "Education modules kept separate",
+    "REQ-09": "Education modules (removed Nov 2026)",
     "REQ-10": "Navigation, UI states and accessibility",
     "REQ-11": "Security, privacy and app lock",
     "REQ-12": "Persistence, backup/restore, import",
@@ -115,20 +115,10 @@ CASES = [
  ("TC_UI_09","REQ-05","End to end","Set a budget","App open","Budgets → Groceries → 150 → Save","Saved; dashboard shows usage against 150","High"),
  ("TC_INST_01","REQ-13","Install","Install and launch on device","Emulator API 34","Install APK, launch","Usable screen; add form opens","Critical"),
  ("TC_INST_02","REQ-02","End to end","Add expense on device","Emulator, encrypted DB","Add 2.500 dining with note","Shown in list; stored once with exact amount","Critical"),
- ("TC_EDU_01","REQ-09","Study corner","Website study-only mode","Website build","Open ?study=navw and ?study=arya in a browser","Only Navamika's or Arya's tabs; finance and trading hidden; no errors","High"),
- ("TC_EDU_02","REQ-09","Study corner","Navamika pages inside the app","Emulator online","Dashboard → Study → Navamika; inspect the page","Website loads in study-only mode; Navamika tabs only; no finance tabs; Android bridge and speech present","High"),
- ("TC_EDU_03","REQ-09","Study corner","Arya pages inside the app","Emulator online","Dashboard → Study → Arya; inspect the page","Website loads in study-only mode; Arya tab only; Android bridge present","High"),
- ("ENV_01","REQ-13","Device check","WebView can load a local page","Emulator","Load a tiny HTML page","Page finishes; JavaScript runs","Low"),
- ("ENV_02","REQ-09","Device check","Study website loads in a plain WebView","Emulator online","Load the study URL","Finishes in study-only mode","Medium"),
- ("ENV_03","REQ-09","Device check","Study website loads with the app's script","Emulator online","Load with the Android shim and a stub bridge","Finishes; bridge visible","Medium"),
- ("ENV_04","REQ-09","Device check","Study website loads when shown in a window","Emulator online","Attach the WebView to the activity","Finishes","Medium"),
- ("ENV_05","REQ-09","Device check","Study website with software drawing","Emulator online","Attach with a software layer","Finishes","Low"),
- ("ENV_06","REQ-09","Device check","The app's own study WebView","Emulator online","Create it with the app's factory, settings and bridge","Finishes in study-only mode","High"),
  ("TC_PERF_01","REQ-13","Performance","Cold launch time","Emulator Pixel 6 API 34, debug build, empty data","3 cold starts (am start -W)","Each under 3,000 ms","High"),
  ("TC_MAN_01","REQ-11","Security","Biometric unlock","Phone with fingerprint or face enrolled","Turn on PIN + biometrics; reopen","Biometric prompt unlocks; PIN fallback works","High"),
  ("TC_MAN_02","REQ-08","Notifications","Permission prompt and delivery","Android 13+ phone","Turn on bill reminders; wait for 09:00","Permission asked once; notification shown; amounts hidden on lock screen","High"),
  ("TC_MAN_03","REQ-07","Export","Save and share PDF/CSV on a phone","Data present","Reports → Save PDF, Share CSV","File saved via the picker; share sheet opens; PDF readable","High"),
- ("TC_MAN_04","REQ-09","Study corner","Downloads and read-aloud on a phone","Phone online","Download a worksheet PDF; play a game with sound","PDF saved to Downloads; voice reads aloud","High"),
  ("TC_MAN_05","REQ-13","Install","Upgrade keeps data","Two signed versions","Install v1, add data, install v2","Data kept","Critical"),
  ("TC_MAN_06","REQ-10","Accessibility","TalkBack and 200% font size","Phone","Navigate main flows","All controls announced; no clipped text","Medium"),
  ("TC_MAN_07","REQ-11","Security","Auto-lock after background","PIN on, lock after 1 minute","Leave app 2 minutes, return","PIN screen shown; screenshots blocked","High"),
@@ -138,7 +128,6 @@ MANUAL = {
  "TC_MAN_01": ("Not Run", "Needs a physical phone with biometrics enrolled; emulator CI cannot do this."),
  "TC_MAN_02": ("Not Run", "Needs a real phone and waiting for the 09:00 job; the alert logic is covered by TC_NOT_01–06."),
  "TC_MAN_03": ("Not Run", "System file picker and share sheet need a person on a phone; file contents are covered by TC_EXP_01–03."),
- "TC_MAN_04": ("Not Run", "Needs a person listening on a phone; page loading and the bridge are covered by TC_EDU_02–03."),
  "TC_MAN_05": ("Blocked", "Needs a release signing key (see RELEASE.md) to install two signed versions."),
  "TC_MAN_06": ("Not Run", "Manual accessibility pass on a phone."),
  "TC_MAN_07": ("Not Run", "Needs a phone; lock logic is in MainActivity."),
@@ -158,15 +147,12 @@ for cid, req, mod, scen, pre, steps, exp, sev in CASES:
         status = "Pass" if all(x < 3000 for x in ms) else "Fail"
         actual = "TotalTime " + ", ".join(f"{x} ms" for x in ms)
         evid = "device-log-tail.txt (am start -W) — " + device.get("device", "").replace("\n", "; ")
-    elif cid == "TC_EDU_01":
-        status, actual = "Pass", "navw: 9 Navamika tabs only; arya: Arya tab only; normal mode unchanged; 0 page errors"
-        evid = "Playwright run against the website build (study_t.js), 15 Oct 2026; tracker regression 64/64"
     elif cid in MANUAL:
         status, actual = MANUAL[cid]
     rows.append({"Test Case ID": cid, "Requirement ID": req, "Feature or module": mod, "Test scenario": scen, "Preconditions": pre,
                  "Test steps": steps, "Expected result": exp, "Actual result": actual, "Execution status": status, "Severity": sev,
                  "Defect ID": "" if status in ("Pass", "Not Applicable") else ("" if status != "Fail" else "DEF-" + cid),
-                 "Evidence or log reference": evid, "Tester": "Automated (GitHub Actions)" if cid in results or cid == "TC_PERF_01" else ("Claude (browser automation)" if cid == "TC_EDU_01" else "—"),
+                 "Evidence or log reference": evid, "Tester": "Automated (GitHub Actions)" if cid in results or cid == "TC_PERF_01" else "—",
                  "Execution date": today if status in ("Pass", "Fail") else "", "Retest status": "" })
 # Tests that ran but are not listed above still count.
 listed = {r["Test Case ID"] for r in rows}

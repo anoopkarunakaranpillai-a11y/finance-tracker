@@ -66,12 +66,12 @@ To sign locally instead, export `FT_KEYSTORE_PATH`, `FT_KEYSTORE_PASSWORD`, `FT_
 | Minimum SDK | 26 (Android 8.0) |
 | Version code | ✅ CI uses the build number, so each upload is higher |
 | Code shrinking | ✅ R8 minify and resource shrinking in release |
-| Permissions | INTERNET and ACCESS_NETWORK_STATE (Study corner only), POST_NOTIFICATIONS (asked only when a reminder is switched on), USE_BIOMETRIC. No storage, location, contacts or SMS. |
+| Permissions | POST_NOTIFICATIONS (asked only when a reminder is switched on), USE_BIOMETRIC. No storage, location, contacts or SMS. |
 | Cloud backup | ✅ disabled (`allowBackup=false` plus data-extraction rules); in-app encrypted backup instead |
 | Cleartext traffic | ✅ blocked (network security config) |
 | Signing | ⏳ needs your upload key (see above) |
 | Store listing | ⏳ needs app name, short and full description, screenshots, a 512 px icon and a feature graphic |
 | Privacy policy URL | ⏳ required by Play. A short page stating that finance data stays on the device and nothing is collected is enough; it can be hosted on the existing GitHub Pages site. |
 | Data safety form | Suggested answers: no data collected or shared; data encrypted in transit (HTTPS) and at rest; users can delete data by uninstalling. |
-| Content rating | Complete the questionnaire. The app contains a children's learning section, so answer the target-audience questions accordingly. If children are a target audience, Play's Families policy applies to the study pages. |
+| Content rating | Complete the questionnaire. The app is a personal finance tool with no children's content. |
 | Account and app access | No login. Mention the optional PIN lock in the reviewer notes. |

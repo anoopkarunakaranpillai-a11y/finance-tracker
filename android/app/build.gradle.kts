@@ -22,8 +22,6 @@ android {
         versionCode = (System.getenv("FT_VERSION_CODE") ?: "1").toInt()
         versionName = "1.0.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-        // Public website that hosts the study pages (no secrets here).
-        buildConfigField("String", "STUDY_BASE_URL", "\"https://anoopkarunakaranpillai-a11y.github.io/finance-tracker/\"")
         vectorDrawables { useSupportLibrary = true }
     }
 
@@ -109,7 +107,6 @@ dependencies {
     implementation("androidx.work:work-runtime-ktx:2.10.0")
     implementation("androidx.datastore:datastore-preferences:1.1.1")
     implementation("androidx.biometric:biometric:1.1.0")
-    implementation("androidx.webkit:webkit:1.12.1")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3")
 

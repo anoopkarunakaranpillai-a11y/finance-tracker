@@ -112,7 +112,6 @@ fun SettingsScreen(st: FinanceState, vm: AppViewModel, nav: NavHostController) {
                 Spacer(Modifier.size(4.dp))
                 LinkRow("🏦  Accounts") { nav.navigate("accounts") }
                 LinkRow("🏷️  Categories") { nav.navigate("categories") }
-                LinkRow("🎓  Study corner (Navamika & Arya)") { nav.navigate("study") }
             }
         }
         item {
@@ -155,7 +154,7 @@ fun SettingsScreen(st: FinanceState, vm: AppViewModel, nav: NavHostController) {
         item {
             SectionCard("About") {
                 Text("Anoop's Finance ${BuildConfig.VERSION_NAME}", style = MaterialTheme.typography.bodyMedium)
-                Text("Finance data never leaves this phone unless you export it. The Study corner loads Navamika's and Arya's pages from the public website.",
+                Text("Finance data never leaves this phone unless you export it.",
                     style = MaterialTheme.typography.bodySmall, color = Ft.c.muted)
             }
         }

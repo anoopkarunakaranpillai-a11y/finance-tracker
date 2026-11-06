@@ -116,20 +116,10 @@ Blocked and Not Run cases are reported separately and are **not** counted as pas
 | TC_UI_09 | REQ-05 | End to end | Set a budget | Saved; dashboard shows usage against 150 | As expected | Pass | High | AppUiTest.TC_UI_09_budget_can_be_set_and_shows_on_dashboard (9.20s) — CI unit/UI (Robolectric, JVM 17) |
 | TC_INST_01 | REQ-13 | Install | Install and launch on device | Usable screen; add form opens | As expected | Pass | Critical | DeviceTest.TC_INST_01_app_installs_and_launches_to_a_usable_screen (7.59s) — CI emulator (Pixel 6, Android 14) |
 | TC_INST_02 | REQ-02 | End to end | Add expense on device | Shown in list; stored once with exact amount | As expected | Pass | Critical | DeviceTest.TC_INST_02_add_expense_end_to_end_on_device (11.55s) — CI emulator (Pixel 6, Android 14) |
-| TC_EDU_01 | REQ-09 | Study corner | Website study-only mode | Only Navamika's or Arya's tabs; finance and trading hidden; no errors | navw: 9 Navamika tabs only; arya: Arya tab only; normal mode unchanged; 0 page errors | Pass | High | Playwright run against the website build (study_t.js), 15 Oct 2026; tracker regression 64/64 |
-| TC_EDU_02 | REQ-09 | Study corner | Navamika pages inside the app | Website loads in study-only mode; Navamika tabs only; no finance tabs; Android bridge and speech present | As expected | Pass | High | StudyCornerTest.TC_EDU_02_navamika_pages_load_in_study_only_mode (6.05s) — CI emulator (Pixel 6, Android 14) |
-| TC_EDU_03 | REQ-09 | Study corner | Arya pages inside the app | Website loads in study-only mode; Arya tab only; Android bridge present | As expected | Pass | High | StudyCornerTest.TC_EDU_03_arya_pages_load_in_study_only_mode (11.32s) — CI emulator (Pixel 6, Android 14) |
-| ENV_01 | REQ-13 | Device check | WebView can load a local page | Page finishes; JavaScript runs | As expected | Pass | Low | WebViewEnvTest.ENV_01_webview_can_load_a_local_page (0.54s) — CI emulator (Pixel 6, Android 14) |
-| ENV_02 | REQ-09 | Device check | Study website loads in a plain WebView | Finishes in study-only mode | As expected | Pass | Medium | WebViewEnvTest.ENV_02_study_page_loads_in_plain_webview (0.60s) — CI emulator (Pixel 6, Android 14) |
-| ENV_03 | REQ-09 | Device check | Study website loads with the app's script | Finishes; bridge visible | As expected | Pass | Medium | WebViewEnvTest.ENV_03_study_page_loads_with_app_shim (2.15s) — CI emulator (Pixel 6, Android 14) |
-| ENV_04 | REQ-09 | Device check | Study website loads when shown in a window | Finishes | As expected | Pass | Medium | WebViewEnvTest.ENV_04_study_page_loads_when_attached_to_a_window (7.17s) — CI emulator (Pixel 6, Android 14) |
-| ENV_05 | REQ-09 | Device check | Study website with software drawing | Finishes | As expected | Pass | Low | WebViewEnvTest.ENV_05_study_page_loads_attached_with_software_rendering (4.76s) — CI emulator (Pixel 6, Android 14) |
-| ENV_06 | REQ-09 | Device check | The app's own study WebView | Finishes in study-only mode | As expected | Pass | High | WebViewEnvTest.ENV_06_app_study_webview_loads_when_attached_outside_compose (7.12s) — CI emulator (Pixel 6, Android 14) |
 | TC_PERF_01 | REQ-13 | Performance | Cold launch time | Each under 3,000 ms | TotalTime 1701 ms, 1507 ms, 1779 ms | Pass | High | device-log-tail.txt (am start -W) — model: sdk_gphone64_x86_64; android: 14 (API 34); abi: x86_64;  |
 | TC_MAN_01 | REQ-11 | Security | Biometric unlock | Biometric prompt unlocks; PIN fallback works | Needs a physical phone with biometrics enrolled; emulator CI cannot do this. | Not Run | High |  |
 | TC_MAN_02 | REQ-08 | Notifications | Permission prompt and delivery | Permission asked once; notification shown; amounts hidden on lock screen | Needs a real phone and waiting for the 09:00 job; the alert logic is covered by TC_NOT_01–06. | Not Run | High |  |
 | TC_MAN_03 | REQ-07 | Export | Save and share PDF/CSV on a phone | File saved via the picker; share sheet opens; PDF readable | System file picker and share sheet need a person on a phone; file contents are covered by TC_EXP_01–03. | Not Run | High |  |
-| TC_MAN_04 | REQ-09 | Study corner | Downloads and read-aloud on a phone | PDF saved to Downloads; voice reads aloud | Needs a person listening on a phone; page loading and the bridge are covered by TC_EDU_02–03. | Not Run | High |  |
 | TC_MAN_05 | REQ-13 | Install | Upgrade keeps data | Data kept | Needs a release signing key (see RELEASE.md) to install two signed versions. | Blocked | Critical |  |
 | TC_MAN_06 | REQ-10 | Accessibility | TalkBack and 200% font size | All controls announced; no clipped text | Manual accessibility pass on a phone. | Not Run | Medium |  |
 | TC_MAN_07 | REQ-11 | Security | Auto-lock after background | PIN screen shown; screenshots blocked | Needs a phone; lock logic is in MainActivity. | Not Run | High |  |
@@ -144,15 +134,6 @@ The CSV next to this file has every field, including preconditions, steps, defec
 - Unit, repository and Compose UI tests ran on GitHub Actions (Ubuntu, JDK 17) using Robolectric with Android 14 (SDK 34).
 - On-device tests ran on the Android 14 emulator (Pixel 6 profile, x86_64).
 - Cold launch was measured with `am start -W` on the debug build. All three runs were under 3 seconds. The debug build is unoptimised, so a release build on a phone is expected to start faster.
-
-**Study corner on the emulator**
-
-The Study corner tests were first written with the Compose test rule. Under that rule's controlled clock the website never finished loading. Device checks ENV_01 to ENV_06 isolated the cause:
-
-- The page, the app's settings and the app's bridge all load correctly.
-- The fault was the test harness, not the app.
-
-TC_EDU_02 and TC_EDU_03 now open the real screen through the app's own navigation, and both pass. Screenshots 11 and 12 show the pages rendered inside the app.
 
 **Infrastructure retry**
 

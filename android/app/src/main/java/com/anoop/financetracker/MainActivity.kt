@@ -99,9 +99,9 @@ class MainActivity : FragmentActivity() {
     }
 
     companion object {
-        /** Optional screen to open at launch, e.g. "study/navw" (used by tests and future home-screen shortcuts). */
+        /** Optional screen to open at launch, e.g. "reports" (used by tests and future home-screen shortcuts). */
         const val EXTRA_ROUTE = "route"
-        val DEEP_LINKS = setOf("study", "study/navw", "study/arya", "transactions", "plan", "reports", "settings", "accounts")
+        val DEEP_LINKS = setOf("transactions", "plan", "reports", "settings", "accounts")
     }
 
     override fun onDestroy() {

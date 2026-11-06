@@ -37,16 +37,14 @@ Business rules carried over unchanged:
 - Paying a bill records an expense with `billId` and moves the bill to its next due date. A bill that does not repeat is marked done.
 - 18 expense categories and 8 income categories, with the same keys as the web app.
 
-The web app also has a trading journal, net worth tracking, live market data, a learning library, Navamika's KG workbook, games and Story Time, and Arya's Kerala PSC study window. Its daily content is published by a scheduled task at 08:48 Kuwait time, with a retry at 11:48.
+The web app also has a trading journal, net worth tracking and live market data. (Its learning library, Navamika's workbook and games, and Arya's PSC study pages were removed in November 2026, along with their daily content task.)
 
 ## 2. Decisions
 
 1. **Finance data lives on the phone.** There is no backend to connect to, and running a server would add cost and attack surface for a single user. The app uses Room on SQLCipher, and the database key is protected by the Android Keystore.
 2. **The web tracker's backup format is the bridge.** The app imports the website's JSON backup (Settings → Export backup). It also exports in the same `state.money` v4 format, so nothing is lost either way.
-3. **The education modules stay where they work.** The Study corner opens the existing Navamika and Arya pages in a WebView, using a new study-only mode (`?study=navw|arya`) that hides every finance and trading area.
-   - A JavaScript bridge adds what Android WebView lacks: saving PDFs to Downloads, the share sheet, printing, and text-to-speech for the games.
-   - Their progress is stored separately in the WebView. They cannot read finance data.
-4. **Server-side scheduling stays as it is.** Daily study content is already produced by a scheduled cloud task and published to the website. The phone app does not need to be open. On the phone, WorkManager only posts the user's own recurring transactions and reminders.
+3. **No education modules.** The Study corner (Navamika's and Arya's pages in a WebView) was removed in November 2026, so the app no longer needs internet access.
+4. **Scheduling is on the phone.** WorkManager posts the user's own recurring transactions and reminders.
 5. **Sync is deferred.** Offline sync, conflict resolution and idempotent server requests need a server. Every write is local and immediate, so there is no pending-sync state. Local writes are already idempotent: stable ids, bill payment ids derived from the due date, and `rec-<item>-<date>` for recurring posts.
    - A future backend can be added behind `FinanceRepository` without changing the screens.
 
@@ -56,5 +54,5 @@ The web app also has a trading journal, net worth tracking, live market data, a 
 |---|---|
 | 1. MVP | Done:<br>• app shell and dashboard<br>• income, expense and transfer management<br>• history, search, filters and sort<br>• accounts and budgets<br>• encrypted persistence, charts and tests |
 | 2. Complete finance management | Done:<br>• advanced reports<br>• PDF and CSV export plus share<br>• recurring transactions, savings goals and bills<br>• notification preferences<br>• encrypted backup and restore<br>**Not applicable:** server sync (no backend) |
-| 3. Existing modules | Done: the Study corner with Navamika and Arya, using the website's server-side daily schedule |
+| 3. Existing modules | Removed in November 2026: the Study corner (Navamika and Arya) is no longer part of the app |
 | 4. Release | Done:<br>• CI builds the debug APK, release APK and AAB<br>• emulator tests and launch timing<br>• lint, R8 shrinking, backup rules and the Play checklist (`RELEASE.md`)<br>**Needs the owner:** a signing key and the Play Console listing |

@@ -39,7 +39,7 @@ class ScreenshotTour {
     private fun shot(name: String) {
         rule.waitForIdle()
         Thread.sleep(700)
-        // A real screen capture, so WebView content (the study pages) is included.
+        // A real screen capture, so everything drawn on screen is included.
         val bmp = InstrumentationRegistry.getInstrumentation().uiAutomation.takeScreenshot() ?: rule.onRoot().captureToImage().asAndroidBitmap()
         val dir = File(app().filesDir, "shots").apply { mkdirs() }
         File(dir, "$name.png").outputStream().use { bmp.compress(Bitmap.CompressFormat.PNG, 100, it) }
@@ -103,9 +103,7 @@ class ScreenshotTour {
         rule.onNodeWithTag("plan-Bills").performClick(); waitTag("bill-add"); shot("06-bills")
         rule.onNodeWithTag("nav-reports").performClick(); waitTag("period-MONTH"); shot("07-reports")
         rule.onNodeWithTag("nav-settings").performClick(); waitTag("field-currency"); shot("08-settings")
-        rule.onNodeWithTag("nav-dashboard").performClick(); waitTag("open-study")
-        rule.onNodeWithTag("open-study").performClick(); waitTag("study-arya"); shot("09-study-corner")
-        rule.runOnUiThread { rule.activity.onBackPressedDispatcher.onBackPressed() }
+        rule.onNodeWithTag("nav-dashboard").performClick()
         runBlocking { c.settings.update { it.copy(theme = "light") } }
         waitTag("total-balance"); shot("10-dashboard-light")
         runBlocking { c.settings.update { it.copy(theme = "dark") } }

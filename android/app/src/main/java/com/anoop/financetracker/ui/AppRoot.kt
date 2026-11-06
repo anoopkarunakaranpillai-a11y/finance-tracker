@@ -45,8 +45,6 @@ import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import com.anoop.financetracker.AppContainer
-import com.anoop.financetracker.study.StudyHubScreen
-import com.anoop.financetracker.study.StudyWebScreen
 import com.anoop.financetracker.ui.screens.AccountDetailScreen
 import com.anoop.financetracker.ui.screens.AccountEditScreen
 import com.anoop.financetracker.ui.screens.AccountsScreen
@@ -74,7 +72,6 @@ object Routes {
         "tx?id=${id ?: ""}&type=${type ?: ""}&acct=${acct ?: ""}"
     fun account(id: String) = "account/$id"
     fun editAccount(id: String? = null) = "accountEdit?id=${id ?: ""}"
-    fun study(who: String) = "study/$who"
 }
 
 /** Root of the app UI. [container] is passed in so tests can supply an in-memory database. */
@@ -140,7 +137,7 @@ fun AppRoot(container: AppContainer, nav: NavHostController = rememberNavControl
             }
             Box(Modifier.weight(1f)) {
                 NavHost(nav, startDestination = "dashboard",
-                    // Instant screen changes: snappy, and avoids fading the study WebView through an offscreen layer.
+                    // Instant screen changes: snappy, and avoids fading screens through an offscreen layer.
                     enterTransition = { androidx.compose.animation.EnterTransition.None },
                     exitTransition = { androidx.compose.animation.ExitTransition.None },
                     popEnterTransition = { androidx.compose.animation.EnterTransition.None },
@@ -168,8 +165,6 @@ fun AppRoot(container: AppContainer, nav: NavHostController = rememberNavControl
                         AccountEditScreen(st, vm, e.arguments?.getString("id").orEmpty().ifBlank { null }) { nav.popBackStack() }
                     }
                     composable("categories") { CategoriesScreen(st, vm) { nav.popBackStack() } }
-                    composable("study") { StudyHubScreen(nav) }
-                    composable("study/{who}") { e -> StudyWebScreen(e.arguments?.getString("who") ?: "navw") { nav.popBackStack() } }
                 }
             }
         }

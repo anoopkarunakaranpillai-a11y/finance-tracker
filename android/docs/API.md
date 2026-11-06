@@ -71,35 +71,16 @@ They use this wrapper:
 {"app":"anoops-finance-tracker","enc":"AES-256-GCM/PBKDF2-SHA256","iter":210000,"salt":"<base64>","iv":"<base64>","data":"<base64 ciphertext>"}
 ```
 
-## 3. Study pages bridge (JavaScript → Android)
-
-The Study corner opens `https://anoopkarunakaranpillai-a11y.github.io/finance-tracker/?study=navw|arya&app=android`.
-
-With `?study=…`, the website shows only Navamika's or Arya's sections. Every finance and trading area is hidden, and mode switching is locked.
-
-The app injects `window.FTAndroid`, and only acts on calls while the page is on that host:
-
-| JS call | Android action |
-|---|---|
-| `<a download>` click on a `blob:`/`data:` URL | `saveFile(name, mime, base64)`: saves to Downloads (Android 10+) or opens the share sheet |
-| `navigator.share({files})` | `shareFile(name, mime, base64, title)`: Android share sheet |
-| `navigator.share({text,url})` | `shareText(title, text)` |
-| `window.print()` | `print()`: Android print dialog (Save as PDF or a printer) |
-| `speechSynthesis.speak(u)` | `speak(id, text, lang, pitch, rate, volume)`: Android text-to-speech. The page is called back via `__ftTtsDone(id, error)`, which fires `u.onend` or `u.onerror`. |
-| `speechSynthesis.cancel()` | `stopSpeaking()` |
-
-## 4. Launch route
+## 3. Launch route
 
 `MainActivity` accepts an optional string extra `route`, which opens a screen at launch. Allowed values:
 
-- `study`, `study/navw`, `study/arya`
 - `transactions`, `plan`, `reports`, `settings`, `accounts`
 
 Any other value is ignored. The on-device tests use it, and it is ready for home-screen shortcuts.
 
-## 5. Scheduling
+## 4. Scheduling
 
 | Job | Where it runs | When |
 |---|---|---|
-| Daily study content (100+ questions, 4+ tests, Navamika's games) | Scheduled cloud task → GitHub → website | 08:48 Kuwait time, retry 11:48 (the app need not be open) |
 | Recurring transactions and reminders | WorkManager `DailyWorker` on the phone | About 09:00 local time daily, and also when the app opens |

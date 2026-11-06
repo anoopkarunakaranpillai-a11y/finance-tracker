@@ -2,7 +2,7 @@
 
 This is a native Android app for **Anoop's Finance Tracker**. It is written in Kotlin with Jetpack Compose and Material 3, and it uses the tracker's dark theme (`#0b0e14`, `#151a23` and `#3b82f6`). A light theme is also available.
 
-Your finance data stays on the phone in an encrypted database. The children's study pages open in a separate Study corner.
+Your finance data stays on the phone in an encrypted database.
 
 - **Download:** the [android-latest release](https://github.com/anoopkarunakaranpillai-a11y/finance-tracker/releases/tag/android-latest). Use `app-debug.apk` to install on a phone.
 - **Docs:**
@@ -20,8 +20,8 @@ These were captured automatically on an Android 14 emulator (Pixel 6) during CI,
 | ![](docs/screenshots/01-dashboard.jpg) | ![](docs/screenshots/02-transactions.jpg) | ![](docs/screenshots/03-add-expense.jpg) | ![](docs/screenshots/04-budgets.jpg) |
 | **Goals** | **Bills** | **Reports** | **Settings** |
 | ![](docs/screenshots/05-goals.jpg) | ![](docs/screenshots/06-bills.jpg) | ![](docs/screenshots/07-reports.jpg) | ![](docs/screenshots/08-settings.jpg) |
-| **Study corner** | **Navamika** | **Arya** | **Light theme** |
-| ![](docs/screenshots/09-study-corner.jpg) | ![](docs/screenshots/11-study-navamika.jpg) | ![](docs/screenshots/12-study-arya.jpg) | ![](docs/screenshots/10-dashboard-light.jpg) |
+| **Light theme** | | | |
+| ![](docs/screenshots/10-dashboard-light.jpg) | | | |
 
 ## Features
 
@@ -38,7 +38,6 @@ These were captured automatically on an Android 14 emulator (Pixel 6) during CI,
 | Notifications | Bills, recurring posts, budget limits, savings milestones and a monthly summary. Each one has its own switch. The notification permission is asked for only when you switch one on. |
 | Security | Data is stored only on this device:<br>• the database is encrypted with SQLCipher, and its key is protected by the Android Keystore<br>• optional PIN app lock with fingerprint or face unlock and auto-lock<br>• screenshots are blocked while the lock is on<br>• cloud backup is switched off<br>• HTTPS only |
 | Backup | Encrypted backups (password, AES-256-GCM) or plain JSON, saved where you choose. Restore or import the website tracker's JSON backup. |
-| Study corner | Navamika's KG 1 workbook, games and Story Time, and Arya's PSC mock tests. These are the website's own pages in a locked study-only mode. Downloads, share, print and read-aloud all work in the app. Daily content still comes from the 9 AM server schedule. |
 
 ## Project layout
 
@@ -50,7 +49,6 @@ android/
     io/        Backup import/export + encryption, CSV, PDF report, share helpers
     security/  PIN hashing (PBKDF2), Keystore-protected database key
     work/      Daily WorkManager job, reminder planner, notifications
-    study/     Study corner WebView screens and the JavaScript bridge
     ui/        Theme, charts, shared components, ViewModels, screens
   app/src/test/         Unit, repository (Robolectric + Room) and Compose UI tests
   app/src/androidTest/  On-device tests and the screenshot tour
@@ -71,5 +69,4 @@ See [docs/RELEASE.md](docs/RELEASE.md). In short, open `android/` in Android Stu
 - **No server or sync.** The brief describes a Spring Boot backend, but none exists in the project. Data lives on one phone. To move it to another phone, use backup and restore (see `docs/PLAN.md`).
 - **Single currency for amounts.** The currency setting changes the display only. Per-account currencies from the website are kept but are not converted.
 - **Wrong PIN attempts.** The count resets if the app is force-closed.
-- **Study corner needs internet once.** The service worker then keeps the pages for offline use.
 - **Release signing.** It needs your upload key. Until then the release APK and AAB are unsigned (see RELEASE.md).
