@@ -1,0 +1,349 @@
+[
+{
+"k": "deg-6001",
+"cat": "deg",
+"s": "acc",
+"t": "Break-even analysis",
+"lvl": "degree",
+"exam": "University semester",
+"d": "medium",
+"q": "Fixed costs are 60000 and the P/V ratio is 30%. What are the break-even sales?",
+"o": [
+"240000",
+"150000",
+"180000",
+"200000"
+],
+"a": 3,
+"e": "Break-even sales = 60000 ÷ 0.30 = 200000.",
+"lang": "en",
+"calc": "60000/0.30"
+},
+{
+"k": "deg-6002",
+"cat": "deg",
+"s": "acc",
+"t": "Contribution",
+"lvl": "degree",
+"exam": "University semester",
+"d": "easy",
+"q": "In marginal costing, contribution equals:",
+"o": [
+"sales minus variable cost",
+"sales minus fixed cost",
+"sales minus total cost",
+"fixed cost minus profit"
+],
+"a": 0,
+"e": "Contribution is sales minus variable cost.",
+"lang": "en"
+},
+{
+"k": "deg-6003",
+"cat": "deg",
+"s": "dmath",
+"t": "Determinants",
+"lvl": "degree",
+"exam": "University semester",
+"d": "easy",
+"q": "Find the determinant of the matrix [[2, 3], [1, 4]].",
+"o": [
+"8",
+"11",
+"5",
+"2"
+],
+"a": 2,
+"e": "2 × 4 − 3 × 1 = 5.",
+"lang": "en",
+"calc": "2*4-3*1"
+},
+{
+"k": "deg-6009",
+"cat": "deg",
+"s": "dchem",
+"t": "Molecular orbital theory",
+"lvl": "degree",
+"exam": "University semester",
+"d": "advanced",
+"q": "The bond order of the O₂ molecule is:",
+"o": [
+"1.5",
+"1",
+"3",
+"2"
+],
+"a": 3,
+"e": "Bond order = (10 − 6) ÷ 2 = 2.",
+"lang": "en"
+},
+{
+"k": "deg-6011",
+"cat": "deg",
+"s": "dbio",
+"t": "Protein synthesis",
+"lvl": "degree",
+"exam": "University semester",
+"d": "easy",
+"q": "Protein synthesis in a cell takes place on the:",
+"o": [
+"vacuoles",
+"centrioles",
+"lysosomes",
+"ribosomes"
+],
+"a": 3,
+"e": "Ribosomes are the site of protein synthesis.",
+"lang": "en"
+},
+{
+"k": "deg-6013",
+"cat": "deg",
+"s": "dcs",
+"t": "Queues",
+"lvl": "degree",
+"exam": "University semester",
+"d": "easy",
+"q": "Which data structure follows the first-in, first-out principle?",
+"o": [
+"stack",
+"heap",
+"queue",
+"binary tree"
+],
+"a": 2,
+"e": "A queue is first-in, first-out.",
+"lang": "en"
+},
+{
+"k": "deg-6014",
+"cat": "deg",
+"s": "decon",
+"t": "Giffen goods",
+"lvl": "degree",
+"exam": "University semester",
+"d": "advanced",
+"q": "A Giffen good is one whose demand:",
+"o": [
+"rises as its price rises",
+"falls as income falls",
+"rises as a substitute becomes dearer",
+"is unaffected by price"
+],
+"a": 0,
+"e": "For a Giffen good, demand rises as its price rises.",
+"lang": "en"
+},
+{
+"k": "deg-6015",
+"cat": "deg",
+"s": "decon",
+"t": "Say's law",
+"lvl": "degree",
+"exam": "University semester",
+"d": "medium",
+"q": "'Supply creates its own demand' is known as:",
+"o": [
+"Wagner's law",
+"Say's law",
+"Engel's law",
+"Gresham's law"
+],
+"a": 1,
+"e": "This statement is Say's law.",
+"lang": "en"
+},
+{
+"k": "deg-6016",
+"cat": "deg",
+"s": "mgmt",
+"t": "Management thinkers",
+"lvl": "degree",
+"exam": "University semester",
+"d": "medium",
+"q": "The acronym POSDCORB was coined by:",
+"o": [
+"Peter Drucker",
+"Abraham Maslow",
+"Luther Gulick",
+"Henri Fayol"
+],
+"a": 2,
+"e": "POSDCORB was coined by Luther Gulick.",
+"lang": "en"
+},
+{
+"k": "deg-6017",
+"cat": "deg",
+"s": "hum",
+"t": "Political thought",
+"lvl": "degree",
+"exam": "University semester",
+"d": "medium",
+"q": "The book The Social Contract (1762) was written by:",
+"o": [
+"John Locke",
+"Jean-Jacques Rousseau",
+"Karl Marx",
+"Thomas Hobbes"
+],
+"a": 1,
+"e": "The Social Contract was written by Jean-Jacques Rousseau.",
+"lang": "en"
+},
+{
+"k": "deg-6018",
+"cat": "deg",
+"s": "engg",
+"t": "Fluid mechanics",
+"lvl": "degree",
+"exam": "University semester",
+"d": "advanced",
+"q": "Bernoulli's equation is based on the conservation of:",
+"o": [
+"energy",
+"charge",
+"mass",
+"momentum"
+],
+"a": 0,
+"e": "Bernoulli's equation expresses conservation of energy in a flowing fluid.",
+"lang": "en"
+},
+{
+"k": "deg-6019",
+"cat": "deg",
+"s": "dmath",
+"t": "Trace of a matrix",
+"lvl": "degree",
+"exam": "University semester",
+"d": "easy",
+"q": "The trace of the matrix [[1, 2], [3, 4]] is:",
+"o": [
+"5",
+"7",
+"10",
+"-2"
+],
+"a": 0,
+"e": "The trace is 1 + 4 = 5.",
+"lang": "en",
+"calc": "1+4"
+},
+{
+"k": "deg-6020",
+"cat": "deg",
+"s": "dmath",
+"t": "Sums of series",
+"lvl": "degree",
+"exam": "University semester",
+"d": "medium",
+"q": "What is the sum 1 + 2 + 3 + ... + 50?",
+"o": [
+"1250",
+"1300",
+"2550",
+"1275"
+],
+"a": 3,
+"e": "50 × 51 ÷ 2 = 1275.",
+"lang": "en",
+"calc": "50*51/2"
+},
+{
+"k": "deg-6021",
+"cat": "deg",
+"s": "dphy",
+"t": "Electrostatics",
+"lvl": "degree",
+"exam": "University semester",
+"d": "easy",
+"q": "The force between two point charges is described by:",
+"o": [
+"Coulomb's law",
+"Ohm's law",
+"Faraday's law",
+"Boyle's law"
+],
+"a": 0,
+"e": "The force between two point charges is given by Coulomb's law.",
+"lang": "en"
+},
+{
+"k": "deg-6022",
+"cat": "deg",
+"s": "dchem",
+"t": "Oxidation states",
+"lvl": "degree",
+"exam": "University semester",
+"d": "medium",
+"q": "The oxidation state of manganese in KMnO₄ is:",
+"o": [
+"+6",
+"+4",
+"+2",
+"+7"
+],
+"a": 3,
+"e": "1 + x − 8 = 0, so x = +7.",
+"lang": "en"
+},
+{
+"k": "deg-6023",
+"cat": "deg",
+"s": "dbio",
+"t": "DNA replication",
+"lvl": "degree",
+"exam": "University semester",
+"d": "advanced",
+"q": "Which enzyme joins Okazaki fragments on the lagging strand?",
+"o": [
+"RNA polymerase",
+"topoisomerase",
+"DNA ligase",
+"reverse transcriptase"
+],
+"a": 2,
+"e": "DNA ligase seals the Okazaki fragments.",
+"lang": "en"
+},
+{
+"k": "deg-6024",
+"cat": "deg",
+"s": "dcs",
+"t": "SQL",
+"lvl": "degree",
+"exam": "University semester",
+"d": "medium",
+"q": "Which SQL command removes all rows of a table but keeps its structure?",
+"o": [
+"COMMIT",
+"SELECT",
+"GRANT",
+"TRUNCATE"
+],
+"a": 3,
+"e": "TRUNCATE removes all rows and keeps the table.",
+"lang": "en"
+},
+{
+"k": "deg-6026",
+"cat": "deg",
+"s": "acc",
+"t": "Accounting ratios",
+"lvl": "degree",
+"exam": "University semester",
+"d": "easy",
+"q": "Current assets are 90000 and current liabilities are 60000. The current ratio is:",
+"o": [
+"1.5",
+"2",
+"0.67",
+"1.2"
+],
+"a": 0,
+"e": "90000 ÷ 60000 = 1.5.",
+"lang": "en",
+"calc": "90000/60000"
+}
+]

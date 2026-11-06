@@ -1,0 +1,242 @@
+[
+{
+"k": "eng-6001",
+"cat": "eng",
+"s": "eng",
+"t": "Conjunctions",
+"lvl": "recruit",
+"exam": "Kerala PSC",
+"d": "medium",
+"q": "Fill in the blank: Hardly had we reached the shelter ____ it began to pour.",
+"o": [
+"that",
+"then",
+"than",
+"when"
+],
+"a": 3,
+"e": "'Hardly ... when' is the correct pairing, so the answer is when.",
+"lang": "en",
+"psc": "plus2"
+},
+{
+"k": "eng-6002",
+"cat": "eng",
+"s": "eng",
+"t": "Subject-verb agreement",
+"lvl": "recruit",
+"exam": "Kerala PSC",
+"d": "medium",
+"q": "Choose the correct verb: Neither the coach nor the players ____ happy with the result.",
+"o": [
+"has",
+"were",
+"is",
+"was"
+],
+"a": 1,
+"e": "With 'neither ... nor' the verb agrees with the nearer subject, players, so were is correct.",
+"lang": "en",
+"psc": "sslc"
+},
+{
+"k": "eng-6003",
+"cat": "eng",
+"s": "eng",
+"t": "Subjunctive mood",
+"lvl": "recruit",
+"exam": "Kerala PSC",
+"d": "hard",
+"q": "Choose the correct form: I wish I ____ taller.",
+"o": [
+"am",
+"be",
+"were",
+"being"
+],
+"a": 2,
+"e": "An unreal wish takes the subjunctive, so were is correct.",
+"lang": "en",
+"psc": "degree"
+},
+{
+"k": "eng-6004",
+"cat": "eng",
+"s": "eng",
+"t": "Question tags",
+"lvl": "recruit",
+"exam": "Kerala PSC",
+"d": "easy",
+"q": "Add the correct tag: Let's take a break, ____?",
+"o": [
+"aren't we",
+"shall we",
+"will you",
+"do we"
+],
+"a": 1,
+"e": "A sentence starting with 'Let's' takes the tag shall we.",
+"lang": "en",
+"psc": "sslc"
+},
+{
+"k": "eng-6005",
+"cat": "eng",
+"s": "eng",
+"t": "Prepositions",
+"lvl": "recruit",
+"exam": "Kerala PSC",
+"d": "easy",
+"q": "Fill in the blank: Heavy rain prevented the team ____ travelling.",
+"o": [
+"with",
+"by",
+"from",
+"of"
+],
+"a": 2,
+"e": "The verb 'prevent' takes the preposition from.",
+"lang": "en",
+"psc": "sslc"
+},
+{
+"k": "eng-6006",
+"cat": "eng",
+"s": "eng",
+"t": "Active and passive voice",
+"lvl": "recruit",
+"exam": "Kerala PSC",
+"d": "medium",
+"q": "Choose the passive form of: Who painted this wall?",
+"o": [
+"By whom this wall painted?",
+"By whom was this wall painted?",
+"Whom did this wall paint?",
+"Who was painted by this wall?"
+],
+"a": 1,
+"e": "The passive of the question is: By whom was this wall painted?",
+"lang": "en",
+"psc": "plus2"
+},
+{
+"k": "eng-6008",
+"cat": "eng",
+"s": "veng",
+"t": "Antonyms",
+"lvl": "recruit",
+"exam": "Kerala PSC",
+"d": "medium",
+"q": "Choose the opposite of FRUGAL.",
+"o": [
+"extravagant",
+"thrifty",
+"modest",
+"careful"
+],
+"a": 0,
+"e": "Frugal means sparing with money; its opposite is extravagant.",
+"lang": "en",
+"psc": "plus2"
+},
+{
+"k": "eng-6009",
+"cat": "eng",
+"s": "veng",
+"t": "One-word substitution",
+"lvl": "recruit",
+"exam": "Kerala PSC",
+"d": "easy",
+"q": "One word for a remedy for all diseases:",
+"o": [
+"tonic",
+"panacea",
+"placebo",
+"antidote"
+],
+"a": 1,
+"e": "A remedy for all ills is a panacea.",
+"lang": "en",
+"psc": "sslc"
+},
+{
+"k": "eng-6010",
+"cat": "eng",
+"s": "veng",
+"t": "One-word substitution",
+"lvl": "recruit",
+"exam": "Kerala PSC",
+"d": "medium",
+"q": "One word for an abnormal fear of heights:",
+"o": [
+"claustrophobia",
+"acrophobia",
+"hydrophobia",
+"xenophobia"
+],
+"a": 1,
+"e": "Fear of heights is acrophobia.",
+"lang": "en",
+"psc": "plus2"
+},
+{
+"k": "eng-6011",
+"cat": "eng",
+"s": "veng",
+"t": "Idioms",
+"lvl": "recruit",
+"exam": "Kerala PSC",
+"d": "medium",
+"q": "The idiom 'a storm in a teacup' means:",
+"o": [
+"a quarrel between friends at home",
+"a sudden change of weather",
+"a very hot drink",
+"a big fuss about a small matter"
+],
+"a": 3,
+"e": "It means a big fuss about a small matter.",
+"lang": "en",
+"psc": "plus2"
+},
+{
+"k": "eng-6012",
+"cat": "eng",
+"s": "veng",
+"t": "Idioms",
+"lvl": "recruit",
+"exam": "Kerala PSC",
+"d": "medium",
+"q": "The idiom 'to bell the cat' means:",
+"o": [
+"to undertake a risky task",
+"to tease a pet",
+"to win easily",
+"to give an early warning of rain"
+],
+"a": 0,
+"e": "To bell the cat is to undertake a risky task for the benefit of others.",
+"lang": "en",
+"psc": "sslc"
+},
+{
+"k": "eng-6015",
+"cat": "eng",
+"s": "eng",
+"t": "Subject-verb agreement",
+"lvl": "recruit",
+"exam": "Kerala PSC",
+"d": "easy",
+"q": "Fill in the blank: One of my cousins ____ a pilot.",
+"o": [
+"have",
+"are",
+"were",
+"is"
+],
+"a": 3,
+"e": "The subject is 'one', so is is correct.",
+"lang": "en",
+"psc": "sslc"
+}
+]

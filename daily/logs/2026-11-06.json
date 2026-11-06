@@ -1,0 +1,612 @@
+{
+ "date": "2026-11-06",
+ "batch": "B-20261106-01",
+ "at": "2026-11-06T06:04:00.848Z",
+ "candidates": [
+  {
+   "k": "gkca-6001",
+   "result": "published",
+   "id": "d20261106x001"
+  },
+  {
+   "k": "gkca-6002",
+   "result": "published",
+   "id": "d20261106x002"
+  },
+  {
+   "k": "gkca-6003",
+   "result": "published",
+   "id": "d20261106x003"
+  },
+  {
+   "k": "gkca-6004",
+   "result": "published",
+   "id": "d20261106x004"
+  },
+  {
+   "k": "gkca-6005",
+   "result": "published",
+   "id": "d20261106x005"
+  },
+  {
+   "k": "gkca-6007",
+   "result": "published",
+   "id": "d20261106x006"
+  },
+  {
+   "k": "gkca-6008",
+   "result": "published",
+   "id": "d20261106x007"
+  },
+  {
+   "k": "gkca-6009",
+   "result": "published",
+   "id": "d20261106x008"
+  },
+  {
+   "k": "gkca-6010",
+   "result": "published",
+   "id": "d20261106x009"
+  },
+  {
+   "k": "gkca-6011",
+   "result": "published",
+   "id": "d20261106x010"
+  },
+  {
+   "k": "gkca-6012",
+   "result": "published",
+   "id": "d20261106x011"
+  },
+  {
+   "k": "gkca-6013",
+   "result": "published",
+   "id": "d20261106x012"
+  },
+  {
+   "k": "gkca-6014",
+   "result": "published",
+   "id": "d20261106x013"
+  },
+  {
+   "k": "gkca-6015",
+   "result": "published",
+   "id": "d20261106x014"
+  },
+  {
+   "k": "gkca-6016",
+   "result": "rejected",
+   "reason": "independent check chose A but the key says B"
+  },
+  {
+   "k": "gkca-6017",
+   "result": "published",
+   "id": "d20261106x015"
+  },
+  {
+   "k": "gkca-6018",
+   "result": "published",
+   "id": "d20261106x016"
+  },
+  {
+   "k": "gkca-6019",
+   "result": "published",
+   "id": "d20261106x017"
+  },
+  {
+   "k": "eng-6001",
+   "result": "published",
+   "id": "d20261106x018"
+  },
+  {
+   "k": "eng-6002",
+   "result": "published",
+   "id": "d20261106x019"
+  },
+  {
+   "k": "eng-6003",
+   "result": "published",
+   "id": "d20261106x020"
+  },
+  {
+   "k": "eng-6004",
+   "result": "published",
+   "id": "d20261106x021"
+  },
+  {
+   "k": "eng-6005",
+   "result": "published",
+   "id": "d20261106x022"
+  },
+  {
+   "k": "eng-6006",
+   "result": "published",
+   "id": "d20261106x023"
+  },
+  {
+   "k": "eng-6008",
+   "result": "published",
+   "id": "d20261106x024"
+  },
+  {
+   "k": "eng-6009",
+   "result": "published",
+   "id": "d20261106x025"
+  },
+  {
+   "k": "eng-6010",
+   "result": "published",
+   "id": "d20261106x026"
+  },
+  {
+   "k": "eng-6011",
+   "result": "published",
+   "id": "d20261106x027"
+  },
+  {
+   "k": "eng-6012",
+   "result": "published",
+   "id": "d20261106x028"
+  },
+  {
+   "k": "eng-6015",
+   "result": "published",
+   "id": "d20261106x029"
+  },
+  {
+   "k": "quant-6001",
+   "result": "published",
+   "id": "d20261106x030"
+  },
+  {
+   "k": "quant-6002",
+   "result": "published",
+   "id": "d20261106x031"
+  },
+  {
+   "k": "quant-6003",
+   "result": "published",
+   "id": "d20261106x032"
+  },
+  {
+   "k": "quant-6004",
+   "result": "published",
+   "id": "d20261106x033"
+  },
+  {
+   "k": "quant-6005",
+   "result": "published",
+   "id": "d20261106x034"
+  },
+  {
+   "k": "quant-6006",
+   "result": "published",
+   "id": "d20261106x035"
+  },
+  {
+   "k": "quant-6007",
+   "result": "published",
+   "id": "d20261106x036"
+  },
+  {
+   "k": "quant-6008",
+   "result": "published",
+   "id": "d20261106x037"
+  },
+  {
+   "k": "quant-6009",
+   "result": "published",
+   "id": "d20261106x038"
+  },
+  {
+   "k": "quant-6010",
+   "result": "published",
+   "id": "d20261106x039"
+  },
+  {
+   "k": "quant-6011",
+   "result": "published",
+   "id": "d20261106x040"
+  },
+  {
+   "k": "quant-6013",
+   "result": "published",
+   "id": "d20261106x041"
+  },
+  {
+   "k": "quant-6014",
+   "result": "published",
+   "id": "d20261106x042"
+  },
+  {
+   "k": "quant-6015",
+   "result": "published",
+   "id": "d20261106x043"
+  },
+  {
+   "k": "quant-6017",
+   "result": "published",
+   "id": "d20261106x044"
+  },
+  {
+   "k": "quant-6018",
+   "result": "published",
+   "id": "d20261106x045"
+  },
+  {
+   "k": "quant-6019",
+   "result": "published",
+   "id": "d20261106x046"
+  },
+  {
+   "k": "quant-6020",
+   "result": "published",
+   "id": "d20261106x047"
+  },
+  {
+   "k": "quant-6021",
+   "result": "published",
+   "id": "d20261106x048"
+  },
+  {
+   "k": "quant-6022",
+   "result": "published",
+   "id": "d20261106x049"
+  },
+  {
+   "k": "reas-6001",
+   "result": "published",
+   "id": "d20261106x050"
+  },
+  {
+   "k": "reas-6002",
+   "result": "published",
+   "id": "d20261106x051"
+  },
+  {
+   "k": "reas-6003",
+   "result": "published",
+   "id": "d20261106x052"
+  },
+  {
+   "k": "reas-6006",
+   "result": "published",
+   "id": "d20261106x053"
+  },
+  {
+   "k": "reas-6007",
+   "result": "published",
+   "id": "d20261106x054"
+  },
+  {
+   "k": "reas-6008",
+   "result": "published",
+   "id": "d20261106x055"
+  },
+  {
+   "k": "reas-6009",
+   "result": "published",
+   "id": "d20261106x056"
+  },
+  {
+   "k": "reas-6010",
+   "result": "published",
+   "id": "d20261106x057"
+  },
+  {
+   "k": "reas-6011",
+   "result": "published",
+   "id": "d20261106x058"
+  },
+  {
+   "k": "reas-6012",
+   "result": "published",
+   "id": "d20261106x059"
+  },
+  {
+   "k": "reas-6013",
+   "result": "published",
+   "id": "d20261106x060"
+  },
+  {
+   "k": "reas-6014",
+   "result": "published",
+   "id": "d20261106x061"
+  },
+  {
+   "k": "reas-6016",
+   "result": "published",
+   "id": "d20261106x062"
+  },
+  {
+   "k": "reas-6017",
+   "result": "published",
+   "id": "d20261106x063"
+  },
+  {
+   "k": "reas-6018",
+   "result": "published",
+   "id": "d20261106x064"
+  },
+  {
+   "k": "reas-6019",
+   "result": "published",
+   "id": "d20261106x065"
+  },
+  {
+   "k": "reas-6021",
+   "result": "published",
+   "id": "d20261106x066"
+  },
+  {
+   "k": "sci-6001",
+   "result": "published",
+   "id": "d20261106x067"
+  },
+  {
+   "k": "sci-6003",
+   "result": "published",
+   "id": "d20261106x068"
+  },
+  {
+   "k": "sci-6004",
+   "result": "published",
+   "id": "d20261106x069"
+  },
+  {
+   "k": "sci-6005",
+   "result": "published",
+   "id": "d20261106x070"
+  },
+  {
+   "k": "sci-6006",
+   "result": "published",
+   "id": "d20261106x071"
+  },
+  {
+   "k": "sci-6007",
+   "result": "published",
+   "id": "d20261106x072"
+  },
+  {
+   "k": "sci-6008",
+   "result": "published",
+   "id": "d20261106x073"
+  },
+  {
+   "k": "sci-6009",
+   "result": "published",
+   "id": "d20261106x074"
+  },
+  {
+   "k": "sci-6010",
+   "result": "published",
+   "id": "d20261106x075"
+  },
+  {
+   "k": "sci-6011",
+   "result": "published",
+   "id": "d20261106x076"
+  },
+  {
+   "k": "sci-6012",
+   "result": "published",
+   "id": "d20261106x077"
+  },
+  {
+   "k": "sci-6013",
+   "result": "published",
+   "id": "d20261106x078"
+  },
+  {
+   "k": "comp-6001",
+   "result": "published",
+   "id": "d20261106x079"
+  },
+  {
+   "k": "comp-6002",
+   "result": "published",
+   "id": "d20261106x080"
+  },
+  {
+   "k": "comp-6003",
+   "result": "published",
+   "id": "d20261106x081"
+  },
+  {
+   "k": "comp-6004",
+   "result": "published",
+   "id": "d20261106x082"
+  },
+  {
+   "k": "comp-6007",
+   "result": "published",
+   "id": "d20261106x083"
+  },
+  {
+   "k": "comp-6008",
+   "result": "published",
+   "id": "d20261106x084"
+  },
+  {
+   "k": "comp-6009",
+   "result": "published",
+   "id": "d20261106x085"
+  },
+  {
+   "k": "comp-6010",
+   "result": "published",
+   "id": "d20261106x086"
+  },
+  {
+   "k": "comp-6011",
+   "result": "published",
+   "id": "d20261106x087"
+  },
+  {
+   "k": "comp-6012",
+   "result": "published",
+   "id": "d20261106x088"
+  },
+  {
+   "k": "comp-6013",
+   "result": "published",
+   "id": "d20261106x089"
+  },
+  {
+   "k": "comp-6014",
+   "result": "published",
+   "id": "d20261106x090"
+  },
+  {
+   "k": "deg-6001",
+   "result": "published",
+   "id": "d20261106x091"
+  },
+  {
+   "k": "deg-6002",
+   "result": "published",
+   "id": "d20261106x092"
+  },
+  {
+   "k": "deg-6003",
+   "result": "published",
+   "id": "d20261106x093"
+  },
+  {
+   "k": "deg-6009",
+   "result": "published",
+   "id": "d20261106x094"
+  },
+  {
+   "k": "deg-6011",
+   "result": "published",
+   "id": "d20261106x095"
+  },
+  {
+   "k": "deg-6013",
+   "result": "published",
+   "id": "d20261106x096"
+  },
+  {
+   "k": "deg-6014",
+   "result": "published",
+   "id": "d20261106x097"
+  },
+  {
+   "k": "deg-6015",
+   "result": "published",
+   "id": "d20261106x098"
+  },
+  {
+   "k": "deg-6016",
+   "result": "published",
+   "id": "d20261106x099"
+  },
+  {
+   "k": "deg-6017",
+   "result": "published",
+   "id": "d20261106x100"
+  },
+  {
+   "k": "deg-6018",
+   "result": "published",
+   "id": "d20261106x101"
+  },
+  {
+   "k": "deg-6019",
+   "result": "published",
+   "id": "d20261106x102"
+  },
+  {
+   "k": "deg-6020",
+   "result": "published",
+   "id": "d20261106x103"
+  },
+  {
+   "k": "deg-6021",
+   "result": "published",
+   "id": "d20261106x104"
+  },
+  {
+   "k": "deg-6022",
+   "result": "published",
+   "id": "d20261106x105"
+  },
+  {
+   "k": "deg-6023",
+   "result": "published",
+   "id": "d20261106x106"
+  },
+  {
+   "k": "deg-6024",
+   "result": "published",
+   "id": "d20261106x107"
+  },
+  {
+   "k": "deg-6026",
+   "result": "published",
+   "id": "d20261106x108"
+  },
+  {
+   "k": "compx-6001",
+   "result": "published",
+   "id": "d20261106x109"
+  },
+  {
+   "k": "compx-6002",
+   "result": "published",
+   "id": "d20261106x110"
+  },
+  {
+   "k": "compx-6003",
+   "result": "published",
+   "id": "d20261106x111"
+  },
+  {
+   "k": "compx-6004",
+   "result": "published",
+   "id": "d20261106x112"
+  },
+  {
+   "k": "compx-6008",
+   "result": "published",
+   "id": "d20261106x113"
+  },
+  {
+   "k": "compx-6009",
+   "result": "published",
+   "id": "d20261106x114"
+  },
+  {
+   "k": "compx-6010",
+   "result": "published",
+   "id": "d20261106x115"
+  },
+  {
+   "k": "compx-6011",
+   "result": "published",
+   "id": "d20261106x116"
+  },
+  {
+   "k": "compx-6012",
+   "result": "published",
+   "id": "d20261106x117"
+  },
+  {
+   "k": "compx-6013",
+   "result": "published",
+   "id": "d20261106x118"
+  },
+  {
+   "k": "compx-6015",
+   "result": "published",
+   "id": "d20261106x119"
+  },
+  {
+   "k": "compx-6017",
+   "result": "published",
+   "id": "d20261106x120"
+  }
+ ]
+}

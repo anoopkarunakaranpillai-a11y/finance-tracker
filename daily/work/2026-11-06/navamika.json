@@ -1,0 +1,48 @@
+[
+{"id":"count-the-fruits","type":"counting","title":"Count the Fruits","desc":"How many can you see?","difficulty":"easy","instructions":"Count the fruits and tap the number.",
+ "questions":[
+ {"q":"How many apples?","show":"🍎🍎🍎","options":[{"t":"2"},{"t":"3"},{"t":"4"}],"answer":1,"good":"Yes! Three red apples!"},
+ {"q":"How many bananas?","show":"🍌🍌","options":[{"t":"2"},{"t":"5"},{"t":"1"}],"answer":0,"good":"Great! Two yummy bananas!"},
+ {"q":"How many oranges?","show":"🍊🍊🍊🍊","options":[{"t":"3"},{"t":"6"},{"t":"4"}],"answer":2,"good":"Well done! Four oranges!"},
+ {"q":"How many strawberries?","show":"🍓🍓🍓🍓🍓","options":[{"t":"5"},{"t":"4"},{"t":"7"}],"answer":0,"good":"Super counting! Five!"},
+ {"q":"How many bunches of grapes?","show":"🍇","options":[{"t":"3"},{"t":"1"},{"t":"2"}],"answer":1,"good":"Yes! Just one bunch!"},
+ {"q":"How many pears?","show":"🍐🍐🍐🍐🍐🍐","options":[{"t":"8"},{"t":"5"},{"t":"6"}],"answer":2,"good":"Hooray! Six pears!"}
+ ]},
+{"id":"rainbow-colour-hunt","type":"colors","title":"Rainbow Colour Hunt","desc":"Find the right colour!","difficulty":"easy","instructions":"Listen and tap the colour.",
+ "questions":[
+ {"q":"Which one is red?","options":[{"c":"#E53935"},{"c":"#1E88E5"},{"c":"#43A047"}],"answer":0,"good":"Red, like a ripe tomato!"},
+ {"q":"Which one is yellow?","options":[{"c":"#8E24AA"},{"c":"#FDD835"},{"c":"#E53935"}],"answer":1,"good":"Yellow, like the sun!"},
+ {"q":"Which one is blue?","options":[{"c":"#FB8C00"},{"c":"#43A047"},{"c":"#1E88E5"}],"answer":2,"good":"Blue, like the sky!"},
+ {"q":"Which one is green?","options":[{"c":"#43A047"},{"c":"#FDD835"},{"c":"#E91E63"}],"answer":0,"good":"Green, like a leaf!"},
+ {"q":"Which one is orange?","options":[{"c":"#1E88E5"},{"c":"#FB8C00"},{"c":"#8E24AA"}],"answer":1,"good":"Orange, like a juicy orange!"},
+ {"q":"What colour is a leaf?","show":"🍃","options":[{"c":"#E53935"},{"c":"#FDD835"},{"c":"#43A047"}],"answer":2,"good":"Yes, leaves are green!"}
+ ]},
+{"id":"things-at-home-words","type":"vocabulary","title":"Things at Home","desc":"Find things we use at home.","difficulty":"easy","instructions":"Listen and tap the right picture.",
+ "questions":[
+ {"q":"We sleep on a ...","options":[{"e":"🛏️","t":"Bed"},{"e":"🚗","t":"Car"},{"e":"🍎","t":"Apple"}],"answer":0,"good":"Yes! We sleep on a bed!"},
+ {"q":"We sit on a ...","options":[{"e":"🌙","t":"Moon"},{"e":"🪑","t":"Chair"},{"e":"🐟","t":"Fish"}],"answer":1,"good":"Good! We sit on a chair!"},
+ {"q":"We open a ...","options":[{"e":"🌳","t":"Tree"},{"e":"🍌","t":"Banana"},{"e":"🚪","t":"Door"}],"answer":2,"good":"Yes! We open the door!"},
+ {"q":"We see the time on a ...","options":[{"e":"⏰","t":"Clock"},{"e":"🧦","t":"Sock"},{"e":"🐶","t":"Dog"}],"answer":0,"good":"Tick tock! A clock!"},
+ {"q":"We brush our teeth with a ...","options":[{"e":"🧸","t":"Teddy"},{"e":"🪥","t":"Toothbrush"},{"e":"🌂","t":"Umbrella"}],"answer":1,"good":"Brush brush! Shiny teeth!"},
+ {"q":"We drink water from a ...","options":[{"e":"👟","t":"Shoe"},{"e":"📚","t":"Book"},{"e":"🥛","t":"Glass"}],"answer":2,"good":"Yes! A glass of water!"}
+ ]},
+{"id":"sweet-treats-memory","type":"memory","title":"Sweet Treats Memory","desc":"Find the matching pairs!","difficulty":"medium","instructions":"Tap two cards. Find the same pictures!","pairs":["🍪","🍰","🍦","🍩"]},
+{"id":"trace-capital-f-to-j","type":"tracing","title":"Trace F to J","desc":"Draw big letters with your finger.","difficulty":"easy","instructions":"Follow the letter with your finger.","chars":["F","G","H","I","J"]},
+{"id":"look-and-find-it","type":"observation","title":"Look and Find","desc":"Use your sharp eyes!","difficulty":"medium","instructions":"Look at the big picture and tap the same one.",
+ "questions":[
+ {"q":"Find the same picture!","show":"🐘","options":[{"e":"🦒"},{"e":"🐘"},{"e":"🐢"}],"answer":1,"good":"You found the elephant!"},
+ {"q":"Find the same picture!","show":"🚲","options":[{"e":"🚲"},{"e":"🚌"},{"e":"🚀"}],"answer":0,"good":"You found the cycle!"},
+ {"q":"Find the same picture!","show":"🌻","options":[{"e":"🌵"},{"e":"🌈"},{"e":"🌻"}],"answer":2,"good":"You found the sunflower!"},
+ {"q":"Find the same picture!","show":"🦋","options":[{"e":"🐝"},{"e":"🦋"},{"e":"🐞"}],"answer":1,"good":"You found the butterfly!"},
+ {"q":"Which has wheels?","options":[{"e":"🐄","t":"Cow"},{"e":"🌳","t":"Tree"},{"e":"🚌","t":"Bus"}],"answer":2,"good":"Yes! A bus has wheels!"},
+ {"q":"Which one can swim?","options":[{"e":"🐠","t":"Fish"},{"e":"🪑","t":"Chair"},{"e":"🍌","t":"Banana"}],"answer":0,"good":"Splash! Fish can swim!"}
+ ]},
+{"id":"same-sound-rhyme-play","type":"rhymes","title":"Rhyme Play","desc":"Which words sound alike?","difficulty":"medium","instructions":"Listen and tap the word that sounds the same.",
+ "questions":[
+ {"q":"What sounds like BOOK?","options":[{"e":"👀","t":"Look"},{"e":"🐕","t":"Dog"},{"e":"🌞","t":"Sun"}],"answer":0,"good":"Book, look! They rhyme!"},
+ {"q":"What sounds like TOY?","options":[{"e":"🍎","t":"Apple"},{"e":"👦","t":"Boy"},{"e":"🐱","t":"Cat"}],"answer":1,"good":"Toy, boy! Well done!"},
+ {"q":"What sounds like TREE?","options":[{"e":"🐄","t":"Cow"},{"e":"🚗","t":"Car"},{"e":"🐝","t":"Bee"}],"answer":2,"good":"Tree, bee! Buzz buzz!"},
+ {"q":"What sounds like CAKE?","options":[{"e":"🐍","t":"Snake"},{"e":"🌙","t":"Moon"},{"e":"🐟","t":"Fish"}],"answer":0,"good":"Cake, snake! Hiss hiss!"},
+ {"q":"What sounds like STAR?","options":[{"e":"🌳","t":"Tree"},{"e":"🚗","t":"Car"},{"e":"🐶","t":"Dog"}],"answer":1,"good":"Star, car! Beep beep!"}
+ ]}
+]
